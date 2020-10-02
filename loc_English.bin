@@ -160,7 +160,7 @@ ABILPREVIEWUPGRADE_GEN_DAMAGE_BONUS_VS_DEFENSEDOWN|Damage increased by <color=#F
 ABILPREVIEWUPGRADE_GEN_DAMAGE_INITIAL_05PCT|Increases damage dealt by 5%.
 ABILPREVIEWUPGRADE_GEN_DAMAGE_PCT_INC|<color=#FEF8E4>+{0:P0}</color> damage dealt.
 ABILPREVIEWUPGRADE_GEN_DEFENSEDOWN_CHANCE_INC|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense Down.
-ABILPREVIEWUPGRADE_GEN_DEFENSEDOWN_DURATION|<color=#FEF8E4>+{0:N0}</color> to Defense Down duration.
+ABILPREVIEWUPGRADE_GEN_DEFENSEDOWN_DURATION|<color=#FEF8E4>+{0:N0}</color> Defense Down duration.
 ABILPREVIEWUPGRADE_GEN_DEFENSEIGNORE_PCT_ADD|Ignore <color=#FEF8E4>{0:P0}</color> Defense.
 ABILPREVIEWUPGRADE_GEN_DEFENSEIGNORE_PCT_INC|<color=#FEF8E4>+{0:P0}</color> Defense ignored.
 ABILPREVIEWUPGRADE_GEN_DEFENSEUP_CHANCE_INC|<color=#FEF8E4>+{0:P0}</color> chance to gain Defense Up.
@@ -253,7 +253,7 @@ ABILPREVIEWUPGRADE_GEN_SPEEDBARDEC_ADD|Reduce target opponent's Speed Meter by <
 ABILPREVIEWUPGRADE_GEN_SPEEDBARDEC_CHANCE_ADD|<color=#FEF8E4>{0:P0}</color> chance to reduce target's Speed Meter by {1:P0}.
 ABILPREVIEWUPGRADE_GEN_SPEEDBARDEC_CHANCE_INC|<color=#FEF8E4>+{0:P0}</color> chance to reduce target's Speed Meter.
 ABILPREVIEWUPGRADE_GEN_SPEEDBARDEC_INC|<color=#FEF8E4>+{0:P0}</color> Speed Meter reduction.
-ABILPREVIEWUPGRADE_GEN_SPEEDBAR_GAIN_INCREASE_PCT|+<color=#FEF8E4>{0:P0}</color> Speed Bar gained.
+ABILPREVIEWUPGRADE_GEN_SPEEDBAR_GAIN_INCREASE_PCT|+<color=#FEF8E4>{0:P0}</color> Speed Meter gained.
 ABILPREVIEWUPGRADE_GEN_SPEEDMETEREDUCTIONCHANCE_PCT_INC|<color=#FEF8E4>+{0:P0}</color> chance to decrease Speed Meter.
 ABILPREVIEWUPGRADE_GEN_SPEEDMETEREDUCTION_PCT_INC|<color=#FEF8E4>+{0:P0}</color> Speed Meter decrease.
 ABILPREVIEWUPGRADE_GEN_SPEEDMETER_INCREASE_PCT|+<color=#FEF8E4>{0:P0}</color> Speed Meter increase.
@@ -633,6 +633,8 @@ BATTLE_EFFECT_FEAR_DESC|Affected character will not be able to dodge or resist e
 BATTLE_EFFECT_FOLLOWUP|FOLLOW UP
 BATTLE_EFFECT_GUARANTEED_CRIT|GUARANTEED CRIT
 BATTLE_EFFECT_GUARANTEED_CRIT_DESC|Affected character deals a Critical Strike with their next activated ability.
+BATTLE_EFFECT_CRIT_IMMUNITY|CRIT IMMUNITY
+BATTLE_EFFECT_CRIT_IMMUNITY_DESC|Affected character cannot be dealt a Critical Strike from an attack.
 BATTLE_EFFECT_HARMFUL_IMMUNITY|HARMFUL IMMUNITY
 BATTLE_EFFECT_HARMFUL_IMMUNITY_DESC|Prevents harmful effects from being inflicted on the affected character.
 BATTLE_EFFECT_HASTE|HASTE
@@ -1419,7 +1421,7 @@ CLUB_DONATE_ALL_EMPTY_LABEL|THERE ARE NO CLUB DONATION REQUESTS AT THIS MOMENT
 CLUB_DONATE_CLUB_SUPPORT_EMPTY_LABEL|THERE ARE NO CLUB SUPPORT REQUESTS AT THIS MOMENT
 CLUB_DONATE_DISALLOWED|ITEM CANNOT BE DONATED
 CLUB_DONATE_FILTER_ALL|ALL
-CLUB_DONATE_FULFILL_ALL_SUPPORT_REQUESTS|FULFILL ALL
+CLUB_DONATE_FULFILL_ALL_SUPPORT_REQUESTS|HELP ALL
 CLUB_DONATE_ITEMS_BUTTON_LABEL|DONATE ITEMS
 CLUB_DONATE_ITEMS_RECEIVED|ITEMS RECEIVED
 CLUB_DONATE_ITEM_BUTTON_LABEL|DONATE
@@ -1565,7 +1567,7 @@ CLUB_SUPPORT_FULFILLED_REFRESHEXCHANGE_INBOX_BODY|{0} responded to your Club Sup
 CLUB_SUPPORT_FULFILLED_REFRESHEXCHANGE_INBOX_SUBJECT|Exchange Refresh Request Fulfilled!
 CLUB_SUPPORT_FULFILLED_SHARED_INBOX_SENDER|DISNEY SORCERER'S ARENA
 CLUB_SUPPORT_FULFILL_ACKNOWLEDGED|You've Fulfilled a Club Member's Support Request!
-CLUB_SUPPORT_FULFILL_BUTTON|FULFILL REQUEST
+CLUB_SUPPORT_FULFILL_BUTTON|SEND HELP
 CLUB_SUPPORT_FULFILL_FAILED|There was an error trying to fulfill the Club Support request
 CLUB_SUPPORT_FULFILL_ON_COOLDOWN|Club Support fulfilling is on cooldown
 CLUB_SUPPORT_JOIN_A_CLUB_PROMPT|Join a club to gain access to <color=#54C5FF>CLUB SUPPORT</color>
@@ -1988,10 +1990,12 @@ CURRENCY_SHARD_SHOP_DESC|Token Shop Tokens are earned by converting extra Charac
 CURRENCY_SHARD_SHOP_NAME|TOKEN SHOP TOKENS
 CURRENCY_SOCIAL_DESC|Social Coins
 CURRENCY_SOCIAL_NAME|Social Coins
-CURRENCY_SORCERERSTRIAL_DESC|Can be redeemed in the Sorcerer's Exchange.
+CURRENCY_SORCERERSTRIAL_DESC|Earn Sorcerer's Coins in Sorcerer Trials. Redeem in the Sorcerer's Exchange for Sorcerer Stones and Crafting Materials.
 CURRENCY_SORCERERSTRIAL_NAME|SORCERER'S COIN
 CURRENCY_STITCH_DESC|Earn Stitch Tower Coins in the Stitch Event Tower.<br><br>Use them for exclusive rewards in the Stitch Tower Exchange.
 CURRENCY_STITCH_NAME|STITCH TOWER COINS
+CURRENCY_TRITON_DESC|Earn Triton Tower Coins in the King Triton Event Tower.<br><br>Use them for exclusive rewards in the Triton Tower Exchange.
+CURRENCY_TRITON_NAME|TRITON TOWER COINS
 CURRENCY_TECH_DESC|Earn Circuit Coins during the Gizmo's Tech Training Event.<br><br>Circuit Coins can be used to open the Circuit Chest in the Store.
 CURRENCY_TECH_NAME|CIRCUIT COINS
 CURRENCY_TOWER_DESC|Tower of Endurance Coins are earned by climbing the Towers of Endurance and can be redeemed in the TOWER EXCHANGE
@@ -2009,6 +2013,8 @@ CURRENCY_VIP_DESC|VIP Coins can be earned by VIP players and redeemed in the VIP
 CURRENCY_VIP_NAME|VIP Coins
 CURRENCY_WILDHEARTS_DESC|Wild Hearts Coins are earned by participating in Wild Hearts Events and can be redeemed in the WILD HEARTS EXCHANGE
 CURRENCY_WILDHEARTS_NAME|WILD HEARTS COINS
+CURRENCY_SPOOKY_NAME|SPOOKY COINS
+CURRENCY_SPOOKY_DESC|Collect Spooky Coins in events and offers throughout October. Spooky Coins can be used to open special limited time Mystery Packs.
 CU_20200122_BODY|Summoner, <br><br>Updates are here! Here's a list of what's new! Please be sure to check our Newsletter for further detail. <br><br>- PvP coins have been changed to "Tournament Coins". Earn them in the Sorcerer's Tournament! <br>- The Tournament Exchange now has Hades, Shan Yu, Mor'du, and Merlin tokens. <br>- Earn Robin Hood in the PvP Arena. <br>- PvP Daily Quest and Tournament Daily Quest rewards have been rebalanced <br>- Various bug fixes.
 CU_20200122_SUBJECT|Updates are Here!
 CU_20200129_BODY|Summoner, <br><br>Updates are here! Here's a list of what's new! Please be sure to check our Newsletter for further detail. <br><br>- Summoner's Challenges requirements for some of the Defense and Support battles have been lowered.<br>- Gold Challenge rewards have been rebalanced. <br>- Some characters have changed in the Villains Elite Campaign- Monterey Jack now drops at node 2B, Tinker Bell at 2C, and Kronk at 3C.<br>- Gold now drops in the Grand Campaign. <br>- Passholder XP now drops in Heroes and Villains Campaign. <br>- Various balance and bug fixes.<br><br>As a reminder, the Cave of Wonders Event will be ending soon, so be sure to finish those battles!
@@ -2211,6 +2217,30 @@ DAILY_REWARD_DEEP_LINK_BUTTON_LABEL|BUY
 DAILY_REWARD_NUM_DAYS|{0} DAY REWARDS
 DAILY_SUPPLY_PURCHASE_DESC|Purchase Items from the Exchange
 DAILY_SUPPLY_PURCHASE_NAME|SPECIAL DELIVERY
+DAISYDUCK_UNIT_NAME|DAISY DUCK
+DAISYDUCK_BASIC_NAME|HIGH HEELS
+DAISYDUCK_SPECIALA_NAME|SHOWTIME!
+DAISYDUCK_SPECIALB_NAME|I'VE HAD IT!
+DAISYDUCK_PASSIVEA_NAME|DUCK DIVA
+DAISYDUCK_BASIC_DESC_01|Deal up to <color=#ffc400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to perform a follow up attack dealing up to <color=#ffc400>{2:N0}</color> damage.<br><br>When an opponent deals damage to an allied Donald Duck, <color=#FEF8E4>{3:P0}</color> chance to counterattack with this ability with a guaranteed follow up attack.
+DAISYDUCK_SPECIALA_DESC_01|This character and adjacent teammates gain the following:<br><br>Gain Offense Up for <color=#FEF8E4>{0:N0}</color> turn.<br><br>If Donald Duck is a teammate, he and this character restore up to <color=#5DFF89>{1:P0}</color> of their max Health. If Minnie Mouse is a teammate, she gains <color=#FEF8E4>1</color> Magic for a random ability.
+DAISYDUCK_SPECIALA_DESC_02|This character and adjacent teammates gain the following:<br><br>Extend duration of <color=#FEF8E4>{2:N0}</color> Helpful effect by <color=#FEF8E4>{3:N0}</color>. If on Defense, extend duration by <color=#FEF8E4>{4:N0}</color>. Gain Offense Up for <color=#FEF8E4>{0:N0}</color> turn.<br><br>If Donald Duck is a teammate, he and this character restore up to <color=#5DFF89>{1:P0}</color> of their max Health. If Minnie Mouse is a teammate, she gains <color=#FEF8E4>1</color> Magic for a random ability.
+DAISYDUCK_SPECIALA_DESC_03|This character and adjacent teammates gain the following:<br><br>Extend duration of <color=#FEF8E4>{2:N0}</color> Helpful effect by <color=#FEF8E4>{3:N0}</color>. If on Defense, extend duration by <color=#FEF8E4>{4:N0}</color>. Gain Offense Up for <color=#FEF8E4>{0:N0}</color> turns.<br><br>If Donald Duck is a teammate, he and this character restore up to <color=#5DFF89>{1:P0}</color> of their max Health. If Minnie Mouse is a teammate, she gains <color=#FEF8E4>1</color> Magic for a random ability.
+DAISYDUCK_SPECIALA_DESC_04|This character and adjacent teammates gain the following:<br><br>Extend duration of <color=#FEF8E4>{2:N0}</color> Helpful effects by <color=#FEF8E4>{3:N0}</color>. If on Defense, extend duration by <color=#FEF8E4>{4:N0}</color>. Gain Offense Up for <color=#FEF8E4>{0:N0}</color> turns.<br><br>If Donald Duck is a teammate, he and this character restore up to <color=#5DFF89>{1:P0}</color> of their max Health. If Minnie Mouse is a teammate, she gains <color=#FEF8E4>1</color> Magic for a random ability.
+DAISYDUCK_SPECIALA_DESC_05|This character and adjacent teammates gain the following:<br><br>Extend duration of <color=#FEF8E4>{2:N0}</color> Helpful effects by <color=#FEF8E4>{3:N0}</color>. If on Defense, extend duration by <color=#FEF8E4>{4:N0}</color>. Gain Offense Up for <color=#FEF8E4>{0:N0}</color> turns. Gain Defense Up for <color=#FEF8E4>{5:N0}</color> turns.<br><br>If Donald Duck is a teammate, he and this character restore up to <color=#5DFF89>{1:P0}</color> of their max Health. If Minnie Mouse is a teammate, she gains <color=#FEF8E4>1</color> Magic for a random ability.
+DAISYDUCK_SPECIALA_ABILPREVIEWUPGRADE_01|Extend duration of <color=#FEF8E4>{0:N0}</color> Helpful effect by <color=#FEF8E4>{1:N0}</color>. If on Defense, extend duration by <color=#FEF8E4>{2:N0}</color>.
+DAISYDUCK_SPECIALA_ABILPREVIEWUPGRADE_02|Extend duration of <color=#FEF8E4>{0:N0}</color> additional Helpful effect.
+DAISYDUCK_SPECIALA_ABILPREVIEWUPGRADE_03|This character and adjacent teammates gain Defense Up for <color=#FEF8E4>{0:N0}</color> turns.
+DAISYDUCK_SPECIALB_DESC_01|Deal up to <color=#ffc400>{0:N0}</color> damage to target and adjacent opponents. Inflict Defense Down for <color=#FEF8E4>{1:N0}</color> turn.<br><br>If Donald Duck is a teammate, he gains Empowered.
+DAISYDUCK_SPECIALB_DESC_02|Deal up to <color=#ffc400>{0:N0}</color> damage to target and adjacent opponents. Inflict Defense Down for <color=#FEF8E4>{1:N0}</color> turn.<br><br>If Donald Duck is a teammate, he gains Empowered and fill his Speed Meter by  <color=#FEF8E4>{2:P0}</color>.
+DAISYDUCK_SPECIALB_DESC_03|Deal up to <color=#ffc400>{0:N0}</color> damage to target and adjacent opponents. Inflict Defense Down for <color=#FEF8E4>{1:N0}</color> turns.<br><br>If Donald Duck is a teammate, he gains Empowered and fill his Speed Meter by  <color=#FEF8E4>{2:P0}</color>.
+DAISYDUCK_SPECIALB_ABILPREVIEWUPGRADE_01|If Donald Duck is a teammate, he gains  <color=#FEF8E4>{0:P0}</color> Speed Meter.
+DAISYDUCK_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#ffc400>+{0:P0}</color> damage dealt.<br><color=#ffc400>+{1:P0}</color> Speed Meter fill for Donald Duck.
+DAISYDUCK_PASSIVEA_DESC_01|When a teammate receives a Helpful effect, <color=#FEF8E4>{0:P0}</color> chance to increase its duration by <color=#FEF8E4>1</color>.
+DAISYDUCK_PASSIVEA_DESC_02|When a teammate receives a Helpful effect, <color=#FEF8E4>{0:P0}</color> chance to increase its duration by <color=#FEF8E4>1</color>.<br><br>Chance to activate is increased  by <color=#FEF8E4>{1:P0}</color> for 'Duck' and 'Sensational Six' teammates.
+DAISYDUCK_PASSIVEA_DESC_03|When a teammate receives a Helpful effect, <color=#FEF8E4>{0:P0}</color> chance to increase its duration by <color=#FEF8E4>1</color>. If teammate is 'Duck' or 'Sensational Six', restore up to <color=#FEF8E4>{2:P0}</color> of their max Health.<br><br>Chance to activate is increased  by <color=#FEF8E4>{1:P0}</color> for 'Duck' and 'Sensational Six' teammates.
+DAISYDUCK_PASSIVEA_ABILPREVIEWUPGRADE_01|Chance to activate is increased  by <color=#FEF8E4>{0:P0}</color> for 'Duck' and 'Sensational Six' teammates.
+DAISYDUCK_PASSIVEA_ABILPREVIEWUPGRADE_02|If teammate is 'Duck' or 'Sensational Six', restore up to <color=#FEF8E4>{0:P0}</color> of their max Health.
 DARKWINGDUCK_ABILBASIC_ABILPREVIEWUPGRADE_DAMAGEINC_AGAINSTBLIND_10PCT|Increases damage against opponents affected by Blind by 10%.
 DARKWINGDUCK_ABILBASIC_DESC_BASE|Delivers a skillful hand chop against an opponent, dealing up to <color=#ffc400>{0:N0}</color> Physical Damage.
 DARKWINGDUCK_ABILBASIC_DESC_U01|Delivers a skillful hand chop against an opponent, dealing up to <color=#ffc400>{0:N0}</color> Physical Damage.<br><br>Damage is increased to <color=#ffc400>{1:N0}</color> if the opponent is affected by <color=#FEF8E4><link=BATTLE_EFFECT_BLIND>[BLIND]</link></color>.
@@ -3894,9 +3924,15 @@ EVENT_202009_PF_FSF_COLTBRONCO_INBOX_BODY|Summoner,<BR><BR>Congratulations! You'
 EVENT_202009_PF_FSF_MIRAGE_INBOX_BODY|Summoner,<BR><BR>Congratulations! You've unlocked the <color=#54C5FF>Mirage Talisman</color>! Don't miss out on exciting events and offers all month long in celebration of <color=#54C5FF>Pixar Fest</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PF_FSF_JOY_INBOX_BODY|Summoner,<BR><BR>Congratulations! You've unlocked the <color=#54C5FF>Joy Talisman</color>! Don't miss out on exciting events and offers all month long in celebration of <color=#54C5FF>Pixar Fest</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PF_FSF_BULLSEYE_INBOX_BODY|Summoner,<BR><BR>Congratulations! You've unlocked the <color=#54C5FF>Bullseye Emote</color>! Don't miss out on exciting events and offers all month long in celebration of <color=#54C5FF>Pixar Fest</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_SPOOKY_FSF_INBOX_BODY|Summoner,<BR><BR>Congratulations! You've earned 400 <color=#54C5FF>Spooky Coins</color>! Head to the store to spend these on exciting <color=#54C5FF>Mystery Packs</color> now, and don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+COMMUNITY_FSF_INBOX_BODY|Summoner,<BR><BR>Congratulations! You've earned a <color=#54C5FF>Free Stuff Friday</color> gift!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_SAMSUNG_GIFT_INBOX_SUBJECT|Samsung Preregistration Gift
+EVENT_202010_SAMSUNG_GIFT_INBOX_BODY|Summoner,<BR><BR>Here is a FREE gift for joining Disney Sorcerer's Arena through the Samsung App Store.<BR><BR>Welcome and see you in the Arena!
 EVENT_202009_TWITTERMILESTONE_TS3_INBOX_SUBJECT|Twitter Milestone Reached!
 EVENT_202009_TWITTERMILESTONE_TS3_ALL_INBOX_BODY|Summoner,<BR><BR>A follower milestone has been reached on the Disney Sorcerer's Arena <color=#54C5FF>Twitter</color>! Here are your <color=#54C5FF>Milestone Rewards</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_TWITTERMILESTONE_TS3_PH_INBOX_BODY|Summoner,<BR><BR>A follower milestone has been reached on the Disney Sorcerer's Arena <color=#54C5FF>Twitter</color>! Here are your <color=#54C5FF>Milestone BONUS Rewards</color> as a Passholder Gold or Platinum member this season!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_VILLAINOUS_FLASH_GIFT_INBOX_SUBJECT|Villainous Flash Gift
+EVENT_202010_VILLAINOUS_FLASH_GIFT_INBOX_BODY|Summoner,<BR><BR>You've received a <color=#54C5FF>Villainous Flash Gift</color>! Stay on the lookout for more Villainous Flash Gifts arriving at random times between <color=#54C5FF>October 04 - 10</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Head to the store to spend <color=#54C5FF>Spooky Coins</color> on exciting <color=#54C5FF>Mystery Packs</color> now, and don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -4199,6 +4235,15 @@ EVENT_STITCH_TOWER_INBOX_PREVIEW_BODY|Summoners!<BR><BR>Prepare yourselves- <col
 EVENT_STITCH_TOWER_INBOX_PREVIEW_SUBJECT|Coming Soon: Stitch Event Tower
 EVENT_STITCH_TOWER_INBOX_START_BODY|Summoner,<BR><BR>Experiment 626 has arrived! During this event, you will be using a special <color=#54C5FF>EVENT TOWER ENERGY</color> to battle, unlocking new and exciting rewards with every Tier you complete.<BR><BR>You'll also earn <color=#54C5FF>EVENT TOWER XP</color> and <color=#54C5FF>STITCH TOWER COINS</color> along the way. XP can be redeemed for both Individual and Club <color=#54C5FF>MILESTONE</color> rewards, while your coins can be spent in the <color=#54C5FF>STITCH TOWER EXCHANGE</color>. When you've climbed as far as you are able, you can <color=#54C5FF>AUTO-BATTLE</color> previously completed Tower stages to earn more XP and Coins.<BR><BR>Power up Captain Gantu and Cobra Bubbles, and support them with your Mythical team to conquer the tower and unlock Stitch!
 EVENT_STITCH_TOWER_INBOX_START_SUBJECT|Event Tower: Stitch
+EVENT_TRITON_META_DESC|Use Ariel, Prince Eric, and a team of Oceanic characters to conquer this event tower and unlock King Triton!<br><br><color=#B8E986>TOWER EVENT</color>
+EVENT_TRITON_META_NAME|EVENT TOWER: KING TRITON
+EVENT_TRITON_PORTAL_DESC|EARN KING TRITON TOKENS!
+EVENT_TRITON_TOWER_INBOX_PREVIEW_BODY|Summoners!<BR><BR>Presenting His Majesty, <color=#54C5FF>KING TRITON</color>! Get ready to climb a brand new event tower and unlock the ruler of merfolk, King Triton himself.
+EVENT_TRITON_TOWER_INBOX_PREVIEW_SUBJECT|Coming Soon: King Triton Event Tower
+EVENT_TRITON_TOWER_INBOX_START_BODY|Summoner,<BR><BR>King Triton has arrived! During this event, you will be using <color=#54C5FF>EVENT TOWER ENERGY</color> to battle, unlocking new and exciting rewards with every Tier you complete.<BR><BR>You'll also earn <color=#54C5FF>EVENT TOWER XP</color> and <color=#54C5FF>TRITON TOWER COINS</color> along the way. XP can be redeemed for both Individual and Club <color=#54C5FF>MILESTONE</color> rewards, while your coins can be spent in the <color=#54C5FF>TRITON TOWER EXCHANGE</color>. When you've climbed as far as you are able, you can <color=#54C5FF>AUTO-BATTLE</color> previously completed Tower stages to earn more XP and Coins.<BR><BR>Power up Ariel and Prince Eric, and support them with your Oceanic team to conquer the tower and unlock King Triton!
+EVENT_TRITON_TOWER_INBOX_START_SUBJECT|Event Tower: King Triton
+EVENT_ERIC_RELEASE_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>PRINCE ERIC</color> has arrived! Earn tokens for this Oceanic prince on Grand Campaign Node 5C and power up Ariel to aid him. You'll need them both to conquer the King Triton Event Tower.
+EVENT_ERIC_RELEASE_INBOX_START_SUBJECT|Prince Eric Has Arrived
 EVENT_TAB_DETAILS|DETAILS
 EVENT_TAB_REWARDS|POSSIBLE REWARDS
 EVENT_TAB_UNITS|CHARACTERS
@@ -5166,6 +5211,7 @@ INSUFFICIENT_CURRENCY_PVP|Not enough currency!<br><br>Compete in Sorcerer's Tour
 INSUFFICIENT_CURRENCY_SHARD_SHOP|Not enough currency!<br><br>Once a character reaches the 7-Star max level rarity all additional Tokens are converted to the Token Shop currency.
 INSUFFICIENT_CURRENCY_SOCIAL|Not enough currency!<br><br>Complete Club Activities with your friends to earn the missing Club currency.
 INSUFFICIENT_CURRENCY_STITCH|Not enough currency!<br><br>Earn more Stitch Tower Coins by battling the Stitch Event Tower.
+INSUFFICIENT_CURRENCY_TRITON|Not enough currency!<br><br>Earn more Triton Tower Coins by battling the King Triton Event Tower.
 INSUFFICIENT_CURRENCY_TOWER|Not enough currency!<br><br>Complete Towers of Endurance Battles to earn the missing Tower currency.
 INSUFFICIENT_CURRENCY_VILLAINTINES|Not enough currency!<br><br>Earn more by participating in The Queen's Clash.
 INSUFFICIENT_CURRENCY_VIP|Not enough currency!<br><br>Get VIP now to earn the missing VIP coins.
@@ -5571,6 +5617,10 @@ KOTH_INBOXMESSAGE_RANK_101_200_BODY|Almost to the Top! You have finished the day
 KOTH_INBOXMESSAGE_RANK_11_20_BODY|Congratulations! You have finished the day in the TOP 20!<br><br>Attached are your rewards for this accomplishment!
 KOTH_INBOXMESSAGE_RANK_1_BODY|Congratulations, Champion of the Sorcerer's Tournament! You have successfully held FIRST PLACE!<br><br>Attached are your rewards for this accomplishment!
 KOTH_INBOXMESSAGE_RANK_1_SUBJECT|You are the Sorcerer's Tournament CHAMPION!
+KOTH_INBOXMESSAGE_RANK_1_TROPHY_BODY|Summoner,<br><br>Congratulations for reaching 1st place in the Sorcerer's Tournament!<br><br>Attached you will find a unique Trophy to display on your profile for your success in the Sorcerer's Tournament!<BR><BR>As always, thank you for playing, and see you in the Arena!
+KOTH_INBOXMESSAGE_RANK_1_TROPHY_SUBJECT|Sorcerer's Tournament 1st place TROPHY!
+PVP_GRAND_CHAMP_TROPHY_BODY|Summoner,<br><br>Congratulations for reaching Grand Champion in PvP!<br><br>Attached you will find a unique Trophy to display on your profile for your success in the PvP Arena.<BR><BR>As always, thank you for playing, and see you in the Arena!
+PVP_GRAND_CHAMP_TROPHY_SUBJECT|PvP Grand Champion TROPHY!
 KOTH_INBOXMESSAGE_RANK_201_500_BODY|Nearing the Top! You have finished the day in the TOP 500!<br><br>Attached are your rewards for this accomplishment!
 KOTH_INBOXMESSAGE_RANK_21_50_BODY|Congratulations! You have finished the day in the TOP 50!<br><br>Attached are your rewards for this accomplishment!
 KOTH_INBOXMESSAGE_RANK_2501_5000_BODY|Keep Climbing! You have finished the day in the TOP 5,000!<br><br>Attached are your rewards for this accomplishment!
@@ -5694,6 +5744,9 @@ KRONK_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target
 KRONK_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to Chain to an adjacent opponent, dealing up to <color=#FFC400>{3:N0}</color> damage.
 KRONK_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. Chain to an adjacent opponent, dealing up to <color=#FEF8E4>{3:N0}</color> damage.
 KRONK_UNIT_NAME|KRONK
+KINGTRITON_SPECIALA_FLYAWAY_ENRAGED|ENRAGED
+KINGTRITON_SPECIALB_FLYAWAY_REASONABLE|REASONABLE
+KINGTRITON_PASSIVEA_FLYAWAY_ENRAGED_AND_REASONABLE|ENRAGED &<br>REASONABLE
 KINGTRITON_UNIT_NAME|KING TRITON
 KINGTRITON_BASIC_NAME|So Be It
 KINGTRITON_SPECIALA_NAME|Royal Rage
@@ -5705,34 +5758,34 @@ KINGTRITON_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to targ
 KINGTRITON_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. If Ariel is a teammate, she is called to assist.<br><br>If Enraged, increase damage dealt by <color=#FEF8E4>{1:P0}</color> and repeat this ability <color=#FEF8E4>{2:N0}</color> time.
 KINGTRITON_BASIC_ABILPREVIEWUPGRADE_01|If Ariel is a teammate, she is called to assist.
 KINGTRITON_BASIC_ABILPREVIEWUPGRADE_02|If Enraged, repeat this ability <color=#FEF8E4>{0:N0}</color> time.
-KINGTRITON_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to a random opponent <color=#FEF8E4>{1:N0}</color> times, ignoring Taunt.<br><br>If Enraged, deal up to <color=#FFC400>{2:N0}</color> damage to the primary target.<br><br>Lose Reasonable and all Magic. Gain Enraged.
-KINGTRITON_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to a random opponent <color=#FEF8E4>{1:N0}</color> times, ignoring Taunt. Each of these hits reduces the target's Defense by <color=#FEF8E4>{3:P0}</color> until the end of this ability.<br><br>If Enraged, deal up to <color=#FFC400>{2:N0}</color> damage to the primary target.<br><br>Lose Reasonable and all Magic. Gain Enraged.
-KINGTRITON_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to a random opponent <color=#FEF8E4>{1:N0}</color> times, ignoring Taunt. Each of these hits reduces the target's Defense by <color=#FEF8E4>{3:P0}</color> until the end of this ability.<br><br>If Enraged, deal up to <color=#FFC400>{2:N0}</color> damage to the primary target, with <color=#FEF8E4>{4:P0}</color> bonus Critical Power.<br><br>Lose Reasonable and all Magic. Gain Enraged.
+KINGTRITON_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to a random opponent <color=#FEF8E4>{1:N0}</color> times, ignoring Taunt.<br><br>If Enraged, deal up to <color=#FFC400>{2:N0}</color> damage to the primary target.<br><br>Lose Reasonable. Gain Enraged.
+KINGTRITON_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to a random opponent <color=#FEF8E4>{1:N0}</color> times, ignoring Taunt. Each of these hits reduces the target's Defense by <color=#FEF8E4>{3:P0}</color> until the end of this ability.<br><br>If Enraged, deal up to <color=#FFC400>{2:N0}</color> damage to the primary target.<br><br>Lose Reasonable. Gain Enraged.
+KINGTRITON_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to a random opponent <color=#FEF8E4>{1:N0}</color> times, ignoring Taunt. Each of these hits reduces the target's Defense by <color=#FEF8E4>{3:P0}</color> until the end of this ability.<br><br>If Enraged, deal up to <color=#FFC400>{2:N0}</color> damage to the primary target, with <color=#FEF8E4>{4:P0}</color> bonus Critical Power.<br><br>Lose Reasonable. Gain Enraged.
 KINGTRITON_SPECIALA_ABILPREVIEWUPGRADE_01|Each random hit reduces the target's Defense by <color=#FEF8E4>{0:P0}</color> until the end of this ability.
 KINGTRITON_SPECIALA_ABILPREVIEWUPGRADE_02|Enraged attack has <color=#FEF8E4>{0:P0}</color> bonus Critical Power.
 KINGTRITON_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Defense reduction.
-KINGTRITON_SPECIALB_DESC_01|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate.<br><br>If Reasonable, all teammates gain Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Lose Enraged and all Magic. Gain Reasonable.
-KINGTRITON_SPECIALB_DESC_02|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate. Teammates not affected by any Harmful effects gain <color=#FEF8E4>{2:P0}</color> Speed Meter.<br><br>If Reasonable, all teammates gain Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Lose Enraged and all Magic. Gain Reasonable.
-KINGTRITON_SPECIALB_DESC_03|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate. Teammates not affected by any Harmful effects gain <color=#FEF8E4>{2:P0}</color> Speed Meter.<br><br>If Reasonable, all teammates gain Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn.<br><br>In Raids, adjacent teammates are called to assist.<br><br>Lose Enraged and all Magic. Gain Reasonable.
-KINGTRITON_SPECIALB_DESC_04|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate. Teammates not affected by any Harmful effects gain <color=#FEF8E4>{2:P0}</color> Speed Meter.<br><br>If Reasonable, all teammates gain Triton's Boon for <color=#FEF8E4>{1:N0}</color> turns.<br><br>In Raids, adjacent teammates are called to assist.<br><br>Lose Enraged and all Magic. Gain Reasonable.
+KINGTRITON_SPECIALB_DESC_01|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate.<br><br>If Reasonable, all teammates gain Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Lose Enraged. Gain Reasonable.
+KINGTRITON_SPECIALB_DESC_02|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate. Teammates not affected by any Harmful effects gain <color=#FEF8E4>{2:P0}</color> Speed Meter.<br><br>If Reasonable, all teammates gain Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Lose Enraged. Gain Reasonable.
+KINGTRITON_SPECIALB_DESC_03|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate. Teammates not affected by any Harmful effects gain <color=#FEF8E4>{2:P0}</color> Speed Meter.<br><br>If Reasonable, all teammates gain Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn.<br><br>In Raids, adjacent teammates are called to assist.<br><br>Lose Enraged. Gain Reasonable.
+KINGTRITON_SPECIALB_DESC_04|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate. Teammates not affected by any Harmful effects gain <color=#FEF8E4>{2:P0}</color> Speed Meter.<br><br>If Reasonable, all teammates gain Triton's Boon for <color=#FEF8E4>{1:N0}</color> turns.<br><br>In Raids, adjacent teammates are called to assist.<br><br>Lose Enraged. Gain Reasonable.
 KINGTRITON_SPECIALB_ABILPREVIEWUPGRADE_01|Teammates not affected by any Harmful effects gain <color=#FEF8E4>{0:P0}</color> Speed Meter.
 KINGTRITON_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> base Speed Meter granted.
 KINGTRITON_SPECIALB_ABILPREVIEWUPGRADE_03|In Raids, adjacent teammates are called to assist.
 KINGTRITON_SPECIALB_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Triton's Boon duration.
-KINGTRITON_PASSIVEA_DESC_01|On turn start, if Reasonable, perform the following on the teammate with the most Harmful effects, preferring most injured:<br><br>Restore up to <color=#5DFF89>{0:N0}</color> Health, flip <color=#FEF8E4>{1:N0}</color> Harmful effect to the opposite Helpful effect, and grant <color=#FEF8E4>{2:P0}</color> Speed Meter.
-KINGTRITON_PASSIVEA_DESC_02|On turn start, if Reasonable, perform the following on the teammate with the most Harmful effects, preferring most injured:<br><br>Restore up to <color=#5DFF89>{0:N0}</color> Health, flip <color=#FEF8E4>{1:N0}</color> Harmful effect to the opposite Helpful effect, and grant <color=#FEF8E4>{2:P0}</color> Speed Meter plus an additional <color=#FEF8E4>{3:P0}</color> if teammate is not affected by any Harmful effects.
-KINGTRITON_PASSIVEA_DESC_03|On turn start, if Reasonable, perform the following on the teammate with the most Harmful effects, preferring most injured:<br><br>Restore up to <color=#5DFF89>{0:N0}</color> Health, flip <color=#FEF8E4>{1:N0}</color> Harmful effect to the opposite Helpful effect, and grant <color=#FEF8E4>{2:P0}</color> Speed Meter plus an additional <color=#FEF8E4>{3:P0}</color> if teammate is not affected by any Harmful effects.<br><br>If Ariel is defeated, King Triton gains Enraged and Reasonable until the end of battle and cannot lose either effect.
-KINGTRITON_PASSIVEA_DESC_04|On turn start, if Reasonable, perform the following on the teammate with the most Harmful effects, preferring most injured:<br><br>Restore up to <color=#5DFF89>{0:N0}</color> Health, flip <color=#FEF8E4>{1:N0}</color> Harmful effect to the opposite Helpful effect, and grant <color=#FEF8E4>{2:P0}</color> Speed Meter plus an additional <color=#FEF8E4>{3:P0}</color> if teammate is not affected by any Harmful effects.<br><br>If Ariel is defeated, King Triton gains Enraged and Reasonable until the end of battle and cannot lose either effect.
+KINGTRITON_PASSIVEA_DESC_01|On turn start, if Reasonable, perform the following on the teammate with the most Harmful effects, preferring most injured:<br><br>Restore up to <color=#FEF8E4>{0:P0}</color> of their Max Health, flip <color=#FEF8E4>{1:N0}</color> Harmful effect to the opposite Helpful effect, and grant <color=#FEF8E4>{2:P0}</color> Speed Meter.
+KINGTRITON_PASSIVEA_DESC_02|On turn start, if Reasonable, perform the following on the teammate with the most Harmful effects, preferring most injured:<br><br>Restore up to <color=#FEF8E4>{0:P0}</color> of their Max Health, flip <color=#FEF8E4>{1:N0}</color> Harmful effect to the opposite Helpful effect, and grant <color=#FEF8E4>{2:P0}</color> Speed Meter plus an additional <color=#FEF8E4>{3:P0}</color> if teammate is not affected by any Harmful effects.
+KINGTRITON_PASSIVEA_DESC_03|On turn start, if Reasonable, perform the following on the teammate with the most Harmful effects, preferring most injured:<br><br>Restore up to <color=#FEF8E4>{0:P0}</color> of their Max Health, flip <color=#FEF8E4>{1:N0}</color> Harmful effect to the opposite Helpful effect, and grant <color=#FEF8E4>{2:P0}</color> Speed Meter plus an additional <color=#FEF8E4>{3:P0}</color> if teammate is not affected by any Harmful effects.<br><br>If Ariel is defeated, King Triton gains Enraged and Reasonable until the end of battle and cannot lose either effect.
+KINGTRITON_PASSIVEA_DESC_04|On turn start, if Reasonable, perform the following on the teammate with the most Harmful effects, preferring most injured:<br><br>Restore up to <color=#FEF8E4>{0:P0}</color> of their Max Health, flip <color=#FEF8E4>{1:N0}</color> Harmful effect to the opposite Helpful effect, and grant <color=#FEF8E4>{2:P0}</color> Speed Meter plus an additional <color=#FEF8E4>{3:P0}</color> if teammate is not affected by any Harmful effects.<br><br>If Ariel is defeated, King Triton gains Enraged and Reasonable until the end of battle and cannot lose either effect.
 KINGTRITON_PASSIVEA_ABILPREVIEWUPGRADE_01|Grant an additional <color=#FEF8E4>{0:P0}</color> Speed Meter if teammate is not affected by any Harmful effects.
 KINGTRITON_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> base Speed Meter granted.
 KINGTRITON_PASSIVEA_ABILPREVIEWUPGRADE_03|If Ariel is defeated, King Triton gains Enraged and Reasonable until the end of battle and cannot lose either effect.
 KINGTRITON_PASSIVEA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> effect flipped.
 KINGTRITON_LEADER_DESC_01|Teammates gain <color=#FEF8E4>+{0:P0}</color> Offense.<br><br>In Raids, grant the following effects:<br><br>'The Little Mermaid' teammates gain an additional <color=#FEF8E4>{1:P0}</color> Offense.
 KINGTRITON_LEADER_DESC_02|Teammates gain <color=#FEF8E4>+{0:P0}</color> Offense.<br><br>In Raids, grant the following effects:<br><br>'The Little Mermaid' teammates gain an additional <color=#FEF8E4>{1:P0}</color> Offense. Each time a teammate is healed, they gain <color=#FEF8E4>{2:P0}</color> Speed Meter.
-KINGTRITON_LEADER_DESC_03|Teammates gain <color=#FEF8E4>+{0:P0}</color> Offense. Each time a teammate gains Triton's Boon, restore up to <color=#5DFF89>{3:P0}</color> Health to them.<br><br>In Raids, grant the following effects:<br><br>'The Little Mermaid' teammates gain an additional <color=#FEF8E4>{1:P0}</color> Offense. Each time a teammate is healed, they gain <color=#FEF8E4>{2:P0}</color> Speed Meter.
+KINGTRITON_LEADER_DESC_03|Teammates gain <color=#FEF8E4>+{0:P0}</color> Offense. Each time a teammate gains Triton's Boon, restore up to <color=#FEF8E4>{3:P0}</color> of their Max Health.<br><br>In Raids, grant the following effects:<br><br>'The Little Mermaid' teammates gain an additional <color=#FEF8E4>{1:P0}</color> Offense. Each time a teammate is healed, they gain <color=#FEF8E4>{2:P0}</color> Speed Meter.
 KINGTRITON_LEADER_ABILPREVIEWUPGRADE_01|In Raids, each time a teammate is healed, they gain <color=#FEF8E4>{0:P0}</color> Speed Meter.
 KINGTRITON_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Offense granted.
-KINGTRITON_LEADER_ABILPREVIEWUPGRADE_03|Each time a teammate gains Triton's Boon, restore Health to them equal to <color=#FEF8E4>{0:P0}</color> of this character's Recovery.
+KINGTRITON_LEADER_ABILPREVIEWUPGRADE_03|Each time a teammate gains Triton's Boon, restore Health to them equal to <color=#FEF8E4>{0:P0}</color> of their Max Health.
 KINGTRITON_LEADER_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Speed Meter granted.
 KUZCOS_GUARD_UNIT_NAME|Incan Palace Guard
 LANGUAGE_CHINESE_SIMPLIFIED|Chinese (Simplified)
@@ -9672,6 +9725,8 @@ PIN_SMEE_NAME|SMEE TALISMAN
 PIN_SMEE_DESC|This ain't no place for a respectable pirate.
 PIN_CAPTAINBARBOSSA_NAME|CAPTAIN BARBOSSA TALISMAN
 PIN_CAPTAINBARBOSSA_DESC|Feast your eyes upon this, mateys.
+PIN_SORCERER_MICKEY_HAT_NAME|SORCERER'S ARENA MICKEY HAT TALISMAN
+PIN_SORCERER_MICKEY_HAT_DESC|Oh, boy! How fun!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -9844,21 +9899,23 @@ PRINCEERIC_ABILSPECIALA_NAME|Swing Into Action
 PRINCEERIC_ABILSPECIALB_NAME|Maritime Melody
 PRINCEERIC_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict Continuous Damage, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.<br><br>If the target is Ursula, inflict an additional Continuous Damage.
 PRINCEERIC_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Continuous Damage, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.<br><br>If the target is Ursula, inflict an additional Continuous Damage.
-PRINCEERIC_PASSIVEA_ABILPREVIEWUPGRADE_01|If the teammate is Ariel, she gains Undefeatable.
-PRINCEERIC_PASSIVEA_DESC_01|When a teammate falls below <color=#FEF8E4>{0:P0}</color> Health, perform the following:<br>If Eric doesn't have Taunt, he gains <color=#FEF8E4>{1:P0}</color> Speed Meter, doubled in Raids.<br>If Eric has Taunt, the teammate gains Undefeatable and <color=#FEF8E4>{1:P0}</color> Speed Meter, doubled in Raids.
-PRINCEERIC_PASSIVEA_DESC_02|When a teammate falls below <color=#FEF8E4>{0:P0}</color> Health, perform the following:<br>If Eric doesn't have Taunt, he gains <color=#FEF8E4>{1:P0}</color> Speed Meter, doubled in Raids.<br>If Eric has Taunt, the teammate gains Undefeatable and <color=#FEF8E4>{1:P0}</color> Speed Meter, doubled in Raids.<br>If the teammate is Ariel, she gains Undefeatable.
-PRINCEERIC_PASSIVEB_DESC_01|On turn start, perform the following on a random opponent, ignoring Taunt and preferring opponents with Stealth: Purge Stealth. If they didn't have Stealth, inflict Vulnerable.
-PRINCEERIC_PASSIVEB_DESC_02|On turn start, perform the following on a random opponent, ignoring Taunt and preferring opponents with Stealth: Purge Stealth. If they didn't have Stealth, inflict Vulnerable. Reduce Speed Meter by <color=#FEF8E4>{0:P0}</color>.
-PRINCEERIC_SPECIALA_ABILPREVIEWUPGRADE_01|In Raids, gain Critical Immunity for <color=#FEF8E4>{0:N0}</color> turns.
+PRINCEERIC_PASSIVEA_ABILPREVIEWUPGRADE_01|If teammate is Ariel, she gains Undefeatable.
+PRINCEERIC_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> base Speed Meter.
+PRINCEERIC_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> base Speed Meter.
+PRINCEERIC_PASSIVEA_DESC_01|The first time a teammate falls below <color=#FEF8E4>{0:P0}</color> Health, perform the following:<br><br>If Eric doesn't have Taunt, he gains <color=#FEF8E4>{1:P0}</color> Speed Meter, increased by <color=#FEF8E4>{2:P0}</color> in Raids.<br><br>If Eric has Taunt, the teammate gains Undefeatable and <color=#FEF8E4>{3:P0}</color> Speed Meter, increased by <color=#FEF8E4>{4:P0}</color> in Raids.
+PRINCEERIC_PASSIVEA_DESC_02|The first time a teammate falls below <color=#FEF8E4>{0:P0}</color> Health, perform the following:<br><br>If Eric doesn't have Taunt, he gains <color=#FEF8E4>{1:P0}</color> Speed Meter, increased by <color=#FEF8E4>{2:P0}</color> in Raids.<br><br>If Eric has Taunt, the teammate gains Undefeatable and <color=#FEF8E4>{3:P0}</color> Speed Meter, increased by <color=#FEF8E4>{4:P0}</color> in Raids. If teammate is Ariel, she gains an additional Undefeatable.
+PRINCEERIC_PASSIVEB_DESC_01|On turn start, perform the following on a random opponent, ignoring Taunt and preferring opponents with Stealth: Purge Stealth.<br><br>If they didn't have Stealth, inflict Vulnerable.
+PRINCEERIC_PASSIVEB_DESC_02|On turn start, perform the following on a random opponent, ignoring Taunt and preferring opponents with Stealth: Purge Stealth. Reduce Speed Meter by <color=#FEF8E4>{0:P0}</color>.<br><br>If they didn't have Stealth, inflict Vulnerable.
+PRINCEERIC_SPECIALA_ABILPREVIEWUPGRADE_01|In Raids, gain Crit Immunity for <color=#FEF8E4>{0:N0}</color> turns.
 PRINCEERIC_SPECIALA_ABILPREVIEWUPGRADE_02|On a critical hit, all other Oceanic teammates gain <color=#FEF8E4>{0:P0}</color> Speed Meter.
 PRINCEERIC_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Gain Taunt for <color=#FEF8E4>{1:N0}</color> turn.
-PRINCEERIC_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Gain Taunt for <color=#FEF8E4>{1:N0}</color> turn. In Raids, gain Critical Immunity for <color=#FEF8E4>{2:N0}</color> turns.
-PRINCEERIC_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. On a critical hit, all other Oceanic teammates gain {3:P0}% Speed Meter.<br><br>Gain Taunt for <color=#FEF8E4>{1:N0}</color> turn. In Raids, gain Critical Immunity for <color=#FEF8E4>{2:N0}</color> turns.
-PRINCEERIC_SPECIALB_ABILPREVIEWUPGRADE_01|Each teammate gains Critical Immunity for <color=#FEF8E4>{0:N0}</color> turns, +<color=#FEF8E4>{1:N0}</color> duration in Raids.
+PRINCEERIC_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Gain Taunt for <color=#FEF8E4>{1:N0}</color> turn. In Raids, gain Crit Immunity for <color=#FEF8E4>{2:N0}</color> turns.
+PRINCEERIC_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. On a critical hit, all other Oceanic teammates gain <color=#FEF8E4>{3:P0}</color> Speed Meter.<br><br>Gain Taunt for <color=#FEF8E4>{1:N0}</color> turn. In Raids, gain Critical Immunity for <color=#FEF8E4>{2:N0}</color> turns.
+PRINCEERIC_SPECIALB_ABILPREVIEWUPGRADE_01|Each teammate gains Crit Immunity for <color=#FEF8E4>{0:N0}</color> turn, +<color=#FEF8E4>{1:N0}</color> duration in Raids.
 PRINCEERIC_SPECIALB_ABILPREVIEWUPGRADE_02|In Raids, adjacent teammates gain Harmful Immunity for {0} turns.
-PRINCEERIC_SPECIALB_DESC_01|All teammates gain Defense Up for <color=#FEF8E4>{0:N0}</color> turn, +<color=#FEF8E4>{1:N0}</color> duration in Raids.<br><br>If Eric has Taunt, increase the duration of Taunt by <color=#FEF8E4>{2:N0}</color>. Otherwise, gain <color=#FEF8E4>{3:P0}</color> Speed Meter.
-PRINCEERIC_SPECIALB_DESC_02|All teammates gain Defense Up and Critical Immunity for <color=#FEF8E4>{0:N0}</color> turn, +<color=#FEF8E4>{1:N0}</color> duration in Raids.<br><br>If Eric has Taunt, increase the duration of Taunt by <color=#FEF8E4>{2:N0}</color>. Otherwise, gain <color=#FEF8E4>{3:P0}</color> Speed Meter.<br><br>In Raids, adjacent teammates gain Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turns.
-PRINCEERIC_SPECIALB_DESC_03|All teammates gain Defense Up and Critical Immunity for <color=#FEF8E4>{0:N0}</color> turn, +<color=#FEF8E4>{1:N0}</color> duration in Raids.<br><br>If Eric has Taunt, increase the duration of Taunt by <color=#FEF8E4>{2:N0}</color>. Otherwise, gain <color=#FEF8E4>{3:P0}</color> Speed Meter.<br><br>In Raids, adjacent teammates gain Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turns.
+PRINCEERIC_SPECIALB_DESC_01|All teammates gain Defense Up for <color=#FEF8E4>{0:N0}</color> turn, <color=#FEF8E4>+{1:N0}</color> duration in Raids.<br><br>If Eric has Taunt, increase the duration of Taunt by <color=#FEF8E4>{2:N0}</color>. Otherwise, gain <color=#FEF8E4>{3:P0}</color> Speed Meter.
+PRINCEERIC_SPECIALB_DESC_02|All teammates gain Defense Up and Crit Immunity for <color=#FEF8E4>{0:N0}</color> turn, <color=#FEF8E4>+{1:N0}</color> duration in Raids.<br><br>If Eric has Taunt, increase the duration of Taunt by <color=#FEF8E4>{2:N0}</color>. Otherwise, gain <color=#FEF8E4>{3:P0}</color> Speed Meter.
+PRINCEERIC_SPECIALB_DESC_03|All teammates gain Defense Up and Crit Immunity for <color=#FEF8E4>{0:N0}</color> turn, +<color=#FEF8E4>{1:N0}</color> duration in Raids.<br><br>If Eric has Taunt, increase the duration of Taunt by <color=#FEF8E4>{2:N0}</color>. Otherwise, gain <color=#FEF8E4>{3:P0}</color> Speed Meter.<br><br>In Raids, adjacent teammates gain Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turns.
 PRINCEERIC_UNIT_NAME|PRINCE ERIC
 ABILPREVIEWUPGRADE_GEN_CONTINUOUSDAMAGE_CHANCE_100|<color=#FEF8E4>100%</color> chance to inflict Continuous Damage.
 ABILPREVIEWUPGRADE_GEN_CONTINUOUSDAMAGE_DURATION_INC|Increases duration of Continuous Damage by <color=#FEF8E4>{0:N0}</color> turn.
@@ -11408,6 +11465,10 @@ STITCH_TOWER_EXCHANGE|STITCH TOWER EXCHANGE
 STITCH_TOWER_EXCHANGE_TOWER_III_LOCKED|COMPLETE STITCH TOWER TIER III
 STITCH_TOWER_EXCHANGE_TOWER_II_LOCKED|COMPLETE STITCH TOWER TIER II
 STITCH_TOWER_EXCHANGE_TOWER_I_LOCKED|COMPLETE STITCH TOWER TIER I
+TRITON_TOWER_EXCHANGE|TRITON TOWER EXCHANGE
+TRITON_TOWER_EXCHANGE_TOWER_III_LOCKED|COMPLETE KING TRITON TOWER TIER III
+TRITON_TOWER_EXCHANGE_TOWER_II_LOCKED|COMPLETE KING TRITON TOWER TIER II
+TRITON_TOWER_EXCHANGE_TOWER_I_LOCKED|COMPLETE KING TRITON TOWER TIER I
 STITCH_UNIT_NAME|STITCH
 STONETROLL_ABILBASIC_NAME|Stone Troll Roll
 STONETROLL_ABILSPECIALA_NAME|Healing Crystal
@@ -12872,6 +12933,29 @@ STORE_ITEM_STARTER_PACK_B_NAME|STARTER PACK
 STORE_ITEM_STARTER_PACK_B_SHELF|DISAPPEARS AT LEVEL 35
 STORE_ITEM_STITCHDAY_BUNDLE_NAME|CELEBRATION BUNDLE
 STORE_ITEM_BIRTHDAY_BUNDLE_NAME|BIRTHDAY BUNDLE
+STORE_ITEM_TRITONTOWER_ARIELERIC_NAME|ARIEL & ERIC BUNDLE
+STORE_ITEM_TRITONTOWER_ARIELERIC_SUBTITLE|THIS OCEANIC DUO IS READY FOR BATTLE. WITH THEIR HEALING AND DEFENSIVE ABILITIES, ARIEL AND ERIC WILL BE A POWERFUL BACKBONE TO YOUR OCEANIC TEAM.
+STORE_ITEM_TRITONTOWER_ERIC_NAME|PRINCE ERIC BUNDLE
+STORE_ITEM_TRITONTOWER_ERIC_SUBTITLE|DEFENDER OF THE DOWNTRODDEN, PRINCE ERIC SPRINGS INTO ACTION WHEN HIS ALLIES ARE IN TROUBLE, ACCOMPANIED BY HIS TRUSTY SIDEKICK, MAX THE DOG.
+STORE_ITEM_TRITONTOWER_TRITON_A_NAME|KING TRITON BUNDLE
+STORE_ITEM_TRITONTOWER_TRITON_A_SUBTITLE|THE PRIDEFUL RULER OF ATLANTICA HAS ARRIVED. KING TRITON CAN SWITCH BETWEEN SUPPORTING HIS TEAMMATES WHEN HE'S REASONABLE, TO DEALING AN OFFENSIVE BARRAGE WHEN ENRAGED.
+STORE_ITEM_TRITONTOWER_SPECIAL_TRITON_NAME|SPECIAL TRITON BUNDLE
+STORE_ITEM_TRITONTOWER_SPECIAL_TRITON_SUBTITLE|PRESENTING HIS MAJESTY, KING TRITON. UNLOCK KING TRITON IN THIS EXCLUSIVE, ONE TIME BUNDLE AND GET BONUS TOKENS FOR PRINCE ERIC.
+STORE_ITEM_TRITONTOWER_ENERGY_BUNDLE_NAME|TOWER ENERGY BUNDLE
+STORE_ITEM_TRITONTOWER_ENERGY_BUNDLE_SUBTITLE|GET AHEAD IN THE KING TRITON EVENT TOWER WITH THIS TOWER ENERGY BUNDLE. USE ENERGY TO AUTO-BATTLE AND GAIN MORE REWARDS. INCLUDES BONUS KING TRITON CHARACTER TOKENS.
+STORE_ITEM_TRITONTOWER_CAPTAINHOOK_BUNDLE_NAME|CAPTAIN HOOK BUNDLE
+STORE_ITEM_TRITONTOWER_CAPTAINHOOK_BUNDLE_SUBTITLE|BRING YOUR OCEANIC TEAM TO THE NEXT LEVEL. UPGRADE CAPTAIN HOOK TO POWER UP YOUR COLLECTION AND CONQUER THE KING TRITON EVENT TOWER.
+STORE_ITEM_TRITONTOWER_TINKERBELL_BUNDLE_NAME|TINKER BELL BUNDLE
+STORE_ITEM_TRITONTOWER_TINKERBELL_BUNDLE_SUBTITLE|BRING YOUR OCEANIC TEAM TO THE NEXT LEVEL. UPGRADE TINKER BELL TO SUPPORT YOUR TEAM AND CONQUER THE KING TRITON EVENT TOWER.
+STORE_ITEM_TRITONTOWER_DAVYJONES_BUNDLE_NAME|DAVY JONES BUNDLE
+STORE_ITEM_TRITONTOWER_DAVYJONES_BUNDLE_SUBTITLE|UNLOCK DAVY JONES AND BRING THIS CRUELLY EFFECTIVE FRONTLINE FIGHTER TO TEAM. POWER UP YOUR OCEANIC CHARACTERS AND CONQUER THE KING TRITON EVENT TOWER.
+STORE_ITEM_TRITONTOWER_JACKSPARROW_BUNDLE_NAME|JACK SPARROW BUNDLE
+STORE_ITEM_TRITONTOWER_JACKSPARROW_BUNDLE_SUBTITLE|BRING JACK SPARROW'S CRAFTY OFFENSIVE ABILITIES TO YOUR TEAM AND POWER UP YOUR OCEANIC ROSTER TO CONQUER THE KING TRITON EVENT TOWER.
+STORE_ITEM_TRITONTOWER_HOOKTINKERBELL_BUNDLE_NAME|CAPTAIN HOOK & TINKER BELL
+STORE_ITEM_TRITONTOWER_HOOKTINKERBELL_BUNDLE_SUBTITLE|UPGRADE CAPTAIN HOOK AND TINKER BELL IN THIS DOUBLE PACK. BRING YOUR OCEANIC TEAM TO THE NEXT LEVEL AND CONQUER THE KING TRITON EVENT TOWER.
+STORE_ITEM_TRITONTOWER_ERIC_5X_PACK_NAME|5X PRINCE ERIC PACK
+STORE_ITEM_TRITONTOWER_ERIC_PACK_NAME|PRINCE ERIC PACK
+STORE_ITEM_TRITONTOWER_OCEANIC_5X_PACK_NAME|5X OCEANIC PACK
 STORE_ITEM_STITCHDAY_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS BIG LIMITED TIME DEAL. GET A 1X ULTIMATE CHEST, GEMS, GEAR, ABILITY RUNES, AND MORE IN THIS LIMITED TIME BUNDLE.
 STORE_ITEM_STITCHTOWER_5X_PACK_SUBTITLE|10% BONUS VALUE
 STORE_ITEM_STITCHTOWER_BUBBLES_5X_PACK_NAME|5X COBRA BUBBLES PACK
@@ -12958,6 +13042,10 @@ STORE_ITEM_SPECIAL_GEAR_COMBO_GEM_NAME|GEAR COMBO PACK
 STORE_ITEM_SPECIAL_GEAR_COMBO_GEM_SUBTITLE|GET A COMBO OF DIFFERENT GEAR MATERIALS IN THIS SPECIAL, LIMITED TIME OFFER.
 STORE_ITEM_SPECIAL_COMBO_GEM_NAME|LUCKY MYSTERY PACK
 STORE_ITEM_SPECIAL_COMBO_GEM_SUBTITLE|TRY YOUR LUCK WITH THIS LIMITED TIME MYSTERY PACK. GET ONE OF SEVERAL AMAZING REWARDS. TAP INFO TO SEE ALL POSSIBLE DROPS.
+STORE_ITEM_SPECIAL_VILLAIN_MINI_MYSTERY_PACK_NAME|MINI VILLAIN
+STORE_ITEM_SPECIAL_VILLAIN_MIGHTY_MYSTERY_PACK_NAME|MIGHTY VILLAIN
+STORE_ITEM_SPECIAL_VILLAIN_MYSTERY_PACK_SUBTITLE|MYSTERY PACK
+STORE_ITEM_SPECIAL_VILLAIN_MYSTERY_PACK_DESC|TRY YOUR LUCK WITH THIS LIMITED TIME MYSTERY PACK. OPEN FOR A CHANCE TO UNLOCK VILLAINS TOKENS.
 STORE_ITEM_SPECIAL_COMBO_GEM_TAGLINE|TAP FOR ALL POSSIBLE DROPS
 STORE_ITEM_T3_BUNDLE_NAME|T3 GEAR BUNDLE
 STORE_ITEM_T3_BUNDLE_SUBTITLE|DEFEAT YOUR ENEMIES WITH ENCHANTED GEAR. FOR A LIMITED TIME, POWER UP YOUR TEAM WITH THIS T3 GEAR BUNDLE.
@@ -13359,6 +13447,7 @@ STORE_PACK_OPENING_BUY_AGAIN|OPEN AGAIN
 STORE_PURCHASE_CONVERSION_ALERT|ITEMS CONVERTED:
 STORE_RESTOCK_MESSAGE|Refreshing Store...
 STORE_STITCH_EVENT_STICKER|STITCH TOWER
+STORE_TRITON_EVENT_STICKER|TRITON TOWER
 STORE_T3GEAR_GACHA_BACK_DESC|Power up your Characters quickly with Gear!<BR>Includes the following: <BR> * 1-2 T1 Gear <BR> * 2-5 T2 Gear <BR> * Chance at T3 Gear or Binders
 STORE_T3GEAR_GACHA_NAME|T1-T3 GEAR CRATE
 STORE_TAB_FREE|FREE
@@ -13839,6 +13928,12 @@ TOWER_EVENT_MAP_2_DESC_V2|REQUIRES CAPTAIN GANTU
 TOWER_EVENT_MAP_3|STITCH TOWER TIER III
 TOWER_EVENT_MAP_3_DESC|TIER III
 TOWER_EVENT_MAP_3_DESC_V2|REQUIRES CAPTAIN GANTU & COBRA BUBBLES
+TRITON_TOWER_EVENT_MAP_1|KING TRITON TOWER TIER I
+TRITON_TOWER_EVENT_MAP_1_DESC|REQUIRES ARIEL
+TRITON_TOWER_EVENT_MAP_2|KING TRITON TOWER TIER II
+TRITON_TOWER_EVENT_MAP_2_DESC|REQUIRES ARIEL & PRINCE ERIC
+TRITON_TOWER_EVENT_MAP_3|KING TRITON TOWER TIER III
+TRITON_TOWER_EVENT_MAP_3_DESC|REQUIRES ARIEL & PRINCE ERIC
 TOWER_EVENT_MAP_LOCKED_ALERT|You must complete the previous tower
 TOWER_EVENT_REFRESH_CONFIRM|WARNING!<br><br>If you restart this tower you will reset progress for ALL towers in this event. First Time Rewards will NOT reset. Are you sure you want to continue?
 TOWER_EVENT_SIM_DISABLED_ALERT|You must complete this battle first to unlock auto-win
@@ -13890,6 +13985,14 @@ TROPHY_TS3_DESC|Awarded for completing the Sunnyside Playtime Event.<BR><BR>Coll
 TROPHY_TS3_NAME|SUNNYSIDE PLAYTIME TROPHY
 TROPHY_INCREDIBLES_DESC|Awarded for completing the Supers Collide Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_INCREDIBLES_NAME|SUPERS COLLIDE TROPHY
+TROPHY_KING_TRITON_DESC|Awarded for completing the King Triton Event Tower.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_KING_TRITON_NAME|KING TRITON TROPHY
+TROPHY_KOTH_DESC|Awarded for reaching 1st place in the Sorcerer's Tournament!<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_KOTH_NAME|SORCERER'S TOURNAMENT TROPHY
+TROPHY_PVP_DESC|Awarded for reaching Grand Champion in PvP!<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_PVP_NAME|GRAND CHAMPION PVP TROPHY
+TROPHY_TECH_NAME|GIZMO'S TECH TRAINING TROPHY
+TROPHY_TECH_DESC|Awarded for completing Gizmo's Tech Training Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_ALADDIN_DESC|Awarded for completing the Cave of Wonders Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_ALADDIN_NAME|CAVE OF WONDERS TROPHY
 TROPHY_MOANA_DESC|Awarded for completing the Coconut Crackdown Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
@@ -13943,6 +14046,9 @@ UNIT_CATEGORY_DOWNTOWN|DOWNTOWN
 UNIT_CATEGORY_DOWNTOWN_HERO|DOWNTOWN HERO
 UNIT_CATEGORY_DOWNTOWN_VILLAIN|DOWNTOWN VILLAIN
 UNIT_CATEGORY_DUCKTALES|DUCKTALES
+UNIT_CATEGORY_DUCK|DUCKS
+UNIT_CATEGORY_SENSATIONAL_SIX|SENSATIONAL SIX
+UNIT_CATEGORY_THE_SENSATIONAL_SIX|THE SENSATIONAL SIX
 UNIT_CATEGORY_EVENTBONUS_CAVERNCRAWL_APRIL2019_NAME|<color=#FFC643>WILD HEARTS EVENT</color>
 UNIT_CATEGORY_FANTASIA|FANTASIA
 UNIT_CATEGORY_FINDING_NEMO|FINDING NEMO
@@ -14114,6 +14220,8 @@ UNIT_PROMO_MAT_MR_INCREDIBLE|MR. INCREDIBLE TOKENS
 UNIT_PROMO_MAT_MULAN|MULAN TOKENS
 UNIT_PROMO_MAT_OLAF|OLAF TOKENS
 UNIT_PROMO_MAT_OOGIEBOOGIE|OOGIE BOOGIE TOKENS
+UNIT_PROMO_MAT_PRINCE_ERIC|PRINCE ERIC TOKENS
+UNIT_PROMO_MAT_KING_TRITON|KING TRITON TOKENS
 UNIT_PROMO_MAT_PETE|PETE TOKENS
 UNIT_PROMO_MAT_POCAHONTAS|POCAHONTAS TOKENS
 UNIT_PROMO_MAT_QUEEN_OF_HEARTS|QUEEN OF HEARTS TOKENS
@@ -14502,4 +14610,158 @@ STORE_STICKER_450_PCT_VALUE|450% VALUE
 STORE_STICKER_500_PCT_VALUE|500% VALUE
 PASSHOLDER_202009_2_SEASON_NAME|PASSHOLDER SEASON 11
 PASSHOLDER_202009_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 11 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * CHUNK TOKENS<BR>  * BIG BABY TOKENS<br>  * LOTSO TOKENS<br>  * FREE CHUCKLES EMOTE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+S6_EVENT_STICKER|THE SENSATIONAL SIX
+S6_DAISY_A_NAME|DAISY DUCK BUNDLE
+S6_DAISY_A_SUBTITLE|EXTEND DURATION OF HELPFUL EFFECTS AND GRANT TEAMMATES OFFENSE UP WITH BONUS EFFECTS FOR DONALD DUCK AND MINNIE MOUSE. DAMAGE ALL ENEMIES AND INFLICT FEAR.
+S6_SAMICKEY_A_NAME|SORCERER'S APPRENTICE MICKEY BUNDLE
+S6_SAMICKEY_A_SUBTITLE|INFLICT DEFENSE DOWN AND REDUCE SPEED METERS. USE SPELLBINDING SWIRLPOOL TO DEAL AREA DAMAGE TO ALL OPPONENTS AND INFLICT SLOW.
+S6_BBW_A_NAME|BIG BAD WOLF BUNDLE
+S6_BBW_A_SUBTITLE|GUARANTEED CRITICAL STRIKE AGAINST LOW HEALTH TARGETS. UPGRADE HUFF AND PUFF TO PURGE TAUNT. SNEAK ATTACK IN SHEEPS CLOTHING TO DEAL HIGH DAMAGE AND RESTORE HEALTH.
+S6_PETE_A_NAME|PETE BUNDLE
+S6_PETE_A_SUBTITLE|USE "GET'EM" TO CALL TEAMMATES TO ASSIST WITH BASIC ATTACKS. HEAVY HITTER DEALS HIGH DAMAGE AND APPLIES CONTINUOUS DAMAGE.
+S6_SCROOGE_A_NAME|SCROOGE MCDUCK BUNDLE
+S6_SCROOGE_A_SUBTITLE|MONEY DIVE AND CHAIN TO MULTIPLE TARGETS. GAIN BONUS DAMAGE WITH HELPFUL EFFECTS. TOSS THE NUMBER ONE DIME TO GAIN OFFENSE UP OR DEFENSE UP.
+S6_DAISY_GEMS_NAME|DAISY DUCK PACK
+S6_SAMICKEY_GEMS_NAME|SORCERER'S APPRENTICE MICKEY PACK
+S6_BBW_GEMS_NAME|BIG BAD WOLF PACK
+S6_PETE_GEMS_NAME|PETE PACK
+S6_SCROOGE_GEMS_NAME|SCROOGE MCDUCK PACK
+S6_DARKWING_GEMS_NAME|DARKWING DUCK PACK
+S6_DAISY_GOOFY_DONALD_A_NAME|SENSATIONAL TRIO BUNDLE
+S6_DAISY_GOOFY_DONALD_A_SUBTITLE|COLLECT TOKENS FOR THREE OF THE SENSATIONAL SIX. DONALD DUCK'S LEADER ABILITY BOOSTS OFFENSE. DAISY DUCK PROVIDES BONUS EFFECTS TO DONALD. GOOFY DISCO DANCES.
+S6_DONALD_A_NAME|DONALD DUCK BUNDLE
+S6_DONALD_A_SUBTITLE|GAIN TAUNT, DEFENSE UP, AND COUNTER-ATTACK. WHEN DAMAGED, GAIN RAGE. GAIN ENOUGH RAGE TO BECOME EMPOWERED WHICH IMPROVES COMBAT STATS AND SPECIAL ABILITIES.
+S6_DAISY_GOOFY_A_NAME|DAISY DUCK AND GOOFY BUNDLE
+S6_DAISY_GOOFY_A_SUBTITLE|DAISY DUCK CAN DAMAGE ALL OPPONENETS AND INFLICT DEFENSE DOWN. GOOFY GAINS TAUNT WITH A CHANCE FOR EVASION.
+S6_GOOFY_A_NAME|GOOFY BUNDLE
+S6_GOOFY_A_SUBTITLE|DANCE YOUR CARES AWAY WITH GOOFY. AWKWARDLY DANCING, GAIN TAUNT WITH A CHANCE FOR EVASION. GAIN COUNTER WHEN TEAMMATES DROP BELOW THEIR MAXIMUM HEALTH.
+S6_DONALD_GEMS_NAME|DONALD DUCK PACK
+S6_GOOFY_GEMS_NAME|GOOFY PACK
+UNIT_PROMO_MAT_DAISY_DUCK|DAISY DUCK TOKENS
+UNIT_PROMO_MAT_DONALD_DUCK|DONALD DUCK TOKENS
+UNIT_PROMO_MAT_GOOFY|GOOFY TOKENS
+UNIT_CATEGORY_DUCKS|DUCKS
+PASSHOLDER_202010_1_SEASON_NAME|PASSHOLDER SEASON 12
+PASSHOLDER_202010_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 12 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * DAISY DUCK TOKENS<BR>  * SCROOGE MCDUCK TOKENS<br>  * DARKWING DUCK TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+EVENT_202010_S6_INBOX_EVENT_START_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event has begun!<BR><BR>Bring your Mickey and Friends Characters and your Ducks Characters to fight alongside Daisy Duck and battle against Jafar to earn Daisy Duck Tokens!
+EVENT_202010_S6_INBOX_EVENT_START_SUBJECT|The Sensational Six Event is live!
+EVENT_202010_S6_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare your <color=#54C5FF>MICKEY AND FRIENDS</color> Characters and your <color=#54C5FF>DUCKS</color> Characters and get ready to battle against infamous Villians to earn exclusive Sensational Six Character Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event!<BR><BR>In Part 1 you will earn Daisy Duck, Goofy, and Donald Duck Tokens. Stay tuned for Part 2 which will require Daisy Duck, Goofy, and Donald Duck to earn Pluto, Minnie Mouse, and Mickey Mouse!
+EVENT_202010_S6_INBOX_PREVIEW_SUBJECT|Coming Soon: The Sensational Six: Part 1!
+PIN_DAISY_DUCK_DESC|DAISY DUCK TALISMAN
+PIN_DAISY_DUCK_NAME|Goody, goody!
+EVENT_202010_SENSATIONALSIX_1_META_DESC|Battle Classic Villains to earn Daisy Duck, Goofy, and Donald Duck Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202010_SENSATIONALSIX_1_META_NAME|SENSATIONAL SIX PT 1
+EVENT_202010_SENSATIONALSIX_1_PORTAL_DESC|EARN SENSATIONAL SIX CHARACTERS!
+EVENT_202010_SENSATIONALSIX_1_PORTAL_NAME|SENSATIONAL SIX PT 1
+EVENT_202010_SENSATIONALSIX_1_A_NAME|DAISY DUCK VS JAFAR
+EVENT_202010_SENSATIONALSIX_1_A_DESC|Earn Daisy Duck Tokens!
+EVENT_202010_SENSATIONALSIX_1_A_AURA_NAME|DAISY DUCK VS JAFAR
+EVENT_202010_SENSATIONALSIX_1_A_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L0_NAME|DAISY DUCK VS JAFAR 1
+EVENT_202010_SENSATIONALSIX_1_A_L0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 15+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 1 Star</size>
+EVENT_202010_SENSATIONALSIX_1_A_L1_NAME|DAISY DUCK VS JAFAR 2
+EVENT_202010_SENSATIONALSIX_1_A_L1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L2_NAME|DAISY DUCK VS JAFAR 3
+EVENT_202010_SENSATIONALSIX_1_A_L2_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L3_NAME|DAISY DUCK VS JAFAR 4
+EVENT_202010_SENSATIONALSIX_1_A_L3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 4 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L4_NAME|DAISY DUCK VS JAFAR 5
+EVENT_202010_SENSATIONALSIX_1_A_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 5 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L5_NAME|DAISY DUCK VS JAFAR 6
+EVENT_202010_SENSATIONALSIX_1_A_L5_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L6_NAME|DAISY DUCK VS JAFAR 7
+EVENT_202010_SENSATIONALSIX_1_A_L6_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 7 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L7_NAME|DAISY DUCK VS JAFAR 8
+EVENT_202010_SENSATIONALSIX_1_A_L7_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L8_NAME|DAISY DUCK VS JAFAR 9
+EVENT_202010_SENSATIONALSIX_1_A_L8_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
+EVENT_202010_SENSATIONALSIX_1_A_L8_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_NAME|GOOFY VS SCAR
+EVENT_202010_SENSATIONALSIX_1_B_DESC|Earn Goofy Tokens!
+EVENT_202010_SENSATIONALSIX_1_B_AURA_NAME|GOOFY VS SCAR
+EVENT_202010_SENSATIONALSIX_1_B_AURA_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L0_NAME|GOOFY VS SCAR 1
+EVENT_202010_SENSATIONALSIX_1_B_L0_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L1_NAME|GOOFY VS SCAR 2
+EVENT_202010_SENSATIONALSIX_1_B_L1_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L2_NAME|GOOFY VS SCAR 3
+EVENT_202010_SENSATIONALSIX_1_B_L2_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 4 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L3_NAME|GOOFY VS SCAR 4
+EVENT_202010_SENSATIONALSIX_1_B_L3_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 5 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L4_NAME|GOOFY VS SCAR 5
+EVENT_202010_SENSATIONALSIX_1_B_L4_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L5_NAME|GOOFY VS SCAR 6
+EVENT_202010_SENSATIONALSIX_1_B_L5_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 7 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L6_NAME|GOOFY VS SCAR 7
+EVENT_202010_SENSATIONALSIX_1_B_L6_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L7_NAME|GOOFY VS SCAR 8
+EVENT_202010_SENSATIONALSIX_1_B_L7_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_NAME|DONALD DUCK VS HADES
+EVENT_202010_SENSATIONALSIX_1_C_DESC|Earn Donald Duck Tokens!
+EVENT_202010_SENSATIONALSIX_1_C_AURA_NAME|DONALD DUCK VS HADES
+EVENT_202010_SENSATIONALSIX_1_C_AURA_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_L0_NAME|DONALD DUCK VS HADES 1
+EVENT_202010_SENSATIONALSIX_1_C_L0_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_L1_NAME|DONALD DUCK VS HADES 2
+EVENT_202010_SENSATIONALSIX_1_C_L1_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 4 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_L2_NAME|DONALD DUCK VS HADES 3
+EVENT_202010_SENSATIONALSIX_1_C_L2_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 5 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_L3_NAME|DONALD DUCK VS HADES 4
+EVENT_202010_SENSATIONALSIX_1_C_L3_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_L4_NAME|DONALD DUCK VS HADES 5
+EVENT_202010_SENSATIONALSIX_1_C_L4_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 7 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_L5_NAME|DONALD DUCK VS HADES 6
+EVENT_202010_SENSATIONALSIX_1_C_L5_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_L6_NAME|DONALD DUCK VS HADES 7
+EVENT_202010_SENSATIONALSIX_1_C_L6_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Stars</size>
+MARKETING_TRITON_PN_01|Climb the Triton Tower!
+MARKETING_TRITON_PN_02|Battle with Prince Eric to climb the Triton Tower and unlock King Triton!!
+MARKETING_GIZMODUCK_PN_01|<BOLTEMOJI>Call me Gizmoduck<BOLTEMOJI>
+MARKETING_GIZMODUCK_PN_02|Battle to earn Gizmoduck tokens now!
+MARKETING_UP_GIFT_PN_01|A Special Up <GIFTEMOJI>
+MARKETING_UP_GIFT_PN_02|Log in now to collect your special Up gift and check out the Up Celebration bundle in the store!
+MARKETING_FREEFRIDAY_PN_01|Head to Twitter for #FreeStuffFriday!
+MARKETING_FREEFRIDAY_PN_02|Head to the DSA Twitter account and enter #FreeStuffFriday for a chance to win prizes!
+MARKETING_PH12_PN_01|Season 12 Passholder is Live!
+MARKETING_PH12_PN_02|Earn Sensational 6 tokens and more!
+MARKETING_PIXARFEST_PN_01|Celebrate the last few days of Pixar Fest with a special Up Emote gift in your inbox, and check out the Celebration bundle in the store for a special Up surprise!
+MARKETING_2X_MORDU_PN_01|Limited time: 2x Mor'du Tokens
+MARKETING_2X_MORDU_PN_02|Earn 2x Mor'du Tokens on Grand Campaigns now!
+MARKETING_GIRLS_DAY_PN_01|Happy International Day of Girls!
+MARKETING_GIRLS_DAY_PN_02|Log in now for your FREE Snow White Talisman, and don't forget to check out the Celebration Bundle in the store!
+MARKETING_2X_HADES_PN_01|Limited time: 2x Hades Tokens
+MARKETING_2X_HADES_PN_02|Earn 2x Hades Tokens on Grand Campaigns now!
+MARKETING_2X_SALLY_PN_01|Limited time: Sally Tokens 2x
+MARKETING_2X_SALLY_PN_02|Earn 2x Sally Tokens on campaign nodes now!
+MARKETING_2X_JACK_PN_01|Limited time: Jack Skellington Tokens 2x
+MARKETING_2X_JACK_PN_02|Earn 2x Jack Skellington Tokens on campaign nodes now!
+MARKETING_EMAIL_PN_01|Email Sign Up
+MARKETING_EMAIL_PN_02|Sign up now and earn a free gift!
+MARKETING_EMAIL_PN_03|Link your email to get the latest new, updates, access to exclusive offers, and more.
+MARKETING_EMAIL_PN_04|Link Email
+MARKETING_FREEFRIDAY_PN_03|Head to Twitter for #FreeStuffFriday!
+MARKETING_FREEFRIDAY_PN_04|Head to the DSA Twitter account and enter #FreeStuffFriday for a chance to win prizes!
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2020 Disney.<br> © 2019-2020 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2020 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
