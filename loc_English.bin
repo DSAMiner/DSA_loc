@@ -428,10 +428,10 @@ ARIEL_ABILPASSIVE_NAME|Triton's Boon
 ARIEL_ABILPROC_ABILPREVIEWUPGRADE_EFFECT_DURATION_2S|Increases duration of <color=#FFC400>Offense Up</color> and <color=#FFC400>Slow</color> by 2s.
 ARIEL_ABILPROC_DESC_BASE|Calls upon the power of the trident and grants a random ally <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#fef8e4>{1:N0}s</color> and causes their hostile actions to also inflict <color=#FEF8E4><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#fef8e4>{2:N0}s</color> on opponents. Also grants the target <color=#FEF8E4>Extra Attack</color>.<br><br><color=#fef8e4>{0:P0}</color> chance to perform after a successful Basic Ability.
 ARIEL_ABILPROC_NAME|Triton's Boon
-ARIEL_ABILSECIALA_DESC_01|Restore <color=#5DFF89>{0:N0}</color> Health to each teammate.
-ARIEL_ABILSECIALA_DESC_02|Restore <color=#5DFF89>{0:N0}</color> Health to each teammate. <color=#FEF8E4>{1:P0}</color> bonus Critical Heal chance if teammate's Health is below <color=#FEF8E4>{2:P0}</color>.
-ARIEL_ABILSECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> Damage to target opponent. Purge all Helpful effects.
-ARIEL_ABILSECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> Damage to target opponent. Purge all Helpful effects.<br><br>Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Helpful effect on target opponent.
+ARIEL_ABILSECIALA_DESC_01|Restore <color=#5DFF89>{0:N0}</color> Health to each teammate.<br><br>Health restored to Prince Eric and King Triton is increased by <color=#FEF8E4>{1:P0}</color>.
+ARIEL_ABILSECIALA_DESC_02|Restore <color=#5DFF89>{0:N0}</color> Health to each teammate. <color=#FEF8E4>{2:P0}</color> bonus Critical Heal chance if target's Health is below <color=#FEF8E4>{3:P0}</color>.<br><br>Health restored to Prince Eric and King Triton is increased by <color=#FEF8E4>{1:P0}</color>.
+ARIEL_ABILSECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> Damage to target opponent. Purge all Helpful effects.<br><br>If Prince Eric is an ally he is called to assist.
+ARIEL_ABILSECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> Damage to target opponent. Purge all Helpful effects. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Helpful effect on target opponent before Purge was applied.<br><br>If Prince Eric is an ally he is called to assist.
 ARIEL_ABILSPECIALA_ABILPREVIEWUPGRADE_HEALINGCHANNEL_10PCT|Increases Health Restored during the Melody by 10%.
 ARIEL_ABILSPECIALA_ABILPREVIEWUPGRADE_HEALINGCOMPLETION_25PCT|Increases Health Restored on Melody Completion by 25%.
 ARIEL_ABILSPECIALA_DESC_BASE|Sings a melody for a target ally, restoring <color=#5DFF89>{0:N0}</color> Health over <color=#FEF8E4>4s</color> and an additional <color=#5DFF89>{1:N0}</color> Health upon melody completion.
@@ -446,12 +446,13 @@ ARIEL_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus maximum 
 ARIEL_LEADER_DESC_01|Teammates gain <color=#FEF8E4>{0:P0}</color> bonus maximum Health.
 ARIEL_LEADER_DESC_BASE|Allies receive a <color=#fef8e4>{0:P0}</color> bonus to their maximum Health.
 ARIEL_LEADER_NAME|Strong Tides
-ARIEL_PASSIVEA_ABILPREVIEWUPGRADE_01|Decrease required Magic by 1.<br><br>+<color=#FEF8E4>{0:P0}</color> chance to activate.
-ARIEL_PASSIVE_DESC_01|On turn start, <color=#FEF8E4>{0:P0}</color> chance to grant a random teammate Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Triton's Boon: <color=#FEF8E4>{2:P0}</color> Offense increase. <color=#FEF8E4>{3:P0}</color> Speed Meter increase. On deal damage, inflict Slow for <color=#FEF8E4>{4:N0}</color> turns.
+ARIEL_PASSIVEA_ABILPREVIEWUPGRADE_01|If King Triton is an ally, chance to activate is guaranteed.
+ARIEL_PASSIVE_DESC_01|On turn start, <color=#FEF8E4>{0:P0}</color> chance to grant a random teammate Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Triton's Boon: <color=#FEF8E4>+{2:P0}</color> Offense increase. <color=#FEF8E4>{3:P0}</color> Speed Meter gained on application. On deal damage, inflict Slow for <color=#FEF8E4>{4:N0}</color> turns.
+ARIEL_PASSIVE_DESC_02|On turn start, <color=#FEF8E4>{0:P0}</color> chance to grant a random teammate Triton's Boon for <color=#FEF8E4>{1:N0}</color> turn. If King Triton is an ally, chance to activate is guaranteed.<br><br>Triton's Boon: <color=#FEF8E4>+{2:P0}</color> Offense increase. <color=#FEF8E4>{3:P0}</color> Speed Meter gained on application. On deal damage, inflict Slow for <color=#FEF8E4>{4:N0}</color> turns.
 ARIEL_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> bonus Critical Heal chance if teammate's Health is below <color=#FEF8E4>{1:P0}</color>.
 ARIEL_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Critical Heal chance if teammate's Health is below <color=#FEF8E4>{1:P0}</color>.
-ARIEL_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per Helpful effect on target opponent.
-ARIEL_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus damage per Helpful effect on target opponent.
+ARIEL_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per Helpful effect on target opponent before Purge was applied.
+ARIEL_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus damage per Helpful effect on target opponent before Purge was applied.
 ARIEL_UNIT_NAME|ARIEL
 ATLANTEAN_UNIT_NAME|Atlantean
 AUTH_GAME_CENTER_DIALOG_BUTTON_GUEST|OK
@@ -2314,21 +2315,22 @@ DASH_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target 
 DASH_UNIT_NAME|DASH
 DAVYJONES_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> to bonus Critical Strike Chance.
 DAVYJONES_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> bonus Critical Strike chance if opponent is affected by a Harmful effect.
-DAVYJONES_PASSIVE02_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Health restored on revive.
+DAVYJONES_PASSIVE02_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Max Health restored on revive per 'Oceanic Villain' teammate.
 DAVYJONES_PASSIVE02_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Dead Man's Chest Health.
-DAVYJONES_PASSIVE02_DESC_01|Summons the Dead Man's Chest the first time this character is defeated. The Dead Man's Chest has <color=#5DFF89>{0:N0}</color> Health, and unless it is defeated, will revive this character after <color=#FEF8E4>{1:N0}</color> turns with <color=#5DFF89>{2:N0}</color> Health restored.
+DAVYJONES_PASSIVE02_DESC_01|Summon the Dead Man's Chest when this character is defeated. The Dead Man's Chest has <color=#5DFF89>{0:N0}</color> Health.<br><br>Unless it is defeated, this character will revive after <color=#FEF8E4>{1:N0}</color> turn with <color=#FEF8E4>{2:P0}</color> of their max Health restored.<br><br>On revive, summon <color=#FEF8E4>{3:N0}</color> allied Flying Dutchman Crewmates at random locations.
+DAVYJONES_PASSIVE02_DESC_02|Summon the Dead Man's Chest when this character is defeated. The Dead Man's Chest has <color=#5DFF89>{0:N0}</color> Health.<br><br>Unless it is defeated, this character will revive after <color=#FEF8E4>{1:N0}</color> turn with <color=#FEF8E4>{2:P0}</color> of their max Health restored with <color=#FEF8E4>{4:P0}</color> bonus max Health restored per 'Oceanic Villain' teammate (including any Flying Dutchmen Crewmates).<br><br>On revive, summon <color=#FEF8E4>{3:N0}</color> allied Flying Dutchman Crewmates at random locations.
 DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to summon allied Flying Dutchman crewmate.
 DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_02|Guaranteed to summon Flying Dutchman crewmate.
 DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Flying Dutchman crewmate Health. <color=#FEF8E4>+{1:P0}</color> Flying Dutchman crewmate Offense.
 DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>{0:P0}</color> chance for Flying Dutchman crewmates to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn when summoned.
-DAVYJONES_PASSIVE_DESC_01|On character defeat, <color=#FEF8E4>{0:P0}</color> chance to summon an allied Flying Dutchman Crewmate at a random location.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack.
-DAVYJONES_PASSIVE_DESC_02|On character defeat, summon an allied Flying Dutchman Crewmate at a random location.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack.
-DAVYJONES_PASSIVE_DESC_03|On character defeat, summon an allied Flying Dutchman Crewmate at a random location. <color=#FEF8E4>{3:P0}</color> chance for Flying Dutchman crewmates to gain Offense Up for <color=#FEF8E4>{4:N0}</color> turn when summoned.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack.
-DAVYJONES_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance for Flying Dutchman crewmates to Assist.
+DAVYJONES_PASSIVE_DESC_01|On character defeat, <color=#FEF8E4>{0:P0}</color> chance to summon an allied Flying Dutchman Crewmate at a random location.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
+DAVYJONES_PASSIVE_DESC_02|On character defeat, summon an allied Flying Dutchman Crewmate at a random location.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
+DAVYJONES_PASSIVE_DESC_03|On character defeat, summon an allied Flying Dutchman Crewmate at a random location. <color=#FEF8E4>{5:P0}</color> chance for the Flying Dutchman Crewmate to gain Offense Up for <color=#FEF8E4>{6:N0}</color> turn when summoned.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
+DAVYJONES_SPECIALA_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per 'Oceanic Villain' teammate, including  any Flying Dutchman Crewmates.
 DAVYJONES_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance for Flying Dutchman crewmates to Assist.
-DAVYJONES_SPECIALA_DESC_01|Deals up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflicts Silence for <color=#FEF8E4>{1:N0}</color> turn.
-DAVYJONES_SPECIALA_DESC_02|Deals up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflicts Silence for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance for allied Flying Dutchman crewmates to Assist.
-DAVYJONES_SPECIALB_DESC_01|Inflicts the Black Spot on target opponent for <color=#FEF8E4>{0:N0}</color> turns.<br><br>The Black Spot: Davy Jones and Flying Dutchman Crewmates deal <color=#FEF8E4>{1:P0}</color> bonus damage against opponents inflicted with the Black Spot.<br><br>Upon expiration or removal, the Kraken attacks the inflicted character, dealing up to <color=#FFC400>{2:N0}</color> damage, increased to <color=#FFC400>{3:N0}</color> if the effect naturally expires. Deals up to <color=#FFC400>{4:N0}</color> damage to all flanking opponents.
+DAVYJONES_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Silence for <color=#FEF8E4>{1:N0}</color> turn.
+DAVYJONES_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Silence for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Deal <color=#FEF8E4>{2:P0}</color> bonus damage per 'Oceanic Villain' teammate, including  any Flying Dutchman Crewmates.
+DAVYJONES_SPECIALB_DESC_01|Inflict the Black Spot on target opponent for <color=#FEF8E4>{0:N0}</color> turns.<br><br>The Black Spot:<br>Davy Jones and Flying Dutchman Crewmates deal <color=#FEF8E4>{1:P0}</color> bonus damage against opponents inflicted with the Black Spot.<br><br>Upon expiration or removal, the Kraken attacks the inflicted character, dealing up to <color=#FFC400>{2:N0}</color> damage, increased to <color=#FFC400>{3:N0}</color> if the effect expires. Deal up to <color=#FFC400>{4:N0}</color> damage to all flanking opponents.<br><br>Upon expiration, grant <color=#FEF8E4>{5:N0}</color> Magic to The Time Is Up.
 DAVY_JONES_ABILBASIC_ABILPREVIEWUPGRADE_BONUSCRITCHANCE_05PCT|Increases chance to deal a Critical Strike by 5% against opponents affected by Harmful effects.
 DAVY_JONES_ABILBASIC_ABILPREVIEWUPGRADE_INCRESTOREHEALTH|Increases Health restored when dealing a Critical Strike by 5%.
 DAVY_JONES_ABILBASIC_ABILPREVIEWUPGRADE_RESTOREHEALTH_15PCT|Increases Health restored when dealing a Critical Strike by 15%.
@@ -14612,7 +14614,7 @@ PASSHOLDER_202009_2_SEASON_NAME|PASSHOLDER SEASON 11
 PASSHOLDER_202009_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 11 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * CHUNK TOKENS<BR>  * BIG BABY TOKENS<br>  * LOTSO TOKENS<br>  * FREE CHUCKLES EMOTE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 S6_EVENT_STICKER|THE SENSATIONAL SIX
 S6_DAISY_A_NAME|DAISY DUCK BUNDLE
-S6_DAISY_A_SUBTITLE|EXTEND DURATION OF HELPFUL EFFECTS AND GRANT TEAMMATES OFFENSE UP WITH BONUS EFFECTS FOR DONALD DUCK AND MINNIE MOUSE. DAMAGE ALL ENEMIES AND INFLICT FEAR.
+S6_DAISY_A_SUBTITLE|EXTEND DURATION OF HELPFUL EFFECTS AND GRANT TEAMMATES OFFENSE UP WITH BONUS EFFECTS FOR DONALD DUCK AND MINNIE MOUSE. DAMAGE TARGET AND ADJACENT OPPONENTS AND INFLICT DEFENSE DOWN.
 S6_SAMICKEY_A_NAME|SORCERER'S APPRENTICE MICKEY BUNDLE
 S6_SAMICKEY_A_SUBTITLE|INFLICT DEFENSE DOWN AND REDUCE SPEED METERS. USE SPELLBINDING SWIRLPOOL TO DEAL AREA DAMAGE TO ALL OPPONENTS AND INFLICT SLOW.
 S6_BBW_A_NAME|BIG BAD WOLF BUNDLE
