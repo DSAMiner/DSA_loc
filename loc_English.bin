@@ -1688,6 +1688,7 @@ CLUB_WAR_SQUAD_REMOVE_TEXT|Are you sure you want to remove this defense?
 CLUB_WAR_TARGET_BASE_BUTTON|TARGET BASE
 CLUB_WAR_TITLE_LABEL|CLUB CONQUEST
 CLUB_WAR_TOTAL_POWER|CLUB POWER:<br>{0}
+CLUB_WAR_UNABLE_TO_EDIT_SQUADS|Editing Defenses are disabled during the Matchmaking Phase.
 CLUB_WAR_UNIT_ALREADY_ATTACKED|YOU'VE ALREADY ATTACKED WITH THIS CHARACTER
 CLUB_WAR_UNIT_ALREADY_IN_OTHER_SQUAD|THIS CHARACTER IS SET IN ANOTHER DEFENSE
 CLUB_WAR_UNREGISTER_BUTTON|UNREGISTER
@@ -14612,6 +14613,29 @@ STORE_STICKER_450_PCT_VALUE|450% VALUE
 STORE_STICKER_500_PCT_VALUE|500% VALUE
 PASSHOLDER_202009_2_SEASON_NAME|PASSHOLDER SEASON 11
 PASSHOLDER_202009_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 11 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * CHUNK TOKENS<BR>  * BIG BABY TOKENS<br>  * LOTSO TOKENS<br>  * FREE CHUCKLES EMOTE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+EMAIL_CONNECT_NOT_FINISHED|EMAIL
+EMAIL_CONNECT_FINISHED|UPDATE EMAIL
+EMAIL_CONNECT_SUBMIT|SUBMIT
+EMAIL_CONNECT_DESC|<color=#EC9992>SIGN UP TODAY TO EARN EXCLUSIVE REWARDS</color>
+EMAIL_CONNECT_VERIFY_PIN|PIN SENT
+EMAIL_CONNECT_VERIFY_PIN_DESC|NEW EMAIL VERIFICATION HAS BEEN SENT TO <color=#8ab65d>{0}</color>. CHECK YOUR INBOX FOR YOUR PIN CODE.
+EMAIL_CONNECT_EXPIRED_PIN_ERROR|PIN IS EXPIRED
+EMAIL_CONNECT_INCORRECT_PIN_ERROR|PIN IS INCORRECT
+EMAIL_CONNECT_INVALID_ERROR|AN UNKNOWN ERROR OCCURRED
+EMAIL_CONNECT_OPT_IN_DISCLAIMER|I AGREE TO ALLOW GLU MOBILE INC. AND ITS BUSINESS PARTNERS TO USE MY EMAIL ADDRESS TO PROVIDE ME PERSONALIZED NEWS AND PROMOTIONS ABOUT GLU'S AND ITS AFFILIATES' GAMES AND SERVICES VIA EMAIL AND OTHER CHANNELS
+EMAIL_CONNECT_SEND_EMAIL_PRIVACY_POLICY_DESC|BY CLICKING SUBMIT, I AGREE TO THE <color="yellow"><link="https://www.glu.com/terms/">TERMS OF USE</link></color> AND ACKNOWLEDGE THE TERMS OF THE <color="yellow"><link="https://www.glu.com/privacy/">PRIVACY POLICY</link></color>
+EMAIL_CONNECT_ENTER_EMAIL_PLACEHOLDER|ENTER EMAIL...
+EMAIL_CONNECT_ERROR_HEADER|VERIFICATION ERROR
+EMAIL_CONNECT_OK|OK
+EMAIL_CONNECT_CONFIRM_HEADER|EMAIL ACTIVATION COMPLETE
+EMAIL_CONNECT_CONFIRM_DESC|YOUR GIFT IS ON THE WAY! CHECK YOUR INBOX SOON FOR YOUR SIGN UP REWARDS
+EMAIL_CONNECT_CHANGE_EMAIL|CHANGE EMAIL
+EMAIL_CONNECT_RESEND_PIN|RESEND PIN
+EMAIL_CONNECT_SEND_PIN_PLACEHOLDER|ENTER PIN...
+EMAIL_CONNECT_GOTO_INBOX_HEADER|LINKED EMAIL REWARDS
+INBOX_MESSAGE_EMAIL_CONNECT_SENDER|<color=#FF6FBB>Sorcerer's Arena Team
+INBOX_MESSAGE_EMAIL_CONNECT_SUBJECT|Thank you for signing up!
+INBOX_MESSAGE_EMAIL_CONNECT_BODY|Summoner,<br><br>You've received a special <b>GIFT</b> for signing up with email! Keep an eye out for emails with exciting news and exclusive offers in the future.<br><br>Thank you for your continued support, and see you in the Arena!
 S6_EVENT_STICKER|THE SENSATIONAL SIX
 S6_DAISY_A_NAME|DAISY DUCK BUNDLE
 S6_DAISY_A_SUBTITLE|EXTEND DURATION OF HELPFUL EFFECTS AND GRANT TEAMMATES OFFENSE UP WITH BONUS EFFECTS FOR DONALD DUCK AND MINNIE MOUSE. DAMAGE TARGET AND ADJACENT OPPONENTS AND INFLICT DEFENSE DOWN.
@@ -14739,6 +14763,15 @@ EVENT_202010_SENSATIONALSIX_1_C_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Leve
 EVENT_202010_SENSATIONALSIX_1_C_L6_NAME|DONALD DUCK VS HADES 7
 EVENT_202010_SENSATIONALSIX_1_C_L6_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
 EVENT_202010_SENSATIONALSIX_1_C_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Stars</size>
+EMAIL_CONNECT_SEND_EMAIL_INVALID_ERROR|THIS EMAIL IS INVALID OR IS ALREADY IN USE. IF YOU THINK YOU'VE ENTERED THE CORRECT EMAIL, PLEASE CHECK YOUR NETWORK SETTINGS.
+EMAIL_CONNECT_SEND_PIN_INVALID_ERROR|AN UNKNOWN ERROR OCCURRED. PLEASE CHECK YOUR NETWORK SETTINGS.
+EMAIL_CONNECT_EDIT_EMAIL_HEADER|UPDATE EMAIL
+EMAIL_CONNECT_ENTER_PIN|ENTER PIN
+EMAIL_CONNECT_UNLINK_EMAIL|UNLINK EMAIL
+EMAIL_CONNECT_VERIFY_PIN_SUB_HEADER|<color=#EC9992>THANK YOU FOR SIGNING UP!</color>
+EMAIL_CONNECT_SEND_PIN_DESC|AN EMAIL CONTAINING A PIN HAS BEEN SENT TO YOUR ACCOUNT.<br><br>PLEASE ENTER THE PIN BELOW
+EMAIL_CONNECT_CONFIRM_SUB_HEADER|THANK YOU FOR SIGNING UP!
+EMAIL_CONNECT_SEND_EMAIL_HEADER|EMAIL SIGN UP
 MARKETING_TRITON_PN_01|Climb the Triton Tower!
 MARKETING_TRITON_PN_02|Battle with Prince Eric to climb the Triton Tower and unlock King Triton!!
 MARKETING_GIZMODUCK_PN_01|<BOLTEMOJI>Call me Gizmoduck<BOLTEMOJI>
@@ -14766,4 +14799,6 @@ MARKETING_EMAIL_PN_03|Link your email to get the latest new, updates, access to 
 MARKETING_EMAIL_PN_04|Link Email
 MARKETING_FREEFRIDAY_PN_03|Head to Twitter for #FreeStuffFriday!
 MARKETING_FREEFRIDAY_PN_04|Head to the DSA Twitter account and enter #FreeStuffFriday for a chance to win prizes!
+PIN_SORCERER_MICKEY_HAT_TALISMAN_NAME|Sorcerer Mickey Hat Talisman
+PIN_SORCERER_MICKEY_HAT_TALISMAN_DESC|For a Sorcerer that is attuned with their email.
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2020 Disney.<br> © 2019-2020 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2020 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
