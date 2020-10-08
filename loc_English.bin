@@ -229,7 +229,7 @@ ABILPREVIEWUPGRADE_GEN_INNATE_OFFENSE_PCT|+<color=#FEF8E4>{0:P0}</color> Offense
 ABILPREVIEWUPGRADE_GEN_INNATE_POTENCY_PCT|+<color=#FEF8E4>{0:P0}</color> Potency.
 ABILPREVIEWUPGRADE_GEN_INNATE_SPEED_PCT|+<color=#FEF8E4>{0:P0}</color> Speed.
 ABILPREVIEWUPGRADE_GEN_LIFEDRAIN_DURATION|<color=#FEF8E4>+{0:N0}</color> to Life Drain duration.
-ABILPREVIEWUPGRADE_GEN_MAGIC_COST_DECREASE_01|Decreases Magic Cost by 1.
+ABILPREVIEWUPGRADE_GEN_MAGIC_COST_DECREASE_01|Decrease Magic Cost by 1.
 ABILPREVIEWUPGRADE_GEN_MAGIC_GRANT_INC|+<color=#FEF8E4>{0:N0}</color> Magic granted.
 ABILPREVIEWUPGRADE_GEN_MAX_CHAIN_AMOUNT_INC|<color=#FEF8E4>+{0:N0}</color> maximum chain amount.
 ABILPREVIEWUPGRADE_GEN_NYI|Ability upgrade info coming soon...
@@ -961,6 +961,8 @@ BONUS_LOOT_ANGER_2X_NAME|2X ANGER TOKEN EVENT
 BONUS_LOOT_ANGER_2X_SUBTITLE|Earn <color=#54C5FF>2x Anger Tokens</color> by winning battles on Grand Campaign node 4-G. Available for a limited time!
 BONUS_LOOT_ELASTIGIRL_2X_NAME|2X ELASTIGIRL TOKEN EVENT
 BONUS_LOOT_ELASTIGIRL_2X_SUBTITLE|Earn <color=#54C5FF>2x Elastigirl Tokens</color> by winning battles on Grand Campaign node 4-J and Villains Campaign nodes 7-B and 8-C. Available for a limited time!
+BONUS_LOOT_MORDU_2X_NAME|VILLAINOUS BONUS - 2X MOR'DU TOKEN EVENT
+BONUS_LOOT_MORDU_2X_SUBTITLE|Earn <color=#54C5FF>2x Mor'du Tokens</color> for a limited time! Bonus drops can be found on Heroes Campaign node 6-B.
 BONUS_LOOT_INFO_DETAILS|BONUS LOOT DETAILS
 BONUS_LOOT_LABEL|BONUS
 BONUS_LOOT_LAIRKEYS_DESC|Complete <color=#FEF8E4>ANY</color> Heroes or Villains Campaign Battle for a chance to earn <color=#FEF8E4>Lair Keys</color>.<br><br><color=#FEF8E4>Lair Keys</color> are needed to enter into <color=#FEF8E4>The Final Showdown</color> in the <color=#FEF8E4>Scar's Lair</color> Event.
@@ -3936,6 +3938,11 @@ EVENT_202009_TWITTERMILESTONE_TS3_ALL_INBOX_BODY|Summoner,<BR><BR>A follower mil
 EVENT_202009_TWITTERMILESTONE_TS3_PH_INBOX_BODY|Summoner,<BR><BR>A follower milestone has been reached on the Disney Sorcerer's Arena <color=#54C5FF>Twitter</color>! Here are your <color=#54C5FF>Milestone BONUS Rewards</color> as a Passholder Gold or Platinum member this season!<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202010_VILLAINOUS_FLASH_GIFT_INBOX_SUBJECT|Villainous Flash Gift
 EVENT_202010_VILLAINOUS_FLASH_GIFT_INBOX_BODY|Summoner,<BR><BR>You've received a <color=#54C5FF>Villainous Flash Gift</color>! Stay on the lookout for more Villainous Flash Gifts arriving at random times between <color=#54C5FF>October 04 - 10</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Head to the store to spend <color=#54C5FF>Spooky Coins</color> on exciting <color=#54C5FF>Mystery Packs</color> now, and don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_102020_SPOOKY_MORDU_2X_INBOX_SUBJECT|Villainous Bonus - 2x Mor'du Token Event
+EVENT_102020_SPOOKY_MORDU_2X_INBOX_BODY|Summoner,<BR><BR>The Villains are taking over!<br><br>Earn <color=#54C5FF>2x Mor'du Tokens</color> for a limited time! Bonus drops can be found on Heroes Campaign node <color=#54C5FF>6-B</color>. Don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_DAYOFGIRLS_INBOX_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>International Day of Girls</color> with this FREE <color=#54C5FF>Snow White Talisman</color>!<BR><BR>Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_SPOOKYBONUSCLUBDUNGEON_INBOX_SUBJECT|Spooky Bonus - Club Dungeon Event
+EVENT_202010_SPOOKYBONUSCLUBDUNGEON_INBOX_BODY|Summoner,<BR><BR>Earn bonus <color=#54C5FF>Spooky Coins</color> in <color=#54C5FF>Club Dungeon</color> battles from October 14 - 16!<BR><BR>Head to the store to spend Spooky Coins on exciting <color=#54C5FF>Mystery Packs</color> now, and don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -4241,7 +4248,7 @@ EVENT_STITCH_TOWER_INBOX_START_SUBJECT|Event Tower: Stitch
 EVENT_TRITON_META_DESC|Use Ariel, Prince Eric, and a team of Oceanic characters to conquer this event tower and unlock King Triton!<br><br><color=#B8E986>TOWER EVENT</color>
 EVENT_TRITON_META_NAME|EVENT TOWER: KING TRITON
 EVENT_TRITON_PORTAL_DESC|EARN KING TRITON TOKENS!
-EVENT_TRITON_TOWER_INBOX_PREVIEW_BODY|Summoners!<BR><BR>Presenting His Majesty, <color=#54C5FF>KING TRITON</color>! Get ready to climb a brand new event tower and unlock the ruler of merfolk, King Triton himself.
+EVENT_TRITON_TOWER_INBOX_PREVIEW_BODY|Summoners!<BR><BR>Prepare yourselves- <color=#54C5FF>KING TRITON</color> has returned! Get ready to conquer the Event Tower and earn exclusive King Triton tokens.
 EVENT_TRITON_TOWER_INBOX_PREVIEW_SUBJECT|Coming Soon: King Triton Event Tower
 EVENT_TRITON_TOWER_INBOX_START_BODY|Summoner,<BR><BR>King Triton has arrived! During this event, you will be using <color=#54C5FF>EVENT TOWER ENERGY</color> to battle, unlocking new and exciting rewards with every Tier you complete.<BR><BR>You'll also earn <color=#54C5FF>EVENT TOWER XP</color> and <color=#54C5FF>TRITON TOWER COINS</color> along the way. XP can be redeemed for both Individual and Club <color=#54C5FF>MILESTONE</color> rewards, while your coins can be spent in the <color=#54C5FF>TRITON TOWER EXCHANGE</color>. When you've climbed as far as you are able, you can <color=#54C5FF>AUTO-BATTLE</color> previously completed Tower stages to earn more XP and Coins.<BR><BR>Power up Ariel and Prince Eric, and support them with your Oceanic team to conquer the tower and unlock King Triton!
 EVENT_TRITON_TOWER_INBOX_START_SUBJECT|Event Tower: King Triton
@@ -4819,6 +4826,35 @@ GOLDEN_HAMMER_SPELLPREVIEWUPGRADE_CHANNEL_DURATION_DECREASE_01S|Reduces the repa
 GOLDEN_HAMMER_SPELLPREVIEWUPGRADE_MAX_HEALTH_RESTORED_10PCT|Increases the percentage of maximum Health with which allies return to battle by 10%.
 GOLDEN_HAMMER_SPELL_DESC_BASE|Deploys the Golden Hammer at the target location, which begins performing repairs for up to <color=#FFC400>{0:N0}s</color>. Golden Hammer is deployed with <color=#5DFF89>{1:N0}</color> (<color=#5DFF89>+{2:N0}</color> per player level) maximum Health.<br><br>If repairs successfully complete, a defeated ally is brought back to the battle with <color=#FEF8E4>{3:P0}</color> of their maximum Health.<br><br>Persists until repairs are successfully completed unless otherwise defeated or Interrupted.
 GOLDEN_HAMMER_SPELL_NAME|GOLDEN HAMMER
+GOOFY_ABILBASIC_NAME|PALOOKA PUMMEL
+GOOFY_ABILPASSIVEA_NAME|ART OF SELF DEFENSE
+GOOFY_ABILSPECIALA_NAME|DANCE AWAY YOUR CARES
+GOOFY_ABILSPECIALB_NAME|MOVING DAY
+GOOFY_BASIC_ABILPREVIEWUPGRADE_01|Each hit has a <color=#FEF8E4>{0:P0}</color> chance to call a random "Sensational Six" or "Mickey and Friends" teammate to Assist.
+GOOFY_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to call a random "Sensational Six" or "Mickey and Friends" teammate to Assist.
+ABILPREVIEWUPGRADE_GEN_HIT_INC|Hits <color=#FEF8E4>{0:N0}</color> additional time.
+GOOFY_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.
+GOOFY_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>Each hit has a <color=#FEF8E4>{2:P0}</color> chance to call a random "Sensational Six" or "Mickey and Friends" teammate to Assist.
+GOOFY_PASSIVEA_ABILPREVIEWUPGRADE_01|On Defense, gain Counter at the start of battle.
+GOOFY_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> less max Health lost to activate.
+GOOFY_PASSIVEA_ABILPREVIEWUPGRADE_03|On gaining a third stack of Counter, gain Evasion.
+GOOFY_PASSIVEA_ABILPREVIEWUPGRADE_04|On gaining a third stack of Counter, gain Undefeatable.
+GOOFY_PASSIVEA_DESC_01|When a teammate loses <color=#FEF8E4>{0:P0}</color> or more of their max Health at once, this character gains Counter, up to a max of {1:N0}.
+GOOFY_PASSIVEA_DESC_02|When a teammate loses <color=#FEF8E4>{0:P0}</color> or more of their max Health at once, this character gains Counter, up to a max of {1:N0}.<br><br>On Defense, gain Counter at the start of battle.
+GOOFY_PASSIVEA_DESC_03|When a teammate loses <color=#FEF8E4>{0:P0}</color> or more of their max Health at once, this character gains Counter, up to a max of {1:N0}. On gaining a third stack of Counter, gain Evasion.<br><br>On Defense, gain Counter at the start of battle.
+GOOFY_PASSIVEA_DESC_04|When a teammate loses <color=#FEF8E4>{0:P0}</color> or more of their max Health at once, this character gains Counter, up to a max of {1:N0}. On gaining a third stack of Counter, gain Evasion and Undefeatable.<br><br>On Defense, gain Counter at the start of battle.
+GOOFY_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance of gaining an additional Evasion.
+GOOFY_SPECIALA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> chance to gain Evasion and +<color=#FEF8E4>{1:P0}</color> chance to gain additional Evasion.
+GOOFY_SPECIALA_DESC_01|Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn. Gain Slow for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to gain Evasion.
+GOOFY_SPECIALA_DESC_02|Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn. Gain Slow for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to gain Evasion with a <color=#FEF8E4>{3:P0}</color> chance to gain an additional Evasion.
+GOOFY_SPECIALB_ABILPREVIEWUPGRADE_01|Transfer all Harmful effects removed by Cleanse to random opponents with their durations refreshed.
+GOOFY_SPECIALB_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> chance to Cleanse an additional Harmful effect from 'Sensational Six' and 'Mickey and Friends' teammates.
+GOOFY_SPECIALB_ABILPREVIEWUPGRADE_03|Guaranteed to Cleanse an additional Harmful effect from 'Sensational Six' and 'Mickey and Friends' teammates.
+GOOFY_SPECIALB_DESC_01|Cleanse all Harmful effects from this character. Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents.
+GOOFY_SPECIALB_DESC_02|Cleanse all Harmful effects from this character. Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents. Transfer all Harmful effects removed by Cleanse to random opponents with their durations refreshed.
+GOOFY_SPECIALB_DESC_03|Cleanse all Harmful effects from this character. Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate. <color=#FEF8E4>{2:P0}</color> chance to Cleanse <color=#FEF8E4>{3:N0}</color> additional Harmful effect from 'Sensational Six' and 'Mickey and Friends' teammates.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents. Transfer all Harmful effects removed by Cleanse to random opponents with their durations refreshed.
+GOOFY_SPECIALB_DESC_04|Cleanse all Harmful effects from this character. Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from each teammate. Cleanse <color=#FEF8E4>{3:N0}</color> additional Harmful effect from 'Sensational Six' and 'Mickey and Friends' teammates.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents. Transfer all Harmful effects removed by Cleanse to random opponents with their durations refreshed.
+GOOFY_UNIT_NAME|GOOFY
 GOON_UNIT_NAME|Goon
 GO_GO_TOMAGO_ABILBASIC_NAME|HEADS UP!
 GO_GO_TOMAGO_ABILPASSIVEA_NAME|WELCOME TO THE NERD LAB
@@ -9730,6 +9766,10 @@ PIN_CAPTAINBARBOSSA_NAME|CAPTAIN BARBOSSA TALISMAN
 PIN_CAPTAINBARBOSSA_DESC|Feast your eyes upon this, mateys.
 PIN_SORCERER_MICKEY_HAT_NAME|SORCERER'S ARENA MICKEY HAT TALISMAN
 PIN_SORCERER_MICKEY_HAT_DESC|Oh, boy! How fun!
+PIN_SNOW_WHITE_NAME|SNOW WHITE TALISMAN
+PIN_SNOW_WHITE_DESC|The fairest of them all.
+PIN_AURORA_NAME|AURORA TALISMAN
+PIN_AURORA_DESC|Yes, it's only in my dreams.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -14658,9 +14698,9 @@ S6_DAISY_GOOFY_DONALD_A_SUBTITLE|COLLECT TOKENS FOR THREE OF THE SENSATIONAL SIX
 S6_DONALD_A_NAME|DONALD DUCK BUNDLE
 S6_DONALD_A_SUBTITLE|GAIN TAUNT, DEFENSE UP, AND COUNTER-ATTACK. WHEN DAMAGED, GAIN RAGE. GAIN ENOUGH RAGE TO BECOME EMPOWERED WHICH IMPROVES COMBAT STATS AND SPECIAL ABILITIES.
 S6_DAISY_GOOFY_A_NAME|DAISY DUCK AND GOOFY BUNDLE
-S6_DAISY_GOOFY_A_SUBTITLE|DAISY DUCK CAN DAMAGE ALL OPPONENETS AND INFLICT DEFENSE DOWN. GOOFY GAINS TAUNT WITH A CHANCE FOR EVASION.
+S6_DAISY_GOOFY_A_SUBTITLE|DAISY DUCK CAN DAMAGE TARGET AND ADJACENT OPPONENTS AND INFLICT DEFENSE DOWN. GOOFY GAINS TAUNT WITH A CHANCE FOR EVASION.
 S6_GOOFY_A_NAME|GOOFY BUNDLE
-S6_GOOFY_A_SUBTITLE|DANCE YOUR CARES AWAY WITH GOOFY. AWKWARDLY DANCING, GAIN TAUNT WITH A CHANCE FOR EVASION. GAIN COUNTER WHEN TEAMMATES DROP BELOW THEIR MAXIMUM HEALTH.
+S6_GOOFY_A_SUBTITLE|DANCE YOUR CARES AWAY WITH GOOFY. AWKWARDLY DANCING, GAIN TAUNT WITH A CHANCE FOR EVASION. GAIN COUNTER WHEN TEAMMATES TAKE LARGE AMOUNTS OF DAMAGE.
 S6_DONALD_GEMS_NAME|DONALD DUCK PACK
 S6_GOOFY_GEMS_NAME|GOOFY PACK
 UNIT_PROMO_MAT_DAISY_DUCK|DAISY DUCK TOKENS
@@ -14673,6 +14713,10 @@ EVENT_202010_S6_INBOX_EVENT_START_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSA
 EVENT_202010_S6_INBOX_EVENT_START_SUBJECT|The Sensational Six Event is live!
 EVENT_202010_S6_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare your <color=#54C5FF>MICKEY AND FRIENDS</color> Characters and your <color=#54C5FF>DUCKS</color> Characters and get ready to battle against infamous Villians to earn exclusive Sensational Six Character Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event!<BR><BR>In Part 1 you will earn Daisy Duck, Goofy, and Donald Duck Tokens. Stay tuned for Part 2 which will require Daisy Duck, Goofy, and Donald Duck to earn Pluto, Minnie Mouse, and Mickey Mouse!
 EVENT_202010_S6_INBOX_PREVIEW_SUBJECT|Coming Soon: The Sensational Six: Part 1!
+EVENT_202010_S6_INBOX_GOOFY_BODY|Summoner,<BR><BR>Bring Daisy Duck, your Mickey and Friends Characters, and your Ducks Characters to fight alongside Goofy and battle against Scar to earn Goofy Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event!
+EVENT_202010_S6_INBOX_GOOFY_SUBJECT|Goofy enters The Sensational Six Event!
+EMOTE_GOOFY_NAME|GOOFY EMOTE
+EMOTE_GOOFY_DESC|Gawrsh.
 PIN_DAISY_DUCK_DESC|DAISY DUCK TALISMAN
 PIN_DAISY_DUCK_NAME|Goody, goody!
 EVENT_202010_SENSATIONALSIX_1_META_DESC|Battle Classic Villains to earn Daisy Duck, Goofy, and Donald Duck Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
@@ -14713,30 +14757,30 @@ EVENT_202010_SENSATIONALSIX_1_A_L8_RECOMMENDED|<size=90%>RECOMMENDED<br>• Leve
 EVENT_202010_SENSATIONALSIX_1_B_NAME|GOOFY VS SCAR
 EVENT_202010_SENSATIONALSIX_1_B_DESC|Earn Goofy Tokens!
 EVENT_202010_SENSATIONALSIX_1_B_AURA_NAME|GOOFY VS SCAR
-EVENT_202010_SENSATIONALSIX_1_B_AURA_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
 EVENT_202010_SENSATIONALSIX_1_B_L0_NAME|GOOFY VS SCAR 1
-EVENT_202010_SENSATIONALSIX_1_B_L0_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
 EVENT_202010_SENSATIONALSIX_1_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_B_L1_NAME|GOOFY VS SCAR 2
-EVENT_202010_SENSATIONALSIX_1_B_L1_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
 EVENT_202010_SENSATIONALSIX_1_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_B_L2_NAME|GOOFY VS SCAR 3
-EVENT_202010_SENSATIONALSIX_1_B_L2_DESC|Defeat Scar!
-EVENT_202010_SENSATIONALSIX_1_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 4 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L2_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
+EVENT_202010_SENSATIONALSIX_1_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_B_L3_NAME|GOOFY VS SCAR 4
-EVENT_202010_SENSATIONALSIX_1_B_L3_DESC|Defeat Scar!
-EVENT_202010_SENSATIONALSIX_1_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 5 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_B_L3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
+EVENT_202010_SENSATIONALSIX_1_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 5 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_B_L4_NAME|GOOFY VS SCAR 5
-EVENT_202010_SENSATIONALSIX_1_B_L4_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
 EVENT_202010_SENSATIONALSIX_1_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_B_L5_NAME|GOOFY VS SCAR 6
-EVENT_202010_SENSATIONALSIX_1_B_L5_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L5_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
 EVENT_202010_SENSATIONALSIX_1_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 7 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_B_L6_NAME|GOOFY VS SCAR 7
-EVENT_202010_SENSATIONALSIX_1_B_L6_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L6_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
 EVENT_202010_SENSATIONALSIX_1_B_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_B_L7_NAME|GOOFY VS SCAR 8
-EVENT_202010_SENSATIONALSIX_1_B_L7_DESC|Defeat Scar!
+EVENT_202010_SENSATIONALSIX_1_B_L7_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Scar! <br>• Scar is Immune to Stun, Sleep, Silence, Slow, Charm, and Polymorph.<br>• 'Cinder Swipe' can Purge Helpful Effects.<br>• When a Hyena is defeated, Scar gains Offense Up. <br>•When a player character is defeated, Scar gains Stealth and an Extra Turn.
 EVENT_202010_SENSATIONALSIX_1_B_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_C_NAME|DONALD DUCK VS HADES
 EVENT_202010_SENSATIONALSIX_1_C_DESC|Earn Donald Duck Tokens!
