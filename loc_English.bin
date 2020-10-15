@@ -963,6 +963,12 @@ BONUS_LOOT_ELASTIGIRL_2X_NAME|2X ELASTIGIRL TOKEN EVENT
 BONUS_LOOT_ELASTIGIRL_2X_SUBTITLE|Earn <color=#54C5FF>2x Elastigirl Tokens</color> by winning battles on Grand Campaign node 4-J and Villains Campaign nodes 7-B and 8-C. Available for a limited time!
 BONUS_LOOT_MORDU_2X_NAME|VILLAINOUS BONUS - 2X MOR'DU TOKEN EVENT
 BONUS_LOOT_MORDU_2X_SUBTITLE|Earn <color=#54C5FF>2x Mor'du Tokens</color> for a limited time! Bonus drops can be found on Heroes Campaign node 6-B.
+BONUS_LOOT_SPOOKY_HADES_2X_NAME|VILLAINOUS BONUS - 2X HADES TOKEN EVENT
+BONUS_LOOT_SPOOKY_HADES_2X_SUBTITLE|Earn <color=#54C5FF>2x Hades Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign node 5-C.
+BONUS_LOOT_SPOOKY_SALLY_2X_NAME|SPOOKY BONUS - 2X  SALLY TOKEN EVENT
+BONUS_LOOT_SPOOKY_SALLY_2X_SUBTITLE|Earn <color=#54C5FF>2x Sally Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign <color=#54C5FF>7-C</color>, Heroes Campaign <color=#54C5FF>8-C</color>, and Grand Campaign <color=#54C5FF>4-H</color>.
+BONUS_LOOT_SPOOKY_JACK_SKELLINGTON_2X_NAME|SPOOKY BONUS - 2X  JACK SKELLINGTON TOKEN EVENT
+BONUS_LOOT_SPOOKY_JACK_SKELLINGTON_2X_SUBTITLE|Earn <color=#54C5FF>2x Jack Skellington Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign <color=#54C5FF>7-D</color>, and Grand Campaign <color=#54C5FF>6-D</color>.
 BONUS_LOOT_INFO_DETAILS|BONUS LOOT DETAILS
 BONUS_LOOT_LABEL|BONUS
 BONUS_LOOT_LAIRKEYS_DESC|Complete <color=#FEF8E4>ANY</color> Heroes or Villains Campaign Battle for a chance to earn <color=#FEF8E4>Lair Keys</color>.<br><br><color=#FEF8E4>Lair Keys</color> are needed to enter into <color=#FEF8E4>The Final Showdown</color> in the <color=#FEF8E4>Scar's Lair</color> Event.
@@ -2287,6 +2293,31 @@ DARKWINGDUCK_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chanc
 DARKWINGDUCK_SPECIALB_DESC_01|Inflict Defense Down on the target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Vulnerable for <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Gizmoduck is a teammate, grant him <color=#FEF8E4>{4:N0}</color> Magic for all abilities. Grant <color=#FEF8E4>{5:N0}</color> Magic for all abilities to <color=#FEF8E4>{6:N0}</color> other random Tech teammate.
 DARKWINGDUCK_SPECIALB_DESC_02|Inflict Defense Down on the target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Vulnerable for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Guaranteed to inflict Vulnerable against Villain characters.<br><br>If Gizmoduck is a teammate, grant him <color=#FEF8E4>{4:N0}</color> Magic for all abilities. Grant <color=#FEF8E4>{5:N0}</color> Magic for all abilities to <color=#FEF8E4>{6:N0}</color> other random Tech teammate.
 DARKWINGDUCK_UNIT_NAME|DARKWING DUCK
+DONALDDUCK_UNIT_NAME|DONALD DUCK
+DONALDDUCK_BASIC_NAME|Put 'Em Up!
+DONALDDUCK_SPECIALA_NAME|What's The Big Idea?!
+DONALDDUCK_SPECIALB_NAME|The Last Straw!
+DONALDDUCK_PASSIVEA_NAME|Short-Tempered
+DONALDDUCK_LEADER_NAME|The Duck
+DONALDDUCK_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. If Empowered, perform a follow-up attack dealing up to <color=#FFC400>{1:N0}</color> damage.<br><br>When an opponent deals damage to allied Daisy Duck, <color=#FEF8E4>{2:P0}</color> chance to counterattack with this ability.
+DONALDDUCK_SPECIALA_DESC_01|Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn. Gain Defense Up for <color=#FEF8E4>{1:N0}</color> turn. Gain <color=#FEF8E4>{2:N0}</color> Counterattack.<br><br>If on Defense, extend Defense Up duration by <color=#FEF8E4>1</color> and gain <color=#FEF8E4>1</color> additional Counterattack.
+DONALDDUCK_SPECIALA_DESC_02|Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn. Gain Defense Up for <color=#FEF8E4>{1:N0}</color> turn. Gain <color=#FEF8E4>{2:N0}</color> Counterattack.<br><br>If Empowered, gain Crit Immunity for <color=#FEF8E4>{3:N0}</color> turn. Consume Empowered.<br><br>If on Defense, extend Defense Up duration by <color=#FEF8E4>1</color> and gain <color=#FEF8E4>1</color> additional Counterattack.
+DONALDDUCK_SPECIALA_DESC_03|Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn. Gain Defense Up for <color=#FEF8E4>{1:N0}</color> turns. Gain <color=#FEF8E4>{2:N0}</color> Counterattack.<br><br>If Empowered, gain Crit Immunity for <color=#FEF8E4>{3:N0}</color> turns. Consume Empowered.<br><br>If on Defense, extend Defense Up duration by <color=#FEF8E4>1</color> and gain <color=#FEF8E4>1</color> additional Counterattack.
+DONALDDUCK_SPECIALA_DESC_04|Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn. Gain Defense Up for <color=#FEF8E4>{1:N0}</color> turns. Gain <color=#FEF8E4>{2:N0}</color> Counterattack.<br><br>If Empowered, Crit Immunity for <color=#FEF8E4>{3:N0}</color> turns and Offense Up for <color=#FEF8E4>{4:N0}</color> turn. Consume Empowered.<br><br>If on Defense, extend Defense Up duration by <color=#FEF8E4>1</color> and gain <color=#FEF8E4>1</color> additional Counterattack.
+DONALDDUCK_SPECIALA_ABILPREVIEWUPGRADE_01|If Empowered, gain Crit Immunity for <color=#FEF8E4>{0:N0}</color> turn. Consume Empowered.
+DONALDDUCK_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Crit Immunity and Defense Up duration.
+DONALDDUCK_SPECIALA_ABILPREVIEWUPGRADE_03|If Empowered, gain Offense Up for <color=#FEF8E4>{0:N0}</color> turns.
+DONALDDUCK_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Counterattack.
+DONALDDUCK_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and <color=#FFC400>{1:N0}</color> damage to all other opponents.<br><br>Deal <color=#FEF8E4>{2:P0}</color> bonus damage per Status Effect on Donald Duck, up to a max of <color=#FEF8E4>{3:N0}</color>.<br><br>If Empowered, deal an additional <color=#FEF8E4>{4:P0}</color> bonus damage. Consume Empowered.<br><br>If Daisy Duck is a teammate, she will assist with her 'I've Had It!' ability regardless of its Magic Charge.
+DONALDDUCK_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Empowered damage dealt.
+DONALDDUCK_PASSIVEA_DESC_01|When Donald Duck or allied Daisy Duck takes damage or receives a Harmful Effect, gain <color=#FEF8E4>{0:N0}</color> Charged.<br><br>When Donald Duck gains <color=#FEF8E4>{2:N0}</color> stacks of Charged, lose all Charged and gain Empowered. Donald Duck cannot gain Charged while Empowered.<br><br>When Empowered, gain the following: <color=#FEF8E4>{3:P0}</color> Offense. <color=#FEF8E4>{4:P0}</color> Defense. <color=#FEF8E4>{5:P0}</color> Crit Chance. <color=#FEF8E4>{6:P0}</color> Crit Power. <color=#FEF8E4>{7:P0}</color> chance to counterattack when being dealt damage by an opponent.<br><br>When Empowered is consumed, restore up to <color=#FEF8E4>{8:P0}</color> of max Health. If Daisy Duck is a teammate, restore up to an additional <color=#FEF8E4>{9:P0}</color> of max Health.
+DONALDDUCK_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Offense and <color=#FEF8E4>{1:P0}</color> Defense.
+DONALDDUCK_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Crit Chance and <color=#FEF8E4>{1:P0}</color> Crit Power.
+DONALDDUCK_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Heal and <color=#FEF8E4>{1:P0}</color> bonus Heal.
+DONALDDUCK_LEADER_DESC_01|'Sensational Six' and 'Ducks' teammates gain <color=#FEF8E4>{0:P0}</color> Offense.
+DONALDDUCK_LEADER_DESC_02|'Sensational Six' and 'Ducks' teammates gain <color=#FEF8E4>{0:P0}</color> Offense.<br><br>'Ducks' teammates have a <color=#FEF8E4>{1:P0}</color> chance to counterattack when dealt damage by an opponent.
+DONALDDUCK_LEADER_ABILPREVIEWUPGRADE_01|'Ducks' teammates have a <color=#FEF8E4>{0:P0}</color> chance to counterattack when dealt damage by an opponent.
+DONALDDUCK_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Offense.
 DASH_ABILBASIC_NAME|QUICK HITS
 DASH_ABILPASSIVEA_NAME|FASTER THAN A ROCKET
 DASH_ABILSPECIALA_NAME|HEADS UP!
@@ -2561,6 +2592,8 @@ ELSA2_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus damage
 ELSA2_SPECIALB_DESC_01|Increase duration of <color=#FEF8E4>{0:N0}</color> random Helpful effects on this character by <color=#FEF8E4>{1:N0}</color>. Deal up to <color=#FFC400>{2:N0}</color> unavoidable damage to all opponents. Damage dealt is increased by <color=#FEF8E4>{3:P0}</color> per Helpful effect on this character.<br><br>If Empowered, perform a follow-up attack:<br><br>Deal up to <color=#FFC400>{4:N0}</color> damage to all opponents. <color=#FEF8E4>{5:P0}</color> chance to inflict Stun for <color=#FEF8E4>{6:N0}</color> turn.
 ELSA2_SPECIALB_DESC_02|Increase duration of <color=#FEF8E4>{0:N0}</color> random Helpful effects on this character by <color=#FEF8E4>{1:N0}</color>. Deal up to <color=#FFC400>{2:N0}</color> unavoidable damage to all opponents. Damage dealt is increased by <color=#FEF8E4>{3:P0}</color> per Helpful effect on this character.<br><br>If Empowered, perform a follow-up attack:<br><br>Deal up to <color=#FFC400>{4:N0}</color> damage to all opponents. <color=#FEF8E4>{5:P0}</color> chance to inflict Stun for <color=#FEF8E4>{6:N0}</color> turn. Chance to inflict Stun is increased by <color=#FEF8E4>{7:P0}</color> per Helpful effect on this character.
 ELSA2_UNIT_NAME|ELSA
+EMOTE_DONALDDUCK_DESC|I'll be doggone!
+EMOTE_DONALDDUCK_NAME|DONALD DUCK EMOTE
 EMOTE_BAYMAX_DESC|Suit up.
 EMOTE_BAYMAX_NAME|BAYMAX EMOTE
 EMOTE_BIG_BABY_DESC|Na naa na naa na.
@@ -3943,6 +3976,12 @@ EVENT_102020_SPOOKY_MORDU_2X_INBOX_BODY|Summoner,<BR><BR>The Villains are taking
 EVENT_202010_DAYOFGIRLS_INBOX_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>International Day of Girls</color> with this FREE <color=#54C5FF>Snow White Talisman</color>!<BR><BR>Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202010_SPOOKYBONUSCLUBDUNGEON_INBOX_SUBJECT|Spooky Bonus - Club Dungeon Event
 EVENT_202010_SPOOKYBONUSCLUBDUNGEON_INBOX_BODY|Summoner,<BR><BR>Earn bonus <color=#54C5FF>Spooky Coins</color> in <color=#54C5FF>Club Dungeon</color> battles from October 14 - 16!<BR><BR>Head to the store to spend Spooky Coins on exciting <color=#54C5FF>Mystery Packs</color> now, and don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_SPOOKY_HADES_2X_INBOX_SUBJECT|Villainous Bonus - 2x Hades Token Event
+EVENT_202010_SPOOKY_HADES_2X_INBOX_BODY|Summoner,<BR><BR>The Villains are taking over!<br><br>Earn <color=#54C5FF>2x Hades Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign node <color=#54C5FF>5-C</color>.<BR><BR>Don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_SPOOKY_SALLY_2X_INBOX_SUBJECT|Spooky Bonus - 2x Sally Token Event
+EVENT_202010_SPOOKY_SALLY_2X_INBOX_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Sally Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign <color=#54C5FF>7-C</color>, Heroes Campaign <color=#54C5FF>8-C</color>, and Grand Campaign <color=#54C5FF>4-H</color>.<BR><BR>Don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_SPOOKY_JACK_2X_INBOX_SUBJECT|Spooky Bonus - 2x Jack Skellington Token Event
+EVENT_202010_SPOOKY_JACK_2X_INBOX_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Jack Skellington Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign <color=#54C5FF>7-D</color>, and Grand Campaign <color=#54C5FF>6-D</color>.<BR><BR>Don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -9770,6 +9809,12 @@ PIN_SNOW_WHITE_NAME|SNOW WHITE TALISMAN
 PIN_SNOW_WHITE_DESC|The fairest of them all.
 PIN_AURORA_NAME|AURORA TALISMAN
 PIN_AURORA_DESC|Yes, it's only in my dreams.
+PIN_HAUNTED_MANSION_GUS_NAME|GUS TALISMAN
+PIN_HAUNTED_MANSION_GUS_DESC|Beware of hitchhiking ghosts!
+PIN_HAUNTED_MANSION_EZRA_NAME|EZRA TALISMAN
+PIN_HAUNTED_MANSION_EZRA_DESC|...they'll haunt you until you return!
+PIN_HAUNTED_MANSION_PHINEAS_NAME|PHINEAS TALISMAN
+PIN_HAUNTED_MANSION_PHINEAS_DESC|...a ghost will follow you home!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -12242,7 +12287,7 @@ STORE_ITEM_LC_GASTON_GACHA_STICKER|STAR BOOSTER
 STORE_ITEM_LC_HADES_A_NAME|HADES STARTER BUNDLE
 STORE_ITEM_LC_HADES_A_STICKER|POWERFUL AREA DAMAGE
 STORE_ITEM_LC_HADES_A_STICKER_2|SORCERER'S TOURNAMENT EXCLUSIVE
-STORE_ITEM_LC_HADES_A_SUBTITLE|BRING SOME HEAT TO THE SORCERER'S TOURNAMENT WITH HADES. DEAL MASSIVE AREA DAMAGE TO ALL ENEMIES. WHEN HADES FALLS BELOW 50% HP HIS ABILITES BECOME IGNITE EMPOWERED.
+STORE_ITEM_LC_HADES_A_SUBTITLE|BRING SOME HEAT TO THE SORCERER'S TOURNAMENT WITH HADES. DEAL MASSIVE AREA DAMAGE TO ALL ENEMIES. WHEN HADES FALLS BELOW 50% HEALTH HIS ABILITES BECOME IGNITE EMPOWERED.
 STORE_ITEM_LC_HOPPER_GACHA_NAME|HOPPER PACK
 STORE_ITEM_LC_JACKSPARROW_A_NAME|JACK SPARROW BUNDLE
 STORE_ITEM_LC_JACKSPARROW_A_STICKER|3X VALUE
@@ -13089,6 +13134,10 @@ STORE_ITEM_SPECIAL_VILLAIN_MINI_MYSTERY_PACK_NAME|MINI VILLAIN
 STORE_ITEM_SPECIAL_VILLAIN_MIGHTY_MYSTERY_PACK_NAME|MIGHTY VILLAIN
 STORE_ITEM_SPECIAL_VILLAIN_MYSTERY_PACK_SUBTITLE|MYSTERY PACK
 STORE_ITEM_SPECIAL_VILLAIN_MYSTERY_PACK_DESC|TRY YOUR LUCK WITH THIS LIMITED TIME MYSTERY PACK. OPEN FOR A CHANCE TO UNLOCK VILLAINS TOKENS.
+STORE ITEM SPECIAL_HAUNTED_MINI_PACK_NAME|MINI HAUNTED
+STORE ITEM SPECIAL_HAUNTED_MIGHTY_PACK_NAME|MIGHTY HAUNTED
+STORE ITEM SPECIAL_HAUNTED_MINI_PACK_DESC|TRY YOUR LUCK FOR A CHANCE TO UNLOCK SPECIAL ITEMS INCLUDING LIMITED TIME TALISMANS.
+STORE ITEM SPECIAL_HAUNTED_MIGHTY_PACK_DESC|TRY YOUR LUCK FOR A CHANCE TO UNLOCK SPECIAL ITEMS INCLUDING TALISMANS, AN EMOTE, AND THE FLUORESCENT OOGIE BOOGIE OUTFIT.
 STORE_ITEM_SPECIAL_COMBO_GEM_TAGLINE|TAP FOR ALL POSSIBLE DROPS
 STORE_ITEM_T3_BUNDLE_NAME|T3 GEAR BUNDLE
 STORE_ITEM_T3_BUNDLE_SUBTITLE|DEFEAT YOUR ENEMIES WITH ENCHANTED GEAR. FOR A LIMITED TIME, POWER UP YOUR TEAM WITH THIS T3 GEAR BUNDLE.
@@ -14040,6 +14089,8 @@ TROPHY_ALADDIN_DESC|Awarded for completing the Cave of Wonders Event.<BR><BR>Col
 TROPHY_ALADDIN_NAME|CAVE OF WONDERS TROPHY
 TROPHY_MOANA_DESC|Awarded for completing the Coconut Crackdown Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_MOANA_NAME|COCONUT CRACKDOWN TROPHY
+TROPHY_VILLAINTINES_DESC|Awarded for completing the Queen's Clash Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_VILLAINTINES_NAME|QUEEN'S CLASH TROPHY
 TROPHY_CELEBRATION_CONTINUE|CONTINUE
 TROPHY_CELEBRATION_SUBTITLE|Trophies are displayed in a showcase on your Profile, and can also be used as profile icons!
 TROPHY_CELEBRATION_TITLE|CONGRATULATIONS!<br>YOU'VE UNLOCKED A TROPHY
@@ -14709,16 +14760,36 @@ UNIT_PROMO_MAT_GOOFY|GOOFY TOKENS
 UNIT_CATEGORY_DUCKS|DUCKS
 PASSHOLDER_202010_1_SEASON_NAME|PASSHOLDER SEASON 12
 PASSHOLDER_202010_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 12 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * DAISY DUCK TOKENS<BR>  * SCROOGE MCDUCK TOKENS<br>  * DARKWING DUCK TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202010_2_SEASON_NAME|PASSHOLDER SEASON 13
+PASSHOLDER_202010_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 13 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * EMPEROR ZURG TOKENS<BR>  * DR. FACILIER TOKENS<br>  * YOKAI TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+EMOTE_ZURG_NAME|EMPEROR ZURG EMOTE
+EMOTE_ZURG_DESC|Muahahaha.
+PIN_ZURG_NAME|EMPEROR ZURG TALISMAN
+PIN_ZURG_DESC|Watch out. He's got an Ion Blaster!
 EVENT_202010_S6_INBOX_EVENT_START_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event has begun!<BR><BR>Bring your Mickey and Friends Characters and your Ducks Characters to fight alongside Daisy Duck and battle against Jafar to earn Daisy Duck Tokens!
 EVENT_202010_S6_INBOX_EVENT_START_SUBJECT|The Sensational Six Event is live!
 EVENT_202010_S6_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare your <color=#54C5FF>MICKEY AND FRIENDS</color> Characters and your <color=#54C5FF>DUCKS</color> Characters and get ready to battle against infamous Villians to earn exclusive Sensational Six Character Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event!<BR><BR>In Part 1 you will earn Daisy Duck, Goofy, and Donald Duck Tokens. Stay tuned for Part 2 which will require Daisy Duck, Goofy, and Donald Duck to earn Pluto, Minnie Mouse, and Mickey Mouse!
 EVENT_202010_S6_INBOX_PREVIEW_SUBJECT|Coming Soon: The Sensational Six: Part 1!
 EVENT_202010_S6_INBOX_GOOFY_BODY|Summoner,<BR><BR>Bring Daisy Duck, your Mickey and Friends Characters, and your Ducks Characters to fight alongside Goofy and battle against Scar to earn Goofy Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event!
 EVENT_202010_S6_INBOX_GOOFY_SUBJECT|Goofy enters The Sensational Six Event!
+EVENT_202010_S6_INBOX_DONALD_BODY|Summoner,<BR><BR>Bring Daisy Duck, Goofy, your Mickey and Friends Characters, and your Ducks Characters to fight alongside Donald Duck and battle against Hades to earn Donald Duck Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event!
+EVENT_202010_S6_INBOX_DONALD_SUBJECT|Donald Duck enters The Sensational Six Event!
+EVENT_202010_S6_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event will be ending soon! This is your <color=#54C5FF>LAST CHANCE</color> to battle, so enter now to earn exclusive <color=#54C5FF>SENSATIONAL SIX</color> Character Tokens!
+EVENT_202010_S6_INBOX_LAST_CHANCE_SUBJECT|Last Chance to earn rewards for THE SENSATIONAL SIX!
+EVENT_202010_S6_INBOX_POST_EVENT_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event has ended! Thank you for participating. Stay tuned for Part 2 which will require Daisy Duck, Goofy, and Donald Duck to earn Pluto, Minnie Mouse, and Mickey Mouse!
+EVENT_202010_S6_INBOX_POST_EVENT_SUBJECT|Event Ended: The Sensational Six: Part 1
+PIN_DONALD_DUCK_DESC|Aw, phooey!
+PIN_DONALD_DUCK_NAME|DONALD DUCK TALISMAN
 EMOTE_GOOFY_NAME|GOOFY EMOTE
 EMOTE_GOOFY_DESC|Gawrsh.
 PIN_DAISY_DUCK_DESC|DAISY DUCK TALISMAN
 PIN_DAISY_DUCK_NAME|Goody, goody!
+EVENT_202010_PVP_TAKEOVER_PREVIEW_SUBJECT|Coming Soon: Haunted Forest PvP Event!
+EVENT_202010_PVP_TAKEOVER_PREVIEW_BODY|Summoner,<BR><BR>Prepare your PvP Arena team! Next season you will battle in the <color=#54C5FF>HAUNTED FOREST PVP EVENT</color>.<BR><BR>Earn Headless Horseman Spell Tokens as well as Spooky Coins as bonus rewards in the PvP Arena Pack.<BR><BR>In addition, you will be able to enjoy the Haunted Forest in the Sorcerer's Tournament.<BR><BR>Good luck, and see you in the Arena!
+EVENT_202010_PVP_TAKEOVER_START_SUBJECT|The Haunted Forest PvP Event is live!
+EVENT_202010_PVP_TAKEOVER_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>HAUNTED FOREST PVP EVENT</color> has begun! Bring your strongest team to the Arena and battle for bonus rewards.<BR><BR>Earn Headless Horseman Spell Tokens as well as Spooky Coins as bonus rewards in the PvP Arena Pack.<BR><BR>Good luck, and see you in the Arena!
+EVENT_202010_PVP_TAKEOVER_NEW_PLAYER_SUBJECT|Haunted Forest PvP Event!
+EVENT_202010_PVP_TAKEOVER_NEW_PLAYER_BODY|Summoner,<BR><BR>Spend Campaign Energy, complete all Daily Quests, and use <color=#54C5FF>AUTO-WIN</color> to earn as much <color=#54C5FF>PLAYER XP</color> as possible!<BR><BR>As soon as you reach level 27 you will unlock the PvP Arena to enter the limited time <color=#54C5FF>HAUNTED FOREST PVP EVENT</color>.<BR><BR>Earn Headless Horseman Spell Tokens as well as Spooky Coins as bonus rewards in the PvP Arena Pack.<BR><BR>Good luck, and see you in the Arena!
 EVENT_202010_SENSATIONALSIX_1_META_DESC|Battle Classic Villains to earn Daisy Duck, Goofy, and Donald Duck Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202010_SENSATIONALSIX_1_META_NAME|SENSATIONAL SIX PT 1
 EVENT_202010_SENSATIONALSIX_1_PORTAL_DESC|EARN SENSATIONAL SIX CHARACTERS!
@@ -14785,7 +14856,7 @@ EVENT_202010_SENSATIONALSIX_1_B_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Leve
 EVENT_202010_SENSATIONALSIX_1_C_NAME|DONALD DUCK VS HADES
 EVENT_202010_SENSATIONALSIX_1_C_DESC|Earn Donald Duck Tokens!
 EVENT_202010_SENSATIONALSIX_1_C_AURA_NAME|DONALD DUCK VS HADES
-EVENT_202010_SENSATIONALSIX_1_C_AURA_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
+EVENT_202010_SENSATIONALSIX_1_C_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat an empowered Hades! <br>• Hades is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• 'Fireball' calls Imps to assist, and Imps attack together. <br>• When one of his teammates is defeated, Hades gains Haste. <br>•When Hades gains Empowered, he gains Invulnerable, Offense Up, and an Extra Turn.
 EVENT_202010_SENSATIONALSIX_1_C_L0_NAME|DONALD DUCK VS HADES 1
 EVENT_202010_SENSATIONALSIX_1_C_L0_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
 EVENT_202010_SENSATIONALSIX_1_C_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
