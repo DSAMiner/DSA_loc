@@ -3593,7 +3593,7 @@ EVENT_202002_ONWARD_KEY_NAME|ONWARD KEY
 EVENT_202002_TOYSTORY_BONUSLOOT_DESC|OBTAIN IN HERO AND VILLAIN CAMPAIGNS
 EVENT_202002_TOYSTORY_BONUSLOOT_NAME|TOY STORY KEY
 EVENT_202002_TOYSTORY_BONUSLOOT_PREVIEW|COMING SOON
-EVENT_202002_ToyStory_INBOX_A_BODY|Summoner,<BR><BR>The <color=#54C5FF>TOY STORY SHOWDOWN EVENT</color> is live! Use your Toy Story characters to fend off the antique shop toys. Bring Buzz Lightyear and battle in the first two stages of the event to earn Woody and Jessie tokens. During the event, you can also earn bonus Woody tokens in the 24 Hour Chest and bonus Jessie tokens in the Loyalty Chest!<BR><BR>You'll need all three characters to battle in <color=#54C5FF>LET'S BE FRIENDS</color>, where you'll need to fight Gabby Gabby to earn tokens of Bo Peep! Join the showdown now and start recruiting your Toy Story team!
+EVENT_202002_ToyStory_INBOX_A_BODY|Summoner,<BR><BR>The <color=#54C5FF>TOY STORY SHOWDOWN EVENT</color> is live! Use your Toy Story characters to fend off the antique shop toys. Bring Buzz Lightyear and battle in the first two stages of the event to earn Woody and Jessie tokens.<BR><BR>You'll need all three characters to battle in <color=#54C5FF>LET'S BE FRIENDS</color>, where you'll need to fight Gabby Gabby to earn tokens of Bo Peep! Join the showdown now and start recruiting your Toy Story team!
 EVENT_202002_ToyStory_INBOX_A_SUBJECT|The Toy Story Showdown Event is Live!
 EVENT_202002_ToyStory_INBOX_B_BODY|Summoner,<BR><BR>Need some help in the Toy Story Showdown? New offers are live in the <color=#54C5FF>STORE</color> to power up your team! Visit now to check them out!
 EVENT_202002_ToyStory_INBOX_B_SUBJECT|New Special Offers!
@@ -3982,6 +3982,7 @@ EVENT_202010_SPOOKY_SALLY_2X_INBOX_SUBJECT|Spooky Bonus - 2x Sally Token Event
 EVENT_202010_SPOOKY_SALLY_2X_INBOX_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Sally Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign <color=#54C5FF>7-C</color>, Heroes Campaign <color=#54C5FF>8-C</color>, and Grand Campaign <color=#54C5FF>4-H</color>.<BR><BR>Don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202010_SPOOKY_JACK_2X_INBOX_SUBJECT|Spooky Bonus - 2x Jack Skellington Token Event
 EVENT_202010_SPOOKY_JACK_2X_INBOX_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Jack Skellington Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign <color=#54C5FF>7-D</color>, and Grand Campaign <color=#54C5FF>6-D</color>.<BR><BR>Don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202010_SPOOKY_CELEBRATION_INBOX_BODY|Summoner,<BR><BR>Join in the haunted fun with a FREE <color=#54C5FF>Pumpkin Mickey Talisman</color> and <color=#54C5FF>Spooky Coins</color>! Don't miss out on spooky bundles, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -6134,6 +6135,11 @@ LOGIN_ULTIMATE_1X_STORE_NAME|1X ULTIMATE LOGIN CALENDAR
 LOGIN_ULTIMATE_1X_STORE_SUBTITLE|ULTIMATE CHESTS AND MORE
 LOGIN_ULTIMATE_1X_SUBTITLE|LOGIN EVERY DAY TO COLLECT 1X ULTIMATE CHESTS AND MORE.
 LOGIN_ULTIMATE_1X_TAB|1X ULTIMATE
+LOGIN_LAPSED_5X_NAME|FREE WELCOME BACK CALENDAR
+LOGIN_LAPSED_5X_STORE_NAME|WELCOME BACK CALENDAR
+LOGIN_LAPSED_5X_SUBTITLE|LOGIN FOR 7 CONSECUTIVE DAYS TO COLLECT A 5X ULTIMATE CHEST AND MORE FOR FREE!
+LOGIN_LAPSED_5X_TAB|5X ULTIMATE
+LOGIN_CALENDAR_NAME|DAILY CALENDAR
 LONESOME_GHOST_UNIT_NAME|Lonesome Ghost
 LOSE_A_BATTLE_DESC|Lose 3 Battles
 LOSE_A_BATTLE_NAME|A LOSING EFFORT
@@ -13138,6 +13144,8 @@ STORE ITEM SPECIAL_HAUNTED_MINI_PACK_NAME|MINI HAUNTED
 STORE ITEM SPECIAL_HAUNTED_MIGHTY_PACK_NAME|MIGHTY HAUNTED
 STORE ITEM SPECIAL_HAUNTED_MINI_PACK_DESC|TRY YOUR LUCK FOR A CHANCE TO UNLOCK SPECIAL ITEMS INCLUDING LIMITED TIME TALISMANS.
 STORE ITEM SPECIAL_HAUNTED_MIGHTY_PACK_DESC|TRY YOUR LUCK FOR A CHANCE TO UNLOCK SPECIAL ITEMS INCLUDING TALISMANS, AN EMOTE, AND THE FLUORESCENT OOGIE BOOGIE OUTFIT.
+STORE_ITEM_SPECIAL_SPOOKY_SALLY_BUNDLE_DESC|UNLOCK SALLY AND POWER UP YOUR MYTHICAL TEAM WITH THIS SPOOKY LIMITED TIME OFFER.
+STORE_ITEM_SPECIAL_SPOOKY_JACK_BUNDLE_DESC|POWER UP YOUR MYTHICAL TEAM WITH JACK SKELLINGTON IN THIS SPOOKY LIMITED TIME OFFER.
 STORE_ITEM_SPECIAL_COMBO_GEM_TAGLINE|TAP FOR ALL POSSIBLE DROPS
 STORE_ITEM_T3_BUNDLE_NAME|T3 GEAR BUNDLE
 STORE_ITEM_T3_BUNDLE_SUBTITLE|DEFEAT YOUR ENEMIES WITH ENCHANTED GEAR. FOR A LIMITED TIME, POWER UP YOUR TEAM WITH THIS T3 GEAR BUNDLE.
@@ -14091,6 +14099,10 @@ TROPHY_MOANA_DESC|Awarded for completing the Coconut Crackdown Event.<BR><BR>Col
 TROPHY_MOANA_NAME|COCONUT CRACKDOWN TROPHY
 TROPHY_VILLAINTINES_DESC|Awarded for completing the Queen's Clash Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_VILLAINTINES_NAME|QUEEN'S CLASH TROPHY
+TROPHY_FROZEN_NAME|INTO THE UNKNOWN TROPHY
+TROPHY_FROZEN_DESC|Awarded for completing the Into the Unknown Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_TS4_DESC|Awarded for completing the Toy Story Showdown Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_TS4_NAME|TOY STORY SHOWDOWN TROPHY
 TROPHY_CELEBRATION_CONTINUE|CONTINUE
 TROPHY_CELEBRATION_SUBTITLE|Trophies are displayed in a showcase on your Profile, and can also be used as profile icons!
 TROPHY_CELEBRATION_TITLE|CONGRATULATIONS!<br>YOU'VE UNLOCKED A TROPHY
@@ -14459,6 +14471,9 @@ VIP_SUBSCRIPTION_MESSAGE_BODY|YOUR VIP GIFT OF THE DAY. YOU HAVE {0} DAYS REMAIN
 VIP_SUBSCRIPTION_MESSAGE_BODY_DELUXE|YOUR DELUXE VIP GIFT OF THE DAY. YOU HAVE {0} DAYS REMAINING.
 VIP_SUBSCRIPTION_MESSAGE_SENDER|YOUR 30-DAY VIP CARD
 VIP_SUBSCRIPTION_MESSAGE_SUBJECT|VIP GIFT
+VIP_SUBSCRIPTION_NAME_KEY_WELCOME_BACK|FREE WELCOME BACK VIP
+VIP_SUBSCRIPTION_MESSAGE_SUBJECT_WELCOME_BACK|WELCOME BACK VIP
+VIP_SUBSCRIPTION_MESSAGE_BODY_WELCOME_BACK|SUMMONER,<BR><BR>ENJOY <color=#54C5FF>7-DAY VIP ACCESS</color> FOR FREE!<BR><BR>UPGRADE AT ANY TIME TO <color=#54C5FF>VIP</color> OR <color=#54C5FF>DELUXE VIP</color> TO CONTINUE GAINING VIP BENEFITS AS WELL AS EVEN MORE DAILY GEMS.<BR><BR>YOU HAVE {0} DAYS LEFT!
 VIP_SUBSCRIPTION_MESSAGE_SUBJECT_DELUXE|DELUXE VIP GIFT
 VIP_SUBSCRIPTION_NAME_KEY_DELUXE|DELUXE
 VIP_SUBSCRIPTION_NAME_KEY_STANDARD|STANDARD
