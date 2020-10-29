@@ -1,0 +1,31 @@
+name: Discord Webhook for Github Actions
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/setup-ruby@v1
+      - name: Send Webhook Notification
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          HOOK_OS_NAME: ${{ runner.os }}
+          WORKFLOW_NAME: ${{ github.workflow }}
+        run: |
+          echo Status: $JOB_STATUS
+          #git clone https://github.com/DiscordHooks/github-actions-discord-webhook.git webhook
+          #bash webhook/send.sh $JOB_STATUS $WEBHOOK_URL
+        shell: bash
+
+      - name: Discord Commits
+        uses: Sniddl/discord-commits@v1.2
+        with:
+          webhook: ${{ secrets.WEBHOOK_URL }}
+          message: "Successful commit to **{{ github.context.payload.repository.owner.name }}/{{ github.context.payload.repository.name}}**.\nDiff: {{ github.context.payload.compare }}"
+          embed: '{ "title": "{{ commit.title }}", "description": "{{ commit.description }}", "url": "{{ commit.url }}", "author": { "name": "{{ commit.author.name }} ({{ commit.author.username }})", "icon_url": "https://avatars.io/gravatar/{{ commit.author.email }}"} }'
