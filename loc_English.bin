@@ -20,6 +20,12 @@ ABILITY_MAT_EVENT_TIER_4_DESC|<color=#906f73>TITLE GOES HERE</color><br>Ability 
 ABILITY_MAT_EVENT_TIER_4_NAME|WINTER WONDER FIVE
 ABILITY_MAT_EVENT_TIER_5_DESC|<color=#906f73>TITLE GOES HERE</color><br>Ability Upgrade Materials<br><br>Recommended Level: 60<br>Stars: 6
 ABILITY_MAT_EVENT_TIER_5_NAME|WINTER WONDER SIX
+ABILITY_ESCAPE_NAME|Escape
+ABILITY_ESCAPE_100PCT_DESC|This character makes an attempt to Escape. If successful, this character will immediately depart the battle and still be able to fight in future attempts.<br><br>Escape Chance: <color=#FEF8E4>100%</color>
+ABILITY_ESCAPE_80PCT_DESC|This character makes an attempt to Escape. If successful, this character will immediately depart the battle and still be able to fight in future attempts.<br><br>Escape Chance: <color=#FEF8E4>80%</color>
+ABILITY_ESCAPE_60PCT_DESC|This character makes an attempt to Escape. If successful, this character will immediately depart the battle and still be able to fight in future attempts.<br><br>Escape Chance: <color=#FEF8E4>60%</color>
+ABILITY_ESCAPE_40PCT_DESC|This character makes an attempt to Escape. If successful, this character will immediately depart the battle and still be able to fight in future attempts.<br><br>Escape Chance: <color=#FEF8E4>40%</color>
+ABILITY_ESCAPE_20PCT_DESC|This character makes an attempt to Escape. If successful, this character will immediately depart the battle and still be able to fight in future attempts.<br><br>Escape Chance: <color=#FEF8E4>20%</color>
 ABILITY_RUNES|<size=85%>ABILITY RUNES
 ABILITY_TYPE_SPELL|SPELL
 ABILITY_UNLOCK_BUTTON|UNLOCK
@@ -575,6 +581,8 @@ BATTLE_CAST_FAIL_NO_CARD|No Card Selected
 BATTLE_CAST_FAIL_NO_CASTER|No Valid Caster
 BATTLE_CAST_FAIL_NO_TARGET|No Valid Target
 BATTLE_CATCHUP|RESUMING BATTLE...
+BATTLE_CHOICE_ONE_STATUS|{0}<br>{1}
+BATTLE_CHOICE_TWO_STATUS|{0}<br>{1}<br>{2}
 BATTLE_CRIT|CRIT!
 BATTLE_DAMAGE_STRONG|<size=32><color=#ffffff>STRONG!</color></size>
 BATTLE_DAMAGE_WEAK|<size=32><color=#aaaaaa>WEAK!</color></size>
@@ -583,6 +591,8 @@ BATTLE_EFFECT_BLACK_SPOT|THE BLACK SPOT
 BATTLE_EFFECT_BLACK_SPOT_DESC|Deals damage to affected character and its nearby allies on expiration or removal.
 BATTLE_EFFECT_BLEED|WOUNDED
 BATTLE_EFFECT_BLIND|BLIND
+BATTLE_EFFECT_STAGGER|STAGGER
+BATTLE_EFFECT_STAGGER_DESC|Affected character cannot use abilities.
 BATTLE_EFFECT_BLIND_DESC|Chance for affected character's attacks to be Evaded is increased by 50%.
 BATTLE_EFFECT_BLOCK|BLOCK
 BATTLE_EFFECT_BOMB|DELAYED DAMAGE
@@ -616,11 +626,20 @@ BATTLE_EFFECT_DAMAGE_SHIELD|DAMAGE SHIELD
 BATTLE_EFFECT_DAMAGE_SHIELD_DESC|When affected character is dealt damage, attacker is also dealt damage.
 BATTLE_EFFECT_DEAD_MANS_CHEST|DEAD MAN'S CHEST
 BATTLE_EFFECT_DEAD_MANS_CHEST_DESC|On expiration, revives Davy Jones.
+BATTLE_EFFECT_DECREASE_MAX_HEALTH|MAX HEALTH DOWN
+BATTLE_EFFECT_INCREASE_MAX_HEALTH|MAX HEALTH UP
 BATTLE_EFFECT_DEFENSE_DOWN|DEFENSE DOWN
 BATTLE_EFFECT_DEFENSE_DOWN_DESC|Decreases Defense by 50%, causing affected character to take more damage.
 BATTLE_EFFECT_DEFENSE_UP|DEFENSE UP
 BATTLE_EFFECT_DEFENSE_UP_DESC|Increases Defense by 50%, causing affected character to take less damage.
+BATTLE_EFFECT_ESCAPE_FAIL|ESCAPE FAILED!
+BATTLE_EFFECT_TENACITY_UP|TENACITY UP
+BATTLE_EFFECT_TENACITY_UP_DESC|Increases Tenacity by 50%, causing affected character have a higher chance of resisting Harmful effects.
+BATTLE_EFFECT_TENACITY_DOWN|TENACITY DOWN
+BATTLE_EFFECT_TENACITY_DOWN_DESC|Decreases Tenacity by 50%, causing affected character have a lower chance of resisting Harmful effects.
 BATTLE_EFFECT_DELAYED_DAMAGE|COUNTDOWN
+BATTLE_EFFECT_RAID_PASSIVE_COUNTDOWN_DESC|Affected character becomes Empowered when effect expires.
+BATTLE_EFFECT_RAID_PASSIVE_EMPOWERED_DESC|Affected character has a chance to gain additional Ability Magic for all abilities on turn start. Guaranteed if not affected by a Harmful effect.
 BATTLE_EFFECT_DISABLE|DISABLED
 BATTLE_EFFECT_EMPOWERED|EMPOWERED
 BATTLE_EFFECT_EMPOWERED_DESC|Affected character gains benefits such as increased stats or additional effects on their abilities.
@@ -630,7 +649,7 @@ BATTLE_EFFECT_EXPOSED|VULNERABLE
 BATTLE_EFFECT_EXPOSED_DESC|Next harmful activated ability targeting affected unit will deal a Critical Strike.
 BATTLE_EFFECT_EXTRAATTACK|EXTRA ATTACK
 BATTLE_EFFECT_FEAR|FEAR
-BATTLE_EFFECT_FEAR_DESC|Affected character will not be able to dodge or resist enemy attacks or effects.
+BATTLE_EFFECT_FEAR_DESC|Affected character will not be able to dodge or resist enemy attacks or effects. Applies with an innate 25% Potency.
 BATTLE_EFFECT_FOLLOWUP|FOLLOW UP
 BATTLE_EFFECT_GUARANTEED_CRIT|GUARANTEED CRIT
 BATTLE_EFFECT_GUARANTEED_CRIT_DESC|Affected character deals a Critical Strike with their next activated ability.
@@ -643,6 +662,7 @@ BATTLE_EFFECT_HASTE_DESC|Increases Speed of the affected character by 50%.
 BATTLE_EFFECT_HEAL_BLOCK|HEAL BLOCK
 BATTLE_EFFECT_HEAL_BLOCK_DESC|Prevents the affected character from having their Health restored.
 BATTLE_EFFECT_HELPFUL_IMMUNITY|HELPFUL IMMUNITY
+BATTLE_EVENT_HELPFUL_IMMUNE|HELPFUL IMMUNE
 BATTLE_EFFECT_HELPFUL_IMMUNITY_DESC|Prevents helpful effects from being granted to the affected character.
 BATTLE_EFFECT_INSTANTDEFEAT|INSTANT DEFEAT!
 BATTLE_EFFECT_INTIMIDATE|INTIMIDATE
@@ -651,12 +671,14 @@ BATTLE_EFFECT_INVULNERABILITY|INVULNERABLE
 BATTLE_EFFECT_INVULNERABILITY_DESC|Affected character is immune to damage and Harmful effects.
 BATTLE_EFFECT_LIFE_STEAL|LIFE DRAIN
 BATTLE_EFFECT_LIFE_STEAL_DESC|Affected character heals a percent of damage dealt.
-BATTLE_EFFECT_MAGIC_GAIN_01|+1 Magic
-BATTLE_EFFECT_MAGIC_LOSE_01|-1 Magic
+BATTLE_EFFECT_MAGIC_GAIN_01|MAGIC INCREASE
+BATTLE_EFFECT_MAGIC_LOSE_01|MAGIC DECREASE
 BATTLE_EFFECT_MANA_COST_INCREASE_ONE|+1 MAGIC COST
 BATTLE_EFFECT_MANA_COST_INCREASE_TWO|+2 MAGIC COST
 BATTLE_EFFECT_MANA_GAIN_ONE|+1 MAGIC
 BATTLE_EFFECT_MANA_GAIN_TWO|+2 MAGIC
+BATTLE_EFFECT_CONTRACT_COMPLETE|CONTRACT COMPLETE!
+BATTLE_EFFECT_CONTRACT_FAILED|CONTRACT FAILED
 BATTLE_EFFECT_OFFENSE_DOWN|OFFENSE DOWN
 BATTLE_EFFECT_OFFENSE_DOWN_DESC|Decreases Offense by 50%, causing the affected character to deal less damage.
 BATTLE_EFFECT_OFFENSE_UP|OFFENSE UP
@@ -672,6 +694,8 @@ BATTLE_EFFECT_OVERHEAD_TEXT_WARNING|WARNING
 BATTLE_EFFECT_OVERHEAD_TIMER|FOCUSING
 BATTLE_EFFECT_PATIENT|PATIENT
 BATTLE_EFFECT_PATIENT_DESC|Target recovers Health each Turn. Inceases Defense by <color=#FEF8E4>30%</color>. Immune to counterattacks and Taunt. Baymax will intercept <color=#FEF8E4>25%</color> of damage targeted at a teammate with this effect. Damage dealt to Baymax in this way will use his stats. This effect cannot be Purged.
+BATTLE_EFFECT_POISON|POISON
+BATTLE_EFFECT_POISON_DESC|Deals percentage of character's max Health as damage each turn. Cannot be Cleansed. Duration is reduced by 1 each time affected character is Healed.
 BATTLE_EFFECT_POLYMOPRH_DESC|Affected character takes the form of another character.
 BATTLE_EFFECT_POLYMORPH|POLYMORPH
 BATTLE_EFFECT_PUMPKIN_SHIELD|PUMPKIN SHIELD
@@ -690,11 +714,18 @@ BATTLE_EFFECT_SLEEP|SLEEP
 BATTLE_EFFECT_SLEEP_DESC|Affected character cannot use abilities. If this character is dealt damage, the effect is interrupted.
 BATTLE_EFFECT_SLOW|SLOW
 BATTLE_EFFECT_SLOW_DESC|Decreases Speed of the affected character by 50%.
+BATTLE_EFFECT_URSULA_CONTRACT|URSULA'S CONTRACT
+BATTLE_EFFECT_URSULA_CONTRACT_CRITICAL_STRIKES_DESC|Deal Critical Strikes to Ursula with different characters before this Contract expires.
+BATTLE_EFFECT_URSULA_CONTRACT_INFLICT_HARMFUL_DESC|Inflict Harmful effects on Ursula with different characters before this Contract expires.
+BATTLE_EFFECT_URSULA_CONTRACT_HEALTH_LIMIT_DESC|The current Health of all teammates must be over 30% of their total possible maximum Health when this Contract expires.
+BATTLE_EFFECT_URSULA_CONTRACT_RESTORE_HEALTH_DESC|Restore Health to teammates multiple times before this Contract expires.
+BATTLE_EFFECT_URSULA_CONTRACT_GRANT_HELPFUL_DESC|Grant Helpful effects to teammates multiple times before this Contract expires.
+BATTLE_EFFECT_URSULA_CONTRACT_HEALTH_LIMIT_NEGATIVE_DESC|This teammate's Health is below the limit for Ursula's Contract.
 BATTLE_EFFECT_SPIRITS|SPIRITS
 BATTLE_EFFECT_SPIRITS_DESC|Affected character gains additional Offense and Defense as they gain more Spirits.
 BATTLE_EFFECT_STACK_COUNT|x{0}
 BATTLE_EFFECT_STASIS|STASIS
-BATTLE_EFFECT_STASIS_DESC|Affected character cannot use abilities, cannot be targeted, and cannot be dealt damage.
+BATTLE_EFFECT_STASIS_DESC|Affected character cannot use abilities, cannot be targeted, and cannot be dealt damage. Removes all Harmful effects.
 BATTLE_EFFECT_STEALTH|STEALTH
 BATTLE_EFFECT_STEALTH_DESC|Affected character cannot be targeted by enemies if other characters are available.
 BATTLE_EFFECT_STUN|STUN
@@ -721,7 +752,7 @@ BATTLE_EVENT_EFFECT_IMMUNE|EFFECT IMMUNE
 BATTLE_EVENT_ENRAGE|ENRAGED
 BATTLE_EVENT_EVADE|EVADED
 BATTLE_EVENT_EXTRA_TURN|SPEED FILL
-BATTLE_EVENT_IMMUNE|RESISTED
+BATTLE_EVENT_IMMUNE|IMMUNE
 BATTLE_EVENT_TENACITY|RESISTED
 BATTLE_FINAL_ENC_01|<size=150%><color=#FF8E08>Final Encounter
 BATTLE_FINAL_ENC_02|<size=150%><color=#FF4AE2>X2 Magic
@@ -828,9 +859,9 @@ BAYMAX_PASSIVEB_DESC_02|On this character being defeated, perform the following:
 BAYMAX_PASSIVEB_DESC_03|On this character being defeated, perform the following:<br><br>Cleanse <color=#FEF8E4>{0:N0}</color> Harmful Effects from all teammates. Grant all Hero 'Big Hero 6' teammates Charged. Teammate with Patient status recovers <color=#5DFF89>{1:N0}</color> Health and gains Invulnerable for <color=#FEF8E4>{2:N0}</color> turn.<br><br>If Hiro Hamada is a teammate, he gains 100% Speed Meter and Unstoppable for <color=#FEF8E4>{3:N0}</color> turns.
 BAYMAX_SPECIALA_ABILPREVIEWUPGRADE_01|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful Effect from target teammate.
 BAYMAX_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Harmful effect Cleansed.
-BAYMAX_SPECIALA_DESC_01|Baymax gains Taunt for <color=#FEF8E4>{6:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turns.<br><br>Restore <color=#5DFF89>{1:N0}</color> Health to target teammate. Grants the Patient status.<br><br>Patient: Target recovers <color=#5DFF89>{2:N0}</color> Health each Turn. Inceases Defense by <color=#FEF8E4>{3:P0}</color>. Immune to counterattacks and Taunt. Baymax will intercept <color=#FEF8E4>{4:P0}</color> of damage targeted at a teammate with this effect. Damage dealt to Baymax in this way will use his stats. This effect cannot be Purged.<br><br>There can only be <color=#FEF8E4>1</color> Patient status on the field. When Baymax is defeated, Patient is removed. When a teammate with Patient is defeated, Baymax gains <color=#FEF8E4>100%</color> Speed Meter.
-BAYMAX_SPECIALA_DESC_02|Baymax gains Taunt for <color=#FEF8E4>{6:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turns.<br><br>Restore <color=#5DFF89>{1:N0}</color> Health to target teammate. Cleanse <color=#FEF8E4>{5:N0}</color> Harmful Effect from target teammate. Grants the Patient status.<br><br>Patient: Target recovers <color=#5DFF89>{2:N0}</color> Health each Turn. Inceases Defense by <color=#FEF8E4>{3:P0}</color>. Immune to counterattacks and Taunt. Baymax will intercept <color=#FEF8E4>{4:P0}</color> of damage targeted at a teammate with this effect. Damage dealt to Baymax in this way will use his stats. This effect cannot be Purged.<br><br>There can only be <color=#FEF8E4>1</color> Patient status on the field. When Baymax is defeated, Patient is removed. When a teammate with Patient is defeated, Baymax gains <color=#FEF8E4>100%</color> Speed Meter.
-BAYMAX_SPECIALA_DESC_03|Baymax gains Taunt for <color=#FEF8E4>{6:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turns.<br><br>Restore <color=#5DFF89>{1:N0}</color> Health to target teammate. Cleanse <color=#FEF8E4>{5:N0}</color> Harmful Effects from target teammate. Grants the Patient status.<br><br>Patient: Target recovers <color=#5DFF89>{2:N0}</color> Health each Turn. Inceases Defense by <color=#FEF8E4>{3:P0}</color>. Immune to counterattacks and Taunt. Baymax will intercept <color=#FEF8E4>{4:P0}</color> of damage targeted at a teammate with this effect. Damage dealt to Baymax in this way will use his stats. This effect cannot be Purged.<br><br>There can only be <color=#FEF8E4>1</color> Patient status on the field. When Baymax is defeated, Patient is removed. When a teammate with Patient is defeated, Baymax gains <color=#FEF8E4>100%</color> Speed Meter.
+BAYMAX_SPECIALA_DESC_01|Baymax gains Taunt for <color=#FEF8E4>{6:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Restore <color=#5DFF89>{1:N0}</color> Health to target teammate. Grants the Patient status.<br><br>Patient: Target recovers <color=#5DFF89>{2:N0}</color> Health each Turn. Increases Defense by <color=#FEF8E4>{3:P0}</color>. Immune to counterattacks and Taunt. Baymax will intercept <color=#FEF8E4>{4:P0}</color> of damage targeted at a teammate with this effect. Damage dealt to Baymax in this way will use his stats. This effect cannot be Purged.<br><br>There can only be <color=#FEF8E4>1</color> Patient status on the field. When Baymax is defeated, Patient is removed. When a teammate with Patient is defeated, Baymax gains <color=#FEF8E4>100%</color> Speed Meter.
+BAYMAX_SPECIALA_DESC_02|Baymax gains Taunt for <color=#FEF8E4>{6:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Restore <color=#5DFF89>{1:N0}</color> Health to target teammate. Cleanse <color=#FEF8E4>{5:N0}</color> Harmful Effect from target teammate. Grants the Patient status.<br><br>Patient: Target recovers <color=#5DFF89>{2:N0}</color> Health each Turn. Increases Defense by <color=#FEF8E4>{3:P0}</color>. Immune to counterattacks and Taunt. Baymax will intercept <color=#FEF8E4>{4:P0}</color> of damage targeted at a teammate with this effect. Damage dealt to Baymax in this way will use his stats. This effect cannot be Purged.<br><br>There can only be <color=#FEF8E4>1</color> Patient status on the field. When Baymax is defeated, Patient is removed. When a teammate with Patient is defeated, Baymax gains <color=#FEF8E4>100%</color> Speed Meter.
+BAYMAX_SPECIALA_DESC_03|Baymax gains Taunt for <color=#FEF8E4>{6:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Restore <color=#5DFF89>{1:N0}</color> Health to target teammate. Cleanse <color=#FEF8E4>{5:N0}</color> Harmful Effects from target teammate. Grants the Patient status.<br><br>Patient: Target recovers <color=#5DFF89>{2:N0}</color> Health each Turn. Increases Defense by <color=#FEF8E4>{3:P0}</color>. Immune to counterattacks and Taunt. Baymax will intercept <color=#FEF8E4>{4:P0}</color> of damage targeted at a teammate with this effect. Damage dealt to Baymax in this way will use his stats. This effect cannot be Purged.<br><br>There can only be <color=#FEF8E4>1</color> Patient status on the field. When Baymax is defeated, Patient is removed. When a teammate with Patient is defeated, Baymax gains <color=#FEF8E4>100%</color> Speed Meter.
 BAYMAX_SPECIALB_ABILPREVIEWUPGRADE_01|If Hiro is a teammate, grant 'Big Hero 6' teammates Harmful Immunity for <color=#FEF8E4>{0:N0}</color> turn.
 BAYMAX_SPECIALB_ABILPREVIEWUPGRADE_02|If Hiro is a teammate, grant 'Big Hero 6' teammates Unstoppable for <color=#FEF8E4>{0:N0}</color> turn.
 BAYMAX_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. All Teammates restore <color=#5DFF89>{1:N0}</color> Health.<br><br>Purge <color=#FEF8E4>{2:N0}</color> Helpful Effect on all opponents per number of Charges on Baymax. Cleanse <color=#FEF8E4>{2:N0}</color> Harmful Effect on all teammates per number of Charges on Baymax. Consumes Charges.<br><br>Grant <color=#FEF8E4>{3:N0}</color> Continuous Healing, restoring up to <color=#5DFF89>{4:N0}</color> Health over <color=#FEF8E4>{5:N0}</color> turns.<br><br>If Hiro is a teammate, grant 'Big Hero 6' teammates Defense Up for <color=#FEF8E4>{6:N0}</color> turn.
@@ -1481,6 +1512,7 @@ CLUB_GIFT_BODY_ANON|Someone in {0} has sent you a Club Gift!
 CLUB_GIFT_CHAT|{0} has sent a Club Gift!
 CLUB_GIFT_CHAT_ANON_SENDER|Someone has sent a Club Gift!
 CLUB_GIFT_SUBJECT|You have received a Club Gift!
+CLUB_HUB_BATTLES|CLUB ADVENTURES
 CLUB_HUB_BUTTON|CLUB LOBBY
 CLUB_HUB_DUNGEON_ATTEMPTS_REMAINING_LABEL|REMAINING
 CLUB_HUB_INVITE_FRIENDS_BUTTON|INVITE FRIENDS
@@ -1493,6 +1525,7 @@ CLUB_INBOX_MESSAGE_BODY_PROMOTION|Congratulations {0},<br><br>Due to your dedica
 CLUB_INBOX_MESSAGE_SENDER|YOUR CLUB
 CLUB_INBOX_MESSAGE_SUBJECT_ITEM_REQUEST_FULFILLED|Your item request has been fulfilled
 CLUB_INBOX_MESSAGE_SUBJECT_PROMOTION|Congrats! You have been promoted in your club!
+CLUB_INVENTORY_ITEM_DAILY_LIMIT_MAXED|MAXED
 CLUB_INVITES_APPROVE_BUTTON|APPROVE
 CLUB_INVITES_APPROVE_FAILED_ERROR|We were unable to approve this Club invite.<br>Reason: {0}
 CLUB_INVITES_LIST_EMPTY|No pending club invites
@@ -1524,6 +1557,24 @@ CLUB_JOIN_FAILED_JOINING_LOCKED|Unable to join clubs for {0}
 CLUB_JOIN_REQUEST_BUTTON|REQUEST TO JOIN
 CLUB_JOIN_REQUEST_CANCEL_FAILED_ERROR|We were unable to cancel this Club join request.<br>Reason: {0}
 CLUB_KICK_FAILED_ERROR|We were unable to remove this Club member.<br>Reason: {0}
+CLUB_LEADERBOARD_DUNGEON|CLUB DUNGEON
+CLUB_LEADERBOARD_DUNGEON_PLAYERS|CLUB DUNGEON PLAYERS
+CLUB_LEADERBOARD_EMPTY|NO LEADERBOARD ENTRIES FOUND
+CLUB_LEADERBOARD_GO_TO_CLUB|CLUB PROFILE
+CLUB_LEADERBOARD_GO_TO_PLAYER|PLAYER PROFILE
+CLUB_LEADERBOARD_PLAYER_LEVEL|PLAYER LEVEL:
+CLUB_LEADERBOARD_POINTS|VICTORY POINTS:
+CLUB_LEADERBOARD_RANK|RANK:
+CLUB_LEADERBOARD_RESETS_IN|RESETS IN:
+CLUB_LEADERBOARD_RAID_OVERALL_GLOBAL|ALL RAIDS (GLOBAL)
+CLUB_LEADERBOARD_RAID_OVERALL_REGIONAL|ALL RAIDS (REGIONAL)
+CLUB_LEADERBOARD_RAID_SPECIFIC_GLOBAL|{0} (GLOBAL)
+CLUB_LEADERBOARD_RAID_SPECIFIC_REGIONAL|{0} (REGIONAL)
+CLUB_LEADERBOARD_VIEW_YOUR_CLUB|VIEW YOUR CLUB
+REWARD_RAID_TEXT|THE FORBIDDEN DEPTHS RAID
+VICTORY_REWARD|RAID COMPLETE!
+RAID_REWARD_CLAIM_BUTTON|CLAIM
+RAID_DIFFICULTY_TEXT|DIFFICULTY: TIER00
 CLUB_LEAVE_CONFIRM_TEXT|Are you sure you wish to leave this Club?
 CLUB_LEAVE_CONFIRM_TEXT_WITH_LOCK|Are you sure you wish to leave this Club? You won't be able to join another club for {0}
 CLUB_LEAVE_FAILED_ERROR|We were unable to leave this Club.<br>Reason: {0}
@@ -1557,6 +1608,9 @@ CLUB_SETTING_INVITE_POLICY_OPEN|OPEN
 CLUB_SETTING_LEVEL_REQUIREMENT_LABEL|REQUIRED LEVEL:
 CLUB_SETTING_NAME_LABEL|CLUB NAME:
 CLUB_SORT_COLLECTION_SCORE|SUMMONER SCORE
+CLUB_SORT_CONTRIBUTION_DAILY|DAILY RAID TICKETS
+CLUB_SORT_CONTRIBUTION_LIFETIME|LIFETIME RAID TICKETS
+CLUB_SORT_CONTRIBUTION_SEASONAL|SEASONAL RAID TICKETS
 CLUB_SORT_DONATION_COUNT|DONATIONS
 CLUB_SORT_JOIN_DATE|JOIN DATE
 CLUB_SORT_LAST_LOGIN|LAST CHECK-IN
@@ -1751,7 +1805,7 @@ CM_TUTORIAL_BATTLE_1F_STEP02_BODY|Tap here to add <color=#F3340E>Ariel</color> t
 CM_TUTORIAL_BATTLE_1F_STEP04_BODY|Let's go battle with <color=#F3340E>Ariel</color> as our new <color=#54C5FF>Support</color> Character!
 CM_TUTORIAL_CLAIM_FIRST_QUEST_STEP00_BODY|The <color=#54C5FF>MAGICAL METEOR SPELL</color> deals devastating damage and can turn the tide of battle!
 CM_TUTORIAL_CLUBS_FORCED_STEP00_BODY|A great reward awaits for joining a <color=#54C5FF>CLUB</color>
-CM_TUTORIAL_CLUBS_PT1_STEP00_BODY|Joining a Club will give you access to the <color=#54C5FF>CLUB DUNGEON</color> and <color=#54C5FF>CLUB CONQUEST</color>
+CM_TUTORIAL_CLUBS_PT1_STEP00_BODY|Joining a Club will give you access to the <color=#54C5FF>CLUB ADVENTURES</color> and <color=#54C5FF>CLUB CONQUEST</color>
 CM_TUTORIAL_CLUBS_PT1_STEP01_BODY|You can create your own <color=#FF7810>CLUB</color> and invite your friends!
 CM_TUTORIAL_CLUBS_PT1_STEP02_BODY|You can search for and join an existing <color=#FF7810>CLUB</color> or pick one from the list below which is recommended for new players
 CM_TUTORIAL_CLUBS_PT1_STEP03_BODY|Create or join a <color=#FF7810>CLUB</color> today! Don't miss out on <color=#54C5FF>Club Dungeons</color> and <color=#FF7810>Club Conquest</color>
@@ -1973,6 +2027,10 @@ CURRENCY_ARENA_DESC|Tournament Coins are earned by competing against other playe
 CURRENCY_ARENA_NAME|TOURNAMENT COINS
 CURRENCY_CLUB_DESC|Club Coins are earned by participating in Club Dungeon, Club Conquest, and Club Activities. They can be redeemed in the CLUB EXCHANGE
 CURRENCY_CLUB_NAME|CLUB COINS
+CURRENCY_RAID_DESC|Raid Coins are earned by participating in Raids. They can be redeemed in the RAID EXCHANGE
+CURRENCY_RAID_NAME|RAID COINS
+CURRENCY_URSULA_TICKET_DESC|Used by Clubs to start <color=#FEF8E4>RAID BATTLES</color>. Earned throughout various game modes and are delivered immediately to a Club's inventory.<br><br>Must be in a Club to obtain.
+CURRENCY_URSULA_TICKET_NAME|FORBIDDEN DEPTHS RAID TICKET<br><size=80%><color=#BCB9ED>Club Currency</color></size>
 CURRENCY_EVENT_COINS|EVENT COINS
 CURRENCY_EVENT_KEYS|EVENT KEYS
 CURRENCY_EVENT_NAME|EVENT CURRENCY
@@ -2358,9 +2416,9 @@ DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to
 DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_02|Guaranteed to summon Flying Dutchman crewmate.
 DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Flying Dutchman crewmate Health. <color=#FEF8E4>+{1:P0}</color> Flying Dutchman crewmate Offense.
 DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>{0:P0}</color> chance for Flying Dutchman crewmates to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn when summoned.
-DAVYJONES_PASSIVE_DESC_01|On character defeat, <color=#FEF8E4>{0:P0}</color> chance to summon an allied Flying Dutchman Crewmate at a random location.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
-DAVYJONES_PASSIVE_DESC_02|On character defeat, summon an allied Flying Dutchman Crewmate at a random location.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
-DAVYJONES_PASSIVE_DESC_03|On character defeat, summon an allied Flying Dutchman Crewmate at a random location. <color=#FEF8E4>{5:P0}</color> chance for the Flying Dutchman Crewmate to gain Offense Up for <color=#FEF8E4>{6:N0}</color> turn when summoned.<br><br>Flying Dutchman Crewmate: Has <color=#5DFF89>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
+DAVYJONES_PASSIVE_DESC_01|On character defeat, <color=#FEF8E4>{0:P0}</color> chance to summon an allied Flying Dutchman Crewmate at a random location.<br><br>Flying Dutchman Crewmate: Has <color=#FEF8E4>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
+DAVYJONES_PASSIVE_DESC_02|On character defeat, summon an allied Flying Dutchman Crewmate at a random location.<br><br>Flying Dutchman Crewmate: Has <color=#FEF8E4>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
+DAVYJONES_PASSIVE_DESC_03|On character defeat, summon an allied Flying Dutchman Crewmate at a random location. <color=#FEF8E4>{5:P0}</color> chance for the Flying Dutchman Crewmate to gain Offense Up for <color=#FEF8E4>{6:N0}</color> turn when summoned.<br><br>Flying Dutchman Crewmate: Has <color=#FEF8E4>{1:N0}</color> Health. Deal up to <color=#FFC400>{2:N0}</color> damage with each attack. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn with each attack. On Davy Jones performing an ability, <color=#FEF8E4>{4:P0}</color> chance to Assist.
 DAVYJONES_SPECIALA_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per 'Oceanic Villain' teammate, including  any Flying Dutchman Crewmates.
 DAVYJONES_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance for Flying Dutchman crewmates to Assist.
 DAVYJONES_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Silence for <color=#FEF8E4>{1:N0}</color> turn.
@@ -2578,11 +2636,11 @@ ELSA2_PASSIVEB_ABILPREVIEWUPGRADE_01|Grant Haste to allied Anna for <color=#FEF8
 ELSA2_PASSIVEB_ABILPREVIEWUPGRADE_02|Gain Defense Up for <color=#FEF8E4>{0:N0}</color> turn when Stasis expires.
 ELSA2_PASSIVEB_ABILPREVIEWUPGRADE_03|Grant Tactics to allied Anna for <color=#FEF8E4>{0:N0}</color> turns.
 ELSA2_PASSIVEB_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Magic granted to allied Anna.
-ELSA2_PASSIVEB_DESC_01|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic and Evade.
-ELSA2_PASSIVEB_DESC_02|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic, Evade, Haste for <color=#FEF8E4>{3:N0}</color> turn.
-ELSA2_PASSIVEB_DESC_03|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic, Evade, Haste for <color=#FEF8E4>{3:N0}</color> turn. <br><br>Gain Defense Up for <color=#FEF8E4>{4:N0}</color> turn when Stasis expires.
-ELSA2_PASSIVEB_DESC_04|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic, Evade, Haste for <color=#FEF8E4>{3:N0}</color> turn and Tactics for <color=#FEF8E4>{5:N0}</color> turns. <br><br>Gain Defense Up for <color=#FEF8E4>{4:N0}</color> turn when Stasis expires.
-ELSA2_PASSIVEB_DESC_05|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic, Evade, Haste for <color=#FEF8E4>{3:N0}</color> turn and Tactics for <color=#FEF8E4>{5:N0}</color> turns. <br><br>Gain Defense Up for <color=#FEF8E4>{4:N0}</color> turns when Stasis expires.
+ELSA2_PASSIVEB_DESC_01|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Remove any remaining Harmful effects from this character. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic and Evade.
+ELSA2_PASSIVEB_DESC_02|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Remove any remaining Harmful effects from this character. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic, Evade, Haste for <color=#FEF8E4>{3:N0}</color> turn.
+ELSA2_PASSIVEB_DESC_03|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Remove any remaining Harmful effects from this character. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic, Evade, Haste for <color=#FEF8E4>{3:N0}</color> turn. <br><br>Gain Defense Up for <color=#FEF8E4>{4:N0}</color> turn when Stasis expires.
+ELSA2_PASSIVEB_DESC_04|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Remove any remaining Harmful effects from this character. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic, Evade, Haste for <color=#FEF8E4>{3:N0}</color> turn and Tactics for <color=#FEF8E4>{5:N0}</color> turns. <br><br>Gain Defense Up for <color=#FEF8E4>{4:N0}</color> turn when Stasis expires.
+ELSA2_PASSIVEB_DESC_05|If this character began the battle with full Health, the first time they would be dealt damage that reduces their Health to <color=#FEF8E4>0</color>, instead perform the following:<br><br>Cleanse Harmful effects and remove Taunt from this character. Gain Stasis for <color=#FEF8E4>{0:N0}</color> turn. Remove any remaining Harmful effects from this character. Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of max Health. If Anna is a teammate, grant her <color=#FEF8E4>{2:N0}</color> Magic, Evade, Haste for <color=#FEF8E4>{3:N0}</color> turn and Tactics for <color=#FEF8E4>{5:N0}</color> turns. <br><br>Gain Defense Up for <color=#FEF8E4>{4:N0}</color> turns when Stasis expires.
 ELSA2_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Silence duration to primary target if Empowered.
 ELSA2_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Reduce each affected opponent's Speed Meter by <color=#FEF8E4>{1:P0}</color>. Inflict Silence on target opponent for <color=#FEF8E4>{2:N0}</color> turn. <color=#FEF8E4>{3:P0}</color> chance to gain Haste for <color=#FEF8E4>{4:N0}</color> turn.<br><br>If Empowered, inflict Silence on adjacent opponents for <color=#FEF8E4>{2:N0}</color> turn.
 ELSA2_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Reduce each affected opponent's Speed Meter by <color=#FEF8E4>{1:P0}</color>. Inflict Silence on target opponent for <color=#FEF8E4>{2:N0}</color> turn. Gain Haste for <color=#FEF8E4>{4:N0}</color> turn.<br><br>If Empowered, inflict Silence on adjacent opponents for <color=#FEF8E4>{2:N0}</color> turn.
@@ -3017,6 +3075,111 @@ ENCHANTMENT_07_WILDS_OFFENSE_RECOVERY_NAME|FIRESEED RELIC (T7)<br><color=#BCB9ED
 ENCHANTMENT_07_WILDS_OFFENSE_RECOVERY_SPEED_NAME|FIERY WINDSEED RELIC (T7)<br><color=#BCB9ED>Wilds</color>
 ENCHANTMENT_07_WILDS_OFFENSE_SPEED_NAME|FIREWIND RELIC (T7)<br><color=#BCB9ED>Wilds</color>
 ENCHANTMENT_07_WILDS_RECOVERY_SPEED_NAME|WINDSEED RELIC (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|LUCKY FIREBURST SHELL (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|LUCKY WINDBURST SEED (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED WINDSHELL HEART (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_HERO_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND (T7)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|LUCKY FIREBURST SHELL (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|LUCKY WINDBURST SEED (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED SHADOWSHELL WIND (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_DOWNTOWN_VILLAIN_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND (T7)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_07_KINGDOM_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|LUCKY FIREBURST SHELL (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|LUCKY WINDBURST SEED (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED SHADOWSHELL WIND (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_KINGDOM_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND (T7)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_07_MYTHICAL_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|LUCKY FIREBURST SHELL (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|LUCKY WINDBURST SEED (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED SHADOWSHELL WIND (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_MYTHICAL_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND (T7)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_07_WILDS_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|LUCKY FIREBURST SHELL (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|LUCKY WINDBURST SEED (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED SHADOWSHELL WIND (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_WILDS_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND (T7)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_07_OCEANIC_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|LUCKY FIREBURST SHELL (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|LUCKY WINDBURST SEED (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED WINDSHELL HEART (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_07_OCEANIC_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTWATER WIND (T7)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_ALL_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_DESC|Increases Critical Chance, Critical Power, Health, and Precision when equipped onto a Character.
+ENCHANTMENT_ALL_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_DESC|Increases Critical Chance, Critical Power, Offense, and Precision when equipped onto a Character.
+ENCHANTMENT_ALL_ACCURACY_DEFENSE_HEALTH_POTENCY_DESC|Increases Defense, Health, Potency, and Precision when equipped onto a Character.
+ENCHANTMENT_ALL_ACCURACY_DEFENSE_OFFENSE_POTENCY_DESC|Increases Defense, Offense, Potency, and Precision when equipped onto a Character.
+ENCHANTMENT_ALL_ACCURACY_DEFENSE_OFFENSE_SPEED_DESC|Increases Defense, Offense, Precision, and Speed when equipped onto a Character.
+ENCHANTMENT_ALL_ACCURACY_OFFENSE_POTENCY_SPEED_DESC|Increases Offense, Potency, Precision, and Speed when equipped onto a Character.
+ENCHANTMENT_ALL_ACCURACY_OFFENSE_RECOVERY_SPEED_DESC|Increases Offense, Precision, Recovery, and Speed when equipped onto a Character.
+ENCHANTMENT_ALL_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_DESC|Increases Critical Chance, Critical Power, Defense, and Offense when equipped onto a Character.
+ENCHANTMENT_ALL_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_DESC|Increases Critical Chance, Critical Power, Offense, and Recovery when equipped onto a Character.
+ENCHANTMENT_ALL_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_DESC|Increases Critical Chance, Defense, Offense, and Recovery when equipped onto a Character.
+ENCHANTMENT_ALL_DEFENSE_EVASION_HEALTH_TENACITY_DESC|Increases Defense, Evasion, Health, and Tenacity when equipped onto a Character.
+ENCHANTMENT_ALL_DEFENSE_EVASION_OFFENSE_TENACITY_DESC|Increases Defense, Evasion, Offense, and Tenacity when equipped onto a Character.
+ENCHANTMENT_ALL_DEFENSE_EVASION_RECOVERY_TENACITY_DESC|Increases Defense, Evasion, Recovery, and Tenacity when equipped onto a Character.
+ENCHANTMENT_ALL_DEFENSE_HEALTH_SPEED_TENACITY_DESC|Increases Defense, Health, Speed, and Tenacity when equipped onto a Character.
+ENCHANTMENT_ALL_HEALTH_RECOVERY_SPEED_TENACITY_DESC|Increases Health, Recovery, Speed, and Tenacity when equipped onto a Character.
 ENCHANTMENT_08_ATTACK_SPEED_HEALTH_NAME|WINDY HEART GEM (T8)
 ENCHANTMENT_08_ATTACK_SPEED_NAME|WIND GEM (T8)
 ENCHANTMENT_08_CRIT_CHANCE_HEALTH_NAME|LUCKY HEART GEM (T8)
@@ -4153,6 +4316,8 @@ EVENT_ALADDIN_LEGENDARY_PORTAL_NAME|THE CAVE OF WONDERS
 EVENT_AUTO_WIN_ALL|AUTO WIN ALL
 EVENT_AUTO_WIN_ALL_EXPENDED|NO DAILY EVENTS CAN BE AUTO WON RIGHT NOW
 EVENT_BATTLES_REMAINING|COMPLETED:
+RAID_BATTLES_REMAINING|ATTEMPTS COMPLETED:
+RAID_BATTLE_COOLDOWN_PREFIX|REFRESHES IN:
 EVENT_BATTLE_COOLDOWN_PREFIX|AVAILABLE IN:
 EVENT_BATTLE_ENDS_PREFIX|ENDS IN:
 EVENT_BATTLE_REFRESH_BUTTON|REFRESH
@@ -4175,8 +4340,10 @@ EVENT_GROUP_STARTS_IN|OPENS IN:
 EVENT_INACTIVE_ALERT|THIS EVENT IS CURRENTLY INACTIVE
 EVENT_LIFETIME_PROGRESS_COMPLETED|COMPLETED
 EVENT_META_TEXTBODY|THIS TEXT IS FOR PLACEMENT ONLY, THIS TEXT IS FOR PLACEMENT ONLY, THIS TEXT IS FOR PLACEMENT ONLY.
+EVENT_MILESTONE_CLUB_CURRENCY_TOTAL|CLUB TOTAL: {0}
 EVENT_MILESTONE_INFO_BODY|<color=#d29bfe>TOWER EVENT MILESTONES:</color><br>Earn milestone rewards for playing in Event Towers! Climb as high as you can before the event ends, and autobattle stages to earn Event Tower XP. Work together with your club and to earn even more rewards for everyone!<br><br>Event Tower XP and Milestones will reset after the end of the event, so be sure to collect as many rewards as you can.<br><br><color=#d29bfe>CLUB MILESTONE RULES:</color><br> • Event Tower XP collected by all club members will be added together for the club's total XP.<br> • Players may only earn points for ONE club per event. Club members that have switched into the club during the event will not have their XP counted towards the club total.<br> • Players will not be able to continue collecting club milestone rewards if they leave the club mid-event.
 EVENT_MILESTONE_INFO_HEADER|TOWER EVENT MILESTONES
+RAID_MILESTONE_INFO_BODY|<color=#d29bfe>RAID MILESTONES:</color><br>Earn milestone rewards for playing in Raids! Make progress in Raid Battles to earn Raid XP. Work together with your club and to earn even more rewards for everyone!<br><br>Raid XP and Milestones will reset after the end of the Raid Season, so be sure to collect as many rewards as you can.<br><br><color=#d29bfe>CLUB MILESTONE RULES:</color><br> • Raid XP reflects the total progress all club members make in Raid Battles. In cases of overlapping damage (such as two players defeating the same Raid boss asynchronously), the club will only earn XP once. The XP will be credited to the player that first registered the damage.<br> • Players may only earn collect each reward ONCE per season.<br> • Club members that have switched into the club during the season will NOT be able to collect rewards the Club earned before they joined.<br> • Players will not be able to continue collecting club milestone rewards for their club if they leave the club mid-season.
 EVENT_MILESTONE_REWARD_CLAIM|CLAIM
 EVENT_MILESTONE_REWARD_INELIGIBLE_CLUB|You are no longer eligible to claim club rewards since you are not a member of the club that you were in when the event began.
 EVENT_MILESTONE_REWARD_JOIN_CLUB_BUTTON|FIND CLUBS
@@ -4274,6 +4441,8 @@ EVENT_RECOMMENDED_LEVEL_40_GEAR_4|<size=90%>RECOMMENDED<br>• Level 40+<br>• 
 EVENT_RECOMMENDED_LEVEL_50_GEAR_5|<size=90%>RECOMMENDED<br>• Level 50+<br>• Gear <color=#4a90e2>Tier 5</color></size>
 EVENT_RECOMMENDED_LEVEL_55_GEAR_6|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#4a90e2>Tier 6</color></size>
 EVENT_RECOMMENDED_LEVEL_60_GEAR_6|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#4a90e2>Tier 6</color></size>
+RAID_URSULA_INBOX_LAUNCH_BODY|Summoner,<BR><BR>An ominous storm is brewing. Get ready for <color=#54C5FF>The Forbidden Depths: Lair of the Sea Witch</color>, our first <color=#54C5FF>RAID</color>. Work together with your club to take down the evil sea witch, Ursula, and earn exciting new rewards! Collect Raid Tickets by completing Heroes, Villains, and Grand Campaign battles. Each player can earn up to 1000 tickets per day. Club Leaders and Officers can use tickets to start the raid.<BR><BR>During the raid, you'll fight bosses using multiple teams of characters. You can attempt up to 3-5 battles per day in Tiers 1-5, and each character can be used once per day unless they successfully trigger the *Escape* ability from battle.<BR><BR>Learn more about Raid on our forums and Discord!
+RAID_URSULA_INBOX_LAUNCH_SUBJECT|The Forbidden Depths
 EVENT_SPELL_REQUIRED|REQUIRED
 EVENT_STATUS_DAILY_UPDATING|Challenge status is updating...
 EVENT_STATUS_NO_MORE_ATTEMPTS|YOU ARE OUT OF ATTEMPTS FOR THIS EVENT
@@ -4306,6 +4475,7 @@ EVENT_TIER_REWARDS|POSSIBLE REWARDS:
 EVENT_TIER_UNITS|ALLOWED CHARACTERS:
 EVENT_TIME_REMAINING|ENDS IN:
 EVENT_UNIT_REQUIRED|REQUIRED
+EVENT_UNLOCKS_AT_PLAYER_LEVEL|UNLOCKS AT LEVEL {0}
 EVENT_UNLOCKUPGRADE_ALADDIN_SHORTDESC|UNLOCK & UPGRADE ALADDIN
 EVENT_UNLOCKUPGRADE_ELASTGIRL_SHORTDESC|UNLOCK & UPGRADE ELASTIGIRL
 EVENT_UNLOCKUPGRADE_INCREDIBLES_SHORTDESC|UNLOCK & UPGRADE INCREDIBLES CHARACTERS
@@ -4604,6 +4774,8 @@ FILTER_SORT_DEFAULT|DEFAULT
 FILTER_SORT_FILTER_TITLE|SELECT FILTER
 FILTER_SORT_SORT_TITLE|SELECT SORT
 FLYING_DUTCHMAN_BASIC_DESC_01|Deal damage to target opponent.
+FLOTSAM_SUMMON_BASIC_DESC_01|Deal damage to target opponent.
+JETSAM_SUMMON_BASIC_DESC_01|Deal damage to target opponent.
 FLYING_DUTCHMAN_CREW_UNIT_NAME|Flying Dutchman Crew
 FOWL_PLAY_SPELLPREVIEWUPGRADE_EXTRATARGET_ADDCHANCE_25PCT|Adds 25% chance to also grant the stolen helpful effects to a second ally.
 FOWL_PLAY_SPELL_DESC_BASE|Summons Iago who deviously flaps through the battlefield, dealing up to <color=#ffc400>{0:N0}</color> (<color=#ffc400>+{1:N0}</color> per Player Level ) Physical damage and stealing helpful effects from opponents in the affected area. Effects stolen in this way are granted to a random ally.
@@ -4940,6 +5112,39 @@ GRAND_CAMPAIGN_ENERGY_NAME_KEY|GRAND ENERGY
 GRAND_REWARDS_TXT|BATTLE TO EARN THE FOLLOWING REWARDS
 GRASSHOPPER_UNIT_NAME|Grasshopper
 GUARDIAN_COBRA_UNIT_NAME|GUARDIAN COBRA
+GLUT_UNIT_NAME|GLUT THE SHARK
+GLUT_ABILBASIC_NAME|Chomp
+GLUT_ABILSPECIALA_NAME|Ferocious Hunger
+GLUT_ABILSPECIALB_NAME|Frenzy
+GLUT_ABILSPECIALC_NAME|From the Depths
+GLUT_ABILPASSIVEA_NAME|Brutal Opponent
+RAID_ABILPASSIVE_NAME|Sorcerous Strength
+RAID_ABILPASSIVE_II_NAME|Sorcerous Strength II
+ABILPREVIEWUPGRADE_GEN_EXTENDHARMFUL_CHANCE_INC|+<color=#FEF8E4>{0:P0}</color> chance to extend harmful effect duration.
+GLUT_SPECIALA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:N0}</color> Fear duration.<br>+<color=#FEF8E4>{1:N0}</color> Intimidate duration.
+GLUT_SPECIALA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:N0}</color> Offense Up duration.<br>+<color=#FEF8E4>{1:N0}</color> Tenacity Up duration.
+GLUT_SPECIALB_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:N0}</color> additional Continuous Damage effect inflicted per Harmful effect.
+GLUT_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> bonus Defense.
+RAID_PASSIVE_DESC_01|This character performs an additional <color=#FEF8E4>{0:N0}</color> action on its turn, and gains <color=#FEF8E4>{1:P0}</color> Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.
+RAID_PASSIVE_DESC_SUMMARIZED_01|This character performs additional actions on its turn, and gains Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.
+RAID_PASSIVE_II_DESC_01|This character performs an additional <color=#FEF8E4>{0:N0}</color> action on its turn, and gains <color=#FEF8E4>{1:P0}</color> Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.<br><br>This ability begins a <color=#FEF8E4>{2:N0}</color> countdown when the encounter starts, which decreases when this character takes a turn. When it completes, this character becomes Empowered.<br><br>Empowered:<br><color=#FEF8E4>{3:P0}</color> chance to gain <color=#FEF8E4>{4:N0}</color> additional Magic for all abilities on start of turn. This is guaranteed if this character is not affected by a Harmful effect.
+RAID_PASSIVE_II_DESC_SUMMARIZED_01|This character performs additional actions on its turn, and gains Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.<br><br>This ability begins a countdown when the encounter starts, which decreases when this character takes a turn. When it completes, this character becomes Empowered.<br><br>Empowered:<br>Chance to gain additional Magic for all abilities on start of turn. This is guaranteed if this character is not affected by a Harmful effect.
+ABILPREVIEWUPGRADE_GEN_DAMAGE_CONTINUOUS_PCT_INC|<color=#FEF8E4>+{0:P0}</color> Continuous Damage dealt.
+GLUT_BASIC_DESC_01|Remove all Shield affecting target opponent. Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. On each hit, <color=#FEF8E4>{2:P0}</color> chance to inflict Continuous Damage, dealing up to <color=#FFC400>{3:N0}</color> damage over <color=#FEF8E4>{4:N0}</color> turns. <color=#FEF8E4>{5:P0}</color> chance for each hit to increase duration of <color=#FEF8E4>{6:N0}</color> Harmful effect by <color=#FEF8E4>{7:N0}</color> up to a max of <color=#FEF8E4>{8:N0}</color> on target opponent.
+GLUT_ABILBASIC_DESC_SUMMARIZED_01|Remove all Shield affecting target opponent. Deal damage to target opponent multiple times. On each hit, has a chance to inflict Continuous Damage, dealing damage over time. Has a chance for each hit to increase duration of a Harmful effect on target opponent.
+GLUT_SPECIALA_DESC_01|Fill Speed Meter by <color=#FEF8E4>{0:P0}</color> per Harmful effect on opponents. Gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn and Tenacity Up for <color=#FEF8E4>{2:N0}</color> turn. Purge <color=#FEF8E4>{3:N0}</color> Helpful effect from all opponents. Inflict Fear for <color=#FEF8E4>{4:N0}</color> turn and Intimidate for <color=#FEF8E4>{5:N0}</color> turn on all opponents.
+GLUT_ABILSPECIALA_DESC_SUMMARIZED_01|Fill Speed Meter per Harmful effect on opponents. Gain Offense Up and Tenacity Up. Purge Helpful effects from all opponents. Inflict Fear and Intimidate on all opponents.
+GLUT_SPECIALA_DESC_02|Fill Speed Meter by <color=#FEF8E4>{0:P0}</color> per Harmful effect on opponents. Gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn and Tenacity Up for <color=#FEF8E4>{2:N0}</color> turn. Purge <color=#FEF8E4>{3:N0}</color> Helpful effects from all opponents. Inflict Fear for <color=#FEF8E4>{4:N0}</color> turn and Intimidate for <color=#FEF8E4>{5:N0}</color> turn on all opponents.
+GLUT_SPECIALA_DESC_03|Fill Speed Meter by <color=#FEF8E4>{0:P0}</color> per Harmful effect on opponents. Gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn and Tenacity Up for <color=#FEF8E4>{2:N0}</color> turn. Purge <color=#FEF8E4>{3:N0}</color> Helpful effect from all opponents. Inflict Fear for <color=#FEF8E4>{4:N0}</color> turns and Intimidate for <color=#FEF8E4>{5:N0}</color> turns on all opponents.
+GLUT_SPECIALA_DESC_04|Fill Speed Meter by <color=#FEF8E4>{0:P0}</color> per Harmful effect on opponents. Gain Offense Up for <color=#FEF8E4>{1:N0}</color> turns and Tenacity Up for <color=#FEF8E4>{2:N0}</color> turns. Purge <color=#FEF8E4>{3:N0}</color> Helpful effect from all opponents. Inflict Fear for <color=#FEF8E4>{4:N0}</color> turns and Intimidate for <color=#FEF8E4>{5:N0}</color> turns on all opponents.
+GLUT_SPECIALB_DESC_01|Deal up to <color=#FEF8E4>{0:N0}</color> damage to the target opponent and flanking opponents. Inflict <color=#FEF8E4>{1:N0}</color> Continuous Damage effect, dealing <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns on affected opponents. Inflict <color=#FEF8E4>{4:N0}</color> additional Continuous Damage effect per Harmful effect that they have, each dealing <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.
+GLUT_ABILSPECIALB_DESC_SUMMARIZED_01|Deal damage to the target opponent and flanking opponents. Inflict Continuous Damage effect, dealing  damage over time on affected opponents. Inflict additional Continuous Damage effect per Harmful effect that they have, each dealing damage over time.
+GLUT_SPECIALB_DESC_02|Deal up to <color=#FEF8E4>{0:N0}</color> damage to the target opponent and flanking opponents. Inflict <color=#FEF8E4>{1:N0}</color> Continuous Damage effect, dealing <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns on affected opponents. Inflict <color=#FEF8E4>{4:N0}</color> additional Continuous Damage effects per Harmful effect that they have, each dealing <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.
+GLUT_PASSIVEA_DESC_01|When using abilities on opponents affected by Fear, this character always deals a Critical Strike.<br><br>This character gains <color=#FEF8E4>{0:P0}</color> bonus Defense if not affected by a Harmful effect.
+GLUT_ABILPASSIVEA_DESC_SUMMARIZED_01|When using abilities on opponents affected by Fear, this character always deals a Critical Strike.<br><br>This character gains bonus Defense if not affected by a Harmful effect.
+GLUT_ABILSPECIALC_DESC_SUMMARIZED_01|Instantly defeats the target opponent. A character defeated in this way cannot be revived. Has a chance to inflict Fear on each other opponent.
+GLUT_SPECIALC_DESC_01|Instantly defeats the target opponent. A character defeated in this way cannot be revived. <color=#FEF8E4>{0:P0}</color> chance to inflict Fear for <color=#FEF8E4>{1:N0}</color> turn on each other opponent.
+GLUT_SPECIALC_DESC_02|Instantly defeats the target opponent. A character defeated in this way cannot be revived. <color=#FEF8E4>{0:P0}</color> chance to inflict Fear for <color=#FEF8E4>{1:N0}</color> turns on each other opponent.
 HADES_ABILBASIC_DESC_BASE|Hurls a ball of flames at an opponent, dealing up to <color=#FFC400>{0:N0}</color> Fire damage.<br><br>This ability prioritizes the opponent that most recently damaged Hades.
 HADES_ABILBASIC_DESC_U01|Hurls a ball of flames at an opponent, dealing up to <color=#FFC400>{0:N0}</color> Fire damage, with up to an additional <color=#FEF8E4>{1:P0}</color> chance to deal a Critical Strike if the opponent is affected by <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_DOWN>[DEFENSE DOWN]</link></color>.<br><br>This ability prioritizes the opponent that most recently damaged Hades.
 HADES_ABILBASIC_NAME|Fireball
@@ -5037,7 +5242,8 @@ HIRO_HAMADA_UNIT_NAME|HIRO HAMADA
 HOME_ADVENTURE|ADVENTURE BATTLES
 HOME_BATTLE|BATTLE
 HOME_CAMPAIGN_SELECTION_TITLE|SELECT A CAMPAIGN
-HOME_CLUB_DUNGEON|CLUB DUNGEON
+HOME_CLUB_DUNGEON|CLUB ADVENTURES
+CLUB_DUNGEON_NAME|CLUB DUNGEON
 HOME_CLUB_DUNGEON_NO_CLUB|JOIN A CLUB!
 HOME_CLUB_WAR|CLUB CONQUEST
 HOME_DAILY_ACTIVITIES|DAILY QUESTS
@@ -5152,8 +5358,8 @@ HORNEDKING_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to targ
 HORNEDKING_PASSIVE_ABILPREVIEWUPGRADE_01|Gain <color=#FEF8E4>{0:P0}</color> bonus Speed per Mythic teammate.
 HORNEDKING_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed
 HORNEDKING_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> bonus damage dealt.
-HORNEDKING_PASSIVE_DESC_01|If an allied Black Cauldron is present, <color=#FEF8E4>{0:P0}</color> of Health restored to this character is also restored to the allied Black Cauldron.<br><br>While an allied Black Cauldron is present this character gains the following:<br><br>Damage dealt is increased by bonus damage equal to <color=#FEF8E4>{1:P0}</color> of the damaged opponents max Health.
-HORNEDKING_PASSIVE_DESC_02|If an allied Black Cauldron is present, <color=#FEF8E4>{0:P0}</color> of Health restored to this character is also restored to the allied Black Cauldron.<br><br>While an allied Black Cauldron is present this character gains the following:<br><br>Damage dealt is increased by bonus damage equal to <color=#FEF8E4>{1:P0}</color> of the damaged opponents max Health.<br><br>Gain <color=#FEF8E4>{2:P0}</color> bonus Speed per Mythic teammate.
+HORNEDKING_PASSIVE_DESC_01|If an allied Black Cauldron is present, <color=#FEF8E4>{0:P0}</color> of Health restored to this character is also restored to the allied Black Cauldron.<br><br>While an allied Black Cauldron is present this character gains the following:<br><br>Damage dealt is increased by bonus damage equal to <color=#FEF8E4>{1:P0}</color> of the damaged opponents max Health (excluding Raid Bosses). Raid Bosses receive up to an additional <color=#FFC400>{3:N0}</color> damage instead.
+HORNEDKING_PASSIVE_DESC_02|If an allied Black Cauldron is present, <color=#FEF8E4>{0:P0}</color> of Health restored to this character is also restored to the allied Black Cauldron.<br><br>While an allied Black Cauldron is present this character gains the following:<br><br>Damage dealt is increased by bonus damage equal to <color=#FEF8E4>{1:P0}</color> of the damaged opponents max Health (excluding Raid Bosses). Raid Bosses receive up to an additional <color=#FFC400>{3:N0}</color> damage instead.<br><br>Gain <color=#FEF8E4>{2:P0}</color> bonus Speed per Mythic teammate.
 HORNEDKING_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> of damage dealt restored as Health.
 HORNEDKING_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents.<br><br>Restore Health to this character equal to <color=#FEF8E4>{1:P0}</color> of damage dealt.<br><br>Health restored is increased by <color=#FEF8E4>{2:P0}</color> of damage dealt per Mythic teammate.
 HORNEDKING_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Health for Black Cauldron.
@@ -5309,6 +5515,10 @@ INTRO_CINEMATIC_10|and become the next...
 INTRO_CINEMATIC_11|MASTER SORCERER
 INTRO_CINEMATIC_12|You have been chosen to enter the Arena...
 INTRO_CINEMATIC_13|WHERE LEGENDS COLLIDE
+INVENTORY_ITEM_CLUB_EXCLUSIVE|CLUB
+INVENTORY_ITEM_DETAILS_CLUB_OWNS|CLUB OWNS:
+INVENTORY_ITEM_DETAILS_PERSONALY_DAILY_AMOUNT_TIMER_RESET|RESETS IN:
+INVENTORY_ITEM_DETAILS_PERSONALY_DAILY_AMOUNT|YOUR DAILY AMOUNT:
 IN_APP_BROWSER_ERROR|An unexpected error occurred. Try again momentarily.
 ITEM_AVAILABLE_LIMIT_DAILY|{0} / {1} DAILY LIMIT
 ITEM_AVAILABLE_LIMIT_LIFETIME|{0} / {1} AVAILABLE
@@ -6081,6 +6291,7 @@ LOCKABLE_FEATURE_DESC_CHALLENGES|<color=#fdf8e3><size=60>SUMMONER CHALLENGES MOD
 LOCKABLE_FEATURE_DESC_CLUBDUNGEON|<color=#fdf8e3><size=60>CLUB DUNGEON<br><br><size=36>Join a Club or create your own to adventure into the depths of the Club Dungeon!<br><br><color=#ff8498>Requires Player Level 10
 LOCKABLE_FEATURE_DESC_CLUBS|<color=#fdf8e3><size=60>CLUB ACCESS<br><br><size=36>Join a Club or create your own and forge friendships within <i>Disney Sorcerer's Arena</i> to tackle some of the most challenging of game modes!<br><br><color=#ff8498>Requires Player Level 4
 LOCKABLE_FEATURE_DESC_CLUBWAR|<color=#fdf8e3><size=60>CLUB CONQUEST<br><br><size=36>Join a Club or create your own and battle for Conquest in an epic showdown between three Clubs!<br><br><color=#ff8498>Requires Player Level 20
+LOCKABLE_FEATURE_DESC_RAIDS|<color=#fdf8e3><size=60>RAIDS<br><br><size=36>Join a Club or create your own and battle in epic Raids!<br><br><color=#ff8498>Requires Player Level 30
 LOCKABLE_FEATURE_DESC_DAILYLOGIN|<color=#fdf8e3><size=60>DAILY CHECK-IN REWARD ACCESS<br><br><size=36>Having a great time in <i>Disney Sorcerer's Arena</i>? Return daily to receive a reward each time you Check-In! Keep a look out for rare Character Tokens!<br><br><color=#ff8498>Requires Player Level 5
 LOCKABLE_FEATURE_DESC_DAILYREWARD|BONUS REWARDS
 LOCKABLE_FEATURE_DESC_EQUIPALL|EQUIP ALL ENCHANTMENTS
@@ -6107,6 +6318,7 @@ LOCKABLE_FEATURE_NAME_CHALLENGES|<color=#43FF77>NEW!</color> Summoner Challenges
 LOCKABLE_FEATURE_NAME_CLUBDUNGEON|<color=#43FF77>NEW!</color> Club Dungeon Unlocked
 LOCKABLE_FEATURE_NAME_CLUBS|<color=#43FF77>NEW!</color> Clubs Unlocked
 LOCKABLE_FEATURE_NAME_CLUBWAR|<color=#43FF77>NEW!</color> Club Conquest Unlocked
+LOCKABLE_FEATURE_NAME_RAIDS|<color=#43FF77>NEW!</color> Raids Unlocked
 LOCKABLE_FEATURE_NAME_COLLECTIONPOWER|<color=#43FF77>NEW!</color> Summoner Score Unlocked
 LOCKABLE_FEATURE_NAME_DAILYLOGIN|<color=#43FF77>NEW!</color> Daily Check-in Rewards Unlocked
 LOCKABLE_FEATURE_NAME_DAILYREWARD|<color=#43FF77>NEW!</color> Bonus Rewards Unlocked
@@ -6138,9 +6350,10 @@ LOGIN_ULTIMATE_1X_SUBTITLE|LOGIN EVERY DAY TO COLLECT 1X ULTIMATE CHESTS AND MOR
 LOGIN_ULTIMATE_1X_TAB|1X ULTIMATE
 LOGIN_LAPSED_5X_NAME|FREE WELCOME BACK CALENDAR
 LOGIN_LAPSED_5X_STORE_NAME|WELCOME BACK CALENDAR
-LOGIN_LAPSED_5X_SUBTITLE|LOGIN FOR 7 CONSECUTIVE DAYS TO COLLECT A 5X ULTIMATE CHEST AND MORE FOR FREE!
+LOGIN_LAPSED_5X_SUBTITLE|LOGIN EVERY DAY TO COLLECT PASSHOLDER XP, 1X ULTIMATE CHESTS, AND A 5X ULTIMATE CHEST FOR FREE!
 LOGIN_LAPSED_5X_TAB|5X ULTIMATE
 LOGIN_CALENDAR_NAME|DAILY CALENDAR
+LOGIN_CALENDAR_FREE_NAME|FREE CALENDAR
 LONESOME_GHOST_UNIT_NAME|Lonesome Ghost
 LOSE_A_BATTLE_DESC|Lose 3 Battles
 LOSE_A_BATTLE_NAME|A LOSING EFFORT
@@ -6831,6 +7044,10 @@ MILESTONE_REWARD_DESC|EARN EVENT TOWER XP TO COLLECT REWARDS
 MILESTONE_REWARD_NAME|TOWER EVENT MILESTONES
 MILESTONE_REWARD_POINT|EVENT TOWER XP
 MILESTONE_REWARD_POINT_DESC|Progression XP earned from battling in Event Towers.
+MILESTONE_RAID_REWARD_NAME|RAID MILESTONES
+MILESTONE_RAID_REWARD_POINT|RAID XP
+MILESTONE_RAID_REWARD_POINT_DESC|Progression XP earned from battling in Raids.
+MILESTONE_RAID_REWARD_DESC|EARN RAID XP TO COLLECT REWARDS
 MIND_WORKER_UNIT_NAME|Mind Worker
 MOANA_ABILBASIC_NAME|OAR STRIKE
 MOANA_ABILPASSIVEA_NAME|THE OCEAN CHOSE YOU
@@ -9908,6 +10125,8 @@ PLAYER_PROFILE_CLUB_DONATIONS|DONATIONS:
 PLAYER_PROFILE_CLUB_TITLE|CLUB:
 PLAYER_PROFILE_EDIT|EDIT PROFILE
 PLAYER_PROFILE_EDIT_VIP|Show Off Passholder<color=#FFBC08> GOLD</color> Access?
+PLAYER_PROFILE_EDIT_AVATARS|AVATARS
+PLAYER_PROFILE_EDIT_FRAMES|FRAMES
 PLAYER_PROFILE_KOTH|TOURNAMENT
 PLAYER_PROFILE_KOTH_DEFENSE|DEFENSE
 PLAYER_PROFILE_KOTH_RANK|TOURNAMENT RANK:
@@ -9987,6 +10206,8 @@ POISON_APPLE_SPELLPREVIEWUPGRADE_DAMAGE_INITIAL_05PCT|Increases initial damage d
 POISON_APPLE_SPELLPREVIEWUPGRADE_DAMAGE_OVERTIME_05PCT|Increases damage dealt by the vile cloud by 20%.
 POISON_APPLE_SPELL_DESC_BASE|Drops a giant poison apple on the target area, initially inflicting up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player Level) Noxious damage to all affected opponents.<br><br>Additionally, the apple leaves behind a vile cloud of mist, dealing up to <color=#FFC400>{2:N0}</color> (<color=#FFC400>+{3:N0}</color> per Player Level) Noxious damage each second for <color=#FEF8E4>{4:N0}s</color> to all opponents in the affected area.
 POISON_APPLE_SPELL_NAME|BLUE FAIRY MAGIC
+ABILITY_RAID_PRINCEERIC_DESC|Defeat target opponent. This ability only becomes available for use in specific circumstances.
+ABILITY_RAID_PRINCEERIC_NAME|Avast!
 PRINCEERIC_ABILBASIC_NAME|Harpoon Hurl
 PRINCEERIC_ABILPASSIVEA_NAME|Don't Worry, I'll Help You
 PRINCEERIC_ABILPASSIVEB_NAME|Max, Where Could They Be?
@@ -10266,6 +10487,121 @@ RAFIKI_SPECIALB_DESC_01|Cleanse all Harmful effects from target teammate and res
 RAFIKI_SPECIALB_DESC_02|Cleanse all Harmful effects from target teammate and restore up to <color=#5DFF89>{0:N0}</color> Health. Restore <color=#5DFF89>{2:N0}</color> Health for each Harmful effect removed by Cleanse.<br><br>If target teammate is Simba, increase Magic of all abilities by <color=#FEF8E4>{1:N0}</color>.
 RAFIKI_SPECIALB_DESC_03|Cleanse all Harmful effects from target teammate and restore up to <color=#5DFF89>{0:N0}</color> Health. Restore additional <color=#5DFF89>{2:N0}</color> Health for each Harmful effect removed by Cleanse.<br><br>Increase target teammate's Speed Meter by <color=#FEF8E4>{3:P0}</color><br><br>If target teammate is Simba, increase Magic of all abilities by <color=#FEF8E4>{1:N0}</color>.
 RAFIKI_UNIT_NAME|RAFIKI
+RAID_DETAILS_HEADER|<color=#929FCB>{0}</color>          {1}
+RAID_UNITS_HEADER|<color=#929FCB>{0}</color>            <color=#FFFFFF>{1}</color>
+RAID_DETAILS_TAB_TITLE|DETAILS
+RAID_DETAILS_TITLE|CLUB RAID DETAILS
+RAID_DETAILS_NO_CLUB_MEMBER_DAMAGE|NO CLUB MEMBERS HAVE PARTICIPATED IN THE RAID YET
+RAID_EARN_GEAR|EARN RARE GEAR AND LOOT
+RAID_ENDS_IN|RAID ENDS IN
+RAID_COOLDOWN_ENDS_IN|AVAILABLE IN
+RAID_ON_COOLDOWN|ON COOLDOWN
+RAID_ERR_NO_LONGER_AVAILABLE|This Raid is no longer active.
+RAID_ERR_ALREADY_STARTED|This Raid has already started.
+RAID_ERR_CLUB_COMPLETED|Congratulations! Your club has completed this Raid.
+RAID_ERR_FORFEIT|Your club has forfeited this Raid!
+RAID_ERR_NO_LONGER_CLUB_MEMBER|An error has occurred. You are no longer a member of this Club.
+RAID_FORFEIT_CONFIRMATION_PROMPT|Are you sure you want to forfeit the raid? The raid will end and no club members will earn any rewards.
+RAID_FORFEIT_CONFIRMATION_PROMPT_WITH_AMOUNT|Are you sure you want to forfeit the raid? The raid will end and no club members will earn any rewards. Your club will be refunded {0} {1}.
+RAID_FORFEIT_BUTTON|FORFEIT
+RAID_INFO_TITLE|Raids
+RAID_INBOXMESSAGE_SENDER|YOUR CLUB LEADERSHIP
+RAID_INBOXMESSAGE_URSULA_STARTED_SUBJECT|RAID STARTED: The Forbidden Depths
+RAID_INBOXMESSAGE_URSULA_EXPIRED_SUBJECT|RAID EXPIRED: The Forbidden Depths
+RAID_INBOXMESSAGE_URSULA_FINISHED_SHARED_SUBJECT|RAID VICTORY: The Forbidden Depths
+RAID_INBOXMESSAGE_URSULA_STARTED_BODY|Your Club leadership has accepted a challenge presented by the Master Sorcerer.<br><br>Prepare your Teams to confront the denizens of the deep... and face off against Ursula, the Sea Witch, herself!
+RAID_INBOXMESSAGE_URSULA_EXPIRED_BODY|Your Club has been overcome by the Master Sorcerer's challenge.<br><br>Ursula, the Sea Witch, is victorious!<br><br>Prepare your Teams to take on the challenge once again!
+RAID_INBOXMESSAGE_URSULA_FINISHED_REWARDS_BODY|Your Club has claimed victory over the challenge presented by the Master Sorcerer.<br><br>Ursula, the Sea Witch, has been defeated.<br><br>Visit Club Adventures to claim your rewards!
+RAID_INBOXMESSAGE_URSULA_FINISHED_NOREWARDS_BODY|Your Club has claimed victory over the challenge presented by the Master Sorcerer.<br><br>Ursula, the Sea Witch, has been defeated.<br><br>You did not qualify to receive any rewards. Please visit Club Adventures and read the RAID RULES for more information.
+RAID_JOIN_CLUB|JOIN A CLUB TO TAKE ON EPIC RAIDS
+RAID_LEADERBOARD|LEADERBOARDS
+RAID_LEADERBOARD_DAMAGE_FORMAT|{0} DMG
+RAID_LEVEL_N|<color=#999999>LEVEL {0}</color>
+RAID_GEAR_LEVEL_N|<color=#999999>GEAR TIER {0}</color>
+RAID_CHEST_SUFFIX|{0} CHEST
+RAID_MILESTONES|RAID MILESTONES
+RAID_NO_ACTIVE_RAIDS|CHECK BACK SOON FOR MORE RAIDS
+RAID_NO_ATTEMPTS|NO ATTEMPTS REMAINING
+RAID_N_STARS_REQUIRED|{0} STARS REQUIRED   
+RAID_PURCHASE_CONFIRM_BODY|STARTING A RAID WILL EXPEND RAID TICKETS FOR YOUR CLUB.<BR><BR>ONCE THE RAID HAS BEEN STARTED, ALL CLUB MEMBERS CAN PARTICIPATE IF THEY MEET THE REQUIREMENTS.
+RAID_PURCHASE_CONFIRM_TITLE|SPEND RAID TICKETS TO START RAID?
+RAID_REWARDS_DESCRIPTION|"TREASURE OF THE DEPTHS" CONTENTS ARE LISTED BELOW
+RAID_REWARDS_TAB_TITLE|REWARDS
+RAID_REWARDS_TITLE|CLUB RAID REWARDS
+RAID_REWARD_TIER_LEVEL|DIFFICULTY: TIER {0}
+RAID_SELECT_BATTLE_BUTTON|BATTLE
+RAID_SELECT_NOT_IN_CLUB_WARNING|You must be in a club to participate in this battle
+RAID_SELECT_NOT_IN_CLUB_WARNING_BUTTON|FIND CLUBS
+RAID_SELECT_TIER|SELECT RAID TIER
+RAID_SELECT_TITLE|CLUB ADVENTURES
+RAID_SELECT_POSSIBLE_REWARDS|POSSIBLE REWARDS:
+RAID_SPELL_ALREADY_USED|YOU'VE ALREADY ATTACKED WITH THIS SPELL
+RAID_SPELL_REQUIREMENTS_COUNT|YOU HAVE <color=#{0}>{1}</color> ELIGIBLE SPELLS
+RAID_STARS_REQUIRED|CHARACTER REQUIREMENTS
+RAID_STARTED_BODY|THE RAID HAS BEGUN! YOUR CLUB HAS BEEN NOTIFIED.
+RAID_START_PREVIEW|PREVIEW
+RAID_STARTED_TITLE|CLUB RAID STARTED
+RAID_TIER_BUTTON|START RAID
+RAID_START_RAID|CHOOSE DIFFICULTY
+RAID_SHIPMENT|RAID EXCHANGE
+RAID_STORE|RAID STORE
+RAID_SUMMARY_LEADERBOARD|LEADERBOARD
+RAID_SUMMARY_PROGRESS|HEALTH REMAINING {0.00}%
+RAID_SUMMARY_TAB_TITLE|SUMMARY
+RAID_TIER_CURRENTLY_ACTIVE|<color=#22FF00><br>(ACTIVE TIER)</color>
+RAID_TIER_LOCKED|YOUR CLUB DOES NOT MEET THE REQUIREMENTS
+RAID_TIER_N|TIER {0}
+RAID_UNITS_TAB_TITLE|UNITS
+RAID_UNITS_TITLE|REQUIRED UNITS
+RAID_UNIT_REQUIREMENTS_COUNT|YOU HAVE <color=#{0}>{1}</color> ELIGIBLE CHARACTERS
+RAID_UNITS_REFRESH_IN|UNITS AND SPELLS REFRESH IN:
+RAID_URSULA_NAME|THE FORBIDDEN DEPTHS
+RAID_URSULA_TAGLINE|Lair of the Sea Witch
+RAID_URSULA_SHOWCASE_NAME|TREASURE OF THE DEPTHS
+RAID_URSULA_SHOWCASE_TAGLINE|Awarded Upon Success
+RAID_URSULA_SHOWCASE_FOOTER|Must be within the Club upon Raid start and meet requirements of the battle to earn.
+RAID_URSULA_DESCRIPTION|The Sorcerer has conjured forth formidable denizens of the deep to present your Club an epic challenge. Emerge victorious and be rewarded with some of the rarest and most powerful relics.
+RAID_HEROIC_TIER|HEROIC TIER
+RAID_URSULA_RD_TITLE_TIER_SHARED_PHASE_01|PHASE 1 - Glut the Shark        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_URSULA_RD_TITLE_TIER_SHARED_PHASE_02|PHASE 2 - Flotsam & Jetsam        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_URSULA_RD_TITLE_TIER_SHARED_PHASE_03|PHASE 3 - Inside the Lair        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_URSULA_RD_TITLE_TIER_HEROIC_PHASE_04|PHASE 4 - Treacherous Maelstrom        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_URSULA_RD_TITLE_TIER_SHARED_DETAILS|TIER DETAILS        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_URSULA_RD_TITLE_TIER_SHARED_BONUSABILITY|BONUS ABILITY        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_URSULA_RD_TK_01_TIER_01_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 35+<br>    • Star Rarity 3 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#B8E986>Tier 3</color>
+RAID_URSULA_RD_TK_02_TIER_01_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>30,000 Forbidden Depths Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>3</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>5</color></size>
+RAID_URSULA_RD_TK_01_TIER_02_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 40+<br>    • Star Rarity 4 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#4A90E2>Tier 4</color>
+RAID_URSULA_RD_TK_02_TIER_02_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>40,000 Forbidden Depths Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>3</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>10</color></size>
+RAID_URSULA_RD_TK_01_TIER_03_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 50+<br>    • Star Rarity 5 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#4A90E2>Tier 5</color>
+RAID_URSULA_RD_TK_02_TIER_03_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>50,000 Forbidden Depths Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>4</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>15</color></size>
+RAID_URSULA_RD_TK_01_TIER_04_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 60+<br>    • Star Rarity 6 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#4A90E2>Tier 6</color>
+RAID_URSULA_RD_TK_02_TIER_04_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>60,000 Forbidden Depths Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>30</color></size>
+RAID_URSULA_RD_TK_01_TIER_05_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 65+<br>    • Star Rarity 7 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#B94EFF>Tier 7</color>, Minimum Gear <color=#4A90E2>Tier 5</color> (<color=#FEF8E4>REQUIRED</color>)
+RAID_URSULA_RD_TK_02_TIER_05_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>80,000 Forbidden Depths Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>50</color></size>
+RAID_URSULA_RD_TK_01_TIER_HEROIC_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 70<br>    • Star Rarity 7 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#B94EFF>Tier 7+</color>, Minimum Gear <color=#4A90E2>Tier 6</color> (<color=#FEF8E4>REQUIRED</color>)
+RAID_URSULA_RD_TK_02_TIER_HEROIC_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>100,000 Forbidden Depths Raid Tickets</color><br>    • DURATION: <color=#FEF8E4>3 Days</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>Unlimited</color><br>    • UNITS REFRESH: <color=#FEF8E4>Never</color><br>    • VICTORY POINTS: <color=#FEF8E4>200</color></size>
+RAID_URSULA_RD_TK_03_SHARED_GRANTEDABILITY|<br>All characters received the following, temporary ability within the Battle:
+RAID_SUMMARY_INFO|Club raids are incredible challenges concocted by the Sorcerer which require a Club strategizes together to overcome the Sorcerer's creation. These monumental battles draw forth from some of the most infamous opponents ever known. Prepare your strategies, train your Characters, advance your Spells, draw upon Sorcerer Stones, and help your Club achieve victory to obtain some of the most powerful relics obtainable!
+RAID_RULES_INFO|<br>- May only be started by a Club Leader or Co-Leaders<br>- Requires Raid Tickets to Start<br>- Raid Tickets are earned throughout the game by Club Members<br>- Only Club Members present at a Raid's start may earn rewards<br>- Only Club Members who meet battle requirements may participate and receive rewards<br>- Club Raids have multiple difficulty Tiers<br>- Each difficulty Tier may have different settings.<br>- Health of most opponents persists for the entire Club
+RAID_MUST_COMPLETE_TIER_5|The ultimate challenge. Complete tier 5 to unlock
+RAID_REQUIREMENT_URSULA_TIER_1|Requires 20 Club Members
+RAID_REQUIREMENT_URSULA_TIER_2|Requires 25 Club Members
+RAID_REQUIREMENT_URSULA_TIER_3|Requires 30 Club Members
+RAID_REQUIREMENT_URSULA_TIER_4|Requires 35 Club Members
+RAID_REQUIREMENT_URSULA_TIER_5|Requires 40 Club Members
+RAID_REQUIREMENT_URSULA_HEROIC|Requires 40 Club Members. Complete Tier 5 to Unlock.
+RAID_URSULA_TIER_01_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>3</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color><br>ESCAPE CHANCE: <color=#FEF8E4>100%</color></size>
+RAID_URSULA_TIER_02_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>3</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color><br>ESCAPE CHANCE: <color=#FEF8E4>80%</color></size>
+RAID_URSULA_TIER_03_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>4</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color><br>ESCAPE CHANCE: <color=#FEF8E4>60%</color></size>
+RAID_URSULA_TIER_04_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color><br>ESCAPE CHANCE: <color=#FEF8E4>40%</color></size>
+RAID_URSULA_TIER_05_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color><br>ESCAPE CHANCE: <color=#FEF8E4>20%</color></size>
+RAID_URSULA_TIER_HEROIC_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>Unlimited</color><br>UNITS REFRESH: <color=#FEF8E4>Never</color><br>ESCAPE CHANCE: <color=#FEF8E4>Unavailable</color></size>
+RAID_URSULA_TIER_01_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 35+<br>• Star Rarity 3<br>• Gear <color=#B8E986>Tier 3</color></size>
+RAID_URSULA_TIER_02_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 40+<br>• Star Rarity 4<br>• Gear <color=#4A90E2>Tier 4</color></size>
+RAID_URSULA_TIER_03_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 50+<br>• Star Rarity 5<br>• Gear <color=#4A90E2>Tier 5</color></size>
+RAID_URSULA_TIER_04_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 60+<br>• Star Rarity 6<br>• Gear <color=#4A90E2>Tier 6</color></size>
+RAID_URSULA_TIER_05_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 65+<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 7</color></size>
+RAID_URSULA_TIER_HEROIC_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 70<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 7+</color></size>
 RAJAH_BASIC_DESC_01|Deal damage to target opponent.
 RAM_UNIT_NAME|Ram
 RANDALLBOGGS_ABILBASIC_ABILPREVIEWUPGRADE_CHANCE_BLIND_25PCT|Adds 25% chance to inflict Blind for 3s.
@@ -10301,6 +10637,7 @@ RANGE_SEPARATOR|-
 REMOTE_BATTLE_COUNTDOWN_GO|GO!
 RESOLVED_EVENT_MILESTONE_REWARDS_BUTTON|CONTINUE
 RESOLVED_EVENT_MILESTONE_REWARDS_DESCRIPTION|You have been granted unclaimed rewards from an expired event milestone!
+RESOLVED_RAID_MILESTONE_REWARDS_DESCRIPTION|You have been granted unclaimed rewards from an expired raid milestone!
 REWARDED_INTERSTITIAL_AD_SHOWN_ERROR|Searching for more ad content to display. Please try again momentarily.
 REWARDED_INTERSTITIAL_SERVER_VALIDATION_ERROR|There was an error while processing your rewards.  Try again momentarily.
 RHINO_BEETLE_UNIT_NAME|Rhino Beetle
@@ -10355,6 +10692,7 @@ RPC_ERROR_CLUB_INVITES_ARE_CLOSED|Club is not accepting invites
 RPC_ERROR_CLUB_INVITE_ALREADY_EXISTS|Player has already been invited to this Club
 RPC_ERROR_CLUB_IS_FULL|Club is full
 RPC_ERROR_CLUB_JOIN_IS_LOCKED|Player may not join a Club at this time
+RPC_ERROR_CLUB_NO_LONGER_RANKING_OFFICER|Only Club Leaders and Co-Leaders may start a Raid.
 RPC_ERROR_CLUB_WAR_DEFENSE_ALREADY_DEFEATED|This Defense has been defeated by your Club
 RPC_ERROR_CLUB_WAR_DEFENSE_ALREADY_UNDER_ATTACK|This Defense is already under attack by one of your Club members
 RPC_ERROR_CLUB_WAR_DEFENSE_NOT_AVAILABLE|This Defense is no longer available
@@ -10377,6 +10715,9 @@ RPC_ERROR_NOT_FOUND|Not found
 RPC_ERROR_NO_CLUB|You do not belong to a Club
 RPC_ERROR_PERMANENT_BAN|Your account has been indefinitely suspended.<br><br>For further questions related to your issue please contact Customer Care.
 RPC_ERROR_PLAYER_IS_ALREADY_IN_A_CLUB|Player is already a member of a Club
+RPC_ERROR_RAID_SPELL_ALREADY_USED|A SPELL HAS ALREADY BEEN USED IN A PREVIOUS ENCOUNTER
+RPC_ERROR_RAID_UNIT_IS_DEAD|A UNIT HAS ALREADY BEEN DEFEATED IN A PREVIOUS ENCOUNTER
+RPC_ERROR_RAID_REQUIREMENT_FAILED|YOUR CLUB DOES NOT MEET THE REQUIREMENTS FOR THIS BATTLE
 RPC_ERROR_TEMPORARY_BAN|Your account has been temporarily suspended.<br><br>For further questions related to your issue please contact Customer Care.
 RPC_ERROR_UNAUTHORIZED|Unauthorized
 SALLY_ABILBASIC_NAME|VILE VIAL
@@ -10999,6 +11340,7 @@ SHIPMENT_LOCATION_SHARD_SHOP_LOCKED|<br><br><color=#ff8498>Requires at least one
 SHIPMENT_LOCATION_SORCERERTRIAL|<br><br><color=#ff8498>Requires Player Level 37
 SHIPMENT_LOCATION_TOWER|TOWER EXCHANGE
 SHIPMENT_LOCATION_TOWER_LOCKED|<br><br><color=#ff8498>Requires Player Level 22
+SHIPMENT_LOCATION_RAID_LOCKED|<br><br><color=#ff8498>Requires Player Level 30
 SHIPMENT_OCCASION_EXPIRE|EXCHANGE CLOSES IN:
 SHIPMENT_REFRESH_BUTTON|REFRESH
 SHIPMENT_REFRESH_CONFIRM_TEXT|Are you sure you wish to refresh the Exchange offerings?
@@ -11016,6 +11358,7 @@ SHIPMENT_TITLE_PVP|TOURNAMENT EXCHANGE
 SHIPMENT_TITLE_SHARD_SHOP|TOKEN EXCHANGE
 SHIPMENT_TITLE_SORCERER_TRIAL|SORCERER'S EXCHANGE
 SHIPMENT_TITLE_TOWER|TOWER EXCHANGE
+SHIPMENT_TITLE_RAID|RAID EXCHANGE
 SHIPMENT_TITLE_VIP|VIP EXCHANGE
 SHOWCASE_201904RH_EVENTPACKS|POWER UP YOUR TEAM FOR THE EVENT
 SHOWCASE_PASSHOLDER_201902|PASSHOLDER<color=#FFBC08> GOLD</color> ACCESS
@@ -11073,6 +11416,7 @@ SIMBA_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gr
 SIMBA_SPECIALB_DESC_01|Restore Health to target teammate and all flanking teammates equal to <color=#FEF8E4>{0:P0}</color> of this character's current Defense and extend the duration of Helpful effects by <color=#FEF8E4>{1}</color>. Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn
 SIMBA_SPECIALB_DESC_02|Restore Health to target teammate and all flanking teammates equal to <color=#FEF8E4>{0:P0}</color> of this character's current Defense and extend the duration of Helpful effects by <color=#FEF8E4>{1}</color>. Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#FEF8E4>{3:P0}</color> chance for this character and teammates to gain Defense Up.
 SIMBA_UNIT_NAME|SIMBA
+SKIP_CINEMATIC|SKIP
 SKIP_TUTORIAL|SKIP TUTORIAL
 SKIP_TUTORIAL_CANCEL|CANCEL
 SKIP_TUTORIAL_COMPLETED|You have skipped the tutorial. All rewards from the tutorial have been added to your COLLECTION.
@@ -11285,8 +11629,8 @@ SPELL_FOWLPLAY_UPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to increase dura
 SPELL_FOWLPLAY_UPGRADE_03|<color=#FEF8E4>{0:P0}</color> chance per "Aladdin" teammate to apply a copy of the Purged effect to {1:N0} additional teammate.
 SPELL_FOWLPLAY_UPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance per "Aladdin" teammate to apply a copy of the Purged effect to {1:N0} additional teammate.
 SPELL_FOWLPLAY_UPGRADE_05|Guaranteed to increase duration of copied Helpful effects for "Aladdin" characters.
-SPELL_GOLDENHAMMER_DESC_01|This Spell gains bonus charge when non-summoned teammates are defeated.<br><br>Revive a defeated teammate with <color=#FEF8E4>{0:P0}</color> of their maximum Health restored.<br><br>If revived teammate is a Downtown Hero grant them Undefeatable and restore <color=#FEF8E4>{2:P0}</color> additional maximum Health.<br><br>If no teammate has been defeated,  heal the teammate with the lowest Health for <color=#FEF8E4>{0:P0}</color> of their maximum Health. If the affected teammate is Downtown Hero, restore <color=#FEF8E4>{2:P0}</color> additional maximum Health and grant them Undefeatable.<br><br>This Spell charges when teammates are defeated.
-SPELL_GOLDENHAMMER_DESC_02|This Spell gains bonus charge only when non-summoned teammates are defeated.<br><br>Revive a defeated teammate with <color=#FEF8E4>{0:P0}</color> of their maximum Health restored.<br><br>If revived teammate is a Downtown Hero grant them Undefeatable, restore <color=#FEF8E4>{2:P0}</color> additional maximum Health, and increase their Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>If no teammate has been defeated, heal the teammate with the lowest Health for <color=#FEF8E4>{0:P0}</color> of their maximum Health. If the affected teammate is Downtown Hero, restore <color=#FEF8E4>{2:P0}</color> additional maximum Health, grant them Undefeatable, and increase their Speed Meter by <color=#FEF8E4>{1:P0}</color>.
+SPELL_GOLDENHAMMER_DESC_01|Revive the most recently defeated non-summoned teammate with <color=#FEF8E4>{0:P0}</color> of their maximum Health restored. Usable once per battle.<br><br>If revived teammate is a Downtown Hero grant them Undefeatable and restore <color=#FEF8E4>{2:P0}</color> additional maximum Health.<br><br>This spell cannot Revive teammates defeated by Instant Defeat.
+SPELL_GOLDENHAMMER_DESC_02|Revive the most recently defeated non-summoned teammate with <color=#FEF8E4>{0:P0}</color> of their maximum Health restored. Usable once per battle.<br><br>If revived teammate is a Downtown Hero grant them Undefeatable and restore <color=#FEF8E4>{2:P0}</color> additional maximum Health, and increase their Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>This spell cannot Revive teammates defeated by Instant Defeat.
 SPELL_GOLDENHAMMER_UPGRADE_01|<color=#FEF8E4>+{0:P0}</color> maximum Health restored on the affected character.
 SPELL_GOLDENHAMMER_UPGRADE_02|<color=#FEF8E4>{0:P0}</color> Speed Meter increase for affected character if they are a Downtown Hero.
 SPELL_GOLDENHAMMER_UPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Speed Meter increase for affected character.
@@ -11438,7 +11782,7 @@ SPELL_WILDIMAGINATION_UPGRADE_02|<color=#FEF8E4>+{0:N0}</color> duration to Heal
 SPELL_WILDIMAGINATION_UPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance per Toy Story teammate to inflict Heal Block on adjacent opponents.<br><br><color=#FEF8E4>+{1:P0}</color> chance per Toy Story teammate to inflict Fear on adjacent opponents.
 SPELL_WILDIMAGINATION_UPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance per Toy Story teammate to inflict Fear on adjacent opponents.
 SPELL_WILDIMAGINATION_UPGRADE_05|<color=#FEF8E4>+{0:P0}</color> chance per Toy Story teammate to inflict Heal Block on adjacent opponents.
-SPELL_ZAP_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player level) damage to target opponent. <color=#FEF8E4>{2:N0}</color> - <color=#FEF8E4>{3:N0}</color> times.<br><br>Each attack has a <color=#FEF8E4>{4:P0}</color> chance to chain to an adjacent opponent, dealing up to <color=#FFC400>{5:N0}</color> (<color=#FFC400>+{6:N0}</color> per Player level) damage. <color=#FEF8E4>{7:P0}</color> chance to continue chaining.
+SPELL_ZAP_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player level) damage to target opponent. <color=#FEF8E4>{2:N0}</color> - <color=#FEF8E4>{3:N0}</color> times. Ignore <color=#FEF8E4>{8:P0}</color> Defense when damaging an Oceanic opponent.<br><br>Each attack has a <color=#FEF8E4>{4:P0}</color> chance to chain to an adjacent opponent, dealing up to <color=#FFC400>{5:N0}</color> (<color=#FFC400>+{6:N0}</color> per Player level) damage. <color=#FEF8E4>{7:P0}</color> chance to continue chaining.
 SPELL_ZAP_UPGRADE_01|+1 to minimum attack amount.
 SPELL_ZAP_UPGRADE_02|+1 to maximum attack amount.
 SPELL_ZAP_UPGRADE_03|+1 to minimum and maximum attack amounts.
@@ -12232,6 +12576,8 @@ STORE_ITEM_HIRO_A_NAME|HIRO HAMADA BUNDLE
 STORE_ITEM_HIRO_A_SUBTITLE|HIRO HAMADA PROVIDES SPEED BONUSES TO TECH AND BIG HERO 6 TEAMMATES. GIVE EXTRA TURNS TO ALLIES AND GAIN HELPFUL EFFECTS FOR HIRO AND THE TARGET BASED ON THEIR ROLE.
 STORE_ITEM_HIRO_GEMS_NAME|HIRO HAMADA PACK
 STORE_ITEM_HORNED_KING_NAME|HORNED KING BUNDLE
+STORE_ITEM_HEADLESS_HORSEMAN_NAME|HEADLESS HORSEMAN BUNDLE
+STORE_ITEM_ZAP_NAME|ZAP BUNDLE
 STORE_ITEM_HORNED_KING_SUBTITLE|BRING YOUR MYTHICAL TEAM TO THE NEXT LEVEL. UNLOCK THE HORNED KING TO POWER UP YOUR COLLECTION AND CONQUER THE STITCH EVENT TOWER.
 STORE_ITEM_INFINITY_SIDED_DIE_GACHA_NAME|INFINITY SIDED DIE PACK
 STORE_ITEM_INFINITY_SIDED_DIE_GACHA_SUBTITLE|CONTAINS 5-50 INFINITY SIDED DIE TOKENS
@@ -13053,6 +13399,25 @@ STORE_ITEM_TRITONTOWER_HOOKTINKERBELL_BUNDLE_SUBTITLE|UPGRADE CAPTAIN HOOK AND T
 STORE_ITEM_TRITONTOWER_ERIC_5X_PACK_NAME|5X PRINCE ERIC PACK
 STORE_ITEM_TRITONTOWER_ERIC_PACK_NAME|PRINCE ERIC PACK
 STORE_ITEM_TRITONTOWER_OCEANIC_5X_PACK_NAME|5X OCEANIC PACK
+STORE_ITEM_RAID_LITTLE_MERMAID_TRIO_NAME|THE LITTLE MERMAID BUNDLE
+STORE_ITEM_RAID_LITTLE_MERMAID_TRIO_SUBTITLE|ARIEL, PRINCE ERIC, AND KING TRITON ARE READY TO FACE THE SEA WITCH URSULA. UNLOCK THIS POWERFUL TEAM TO CONQUER THE RAID AND BRING YOUR CLUB TO VICTORY.
+STORE_ITEM_RAID_SPECIAL_TRITON_NAME|SPECIAL TRITON BUNDLE
+STORE_ITEM_RAID_SPECIAL_TRITON_SUBTITLE|PRESENTING HIS MAJESTY, KING TRITON. UNLOCK KING TRITON IN THIS EXCLUSIVE, ONE TIME BUNDLE AND GET BONUS TOKENS FOR PRINCE ERIC AND ARIEL.
+STORE_ITEM_RAID_SPECIAL_TRITON_B_SUBTITLE|UPGRADE KING TRITON, ARIEL, AND PRINCE ERIC IN THIS EXCLUSIVE BUNDLE. CONQUER THE FORBIDDEN DEPTHS AND BRING YOUR CLUB TO VICTORY.
+STORE_ITEM_RAID_ARIELERIC_NAME|ARIEL & ERIC BUNDLE
+STORE_ITEM_RAID_ARIELERIC_SUBTITLE|GET READY FOR THE FORBIDDEN DEPTHS WITH THIS OCEANIC DUO. WITH THEIR HEALING AND DEFENSIVE ABILITIES, ARIEL AND ERIC WILL SUPPORT YOUR TEAMS FOR THE RAID AGAINST URSULA.
+STORE_ITEM_RAID_URSULA_NAME|URSULA BUNDLE
+STORE_ITEM_RAID_URSULA_SUBTITLE|DO WE HAVE A DEAL? COLLECT TOKENS FOR THE POWERFUL SEA WITCH, URSULA, IN THIS LIMITED TIME BUNDLE.
+STORE_ITEM_RAID_DAVY_JONES_SUBTITLE|UNLOCK DAVY JONES AND TO CONQUER THE FORBIDDEN DEPTHS. HE AND HIS FLYING DUTCHMAN CREWMATES WILL BE FORMIDDABLE ADDITIONS TO ANY RAID TEAM.
+STORE_ITEM_RAID_DASH_SUBTITLE|UNLOCK DASH TO CONQUER THE FORBIDDEN DEPTHS. HIS FAST CHAIN ATTACKS ARE POWERFUL AGAINST MULTIPLE FOES SUCH AS FLOTSAM AND JETSAM, OR URSULA'S MANY TENTACLES.
+STORE_ITEM_RAID_HORNED_KING_SUBTITLE|THE HORNED KING AND HIS FEARSOME CAULDRON CAN DEAL DEADLY DAMAGE TO FOES IN RAIDS. UNLOCK HIM NOW IN THIS LIMITED TIME BUNDLE.
+STORE_ITEM_RAID_T4T5_BUNDLE_NAME|GEAR UPGRADE BUNDLE
+STORE_ITEM_RAID_T4T5_BUNDLE_SUBTITLE|GEAR UP YOUR TEAMS AND GET READY TO RAID IN THE FORBIDDEN DEPTHS. CONTAINS READY-TO-EQUIP T4 AND T5 GEAR.
+STORE_ITEM_RAID_T6_BUNDLE_SUBTITLE|GET READY TO GEAR UP. GIVE YOUR TEAM AN EDGE IN THE FORBIDDEN DEPTHS WITH A BOOST IN SPEED AND POTENCY. DEAL HARMFUL EFFECTS ON YOUR ENEMIES TO
+STORE_ITEM_RAID_T7_OCEANIC_NAME|OCEANIC UPGRADE BUNDLE
+STORE_ITEM_RAID_T7_OCEANIC_SUBTITLE|UPGRADE YOUR OCEANIC TEAM WITH THIS T7 MATERIAL BUNDLE. POWER UP GEAR FOR KING TRITON, PRINCE ERIC, ARIEL, AND MORE TO CONQUER THE FORBIDDEN DEPTHS.
+STORE_ITEM_RAID_HEADLESS_HORSEMAN_SUBTITLE|TERRIFY ENEMIES WITH THE POWER OF THE HEADLESS HORSEMAN. SUPPORT YOUR RAID TEAMS WITH A TOUCH OF FEAR BY UNLOCKING AND UPGRADING THE HEADLESS HORSEMAN SPELL.
+STORE_ITEM_RAID_ZAP_SUBTITLE|BREAK THROUGH ENEMY DEFENSES IN THE FORBIDDEN DEPTHS WITH THE ZAP SPELL. UPGRADE YOUR SPELL WITH THIS BUNDLE TO SUPPORT YOUR RAID TEAMS AND DEAL DEADLY CHAIN DAMAGE.
 STORE_ITEM_STITCHDAY_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS BIG LIMITED TIME DEAL. GET A 1X ULTIMATE CHEST, GEMS, GEAR, ABILITY RUNES, AND MORE IN THIS LIMITED TIME BUNDLE.
 STORE_ITEM_STITCHTOWER_5X_PACK_SUBTITLE|10% BONUS VALUE
 STORE_ITEM_STITCHTOWER_BUBBLES_5X_PACK_NAME|5X COBRA BUBBLES PACK
@@ -13559,6 +13924,7 @@ STORE_PURCHASE_CONVERSION_ALERT|ITEMS CONVERTED:
 STORE_RESTOCK_MESSAGE|Refreshing Store...
 STORE_STITCH_EVENT_STICKER|STITCH TOWER
 STORE_TRITON_EVENT_STICKER|TRITON TOWER
+STORE_URSULA_RAID_STICKER|THE FORBIDDEN DEPTHS
 STORE_T3GEAR_GACHA_BACK_DESC|Power up your Characters quickly with Gear!<BR>Includes the following: <BR> * 1-2 T1 Gear <BR> * 2-5 T2 Gear <BR> * Chance at T3 Gear or Binders
 STORE_T3GEAR_GACHA_NAME|T1-T3 GEAR CRATE
 STORE_TAB_FREE|FREE
@@ -14099,6 +14465,8 @@ TROPHY_INCREDIBLES_NAME|SUPERS COLLIDE TROPHY
 TROPHY_KING_TRITON_DESC|Awarded for completing the King Triton Event Tower.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_KING_TRITON_NAME|KING TRITON TROPHY
 TROPHY_KOTH_DESC|Awarded for reaching 1st place in the Sorcerer's Tournament!<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_URSULA_RAID_NAME|URSULA RAID TROPHY
+TROPHY_URSULA_RAID_DESC|Awarded for completing the Heroic Tier of The Forbidden Depths.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_KOTH_NAME|SORCERER'S TOURNAMENT TROPHY
 TROPHY_PVP_DESC|Awarded for reaching Grand Champion in PvP!<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_PVP_NAME|GRAND CHAMPION PVP TROPHY
@@ -14366,6 +14734,7 @@ UNIT_PROMO_MAT_SVEN|SVEN TOKENS
 UNIT_PROMO_MAT_SYNDROME|SYNDROME TOKENS
 UNIT_PROMO_MAT_THE_MANTICORE|MANTICORE TOKENS
 UNIT_PROMO_MAT_TINKERBELL|TINKER BELL TOKENS
+UNIT_PROMO_MAT_URSULA|URSULA TOKENS
 UNIT_PROMO_MAT_VIOLET|VIOLET TOKENS
 UNIT_PROMO_MAT_WASABI|WASABI TOKENS
 UNIT_PROMO_MAT_WOODY|WOODY TOKENS
@@ -14425,6 +14794,36 @@ UNIT_UPGRADE_CELEBRATION_PROMOTION_TITLE|PROMOTED!
 UNIT_UPGRADE_CELEBRATION_STAT_TITLE|STATS:
 UNIT_UPGRADE_CELEBRATION_TRAINING_DETAILS|LEVELING UP<br><size=75%>PERMANENTLY INCREASES THE CHARACTER'S BASE STATS BASED UPON THEIR LEVEL<br><br><br><size=75%><color=#ffa193>YOU CAN ONLY LEVEL UP YOUR CHARACTERS TO YOUR CURRENT PLAYER LEVEL
 UNIT_UPGRADE_CELEBRATION_TRAINING_TITLE|LEVELED UP!
+ABILPREVIEWUPGRADE_GEN_HARMFUL_DURATION_EXTEND_INC|+<color=#FEF8E4>{0:N0}</color> increase to Harmful effect duration.
+URSULABIG_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> chance to gain Offense Up.
+URSULABIG_SPECIALA_ABILPREVIEWUPGRADE_02|Guaranteed to gain Offense Up.
+URSULABIG_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> chance to gain Crit Chance Up.
+URSULABIG_SPECIALA_ABILPREVIEWUPGRADE_04|Guaranteed to gain Crit Chance Up.
+ABILPREVIEWUPGRADE_GEN_HELPFULIMMUNITY_DURATION|<color=#FEF8E4>+{0:N0}</color> Helpful Immunity duration.
+ABILPREVIEWUPGRADE_GEN_INTIMIDATE_ADD|Inflict Intimidate for <color=#FEF8E4>+{0:N0}</color> turn.
+ABILPREVIEWUPGRADE_GEN_INTIMIDATE_DURATION|<color=#FEF8E4>+{0:N0}</color> Intimidate duration.
+ABILPREVIEWUPGRADE_GEN_STUN_DURATION|<color=#FEF8E4>+{0:N0}</color> Stun duration.
+URSULABIG_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus Defense for this character.
+URSULABIG_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Health for Ursula's Tentacles.
+ABILPREVIEWUPGRADE_GEN_FEAR_GUARANTEED|Guaranteed to Inflict Fear.
+URSULABIG_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and a random adjacent opponent. Increase duration of <color=#FEF8E4>{1:N0}</color> random Harmful effect by <color=#FEF8E4>{2}</color> on target opponent and affected adjacent opponent.<br><br>If target not affected by a Harmful effect, inflict Defense Down for <color=#FEF8E4>{3}</color> turns instead.
+URSULABIG_BASIC_DESC_SUMMARIZED_01|Deals damage to target opponent and a random adjacent opponent. Increase duration of random Harmful effects on target opponent and affected adjacent opponent.<br><br>If target not affected by a Harmful effect, inflict Defense Down for a number of turns instead.
+URSULABIG_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and a random adjacent opponent. Increase duration of <color=#FEF8E4>{1:N0}</color> random Harmful effect by <color=#FEF8E4>{2}</color> on target opponent and affected adjacent opponent.<br><br>If target not affected by a Harmful effect, inflict Defense Down for <color=#FEF8E4>{3}</color> turns instead.
+URSULABIG_SPECIALA_DESC_01|<color=#FEF8E4>{0:N0}</color> Ursula's Tentacle joins the battle if less than <color=#FEF8E4>{1:N0}</color> are present. Each of Ursula's Tentacles attacks an opponent based on its position.<br><br>If <color=#FEF8E4>{1:N0}</color> Ursula's Tentacles are present, perform the above attack an additional <color=#FEF8E4>{2:N0}</color> times.<br><br><color=#FEF8E4>{3:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{4:N0}</color> turn. <color=#FEF8E4>{5:P0}</color> chance to gain Crit Chance Up for <color=#FEF8E4>{6:N0}</color> turn.
+URSULABIG_SPECIALA_DESC_SUMMARIZED_01|Ursula's Tentacle joins the battle periodically. Each of Ursula's Tentacles attacks an opponent based on its position.<br><br>If a number of Ursula's Tentacles are present, perform the above attack additional times.<br><br>Has a chance to gain Offense Up for a number of turns. Has a chance to gain Crit Chance Up for a number of turns.
+URSULABIG_SPECIALA_DESC_02|<color=#FEF8E4>{0:N0}</color> Ursula's Tentacle joins the battle if less than <color=#FEF8E4>{1:N0}</color> are present. Each of Ursula's Tentacles attacks an opponent based on its position.<br><br>If <color=#FEF8E4>{1:N0}</color> Ursula's Tentacles are present, perform the above attack an additional <color=#FEF8E4>{2:N0}</color> times.<br><br>Gain Offense Up for <color=#FEF8E4>{4:N0}</color> turn. <color=#FEF8E4>{5:P0}</color> chance to gain Crit Chance Up for <color=#FEF8E4>{6:N0}</color> turn.
+URSULABIG_SPECIALA_DESC_03|<color=#FEF8E4>{0:N0}</color> Ursula's Tentacle joins the battle if less than <color=#FEF8E4>{1:N0}</color> are present. Each of Ursula's Tentacles attacks an opponent based on its position.<br><br>If <color=#FEF8E4>{1:N0}</color> Ursula's Tentacles are present, perform the above attack an additional <color=#FEF8E4>{2:N0}</color> times.<br><br>Gain Offense Up for <color=#FEF8E4>{4:N0}</color> turn. Gain Crit Chance Up for <color=#FEF8E4>{6:N0}</color> turn.
+URSULABIG_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents.<br><br>Stun target opponent for <color=#FEF8E4>{1:N0}</color> turn.
+URSULABIG_SPECIALB_DESC_SUMMARIZED_01|Deals damage to target opponent and adjacent opponents.<br><br>Stun target opponent for a number of turns.
+URSULABIG_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Inflict Intimidate for <color=#FEF8E4>{2:N0}</color> turn.<br><br>Stun target opponent for <color=#FEF8E4>{1:N0}</color> turn.
+URSULABIG_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Inflict Intimidate for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Stun target opponent for <color=#FEF8E4>{1:N0}</color> turn.
+URSULABIG_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Inflict Intimidate for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Stun target opponent for <color=#FEF8E4>{1:N0}</color> turns.
+URSULABIG_SPECIALC_DESC_01|Instantly defeats the target opponent. A character defeated in this way cannot be revived. Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{1:P0}</color> chance to inflict Fear for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents.
+URSULABIG_SPECIALC_DESC_SUMMARIZED_01|Instantly defeats the target opponent. A character defeated in this way cannot be revived. Deals damage to adjacent opponents. Has a chance to inflict Fear for a number of turns on adjacent opponents.
+URSULABIG_SPECIALC_DESC_02|Instantly defeats the target opponent. A character defeated in this way cannot be revived. Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents and inflict Fear for <color=#FEF8E4>{2:N0}</color> turn.
+URSULABIG_SPECIALC_DESC_03|Instantly defeats the target opponent. A character defeated in this way cannot be revived. Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents and inflict Fear for <color=#FEF8E4>{2}</color> turns.
+URSULABIG_PASSIVEA_DESC_01|This character gains <color=#FEF8E4>{0:P0}</color> bonus Defense if not affected by a Harmful effect.<br><br>Begin encounter with <color=#FEF8E4>{1:N0}</color> allied Ursula's Tentacles. This character gains <color=#FEF8E4>{2:P0}</color> bonus Tenacity per Tentacle on the battlefield. On defeat of any Tentacle, this character is inflicted with <color=#FEF8E4>{3:N0}</color> Vulnerable.<br><br>Tentacles have <color=#FEF8E4>{4:N0}</color> Health, <color=#FEF8E4>{5:N0}</color> Defense, receive <color=#FEF8E4>{6:P0}</color> reduced damage from characters affected by Harmful effects, and can perform the following attack:<br>Deal up to <color=#FFC400>{7:N0}</color> damage to all opponents. Purge <color=#FEF8E4>{8:N0}</color> Helpful effects. Inflict Helpful Immunity for <color=#FEF8E4>{9:N0}</color> turn. Inflict Poison, dealing <color=#FEF8E4>{10:P0}</color> of affected character's max Health as damage over <color=#FEF8E4>{11:N0}</color> turns. On the start of this character's turn, each present Tentacle will attack.<br><br>The first time all Tentacles are cleared from the battlefield:<br>This character is inflicted with Stagger for <color=#FEF8E4>{12:N0}</color> turn, and Defense Down for <color=#FEF8E4>{13:N0}</color> turns. This character's opponents gain <color=#FEF8E4>{14:N0}</color> Guaranteed Crit. On recovering from Stagger, Ursula summons <color=#FEF8E4>{15:N0}</color> allied Tentacles.
+URSULABIG_PASSIVEA_DESC_SUMMARIZED_01|This character gains an amount of bonus Defense if not affected by a Harmful effect.<br><br>This character begins the encounter with a number of allied Ursula's Tentacles. This character gains an amount of bonus Tenacity per Ursula's Tentacle on the battlefield. On defeat of any Ursula's Tentacle, this character is inflicted with Vulnerable.<br><br>Ursula's Tentacles receive reduced damage from characters affected by Harmful effects, and can perform the following attack:<br><br>• Deals damage to all opponents. Purge an amount of Helpful effects from each affected opponent. Inflict Helpful Immunity on each affected opponent for a number of turns. Inflict Poison on each affected opponent, dealing an amount of their max Health as damage over a number of turns.<br><br>On the start of this character's turn, each present Ursula's Tentacle will attack.<br><br>The first time all Tentacles are cleared from the battlefield the following occurs:<br>This character is inflicted with Stagger for a number of turns, and Defense Down for a number of turns. This character's opponents gain an amount of Guaranteed Crit.<br><br>On recovering from Stagger, Ursula summons a number of allied Ursula's Tentacles to the battlefield.
 VARIANT_LOCKABLE_FEATURE_DESC_PVP|<color=#fdf8e3><size=60>ARENA MODE<br><br><size=36>Challenge other <i>Disney Sorcerer's Arena</i> players in real-time battles. Earn Trophies to ascend the leaderboards and compete in seasonal Leagues for exclusive rewards!<br><br><color=#ff8498>Requires Player Level 5
 VICIOUS_COBRA_UNIT_NAME|VICIOUS COBRA
 VILLAINCAMPAIGNHARD_NAME|VILLAINS CAMPAIGN - ELITE
@@ -14823,6 +15222,83 @@ EVENT_202010_PVP_TAKEOVER_START_SUBJECT|The Haunted Forest PvP Event is live!
 EVENT_202010_PVP_TAKEOVER_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>HAUNTED FOREST PVP EVENT</color> has begun! Bring your strongest team to the Arena and battle for bonus rewards.<BR><BR>Earn Headless Horseman Spell Tokens as well as Spooky Coins as bonus rewards in the PvP Arena Pack.<BR><BR>Good luck, and see you in the Arena!
 EVENT_202010_PVP_TAKEOVER_NEW_PLAYER_SUBJECT|Haunted Forest PvP Event!
 EVENT_202010_PVP_TAKEOVER_NEW_PLAYER_BODY|Summoner,<BR><BR>Spend Campaign Energy, complete all Daily Quests, and use <color=#54C5FF>AUTO-WIN</color> to earn as much <color=#54C5FF>PLAYER XP</color> as possible!<BR><BR>As soon as you reach level 27 you will unlock the PvP Arena to enter the limited time <color=#54C5FF>HAUNTED FOREST PVP EVENT</color>.<BR><BR>Earn Headless Horseman Spell Tokens as well as Spooky Coins as bonus rewards in the PvP Arena Pack.<BR><BR>Good luck, and see you in the Arena!
+URSULA_UNIT_NAME|URSULA
+URSULA_ABILBASIC_NAME|Undoing
+URSULA_ABILSPECIALA_NAME|A Little Magic
+URSULA_ABILSPECIALB_NAME|Poor Unfortunate Soul
+URSULA_ABILPASSIVEA_NAME|My Poopsies
+URSULA_ABILPASSIVEB_NAME|Grasping Tendrils
+URSULA_ABILPASSIVEC_NAME|Vengeance
+URSULA_ABILLEADER_NAME|Sea Witch's Reign
+URSULA_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to steal <color=#FEF8E4>{1:P0}</color> Speed Meter.
+URSULA_BASIC_ABILPREVIEWUPGRADE_02|On Critical Strike, guaranteed to steal Speed Meter.
+URSULA_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>{0:P0}</color> bonus Speed Meter stolen on Critical Strike.
+ABILPREVIEWUPGRADE_GEN_BONUSOFFENSE_ADD|<color=#FEF8E4>{0:P0}</color> bonus Offense.
+ABILPREVIEWUPGRADE_GEN_BONUSCRITCHANCE_ADD|<color=#FEF8E4>{0:P0}</color> bonus Crit Chance.
+ABILPREVIEWUPGRADE_GEN_BONUSOFFENSE_INC|<color=#FEF8E4>+{0:P0}</color> bonus Offense.
+ABILPREVIEWUPGRADE_GEN_BONUSCRITCHANCE_INC|<color=#FEF8E4>+{0:P0}</color> bonus Crit Chance.
+URSULA_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> instances of Continuous Damage.
+URSULA_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> additional Continuous Damge effect inflicted on Critical Strike.
+URSULA_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Continuous Damage effect inflicted
+URSULA_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> Defense reduction while Polymorphed.
+URSULA_SPECIALB_ABILPREVIEWUPGRADE_02|Purge <color=#FEF8E4>{0:N0}</color> Helpful effects.<br>Gan a copy of Purged effects excluding Taunt.
+URSULA_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Defense reduction.
+URSULA_SPECIALB_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Helpful effect Purged.
+URSULA_SPECIALB_ABILPREVIEWUPGRADE_05|Purge all Helpful effects.
+URSULA_PASSIVEA_ABILPREVIEWUPGRADE_01|Steal <color=#FEF8E4>{0:P0}</color> Speed from the fastest opponent for remainder of the battle.
+URSULA_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> Flotsam and Jetsam Critical Strike chance.
+URSULA_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Flotsam and Jetsam Offense.
+URSULA_PASSIVEA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Flotsam and Jetsam Critical Strike chance.
+URSULA_PASSIVEA_ABILPREVIEWUPGRADE_05|<color=#FEF8E4>+{0:P0}</color> Speed stolen
+URSULA_PASSIVEB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to steal <color=#FEF8E4>{1:N0}</color> Magic Charge.
+URSULA_PASSIVEB_ABILPREVIEWUPGRADE_02|Prefers opponents with greatest available Magic Charge.
+URSULA_PASSIVEB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to steal Magic Charge.
+URSULA_PASSIVEC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> bonus Offense when Empowered.
+URSULA_PASSIVEC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Crit Chance when Empowered.
+URSULA_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus Offense for Villain allies.
+URSULA_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Critical Power for Oceanic allies.
+URSULA_LEADER_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Offense for Villain allies.<br><color=#FEF8E4>+{1:P0}</color> Critical Power to Oceanic allies.
+URSULA_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to the target opponent.<br><br>If Empowered: Repeat this ability against the target opponent.
+URSULA_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to the target opponent. <color=#FEF8E4>{1:P0}</color> chance to steal <color=#FEF8E4>{2:P0}</color> Speed Meter.<br><br>Empowered: Repeat this ability against the target opponent.
+URSULA_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to the target opponent. <color=#FEF8E4>{1:P0}</color> chance to steal <color=#FEF8E4>{2:P0}</color> Speed Meter. If this ability deals a Critical Strike, guaranteed to steal Speed Meter.<br><br>If Empowered: Repeat this ability against the target opponent.
+URSULA_BASIC_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to the target opponent. <color=#FEF8E4>{1:P0}</color> chance to steal <color=#FEF8E4>{2:P0}</color> Speed Meter. If this ability deals a Critical Strike, guaranteed to steal Speed Meter and stolen amount is increased by bonus <color=#FEF8E4>{3:P0}</color>.<br><br>If Empowered: Repeat this ability against the target opponent.
+URSULA_SPECIALA_DESC_01|Deals up to <color=#FFC400>{0:N0}</color> damage to the target opponent. Inflict <color=#FEF8E4>{1:N0}</color> Continuous Damage effect, dealing up to <color=#FFC400>{2:N0}</color> damage each turn over <color=#FEF8E4>{3:N0}</color> turns.<br><br>If Empowered: Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents. Inflict <color=#FEF8E4>{1:N0}</color> Continuous Damage effect, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.<br><br>Opponents receive an additional <color=#FEF8E4>{4:P0}</color> damage from all damage caused by this ability if they are affected by Shield.
+URSULA_SPECIALA_DESC_02|Deals up to <color=#FFC400>{0:N0}</color> damage to the target opponent. Inflict <color=#FEF8E4>{1:N0}</color> Continuous Damage effects, dealing up to <color=#FFC400>{2:N0}</color> damage each turn over <color=#FEF8E4>{3:N0}</color> turns.<br><br>If Empowered: Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents. Inflict <color=#FEF8E4>{1:N0}</color> Continuous Damage effects, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.<br><br>Opponents receive an additional <color=#FEF8E4>{4:P0}</color> damage from all damage caused by this ability if they are affected by Shield.
+URSULA_SPECIALA_DESC_03|Deals up to <color=#FFC400>{0:N0}</color> damage to the target opponent. Inflict <color=#FEF8E4>{1:N0}</color> Continuous Damage effects, dealing up to <color=#FFC400>{2:N0}</color> damage each turn over <color=#FEF8E4>{3:N0}</color> turns. On critical strike, Inflict <color=#FEF8E4>{5:N0}</color> additional Continuous Damage effect, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.<br><br>If Empowered:<br><br>Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents. Inflict <color=#FEF8E4>{1:N0}</color> Continuous Damage effects, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns. On Critical Strike, Inflict <color=#FEF8E4>{5:N0}</color> additional Continuous Damage effect, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.<br><br>Opponents receive an additional <color=#FEF8E4>{4:P0}</color> damage from all damage caused by this ability if they are affected by Shield.
+URSULA_SPECIALB_DESC_01|This ability is Unavoidable. Inflict Polymorph on the target opponent, transforming them into a sea polyp for <color=#FEF8E4>{0:N0}</color> turn. This ability has <color=#FEF8E4>{4:P0}</color> bonus Potency.<br><br>If Empowered: Reduce target's Speed Meter by <color=#FEF8E4>{5:P0}</color>.<br><br>Sea polyps cannot attack.
+URSULA_SPECIALB_DESC_02|This ability is Unavoidable. Inflict Polymorph on the target opponent, transforming them into a sea polyp for <color=#FEF8E4>{0:N0}</color> turn. This ability has <color=#FEF8E4>{4:P0}</color> bonus Potency.<br><br>If Empowered: Reduce target's Speed Meter by <color=#FEF8E4>{5:P0}</color>.<br><br>Sea polyps cannot attack and have <color=#FEF8E4>{1:P0}</color> reduced Defense.
+URSULA_SPECIALB_DESC_03|This ability is Unavoidable. Purge <color=#FEF8E4>{2:N0}</color> random Helpful effects from target opponent, and inflict Polymorph, transforming them into a sea polyp for <color=#FEF8E4>{0:N0}</color> turn. Gain a copy of each Purged effect, excluding Taunt. This ability has <color=#FEF8E4>{4:P0}</color> bonus Potency.<br><br>If Empowered: Reduce target's Speed Meter by <color=#FEF8E4>{5:P0}</color>.<br><br>Sea polyps cannot attack and have <color=#FEF8E4>{1:P0}</color> reduced Defense.
+URSULA_SPECIALB_DESC_04|This ability is Unavoidable. Purge all Helpful effects from target opponent, and inflict Polymorph, transforming them into a sea polyp for <color=#FEF8E4>{0:N0}</color> turn. Gain a copy of each Purged effect, excluding Taunt. This ability has <color=#FEF8E4>{4:P0}</color> bonus Potency.<br><br>If Empowered: Reduce target's Speed Meter by <color=#FEF8E4>{5:P0}</color>.<br><br>Sea polyps cannot attack and have <color=#FEF8E4>{1:P0}</color> reduced Defense.
+URSULA_PASSIVEA_DESC_01|At the beginning of the battle, summon Flotsam and Jetsam to the battlefield.<br><br>Flotsam and Jetsam: Each has <color=#FEF8E4>{0:N0}</color> Offense, <color=#FEF8E4>{1:N0}</color> Defense, <color=#FEF8E4>{2:N0}</color> Health, and <color=#FEF8E4>{3:N0}</color> Speed. <br><br>When Flotsam or Jetsam deal damage to an opponent: Purge <color=#FEF8E4>{8:N0}</color> random Helpful effect. If Purged effect not Taunt, gain a copy of effect and grant a copy to allied Ursula. Allied Ursula gains <color=#FEF8E4>{7:P0}</color> Speed Meter.
+URSULA_PASSIVEA_DESC_02|At the beginning of the battle, summon Flotsam and Jetsam to the battlefield.<br>Steal <color=#FEF8E4>{5:P0}</color> Speed and <color=#FEF8E4>{6:P0}</color> Speed Meter for this character from the opponent with the highest Speed. The adjustment to the Speed stat lasts for the remainder of the battle.<br><br>Flotsam and Jetsam: Each has <color=#FEF8E4>{0:N0}</color> Offense, <color=#FEF8E4>{0:N0}</color> Defense, <color=#FEF8E4>{2:N0}</color> Health, and <color=#FEF8E4>{3:N0}</color> Speed.<br><br>When Flotsam or Jetsam deal damage to an opponent: Purge <color=#FEF8E4>{8:N0}</color> random Helpful effect. If Purged effect not Taunt, gain a copy of effect and grant a copy to allied Ursula. Allied Ursula gains <color=#FEF8E4>{7:P0}</color> Speed Meter.
+URSULA_PASSIVEA_DESC_03|At the beginning of the battle, summon Flotsam and Jetsam to the battlefield.<br>Steal <color=#FEF8E4>{5:P0}</color> Speed and <color=#FEF8E4>{6:P0}</color> Speed Meter for this character from the opponent with the highest Speed. The adjustment to the Speed stat lasts for the remainder of the battle.<br><br>Flotsam and Jetsam: Each has <color=#FEF8E4>{0:N0}</color> Offense, <color=#FEF8E4>{1:N0}</color> Defense, <color=#FEF8E4>{2:N0}</color> Health, <color=#FEF8E4>{3:N0}</color> Speed, and <color=#FEF8E4>{4:P0}</color> Critical Strike Chance.<br><br>When Flotsam or Jetsam deal damage to an opponent: Purge <color=#FEF8E4>{8:N0}</color> random Helpful effect. If Purged effect not Taunt, gain a copy of effect and grant a copy to allied Ursula. Allied Ursula gains <color=#FEF8E4>{7:P0}</color> Speed Meter.
+URSULA_PASSIVEB_DESC_01|This ability is Unavoidable. On start of turn, inflict Silence for <color=#FEF8E4>{0:N0}</color> turn on a random opponent.
+URSULA_PASSIVEB_DESC_02|This ability is Unavoidable. On start of turn, inflict Silence for <color=#FEF8E4>{0:N0}</color> turn on a random opponent. <color=#FEF8E4>{1:P0}</color> chance to steal <color=#FEF8E4>{2:N0}</color> Magic from a random ability.
+URSULA_PASSIVEB_DESC_03|This ability is Unavoidable. On start of turn, inflict Silence for <color=#FEF8E4>{0:N0}</color> turn on a random opponent with the largest amount of Magic for an ability. <color=#FEF8E4>{1:P0}</color> chance to steal <color=#FEF8E4>{2:N0}</color> Magic from a random ability.
+URSULA_LEADER_DESC_01|Oceanic teammates gain <color=#FEF8E4>{0:P0}</color> bonus Crit Power.<br>Villain teammates gain <color=#FEF8E4>{1:P0}</color> bonus Offense.<br>Oceanic Villains gain both of these effects.
+URSULARAID_BASIC_DESC_SUMMARIZED_01|Deal damage to the target opponent.<br><br>If Empowered: Repeat this ability against the target opponent.
+URSULARAID_SPECIALA_DESC_01|Deals up to <color=#FFC400>{0:N0}</color> damage to the target opponent. Inflict <color=#FEF8E4>{1:N0}</color> Poison effect, dealing up to <color=#FEF8E4>{2:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{3:N0}</color> turns.<br><br>If Empowered:<br><br>Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents. Inflict <color=#FEF8E4>{1:N0}</color> Poison effect, dealing up to <color=#FEF8E4>{2:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{3:N0}</color> turns.<br><br>Opponents receive an additional <color=#FEF8E4>{4:P0}</color> bonus damage from this ability if they are affected by Shield.
+URSULARAID_SPECIALA_DESC_SUMMARIZED_01|Deals damage to the target opponent. Inflict Poison effect, dealing an amount of the opponent's max Health as damage each turn.<br><br>If Empowered:<br><br>Deal damage to adjacent opponents. Inflict Poison effect, dealing an amount of the opponent's max Health as damage each turn.<br><br>Opponents receive additional bonus damage from this ability if they are affected by Shield.
+URSULARAID_SPECIALA_DESC_02|Deals up to <color=#FFC400>{0:N0}</color> damage to the target opponent. Inflict <color=#FEF8E4>{1:N0}</color> Poison effect, dealing up to <color=#FEF8E4>{2:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{3:N0}</color> turns. On Critical Strike, Inflict additional <color=#FEF8E4>{5:N0}</color> Poison effect.<br><br>If Empowered:<br><br>Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents. Inflict <color=#FEF8E4>{1:N0}</color> Poison effect, dealing up to <color=#FEF8E4>{2:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{3:N0}</color> turns. On Critical Strike, Inflict additional <color=#FEF8E4>{5:N0}</color> Poison effect.<br><br>Opponents receive an additional <color=#FEF8E4>{4:P0}</color> bonus damage from this ability if they are affected by Shield.
+URSULARAID_SPECIALA_DESC_03|Deals up to <color=#FFC400>{0:N0}</color> damage to the target opponent. Inflict <color=#FEF8E4>{1:N0}</color> Poison effect, dealing up to <color=#FEF8E4>{2:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{3:N0}</color> turns. On Critical Strike, Inflict additional <color=#FEF8E4>{5:N0}</color> Poison effects.<br><br>If Empowered:<br><br>Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents. Inflict <color=#FEF8E4>{1:N0}</color> Poison effect, dealing up to <color=#FEF8E4>{2:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{3:N0}</color> turns. On Critical Strike, Inflict additional <color=#FEF8E4>{5:N0}</color> Poison effects.<br><br>Opponents receive an additional <color=#FEF8E4>{4:P0}</color> bonus damage from this ability if they are affected by Shield.
+URSULARAID_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Poison effect inflicted on Critical Strike.
+URSULARAID_SPECIALB_DESC_01|Instantly defeat target opponent. A character defeated in this way cannot be revived. <color=#FEF8E4>{0:P0}</color> chance to Purge <color=#FEF8E4>{1:N0}</color> Helpful effect from adjacent opponents.
+URSULARAID_ABILSPECIALB_DESC_SUMMARIZED_01|Instantly defeat target opponent. A character defeated in this way cannot be revived. Has a chance to Purge Helpful effects from adjacent opponents.
+URSULARAID_SPECIALB_DESC_02|Instantly defeat target opponent. A character defeated in this way cannot be revived. <color=#FEF8E4>{0:P0}</color> chance to Purge <color=#FEF8E4>{1:N0}</color> Helpful effects from adjacent opponents.
+URSULARAID_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Helpful effect Purged.
+URSULARAID_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> chance to Purge.
+URSULARAID_PASSIVEA_DESC_SUMMARIZED_01|At the beginning of the battle, summon Flotsam and Jetsam to the battlefield.
+URSULARAID_PASSIVEB_DESC_01|On start of turn, <color=#FEF8E4>{0:P0}</color> chance to inflict Silence for <color=#FEF8E4>{1:N0}</color> turn on a random opponent. Guaranteed to activate if this character is not affected by a Harmful effect.
+URSULARAID_PASSIVEB_DESC_SUMMARIZED_01|On start of turn, has a chance to inflict Silence on a random opponent. Guaranteed to activate if this character is not affected by a Harmful effect.
+URSULARAID_PASSIVEB_DESC_02|On start of turn, <color=#FEF8E4>{0:P0}</color> chance to inflict Silence for <color=#FEF8E4>{1:N0}</color> turn on a random opponent. <color=#FEF8E4>{2:P0}</color> chance to steal <color=#FEF8E4>{3}</color> Magic from a random ability. Guaranteed to activate if this character is not affected by a Harmful effect.
+URSULARAID_PASSIVEB_DESC_03|On start of turn, <color=#FEF8E4>{0:P0}</color> chance to inflict Silence for <color=#FEF8E4>{1:N0}</color> turn on a random opponent with the largest amount of Magic for an ability. <color=#FEF8E4>{2:P0}</color> chance to steal <color=#FEF8E4>{3}</color> Magic from a random ability. Guaranteed to activate if this character is not affected by a Harmful effect.
+URSULARAID_PASSIVEC_DESC_01|If this character is dealt damage equal to <color=#FEF8E4>{3:P0}</color> of its maximum Health in a single battle, inflict Blind on all opponents for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.
+URSULARAID_PASSIVEC_DESC_SUMMARIZED_01|If this character is dealt significant damage in a single battle, inflict Blind on all opponents. Gain Empowered.
+URSULARAID_PASSIVEC_DESC_02|If this character is dealt damage equal to <color=#FEF8E4>{3:P0}</color> of its maximum Health in a single battle, inflict Blind on all opponents for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.<br><br>Empowered:<br>Gain <color=#FEF8E4>{1:P0}</color> bonus Offense.
+URSULARAID_PASSIVEC_DESC_03|If this character is dealt damage equal to <color=#FEF8E4>{3:P0}</color> of its maximum Health in a single battle, inflict Blind on all opponents for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.<br><br>Empowered:<br>Gain <color=#FEF8E4>{1:P0}</color> bonus Offense,  <color=#FEF8E4>{2:P0}</color> bonus Crit chance.
+URSULA_PASSIVEC_DESC_01|The first time an allied Flotsam or Jetsam is defeated or this character's Health is reduced below <color=#FEF8E4>{3:P0}</color> of max, perform the following:<br><br>Cleanse all Harmful effects from self and inflict Blind on all opponents for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.
+URSULA_PASSIVEC_DESC_02|The first time an allied Flotsam or Jetsam is defeated or this character's Health is reduced below <color=#FEF8E4>{3:P0}</color> of max, perform the following:<br><br>Cleanse all Harmful effects from self and inflict Blind on all opponents for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.<br><br>Empowered:<br>Gain <color=#FEF8E4>{1:P0}</color> bonus Offense.
+URSULA_PASSIVEC_DESC_03|The first time an allied Flotsam or Jetsam is defeated or this character's Health is reduced below <color=#FEF8E4>{3:P0}</color> of max, perform the following:<br><br>Cleanse all Harmful effects from self and inflict Blind on all opponents for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.<br><br>Empowered:<br>Gain <color=#FEF8E4>{1:P0}</color> bonus Offense,  <color=#FEF8E4>{2:P0}</color> bonus Crit chance.
 EVENT_202010_SENSATIONALSIX_1_META_DESC|Battle Classic Villains to earn Daisy Duck, Goofy, and Donald Duck Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202010_SENSATIONALSIX_1_META_NAME|SENSATIONAL SIX PT 1
 EVENT_202010_SENSATIONALSIX_1_PORTAL_DESC|EARN SENSATIONAL SIX CHARACTERS!
@@ -14947,6 +15423,115 @@ MARKETING_EMAIL_PN_03|Link your email to get the latest new, updates, access to 
 MARKETING_EMAIL_PN_04|Link Email
 MARKETING_FREEFRIDAY_PN_03|Head to Twitter for #FreeStuffFriday!
 MARKETING_FREEFRIDAY_PN_04|Head to the DSA Twitter account and enter #FreeStuffFriday for a chance to win prizes!
+FLOTSAM_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Poison, dealing <color=#FEF8E4>{1:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{2}</color> turns. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced by <color=#FEF8E4>1</color> when that character receives Healing.<br><br>If opponent was affected by a Harmful effect at the start of this ability:<br><color=#FEF8E4>{3:P0}</color> chance to inflict additional Poison. Drain Speed Meter by <color=#FEF8E4>{4:P0}</color> if opponent is not affected by Taunt.
+FLOTSAM_BASIC_DESC_SUMMARIZED_01|Deal damage to target opponent. Inflict Poison, dealing a percentage of the opponent's max Health as damage each turn. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced when that character receives Healing.<br><br>If opponent was affected by a Harmful effect at the start of this ability: has a chance to inflict additional Poison. Drain Speed Meter if opponent is not affected by Taunt.
+FLOTSAM_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict additional Poison.
+FLOTSAM_SPECIALA_DESC_01|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. Target opponent immediately attacks an adjacent opponent.<br><br>If possible, this ability will target the opponent with the highest current Offense.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn on target opponent.
+FLOTSAM_SPECIALA_DESC_SUMMARIZED_01|Charm target opponent. Has a chance to inflict Charm on adjacent opponents. Target opponent immediately attacks an adjacent opponent.<br><br>If possible, this ability will target the opponent with the highest current Offense.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down on target opponent.
+FLOTSAM_SPECIALA_DESC_02|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. Target opponent immediately attacks an adjacent opponent.<br><br>If possible, this ability will target the opponent with the highest current Offense.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turns on target opponent.<color=#FEF8E4>{4:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{5:N0}</color> turn on adjacent opponents.
+FLOTSAM_SPECIALA_DESC_03|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. Target opponent immediately attacks an adjacent opponent.<br><br>If possible, this ability will target the opponent with the highest current Offense.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turns on target opponent.<color=#FEF8E4>{4:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{5:N0}</color> turns on adjacent opponents.
+FLOTSAM_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Defense Down on adjacent opponents for <color=#FEF8E4>{1:N0}</color> turn.
+FLOTSAM_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense Down on adjacent opponents.
+FLOTSAM_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to the target opponent <color=#FEF8E4>{1:N0}</color> times. Each hit has <color=#FEF8E4>{2:P0}</color> chance to inflict Poison, dealing <color=#FEF8E4>{3:P0}</color> of the opponent's maximum Health as damage each turn for <color=#FEF8E4>{4:N0}</color> turns. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced by <color=#FEF8E4>1</color> when that character receives Healing.
+FLOTSAM_SPECIALB_DESC_SUMMARIZED_01|Deal damage to the target opponent multiple times. Each hit has a chance to inflict Poison, dealing a percentage of the opponent's maximum Health as damage each turn. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced when that character receives Healing.
+ABILPREVIEWUPGRADE_GEN_POISON_DURATION|<color=#FEF8E4>+{0:N0}</color> Poison Duration.
+ABILPREVIEWUPGRADE_GEN_CHANCE_POISON|<color=#FEF8E4>+{0:P0}</color> chance to inflict Poison.
+FLOTSAM_SPECIALC_DESC_01|Instantly defeats the target opponent. A character defeated in this way cannot be revived.
+FLOTSAM_SPECIALC_DESC_SUMMARIZED_01|Instantly defeats the target opponent. A character defeated in this way cannot be revived.
+FLOTSAM_SPECIALC_DESC_02|Instantly defeats the target opponent. A character defeated in this way cannot be revived. <color=#FEF8E4>{0:P0}</color> chance to inflict Slow on adjacent opponents for <color=#FEF8E4>{1:N0}</color> turn.
+FLOTSAM_SPECIALC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turn on adjacent opponents.
+ABILPREVIEWUPGRADE_GEN_INC_CHANCE_SLOW_PCT|<color=#FEF8E4>+{0:P0}</color> chance to inflict Slow
+ABILPREVIEWUPGRADE_GEN_SLOW_DURATION|<color=#FEF8E4>+{0:N0}</color> Slow duration.
+FLOTSAM_PASSIVEA_DESC_01|If this character is dealt damage equal to <color=#FEF8E4>{0:P0}</color> of its maximum Health in a single battle, perform the following on the opponent that last dealt damage:<br>Deal up to <color=#FEF8E4>{1:N0}</color> damage to target opponent and flanking opponents. Inflict Blind for <color=#FEF8E4>{2:N0}</color> turn on target opponent. <color=#FEF8E4>{3:P0}</color> chance to inflict Blind on flanking opponents for <color=#FEF8E4>{4:N0}</color> turn.<br><br>If Jetsam is a teammate, gain Stealth for <color=#FEF8E4>{5:N0}</color> turns.
+FLOTSAM_PASSIVEA_DESC_SUMMARIZED_01|If this character is dealt damage equal to percentage of its maximum Health in a single battle, perform the following on the opponent that last dealt damage:<br>Deal damage to target opponent and flanking opponents. Inflict Blind on target opponent. Has a chance to inflict Blind on flanking opponents.<br><br>If Jetsam is a teammate, gain Stealth.
+FLOTSAM_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to inflict Blind on flanking opponents.
+ABILPREVIEWUPGRADE_GEN_INC_CHANCE_BLIND_PCT|<color=#FEF8E4>+{0:P0}</color> chance to inflict Blind.
+FLOTSAM_PASSIVEA_ABILPREVIEWUPGRADE_02|Guaranteed to inflict Blind on flanking opponents.
+FLOTSAM_PASSIVEC_DESC_01|When an opponent has Speed Meter reduced or stolen gain Speed Meter equal to <color=#FEF8E4>{0:P0}</color> of the adjustment.
+FLOTSAM_PASSIVEC_DESC_SUMMARIZED_01|When an opponent has Speed Meter reduced or stolen gain Speed Meter equal to a percentage of the adjustment.
+FLOTSAM_PASSIVEC_DESC_02|When an opponent has Speed Meter reduced or stolen gain Speed Meter equal to <color=#FEF8E4>{0:P0}</color> of the adjustment.<br><br><color=#FEF8E4>{1:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn.
+ABILPREVIEWUPGRADE_GEN_ADD_CHANCE_OFFENSEUP_PCT|<color=#FEF8E4>{0:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn.
+ABILPREVIEWUPGRADE_GEN_INC_CHANCE_OFFENSEUP_PCT|<color=#FEF8E4>+{0:P0}</color> chance to gain Offense Up.
+FLOTSAM_ABILBASIC_NAME|Spiteful Strike
+FLOTSAM_ABILSPECIALA_NAME|Only A Suggestion
+FLOTSAM_ABILSPECIALB_NAME|Dizzying Whirlpool
+FLOTSAM_ABILSPECIALC_NAME|Suffocating Vortex
+FLOTSAM_ABILPASSIVEA_NAME|Brackish Waters
+FLOTSAM_ABILPASSIVEC_NAME|Wicked Helpers
+FLOTSAM_UNIT_NAME|FLOTSAM
+JETSAM_UNIT_NAME|JETSAM
 PIN_SORCERER_MICKEY_HAT_TALISMAN_NAME|Sorcerer Mickey Hat Talisman
 PIN_SORCERER_MICKEY_HAT_TALISMAN_DESC|For a Sorcerer that is attuned with their email.
+JETSAM_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Poison, dealing <color=#FEF8E4>{1:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{2}</color> turns. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced by <color=#FEF8E4>1</color> when that character receives Healing.<br><br>If opponent was affected by a Harmful effect at the start of this ability:<br><color=#FEF8E4>{3:P0}</color> chance to inflict additional Poison. Drain Speed Meter by <color=#FEF8E4>{4:P0}</color> if opponent is not affected by Taunt.
+JETSAM_BASIC_DESC_SUMMARIZED_01|Deal damage to target opponent. Inflict Poison, dealing an amount of the opponent's max Health as damage each turn. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced when that character receives Healing.<br><br>If opponent was affected by a Harmful effect at the start of this ability: has a chance to inflict additional Poison. Drain Speed Meter by an amount if opponent is not affected by Taunt.
+JETSAM_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict additional Poison.
+JETSAM_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to the target opponent <color=#FEF8E4>{1:N0}</color> times. Each hit has <color=#FEF8E4>{2:P0}</color> chance to inflict Poison, dealing <color=#FEF8E4>{3:P0}</color> of the opponent's maximum Health as damage each turn for <color=#FEF8E4>{4:N0}</color> turns. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced by <color=#FEF8E4>1</color> when that character receives Healing.
+JETSAM_SPECIALB_DESC_SUMMARIZED_01|Deal damage to the target opponent multiple times. Each hit has a chance to inflict Poison, dealing an amount of the opponent's maximum Health as damage each turn. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced when that character receives Healing.
+JETSAM_SPECIALC_DESC_01|Instantly defeats the target opponent. A character defeated in this way cannot be revived.
+JETSAM_SPECIALC_DESC_SUMMARIZED_01|Instantly defeats the target opponent. A character defeated in this way cannot be revived.
+JETSAM_SPECIALC_DESC_02|Instantly defeats the target opponent. A character defeated in this way cannot be revived. <color=#FEF8E4>{0:P0}</color> chance to inflict Slow on adjacent opponents for <color=#FEF8E4>{1:N0}</color> turn.
+JETSAM_SPECIALC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turn on adjacent opponents.
+JETSAM_PASSIVEA_DESC_01|If this character is dealt damage equal to <color=#FEF8E4>{0:P0}</color> of its maximum Health in a single battle, perform the following on the opponent that last dealt damage:<br>Deal up to <color=#FEF8E4>{1:N0}</color> damage to target opponent and flanking opponents. Inflict Blind for <color=#FEF8E4>{2:N0}</color> turn on target opponent. <color=#FEF8E4>{3:P0}</color> chance to inflict Blind on flanking opponents for <color=#FEF8E4>{4:N0}</color> turn.<br><br>If Jetsam is a teammate, gain Stealth for <color=#FEF8E4>{5:N0}</color> turns.
+JETSAM_PASSIVEA_DESC_SUMMARIZED_01|If this character is dealt damage equal to an amount of its maximum Health in a single battle, perform the following on the opponent that last dealt damage:<br>Deal damage to target opponent and flanking opponents. Inflict Blind on target opponent. Has a chance to inflict Blind on flanking opponents.<br><br>If Jetsam is a teammate, gain Stealth.
+JETSAM_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to inflict Blind on flanking opponents.
+JETSAM_PASSIVEA_ABILPREVIEWUPGRADE_02|Guaranteed to inflict Blind on flanking opponents.
+JETSAM_PASSIVEC_DESC_01|When an opponent has Speed Meter reduced or stolen gain Speed Meter equal to <color=#FEF8E4>{0:P0}</color> of the adjustment.
+JETSAM_PASSIVEC_DESC_SUMMARIZED_01|When an opponent has Speed Meter reduced or stolen gain Speed Meter equal to an amount of the adjustment.
+JETSAM_PASSIVEC_DESC_02|When an opponent has Speed Meter reduced or stolen gain Speed Meter equal to <color=#FEF8E4>{0:P0}</color> of the adjustment.<br><br><color=#FEF8E4>{1:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn.
+JETSAM_ABILBASIC_NAME|Spiteful Strike
+JETSAM_ABILSPECIALA_NAME|Eyes Of The Sea Witch
+JETSAM_ABILSPECIALB_NAME|Dizzying Whirlpool
+JETSAM_ABILSPECIALC_NAME|Suffocating Vortex
+JETSAM_ABILPASSIVEA_NAME|Brackish Waters
+JETSAM_ABILPASSIVEC_NAME|Wicked Helpers
+JETSAM_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> Helpful effects from all opponents. Inflict Intimidate on all opponents for <color=#FEF8E4>{2:N0}</color> turn.<br><br>If Flotsam is a teammate:<br>Inflict Helpful Immunity for <color=#FEF8E4>{3:N0}</color> turn on target and adjacent opponents. <color=#FEF8E4>{4:P0}</color> chance to inflict Helpful Immunity for <color=#FEF8E4>{5:N0}</color> turn on each other opponent.
+JETSAM_SPECIALA_DESC_SUMMARIZED_01|Deal damage to target opponent. Purge Helpful effects from all opponents. Inflict Intimidate on all opponents.<br><br>If Flotsam is a teammate:<br>Inflict Helpful Immunity on target and adjacent opponents. Has a chance to inflict Helpful Immunity on each other opponent.
+JETSAM_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> Helpful effects from all opponents. Inflict Intimidate on all opponents for <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Flotsam is a teammate:<br>Inflict Helpful Immunity for <color=#FEF8E4>{3:N0}</color> turn on target and adjacent opponents. <color=#FEF8E4>{4:P0}</color> chance to inflict Helpful Immunity for <color=#FEF8E4>{5:N0}</color> turn on each other opponent.
+JETSAM_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> Helpful effects from all opponents. Inflict Intimidate on all opponents for <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Flotsam is a teammate:<br>Inflict Helpful Immunity for <color=#FEF8E4>{3:N0}</color> turns on target and adjacent opponents. <color=#FEF8E4>{4:P0}</color> chance to inflict Helpful Immunity for <color=#FEF8E4>{5:N0}</color> turn on each other opponent.
+ABILPREVIEWUPGRADE_GEN_CHANCE_HELPFULIMMUNITY|<color=#FEF8E4>+{0:P0}</color> chance to inflict Helpful Immunity.
+JETSAM_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Helpful Immunity Duration for primary and adjacent targets.
+JETSAM_SUBTITLE|FLOTSAM AND JETSAM
+URSULA_TENTACLE_UNIT_NAME|URSULA'S TENTACLE
+URSULABIG_UNIT_NAME|URSULA
+URSULABIG_ABILBASIC_NAME|Bow To My Power
+URSULABIG_ABILSPECIALA_NAME|Crushing Blows
+URSULABIG_ABILSPECIALB_NAME|Shipwreck
+URSULABIG_ABILSPECIALC_NAME|Wrath of the Sea Witch
+URSULABIG_ABILPASSIVEA_NAME|Dark Clutches
+RAID_BATTLE_CHOICE_CRITICAL_STRIKES_OFFER_ACCEPTED_INFO_DESC|Deal Critical Strikes with <color=#FEF8E4>3</color> different characters before this contract expires. <br><br>On success, gain the following: <br>All teammates gain 3 guaranteed Crit effects, Crit Power Up for 3 turns, and 2 Magic for all abilities. <br><br>On failure, the following occurs: <br> Teammates dealt damage equal to 20% of their max Health and inflicted with 2 Vulnerable. Ursula gains Crit Power Up for 2 turns.
+RAID_BATTLE_CHOICE_CRITICAL_STRIKES_OFFER_ACCEPTED_INFO_NAME|A CRITICAL CHOICE
+RAID_BATTLE_CHOICE_URSULA_OFFER_ACCEPTED_INFO_NAME|URSULA'S CONTRACT
+RAID_BATTLE_CHOICE_CRITICAL_STRIKES_OFFER_DESC|DEAL CRITICAL STRIKES WITH <COLOR=#FEF8E4>3</COLOR> DIFFERENT CHARACTERS BEFORE URSULA TAKES HER NEXT <COLOR=#FEF8E4>4</COLOR> TURNS.<BR>ON SUCCESS, GAIN VARIOUS BENEFITS FOR THIS BATTLE. IF YOU FAIL, YOU MAY SUFFER DIRE CONSEQUENCES.
+RAID_BATTLE_CHOICE_CRITICAL_STRIKES_OFFER_DESC_ACCEPT|IF ACCEPTED YOU MAY GAIN IMMEDIATE ADVANTAGES AND DISADVANTAGES
+RAID_BATTLE_CHOICE_CRITICAL_STRIKES_OFFER_DESC_DECLINE|REJECT URSULA'S OFFER AT YOUR OWN PERIL
+RAID_BATTLE_CHOICE_URSULA_GENERIC_OFFER_DESC_ACCEPT|IF ACCEPTED YOU MAY GAIN IMMEDIATE ADVANTAGES AND DISADVANTAGES
+RAID_BATTLE_CHOICE_URSULA_GENERIC_OFFER_DESC_DECLINE|REJECT URSULA'S OFFER AT YOUR OWN PERIL
+RAID_BATTLE_CHOICE_INFLICT_HARMFUL_OFFER_DESC|INFLICT <COLOR=#FEF8E4>5</color> HARMFUL EFFECTS ON URSULA BEFORE SHE TAKES HER NEXT <COLOR=#FEF8E4>4</color> TURNS.<BR>ON SUCCESS, GAIN VARIOUS BENEFITS FOR THIS BATTLE. IF YOU FAIL, YOU MAY SUFFER DIRE CONSEQUENCES.
+RAID_BATTLE_CHOICE_INFLICT_HARMFUL_OFFER_ACCEPTED_INFO_DESC|Inflict <COLOR=#FEF8E4>5</color> Harmful effects on Ursula before this contract expires.<br><br>On success, gain the following:<br> Teammates gain <COLOR=#FEF8E4>3</color> random helpful effects with duration of <COLOR=#FEF8E4>2</color>.<br>Duration of each Harmful effect on Ursula is increased by <COLOR=#FEF8E4>3</color>, and she is inflicted with <COLOR=#FEF8E4>3</color> Vulnerable.<br><br>On failure, the following occurs:<br>Teammates are dealt damage equal to <COLOR=#FEF8E4>20%</color> of their max Health.<br>A copy of each Harmful effect on Ursula is inflicted onto all her opponents.
+RAID_BATTLE_CHOICE_PARTY_HEALTH_LIMIT_OFFER_DESC|CONTRACT LASTS UNTIL URSULA TAKES <COLOR=#FEF8E4>3</color> TURNS. TO SUCCEED THE CURRENT HEALTH OF ALL TEAMMATES MUST BE OVER <COLOR=#FEF8E4>30%</color> OF THEIR TOTAL POSSIBLE MAXIMUM HEALTH WHEN THIS CONTRACT EXPIRES.<BR>ON SUCCESS, GAIN VARIOUS BENEFITS FOR THIS BATTLE. IF YOU FAIL, YOU MAY SUFFER DIRE CONSEQUENCES.
+RAID_BATTLE_CHOICE_PARTY_HEALTH_LIMIT_OFFER_ACCEPTED_INFO_DESC|To succeed, on Contract end have all teammates with current Health over <COLOR=#FEF8E4>30%</COLOR> of their total possible maximum Health.<br><br>On success, gain the following:<br> All teammates have their Health fully restored, gain Invincibility for <COLOR=#FEF8E4>2</color> turns, and Offense Up for <COLOR=#FEF8E4>5</color> turns.<br><br>On failure, the following occurs:<br> All teammates are immediately defeated.
+RAID_BATTLE_CHOICE_RESTORE_HEALTH_OFFER_DESC|RESTORE HEALTH TO TEAMMATES <COLOR=#FEF8E4>15</color> TIMES BEFORE URSULA TAKES HER NEXT <COLOR=#FEF8E4>4</color> TURNS.<BR>ON SUCCESS, GAIN VARIOUS BENEFITS FOR THIS BATTLE. IF YOU FAIL, YOU MAY SUFFER DIRE CONSEQUENCES.
+RAID_BATTLE_CHOICE_RESTORE_HEALTH_OFFER_ACCEPTED_INFO_DESC|Restore Health to teammates multiple times this contract expires.<br><br>On success, gain the following:<br> Player characters are granted <COLOR=#FEF8E4>20%</color> increased maximum Health, fully healed, and granted Offense Up for 2 turns.<br><br>On failure, the following occurs:<br> Teammates have their maximum Health reduced by <COLOR=#FEF8E4>20%</color>. Ursula gains <COLOR=#FEF8E4>2</color> Ability Magic for all abilities and Offense Up for <COLOR=#FEF8E4>3</color> turns.
+RAID_BATTLE_CHOICE_GRANT_HELPFUL_OFFER_DESC|GRANT HELPFUL EFFECTS TO TEAMMATES <COLOR=#FEF8E4>15</COLOR> TIMES BEFORE URSULA TAKES HER NEXT <COLOR=#FEF8E4>4</COLOR> TURNS.
+RAID_BATTLE_CHOICE_GRANT_HELPFUL_OFFER_ACCEPTED_INFO_DESC|Grant Helpful effects to teammates multiple times before this contract expires.<br><br>On success, gain the following: <br> Teammates gain Offense Up for <COLOR=#FEF8E4>2</color> turns, and full Ability Magic for all abilities.<br><br>On failure, the following occurs:<br> Teammates are dealt damage equal to <COLOR=#FEF8E4>20%</color> of their maximum Health and inflicted with <COLOR=#FEF8E4>5</color> random harmful effects lasting <COLOR=#FEF8E4>3</color> turns.
+RAID_BATTLE_PROGRESS_HEADER|PROGRESS
+RAID_BATTLE_PROGRESS_SUB_HEADER|DAMAGE DEALT
+RAID_BATTLE_PROGRESS_TOTAL_DAMAGE_DEALT|TOTAL DAMAGE DEALT:
+RAID_BATTLE_PROGRESS_TRUE_DAMAGE_DEALT|TRUE DAMAGE DEALT:
+RAID_BATTLE_PROGRESS_XP_EARNT|RAID XP EARNED:
+RAID_BATTLE_PROGRESS_CONTINUE|CONTINUE
+RAID_BATTLE_PROGRESS_UNIT_DMG|DMG
+RAID_BATTLE_CHOICE_PROGRESS_DESC_FRACTION|{0} / {1} COMPLETED
+RAID_BATTLE_CHOICE_PROGRESS_DESC_TEAMMATES|{0} / {1} TEAMMATES MEET THE CONDITION
+RAID_COMPLETE|RAID COMPLETE
+CLUB_ADMIN_MSG_RAID_STARTED|<color=#FFBC08>[RAIDS] {0} HAS STARTED A {1} {2} RAID!
+CLUB_ADMIN_MSG_RAID_TIER_DEFAULT_NAME|TIER %d
+CLUB_ADMIN_MSG_RAID_FORFEITED|<color=#FFBC08>[RAIDS] {0} HAS FORFEITED THE RAID!
+CLUB_ADMIN_MSG_URSULA_ENCOUNTER_0_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] PHASE 1 COMPLETED! PHASE 2 HAS BEGUN!
+CLUB_ADMIN_MSG_URSULA_ENCOUNTER_1_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] PHASE 2 COMPLETED! PHASE 3 HAS BEGUN!
+CLUB_ADMIN_MSG_URSULA_ENCOUNTER_2_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] PHASE 3 COMPLETED! PHASE 4 HAS BEGUN!
+CLUB_ADMIN_MSG_RAID_WON|<color=#FFBC08>[RAIDS] {0} {1} HAS BEEN COMPLETED - CONGRATULATIONS TO MVP {2} FOR EARNING {3} RAID XP! COLLECT YOUR REWARDS NOW!
+EVENT_202010_GIFT_DROP_RAID_INBOX_SUBJECT|Raid Launch - Free Gift Event
+EVENT_202010_GIFT_DROP_RAID_INBOX_BODY|Summoner,<BR><BR>You've received a FREE <color=#54C5FF>Raid Gift</color>!<BR><BR>Login daily between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> from <color=#54C5FF>November 7 - 11</color> to collect FREE gifts. Enable push notifications to get notified so you don't miss out!<BR><BR>Thank you for your continued support, and get ready for Raids!
+EMAIL_CONNECT_ALREADY_HAVE_PIN|ALREADY HAVE A PIN?
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2020 Disney.<br> © 2019-2020 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2020 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
