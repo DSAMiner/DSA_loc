@@ -5485,6 +5485,8 @@ INSTANT_BATTLE_REWARDS_REBATTLE_MULTI|AGAIN (x{0})
 INSTANT_BATTLE_TITLE|CHOOSE THE NUMBER OF BATTLES
 INSUFFICIENT_CURRENCY|Not enough currency!
 INSUFFICIENT_CURRENCY_CLUB|Not enough currency!<br><br>Compete in Club Activities to earn the missing Club Currency.
+INSUFFICIENT_CURRENCY_RAID|Not enough currency!<br><br>Complete Raids to earn the missing Raid Coins.
+INSUFFICIENT_CURRENCY_RAID_TICKETS|Not enough Raid Tickets!<br><br>Complete Campaign Battles to earn the missing Raid Tickets.
 INSUFFICIENT_CURRENCY_CLUB_DUNGEON|Not enough currency!<br><br>Compete in Sorcerer's Trials to earn the missing Sorcerer's Coins.
 INSUFFICIENT_CURRENCY_CONVERSION_MSG|Not enough currency!<br><br>Buy the missing {0}?
 INSUFFICIENT_CURRENCY_GO_TO_STORE|GET MORE
