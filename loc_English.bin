@@ -1805,7 +1805,7 @@ CM_TUTORIAL_BATTLE_1F_STEP02_BODY|Tap here to add <color=#F3340E>Ariel</color> t
 CM_TUTORIAL_BATTLE_1F_STEP04_BODY|Let's go battle with <color=#F3340E>Ariel</color> as our new <color=#54C5FF>Support</color> Character!
 CM_TUTORIAL_CLAIM_FIRST_QUEST_STEP00_BODY|The <color=#54C5FF>MAGICAL METEOR SPELL</color> deals devastating damage and can turn the tide of battle!
 CM_TUTORIAL_CLUBS_FORCED_STEP00_BODY|A great reward awaits for joining a <color=#54C5FF>CLUB</color>
-CM_TUTORIAL_CLUBS_PT1_STEP00_BODY|Joining a Club will give you access to the <color=#54C5FF>CLUB ADVENTURES</color> and <color=#54C5FF>CLUB CONQUEST</color>
+CM_TUTORIAL_CLUBS_PT1_STEP00_BODY|Joining a Club will give you access to the <color=#54C5FF>CLUB DUNGEON</color>, <color=#54C5FF>CLUB CONQUEST</color>, and <color=#54C5FF>CLUB RAIDS</color>!
 CM_TUTORIAL_CLUBS_PT1_STEP01_BODY|You can create your own <color=#FF7810>CLUB</color> and invite your friends!
 CM_TUTORIAL_CLUBS_PT1_STEP02_BODY|You can search for and join an existing <color=#FF7810>CLUB</color> or pick one from the list below which is recommended for new players
 CM_TUTORIAL_CLUBS_PT1_STEP03_BODY|Create or join a <color=#FF7810>CLUB</color> today! Don't miss out on <color=#54C5FF>Club Dungeons</color> and <color=#FF7810>Club Conquest</color>
@@ -4147,6 +4147,15 @@ EVENT_202010_SPOOKY_SALLY_2X_INBOX_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x 
 EVENT_202010_SPOOKY_JACK_2X_INBOX_SUBJECT|Spooky Bonus - 2x Jack Skellington Token Event
 EVENT_202010_SPOOKY_JACK_2X_INBOX_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Jack Skellington Tokens</color> for a limited time! Bonus drops can be found on Villains Campaign <color=#54C5FF>7-D</color>, and Grand Campaign <color=#54C5FF>6-D</color>.<BR><BR>Don't miss out on spooky and villainous events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202010_SPOOKY_CELEBRATION_INBOX_BODY|Summoner,<BR><BR>Join in the haunted fun with a FREE <color=#54C5FF>Pumpkin Mickey Talisman</color> and <color=#54C5FF>Spooky Coins</color>! Don't miss out on spooky bundles, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_SC_WELCOME_INBOX_SUBJECT|Welcome to the Summoners' Council!
+EVENT_202011_SC_WELCOME_INBOX_BODY|Summoner,<BR><BR>Welcome to the <color=#54C5FF>Summoners' Council</color>! You have been selected based on your engagement and dedication to Disney Sorcerer's Arena.<BR><BR>As a member of the Council, you've unlocked the <color=#54C5FF>Council Frame</color>! Visit your player profile to equip now. You will also have access to exclusive monthly gifts and content, and early access to development news and upcoming features! Make sure to sign up for email to gain even more exclusive perks as a Council member!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_SC_MONTHLY_ALL_INBOX_SUBJECT|Summoners' Council - Free Gift
+EVENT_202011_SC_MONTHLY_ALL_INBOX_BODY|Summoners' Council Member,<BR><BR>You have received a FREE <color=#54C5FF>Summoners' Council Gift</color>!<BR><BR>Be sure to sign up for emails to receive bonus Summoners' Council gifts in the future.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_SC_MONTHLY_EMAIL_INBOX_SUBJECT|Summoners' Council - Bonus Free Gift
+EVENT_202011_SC_MONTHLY_EMAIL_INBOX_BODY|Summoners' Council Member,<BR><BR>You have received a FREE <color=#54C5FF>Bonus Gift</color> for signing up with email as a Council member!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_ANNIVERSARY_FANTASIA_INBOX_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Fantasia 80th Anniversary</color> with this FREE <color=#54C5FF>Broom Talisman</color>! Don't miss out on the Anniversary Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_ANNIVERSARY_RESCUERSDU_INBOX_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Rescuers Down Under 30th Anniversary</color> with this FREE <color=#54C5FF>Miss Bianca Talisman</color>! Don't miss out on the Anniversary Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_ANNIVERSARY_MICKEYMINNIE_INBOX_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Mickey and Minnie 92nd Anniversary</color> with this FREE <color=#54C5FF>Steamboat Minnie Talisman</color>! Don't miss out on the Anniversary Bundle and other special offers, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -5125,8 +5134,8 @@ GLUT_SPECIALA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:N0}</color> Fear duration
 GLUT_SPECIALA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:N0}</color> Offense Up duration.<br>+<color=#FEF8E4>{1:N0}</color> Tenacity Up duration.
 GLUT_SPECIALB_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:N0}</color> additional Continuous Damage effect inflicted per Harmful effect.
 GLUT_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> bonus Defense.
-RAID_PASSIVE_DESC_01|This character performs an additional <color=#FEF8E4>{0:N0}</color> action on its turn, and gains <color=#FEF8E4>{1:P0}</color> Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.
-RAID_PASSIVE_DESC_SUMMARIZED_01|This character performs additional actions on its turn, and gains Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.
+RAID_PASSIVE_DESC_01|This character performs an additional <color=#FEF8E4>{0:N0}</color> action on its turn, and gains <color=#FEF8E4>{1:P0}</color> Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, Charm, and Sleep.
+RAID_PASSIVE_DESC_SUMMARIZED_01|This character performs additional actions on its turn, and gains Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, Charm, and Sleep.
 RAID_PASSIVE_II_DESC_01|This character performs an additional <color=#FEF8E4>{0:N0}</color> action on its turn, and gains <color=#FEF8E4>{1:P0}</color> Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.<br><br>This ability begins a <color=#FEF8E4>{2:N0}</color> countdown when the encounter starts, which decreases when this character takes a turn. When it completes, this character becomes Empowered.<br><br>Empowered:<br><color=#FEF8E4>{3:P0}</color> chance to gain <color=#FEF8E4>{4:N0}</color> additional Magic for all abilities on start of turn. This is guaranteed if this character is not affected by a Harmful effect.
 RAID_PASSIVE_II_DESC_SUMMARIZED_01|This character performs additional actions on its turn, and gains Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.<br><br>This ability begins a countdown when the encounter starts, which decreases when this character takes a turn. When it completes, this character becomes Empowered.<br><br>Empowered:<br>Chance to gain additional Magic for all abilities on start of turn. This is guaranteed if this character is not affected by a Harmful effect.
 ABILPREVIEWUPGRADE_GEN_DAMAGE_CONTINUOUS_PCT_INC|<color=#FEF8E4>+{0:P0}</color> Continuous Damage dealt.
@@ -7549,6 +7558,8 @@ PASSHOLDER_SEASON_202002_UPGRADE_DESC|PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE
 PASSHOLDER_SEASON_202003_UPGRADE_DESC|PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * WOODY<BR>  * JESSIE<br>  * EXCLUSIVE INTERGALACTIC BUZZ LIGHTYEAR OUTFIT<br>  * AND LOTS MORE!<br><br>PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_STITCH_SHOWCASE|<size=80%>LILO TALISMAN & STITCH EMOTE!
 PASSHOLDER_UNLOCKS_TXT|UNLOCKS AT LEVEL 10
+PASSHOLDER_PORTRAIT_FRAME|PASSHOLDER GOLD PROFILE FRAME
+PASSHOLDER_PORTRAIT_FRAME_PLATINUM|PASSHOLDER PLATINUM PROFILE FRAME
 PASSPORT_201812_DECEMBER_DESC|Passholder<color=#FFBC08> GOLD</color> for December 2018
 PASSPORT_201812_DECEMBER_HEADER|PASSHOLDER<color=#FFBC08> GOLD</color>
 PASSPORT_201812_DECEMBER_NAME|December 2018 Passholder<color=#FFBC08> GOLD</color>
@@ -10041,6 +10052,14 @@ PIN_HAUNTED_MANSION_EZRA_NAME|EZRA TALISMAN
 PIN_HAUNTED_MANSION_EZRA_DESC|...they'll haunt you until you return!
 PIN_HAUNTED_MANSION_PHINEAS_NAME|PHINEAS TALISMAN
 PIN_HAUNTED_MANSION_PHINEAS_DESC|...a ghost will follow you home!
+PIN_BROOM_NAME|BROOM TALISMAN
+PIN_BROOM_DESC|Hard to stop once the cleaning gets started.
+PIN_YENSID_NAME|YEN SID TALISMAN
+PIN_YENSID_DESC|A powerful sorcerer with a magical hat.
+PIN_MISSBIANCA_NAME|MISS BIANCA TALISMAN
+PIN_MISSBIANCA_DESC|We mustn't lose hope.
+PIN_JAKE_NAME|JAKE TALISMAN
+PIN_JAKE_DESC|Well done, mate.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -10553,6 +10572,12 @@ RAID_SUMMARY_TAB_TITLE|SUMMARY
 RAID_TIER_CURRENTLY_ACTIVE|<color=#22FF00><br>(ACTIVE TIER)</color>
 RAID_TIER_LOCKED|YOUR CLUB DOES NOT MEET THE REQUIREMENTS
 RAID_TIER_N|TIER {0}
+RAID_REWARDS_TIER_01|RAID TIER 1
+RAID_REWARDS_TIER_02|RAID TIER 2
+RAID_REWARDS_TIER_03|RAID TIER 3
+RAID_REWARDS_TIER_04|RAID TIER 4
+RAID_REWARDS_TIER_05|RAID TIER 5
+RAID_REWARDS_TIER_HEROIC|RAID HEROIC TIER
 RAID_UNITS_TAB_TITLE|UNITS
 RAID_UNITS_TITLE|REQUIRED UNITS
 RAID_UNIT_REQUIREMENTS_COUNT|YOU HAVE <color=#{0}>{1}</color> ELIGIBLE CHARACTERS
@@ -12352,6 +12377,8 @@ STORE_ITEM_F2_TEAM_SUBTITLE|COLLECT THE FROZEN TEAM AND BATTLE INTO THE UNKNOWN 
 STORE_ITEM_FIREWORKS_BUNDLE_NAME|FIREWORKS SPECTACULAR
 STORE_ITEM_FIREWORKS_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS BIG LIMITED TIME DEAL. GET A UNIQUE TALISMAN, 1X ULTIMATE CHEST, GEMS, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_CELEBRATION_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS LIMITED TIME DEAL. GET A SPECIAL <color=#54C5FF>EMOTE</color>, <color=#54C5FF>TALISMAN</color>, 1X ULTIMATE CHEST, GEMS, ENERGY, ABILITY RUNES, AND MORE.
+STORE_ITEM_CELEBRATION_BUNDLE_SUBTITLE_02|CELEBRATE TODAY WITH THIS BIG LIMITED TIME DEAL. GET A UNIQUE TALISMAN, 1X ULTIMATE CHEST, LOYALTY COINS, ENERGY, ABILITY RUNES, AND MORE.
+STORE_ITEM_CELEBRATION_BUNDLE_SUBTITLE_03|CELEBRATE TODAY WITH THIS BIG LIMITED TIME DEAL. GET A SPECIAL <color=#54C5FF>EMOTE</color>, 1X ULTIMATE CHEST, LOYALTY COINS, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_CELEBRATION_EMOTE_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS LIMITED TIME DEAL. GET A <color=#54C5FF>UNIQUE EMOTE</color>, 1X ULTIMATE CHEST, GEMS, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_FLAWED_ALL_SS_BUNDLE_DESC|BRING YOUR TEAM TO THE NEXT LEVEL. UPGRADE AND POWER UP A FULL SET OF FLAWED SORCERER STONES WITH THIS BUNDLE.
 STORE_ITEM_FLAWED_ALL_SS_BUNDLE_NAME|SUPER STONE BUNDLE
@@ -13226,6 +13253,8 @@ STORE_ITEM_PASSHOLDER_XP_SMALL_LOWER_STICKER|BOOST 5 TIERS
 STORE_ITEM_PASSHOLDER_XP_SMALL_NAME|5 PASSHOLDER TIERS
 STORE_ITEM_PASSHOLDER_XP_SMALL_SHELF|<color=#FFBC08>5 PASSHOLDER TIERS
 STORE_ITEM_PASSHOLDER_XP_SMALL_STICKER_KEY|TIER BOOSTER
+STORE_ITEM_PASSHOLDER_SUPER_PLATINUM_NAME|PLATINUM PASSHOLDER BUNDLE
+STORE_ITEM_PASSHOLDER_SUPER_PLATINUM_SUBTITLE|MAX OUT YOUR PASSHOLDER SEASON WITH THE PLATINUM PASSHOLDER BUNDLE. POWER UP YOUR COLLECTION WITH <color=#54C5FF>PASSHOLDER PLATINUM</color>, <color=#FFBC08>PASSHOLDER GOLD</color>, EXTRA GEAR, ABILITY RUNES, PASSHOLDER XP, AND MORE ITEMS.
 STORE_ITEM_QUEEN_OF_HEARTS_NAME|QUEEN OF HEARTS BUNDLE
 STORE_ITEM_QUEEN_OF_HEARTS_SUBTITLE|BRING YOUR MYTHICAL TEAM TO THE NEXT LEVEL. UNLOCK THE QUEEN OF HEARTS TO POWER UP YOUR COLLECTION AND CONQUER THE STITCH EVENT TOWER.
 STORE_ITEM_RTTL_SP_ALADDIN_IAGO_1_BOX_BACK_DESC|Power through the Race to the Lamp with these guaranteed items:<BR>  * 10 Aladdin Tokens<BR>  * 20 Fowl Play Tokens<br>  * 250,000 Gold
@@ -15195,6 +15224,8 @@ PASSHOLDER_202010_2_SEASON_NAME|PASSHOLDER SEASON 13
 PASSHOLDER_202010_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 13 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * EMPEROR ZURG TOKENS<BR>  * DR. FACILIER TOKENS<br>  * YOKAI TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202011_1_SEASON_NAME|PASSHOLDER SEASON 14
 PASSHOLDER_202011_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 14 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * STITCH TOKENS<BR>  * KING TRITON TOKENS<br>  * PRINCE ERIC TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202011_2_SEASON_NAME|PASSHOLDER SEASON 15
+PASSHOLDER_202011_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 15 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * YOKAI TOKENS<BR>  * GO GO TOMAGO TOKENS<br>  * WASABI TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 COCO_MIGUEL_GEMS_NAME|MIGUEL PACK
 EMOTE_ZURG_NAME|EMPEROR ZURG EMOTE
 EMOTE_ZURG_DESC|Muahahaha.
@@ -15243,7 +15274,7 @@ URSULA_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> instances o
 URSULA_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> additional Continuous Damge effect inflicted on Critical Strike.
 URSULA_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Continuous Damage effect inflicted
 URSULA_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> Defense reduction while Polymorphed.
-URSULA_SPECIALB_ABILPREVIEWUPGRADE_02|Purge <color=#FEF8E4>{0:N0}</color> Helpful effects.<br>Gan a copy of Purged effects excluding Taunt.
+URSULA_SPECIALB_ABILPREVIEWUPGRADE_02|Purge <color=#FEF8E4>{0:N0}</color> Helpful effects.<br>Gain a copy of Purged effects excluding Taunt.
 URSULA_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Defense reduction.
 URSULA_SPECIALB_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Helpful effect Purged.
 URSULA_SPECIALB_ABILPREVIEWUPGRADE_05|Purge all Helpful effects.
@@ -15428,10 +15459,10 @@ MARKETING_FREEFRIDAY_PN_04|Head to the DSA Twitter account and enter #FreeStuffF
 FLOTSAM_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Poison, dealing <color=#FEF8E4>{1:P0}</color> of the opponent's max Health as damage each turn for <color=#FEF8E4>{2}</color> turns. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced by <color=#FEF8E4>1</color> when that character receives Healing.<br><br>If opponent was affected by a Harmful effect at the start of this ability:<br><color=#FEF8E4>{3:P0}</color> chance to inflict additional Poison. Drain Speed Meter by <color=#FEF8E4>{4:P0}</color> if opponent is not affected by Taunt.
 FLOTSAM_BASIC_DESC_SUMMARIZED_01|Deal damage to target opponent. Inflict Poison, dealing a percentage of the opponent's max Health as damage each turn. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced when that character receives Healing.<br><br>If opponent was affected by a Harmful effect at the start of this ability: has a chance to inflict additional Poison. Drain Speed Meter if opponent is not affected by Taunt.
 FLOTSAM_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict additional Poison.
-FLOTSAM_SPECIALA_DESC_01|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. Target opponent immediately attacks an adjacent opponent.<br><br>If possible, this ability will target the opponent with the highest current Offense.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn on target opponent.
-FLOTSAM_SPECIALA_DESC_SUMMARIZED_01|Charm target opponent. Has a chance to inflict Charm on adjacent opponents. Target opponent immediately attacks an adjacent opponent.<br><br>If possible, this ability will target the opponent with the highest current Offense.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down on target opponent.
-FLOTSAM_SPECIALA_DESC_02|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. Target opponent immediately attacks an adjacent opponent.<br><br>If possible, this ability will target the opponent with the highest current Offense.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turns on target opponent.<color=#FEF8E4>{4:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{5:N0}</color> turn on adjacent opponents.
-FLOTSAM_SPECIALA_DESC_03|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. Target opponent immediately attacks an adjacent opponent.<br><br>If possible, this ability will target the opponent with the highest current Offense.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turns on target opponent.<color=#FEF8E4>{4:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{5:N0}</color> turns on adjacent opponents.
+FLOTSAM_SPECIALA_DESC_01|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. If Charmed, target opponent immediately attacks an adjacent opponent.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn on target opponent.
+FLOTSAM_SPECIALA_DESC_SUMMARIZED_01|Charm target opponent. Has a chance to inflict Charm on adjacent opponents. If Charmed, target opponent immediately attacks an adjacent opponent.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down on target opponent.
+FLOTSAM_SPECIALA_DESC_02|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. If Charmed, target opponent immediately attacks an adjacent opponent.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turns on target opponent.<color=#FEF8E4>{4:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{5:N0}</color> turn on adjacent opponents.
+FLOTSAM_SPECIALA_DESC_03|Charm target opponent for <color=#FEF8E4>{0:N0}</color> turns. <color=#FEF8E4>{1:P0}</color> chance to inflict Charm for <color=#FEF8E4>{2:N0}</color> turn on adjacent opponents. If Charmed, target opponent immediately attacks an adjacent opponent.<br><br>If Jetsam is a teammate:<br>Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turns on target opponent.<color=#FEF8E4>{4:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{5:N0}</color> turns on adjacent opponents.
 FLOTSAM_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Defense Down on adjacent opponents for <color=#FEF8E4>{1:N0}</color> turn.
 FLOTSAM_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense Down on adjacent opponents.
 FLOTSAM_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to the target opponent <color=#FEF8E4>{1:N0}</color> times. Each hit has <color=#FEF8E4>{2:P0}</color> chance to inflict Poison, dealing <color=#FEF8E4>{3:P0}</color> of the opponent's maximum Health as damage each turn for <color=#FEF8E4>{4:N0}</color> turns. Poison cannot be Cleansed. The duration of Poison affecting a character is reduced by <color=#FEF8E4>1</color> when that character receives Healing.
