@@ -1138,6 +1138,7 @@ CAMPAIGNNODE_03_E_ELITE_NAME|3-E ELITE
 CAMPAIGNNODE_03_E_NAME|3-E
 CAMPAIGNNODE_03_F_ELITE_NAME|3-F ELITE
 CAMPAIGNNODE_03_F_NAME|3-F
+CAMPAIGNNODE_03_G_ELITE_NAME|3-G ELITE
 CAMPAIGNNODE_03_G_NAME|3-G
 CAMPAIGNNODE_03_H_NAME|3-H
 CAMPAIGNNODE_03_I_NAME|3-I
@@ -1156,6 +1157,7 @@ CAMPAIGNNODE_04_E_ELITE_NAME|4-E ELITE
 CAMPAIGNNODE_04_E_NAME|4-E
 CAMPAIGNNODE_04_F_ELITE_NAME|4-F ELITE
 CAMPAIGNNODE_04_F_NAME|4-F
+CAMPAIGNNODE_04_G_ELITE_NAME|4-G ELITE
 CAMPAIGNNODE_04_G_NAME|4-G
 CAMPAIGNNODE_04_H_NAME|4-H
 CAMPAIGNNODE_04_I_NAME|4-I
@@ -1174,6 +1176,7 @@ CAMPAIGNNODE_05_E_ELITE_NAME|5-E ELITE
 CAMPAIGNNODE_05_E_NAME|5-E
 CAMPAIGNNODE_05_F_ELITE_NAME|5-F ELITE
 CAMPAIGNNODE_05_F_NAME|5-F
+CAMPAIGNNODE_05_G_ELITE_NAME|5-G ELITE
 CAMPAIGNNODE_05_G_NAME|5-G
 CAMPAIGNNODE_05_H_NAME|5-H
 CAMPAIGNNODE_05_I_NAME|5-I
@@ -1192,7 +1195,9 @@ CAMPAIGNNODE_06_E_ELITE_NAME|6-E ELITE
 CAMPAIGNNODE_06_E_NAME|6-E
 CAMPAIGNNODE_06_F_ELITE_NAME|6-F ELITE
 CAMPAIGNNODE_06_F_NAME|6-F
+CAMPAIGNNODE_06_G_ELITE_NAME|6-G ELITE
 CAMPAIGNNODE_06_G_NAME|6-G
+CAMPAIGNNODE_06_H_ELITE_NAME|6-H ELITE
 CAMPAIGNNODE_06_H_NAME|6-H
 CAMPAIGNNODE_06_I_NAME|6-I
 CAMPAIGNNODE_06_J_NAME|6-J
@@ -1967,6 +1972,38 @@ COBRABUBBLES_SPECIALB_DESC_01|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmf
 COBRABUBBLES_SPECIALB_DESC_02|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. <color=#FEF8E4>+1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent.<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turns.
 COBRABUBBLES_SPECIALB_DESC_03|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. +<color=#FEF8E4>1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent, doubled if the target is "Lilo & Stitch."<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turns.
 COBRABUBBLES_UNIT_NAME|COBRA BUBBLES
+BATTLE_EFFECT_INCREASE_BASE_DEFENSE|DEFENSE INCREASED
+BATTLE_EFFECT_INCREASE_BASE_CRIT_CHANCE|CRIT CHANCE INCREASED
+COGSWORTH_UNIT_NAME|COGSWORTH
+COGSWORTH_ABILBASIC_NAME|Time Flies
+COGSWORTH_ABILSPECIALA_NAME|I'm In Charge Here
+COGSWORTH_ABILSPECIALB_NAME|It Wasn't Me! // CHAAARGE!
+COGSWORTH_ABILPASSIVEA_NAME|Be Our Guest
+COGSWORTH_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turn.
+COGSWORTH_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turn.
+COGSWORTH_BASIC_ABILPREVIEWUPGRADE_01|If Lumiere is a teammate, he inflicts Continuous Damage, dealing <color=#FFC400>{0:N0}</color> damage each turn over <color=#FEF8E4>{1:N0}</color> turns.
+COGSWORTH_SPECIALA_DESC_01|Purge Haste and Defense Up on target opponent and adjacent opponents.<br><br>Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn.
+COGSWORTH_SPECIALA_DESC_02|Purge Haste and Defense Up on target opponent and adjacent opponents. <color=#FEF8E4>{1:P0}</color> chance to Flip Haste and Defense Up instead.<br><br>Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn.
+COGSWORTH_SPECIALA_DESC_03|Purge Haste and Defense Up on target opponent and adjacent opponents. <color=#FEF8E4>{1:P0}</color> chance to Flip Haste and Defense Up instead.<br><br>Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn.<br><br>If Haste was Purged or Flipped, gain Haste for <color=#FEF8E4>{2:N0}</color> turns. If Defense Up was Purged or Flipped, gain Defense Up for <color=#FEF8E4>{3:N0}</color> turns.
+COGSWORTH_SPECIALA_DESC_04|Flip Haste and Defense on target opponent and adjacent opponents.<br><br>Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn.<br><br>If Haste was Flipped, gain Haste for <color=#FEF8E4>{2:N0}</color> turns. If Defense Up was Flipped, gain Defense Up for <color=#FEF8E4>{3:N0}</color> turns.
+COGSWORTH_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to Flip Haste and Defense Up instead.
+COGSWORTH_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to Flip.
+COGSWORTH_SPECIALA_ABILPREVIEWUPGRADE_03|If Haste was Purged or Flipped, gain Haste for <color=#FEF8E4>{0:N0}</color> turns. If Defense Up was Purged or Flipped, gain Defense Up for <color=#FEF8E4>{1:N0}</color> turns.
+COGSWORTH_SPECIALA_ABILPREVIEWUPGRADE_04|Guranteed to Flip each effect.
+COGSWORTH_SPECIALB_DESC_01|Gain Stealth for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.<br><br>If Empowered on start of turn, perform the following:<br><br>Lose Empowered. Lose Stealth. Deal up to <color=#FFC400>{1:N0}</color> damage to opponent with highest Defense. Ignore <color=#FEF8E4>{2:P0}</color> Defense.
+COGSWORTH_SPECIALB_DESC_02|Gain Stealth for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered. Grant Haste to self and adjacent characters for <color=#FEF8E4>{4:N0}</color> turn.<br><br>If Empowered on start of turn, perform the following:<br><br>Lose Empowered. Lose Stealth. Deal up to <color=#FFC400>{1:N0}</color> damage to opponent with highest Defense. Ignore <color=#FEF8E4>{2:P0}</color> Defense.
+COGSWORTH_SPECIALB_DESC_03|Gain Stealth for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered. Grant Haste to self and adjacent characters for <color=#FEF8E4>{4:N0}</color> turn.<br><br>If Empowered on start of turn, use this character's turn to perform the following: Lose Empowered. Lose Stealth. Deal up to <color=#FFC400>{1:N0}</color> damage to opponent with highest Defense. Ignore <color=#FEF8E4>{2:P0}</color> Defense. Ignore an additional <color=#FEF8E4>{3:P0}</color> Defense per 'Kingdom' teammate.
+COGSWORTH_SPECIALB_ABILPREVIEWUPGRADE_01|Grant Haste to self and adjacent characters for <color=#FEF8E4>{0:N0}</color> turn.
+COGSWORTH_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> Defense ignored per 'Kingdom' teammate.
+COGSWORTH_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Defense ignored per 'Kingdom' teammate.
+COGSWORTH_PASSIVEA_DESC_01|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Defense as bonus Defense to adjacent teammates. This lasts until this character is defeated.<br><br>On this character or adjacent teammate receiving Slow, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Slow.
+COGSWORTH_PASSIVEA_DESC_02|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Defense as bonus Defense to adjacent teammates. This lasts until this character is defeated.<br><br>On this character or adjacent teammate receiving Slow, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Slow. Chance is increased by <color=#FEF8E4>{2:P0}</color> for 'Kingdom' teammates.
+COGSWORTH_PASSIVEA_DESC_03|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Defense as bonus Defense to adjacent teammates. This lasts until this character is defeated.<br><br>.On this character or adjacent teammate receiving Slow, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Slow. Chance is increased by <color=#FEF8E4>{2:P0}</color> for 'Kingdom' teammates. Guaranteed for 'Beauty and  the Beast' teammates including this character.
+COGSWORTH_PASSIVEA_DESC_04|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Defense as bonus Defense to adjacent teammates. This lasts until this character is defeated.<br><br>On this character or adjacent teammate receiving Slow, Cleanse Slow.
+COGSWORTH_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse Slow for 'Kingdom' teammates.
+COGSWORTH_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Defense granted as bonus Defense.
+COGSWORTH_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse Slow. Guaranteed for 'Beauty and  the Beast' teammates, including this character.
+COGSWORTH_PASSIVEA_ABILPREVIEWUPGRADE_04|Guaranteed to Cleanse Slow.
 COMMUNITY_80_UPDATE_BODY|Summoners! Update 8.0 is live! Here is a list of changes<br><br>   Turn-Based Combat<br>   Larger team size<br>   Combat effects<br>   High-definition battlegrounds<br>   New spell system<br>   Updated UI<br>   Detailed characters stats<br>   Bug fixes and other improvements<br><br>We look forward to hearing your feedback! Please stop by the forums or Discord and let us know what you think!
 COMMUNITY_80_UPDATE_SENDER|Disney Sorcerer's Arena Dev Team
 COMMUNITY_80_UPDATE_SUBJECT|Update 8.0 is here!
@@ -4154,9 +4191,26 @@ EVENT_202011_SC_MONTHLY_ALL_INBOX_SUBJECT|Summoners' Council - Free Gift
 EVENT_202011_SC_MONTHLY_ALL_INBOX_BODY|Summoners' Council Member,<BR><BR>You have received a FREE <color=#54C5FF>Summoners' Council Gift</color>!<BR><BR>Be sure to sign up for emails to receive bonus Summoners' Council gifts in the future.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202011_SC_MONTHLY_EMAIL_INBOX_SUBJECT|Summoners' Council - Bonus Free Gift
 EVENT_202011_SC_MONTHLY_EMAIL_INBOX_BODY|Summoners' Council Member,<BR><BR>You have received a FREE <color=#54C5FF>Bonus Gift</color> for signing up with email as a Council member!<BR><BR>Thank you for your continued support, and see you in the Arena!
+FRAME_SC_NAME|SUMMONERS' COUNCIL FRAME
+FRAME_SC_DESC|A prestigious symbol granted by the Master Sorcerer.
 EVENT_202011_ANNIVERSARY_FANTASIA_INBOX_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Fantasia 80th Anniversary</color> with this FREE <color=#54C5FF>Broom Talisman</color>! Don't miss out on the Anniversary Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202011_ANNIVERSARY_RESCUERSDU_INBOX_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Rescuers Down Under 30th Anniversary</color> with this FREE <color=#54C5FF>Miss Bianca Talisman</color>! Don't miss out on the Anniversary Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202011_ANNIVERSARY_MICKEYMINNIE_INBOX_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Mickey and Minnie 92nd Anniversary</color> with this FREE <color=#54C5FF>Steamboat Minnie Talisman</color>! Don't miss out on the Anniversary Bundle and other special offers, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_ANNIVERSARY_TOYSTORY_INBOX_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Toy Story 25th Anniversary</color> with these FREE <color=#54C5FF>Woody Tokens</color>! Don't miss out on Toy Story offers, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_ANNIVERSARY_TANGLED_INBOX_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Tangled 10th Anniversary</color> with this FREE <color=#54C5FF>Pascal Talisman</color>!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_FRIENDSGIVING_INBOX_SUBJECT|Friendsgiving Mystery Pack Available
+EVENT_202011_FRIENDSGIVING_INBOX_BODY|Summoner,<BR><BR>Celebrate today with the <color=#54C5FF>Friendsgiving Mystery Pack</color>, available in the Store now for a limited time. Open for a chance to unlock famous Disney food talismans and Sensational Six Character Tokens!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_FALLFLASH_INBOX_SUBJECT|Fall Flash Sales
+EVENT_202011_FALLFLASH_INBOX_BODY|Summoner,<BR><BR>Visit the Store from November 23 - 30 to check out exciting <color=#54C5FF>Fall Flash Sales</color> available for a limited time. Shop now!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_FLASHGIFT_BATB_SOON_INBOX_SUBJECT|Coming Soon - Flash Gifts!
+EVENT_202011_FLASHGIFT_BATB_SOON_INBOX_BODY|Summoner,<BR><BR><color=#54C5FF>Flash Gifts</color> are on the way! Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>November 20 - 25</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_FLASHGIFT_BATB_GIFT_INBOX_BODY|Summoner,<BR><BR>You've received a Beauty and the Beast <color=#54C5FF>Flash Gift</color>!<BR><BR>Stay on the lookout for more Flash Gift drops at random times between <color=#54C5FF>November 20 - 25</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_GIFTDROP_COMINGSOON_INBOX_SUBJECT|Coming Soon - Limited Time Gift Drop
+EVENT_202011_GIFTDROP_COMINGSOON_INBOX_BODY|Summoner,<BR><BR>A limited time <color=#54C5FF>Gift Drop</color> is on the way!<BR><BR>Stay on the lookout for <color=#54C5FF>Gift Drops</color> between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> for a limited time, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_GIFTDROP_GIFT_INBOX_SUBJECT|Limited Time Gift Drop
+EVENT_202011_GIFTDROP_GIFT_INBOX_BODY|Summoner,<BR><BR>You've received a FREE <color=#54C5FF>Gift</color>!<BR><BR>Login between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> to collect FREE gifts for a limited time. Enable push notifications to get notified so you don't miss out!<BR><BR>Thank you for your continued support, and see you in the Arena!
+EVENT_202011_GPGIFT_INBOX_SUBJECT|Google Play Best of 2020 Users' Choice Awards Nomination
+EVENT_202011_GPGIFT_INBOX_BODY|Summoner,<BR><BR>Disney Sorcerer's Arena has been nominated for <color=#54C5FF>Google Play Best of 2020 Users' Choice Awards</color>! In celebration, here is a FREE <color=#54C5FF>gift</color>!<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -6405,6 +6459,36 @@ LOTSO_SPECIALB_DESC_03|Restore <color=#5DFF89>{0:N0}</color> Health to the two l
 LOTSO_UNIT_NAME|LOTSO
 LOTS_OF_PROMOTIONS_DESC|Collect Tokens to Promote 100 Characters
 LOTS_OF_PROMOTIONS_NAME|PROMOTED
+ABILPREVIEWUPGRADE_GEN_CRITICAL_CHANCE_VS_SHIELD|<color=#FEF8E4>{0:P0}</color> bonus Critical Strike chance against targets affected by Shield.
+ABILPREVIEWUPGRADE_GEN_OFFENSEUP_CHANCE_ADD|<color=#FEF8E4>+{0:P0}</color> chance to grant Offense Up.
+LUMIERE_UNIT_NAME|LUMIERE
+LUMIERE_BASIC_NAME|A Touch Too Fire
+LUMIERE_PASSIVEA_NAME|Be Our Guest
+LUMIERE_SPECIALA_NAME|Flambé
+LUMIERE_SPECIALB_NAME|Dashing Debonair Smile
+LUMIERE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. On Critical Strike, inflict Continuous Damage, dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns.
+LUMIERE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. On Critical Strike, inflict Continuous Damage, dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Cogsworth is a teammate, inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn.
+LUMIERE_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. On Critical Strike, inflict Continuous Damage, dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns. <color=#FEF8E4>{4:P0}</color> bonus Critical Strike chance against targets affected by Shield.<br><br>If Cogsworth is a teammate, inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn.
+LUMIERE_BASIC_ABILPREVIEWUPGRADE_01|If Cogsworth is a teammate, inflict Defense Down for <color=#FEF8E4>{0:N0}</color> turn.
+LUMIERE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>On Critical Strike, inflict Continuous Damage, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. Each hit grants <color=#FEF8E4>{4:P0}</color> Speed Meter to a random 'Kingdom' teammate. <br><br>On Critical Strike, inflict Continuous Damage, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. Each hit grants <color=#FEF8E4>{4:P0}</color> Speed Meter to a random 'Kingdom' teammate. <br><br>On Critical Strike, inflict Continuous Damage, dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns. <color=#FEF8E4>{5:P0}</color> bonus Critical Strike chance against targets affected by shields.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALA_ABILPREVIEWUPGRADE_01|Each hit grants <color=#FEF8E4>{0:P0}</color> Speed Meter to a random 'Kingdom' teammate.
+LUMIERE_SPECIALB_DESC_01|Inflict Charm on opponent with highest Offense. Fill their Speed Meter.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALB_DESC_02|Inflict Charm on opponent with highest Offense. Fill their Speed Meter. <color=#FEF8E4>{0:P0}</color> chance to grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALB_DESC_03|Inflict Charm on opponent with highest Offense. Fill their Speed Meter. <color=#FEF8E4>{0:P0}</color> chance to grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to grant that opponent Critical Chance Up for <color=#FEF8E4>{3:P0}</color> turn.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALB_DESC_04|Inflict Charm on opponent with highest Offense. Fill their Speed Meter. Grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn. Grant that opponent Critical Chance Up for <color=#FEF8E4>{3:P0}</color> turn.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn.
+LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to grant Offense Up. <color=#FEF8E4>+{1:P0}</color> chance to grant Critical Chance Up.
+LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_03|Guaranteed to grant Offense Up and Critical Chance Up.
+LUMIERE_PASSIVE_DESC_01|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Crit Chance as bonus Crit Chance to adjacent teammates.<br><br>On this character or adjacent teammate receiving Blind, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Blind.<br><br>If Lumiere, Cogsworth, Mrs. Potts, and Belle are teammates: At the start of battle, fill Belle's Speed Meter.
+LUMIERE_PASSIVE_DESC_02|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Crit Chance as bonus Crit Chance to adjacent teammates.<br><br>On this character or adjacent teammate receiving Blind, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Blind. Chance is increased by <color=#FEF8E4>{2:P0}</color> for 'Kingdom' teammates.<br><br>If Lumiere, Cogsworth, Mrs. Potts, and Belle are teammates: At the start of battle, fill Belle's Speed Meter.
+LUMIERE_PASSIVE_DESC_03|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Crit Chance as bonus Crit Chance to adjacent teammates.<br><br>On this character or adjacent teammate receiving Blind, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Blind. Chance is increased by <color=#FEF8E4>{2:P0}</color> for 'Kingdom' teammates. Guaranteed for 'Beauty and  the Beast' teammates including this character.<br><br>If Lumiere, Cogsworth, Mrs. Potts, and Belle are teammates: At the start of battle, fill Belle's Speed Meter.
+LUMIERE_PASSIVE_DESC_04|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Crit Chance as bonus Crit Chance to adjacent teammates.<br><br>On this character or adjacent teammate receiving Blind, Cleanse Blind.<br><br>If Lumiere, Cogsworth, Mrs. Potts, and Belle are teammates: At the start of battle, fill Belle's Speed Meter.
+LUMIERE_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse Blind for 'Kingdom' teammates.
+LUMIERE_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Crit Chance granted as bonus Crit Chance.
+LUMIERE_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse Blind. Guaranteed for 'Beauty and  the Beast' teammates, including this character.
+LUMIERE_PASSIVE_ABILPREVIEWUPGRADE_04|Guaranteed to Cleanse Blind.
 MADAMMIM_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to inflict a random Harmful effect.
 MADAMMIM_BASIC_DESC_01|Deal <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>If any teammate is a Villain, <color=#FEF8E4>{1:P0}</color> chance to inflict a random Harmful effect for <color=#FEF8E4>{2:N0}</color> turn.
 MADAMMIM_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> Speed Meter increase after inflicting a Harmful effect.
@@ -10061,6 +10145,10 @@ PIN_MISSBIANCA_NAME|MISS BIANCA TALISMAN
 PIN_MISSBIANCA_DESC|We mustn't lose hope.
 PIN_JAKE_NAME|JAKE TALISMAN
 PIN_JAKE_DESC|Well done, mate.
+PIN_PASCAL_NAME|PASCAL TALISMAN
+PIN_PASCAL_DESC|Chameleon. Not a frog.
+PIN_RAPUNZEL_NAME|RAPUNZEL TALISMAN
+PIN_RAPUNZEL_DESC|Grab one and head in to Walt Disney's Enchanted Tiki Room!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -11603,6 +11691,7 @@ SORCERER_STONE_UNIT_POWER|POWER
 SPECIAL_OFFER_EXPIRED|This offer has expired and is no longer available.
 SPECIAL_OFFER_LIMITED_TIME|LIMITED TIME OFFER
 SPECIAL_OFFER_LIMITED_TIME_STARTER|LIMITED TIME STARTER
+SPECIAL_OFFER_FALL_FLASH_SALE|FALL FLASH SALE
 SPECIAL_OFFER_VILLIANS_IAP_1|Power through the Villains Campaign with the limited time <color=#54C5FF>VILLAINS STARTER PACK</color>
 SPELL_BLUEFAIRYMAGIC_DESC_01|Cleanse all Harmful effects from target teammate. If able, apply the opposite Helpful effect for <color=#FEF8E4>{0:N0}</color> turn.
 SPELL_BLUEFAIRYMAGIC_DESC_02|Cleanse all Harmful effects from target teammate. If able, apply the opposite Helpful effect for <color=#FEF8E4>{0:N0}</color> turns.
@@ -11891,7 +11980,7 @@ STEAMBOATWILLIEMICKEY_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</colo
 STEAMBOATWILLIEMICKEY_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to Purge a second Helpful effect.
 STEAMBOATWILLIEMICKEY_SPECIALB_ABILPREVIEWUPGRADE_03|Guaranteed to Purge a second Helpful effect.
 STEAMBOATWILLIEMICKEY_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge a random Helpful effect and apply a copy to a random teammate with its duration refreshed.
-STEAMBOATWILLIEMICKEY_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> random Helpful effect and apply a copy to a random teammate with its duration refreshed.<br><br>{2:P0}</color> chance to Purge a second Helpful effect and apply a copy to a random teammate with its duration refreshed.
+STEAMBOATWILLIEMICKEY_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> random Helpful effect and apply a copy to a random teammate with its duration refreshed.<br><br><color=#FEF8E4>{2:P0}</color> chance to Purge a second Helpful effect and apply a copy to a random teammate with its duration refreshed.
 STEAMBOATWILLIEMICKEY_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> random Helpful effects and apply a copy of each to a random teammate with their durations refreshed.
 STEAMBOATWILLIEMICKEY_UNIT_NAME|STEAMBOAT MICKEY
 STEEL_GARGOYLE_UNIT_NAME|Steel Clan Robot
@@ -12032,8 +12121,10 @@ STORE_ITEM_8.0_PREMIUM_GACHA_BOX_BACK_DESC|Best value at Character Tokens!
 STORE_ITEM_8.0_PREMIUM_GACHA_NAME|ULTIMATE CHEST
 STORE_ITEM_8.0_PREMIUM_GACHA_SHELF|BEST CHANCE AT RARE CHARACTERS
 STORE_ITEM_ABILITY_MATS_GACHA_NAME|ABILITY RUNES PACK
+STORE_ITEM_SUPER_ABILITY_NAME|SUPER RUNE PACK
 STORE_ITEM_ABILITY_MATS_GACHA_SUBTITLE|POWER UP YOUR TEAM NOW WITH THIS ABILITY RUNE PACK. GUARANTEED DROPS OF ALPHA, BETA, AND GAMMA ABILITY RUNES.
 STORE_ITEM_ABILITY_MATS_GEM_B_SUBTITLE|POWER UP YOUR TEAM WITH THIS ABILITY RUNE PACK. INCLUDES ALPHA, BETA, AND GAMMA ABILITY RUNES.
+STORE_ITEM_ABILITY_MATS_SUPER_SUBTITLE|UPGRADE YOUR CHARACTER ABILITIES NOW WITH THIS SUPER RUNE PACK. INCLUDES ALPHA, BETA, AND GAMMA ABILITY RUNES.
 STORE_ITEM_ANNIVERSARY_BUNDLE_NAME|ANNIVERSARY BUNDLE
 STORE_ITEM_ANNIVERSARY_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS LIMITED TIME DEAL. GET A 1X ULTIMATE CHEST, GEMS, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_BALOO_SERIES_1_BOX_BACK_DESCRIPTION|OPEN THIS BOX TO EARN 10 BALOO TOKENS AND UNLOCK A NEW CHARACTER!
@@ -12403,6 +12494,7 @@ STORE_ITEM_FLAWED_SPEED_BUNDLE_DESC|SPEED YOUR TEAM INTO BATTLE. UPGRADE YOUR SP
 STORE_ITEM_FLAWED_SPEED_BUNDLE_NAME|SPEED STONE BUNDLE
 STORE_ITEM_FLAWED_TRIPLE_BUNDLE_DESC|UPGRADE YOUR SORCERER STONES AND BRING YOUR TEAM TO THE NEXT LEVEL WITH THIS BUNDLE OF OFFENSE, RECOVERY, AND CRIT POWER MATERIALS.
 STORE_ITEM_FLAWED_TRIPLE_BUNDLE_NAME|STONE UPGRADE BUNDLE
+STORE_ITEM_SS_2TO3_UPGRADE_BUNDLE_DESC|UPGRADE YOUR SORCERER STONES AND BRING YOUR TEAM TO THE NEXT LEVEL WITH THIS BUNDLE OF SPEED, OFFENSE, CRIT POWER, AND CRIT POWER MATERIALS.
 STORE_ITEM_FREE_AD_BACK_DESC|WATCH A VIDEO AD TO OPEN THE AD CHEST
 STORE_ITEM_FREE_AD_NAME|AD CHEST
 STORE_ITEM_FREE_AD_SUBTITLE|EARN BONUS REWARDS
@@ -13232,6 +13324,8 @@ STORE_ITEM_PASSHOLDER_MAY_202005_BOOSTER_BOX_BACK_DESC|UNLOCK SEASON 2 PASSHOLDE
 STORE_ITEM_PASSHOLDER_MAY_202005_BOX_BACK_DESC|UNLOCK SEASON 2 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS
 STORE_ITEM_PASSHOLDER_MAY_202006_1_BOOSTER_BOX_BACK_DESC|UNLOCK SEASON 4 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS WITH 10 BONUS TIERS<BR><color=#FFBC08>CLUB MEMBERS WILL RECEIVE A FREE PASSHOLDER TIER!</color>
 STORE_ITEM_PASSHOLDER_MAY_202006_1_BOX_BACK_DESC|UNLOCK SEASON 4 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS
+INVENTORY_ITEM_CALENDAR_NAME|CALENDAR UNLOCKED
+INVENTORY_ITEM_CALENDAR_DESC|THIS LOGIN CALENDAR HAS BEEN UNLOCKED. VISIT THE LOGIN CALENDAR TAB FROM THE INBOX TO CLAIM DAILY REWARDS.
 STORE_ITEM_PASSHOLDER_NAME|PASSHOLDER GOLD
 STORE_ITEM_PASSHOLDER_NOVEMBER|NOVEMBER
 STORE_ITEM_PASSHOLDER_OCTOBER|OCTOBER
@@ -13546,6 +13640,7 @@ STORE_ITEM_GEAR_ULTIMATE_BOOSTER_SUBTITLE|PREPARE YOUR TEAMS FOR BATTLE WITH THI
 STORE_ITEM_SPECIAL_VILLAIN_MINI_MYSTERY_PACK_NAME|MINI VILLAIN
 STORE_ITEM_SPECIAL_VILLAIN_MIGHTY_MYSTERY_PACK_NAME|MIGHTY VILLAIN
 STORE_ITEM_SPECIAL_VILLAIN_MYSTERY_PACK_SUBTITLE|MYSTERY PACK
+STORE_ITEM_SPECIAL_MYSTERY_CHEST_SUBTITLE|MYSTERY CHEST
 STORE_ITEM_SPECIAL_VILLAIN_MYSTERY_PACK_DESC|TRY YOUR LUCK WITH THIS LIMITED TIME MYSTERY PACK. OPEN FOR A CHANCE TO UNLOCK VILLAINS TOKENS.
 STORE ITEM SPECIAL_HAUNTED_MINI_PACK_NAME|MINI HAUNTED
 STORE ITEM SPECIAL_HAUNTED_MIGHTY_PACK_NAME|MIGHTY HAUNTED
@@ -13553,6 +13648,15 @@ STORE ITEM SPECIAL_HAUNTED_MINI_PACK_DESC|TRY YOUR LUCK FOR A CHANCE TO UNLOCK S
 STORE ITEM SPECIAL_HAUNTED_MIGHTY_PACK_DESC|TRY YOUR LUCK FOR A CHANCE TO UNLOCK SPECIAL ITEMS INCLUDING TALISMANS, AN EMOTE, AND THE FLUORESCENT OOGIE BOOGIE OUTFIT.
 STORE_ITEM_SPECIAL_SPOOKY_SALLY_BUNDLE_DESC|UNLOCK SALLY AND POWER UP YOUR MYTHICAL TEAM WITH THIS SPOOKY LIMITED TIME OFFER.
 STORE_ITEM_SPECIAL_SPOOKY_JACK_BUNDLE_DESC|POWER UP YOUR MYTHICAL TEAM WITH JACK SKELLINGTON IN THIS SPOOKY LIMITED TIME OFFER.
+STORE_ITEM_SPECIAL_MYSTERY_PACK_TS_NAME|TOY STORY
+STORE_ITEM_SPECIAL_MYSTERY_PACK_TS_DESC|TRY YOUR LUCK FOR A CHANCE TO UNLOCK CHARACTER TOKENS, TALISMANS, AND MORE.
+STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
+STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
+STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
+STORE_ITEM_SPECIAL_FF_GEM_DESC|CELEBRATE THE FALL AND SAVE BIG WITH THIS LIMITED TIME OFFER.
+STORE_ITEM_SPECIAL_FF_GOLD_NAME|GOLD FLASH SALE
+STORE_ITEM_SPECIAL_FF_ULTIMATE_NAME|ULTIMATE FLASH SALE
+STORE_ITEM_SPECIAL_FF_FALLFLASHSALE_NAME|FALL FLASH SALE
 STORE_ITEM_SPECIAL_COMBO_GEM_TAGLINE|TAP FOR ALL POSSIBLE DROPS
 STORE_ITEM_T3_BUNDLE_NAME|T3 GEAR BUNDLE
 STORE_ITEM_T3_BUNDLE_SUBTITLE|DEFEAT YOUR ENEMIES WITH ENCHANTED GEAR. FOR A LIMITED TIME, POWER UP YOUR TEAM WITH THIS T3 GEAR BUNDLE.
@@ -13566,6 +13670,8 @@ STORE_ITEM_T5_BINDER_GACHA_NAME|DROPLET (T5 GEAR) PACK
 STORE_ITEM_T5_BINDER_GACHA_SUBTITLE|CONTAINS MATERIALS FOR T5 GEAR
 STORE_ITEM_T5_BUNDLE_NAME|T5 GEAR BUNDLE
 STORE_ITEM_T5_BUNDLE_SUBTITLE|CONQUER YOUR FOES. POWER UP YOUR CHARACTERS WITH THIS T5 GEAR BUNDLE.
+STORE_ITEM_BH6_T5_BUNDLE_SUBTITLE|GET READY TO CONQUER YOUR FOES. POWER UP YOUR BIG HERO 6 TEAM WITH THIS T5 GEAR BUNDLE.
+STORE_ITEM_BH6_T6_BUNDLE_SUBTITLE|GEAR UP YOUR BIG HERO 6 TEAM. POWER UP YOUR CHARACTERS WITH THIS T6 GEAR BUNDLE.
 STORE_ITEM_T5_SUPER_BUNDLE_NAME|SUPER T5 GEAR
 STORE_ITEM_T5_SUPER_BUNDLE_SUBTITLE|GET AMAZING VALUE ON T5 GEAR. POWER UP YOUR CHARACTERS AND BRING YOUR TEAM TO THE NEXT LEVEL WITH THIS LIMITED TIME BUNDLE.
 STORE_ITEM_T6_BINDER_BUNDLE_SUBTITLE|CONQUER YOUR FOES. CRAFT POWERFUL T6 GEAR WITH THIS BUNDLE.
@@ -13577,8 +13683,24 @@ STORE_ITEM_T6_SUPER_BUNDLE_NAME|SUPER T6 GEAR
 STORE_ITEM_T6_SUPER_BUNDLE_SUBTITLE|GET AMAZING VALUE ON T6 GEAR. POWER UP YOUR CHARACTERS AND BRING YOUR TEAM TO THE NEXT LEVEL WITH THIS LIMITED TIME BUNDLE.
 STORE_ITEM_T7_CATALYST_BUNDLE_NAME|T7 ESSENCE BUNDLE
 STORE_ITEM_T7_CATALYST_BUNDLE_SUBTITLE|GET A HEAD START ON CRAFTING T7 GEAR AND POWER UP YOUR TEAM WITH THIS BUNDLE. INCLUDES T7 DREAM FRAGMENTS AND ESSENCE.
+STORE_ITEM_T7_RARE_CATALYST_BUNDLE_NAME|ADVANCED ESSENCE BUNDLE
+STORE_ITEM_T7_RARE_CATALYST_BUNDLE_SUBTITLE|GET A HEAD START ON CRAFTING T7 GEAR. INCLUDES T7 ESSENCE FOR PRECISION, EVASION, POTENCY, AND TENACITY.
 STORE_ITEM_T7_DOWNTOWN_MATS_BUNDLE_NAME|DOWNTOWN T7 BUNDLE
 STORE_ITEM_T7_DOWNTOWN_MATS_BUNDLE_SUBTITLE|GET A HEAD START ON CRAFTING T7 GEAR AND POWER UP YOUR DOWNTOWN TEAMS WITH THIS BUNDLE. INCLUDES MATERIALS FOR DOWNTOWN T7 GEAR.
+STORE_ITEM_DOWNTOWN_MATS_BUNDLE_NAME|DOWNTOWN UPGRADE BUNDLE
+STORE_ITEM_T6_T7_DOWNTOWN_MATS_BUNDLE_SUBTITLE|EQUIP YOUR DOWNTOWN HEROES TEAM WITH T6 GEAR AND GET A HEAD START ON CRAFTING T7 GEAR. BUNDLE INCLUDES MATERIALS FOR DOWNTOWN HEROES T7 GEAR.
+STORE_ITEM_RAID_T7_DTH_SM_BUNDLE_NAME|DOWNTOWN MATERIALS
+STORE_ITEM_RAID_T7_DTH_SM_BUNDLE_SUBTITLE|START CRAFTING T7 FACTION GEAR PIECES FOR YOUR DOWNTOWN HEROES. INCLUDES RAID EXCLUSIVE TINY GEAR (T7) MATERIALS.
+STORE_ITEM_RAID_T7_OCEANIC_SM_BUNDLE_NAME|OCEANIC MATERIALS
+STORE_ITEM_RAID_T7_OCEANIC_SM_BUNDLE_SUBTITLE|START CRAFTING T7 FACTION GEAR PIECES FOR YOUR OCEANIC CHARACTERS. INCLUDES RAID EXCLUSIVE SHELL FRAGMENT (T7) MATERIALS.
+STORE_ITEM_RAID_T7_DTH_MED_BUNDLE_NAME|TIMELESS CLOCK BUNDLE
+STORE_ITEM_RAID_T7_DTH_MED_BUNDLE_SUBTITLE|CRAFT POWERFUL T7 GEAR FOR YOUR DOWNTOWN HEROES TEAM WITH THIS BUNDLE. INCLUDES AN EXCLUSIVE TIMELESS CLOCK (T7).
+STORE_ITEM_RAID_T7_OCEANIC_MED_BUNDLE_NAME|CONCH SHELL BUNDLE
+STORE_ITEM_RAID_T7_OCEANIC_MED_BUNDLE_SUBTITLE|CRAFT POWERFUL T7 GEAR FOR YOUR OCEANIC TEAM WITH THIS BUNDLE. INCLUDES AN EXCLUSIVE CONCH SHELL (T7).
+STORE_ITEM_RAID_T7_DTH_LG_BUNDLE_NAME|DOWNTOWN POWER BUNDLE
+STORE_ITEM_RAID_T7_DTH_LG_BUNDLE_SUBTITLE|GIVE YOUR DOWNTOWN HEROES TEAM A POWERFUL BOOST WITH THIS GEAR BUNDLE. INCLUDES AN EXCLUSIVE, 4-STAT T7 GEAR PIECE AND BONUS MATERIALS.
+STORE_ITEM_RAID_T7_OCEANIC_LG_BUNDLE_NAME|OCEANIC POWER BUNDLE
+STORE_ITEM_RAID_T7_OCEANIC_LG_BUNDLE_SUBTITLE|GIVE YOUR OCEANIC TEAM A POWERFUL BOOST WITH THIS GEAR BUNDLE. INCLUDES AN EXCLUSIVE, 4-STAT T7 GEAR PIECE AND BONUS MATERIALS.
 STORE_ITEM_T7_DTH_BUNDLE_NAME|DOWNTOWN HEROES T7 GEAR
 STORE_ITEM_T7_DTH_BUNDLE_SUBTITLE|POWER UP YOUR DOWNTOWN HEROES TEAM WITH THIS T7 GEAR BUNDLE. INCLUDES A READY-TO-EQUIP GEAR PIECE AND MATERIALS TO CRAFT EVEN MORE.
 STORE_ITEM_T7_DTV_BUNDLE_NAME|DOWNTOWN VILLAINS T7 GEAR
@@ -13589,6 +13711,8 @@ STORE_ITEM_T7_WILDS_BUNDLE_NAME|WILDS T7 GEAR BUNDLE
 STORE_ITEM_T7_WILDS_BUNDLE_SUBTITLE|POWER UP YOUR WILDS TEAM WITH THIS T7 GEAR BUNDLE. INCLUDES A READY-TO-EQUIP GEAR PIECE AND MATERIALS TO CRAFT EVEN MORE.
 STORE_ITEM_T7_OCEANIC_BUNDLE_NAME|OCEANIC T7 GEAR BUNDLE
 STORE_ITEM_T7_OCEANIC_BUNDLE_SUBTITLE|POWER UP YOUR OCEANIC TEAM WITH THIS T7 GEAR BUNDLE. INCLUDES A READY-TO-EQUIP GEAR PIECE AND MATERIALS TO CRAFT EVEN MORE.
+STORE_ITEM_SUPER_OCEANIC_BUNDLE_NAME|SUPER OCEANIC GEAR
+STORE_ITEM_SUPER_OCEANIC_BUNDLE_SUBTITLE|GET YOUR OCEANIC TEAM READY FOR BATTLE. THIS T7 GEAR BUNDLE INCLUDES FULL GEAR AND BONUS MATERIALS TO POWER UP YOUR CHARACTERS.
 STORE_ITEM_TAX_TOWER_GACHA_NAME|PRINCE JOHN'S TAXES PACK
 STORE_ITEM_TAX_TOWER_GACHA_SUBTITLE|CONTAINS 5-50 PRINCE JOHN'S TAXES TOKENS
 STORE_ITEM_TECH_CALHOUN_A_NAME|SERGEANT CALHOUN BUNDLE
@@ -15569,4 +15693,26 @@ CLUB_ADMIN_MSG_RAID_WON|<color=#FFBC08>[RAIDS] {0} {1} HAS BEEN COMPLETED - CONG
 EVENT_202010_GIFT_DROP_RAID_INBOX_SUBJECT|Raid Launch - Free Gift Event
 EVENT_202010_GIFT_DROP_RAID_INBOX_BODY|Summoner,<BR><BR>You've received a FREE <color=#54C5FF>Raid Gift</color>!<BR><BR>Login daily between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> from <color=#54C5FF>November 7 - 11</color> to collect FREE gifts. Enable push notifications to get notified so you don't miss out!<BR><BR>Thank you for your continued support, and get ready for Raids!
 EMAIL_CONNECT_ALREADY_HAVE_PIN|ALREADY HAVE A PIN?
+PVP_STEAMBOAT_NAME|STEAMBOAT PVP EVENT
+STORE_ITEM_STEAMBOAT_MICKEY_GEMS_NAME|STEAMBOAT MICKEY PACK
+STORE_ITEM_STEAMBOAT_MICKEY_NAME|STEAMBOAT MICKEY BUNDLE
+STORE_ITEM_STEAMBOAT_MICKEY_SUBTITLE|UNLOCK STEAMBOAT MICKEY TO RELIVE THE 1920'S CLASSIC. PURGE HELPFUL EFFECTS AND COPY THEM TO YOUR TEAM. INFLICT SILENCE AND GAIN TAUNT WITH DOUSE AND DRENCH.
+STORE_ITEM_STEAMBOAT_PETE_NAME|STEAMBOAT PETE BUNDLE
+STORE_ITEM_STEAMBOAT_PETE_SUBTITLE|UNLOCK THE STEAMBOAT PETE OUTFIT. USE "GET'EM" TO CALL TEAMMATES TO ASSIST WITH BASIC ATTACKS. HEAVY HITTER DEALS HIGH DAMAGE AND APPLIES CONTINUOUS DAMAGE.
+STORE_ITEM_BATB_LUMIERE_A_NAME|LUMIERE BUNDLE
+STORE_ITEM_BATB_LUMIERE_A_SUBTITLE|APPLY CONTINUOUS DAMAGE TO ENEMIES AND HELP TEAMMATES HIT THEIR MARK. SPEED UP ALLIES AND CHARM ENEMIES WITH YOUR UNIVERSAL JE NE SAIS QUOI!
+STORE_ITEM_BATB_COGSWORTH_A_NAME|COGSWORTH BUNDLE
+STORE_ITEM_BATB_COGSWORTH_A_SUBTITLE|A DEFENSE-LOVING TANK BUSTER THAT PROTECTS TEAMMATES AGAINST SLOW. SELF-PROCLAIMED BOSS OF DEFENSE AND HASTE STATUS EFFECTS.
+STORE_ITEM_BATB_LUMIERE_GEMS_NAME|LUMIERE PACK
+STORE_ITEM_BATB_COGSWORTH_GEMS_NAME|COGSWORTH PACK
+UNIT_PROMO_MAT_COGSWORTH|COGSWORTH TOKENS
+UNIT_PROMO_MAT_LUMIERE|LUMIERE TOKENS
+EVENT_202011_STEAMBOAT_PVP_PREVIEW_SUBJECT|Coming Soon: Steamboat PvP Event!
+EVENT_202011_STEAMBOAT_PVP_PREVIEW_BODY|Summoner,<BR><BR>Prepare your PvP Arena team! For the duration of the PvP Season, you will battle in the <color=#54C5FF>STEAMBOAT PVP ARENA</color>. Earn Steamboat Mickey and Pete Tokens as bonus rewards in the PvP Arena Pack.<BR><BR>In addition, you will be able to enjoy the Steamboat Arena in Sorcerer's Tournament.
+EVENT_202011_STEAMBOAT_PVP_START_SUBJECT|The Steamboat PvP Event is live!
+EVENT_202011_STEAMBOAT_PVP_START_BODY|Summoner,<BR><BR>Welcome to Podunk Landing. The <color=#54C5FF>STEAMBOAT PVP EVENT</color> has begun! Bring your strongest team to the Arena and battle for bonus rewards. Earn Steamboat Mickey and Pete Tokens as extra rewards in the PvP Arena Pack.<BR><BR>Good luck, and see you in the Arena!
+EVENT_202011_BATB_COGSWORTH_LUMIERE_SUBJECT|Cogsworth and Lumiere enter the Arena!
+EVENT_202011_BATB_COGSWORTH_LUMIERE_BODY|Summoner,<BR><BR>Cogsworth and Lumiere have entered the Arena! They will both be required in the upcoming Beauty and the Beast event, so start collecting their tokens now! Cogsworth is available on the Grand and Heroes Elite campaigns, and Lumiere is available on the Heroes Elite and Villians Elite campaigns. Cogsworth is also available in Ultimate chests and the Grand Campaign chest. Lumiere is also available in the Ultimate chests.<BR><BR>Unlock Cogsworth and Lumiere now and start powering up your Beauty and the Beast team!
+EVENT_202011_S6_NODES_SUBJECT|Sensational Six Characters added to Campaigns
+EVENT_202011_S6_NODES_BODY|Summoner,<BR><BR>Daisy Duck, Goofy, and Donald Duck have been added to the Campaigns and Ultimate Chests. Unlock and Promote the Sensational Six Characters and prepare for Part 2 which will require Daisy Duck, Goofy, and Donald Duck to earn Pluto, Minnie Mouse, and Mickey Mouse!
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2020 Disney.<br> © 2019-2020 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2020 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
