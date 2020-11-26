@@ -632,6 +632,10 @@ BATTLE_EFFECT_DEFENSE_DOWN|DEFENSE DOWN
 BATTLE_EFFECT_DEFENSE_DOWN_DESC|Decreases Defense by 50%, causing affected character to take more damage.
 BATTLE_EFFECT_DEFENSE_UP|DEFENSE UP
 BATTLE_EFFECT_DEFENSE_UP_DESC|Increases Defense by 50%, causing affected character to take less damage.
+BATTLE_EFFECT_ENCHANTED_ROSE|ENCHANTED ROSE
+BATTLE_EFFECT_ENCHANTED_ROSE_DESC|Restores Health to the affected character equal to 5% of their max health on their turn start, then decrements in duration. Grant 5% Defense and 5% Tenacity per the current duration of this effect. Cannot be Purged.
+BATTLE_EFFECT_SHAKEN|SHAKEN
+BATTLE_EFFECT_SHAKEN_DESC|Prevents the affected character from inflicting harmful effects while this effect is active.
 BATTLE_EFFECT_ESCAPE_FAIL|ESCAPE FAILED!
 BATTLE_EFFECT_TENACITY_UP|TENACITY UP
 BATTLE_EFFECT_TENACITY_UP_DESC|Increases Tenacity by 50%, causing affected character have a higher chance of resisting Harmful effects.
@@ -868,6 +872,41 @@ BAYMAX_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all o
 BAYMAX_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. All Teammates restore <color=#5DFF89>{1:N0}</color> Health.<br><br>Purge <color=#FEF8E4>{2:N0}</color> Helpful Effect on all opponents per number of Charges on Baymax. Cleanse <color=#FEF8E4>{2:N0}</color> Harmful Effect on all teammates per number of Charges on Baymax. Consumes Charges.<br><br>Grant <color=#FEF8E4>{3:N0}</color> Continuous Healing, restoring up to <color=#5DFF89>{4:N0}</color> Health over <color=#FEF8E4>{5:N0}</color> turns.<br><br>If Hiro is a teammate, grant 'Big Hero 6' teammates Defense Up for <color=#FEF8E4>{6:N0}</color> turn and Harmful Immunity for <color=#FEF8E4>{7:N0}</color> turn.
 BAYMAX_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. All Teammates restore <color=#5DFF89>{1:N0}</color> Health.<br><br>Purge <color=#FEF8E4>{2:N0}</color> Helpful Effect on all opponents per number of Charges on Baymax. Cleanse <color=#FEF8E4>{2:N0}</color> Harmful Effect on all teammates per number of Charges on Baymax. Consumes Charges.<br><br>Grant <color=#FEF8E4>{3:N0}</color> Continuous Healing, restoring up to <color=#5DFF89>{4:N0}</color> Health over <color=#FEF8E4>{5:N0}</color> turns.<br><br>If Hiro is a teammate, grant 'Big Hero 6' teammates Defense Up for <color=#FEF8E4>{6:N0}</color> turn, Harmful Immunity for <color=#FEF8E4>{7:N0}</color> turn and Unstoppable for <color=#FEF8E4>{8:N0}</color> turn.
 BAYMAX_UNIT_NAME|BAYMAX
+BELLE_UNIT_NAME|BELLE
+BELLE_ABILBASIC_NAME|Bibliophile's Bestiary
+BELLE_ABILSPECIALA_NAME|Show Me The Beast!
+BELLE_ABILSPECIALB_NAME|The Enchanted Rose
+BELLE_ABILPASSIVEA_NAME|Enchanted Mirror
+BELLE_ABILLEADER_NAME|Ambitious Adventurer
+BELLE_BASIC_DESC_01|If Belle has no teammates who can attack, deal up to <color=#FFC400>{2:N0}</color> damage to target opponent. Otherwise, do the following:<br><br>Inflict a Harmful Effect on target opponent based on their role for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Offense role: Offense Down<br>Defense role: Defense Down<br>Support role: Slow<br><br>Call up to <color=#FEF8E4>{1:N0}</color> teammate, prioritizing The Beast, to use their Basic Attack on target opponent.
+BELLE_BASIC_DESC_02|If Belle has no teammates who can attack, deal up to <color=#FFC400>{2:N0}</color> damage to target opponent. Otherwise, do the following:<br><br>Inflict a Harmful Effect on target opponent based on their role for <color=#FEF8E4>{0:N0}</color> turns.<br><br>Offense role: Offense Down<br>Defense role: Defense Down<br>Support role: Slow<br><br>Call up to <color=#FEF8E4>{1:N0}</color> teammate, prioritizing The Beast, to use their Basic Attack on target opponent.
+BELLE_BASIC_DESC_03|If Belle has no teammates who can attack, deal up to <color=#FFC400>{2:N0}</color> damage to target opponent. Otherwise, do the following:<br><br>Inflict a Harmful Effect on target opponent based on their role for <color=#FEF8E4>{0:N0}</color> turns.<br><br>Offense role: Offense Down<br>Defense role: Defense Down<br>Support role: Slow<br><br>Call up to <color=#FEF8E4>{1:N0}</color> teammates, prioritizing The Beast, to use their Basic Attack on target opponent.
+BELLE_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Harmful Effect duration.
+BELLE_BASIC_ABILPREVIEWUPGRADE_02|Call an additional teammate.
+BELLE_SPECIALA_DESC_01|Inflict Intimidate for <color=#FEF8E4>{0:N0}</color> turn on target and adjacent opponents. <color=#FEF8E4>{1:P0}</color> chance to reduce Speed Meter by <color=#FEF8E4>{2:P0}</color>.<br><br>If The Beast is a teammate, he uses 'Get Out!' regardless of its Magic Charge.
+BELLE_SPECIALA_DESC_02|Inflict Intimidate for <color=#FEF8E4>{0:N0}</color> turn on target and adjacent opponents. <color=#FEF8E4>{1:P0}</color> chance to reduce Speed Meter by <color=#FEF8E4>{2:P0}</color>.<color=#FEF8E4>{5:P0}</color> chance to  <br><br>'Kingdom' teammates gain <color=#FEF8E4>{3:P0}</color> Speed Meter.<br><br>If The Beast is a teammate, he uses 'Get Out!' regardless of its Magic Charge.
+BELLE_SPECIALA_DESC_03|Inflict Intimidate for <color=#FEF8E4>{0:N0}</color> turn on target and adjacent opponents. <color=#FEF8E4>{1:P0}</color> chance to reduce Speed Meter by <color=#FEF8E4>{2:P0}</color>. Inflict <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{4:N0}</color> turn on target and adjacent opponents that are not 'Kingdom'.<br><br>'Kingdom' teammates gain <color=#FEF8E4>{3:P0}</color> Speed Meter.<br><br>If The Beast is a teammate, he uses 'Get Out!' regardless of its Magic Charge.
+BELLE_SPECIALA_ABILPREVIEWUPGRADE_01|'Kingdom' teammates gain <color=#FEF8E4>{0:P0}</color> Speed Meter.
+BELLE_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to reduce Speed Meter.
+BELLE_SPECIALA_ABILPREVIEWUPGRADE_03|Inflict Shaken for <color=#FEF8E4>{0:N0}</color> turn on affected opponents that are not 'Kingdom'.
+BELLE_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Speed Meter gain.
+BELLE_SPECIALB_DESC_01|Flip up to <color=#FEF8E4>{0:N0}</color> Harmful Effects on target teammate. Restore up to <color=#5DFF89>{1:N0}</color> Health <color=#FEF8E4>+{2:P0}</color> per Harmful Effect Flipped. Grant or extend <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> for <color=#FEF8E4>{3:N0}</color> turns, up to a max of <color=#FEF8E4>{8:N0}</color> turns.<br><br>If target is The Beast, do the following: Restore duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> to its maximum amount.<br><br>If The Beast is a teammate and is affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color>, when that effect decrements, Belle gains <color=#FEF8E4>{4:N0}</color> Magic for this ability and <color=#FEF8E4>{5:P0}</color> Speed Meter.
+BELLE_SPECIALB_DESC_02|Flip up to <color=#FEF8E4>{0:N0}</color> Harmful Effects on target teammate. Restore up to <color=#5DFF89>{1:N0}</color> Health <color=#FEF8E4>+{2:P0}</color> per Harmful Effect Flipped. Grant or extend <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> for <color=#FEF8E4>{3:N0}</color> turns, up to a max of <color=#FEF8E4>{8:N0}</color> turns.<br><br>If target is The Beast, do the following: Restore duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> to its maximum amount. Belle and The Beast gain Harmful Immunity for <color=#FEF8E4>{6:N0}</color> turns.<br><br>If The Beast is a teammate and is affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color>, when that effect decrements, Belle gains <color=#FEF8E4>{4:N0}</color> Magic for this ability and <color=#FEF8E4>{5:P0}</color> Speed Meter.
+BELLE_SPECIALB_DESC_03|Flip all Harmful Effects on target teammate. Restore up to <color=#5DFF89>{1:N0}</color> Health <color=#FEF8E4>+{2:P0}</color> per Harmful Effect Flipped. Grant or extend <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> for <color=#FEF8E4>{3:N0}</color> turns, up to a max of <color=#FEF8E4>{8:N0}</color> turns.<br><br>If target is The Beast, do the following: Restore duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> to its maximum amount. Belle and The Beast gain Harmful Immunity for <color=#FEF8E4>{6:N0}</color> turns.<br><br>If The Beast is a teammate and is affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color>, when that effect decrements, Belle gains <color=#FEF8E4>{4:N0}</color> Magic for this ability and <color=#FEF8E4>{5:P0}</color> Speed Meter.
+BELLE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Harmful Effect flipped.
+BELLE_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Health Restored on ability cast.
+BELLE_SPECIALB_ABILPREVIEWUPGRADE_03|If target is The Beast, he and Belle gain Harmful Immunity for <color=#FEF8E4>{0:N0}</color> turns.
+BELLE_SPECIALB_ABILPREVIEWUPGRADE_04|Flip all Harmful effects.
+BELLE_PASSIVEA_DESC_01|This character has a <color=#FEF8E4>{0:P0}</color> chance to reflect incoming Harmful Effects back at opponents. If The Beast is a teammate, chance to reflect is increased by <color=#FEF8E4>{1:P0}</color>.
+BELLE_PASSIVEA_DESC_02|This character has a <color=#FEF8E4>{0:P0}</color> chance to reflect incoming Harmful Effects back at opponents. If The Beast is a teammate, chance to reflect is increased by <color=#FEF8E4>{1:P0}</color>.<br><br>On successfully reflecting a Harmful Effect this character and adjacent teammates gain <color=#FEF8E4>{2:P0}</color> Speed Meter.
+BELLE_PASSIVEA_ABILPREVIEWUPGRADE_01|On successfully reflecting a Harmful Effect this character and adjacent teammates gain <color=#FEF8E4>{0:P0}</color> Speed Meter.
+BELLE_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> base activation chance.
+BELLE_LEADER_DESC_01|'Kingdom' teammates gain the following: <color=#FEF8E4>{0:P0}</color> bonus Tenacity.
+BELLE_LEADER_DESC_02|'Kingdom' teammates gain the following: <color=#FEF8E4>{0:P0}</color> bonus Tenacity. On turn start, <color=#FEF8E4>{1:P0}</color> chance to gain or extend <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> for <color=#FEF8E4>{2:N0}</color> turn, up to a max of <color=#FEF8E4>{3:N0}</color> turns.
+BELLE_LEADER_DESC_03|'Kingdom' teammates gain the following: <color=#FEF8E4>{0:P0}</color> bonus Tenacity. On turn start, <color=#FEF8E4>{1:P0}</color> chance to gain or extend <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> for <color=#FEF8E4>{2:N0}</color> turns, up to a max of <color=#FEF8E4>{3:N0}</color> turns.
+BELLE_LEADER_ABILPREVIEWUPGRADE_01|On turn start, 'Kingdom' allies have <color=#FEF8E4>{0:P0}</color> chance to gain Enchanted Rose for <color=#FEF8E4>{1:N0}</color> turn.
+BELLE_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Tenacity.
+BELLE_LEADER_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> activation chance.<br><br><color=#FEF8E4>+{1:N0}</color> Enchanted Rose duration.
 BENSON_SUBTITLE| 
 BENSON_UNIT_NAME|BENSON
 BH6_FRED_A_NAME|FRED BUNDLE
@@ -971,6 +1010,18 @@ BONUS_LOOT_BH6_HONEY_LEMON_DESC|Power up your team for the <color=#54C5FF>BIG HE
 BONUS_LOOT_BH6_HONEY_LEMON_TITLE|2X HONEY LEMON TOKENS
 BONUS_LOOT_BH6_WASABI_DESC|Power up your team for the <color=#54C5FF>BIG HERO 6 EVENT</color>!<br><br>For a limited time only, get 2x token drops for Wasabi.
 BONUS_LOOT_BH6_WASABI_TITLE|2X WASABI TOKENS
+BONUS_LOOT_BATB_MAURICE_DESC|Power up your team for the <color=#54C5FF>BEAUTY AND THE BEAST EVENT</color>!<br><br>For a limited time only, get 2x token drops for Maurice.
+BONUS_LOOT_BATB_MAURICE_TITLE|2X MAURICE TOKENS
+BONUS_LOOT_BATB_COGSWORTH_DESC|Power up your team for the <color=#54C5FF>BEAUTY AND THE BEAST EVENT</color>!<br><br>For a limited time only, get 2x token drops for Cogsworth.
+BONUS_LOOT_BATB_COGSWORTH_TITLE|2X COGSWORTH TOKENS
+BONUS_LOOT_BATB_LUMIERE_DESC|Power up your team for the <color=#54C5FF>BEAUTY AND THE BEAST EVENT</color>!<br><br>For a limited time only, get 2x token drops for Lumiere.
+BONUS_LOOT_BATB_LUMIERE_TITLE|2X LUMIERE TOKENS
+BONUS_LOOT_BATB_MRS_POTTS_DESC|Power up your team for the <color=#54C5FF>BEAUTY AND THE BEAST EVENT</color>!<br><br>For a limited time only, get 2x token drops for Mrs. Potts.
+BONUS_LOOT_BATB_MRS_POTTS_TITLE|2X MRS. POTTS TOKENS
+BONUS_LOOT_BATB_BELLE_DESC|Power up your team for the <color=#54C5FF>BEAUTY AND THE BEAST EVENT</color>!<br><br>For a limited time only, get 2x token drops for Belle.
+BONUS_LOOT_BATB_BELLE_TITLE|2X BELLE TOKENS
+BONUS_LOOT_BATB_ALL_2X_DESC|Power up your team and for the <color=#54C5FF>BEAUTY AND THE BEAST EVENT</color>!<br><br>For a limited time only, get 2x token drops for Beauty and the Beast characters on the Campaign.
+BONUS_LOOT_BATB_ALL_2X_TITLE|2X BEAUTY AND THE BEAST TOKENS
 BONUS_LOOT_CHUNK_DESC|For a limited time only, get 2x token drops for Chunk.
 BONUS_LOOT_CHUNK_DESC_02|Earn <color=#54C5FF>2x Chunk Tokens</color> by winning battles on Heroes Campaign node 3-A and Villains Campaign node 3-C. Available for a limited time!
 BONUS_LOOT_CHUNK_TITLE|2X CHUNK TOKENS
@@ -1974,6 +2025,7 @@ COBRABUBBLES_SPECIALB_DESC_03|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmf
 COBRABUBBLES_UNIT_NAME|COBRA BUBBLES
 BATTLE_EFFECT_INCREASE_BASE_DEFENSE|DEFENSE INCREASED
 BATTLE_EFFECT_INCREASE_BASE_CRIT_CHANCE|CRIT CHANCE INCREASED
+BATTLE_EFFECT_INCREASE_BASE_RECOVERY|RECOVERY INCREASED
 COGSWORTH_UNIT_NAME|COGSWORTH
 COGSWORTH_ABILBASIC_NAME|Time Flies
 COGSWORTH_ABILSPECIALA_NAME|I'm In Charge Here
@@ -5189,8 +5241,8 @@ GLUT_SPECIALA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:N0}</color> Fear duration
 GLUT_SPECIALA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:N0}</color> Offense Up duration.<br>+<color=#FEF8E4>{1:N0}</color> Tenacity Up duration.
 GLUT_SPECIALB_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:N0}</color> additional Continuous Damage effect inflicted per Harmful effect.
 GLUT_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> bonus Defense.
-RAID_PASSIVE_DESC_01|This character performs an additional <color=#FEF8E4>{0:N0}</color> action on its turn, and gains <color=#FEF8E4>{1:P0}</color> Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, Charm, and Sleep.
-RAID_PASSIVE_DESC_SUMMARIZED_01|This character performs additional actions on its turn, and gains Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, Charm, and Sleep.
+RAID_PASSIVE_DESC_01|This character performs an additional <color=#FEF8E4>{0:N0}</color> action on its turn, and gains <color=#FEF8E4>{1:P0}</color> Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, Charm, and Sleep. Subsequent reductions of this character's Speed Meter are decreased in amount with each reduction until this character takes their turn.
+RAID_PASSIVE_DESC_SUMMARIZED_01|This character performs additional actions on its turn, and gains Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, Charm, and Sleep. Subsequent reductions of this character's Speed Meter are decreased in amount with each reduction until this character takes their turn.
 RAID_PASSIVE_II_DESC_01|This character performs an additional <color=#FEF8E4>{0:N0}</color> action on its turn, and gains <color=#FEF8E4>{1:P0}</color> Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.<br><br>This ability begins a <color=#FEF8E4>{2:N0}</color> countdown when the encounter starts, which decreases when this character takes a turn. When it completes, this character becomes Empowered.<br><br>Empowered:<br><color=#FEF8E4>{3:P0}</color> chance to gain <color=#FEF8E4>{4:N0}</color> additional Magic for all abilities on start of turn. This is guaranteed if this character is not affected by a Harmful effect.
 RAID_PASSIVE_II_DESC_SUMMARIZED_01|This character performs additional actions on its turn, and gains Speed Meter when targeted with an opponent's ability. This character is immune to Stun, Silence, Intimidate, Polymorph, and Sleep.<br><br>This ability begins a countdown when the encounter starts, which decreases when this character takes a turn. When it completes, this character becomes Empowered.<br><br>Empowered:<br>Chance to gain additional Magic for all abilities on start of turn. This is guaranteed if this character is not affected by a Harmful effect.
 ABILPREVIEWUPGRADE_GEN_DAMAGE_CONTINUOUS_PCT_INC|<color=#FEF8E4>+{0:P0}</color> Continuous Damage dealt.
@@ -7048,6 +7100,33 @@ MAUI_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opp
 MAUI_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Offense Down to all opponents for <color=#FEF8E4>{4:N0}</color> turn.<br><br>Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of the damage dealt. Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn. Grant teammates a Shield equal to <color=#FEF8E4>{5:P0}</color> of damage dealt.
 MAUI_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Offense Down on all opponents for <color=#FEF8E4>{4:N0}</color> turn.<br><br>Gain a Shield equal to <color=#FEF8E4>{1:P0}</color> of the damage dealt. Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn. Grant teammates a Shield equal to <color=#FEF8E4>{5:P0}</color> of damage dealt.
 MAUI_UNIT_NAME|MAUI
+ABILPREVIEWUPGRADE_GEN_CHARGED_INC|<color=#FEF8E4>+{0:N0}</color> Charged.
+MAURICE_UNIT_NAME|MAURICE
+MAURICE_ABILBASIC_NAME|Dog-legged Clincher
+MAURICE_ABILLEADER_NAME|World Famous Inventor
+MAURICE_ABILSPECIALA_NAME|Fixed Up In No Time
+MAURICE_ABILSPECIALB_NAME|Maurice's Magnificent Invention
+MAURICE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> to target opponent. Maurice gains <color=#FEF8E4>{1:N0}</color> Charged, up to a max of <color=#FEF8E4>{2:N0}</color>.
+MAURICE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> to target opponent. Maurice gains <color=#FEF8E4>{1:N0}</color> Charged, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Call up to <color=#FEF8E4>{3:N0}</color> random Summoned teammate to assist.
+MAURICE_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> to target opponent. Maurice gains <color=#FEF8E4>{1:N0}</color> Charged, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Call up to <color=#FEF8E4>{3:N0}</color> random Summoned teammates to assist.
+MAURICE_BASIC_ABILPREVIEWUPGRADE_01|Call up to <color=#FEF8E4>{0:N0}</color> random Summoned teammate to assist.
+MAURICE_BASIC_ABILPREVIEWUPGRADE_02|Call <color=#FEF8E4>{0:N0}</color> additional Summoned teammate to assist.
+MAURICE_SPECIALA_DESC_01|Grant target teammate a Helpful Effect depending on their role:<br><br>Offense: <color=#FEF8E4>{0:N0}</color> Guaranteed Crit.<br>Defense: Taunt for <color=#FEF8E4>{1:N0}</color> turn.<br>Support: Harmful Immunity for <color=#FEF8E4>{2:N0}</color> turn.<br><br>Grant Maurice <color=#FEF8E4>{3:N0}</color> Charged, up to a max of <color=#FEF8E4>{4:N0}</color>.<br><br>If target is Summoned, spawn a copy of that character in a random location with full Health. Grant Maurice <color=#FEF8E4>{5:N0}</color> Magic to a random ability.
+MAURICE_SPECIALA_DESC_02|Grant target teammate a Helpful Effect depending on their role (If target is Cogsworth, he gains all effects):<br><br>Offense: <color=#FEF8E4>{0:N0}</color> Guaranteed Crit.<br>Defense: Taunt for <color=#FEF8E4>{1:N0}</color> turn.<br>Support: Harmful Immunity for <color=#FEF8E4>{2:N0}</color> turn.<br><br>Grant Maurice <color=#FEF8E4>{3:N0}</color> Charged, up to a max of <color=#FEF8E4>{4:N0}</color>.<br><br>If target is Summoned, spawn a copy of that character in a random location with full Health. Grant Maurice <color=#FEF8E4>{5:N0}</color> Magic to a random ability.
+MAURICE_SPECIALA_DESC_03|Grant target teammate a Helpful Effect depending on their role (If target is Cogsworth, he gains all effects):<br><br>Offense: <color=#FEF8E4>{0:N0}</color> Guaranteed Crit.<br>Defense: Taunt for <color=#FEF8E4>{1:N0}</color> turn and Defense Up for <color=#FEF8E4>{7:N0}</color> turn.<br>Support: Harmful Immunity for <color=#FEF8E4>{2:N0}</color> turn.<br><br>Grant Maurice <color=#FEF8E4>{3:N0}</color> Charged, up to a max of <color=#FEF8E4>{4:N0}</color>.<br><br>If target is Summoned, spawn a copy of that character in a random location with full Health. Grant Maurice <color=#FEF8E4>{5:N0}</color> Magic to a random ability.
+MAURICE_SPECIALA_DESC_04|Grant target teammate a Helpful Effect depending on their role (If target is Cogsworth, he gains all effects):<br><br>Offense: <color=#FEF8E4>{0:N0}</color> Guaranteed Crit.<br>Defense: Taunt for <color=#FEF8E4>{1:N0}</color> turn and Defense Up for <color=#FEF8E4>{7:N0}</color> turn.<br>Support: Harmful Immunity for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Grant Maurice <color=#FEF8E4>{3:N0}</color> Charged, up to a max of <color=#FEF8E4>{4:N0}</color>.<br><br>If target is Summoned, spawn a copy of that character in a random location with full Health. Grant Maurice <color=#FEF8E4>{5:N0}</color> Magic to a random ability.
+MAURICE_SPECIALA_ABILPREVIEWUPGRADE_01|If target is Cogsworth, he gains all effects.
+MAURICE_SPECIALA_ABILPREVIEWUPGRADE_02|If target teammate is Offense, grant an additional Guaranteed Crit.
+MAURICE_SPECIALA_ABILPREVIEWUPGRADE_03|If target teammate is Defense, grant Defense Up for <color=#FEF8E4>{0:N0}</color> turn.
+MAURICE_SPECIALA_ABILPREVIEWUPGRADE_04|If target teammate is Support, increase Harmful Immunity by <color=#FEF8E4>{0:N0}</color>.
+MAURICE_SPECIALB_DESC01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents.<br><br>If Mrs. Potts is a teammate, this attack is guaranteed to deal a Critical Strike.<br><br>This ability gains <color=#FEF8E4>{1:N0}</color> Magic per Charged on Maurice on his turn start.
+MAURICE_SPECIALB_DESC02|Purge Defense Up from all opponents. Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents.<br><br>If Mrs. Potts is a teammate, this attack is guaranteed to deal a Critical Strike.<br><br>This ability gains <color=#FEF8E4>{1:N0}</color> Magic per Charged on Maurice on his turn start.
+MAURICE_SPECIALB_ABILPREVIEWUPGRADE_01|Purge Defense Up from all opponents.
+MAURICE_LEADER_DESC_01|Grant summoned teammates <color=#FEF8E4>{0:P0}</color> Offense and <color=#FEF8E4>{1:P0}</color> Speed.<br><br>On spawn of Summoned teammate, grant them Offense Up and Haste for <color=#FEF8E4>{2:N0}</color> turn.
+MAURICE_LEADER_DESC_02|Grant summoned teammates <color=#FEF8E4>{0:P0}</color> Offense and <color=#FEF8E4>{1:P0}</color> Speed.<br><br>On spawn of Summoned teammate, grant them Offense Up and Haste for <color=#FEF8E4>{2:N0}</color> turns.
+MAURICE_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Offense Up and Haste duration.
+MAURICE_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Offense.
+MAURICE_LEADER_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Speed.
 MENACING_CAVE_GUARDIAN_UNIT_NAME|MENACING CAVE GUARDIAN
 MERFOLK_UNIT_NAME|Mermaid
 MERIDA_ABILBASIC_ABILPREVIEWUPGRADE_BONUS_CRITICAL_CHANCE_05PCT|Increases the chance to deal a Critical Strike by 5% for each Wisp present.
@@ -7336,6 +7415,38 @@ MR_INCREDIBLE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage t
 MR_INCREDIBLE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all adjacent opponents.<br><br>Call <color=#FEF8E4>{1:N0}</color> random ally and <color=#FEF8E4>{2:N0}</color> random "Incredibles" Hero ally to Assist.<br><br>
 MR_INCREDIBLE_SPECIALB_NAME|Showtime!
 MR_INCREDIBLE_UNIT_NAME|MR. INCREDIBLE
+MRS_POTTS_UNIT_NAME|MRS. POTTS
+MRS_POTTS_ABILBASIC_NAME|Spot of Tea
+MRS_POTTS_ABILSPECIALA_NAME|Out of the Cupboard
+MRS_POTTS_ABILSPECIALB_NAME|Time for Tea
+MRS_POTTS_ABILPASSIVEA_NAME|Be Our Guest
+MRS_POTTS_BASIC_DESC_01|Deal up to <color=#FEF8E4>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> of this character's Recovery as bonus damage.
+MRS_POTTS_BASIC_DESC_02|Deal up to <color=#FEF8E4>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> of this character's Recovery as bonus damage.<br><br>If target's Health is above <color=#FEF8E4>{2:P0}</color> inflict Continuous Damage, dealing up to <color=#FFC400>{3:N0}</color> damage over <color=#FEF8E4>{4:N0}</color> turns.
+MRS_POTTS_BASIC_DESC_03|Deal up to <color=#FEF8E4>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> of this character's Recovery as bonus damage.<br><br>Inflict Continuous Damage, dealing up to <color=#FFC400>{3:N0}</color> damage over <color=#FEF8E4>{4:N0}</color> turns.
+MRS_POTTS_BASIC_ABILPREVIEWUPGRADE_01|Inflict Continuous Damage for <color=#FEF8E4>{0:N0}</color> turns if target's Health is above <color=#FEF8E4>{1:P0}</color>.
+MRS_POTTS_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> bonus damage from Recovery.
+MRS_POTTS_BASIC_ABILPREVIEWUPGRADE_03|Inflict Continuous Damage regardless of the target's Health.<br><br><color=#FEF8E4>{0:P0}</color> bonus damage from Recovery.
+MRS_POTTS_SPECIALA_DESC_01|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate.
+MRS_POTTS_SPECIALA_DESC_02|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate. If target's Health is above <color=#FEF8E4>{1:P0}</color> grant Continuous Healing, restoring <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns.
+MRS_POTTS_SPECIALA_DESC_03|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate. If target's Health is above <color=#FEF8E4>{1:P0}</color> grant Continuous Healing, restoring <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns.<br><br>Grant Unstoppable for <color=#FEF8E4>{4:N0}</color> turn, or <color=#FEF8E4>{5:N0}</color> turns if target is affected by Continuous Healing.
+MRS_POTTS_SPECIALA_DESC_04|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate. Grant Continuous Healing, restoring <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns.<br><br>Grant Unstoppable for <color=#FEF8E4>{4:N0}</color> turn, or <color=#FEF8E4>{5:N0}</color> turns if target is affected by Continuous Healing.
+MRS_POTTS_SPECIALA_ABILPREVIEWUPGRADE_01|If target's Health is above <color=#FEF8E4>{0:P0}</color>, grant Continuous Healing, restoring Health over <color=#FEF8E4>{1:N0}</color> turns.
+MRS_POTTS_SPECIALA_ABILPREVIEWUPGRADE_02|Grant Unstoppable for <color=#FEF8E4>{0:N0}</color> turn, or <color=#FEF8E4>{1:N0}</color> turns if target is affected by Continuous Healing.
+MRS_POTTS_SPECIALA_ABILPREVIEWUPGRADE_03|Grant Continuous Healing regardless of the target's Health.
+MRS_POTTS_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turn.
+MRS_POTTS_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turn.<br><br>This character gains <color=#FEF8E4>{2:P0}</color> Speed Meter for each opponent hit.
+MRS_POTTS_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turn.<br><br>This character gains <color=#FEF8E4>{2:P0}</color> Speed Meter for each opponent hit. Teammates affected by Continous Healing gain <color=#FEF8E4>{3:P0}</color> Speed Meter for each opponent hit.
+MRS_POTTS_SPECIALB_ABILPREVIEWUPGRADE_01|This character gains <color=#FEF8E4>{0:P0}</color> Speed Meter for each opponent hit.
+MRS_POTTS_SPECIALB_ABILPREVIEWUPGRADE_02|Teammates affected by Continous Healing gain <color=#FEF8E4>{0:N0}</color> Speed Meter for each opponent hit.<br><br><color=#FEF8E4>+{1:P0}</color> Speed Meter for each opponent hit.
+MRS_POTTS_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Speed Meter for each opponent hit.
+MRS_POTTS_PASSIVEA_DESC_01|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Recovery as bonus Recovery to adjacent teammates.<br><br>On this character or adjacent teammate receiving Sleep, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Sleep.
+MRS_POTTS_PASSIVEA_DESC_02|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Recovery as bonus Recovery to adjacent teammates.<br><br>On this character or adjacent teammate receiving Sleep, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Sleep. Chance is increased by <color=#FEF8E4>{2:P0}</color> for 'Kingdom' teammates.
+MRS_POTTS_PASSIVEA_DESC_03|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Recovery as bonus Recovery to adjacent teammates.<br><br>On this character or adjacent teammate receiving Sleep, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Sleep. Guaranteed for 'Beauty and  the Beast' teammates including this character.
+MRS_POTTS_PASSIVEA_DESC_04|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Recovery as bonus Recovery to adjacent teammates.<br><br>On this character or adjacent teammate receiving Sleep, Cleanse Sleep.
+MRS_POTTS_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus chance to Cleanse Sleep for 'Kingdom' teammates.
+MRS_POTTS_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Recovery granted as bonus Recovery.
+MRS_POTTS_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse Sleep. Guaranteed for 'Beauty and  the Beast' teammates, including this character.
+MRS_POTTS_PASSIVEA_ABILPREVIEWUPGRADE_04|Guaranteed to Cleanse Sleep.
 MULAN_ABILBASIC_NAME|Prepare to Fight
 MULAN_ABILPASSIVEA_NAME|Honorable Warrior
 MULAN_ABILSPECIALA_NAME|Soldier's Strike
@@ -10148,7 +10259,15 @@ PIN_JAKE_DESC|Well done, mate.
 PIN_PASCAL_NAME|PASCAL TALISMAN
 PIN_PASCAL_DESC|Chameleon. Not a frog.
 PIN_RAPUNZEL_NAME|RAPUNZEL TALISMAN
-PIN_RAPUNZEL_DESC|Grab one and head in to Walt Disney's Enchanted Tiki Room!
+PIN_RAPUNZEL_DESC|Haven't any of you ever had a dream?
+PIN_PINEAPPLEWHIP_NAME|PINEAPPLE WHIP TALISMAN
+PIN_PINEAPPLEWHIP_DESC|Grab one and head in to Walt Disney's Enchanted Tiki Room!
+PIN_PORRIDGE_NAME|PORRIDGE TALISMAN
+PIN_PORRIDGE_DESC|It's happy to see you!
+PIN_SPELLCAKE_NAME|SPELL CAKE TALISMAN
+PIN_SPELLCAKE_DESC|Hungry aren't we?
+PIN_RATATOUILLE_NAME|RATATOUILLE TALISMAN
+PIN_RATATOUILLE_DESC|It sounds like 'rat' and 'patootie.' Rat-patootie.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -10421,6 +10540,8 @@ PVP_YOKAI_INBOX_BODY|Summoners,<BR><BR>A new PvP season has begun! Yokai will be
 PVP_YOKAI_INBOX_SUBJECT|Yokai Enters the PvP Arena!
 PVP_JACK_JACK_INBOX_BODY|Summoners,<BR><BR>A new PvP season has begun! Jack-Jack will be featured in the Weekly and Seasonal rewards this season. Battle your way up the leaderboard to earn Jack-Jack tokens! Other characters from The Incredibles are now available on Campaign Nodes.<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_JACK_JACK_INBOX_SUBJECT|Jack-Jack Enters the PvP Arena!
+PVP_GOOFY_INBOX_BODY|Summoners,<BR><BR>A new PvP season has begun! Goofy will be featured in the Weekly and Seasonal rewards this season. Battle your way up the leaderboard to earn Goofy tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
+PVP_GOOFY_INBOX_SUBJECT|Goofy Enters the PvP Arena!
 PVP_BATTLE_HUD_NO_CLUB|<color=#b0a6b9>NO CLUB
 PVP_BATTLE_RESULTS_DEFEAT|DEFEAT
 PVP_BATTLE_RESULTS_INACTIVE_SEASON|NEXT SEASON BEGINS IN:
@@ -13650,6 +13771,8 @@ STORE_ITEM_SPECIAL_SPOOKY_SALLY_BUNDLE_DESC|UNLOCK SALLY AND POWER UP YOUR MYTHI
 STORE_ITEM_SPECIAL_SPOOKY_JACK_BUNDLE_DESC|POWER UP YOUR MYTHICAL TEAM WITH JACK SKELLINGTON IN THIS SPOOKY LIMITED TIME OFFER.
 STORE_ITEM_SPECIAL_MYSTERY_PACK_TS_NAME|TOY STORY
 STORE_ITEM_SPECIAL_MYSTERY_PACK_TS_DESC|TRY YOUR LUCK FOR A CHANCE TO UNLOCK CHARACTER TOKENS, TALISMANS, AND MORE.
+STORE_ITEM_SPECIAL_MYSTERY_FRIENDSGIVING_NAME|FRIENDSGIVING
+STORE_ITEM_SPECIAL_MYSTERY_FRIENDSGIVING_DESC|OPEN THIS LIMITED TIME MYSTERY PACK FOR A CHANCE AT FOUR DELICIOUSLY EXCLUSIVE TALISMANS, SENSATIONAL SIX CHARACTER TOKENS, AND MORE.
 STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
 STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
 STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
@@ -13657,6 +13780,10 @@ STORE_ITEM_SPECIAL_FF_GEM_DESC|CELEBRATE THE FALL AND SAVE BIG WITH THIS LIMITED
 STORE_ITEM_SPECIAL_FF_GOLD_NAME|GOLD FLASH SALE
 STORE_ITEM_SPECIAL_FF_ULTIMATE_NAME|ULTIMATE FLASH SALE
 STORE_ITEM_SPECIAL_FF_FALLFLASHSALE_NAME|FALL FLASH SALE
+STORE_ITEM_SPECIAL_FF_GEM02_DESC|CELEBRATE THE FALL WITH THIS BIG LIMITED TIME OFFER. GET 20% OFF WITH THIS GEM OF A DEAL.
+STORE_ITEM_SPECIAL_FF_GOLD_DESC|CELEBRATE THE FALL WITH THIS BIG LIMITED TIME OFFER. GET 20% OFF WITH THIS GOLD DEAL.
+STORE_ITEM_SPECIAL_FF_ULTIMATE5X_DESC|CELEBRATE THE FALL WITH THIS BIG LIMITED TIME OFFER. GET 11% OFF WITH THIS 5X ULTIMATE DEAL.
+STORE_ITEM_SPECIAL_FF_ULTIMATE10X_DESC|CELEBRATE THE FALL WITH THIS BIG LIMITED TIME OFFER. GET 13% OFF WITH THIS 10X ULTIMATE DEAL.
 STORE_ITEM_SPECIAL_COMBO_GEM_TAGLINE|TAP FOR ALL POSSIBLE DROPS
 STORE_ITEM_T3_BUNDLE_NAME|T3 GEAR BUNDLE
 STORE_ITEM_T3_BUNDLE_SUBTITLE|DEFEAT YOUR ENEMIES WITH ENCHANTED GEAR. FOR A LIMITED TIME, POWER UP YOUR TEAM WITH THIS T3 GEAR BUNDLE.
@@ -14381,6 +14508,38 @@ TEST_PASSPORT_NAME|PASSHOLDER<color=#FFBC08> GOLD</color>
 TEST_SEASON_DESC|PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE<br><br>    * 10 MERIDA TOKENS<br>    * EXCLUSIVE PIXAR BALL TALISMAN<br>    * 10,000 GOLD COINS<br>    * ACCESS TO ALL PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS UNLOCK EVERY WEEK AND ALLOW PLAYERS TO EARN ADDITIONAL CHARACTER TOKENS, EXCLUSIVE TALISMANS, GEMS, GOLD COINS AND MORE.
 TEST_SEASON_NAME|SEASON 0.1
 TEXT_INPUT_BOX_PLACEHOLDER|Enter text...
+THE_BEAST_UNIT_NAME|THE BEAST
+THE_BEAST_ABILBASIC_NAME|Feral Claw
+THE_BEAST_ABILSPECIALA_NAME|GET OUT!
+THE_BEAST_ABILSPECIALB_NAME|Beastly Rage
+THE_BEAST_ABILPASSIVEA_NAME|The Curse
+THE_BEAST_ABILPASSIVEB_NAME|Master of the Castle
+THE_BEAST_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>2</color> times. If The Beast or target opponent has a Harmful Effect, attack again.
+THE_BEAST_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>2</color> times. If The Beast or target opponent has a Harmful Effect, attack again.<br><br>If Belle is a teammate, <color=#FEF8E4>{1:P0}</color> chance to counterattack when she takes damage.
+THE_BEAST_BASIC_ABILPREVIEWUPGRADE_01|If Belle is a teammate, <color=#FEF8E4>{0:P0}</color> chance to counterattack when she takes damage.
+THE_BEAST_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> unavoidable damage to all opponents. Inflict Intimidate and <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target opponent. If target already has Intimidate, instead extend its duration by <color=#FEF8E4>{1:N0}</color>, up to a max of <color=#FEF8E4>{12:N0}</color>. <color=#FEF8E4>{11:P0}</color> chance to inflict Intimidate and <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on adjacent opponents. If adjacent opponents are affected by Intimidate, instead extend its duration by <color=#FEF8E4>{1:N0}</color>, up to a max of <color=#FEF8E4>{12:N0}</color>. <br><br>Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn.<br><br>If Belle is a teammate, grant her <color=#FEF8E4>{3:P0}</color> Speed Meter, Haste and Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turn. The Beast gains Defense Up for <color=#FEF8E4>{5:N0}</color> turns.<br><br>Increase the duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> on this character by up to <color=#FEF8E4>{9:N0}</color> turns, up to a maximum of <color=#FEF8E4>{10:N0}</color> turns.
+THE_BEAST_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> unavoidable damage to all opponents. Inflict Intimidate and <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target opponent. If target already has Intimidate, instead extend its duration by <color=#FEF8E4>{1:N0}</color>, up to a max of <color=#FEF8E4>{12:N0}</color>. <color=#FEF8E4>{11:P0}</color> chance to inflict Intimidate and <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on adjacent opponents. If adjacent opponents are affected by Intimidate, instead extend its duration by <color=#FEF8E4>{1:N0}</color>, up to a max of <color=#FEF8E4>{12:N0}</color>. Purge all Evade effects from opponents that are not 'Kingdom'.<br><br>Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn.<br><br>If Belle is a teammate, grant her <color=#FEF8E4>{3:P0}</color> Speed Meter and Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turn. The Beast gains Defense Up for <color=#FEF8E4>{5:N0}</color> turns.<br><br>Increase the duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> on this character by up to <color=#FEF8E4>{9:N0}</color> turns, up to a maximum of <color=#FEF8E4>{10:N0}</color> turns.
+THE_BEAST_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> unavoidable damage to all opponents. Inflict Intimidate and <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target opponent. If target already has Intimidate, instead extend its duration by <color=#FEF8E4>{1:N0}</color>, up to a max of <color=#FEF8E4>{12:N0}</color>. <color=#FEF8E4>{11:P0}</color> chance to inflict Intimidate and <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on adjacent opponents. If adjacent opponents are affected by Intimidate, instead extend its duration by <color=#FEF8E4>{1:N0}</color>, up to a max of <color=#FEF8E4>{12:N0}</color>. Purge all Evade effects from opponents that are not 'Kingdom'.<br><br>Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn.<br><br>If Belle is a teammate, grant her <color=#FEF8E4>{3:P0}</color> Speed Meter and Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turn. The Beast gains Defense Up for <color=#FEF8E4>{5:N0}</color> turns.<br><br>Increase the duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> on this character by up to <color=#FEF8E4>{9:N0}</color> turns, up to a maximum of <color=#FEF8E4>{10:N0}</color> turns.
+THE_BEAST_SPECIALA_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> unavoidable damage to all opponents. Inflict Intimidate and <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target opponent. If target already has Intimidate, instead extend its duration by <color=#FEF8E4>{1:N0}</color>, up to a max of <color=#FEF8E4>{12:N0}</color>. <color=#FEF8E4>{11:P0}</color> chance to inflict Intimidate and <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on adjacent opponents. If adjacent opponents are affected by Intimidate, instead extend its duration by <color=#FEF8E4>{1:N0}</color>, up to a max of <color=#FEF8E4>{12:N0}</color>. Purge all Evade effects from opponents that are not 'Kingdom'. If target opponent is already affected by <color=#FEF8E4><link=BATTLE_EFFECT_SHAKEN>[SHAKEN]</link></color>, <color=#FEF8E4>{6:P0}</color> chance to inflict Stun for <color=#FEF8E4>{7:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn.<br><br>If Belle is a teammate, grant her <color=#FEF8E4>{3:P0}</color> Speed Meter and Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turn. The Beast gains Defense Up for <color=#FEF8E4>{5:N0}</color> turns.<br><br>Increase the duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> on this character by up to <color=#FEF8E4>{9:N0}</color> turns, up to a maximum of <color=#FEF8E4>{10:N0}</color> turns.
+THE_BEAST_SPECIALA_ABILPREVIEWUPGRADE_01|Purge all Evade effects from opponents that are not 'Kingdom'.
+THE_BEAST_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> duration to Intimidate and Shaken.
+THE_BEAST_SPECIALA_ABILPREVIEWUPGRADE_03|If an opponent is already affected by Shaken, <color=#FEF8E4>{0:P0}</color> chance to inflict Stun for <color=#FEF8E4>{1:N0}</color> turn.
+THE_BEAST_SPECIALB_DESC_01|Steal all Shield from target opponent ignoring Evasion, then deal up to <color=#FFC400>{0:N0}</color> damage. If The Beast is not affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> increase damage dealt by <color=#FEF8E4>{1:P0}</color> and inflict Stun for <color=#FEF8E4>{2:N0}</color> turn.<br><br>Decrease the duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> on this character by <color=#FEF8E4>{5:N0}</color> turns.
+THE_BEAST_SPECIALB_DESC_02|Steal all Shield from target opponent ignoring Evasion, then deal up to <color=#FFC400>{0:N0}</color> damage. If The Beast is not affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> increase damage dealt by <color=#FEF8E4>{1:P0}</color> and inflict Stun for <color=#FEF8E4>{2:N0}</color> turn.<br><br>Steal up to <color=#FEF8E4>{3:N0}</color> Helpful Effects from target opponent and increase damage dealt by <color=#FEF8E4>{4:P0}</color> per Helpful Effect stolen.<br><br>Decrease the duration of <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> on this character by <color=#FEF8E4>{5:N0}</color> turns.
+THE_BEAST_SPECIALB_ABILPREVIEWUPGRADE_01|Steal up to <color=#FEF8E4>{0:N0}</color> Helpful Effects from target opponent and increase damage dealt by <color=#FEF8E4>{1:P0}</color> per Helpful Effect stolen.
+THE_BEAST_SPECIALB_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:N0}</color> Helpful Effect stolen.
+THE_BEAST_PASSIVEA_DESC_01|On Battle Start, The Beast gains <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> for <color=#FEF8E4>{0:N0}</color> turns, which is its maximum duration. While The Beast is affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> and it has a duration of <color=#FEF8E4>{0:N0}</color>, he resists all Harmful Effects.<br><br>On turn start, if The Beast is not affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> he gains Empowered giving him the following: Gain <color=#FEF8E4>{1:P0}</color> Offense. When attacking, always deal Critical Strikes. On turn end, if The Beast has <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color>, The Beast loses Empowered.
+THE_BEAST_PASSIVEA_DESC_02|On Battle Start, The Beast gains <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> for <color=#FEF8E4>{0:N0}</color> turns, which is its maximum duration. While The Beast is affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> and it has a duration of <color=#FEF8E4>{0:N0}</color>, he resists all Harmful Effects.<br><br>On turn start, if The Beast is not affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> he gains Empowered giving him the following: Gain <color=#FEF8E4>{1:P0}</color> Offense. When attacking, always deal Critical Strikes. On turn end, if The Beast has <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color>, The Beast loses Empowered.<br><br>While The Beast is affected by <color=#FEF8E4><link=BATTLE_EFFECT_ENCHANTED_ROSE>[ENCHANTED ROSE]</link></color> he has a <color=#FEF8E4>{2:P0}</color> chance to Counter Attack when receiving damage.
+THE_BEAST_PASSIVEA_ABILPREVIEWUPGRADE_01|While The Beast is affected by Enchanted Rose he has a <color=#FEF8E4>{0:P0}</color> chance to Counter Attack when receiving damage.
+THE_BEAST_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Offense while Empowered.
+THE_BEAST_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to Counter Attack while affected by Enchanted Rose.
+THE_BEAST_PASSIVEB_DESC_01|The Beast has <color=#FEF8E4>{0:P0}</color> bonus chance to resist Intimidate.<br><br>When an opponent gains bonus Speed Meter, The Beast also gains bonus Speed Meter equal to <color=#FEF8E4>{1:P0}</color> of the bonus Speed Meter that the opponent gained.
+THE_BEAST_PASSIVEB_DESC_02|The Beast has <color=#FEF8E4>{0:P0}</color> bonus chance to resist Intimidate.<br><br>When an opponent gains bonus Speed Meter, The Beast also gains bonus Speed Meter equal to <color=#FEF8E4>{1:P0}</color> of the bonus Speed Meter that the opponent gained.
+THE_BEAST_PASSIVEB_DESC_03|The Beast is Immune to Intimidate.<br><br>When an opponent gains bonus Speed Meter, The Beast gains the same amount of bonus Speed Meter.
+THE_BEAST_PASSIVEB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> to bonus Speed Meter gained.
+THE_BEAST_PASSIVEB_ABILPREVIEWUPGRADE_02|The Beast gains the same amount of bonus Speed Meter as opponents.
+THE_BEAST_PASSIVEB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> bonus chance to resist Intimidate.
+THE_BEAST_PASSIVEB_ABILPREVIEWUPGRADE_04|The Beast is Immune to Intimidate.
 THE_MANTICORE_ABILBASIC_NAME|Curse Crusher
 THE_MANTICORE_ABILPASSIVEA_NAME|Fearless Adventurer
 THE_MANTICORE_ABILSPECIALA_NAME|Closed for Renovations
@@ -15243,6 +15402,33 @@ ZEUS_ABILSPECIALA_NAME|Titanic Thunderbolt
 ZEUS_ABILSPECIALB_BASE_DESC|Gives a target ally Invulnerability which protects them from damage and any harmful status effects for a given duration.
 ZEUS_ABILSPECIALB_NAME|Godly Blessing
 ZEUS_UNIT_NAME|ZEUS
+MARKETING_PN_MIGUEL_GIFT|Your FREE Miguel tokens are only available for 2 more hours! Open now!!
+MARKETING_TANGLED_ANNIVERSARY|<SUNEMOJI>Celebrate Tangled's 10th Anniversary!<SUNEMOJI>
+MARKETING_FREE_TALISMAN_GIFT|Log in now for your FREE talisman gift!
+MARKETING_FREE_TS_25TH_ANNIVERSARY_GIFT|Happy 25th Anniversary to Toy Story!
+MARKETING_PN_LOGIN_NOW_FREE_GIFT|Log in now for your FREE gift!
+MARKETING_PN_LUMIERE_GIFT|Your FREE Lumiere tokens are only available for 2 more hours! Open now!!
+MARKETING_PN_COGSWORTH_GIFT|Your FREE Cogsworth tokens are only available for 2 more hours! Open now!!
+MARKETING_PN_FLASH_GIFTS_THIS_WEEK|FLASH GIFTS THIS WEEK!
+MARKETING_PN_FLASH_GIFTS_11_20|Keep an eye out for FREE FLASH GIFTS starting on 11/20!
+MARKETING_PN_BATB_01|<ROSEEMOJI>The Beauty and the Beast event has begun!<ROSEEMOJI>
+MARKETING_PN_BATB_02|Unlock The Beast in the new Beauty and the Beast event!!
+MARKETING_PN_FRIENDSGIVING_01|<PARTYEMOJI>It's a Friendsgiving Celebration!<PARTYEMOJI>
+MARKETING_PN_FRIENDSGIVING_02|Check out the Friendsgiving Mystery Pack and unlock famous Disney food talismans!
+MARKETING_PN_2X_LUMIERE_01|Limited time: 2x Lumiere Tokens
+MARKETING_PN_2X_LUMIERE_02|Earn 2x Lumiere tokens on campaign nodes now!
+MARKETING_PN_2X_COGSWORTH_01|Limited time: 2x Cogsworth Tokens
+MARKETING_PN_2X_COGSWORTH_02|Earn 2x Cogsworth tokens on campaign nodes now!
+MARKETING_PN_2X_BELLE_01|Limited time: 2x Belle Tokens
+MARKETING_PN_2X_BELLE_02|Earn 2x Belle tokens on campaign nodes now!
+MARKETING_PN_2X_MAURICE_01|Limited time: 2x Maurice Tokens
+MARKETING_PN_2X_MAURICE_02|Earn 2x Maurice tokens on campaign nodes now!
+MARKETING_PN_2X_MRSPOTTS_01|Limited time: 2x Mrs. Potts Tokens
+MARKETING_PN_2X_MRSPOTTS_02|Earn 2x Mrs. Potts tokens on campaign nodes now!
+MARKETING_PN_2X_MIGUEL_GIFT_01|Collect gifts and Unlock Miguel!
+MARKETING_PN_2X_MIGUEL_GIFT_02|Log in at 8am and 8PM this week to collect Miguel tokens! Collecting all gifts guarantees unlocking Miguel!
+MARKETING_PN_2X_BATB_01|Limited time: 2x Beauty and the Beast Character Tokens
+MARKETING_PN_2X_BATB_02|Earn 2x Beauty and the Beast character tokens on campaign nodes now!
 MARKETING_PN_2X_ANGER_TOKENS_01|Limited Time: 2x Anger Tokens
 MARKETING_PN_2X_ANGER_TOKENS_02|Earn 2x Anger character tokens on campaign nodes in celebration of Pixar Fest!
 MARKETING_PN_PH10_LAST_CHANCE_01|Last call for Season 10 Passholder!
@@ -15352,6 +15538,8 @@ PASSHOLDER_202011_1_SEASON_NAME|PASSHOLDER SEASON 14
 PASSHOLDER_202011_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 14 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * STITCH TOKENS<BR>  * KING TRITON TOKENS<br>  * PRINCE ERIC TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202011_2_SEASON_NAME|PASSHOLDER SEASON 15
 PASSHOLDER_202011_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 15 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * YOKAI TOKENS<BR>  * GO GO TOMAGO TOKENS<br>  * WASABI TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202012_1_SEASON_NAME|PASSHOLDER SEASON 16
+PASSHOLDER_202012_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 16 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * BELLE TOKENS<BR>  * MAURICE TOKENS<br>  * MRS. POTTS TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 COCO_MIGUEL_GEMS_NAME|MIGUEL PACK
 EMOTE_ZURG_NAME|EMPEROR ZURG EMOTE
 EMOTE_ZURG_DESC|Muahahaha.
@@ -15707,6 +15895,30 @@ STORE_ITEM_BATB_LUMIERE_GEMS_NAME|LUMIERE PACK
 STORE_ITEM_BATB_COGSWORTH_GEMS_NAME|COGSWORTH PACK
 UNIT_PROMO_MAT_COGSWORTH|COGSWORTH TOKENS
 UNIT_PROMO_MAT_LUMIERE|LUMIERE TOKENS
+STORE_ITEM_BATB_BELLE_A_NAME|BELLE BUNDLE
+STORE_ITEM_BATB_BELLE_A_SUBTITLE|INFLICT INTIMIDATE AND SHAKEN. REFLECT DAMAGE AND HARMFUL EFFECTS. HEAL AND FLIP HARMFUL EFFECTS FROM TEAMMATES.
+STORE_ITEM_BATB_BELLE_GEMS_NAME|BELLE PACK
+STORE_ITEM_BATB_BELLE_OUTFIT_NAME|BALLGOWN BELLE OUTFIT BUNDLE
+STORE_ITEM_BATB_BELLE_OUTFIT_SUBTITLE|BE THE BELLE OF THE BALL. BATTLE IN STYLE WITH THE BELLE BALLGOWN OUTFIT TO TRULY IMPRESS YOUR OPPONENTS.
+STORE_ITEM_BATB_MRS_POTTS_A_NAME|MRS. POTTS BUNDLE
+STORE_ITEM_BATB_MRS_POTTS_A_SUBTITLE|MRS. POTTS AND HER ADJACENT TEAMMATES HAVE A HIGH RESISTANCE TO SLEEP. INFLICT OFFENSE DOWN AND GAIN EXTRA SPEED FOR MORE TURNS TO HEAL TEAMMATES.
+STORE_ITEM_BATB_MRS_POTTS_GEMS_NAME|MRS. POTTS PACK
+STORE_ITEM_BATB_MAURICE_A_NAME|MAURICE BUNDLE
+STORE_ITEM_BATB_MAURICE_A_SUBTITLE|DUPLICATE SUMMONED TEAMMATES AND CALL THEM TO ASSIST. PURGE DEFENSE UP AND DAMAGE ALL OPPONENTS WITH MASSIVE DAMAGE.
+STORE_ITEM_BATB_MAURICE_GEMS_NAME|MAURICE PACK
+STORE_ITEM_BATB_TEAM_A_NAME|BEAUTY AND THE BEAST TEAM BUNDLE
+STORE_ITEM_BATB_TEAM_A_SUBTITLE|COLLECT TOKENS FOR COGSWORTH, LUMIERE, MRS. POTTS, AND MAURICE. POWER UP YOUR BEAUTY AND THE BEAST TEAM AND BATTLE TO EARN THE BEAST TOKENS.
+STORE_ITEM_BATB_TEAM_GEMS_NAME|BEAUTY AND THE BEAST LUCKY DRAW
+STORE_ITEM_BATB_TEAM_GEMS_SUBTITLE|TRY YOUR LUCK WITH THE BEAUTY AND THE BEAST LUCKY DRAW. EACH PURCHASE GUARANTEES A BEAUTY AND THE BEAST CHARACTER TOKEN DROP AND MORE ITEMS.
+STORE_ITEM_BATB_WELCOME_NAME|BEAUTY AND THE BEAST WELCOME BUNDLE
+STORE_ITEM_BATB_WELCOME_SUBTITLE|WELCOME TO THE BEAUTY AND THE BEAST EVENT! UNLOCK AND PROMOTE COGSWORTH, LUMIERE, MRS. POTTS, AND MAURICE. BATTLE TO UNLOCK THE BEAST.
+UNIT_PROMO_MAT_BELLE|BELLE TOKENS
+BELLE_OUTFIT_UNIT_NAME|BALLGOWN BELLE
+UNIT_PROMO_MAT_MAURICE|MAURICE TOKENS
+UNIT_PROMO_MAT_MRS_POTTS|MRS. POTTS TOKENS
+UNIT_PROMO_MAT_THE_BEAST|THE BEAST TOKENS
+OUTFIT_BELLE_BALLGOWN_NAME|BALLGOWN BELLE OUTFIT TOKENS
+OUTFIT_BELLE_BALLGOWN_DESC|Collect 100 to unlock the 'Ballgown Belle' outfit for Belle.
 EVENT_202011_STEAMBOAT_PVP_PREVIEW_SUBJECT|Coming Soon: Steamboat PvP Event!
 EVENT_202011_STEAMBOAT_PVP_PREVIEW_BODY|Summoner,<BR><BR>Prepare your PvP Arena team! For the duration of the PvP Season, you will battle in the <color=#54C5FF>STEAMBOAT PVP ARENA</color>. Earn Steamboat Mickey and Pete Tokens as bonus rewards in the PvP Arena Pack.<BR><BR>In addition, you will be able to enjoy the Steamboat Arena in Sorcerer's Tournament.
 EVENT_202011_STEAMBOAT_PVP_START_SUBJECT|The Steamboat PvP Event is live!
@@ -15715,4 +15927,61 @@ EVENT_202011_BATB_COGSWORTH_LUMIERE_SUBJECT|Cogsworth and Lumiere enter the Aren
 EVENT_202011_BATB_COGSWORTH_LUMIERE_BODY|Summoner,<BR><BR>Cogsworth and Lumiere have entered the Arena! They will both be required in the upcoming Beauty and the Beast event, so start collecting their tokens now! Cogsworth is available on the Grand and Heroes Elite campaigns, and Lumiere is available on the Heroes Elite and Villians Elite campaigns. Cogsworth is also available in Ultimate chests and the Grand Campaign chest. Lumiere is also available in the Ultimate chests.<BR><BR>Unlock Cogsworth and Lumiere now and start powering up your Beauty and the Beast team!
 EVENT_202011_S6_NODES_SUBJECT|Sensational Six Characters added to Campaigns
 EVENT_202011_S6_NODES_BODY|Summoner,<BR><BR>Daisy Duck, Goofy, and Donald Duck have been added to the Campaigns and Ultimate Chests. Unlock and Promote the Sensational Six Characters and prepare for Part 2 which will require Daisy Duck, Goofy, and Donald Duck to earn Pluto, Minnie Mouse, and Mickey Mouse!
+EVENT_202011_BATB_META_DESC|Gather your Beauty and the Beast team and battle against The Beast to earn The Beast tokens!<br><br><color=#B8E986>LEGENDARY EVENT</color>
+EVENT_202011_BATB_META_NAME|BEAUTY AND THE BEAST
+EVENT_202011_BATB_PORTAL_DESC|Earn The Beast tokens!<br><color=#B8E986>LEGENDARY EVENT</color>
+EVENT_202011_BATB_PORTAL_NAME|BEAUTY AND THE BEAST
+EVENT_202011_BATB_AURA_NAME|THE BEAST
+EVENT_202011_BATB_AURA_DESC| 
+EVENT_202011_BATB_A_NAME|THE BEAST
+EVENT_202011_BATB_A_DESC|Defeat The Beast!
+EVENT_202011_BATB_A_L0_NAME|THE BEAST I
+EVENT_202011_BATB_A_L0_DESC|Defeat The Beast!
+EVENT_202011_BATB_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 15+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
+EVENT_202011_BATB_A_L1_NAME|THE BEAST II
+EVENT_202011_BATB_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 3 Stars</size>
+EVENT_202011_BATB_A_L2_NAME|THE BEAST III
+EVENT_202011_BATB_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
+EVENT_202011_BATB_A_L3_NAME|THE BEAST IV
+EVENT_202011_BATB_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Stars</size>
+EVENT_202011_BATB_A_L4_NAME|THE BEAST V
+EVENT_202011_BATB_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 5 Stars</size>
+EVENT_202011_BATB_A_L5_NAME|THE BEAST VI
+EVENT_202011_BATB_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Stars</size>
+EVENT_202011_BATB_A_L6_NAME|THE BEAST VII
+EVENT_202011_BATB_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
+EVENT_202011_BATB_A_L7_NAME|THE BEAST VIII
+EVENT_202011_BATB_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
+TROPHY_BATB_NAME|BEAUTY AND THE BEAST TROPHY
+TROPHY_BATB_DESC|Awarded for completing the Beauty and the Beast Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+PIN_COGSWORTH_NAME|COGSWORTH TALISMAN
+PIN_COGSWORTH_DESC|Put me down! At once!
+PIN_LUMIERE_NAME|LUMIERE TALISMAN
+PIN_LUMIERE_DESC|Enchante, cherie.
+EMOTE_CHIP_NAME|CHIP EMOTE
+EMOTE_CHIP_DESC|Wanna see me do a trick?
+EMOTE_THE_BEAST_NAME|THE BEAST EMOTE
+EMOTE_THE_BEAST_DESC|Learn to smile.
+EMOTE_COGSWORTH_NAME|COGSWORTH EMOTE
+EMOTE_COGSWORTH_DESC|Around the clock.
+INBOX_EVENT_202011_BATB_PREVIEW_SUBJECT|Coming Soon: Beauty and the Beast
+INBOX_EVENT_202011_BATB_PREVIEW_BODY|Summoner,<BR><BR>Gather your Beauty and the Beast team and get ready to battle and earn exclusive <color=#54C5FF>THE BEAST</color> Tokens in the Beauty and the Beast <color=#54C5FF>LEGENDARY EVENT</color>!
+INBOX_EVENT_202011_BATB_START_SUBJECT|Beauty and the Beast Event!
+INBOX_EVENT_202011_BATB_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>BEAUTY AND THE BEAST</color> Event has begun! Unlock and Promote Cogsworth, Belle, Mrs. Potts, Lumiere, and Maurice to battle and earn Tokens for <color=#54C5FF>THE BEAST</color>!
+INBOX_EVENT_202011_BATB_LAST_CHANCE_SUBJECT|Last Chance to earn rewards for Beauty and the Beast!
+INBOX_EVENT_202011_BATB_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5FF>BEAUTY AND THE BEAST</color> Event will be ending soon! This is your <color=#54C5FF>LAST CHANCE</color> to battle, so enter now to earn exclusive <color=#54C5FF>THE BEAST</color> Tokens!
+INBOX_EVENT_202011_BATB_POST_EVENT_SUBJECT|Event Ended: Beauty and the Beast
+INBOX_EVENT_202011_BATB_POST_EVENT_BODY|Summoner,<BR><BR>The <color=#54C5FF>BEAUTY AND THE BEAST</color> Event has ended! Thank you for participating. Continue promoting Cogsworth, Belle, Mrs. Potts, Lumiere, and Maurice so you'll be ready to earn more <color=#54C5FF>THE BEAST</color> Tokens when the Event returns!
+INBOX_EVENT_202011_BATB_2X_COGSWORTH_SUBJECT|2x Cogsworth Token Drops
+INBOX_EVENT_202011_BATB_2X_COGSWORTH_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for Cogsworth on the Grand and Heroes Campaigns! Power Cogsworth up now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
+INBOX_EVENT_202011_BATB_2X_LUMIERE_SUBJECT|2x Lumiere Token Drops
+INBOX_EVENT_202011_BATB_2X_LUMIERE_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for Lumiere on the Heroes and Villains Campaigns! Power Lumiere up now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
+INBOX_EVENT_202011_BATB_2X_MAURICE_SUBJECT|2x Maurice Token Drops
+INBOX_EVENT_202011_BATB_2X_MAURICE_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for Maurice on the Heroes and Villains Campaigns! Power Maurice up now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
+INBOX_EVENT_202011_BATB_2X_MRS_POTTS_SUBJECT|2x Mrs. Potts Token Drops
+INBOX_EVENT_202011_BATB_2X_MRS_POTTS_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for Mrs. Potts on the Grand and Heroes Campaigns! Power Mrs. Potts up now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
+INBOX_EVENT_202011_BATB_2X_BELLE_SUBJECT|2x Belle Token Drops
+INBOX_EVENT_202011_BATB_2X_BELLE_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for Belle on the Heroes and Villains Campaigns! Power Belle up now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
+INBOX_EVENT_202011_BATB_2X_ALL_SUBJECT|2x Beauty and the Beast Token Drops
+INBOX_EVENT_202011_BATB_2X_ALL_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for all Beauty and the Beast characters on the Grand, Heroes, and Villains Campaigns! Power up your Beauty and the Beast team now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2020 Disney.<br> © 2019-2020 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2020 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
