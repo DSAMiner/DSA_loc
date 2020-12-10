@@ -4271,6 +4271,21 @@ INBOX_EVENT_202012_MISTLETOKENS_SUBJECT|Mistletokens have arrived!
 INBOX_EVENT_202012_MISTLETOKENS_BODY|Summoner,<br><br><color=#54C5FF>Mistletokens</color> have arrived!<br><br>Celebrate winter festivities all month long in the Arena. Collect <color=#54C5FF>Mistletokens</color> in special events and in the Store. Spend them on different <color=#54C5FF>Winter Mystery Packs</color> each week throughout December.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202012_MIGUELGIFTDROP_SUBJECT|Miguel Gift Drop Event
 INBOX_EVENT_202012_MIGUELGIFTDROP_BODY|Summoner,<BR><BR>Celebrate Coco with this FREE <color=#54C5FF>Miguel Gift</color>!<BR><BR>Login daily between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> from <color=#54C5FF>December 06 - 12</color> to collect FREE gifts. Collect all gift drops to unlock <color=#54C5FF>Miguel</color>! Enable push notifications to get notified so you don't miss out.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202012_WINTERCLUBDUNGEON_SUBJECT|Winter Club Dungeon Bonus Rewards
+INBOX_EVENT_202012_WINTERCLUBDUNGEON_BODY|Summoner,<BR><BR><color=#54C5FF>Winter Club Dungeon Bonus Rewards</color> are available for a limited time! Earn bonus <color=#54C5FF>Mistletokens</color> in Club Dungeon battles from <color=#54C5FF>December 10 - 19</color>.<BR><BR>Head to the store to spend <color=#54C5FF>Mistletokens</color> on exciting mystery packs available throughout the month, and don't miss out on Winter events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202012_EMPERORANNIVERSARY_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>The Emperor's New Groove 20th Anniversary</color> with this FREE <color=#54C5FF>Kuzco Llama Talisman</color>! Don't miss out on the Anniversary Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202012_WINTERDAILYQUEST_SUBJECT|Winter Daily Quests
+INBOX_EVENT_202012_WINTERDAILYQUEST_BODY|Summoner,<BR><BR><color=#54C5FF>Winter Daily Quests</color> are available for a limited time! Visit the Daily Quests section to find out how to complete these optional quests and earn <color=#54C5FF>Mistletokens</color>.<BR><BR>Head to the store to spend <color=#54C5FF>Mistletokens</color> on exciting mystery packs available throughout the month, and don't miss out on winter events all month long.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202012_WINTERGIFTDROPSTART_SUBJECT|Coming Soon - Limited Time Winter Gift Drop
+INBOX_EVENT_202012_WINTERGIFTDROPSTART_BODY|Summoner,<BR><BR>A limited time <color=#54C5FF>Winter Gift Drop</color> is on the way!<BR><BR>Stay on the lookout for <color=#54C5FF>Gift Drops</color> between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> from <color=#54C5FF>December 21 - 25</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202012_WINTERGIFTDROPGIFT_SUBJECT|Limited Time Winter Gift Drop
+INBOX_EVENT_202012_WINTERGIFTDROPGIFT_BODY|Summoner,<BR><BR>Celebrate the holidays with this FREE <color=#54C5FF>Winter Gift</color>!<BR><BR>Login daily between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> from <color=#54C5FF>December 21 - 25</color> to collect FREE gifts. Enable push notifications to get notified so you don't miss out.<BR><BR>Thank you for your continued support, and see you in the Arena!
+PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYSTORE_NAME|WINTER DAILY QUEST
+PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYSTORE_DESC|(Optional) Open Store Packs
+PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYGRAND_DESC|(Optional) Complete Grand Campaign Battles
+PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYHEROES_DESC|(Optional) Complete Heroes Elite Battles
+PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYVILLAINS_DESC|(Optional) Complete Villians Elite Battles
+PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYTOURNAMENT_DESC|(Optional) Complete Sorcerer's Tournament Battles
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -10323,6 +10338,12 @@ PIN_MARSHMALLOW_NAME|MARSHMALLOW TALISMAN
 PIN_MARSHMALLOW_DESC|Go away!
 PIN_KUZCOLLAMA_NAME|KUZCO LLAMA TALISMAN
 PIN_KUZCOLLAMA_DESC|Bring it on.
+PIN_FROZONESUPERSUIT_NAME|FROZONE SUPERSUIT TALISMAN
+PIN_FROZONESUPERSUIT_DESC|Where is my supersuit?!
+PIN_WINTERMINNIE_NAME|WINTER MINNIE TALISMAN
+PIN_WINTERMINNIE_DESC|Some days call for extra sparkle.
+PIN_WINTERMICKEY_NAME|WINTER MICKEY TALISMAN
+PIN_WINTERMICKEY_DESC|Isn't it about time we were opening our presents?
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -15535,6 +15556,37 @@ MARKETING_INTERSTITIAL_YOKAI_02|Login daily at 9AM and 6PM to receive FREE token
 MARKETING_INTERSTITIAL_YOKAI_03|Collecting ALL gifts guarantees Yokai unlock!
 MARKETING_PN_FOXDAY_01|<FOXEMOJI>Happy International Fox Day<FOXEMOJI>
 MARKETING_PN_FOXDAY_02|Log in now to collect your International Fox Day Gift!
+MARKETING_PN_20201209_TS3EVENT_TITLE|Sunnyside Playtime IS LIVE!
+MARKETING_PN_20201209_TS3EVENT_BODY|Battle in the Sunnyside Playtime event to earn Chunk, Big Baby, and Lotso tokens!
+MARKETING_PN_20201209_WINTERDAILYQUEST_TITLE|Winter Daily Quests are here!
+MARKETING_PN_20201209_WINTERDAILYQUEST_BODY|Complete optional daily quests to earn Mistletokens and open the Winter Mystery Packs!
+MARKETING_PN_20201209_STOREOFFERZURG_TITLE|Add Emperor Zurg  to your team!
+MARKETING_PN_20201209_STOREOFFERZURG_BODY|Emperor Zurg tokens are now available in the store!
+MARKETING_PN_20201209_FSF_TITLE|Head to Twitter for #FreeStuffFriday!
+MARKETING_PN_20201209_FSF_BODY|Head to the DSA Twitter account and enter #FreeStuffFriday for a chance to win Mistletokens!
+MARKETING_PN_20201209_CLUBDUNGEONBONUS_TITLE|Mistletoken Club Dungeon bonus!
+MARKETING_PN_20201209_CLUBDUNGEONBONUS_BODY|Earn Mistletokens as a bonus in the Club Dungeon now!
+MARKETING_PN_20201209_PASSHOLDER16END_TITLE|Last call for Season 16 Passholder!
+MARKETING_PN_20201209_PASSHOLDER16END_BODY|Earn ALL unlocked Season 16 Passholder rewards immediately!
+MARKETING_PN_20201209_PASSHOLDER17START_TITLE|Season 17 Passholder is Live!
+MARKETING_PN_20201209_PASSHOLDER17START_BODY|Earn Sensational Six tokens and more!
+MARKETING_PN_20201209_PVPFROZEN_TITLE|The Ahtohallan PVP Takeover IS LIVE!
+MARKETING_PN_20201209_PVPFROZEN_BODY|Battle in the Ahtohallan PVP Arena now!
+MARKETING_PN_20201209_EMPERORANNIVERSARY_TITLE|Celebrate The Emperor's New Groove's 20th Annivesary!
+MARKETING_PN_20201209_EMPERORANNIVERSARY_BODY|Log in now for your FREE talisman gift!
+MARKETING_PN_20201209_GIFTDROPMISTLETOKEN_BODY|Your FREE Mistletokens are only available for 2 more hours! Open now!!
+MARKETING_PN_20201209_STOREOFFERTNBC_TITLE|The Nightmare Before Christmas Bundles are here!
+MARKETING_PN_20201209_STOREOFFERTNBC_BODY|Check out the Jack Skellington, Sally, and Oogie Boogie token bundles in the store now!
+MARKETING_PN_20201209_2XSVEN_TITLE|Limited time: 2x Sven Tokens
+MARKETING_PN_20201209_2XSVEN_BODY|Earn 2x Sven tokens on campaign nodes now!
+MARKETING_PN_20201209_SOULRELEASE_TITLE|Celebrate with a FREE Soul gift!
+MARKETING_PN_20201209_SOULRELEASE_BODY|Log in now for your FREE talisman gift!
+MARKETING_PN_20201209_2XOLAF_TITLE|Limited time: 2x Olaf Tokens
+MARKETING_PN_20201209_2XOLAF_BODY|Earn 2x Olaf tokens on campaign nodes now!
+MARKETING_PN_20201209_MISTLETOKENENDING_TITLE|Last Chance for Mistletokens!
+MARKETING_PN_20201209_MISTLETOKENENDING_BODY|Tonight is the last chance to earn and spend Mistletokens! Spend all your Mistletokens before they disappear at midnight!
+MARKETING_PN_20201209_PASSHOLDER17END_TITLE|Last call for Season 17 Passholder!
+MARKETING_PN_20201209_PASSHOLDER17END_BODY|Earn ALL unlocked Season 17 Passholder rewards immediately!
 SO_ULTIMATE_A_SUBTITLE|POWER UP YOUR TEAM WITH A 10X ULTIMATE CHEST, 5X ULTIMATE CHEST, 1X ULTIMATE CHEST, ABILITY RUNES, GEMS, AND MORE ITEMS.
 SO_ULTIMATE_B_NAME|SUPER ULTIMATE 10X BUNDLE
 SO_ULTIMATE_B_SUBTITLE|TAKE ADVANTAGE OF THE SUPER 10X ULTIMATE BUNDLE WHICH CONTAINS THREE 10X ULTIMATE CHESTS, GEAR, ABILITY RUNES, GEMS, GOLD, AND MORE ITEMS.
@@ -15649,7 +15701,7 @@ EMOTE_ZURG_NAME|EMPEROR ZURG EMOTE
 EMOTE_ZURG_DESC|Muahahaha.
 PIN_ZURG_NAME|EMPEROR ZURG TALISMAN
 PIN_ZURG_DESC|Watch out. He's got an Ion Blaster!
-EVENT_202010_S6_INBOX_EVENT_START_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event has begun!<BR><BR>Bring your Mickey and Friends Characters and your Ducks Characters to fight alongside Daisy Duck and battle against Jafar to earn Daisy Duck Tokens!
+EVENT_202010_S6_INBOX_EVENT_START_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event has begun!<BR><BR>Bring your Mickey and Friends Characters and your Ducks Characters to battle against infamous Villians to earn Sensational Six Character Tokens!<BR><BR>Stay tuned for Part 2 which will require Daisy Duck, Goofy, and Donald Duck to earn Pluto, Minnie Mouse, and Mickey Mouse!
 EVENT_202010_S6_INBOX_EVENT_START_SUBJECT|The Sensational Six Event is live!
 EVENT_202010_S6_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare your <color=#54C5FF>MICKEY AND FRIENDS</color> Characters and your <color=#54C5FF>DUCKS</color> Characters and get ready to battle against infamous Villians to earn exclusive Sensational Six Character Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event!<BR><BR>In Part 1 you will earn Daisy Duck, Goofy, and Donald Duck Tokens. Stay tuned for Part 2 which will require Daisy Duck, Goofy, and Donald Duck to earn Pluto, Minnie Mouse, and Mickey Mouse!
 EVENT_202010_S6_INBOX_PREVIEW_SUBJECT|Coming Soon: The Sensational Six: Part 1!
@@ -15769,10 +15821,10 @@ EVENT_202010_SENSATIONALSIX_1_A_L2_DESC|<color=#8D5FB6>INFO</color><br>• Defea
 EVENT_202010_SENSATIONALSIX_1_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_A_L3_NAME|DAISY DUCK VS JAFAR 4
 EVENT_202010_SENSATIONALSIX_1_A_L3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
-EVENT_202010_SENSATIONALSIX_1_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 4 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_A_L4_NAME|DAISY DUCK VS JAFAR 5
 EVENT_202010_SENSATIONALSIX_1_A_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
-EVENT_202010_SENSATIONALSIX_1_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 5 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 5 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_A_L5_NAME|DAISY DUCK VS JAFAR 6
 EVENT_202010_SENSATIONALSIX_1_A_L5_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Jafar! <br>• Jafar is Immune to Stun, Sleep, Silence, Charm, and Polymorph.<br>• Jafar inflicts Hourglass on all opponents, gains Invulnerable, and gives all teammates Offense Up and Defense Up.
 EVENT_202010_SENSATIONALSIX_1_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Stars</size>
@@ -15822,10 +15874,10 @@ EVENT_202010_SENSATIONALSIX_1_C_L0_DESC|Defeat Hades with Daisy Duck, Goofy and 
 EVENT_202010_SENSATIONALSIX_1_C_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_C_L1_NAME|DONALD DUCK VS HADES 2
 EVENT_202010_SENSATIONALSIX_1_C_L1_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
-EVENT_202010_SENSATIONALSIX_1_C_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 4 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_C_L2_NAME|DONALD DUCK VS HADES 3
 EVENT_202010_SENSATIONALSIX_1_C_L2_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
-EVENT_202010_SENSATIONALSIX_1_C_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 5 Stars</size>
+EVENT_202010_SENSATIONALSIX_1_C_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 5 Stars</size>
 EVENT_202010_SENSATIONALSIX_1_C_L3_NAME|DONALD DUCK VS HADES 4
 EVENT_202010_SENSATIONALSIX_1_C_L3_DESC|Defeat Hades with Daisy Duck, Goofy and Donald Duck!
 EVENT_202010_SENSATIONALSIX_1_C_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Stars</size>
@@ -16088,4 +16140,10 @@ INBOX_EVENT_202011_BATB_2X_BELLE_SUBJECT|2x Belle Token Drops
 INBOX_EVENT_202011_BATB_2X_BELLE_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for Belle on the Heroes and Villains Campaigns! Power Belle up now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
 INBOX_EVENT_202011_BATB_2X_ALL_SUBJECT|2x Beauty and the Beast Token Drops
 INBOX_EVENT_202011_BATB_2X_ALL_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for all Beauty and the Beast characters on the Grand, Heroes, and Villains Campaigns! Power up your Beauty and the Beast team now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
+EVENT_202012_FROZEN_PVP_PREVIEW_SUBJECT|Coming Soon: Frozen PvP Event!
+EVENT_202012_FROZEN_PVP_PREVIEW_BODY|Summoner,<BR><BR>Prepare your PvP Arena team! For the upcoming PvP Season you will battle in the <color=#54C5FF>FROZEN PVP ARENA</color>.<BR><BR>Earn Frozen Character tokens and Mistletokens as bonus rewards in the limited time PvP Arena Pack.<BR><BR>In addition, you will be able to enjoy the Frozen Arena in Sorcerer's Tournament.<BR><BR>Good luck, and see you in the Arena!
+EVENT_202012_FROZEN_PVP_START_SUBJECT|The Frozen PvP Event is live!
+EVENT_202012_FROZEN_PVP_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>FROZEN PVP EVENT</color> has begun! Bring your strongest team to the Arena and battle for bonus rewards. Earn Frozen Character tokens and Mistletokens as bonus rewards in the limited time PvP Arena Pack.<BR><BR>Good luck, and see you in the Arena!
+TROPHY_S6_PT1_DESC|Awarded for completing The Sensational Six: Part 1 Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_S6_PT1_NAME|THE SENSATIONAL SIX: PART 1 TROPHY
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2020 Disney.<br> © 2019-2020 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2020 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
