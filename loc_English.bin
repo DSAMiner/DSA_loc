@@ -634,6 +634,8 @@ BATTLE_EFFECT_DEFENSE_UP|DEFENSE UP
 BATTLE_EFFECT_DEFENSE_UP_DESC|Increases Defense by 50%, causing affected character to take less damage.
 BATTLE_EFFECT_ENCHANTED_ROSE|ENCHANTED ROSE
 BATTLE_EFFECT_ENCHANTED_ROSE_DESC|Restores Health to the affected character equal to 5% of their max health on their turn start, then decrements in duration. Grant 5% Defense and 5% Tenacity per the current duration of this effect. Cannot be Purged.
+BATTLE_EFFECT_SWEETENED|SWEETENED
+BATTLE_EFFECT_SWEETENED_DESC|Next damage event against affected unit will heal the attacking unit for 25% of the damage dealt.
 BATTLE_EFFECT_ENCORE_NOTE|ENCORE NOTE
 BATTLE_EFFECT_ENCORE_NOTE_DESC|On defeat, affected character revives and has a percentage of Health restored per Encore Note. Increases Speed and revive chance granted by Miguel's Leader ability.
 BATTLE_EFFECT_SHAKEN|SHAKEN
@@ -705,7 +707,7 @@ BATTLE_EFFECT_POISON_DESC|Deals percentage of character's max Health as damage e
 BATTLE_EFFECT_POLYMOPRH_DESC|Affected character takes the form of another character.
 BATTLE_EFFECT_POLYMORPH|POLYMORPH
 BATTLE_EFFECT_PUMPKIN_SHIELD|PUMPKIN SHIELD
-BATTLE_EFFECT_PUMPKIN_SHIELD_DESC|Increases Defense by 50% and grants a Shield if the effect expires naturally.
+BATTLE_EFFECT_PUMPKIN_SHIELD_DESC|Increase Defense by 10%. On expiration or combat end, Shield on the unit is converted to Health until Health is full or Shield is consumed. Each time an opponent gains Fear, gain Shield worth 1% of max Health.
 BATTLE_EFFECT_PURGE|PURGED
 BATTLE_EFFECT_REFLECT|REFLECT
 BATTLE_EFFECT_REFLECT_DESC|A portion of damage dealt to the affected character will be dealt to the attacker.
@@ -4286,6 +4288,16 @@ PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYGRAND_DESC|(Optional) Complete Grand Cam
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYHEROES_DESC|(Optional) Complete Heroes Elite Battles
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYVILLAINS_DESC|(Optional) Complete Villians Elite Battles
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYTOURNAMENT_DESC|(Optional) Complete Sorcerer's Tournament Battles
+INBOX_EVENT_202012_SVEN2X_SUBJECT|2x Sven Token Event
+INBOX_EVENT_202012_SVEN2X_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Sven Tokens</color> for a limited time!<BR><BR>Bonus drops can be found on Grand Campaign 3-C.<BR><BR>Thank you for your continued support, and see you in the Arena!
+BONUS_LOOT_SVEN2X_NAME|2X  SVEN TOKEN EVENT
+BONUS_LOOT_SVEN2X_DESC|Earn 2x Sven Tokens for a limited time! Bonus drops can be found on Grand Campaign 3-C.
+INBOX_EVENT_202012_OLAF2X_SUBJECT|2x Olaf Token Event
+INBOX_EVENT_202012_OLAF2X_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Olaf Tokens</color> for a limited time!<BR><BR>Bonus drops can be found on Grand Campaign 4-L.<BR><BR>Thank you for your continued support, and see you in the Arena!
+BONUS_LOOT_OLAF2X_NAME|2X  OLAF TOKEN EVENT
+BONUS_LOOT_OLAF2X_DESC|Earn 2x Olaf Tokens for a limited time! Bonus drops can be found on Grand Campaign 4-L.
+INBOX_EVENT_202012_SOULRELEASE_SUBJECT|Soul Release - Free Gift!
+INBOX_EVENT_202012_SOULRELEASE_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Soul Release</color> today with this FREE <color=#54C5FF>Soul Cat Talisman</color>! Don't miss out on offers available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -4507,28 +4519,30 @@ EVENT_MULAN_INBOX_START_SUBJECT|The Heart of a Warrior Event is Live!
 EVENT_NEW_ENTER|TAP TO REVEAL
 EVENT_NEW_EVENT|NEW EVENT!
 EVENT_NIGHTMARE_BOOKCOVER_DESC|<size=90%>AVAILABLE (PDT) December 20 - January 10</size>
-EVENT_NIGHTMARE_META_DESC|Defeat Oogie Boogie and his allies to earn Sally and Jack Skellington character tokens!
-EVENT_NIGHTMARE_NAME|OOGIE BOOGIE MAN
+EVENT_NIGHTMARE_META_DESC|Defeat Oogie Boogie to earn Jack Skellington, Sally, and Oogie Boogie Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_NIGHTMARE_PORTAL_DESC|EARN OOGIE BOOGIE TOKENS AND MORE!
+EVENT_NIGHTMARE_PORTAL_NAME|OOGIE BOOGIE HOLIDAY
+EVENT_NIGHTMARE_NAME|OOGIE BOOGIE HOLIDAY
 EVENT_NIGHTMARE_TIER_0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>• Jack Skellington inflicts <color=#FEF8E4>HEAL BLOCK</color> for <color=#FEF8E4>2</color> turns when he deals damage.
-EVENT_NIGHTMARE_TIER_0_NAME|OOGIE BOOGIE MAN I
+EVENT_NIGHTMARE_TIER_0_NAME|OOGIE BOOGIE HOLIDAY I
 EVENT_NIGHTMARE_TIER_0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 10+<br>• Enchantment <color=#a99cb0>Tier 1</color><br>• 1 Star</size>
 EVENT_NIGHTMARE_TIER_1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>• Jack Skellington inflicts <color=#FEF8E4>HEAL BLOCK</color> for <color=#FEF8E4>2</color> turns when he deals damage.
-EVENT_NIGHTMARE_TIER_1_NAME|OOGIE BOOGIE MAN II
+EVENT_NIGHTMARE_TIER_1_NAME|OOGIE BOOGIE HOLIDAY II
 EVENT_NIGHTMARE_TIER_1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 15+<br>• Enchantment <color=#8ab65d>Tier 2</color><br>• 1 Stars</size>
 EVENT_NIGHTMARE_TIER_2_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>• Jack Skellington inflicts <color=#FEF8E4>HEAL BLOCK</color> for <color=#FEF8E4>2</color> turns when he deals damage.
-EVENT_NIGHTMARE_TIER_2_NAME|OOGIE BOOGIE MAN III
+EVENT_NIGHTMARE_TIER_2_NAME|OOGIE BOOGIE HOLIDAY III
 EVENT_NIGHTMARE_TIER_2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Enchantment <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
 EVENT_NIGHTMARE_TIER_3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>• Jack Skellington inflicts <color=#FEF8E4>HEAL BLOCK</color> for <color=#FEF8E4>2</color> turns when he deals damage.<br>• If Jack Skellington is defeated you lose the battle<br>• Oogie Boogie heals <color=#FEF8E4>15%</color> of his maximum Health when one of his allies is defeated.
-EVENT_NIGHTMARE_TIER_3_NAME|OOGIE BOOGIE MAN IV
+EVENT_NIGHTMARE_TIER_3_NAME|OOGIE BOOGIE HOLIDAY IV
 EVENT_NIGHTMARE_TIER_3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
 EVENT_NIGHTMARE_TIER_4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>• Jack Skellington inflicts <color=#FEF8E4>HEAL BLOCK</color> for <color=#FEF8E4>2</color> turns when he deals damage.<br>• If Jack Skellington is defeated you lose the battle<br>• Oogie Boogie heals <color=#FEF8E4>15%</color> of his maximum Health when one of his allies is defeated
-EVENT_NIGHTMARE_TIER_4_NAME|OOGIE BOOGIE MAN V
+EVENT_NIGHTMARE_TIER_4_NAME|OOGIE BOOGIE HOLIDAY V
 EVENT_NIGHTMARE_TIER_4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 40+<br>• Enchantment <color=#4a90e2>Tier 4</color><br>• 4 Stars</size>
 EVENT_NIGHTMARE_TIER_5_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>• Jack Skellington inflicts <color=#FEF8E4>HEAL BLOCK</color> for <color=#FEF8E4>2</color> turns when he deals damage.<br>• If Jack Skellington is defeated you lose the battle<br>• Oogie Boogie heals <color=#FEF8E4>15%</color> of his maximum Health when one of his allies is defeated
-EVENT_NIGHTMARE_TIER_5_NAME|OOGIE BOOGIE MAN VI
+EVENT_NIGHTMARE_TIER_5_NAME|OOGIE BOOGIE HOLIDAY VI
 EVENT_NIGHTMARE_TIER_5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 50+<br>• Enchantment <color=#4a90e2>Tier 5</color><br>• 5 Stars</size>
 EVENT_NIGHTMARE_TIER_6_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>• Jack Skellington inflicts <color=#FEF8E4>HEAL BLOCK</color> for <color=#FEF8E4>2</color> turns when he deals damage.<br>• If Jack Skellington is defeated you lose the battle<br>• Oogie Boogie heals <color=#FEF8E4>15%</color> of his maximum Health when one of his allies is defeated
-EVENT_NIGHTMARE_TIER_6_NAME|OOGIE BOOGIE MAN VII
+EVENT_NIGHTMARE_TIER_6_NAME|OOGIE BOOGIE HOLIDAY VII
 EVENT_NIGHTMARE_TIER_6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Enchantment <color=#4a90e2>Tier 6</color><br>• 6 Stars</size>
 EVENT_NONE_ACTIVE|No Events Active<br><size=70%><color=#FE9B7A>Check Back Often<br>A New Event Will Be Available Soon
 EVENT_ONBOARDING_ALADDIN_DESC| 
@@ -5185,8 +5199,8 @@ GOOFY_ABILSPECIALB_NAME|MOVING DAY
 GOOFY_BASIC_ABILPREVIEWUPGRADE_01|Each hit has a <color=#FEF8E4>{0:P0}</color> chance to call a random "Sensational Six" or "Mickey and Friends" teammate to Assist.
 GOOFY_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to call a random "Sensational Six" or "Mickey and Friends" teammate to Assist.
 ABILPREVIEWUPGRADE_GEN_HIT_INC|Hits <color=#FEF8E4>{0:N0}</color> additional time.
-GOOFY_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.
-GOOFY_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>Each hit has a <color=#FEF8E4>{2:P0}</color> chance to call a random "Sensational Six" or "Mickey and Friends" teammate to Assist.
+GOOFY_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. On Counter Attack, ignore <color=#FEF8E4>{3:P0}</color> of the target opponent's Defense.
+GOOFY_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. On Counter Attack, ignore <color=#FEF8E4>{3:P0}</color> of the target opponent's Defense.<br><br>Each hit has a <color=#FEF8E4>{2:P0}</color> chance to call a random "Sensational Six" or "Mickey and Friends" teammate to Assist.
 GOOFY_PASSIVEA_ABILPREVIEWUPGRADE_01|On Defense, gain Counter at the start of battle.
 GOOFY_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> less max Health lost to activate.
 GOOFY_PASSIVEA_ABILPREVIEWUPGRADE_03|On gaining a third stack of Counter, gain Evasion.
@@ -5760,19 +5774,20 @@ JACKSKELLINGTON_ABILSPECIALB_BASE_DESC|Raises a wall of pumpkins around a target
 JACKSKELLINGTON_ABILSPECIALB_BASE_U01|Raises a wall of pumpkins around a target ally, granting them <color=#FEF8E4>Pumpkin Shield</color> for <color=#FEF8E4>{0:N0}s</color>.<br><br><color=#FEF8E4>Pumpkin Shield:</color> Increases Defense by <color=#FEF8E4>{1:P0}</color>. Grants a Shield equal to <color=#FEF8E4>{2:P0}</color> of the target's maximum Health for <color=#FEF8E4>{3:N0}s</color> if this effect naturally expires. If the character is at full Health when this happens they instead gain Invincibility for <color=#FEF8E4>{4:N0}s</color>.
 JACKSKELLINGTON_ABILSPECIALB_NAME|Hail the Pumpkin King
 JACKSKELLINGTON_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to increase duration of Harmful effect.
+JACKSKELLINGTON_BASIC_ABILPREVIEWUPGRADE_02|Guaranteed to increase duration of Harmful effect.
 JACKSKELLINGTON_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to increase duration of a random Harmful effect. This cannot increase the duration of Stun.
-JACKSKELLINGTON_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to chain to an adjacent opponent.
-JACKSKELLINGTON_PASSIVE_DESC_01|On turn start, <color=#FEF8E4>{0:P0}</color> chance to deal up to <color=#FFC400>{1:N0}</color> damage to a random opponent. Inflict Offense Down for <color=#FEF8E4>{2:N0}</color> turn.
-JACKSKELLINGTON_PASSIVE_DESC_02|On turn start, <color=#FEF8E4>{0:P0}</color> chance to deal up to <color=#FFC400>{1:N0}</color> damage to a random opponent. Inflict Offense Down for <color=#FEF8E4>{2:N0}</color> turn. <color=#FEF8E4>{3:P0}</color> chance to chain to an adjacent opponent, dealing up to <color=#FFC400>{4:N0}</color> damage.
+JACKSKELLINGTON_PASSIVE_ABILPREVIEWUPGRADE_01|Guaranteed to inflict Offense Down.
+JACKSKELLINGTON_PASSIVE_DESC_01|On turn start, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents affected by Fear. <color=#FEF8E4>{1:P0}</color> chance to inflict Offense Down for <color=#FEF8E4>{2:N0}</color> turn.
+JACKSKELLINGTON_PASSIVE_DESC_02|On turn start, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents affected by Fear. Inflict Offense Down for <color=#FEF8E4>{2:N0}</color> turn.
 JACKSKELLINGTON_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to inflict Heal Block.
 JACKSKELLINGTON_SPECIALA_ABILPREVIEWUPGRADE_02|Guaranteed to inflict Heal Block.
-JACKSKELLINGTON_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Fear for <color=#FEF8E4>{1:N0}</color> turns. <color=#FEF8E4>{2:P0}</color> chance to inflict Heal Block for <color=#FEF8E4>{3:N0}</color> turns.
-JACKSKELLINGTON_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Fear for <color=#FEF8E4>{1:N0}</color> turns. Inflict Heal Block for <color=#FEF8E4>{2:N0}</color> turns.
-JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Shield amount.
-JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_02|Grant Invincibility for <color=#FEF8E4>{0:N0}</color> turn on expiration if affected character has max Health.
-JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_03|Grant <color=#FEF8E4>{0:N0}</color> Shield when effect is applied.
-JACKSKELLINGTON_SPECIALB_DESC_01|Grant target teammate Pumpkin Shield for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Pumpkin Shield: Increase Defense by <color=#FEF8E4>{1:P0}</color>.<br><br>On natural expiration, grant affected character a Shield worth <color=#FEF8E4>{2:P0}</color> of their maximum Health.
-JACKSKELLINGTON_SPECIALB_DESC_02|Grant target teammate Pumpkin Shield for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Pumpkin Shield: Increase Defense by <color=#FEF8E4>{1:P0}</color>.<br><br>On natural expiration, grant affected character a Shield worth <color=#FEF8E4>{2:P0}</color> of their maximum Health. If affected character has max Health, grant Invincibility for <color=#FEF8E4>{3:N0}</color> turn.
+JACKSKELLINGTON_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Fear for <color=#FEF8E4>{1:N0}</color> turns. <color=#FEF8E4>{2:P0}</color> chance to inflict Heal Block for <color=#FEF8E4>{3:N0}</color> turns.<br><br>If Sally is a teammate, gain <color=#FEF8E4>{4:N0}</color> Magic for this ability.
+JACKSKELLINGTON_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Fear for <color=#FEF8E4>{1:N0}</color> turns. Inflict Heal Block for <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Sally is a teammate, gain <color=#FEF8E4>{4:N0}</color> Magic for this ability.
+JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> initial Shield amount.
+JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_02|If target is Mythical, grant them <color=#FEF8E4>{0:N0}</color> Undefeatable.
+JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Undefeatable granted.
+JACKSKELLINGTON_SPECIALB_DESC_01|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color> for <color=#FEF8E4>{0:N0}</color> turns. Grant Shield worth <color=#FEF8E4>{3:P0}</color> of their max Health.<br><br>Pumpkin Shield:<br>Increase Defense by <color=#FEF8E4>{1:P0}</color>. On expiration or combat end, Shield on the unit is converted to Health until Health is full or Shield is consumed. Each time an opponent gains Fear, gain Shield worth <color=#FEF8E4>{2:P0}</color> of max Health.
+JACKSKELLINGTON_SPECIALB_DESC_02|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color> for <color=#FEF8E4>{0:N0}</color> turns. Grant Shield worth <color=#FEF8E4>{3:P0}</color> of their max Health. If target is Mythical, grant them Undefeatable.<br><br>Pumpkin Shield:<br>Increase Defense by <color=#FEF8E4>{1:P0}</color>. On expiration or combat end, Shield on the unit is converted to Health until Health is full or Shield is consumed. Each time an opponent gains Fear, gain Shield worth <color=#FEF8E4>{2:P0}</color> of max Health.
 JACKSKELLINGTON_SPECIALB_DESC_03|Grant target teammate Pumpkin Shield for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Pumpkin Shield: Increase Defense by <color=#FEF8E4>{1:P0}</color>. Grant a Shield worth <color=#FEF8E4>{4:P0}</color> of target's maximum Health.<br><br>On natural expiration, grant affected character a Shield worth <color=#FEF8E4>{2:P0}</color> of their maximum Health. If affected character has max Health, grant Invincibility for <color=#FEF8E4>{3:N0}</color> turn.
 JACKSKELLINGTON_UNIT_NAME|JACK SKELLINGTON
 JACKSPARROW_ABILBASIC_DESC|Melee: Performs a canny sword strike at an opponent, dealing up to <color=#FFC400>{0:N0}</color> Physical damage.<br><br>Ranged: Throws an improvised explosive, dealing up to <color=#FFC400>{1:N0}</color> Fire damage to an opponent.
@@ -6505,10 +6520,13 @@ LOGIN_D7_GOLD_A_NAME|GOLD LOGIN CALENDAR
 LOGIN_D7_GOLD_A_SUBTITLE|LOGIN EVERY DAY TO COLLECT GOLD. <color=#FFBC08>300% VALUE!</color>
 LOGIN_D7_GOLD_A_TAB|GOLD CALENDAR
 LOGIN_D7_NEW_YEAR_A_NAME|NEW YEARS CELEBRATION CALENDAR
-LOGIN_D7_NEW_YEAR_A_SUBTITLE|CELEBRATE NEW YEARS WITH THIS AMAZING LOGIN CALENDAR. PURCHASE TO COLLECT A REWARD EACH DAY.
+LOGIN_D7_NEW_YEAR_A_SUBTITLE|CELEBRATE NEW YEARS WITH THIS AMAZING LOGIN CALENDAR. PURCHASE TO GUARANTEE 7 DAYS OF REWARDS. <color=#FFBC08>300% VALUE!</color>
 LOGIN_D7_NEW_YEAR_A_TAB|NEW YEARS CALENDAR
+LOGIN_D7_WINTER_FREE_A_NAME|FREE WINTER CALENDAR
+LOGIN_D7_WINTER_FREE_A_SUBTITLE|CELEBRATE WINTER WITH A FREE LOGIN CALENDAR ON US. THANK YOU FOR PLAYING!
+LOGIN_D7_WINTER_FREE_A_TAB|FREE WINTER CALENDAR
 LOGIN_D25_CHRISTMAS_A_NAME|WINTER LOGIN CALENDAR
-LOGIN_D25_CHRISTMAS_A_SUBTITLE|LOGIN EVERY DAY TO COLLECT 25 DAYS OF REWARDS WITH THIS LIMITED TIME WINTER LOGIN CALENDAR.
+LOGIN_D25_CHRISTMAS_A_SUBTITLE|PURCHASE THIS LIMITED TIME CALENDAR BEFORE TIME RUNS OUT TO GUARANTEE YOURSELF 25 DAYS OF DAILY LOGIN REWARDS
 LOGIN_D25_CHRISTMAS_A_TAB|WINTER CALENDAR
 LONESOME_GHOST_UNIT_NAME|Lonesome Ghost
 LOSE_A_BATTLE_DESC|Lose 3 Battles
@@ -7250,6 +7268,39 @@ MERLIN_SPECIALB_DESC_01|Grant Tactics to target teammate for <color=#FEF8E4>{0:N
 MERLIN_SPECIALB_DESC_02|Grant Tactics to target teammate for <color=#FEF8E4>{0:N0}</color> turn. Reduce Cooldowns of target teammate by <color=#FEF8E4>{1}</color>. Cleanse <color=#FEF8E4>{2:N0}</color> Harmful effect from all teammates. <color=#FEF8E4>{4:P0}</color> chance to Cleanse an additional Harmful effect from all teammates.<br><br>If target is a Mythic teammate, grant Harmful Immunity for <color=#FEF8E4>{3:N0}</color> turn.
 MERLIN_SPECIALB_DESC_03|Grant Tactics to target teammate for <color=#FEF8E4>{0:N0}</color> turn. Reduce Cooldowns of target teammate by <color=#FEF8E4>{1}</color>. Cleanse <color=#FEF8E4>{2:N0}</color> Harmful effects from all teammates.<br><br>If target is a Mythic teammate, grant Harmful Immunity for <color=#FEF8E4>{3:N0}</color> turn.
 MERLIN_UNIT_NAME|MERLIN
+MICKEYMOUSE_UNIT_NAME|MICKEY MOUSE
+MICKEYMOUSE_WINTER_UNIT_NAME|WINTER MICKEY MOUSE
+MICKEYMOUSE_BASIC_NAME|Mickey's Medley
+MICKEYMOUSE_SPECIALA_NAME|All Together
+MICKEYMOUSE_SPECIALB_NAME|Disneyland Forever
+MICKEYMOUSE_PASSIVEA_NAME|This Happy Place
+MICKEYMOUSE_LEADER_NAME|Started By A Mouse
+MICKEYMOUSE_BASIC_DESC_01|Throw Candy, Flowers, or a Bone at target opponent:<br><br>Candy: Deal up to <color=#FFC400>{0:N0}</color> damage. Inflict <color=#FEF8E4>{1:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color>.<br><br>Flowers: Deal up to <color=#FFC400>{0:N0}</color> damage. Call Minnie Mouse to assist.<br><br>Bone: Call Pluto to perform his 'Dig! Dig!' ability regardless of it's Magic Charge.<br><br>Mickey Mouse will always throw Candy when assisting.
+MICKEYMOUSE_BASIC_DESC_02|Throw Candy, Flowers, or a Bone at target opponent:<br><br>Candy: Deal up to <color=#FFC400>{0:N0}</color> damage. Inflict <color=#FEF8E4>{1:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color>.<br><br>Flowers: Deal up to <color=#FFC400>{0:N0}</color> damage. Call Minnie Mouse to assist.<br><br>Bone: Call Pluto to perform his 'Dig! Dig!' ability regardless of it's Magic Charge.<br><br>Mickey Mouse will always throw Candy when assisting.
+MICKEYMOUSE_BASIC_DESC_03|Throw Candy, Flowers, or a Bone at target opponent:<br><br>Candy: Deal up to <color=#FFC400>{0:N0}</color> damage. Inflict <color=#FEF8E4>{1:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color>.<br><br>Flowers: Deal up to <color=#FFC400>{0:N0}</color> damage. Inflict Vulnerable. Call Minnie Mouse to assist.<br><br>Bone: Call Pluto to perform his 'Dig! Dig!' ability regardless of it's Magic Charge.<br><br>Mickey Mouse will always throw Candy when assisting.
+MICKEYMOUSE_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Sweetened inflicted.
+MICKEYMOUSE_BASIC_ABILPREVIEWUPGRADE_02|Flowers inflict Vulnerable on target opponent.
+MICKEYMOUSE_SPECIALA_DESC_01|Mickey Mouse gains Defense Up for <color=#FEF8E4>{1:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Each other teammate performs their Basic Attack on a random opponent.<br><br>If Mickey Mouse has no teammates, first Revive a random teammate with <color=#5DFF89>{5:N0}</color> Health restored. On Defense, revive them with full Health.
+MICKEYMOUSE_SPECIALA_DESC_02|Mickey Mouse gains Defense Up for <color=#FEF8E4>{1:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Teammates adjacent to Mickey Mouse have a <color=#FEF8E4>{0:P0}</color> chance to gain Defense Up for <color=#FEF8E4>{1:N0}</color> turns. Other teammates have a <color=#FEF8E4>{2:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Each other teammate performs their Basic Attack on a random opponent.<br><br>If Mickey Mouse has no teammates, first Revive a random teammate with <color=#5DFF89>{5:N0}</color> Health restored. On Defense, revive them with full Health.
+MICKEYMOUSE_SPECIALA_DESC_03|Mickey Mouse gains Defense Up for <color=#FEF8E4>{1:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Teammates adjacent to Mickey Mouse have a <color=#FEF8E4>{0:P0}</color> chance to gain Defense Up for <color=#FEF8E4>{1:N0}</color> turns. Other teammates have a <color=#FEF8E4>{2:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Each other teammate performs their Basic Attack on a random opponent. 'Sensational Six' characters deal <color=#FEF8E4>{4:P0}</color> bonus damage.<br><br>If Mickey Mouse has no teammates, first Revive a random teammate with <color=#5DFF89>{5:N0}</color> Health restored. On Defense, revive them with full Health.
+MICKEYMOUSE_SPECIALA_DESC_04|Mickey Mouse gains Defense Up for <color=#FEF8E4>{1:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Teammates adjacent to Mickey Mouse gain Defense Up for <color=#FEF8E4>{1:N0}</color> turns. Other teammates gain Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Each other teammate performs their Basic Attack on a random opponent. 'Sensational Six' characters deal <color=#FEF8E4>{4:P0}</color> bonus damage.<br><br>If Mickey Mouse has no teammates, first Revive a random teammate with <color=#5DFF89>{5:N0}</color> Health restored. On Defense, revive them with full Health.
+MICKEYMOUSE_SPECIALA_ABILPREVIEWUPGRADE_01|Teammates adjacent to Mickey Mouse have a <color=#FEF8E4>{0:P0}</color> chance to gain Defense Up. Other teammates have a <color=#FEF8E4>{1:P0}</color> chance to gain Offense Up.
+MICKEYMOUSE_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain Defense Up and Offense Up.
+MICKEYMOUSE_SPECIALA_ABILPREVIEWUPGRADE_03|'Sensational Six' characters deal <color=#FEF8E4>{0:P0}</color> bonus damage.
+MICKEYMOUSE_SPECIALA_ABILPREVIEWUPGRADE_04|Gauranteed to gain Offense Up and Defense Up.
+MICKEYMOUSE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times.<br><br>When Mickey Mouse is defeated, if he has at least 1 teammate, automatically use this ability regardless of current Magic.
+MICKEYMOUSE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times and an additional <color=#FEF8E4>{2:N0}</color> time for each defeated opponent.<br><br>When Mickey Mouse is defeated, if he has at least 1 teammate, automatically use this ability regardless of current Magic.
+MICKEYMOUSE_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times and an additional <color=#FEF8E4>{2:N0}</color> time for each defeated opponent. Each hit restores up to <color=#5DFF89>{3:N0}</color> Health to each teammate.<br><br>When Mickey Mouse is defeated, if he has at least 1 teammate, automatically use this ability regardless of current Magic.
+MICKEYMOUSE_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times and an additional <color=#FEF8E4>{2:N0}</color> times for each defeated opponent. Each hit restores up to <color=#5DFF89>{3:N0}</color> Health to each teammate.<br><br>When Mickey Mouse is defeated, if he has at least 1 teammate, automatically use this ability regardless of current Magic.
+MICKEYMOUSE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> additional hit for each defeated opponent.
+MICKEYMOUSE_SPECIALB_ABILPREVIEWUPGRADE_02|Each hit restores Health to each teammate.
+MICKEYMOUSE_PASSIVEA_DESC_01|On 'Sensational Six' teammate performing an Assist, restore up to <color=#5DFF89>{0:N0}</color> Health to them.
+MICKEYMOUSE_PASSIVEA_DESC_02|On 'Sensational Six' teammate performing an Assist, restore up to <color=#5DFF89>{0:N0}</color> Health to them.<br><br><color=#FEF8E4>{1:P0}</color> chance to also restore up to <color=#5DFF89>{2:N0}</color> Health to the teammate who called the Assist.
+MICKEYMOUSE_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to restore Health to the teammate who called the Assist.
+MICKEYMOUSE_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to restore Health to the teammate who called the Assist.
+MICKEYMOUSE_LEADER_DESC_01|On Defense, 'Sensational Six' teammates gain the following:<br><br><color=#FEF8E4>{0:P0}</color> bonus Speed.<br><color=#FEF8E4>{1:P0}</color> bonus Offense per active 'Sensational Six' teammate.<br><color=#FEF8E4>{2:P0}</color> bonus Defense per active 'Sensational Six' teammate.<br><br>On battle start while on defense, 'Sensational Six' teammates gain the following:<br><br>Gain Haste for <color=#FEF8E4>{3:N0}</color> turns, Defense Up for <color=#FEF8E4>{4:N0}</color> turns and Harmful Immunity for <color=#FEF8E4>{5:N0}</color> turns. If current Health is below maximum Health, restore up to <color=#5DFF89>{6:N0}</color> Health.
+MICKEYMOUSE_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus Offense and <color=#FEF8E4>+{1:P0}</color> bonus Defense per active 'Sensational Six' teammate.
+MICKEYMOUSE_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Health restored.
 MIGUEL_BASIC_NAME|MIGUEL'S MELODIES
 MIGUEL_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage. <color=#FEF8E4>{1:P0}</color> chance to Purge <color=#FEF8E4>{2:N0}</color> random helpful effect.
 MIGUEL_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage. Purge <color=#FEF8E4>{2:N0}</color> random helpful effect.
@@ -7288,6 +7339,31 @@ MILESTONE_RAID_REWARD_POINT|RAID XP
 MILESTONE_RAID_REWARD_POINT_DESC|Progression XP earned from battling in Raids.
 MILESTONE_RAID_REWARD_DESC|EARN RAID XP TO COLLECT REWARDS
 MIND_WORKER_UNIT_NAME|Mind Worker
+MINNIEMOUSE_UNIT_NAME|MINNIE MOUSE
+MINNIEMOUSE_WINTER_UNIT_NAME|WINTER MINNIE MOUSE
+MINNIEMOUSE_BASIC_NAME|Minnie's Handbag
+MINNIEMOUSE_SPECIALA_NAME|Entrancement
+MINNIEMOUSE_SPECIALB_NAME|Surprise!
+MINNIEMOUSE_PASSIVEA_NAME|Ear-esistible!
+MINNIEMOUSE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>For each 'Sensational Six' teammate, deal up to <color=#FFC400>{0:N0}</color> damage to another random opponent, up to a max of <color=#FEF8E4>{1:N0}</color> additional time.
+MINNIEMOUSE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>For each 'Sensational Six' teammate, deal up to <color=#FFC400>{0:N0}</color> damage to another random opponent, up to a max of <color=#FEF8E4>{1:N0}</color> additional times.
+MINNIE_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> to max number of opponents that can be damaged.
+MINNIEMOUSE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Charm for <color=#FEF8E4>{2:N0}</color> turn. Repeat <color=#FEF8E4>{3:N0}</color> times on random opponents with a <color=#FEF8E4>{1:P0}</color> chance to iflict Charm with each hit.
+MINNIEMOUSE_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Charm for <color=#FEF8E4>{2:N0}</color> turn. Repeat <color=#FEF8E4>{3:N0}</color> times on random opponents with a <color=#FEF8E4>{1:P0}</color> chance to iflict Charm with each hit.<br><br>If Daisy Duck is a teammate, opponents inflicted with Charm gain Offense Up for <color=#FEF8E4>{4:N0}</color> turn.
+MINNIEMOUSE_SPECIALA_ABILPREVIEWUPGRADE_01|If Daisy Duck is a teammate, opponents inflicted with Charm gain Offense Up for <color=#FEF8E4>{0:N0}</color> turn.
+MINNIEMOUSE_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Charm.
+MINNIEMOUSE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Inflict <color=#FEF8E4>{5:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict <color=#FEF8E4>1</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on adjacent opponents.
+MINNIEMOUSE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Inflict <color=#FEF8E4>{5:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict <color=#FEF8E4>1</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on adjacent opponents.<br><br>If Mickey Mouse is a teammate, grant him <color=#FEF8E4>{2:P0}</color> Speed Meter and <color=#FEF8E4>{3:N0}</color> Magic.
+MINNIEMOUSE_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Inflict <color=#FEF8E4>{5:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict <color=#FEF8E4>1</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on adjacent opponents. On Defense, opponents inflicted with <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> are inflicted with Slow for <color=#FEF8E4>{4:N0}</color> turns.<br><br>If Mickey Mouse is a teammate, grant him <color=#FEF8E4>{2:P0}</color> Speed Meter and <color=#FEF8E4>{3:N0}</color> Magic.
+MINNIEMOUSE_SPECIALB_ABILPREVIEWUPGRADE_01|If Mickey Mouse is a teammate, grant him <color=#FEF8E4>{0:P0}</color> Speed Meter and <color=#FEF8E4>{1:N0}</color> Magic.
+MINNIEMOUSE_SPECIALB_ABILPREVIEWUPGRADE_02|On Defense, inflict Slow for <color=#FEF8E4>{0:N0}</color> turns on opponents inflicted with Sweetened.
+MINNIEMOUSE_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to inflict Sweetened on adjacent opponents.
+MINNIEMOUSE_PASSIVEA_DESC_01|Charmed opponents deal <color=#FEF8E4>{0:P0}</color> bonus damage.
+MINNIEMOUSE_PASSIVEA_DESC_02|Charmed opponents deal <color=#FEF8E4>{0:P0}</color> bonus damage.<br><br>This character has a <color=#FEF8E4>{1:P0}</color> chance to Assist Charmed opponents.
+MINNIEMOUSE_PASSIVEA_DESC_03|Charmed opponents deal <color=#FEF8E4>{0:P0}</color> bonus damage.<br><br>This character has a <color=#FEF8E4>{1:P0}</color> chance to Assist Charmed opponents.<br><br>Charmed opponents have a <color=#FEF8E4>{2:P0}</color> chance to Assist Minnie Mouse.
+MINNIEMOUSE_PASSIVE_ABILPREVIEWUPGRADE_01|This character has a <color=#FEF8E4>{0:P0}</color> chance to Assist Charmed opponents.
+MINNIEMOUSE_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to Assist Charmed opponents.
+MINNIEMOUSE_PASSIVE_ABILPREVIEWUPGRADE_03|Charmed opponents have a <color=#FEF8E4>{0:P0}</color> chance to Assist Minnie Mouse and increase the number of times her Basic Attack deals damage to random opponents.
 MOANA_ABILBASIC_NAME|OAR STRIKE
 MOANA_ABILPASSIVEA_NAME|THE OCEAN CHOSE YOU
 MOANA_ABILPASSIVEB_NAME|MASTER WAYFINDER
@@ -7604,9 +7680,9 @@ OOGIEBOOGIE_ABILSPECIALB_BASE_U01|Casts the shadow of an evil moon at the target
 OOGIEBOOGIE_ABILSPECIALB_BASE_U02|Casts the shadow of an evil moon at the target area, dealing up to <color=#ffc400>{0:N0}</color> Dark damage over <color=#FEF8E4>{1:N0}s</color> to each affected opponent and affecting them with <color=#FEF8E4>Root</color> while channeled. Restores Health to Oogie Boogie equal to <color=#FEF8E4>{2:P0}</color> of the damage dealt to each opponent.<br><br>If two or more opponents are affected by this ability, overall damage is increased to <color=#ffc400>{3:N0}</color>.
 OOGIEBOOGIE_ABILSPECIALB_NAME|Frightful Shadow
 OOGIEBOOGIE_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to do a follow up attack and have Health restored equal to <color=#FEF8E4>{1:P0}</color> of damage dealt.
-OOGIEBOOGIE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to Purge <color=#FEF8E4>{2:N0}</color> random Helpful effect. Deal bonus damage equal to <color=#FEF8E4>{3:P0}</color> of this character's Defense.
+OOGIEBOOGIE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal bonus damage equal to <color=#FEF8E4>{3:P0}</color> of this character's Defense.<br><br><color=#FEF8E4>{1:P0}</color> chance (doubled if target has Fear) to do a follow up attack: Deal up to <color=#FFC400>{4:N0}</color> damage. Purge <color=#FEF8E4>{2:N0}</color> random Helpful effect.
 OOGIEBOOGIE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to Purge <color=#FEF8E4>{2:N0}</color> random Helpful effect. Deal bonus damage equal to <color=#FEF8E4>{3:P0}</color> of this character's Defense.<br><br><color=#FEF8E4>{4:P0}</color> chance to do a follow up attack: Deal up to <color=#FFC400>{5:N0}</color> damage. Restore Health to this character equal to <color=#FEF8E4>{6:P0}</color> of damage dealt.
-OOGIEBOOGIE_PASSIVE_DESC_01|<color=#FEF8E4>{0:P0}</color> of damage this character deals is restored to it as Health.
+OOGIEBOOGIE_PASSIVE_DESC_01|<color=#FEF8E4>{0:P0}</color> of damage this character deals is restored to it as Health. <color=#FEF8E4>+{1:P0}</color> bonus Health restored from damage dealt to targets with Fear.
 OOGIEBOOGIE_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to steal <color=#FEF8E4>{1:N0}</color> random Helpful effect from target opponent.
 OOGIEBOOGIE_SPECIALA_ABILPREVIEWUPGRADE_02|Guaranteed to steal a random Helpful effect.
 OOGIEBOOGIE_SPECIALA_ABILPREVIEWUPGRADE_03|Steal <color=#FEF8E4>+{0:N0}</color> additional Helpful effect from target opponent.
@@ -7618,9 +7694,11 @@ OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance 
 OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Offense Down.
 OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to inflict Silence
 OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_04|Guaranteed to inflict Silence.
-OOGIEBOOGIE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turn.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
-OOGIEBOOGIE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turn.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn. <color=#FEF8E4>{5:P0}</color> chance to inflict Silence on target opponent for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
-OOGIEBOOGIE_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turn.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn. Inflict Silence on target opponent for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
+OOGIEBOOGIE_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> damage as healing.<br><color=#FEF8E4>+{0:P0}</color> bonus damage as healing.
+OOGIEBOOGIE_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> damage as healing.
+OOGIEBOOGIE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
+OOGIEBOOGIE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn. <color=#FEF8E4>{5:P0}</color> chance to inflict Silence on target opponent for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
+OOGIEBOOGIE_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn. Inflict Silence on target opponent for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
 OOGIEBOOGIE_UNIT_NAME|OOGIE BOOGIE
 OOGIE_GLOW_UNIT_NAME|FLUORESCENT OOGIE BOOGIE
 OPTIONAL_WATCH_AD_DESC|(Optional) Watch a Video
@@ -10344,6 +10422,10 @@ PIN_WINTERMINNIE_NAME|WINTER MINNIE TALISMAN
 PIN_WINTERMINNIE_DESC|Some days call for extra sparkle.
 PIN_WINTERMICKEY_NAME|WINTER MICKEY TALISMAN
 PIN_WINTERMICKEY_DESC|Isn't it about time we were opening our presents?
+PIN_SOULCAT_NAME|SOUL CAT TALISMAN
+PIN_SOULCAT_DESC|Meow.
+PIN_JOE_NAME|JOE TALISMAN
+PIN_JOE_DESC|What do you want to be remembered for?
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -10454,6 +10536,29 @@ PLAYER_PROFILE_TROPHY_TITLE|TROPHIES ({0})
 PLAYER_PROFILE_UNIT_COUNT|CHARACTERS:
 PLAYER_XP_MAT_DESC|Collect Player XP to increase your Player Level.
 PLAYER_XP_MAT_NAME|PLAYER XP
+PLUTO_UNIT_NAME|PLUTO
+PLUTO_BASIC_NAME|Here Boy!
+PLUTO_SPECIALA_NAME|Sniff 'Em out
+PLUTO_SPECIALB_NAME|Dig! Dig!
+PLUTO_PASSIVEA_NAME|Decisions, Decisions
+PLUTO_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turn.
+PLUTO_BASIC_ABILPREVIEWUPGRADE_01|+{0:P0} chance to inflict Defense Down.
+PLUTO_SPECIALA_DESC_01|Inflict Taunt on target opponent for <color=#FEF8E4>{0:N0}</color> turn.<br><br>When on Defense, auto-target opponent with the lowest Defense. Inflict Taunt for <color=#FEF8E4>{1:N0}</color> turns.
+PLUTO_SPECIALA_DESC_02|Inflict Taunt on target opponent for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Call up to <color=#FEF8E4>{2:N0}</color> 'Sensational Six' teammate to assist.<br><br>When on Defense, auto-target opponent with the lowest Defense. Inflict Taunt for <color=#FEF8E4>{1:N0}</color> turns.
+PLUTO_SPECIALA_DESC_03|Inflict Taunt on target opponent for <color=#FEF8E4>{0:N0}</color> turn. <color=#FEF8E4>{3:P0}</color> chance to Inflict Defense Down for <color=#FEF8E4>{4:N0}</color> turns.<br><br>Call up to <color=#FEF8E4>{2:N0}</color> 'Sensational Six' teammate to assist.<br><br>When on Defense, auto-target opponent with the lowest Defense. Inflict Taunt for <color=#FEF8E4>{1:N0}</color> turns.
+PLUTO_SPECIALA_DESC_04|Inflict Taunt on target opponent for <color=#FEF8E4>{0:N0}</color> turn. <color=#FEF8E4>{3:P0}</color> chance to Inflict Defense Down for <color=#FEF8E4>{4:N0}</color> turns.<br><br>Call up to <color=#FEF8E4>{2:N0}</color> 'Sensational Six' teammates to assist.<br><br>When on Defense, auto-target opponent with the lowest Defense. Inflict Taunt for <color=#FEF8E4>{1:N0}</color> turns.
+PLUTO_SPECIALA_ABILPREVIEWUPGRADE_01|Call <color=#FEF8E4>{0:N0}</color> 'Sensational Six' teammate to assist.
+PLUTO_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance to Inflict Defense Down for <color=#FEF8E4>{1:N0}</color> turns.
+PLUTO_SPECIALA_ABILPREVIEWUPGRADE_03|Call <color=#FEF8E4>{0:N0}</color> additional 'Sensational Six' teammate to assist.
+PLUTO_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance to Inflict Tenacity Down.
+PLUTO_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Tenacity Down for <color=#FEF8E4>{1:N0}</color> turns on target opponent. <color=#FEF8E4>{2:P0}</color> chance to inflict Tenacity Down for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents.
+PLUTO_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Tenacity Down for <color=#FEF8E4>{1:N0}</color> turns on target opponent. <color=#FEF8E4>{2:P0}</color> chance to inflict Tenacity Down for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents.<br><br>If Mickey Mouse or Minnie Mouse is a teammate, Mickey Mouse, Minnie Mouse and Pluto gain <color=#FEF8E4>{3:N0}</color> Magic.
+PLUTO_SPECIALB_ABILPREVIEWUPGRADE_01|If Mickey Mouse or Minnie Mouse is a teammate, Mickey Mouse, Minnie Mouse and Pluto gain <color=#FEF8E4>{0:N0}</color> Magic.
+PLUTO_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Tenacity Down on adjacent opponents.
+PLUTO_PASSIVEA_DESC_01|On turn start, grant effects of Angel or Devil to this character:<br><br>Angel: Gain Haste for <color=#FEF8E4>{0:N0}</color> turn.<br>Devil: Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn.<br><br>While affected by Haste, <color=#FEF8E4>{1:P0}</color> chance to assist 'Sensational Six' teammates when they use a basic attack.<br><br>While affected by Offense Up, <color=#FEF8E4>{3:P0}</color> chance to counterattack when 'Sensational Six' teammates are dealt damage by an opponent.<br><br>On Defense, chance to assist and counterattack is increased by <color=#FEF8E4>{4:P0}</color>.
+PLUTO_PASSIVEA_DESC_02|On turn start, grant effects of Angel or Devil to this character:<br><br>Angel: Gain Haste for <color=#FEF8E4>{0:N0}</color> turns.<br>Devil: Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turns.<br><br>While affected by Haste, <color=#FEF8E4>{1:P0}</color> chance to assist 'Sensational Six' teammates when they use a basic attack.<br><br>While affected by Offense Up, <color=#FEF8E4>{3:P0}</color> chance to counterattack when 'Sensational Six' teammates are dealt damage by an opponent.<br><br>On Defense, chance to assist and counterattack is increased by <color=#FEF8E4>{4:P0}</color>.
+PLUTO_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to Assist or Counterattack.
+PLUTO_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Haste and Offense Up duration.
 POCAHONTAS_ABILBASIC_ABILPREVIEWUPGRADE_CONTINUOUSHEALING_ADDEFFECT|Adds a 10% chance to apply Continuous Healing to allies if their Health is below 50%.
 POCAHONTAS_ABILBASIC_ABILPREVIEWUPGRADE_HEALINGINITIAL_INCAMOUNT|Increases initial Health restored by 5%.
 POCAHONTAS_ABILBASIC_DESC_BASE|Adapts to the battle where needed most, changing between supportive and offensive stances based upon the situation.<br><br><color=#FEF8E4>Supportive:</color> Sends a verdant cluster of leaves to the ally with the lowest Health percentage, restoring up to <color=#5DFF89>{0:N0}</color> Health.<br><br>Occurs when there are no nearby opponents and at least one ally exists.<br><br><color=#FEF8E4>Offensive:</color> Strikes with a staff at an opponent, dealing up to <color=#FFC400>{1:N0}</color> Physical damage.<br><br>Occurs when there is a nearby opponent or no allies exist.
@@ -10618,6 +10723,8 @@ PVP_JACK_JACK_INBOX_BODY|Summoners,<BR><BR>A new PvP season has begun! Jack-Jack
 PVP_JACK_JACK_INBOX_SUBJECT|Jack-Jack Enters the PvP Arena!
 PVP_GOOFY_INBOX_BODY|Summoners,<BR><BR>A new PvP season has begun! Goofy will be featured in the Weekly and Seasonal rewards this season. Battle your way up the leaderboard to earn Goofy tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_GOOFY_INBOX_SUBJECT|Goofy Enters the PvP Arena!
+PVP_MIGUEL_INBOX_BODY|Summoners,<BR><BR>A new PvP season has begun! Miguel will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn Miguel tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
+PVP_MIGUEL_INBOX_SUBJECT|Miguel Enters the PvP Arena!
 PVP_BATTLE_HUD_NO_CLUB|<color=#b0a6b9>NO CLUB
 PVP_BATTLE_RESULTS_DEFEAT|DEFEAT
 PVP_BATTLE_RESULTS_INACTIVE_SEASON|NEXT SEASON BEGINS IN:
@@ -10916,6 +11023,9 @@ RAID_URSULA_TIER_03_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 50+<br>• St
 RAID_URSULA_TIER_04_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 60+<br>• Star Rarity 6<br>• Gear <color=#4A90E2>Tier 6</color></size>
 RAID_URSULA_TIER_05_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 65+<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 7</color></size>
 RAID_URSULA_TIER_HEROIC_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 70<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 7+</color></size>
+PUSHNOTE_RAID_STARTED_BODY|<Raid Type> Raid has started! Battle now!
+PUSHNOTE_RAID_ENDED_BODY|<Raid Type> Raid has ended! Collect your rewards!
+PUSHNOTE_RAID_ATTEMPTS_REFRESHED_BODY|<Raid Type> Raid attempts refreshed! Battle now!
 RAJAH_BASIC_DESC_01|Deal damage to target opponent.
 RAM_UNIT_NAME|Ram
 RANDALLBOGGS_ABILBASIC_ABILPREVIEWUPGRADE_CHANCE_BLIND_25PCT|Adds 25% chance to inflict Blind for 3s.
@@ -11046,17 +11156,19 @@ SALLY_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target op
 SALLY_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Continuous Damage, dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns.<br><br>Gain an Extra Attack if target opponent is affected by Fear.
 SALLY_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to gain Undefeatable.
 SALLY_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain Undefeatable.
-SALLY_PASSIVE_DESC_01|On turn start, restore <color=#5DFF89>{0:N0}</color> Health to this character.<br><br>Increase Health restored by <color=#FEF8E4>{1:P0}</color> if this character is affected by Jack Skellington's Pumpkin Shield.
-SALLY_PASSIVE_DESC_02|On turn start, restore <color=#5DFF89>{0:N0}</color> Health to this character. <color=#FEF8E4>{2:P0}</color> chance to gain Undefeatable.<br><br>Increase Health restored by <color=#FEF8E4>{1:P0}</color> if this character is affected by Jack Skellington's Pumpkin Shield.
+SALLY_PASSIVE_ABILPREVIEWUPGRADE_03|Guaranteed to gain Undefeatable.
+SALLY_PASSIVE_DESC_01|On turn start, restore <color=#5DFF89>{0:N0}</color> Health to this character.<br><br>Increase Health restored by <color=#FEF8E4>{1:P0}</color> if this character is affected by Jack Skellington's <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color>.<br><br>When Sally gains <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color>, she uses 'Self-Sewn' regardless of its Magic Charge.
+SALLY_PASSIVE_DESC_02|On turn start, restore <color=#5DFF89>{0:N0}</color> Health to this character. <color=#FEF8E4>{2:P0}</color> chance to gain Undefeatable.<br><br>Increase Health restored by <color=#FEF8E4>{1:P0}</color> if this character is affected by Jack Skellington's <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color>.<br><br>When Sally gains <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color>, she uses 'Self-Sewn' regardless of its Magic Charge.
+SALLY_PASSIVE_DESC_03|On turn start, restore <color=#5DFF89>{0:N0}</color> Health to this character. Gain Undefeatable.<br><br>Increase Health restored by <color=#FEF8E4>{1:P0}</color> if this character is affected by Jack Skellington's <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color>.<br><br>When Sally gains <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color>, she uses 'Self-Sewn' regardless of its Magic Charge.
 SALLY_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turn.
 SALLY_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Slow.
 SALLY_SPECIALA_ABILPREVIEWUPGRADE_03|Guaranteed to inflict Slow.
-SALLY_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn.
-SALLY_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to inflict Slow for <color=#FEF8E4>{3:N0}</color> turns.
-SALLY_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn. Inflict Slow for <color=#FEF8E4>{3:N0}</color> turns.
-SALLY_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage against targets affected by Fear.
-SALLY_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn.<br><br>If Jack Skellington is a teammate, increase his Speed Meter by <color=#FEF8E4>{2:P0}</color>.
-SALLY_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. Deal <color=#FEF8E4>{3:P0}</color> bonus damage against targets affected by Fear.<br><br>If Jack Skellington is a teammate, increase his Speed Meter by <color=#FEF8E4>{2:P0}</color>.
+SALLY_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn.<br><br>If the target has Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.
+SALLY_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to inflict Slow for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If the target has Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.
+SALLY_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn. Inflict Slow for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If the target has Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.
+SALLY_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage against targets affected by Harmful effects.
+SALLY_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. On opponents with Fear, <color=#FEF8E4>{2:P0}</color> chance to increase duration of Fear by <color=#FEF8E4>{3:N0}</color>.<br><br>If Jack Skellington is a teammate, increase his Speed Meter by <color=#FEF8E4>{4:P0}</color>.
+SALLY_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. On opponents with Fear, <color=#FEF8E4>{2:P0}</color> chance to increase duration of Fear by <color=#FEF8E4>{3:N0}</color>.<br><br>Deal <color=#FEF8E4>{5:P0}</color> bonus damage against targets affected by Harmful effects.<br><br>If Jack Skellington is a teammate, increase his Speed Meter by <color=#FEF8E4>{4:P0}</color>.
 SALLY_UNIT_NAME|SALLY
 SAMPLE_SHELF_2_NAME|RESOURCES
 SAMPLE_STORE_ITEM_LARGE_PREMIUM_CURRENCY_NAME|PACK OF GEMS
@@ -13871,6 +13983,11 @@ STORE_ITEM_SPECIAL_FF_GEM02_DESC|CELEBRATE THE FALL WITH THIS BIG LIMITED TIME O
 STORE_ITEM_SPECIAL_FF_GOLD_DESC|CELEBRATE THE FALL WITH THIS BIG LIMITED TIME OFFER. GET 20% OFF WITH THIS GOLD DEAL.
 STORE_ITEM_SPECIAL_FF_ULTIMATE5X_DESC|CELEBRATE THE FALL WITH THIS BIG LIMITED TIME OFFER. GET 11% OFF WITH THIS 5X ULTIMATE DEAL.
 STORE_ITEM_SPECIAL_FF_ULTIMATE10X_DESC|CELEBRATE THE FALL WITH THIS BIG LIMITED TIME OFFER. GET 13% OFF WITH THIS 10X ULTIMATE DEAL.
+STORE_ITEM_SPECIAL_FLASHSALEGEM_NAME|FLASH SALE
+STORE_ITEM_SPECIAL_FLASHSALEGEM_DESC|CELEBRATE WITH THIS BIG LIMITED TIME OFFER. GET 20% OFF WITH THIS GEM OF A DEAL.
+STORE_ITEM_SPECIAL_FLASHSALEGOLD_DESC|CELEBRATE WITH THIS BIG LIMITED TIME OFFER. GET 20% OFF WITH THIS GOLD DEAL.
+STORE_ITEM_SPECIAL_FLASHSALEULTIMATE5X_DESC|CELEBRATE WITH THIS BIG LIMITED TIME OFFER. GET 11% OFF WITH THIS 5X ULTIMATE DEAL.
+STORE_ITEM_SPECIAL_FLASHSALEULTIMATE10X_DESC|CELEBRATE WITH THIS BIG LIMITED TIME OFFER. GET 13% OFF WITH THIS 10X ULTIMATE DEAL.
 STORE_ITEM_SPECIAL_COMBO_GEM_TAGLINE|TAP FOR ALL POSSIBLE DROPS
 STORE_ITEM_T3_BUNDLE_NAME|T3 GEAR BUNDLE
 STORE_ITEM_T3_BUNDLE_SUBTITLE|DEFEAT YOUR ENEMIES WITH ENCHANTED GEAR. FOR A LIMITED TIME, POWER UP YOUR TEAM WITH THIS T3 GEAR BUNDLE.
@@ -15587,6 +15704,22 @@ MARKETING_PN_20201209_MISTLETOKENENDING_TITLE|Last Chance for Mistletokens!
 MARKETING_PN_20201209_MISTLETOKENENDING_BODY|Tonight is the last chance to earn and spend Mistletokens! Spend all your Mistletokens before they disappear at midnight!
 MARKETING_PN_20201209_PASSHOLDER17END_TITLE|Last call for Season 17 Passholder!
 MARKETING_PN_20201209_PASSHOLDER17END_BODY|Earn ALL unlocked Season 17 Passholder rewards immediately!
+MARKETING_PN_20201216_GIFTDROPNEWYEAR_TITLE|Gifts are dropping!
+MARKETING_PN_20201216_GIFTDROPNEWYEAR_BODY|Log in at 8AM and 8PM PST from January 1st - 5th to collect your gifts!
+MARKETING_PN_20201216_PASSHOLDER18START_TITLE|Season 18 Passholder is Live!
+MARKETING_PN_20201216_PASSHOLDER18START_BODY|Earn Miguel and Maui tokens and more!
+MARKETING_PN_20201216_MOANAEVENT_TITLE|Moana and Maui are ready for battle!
+MARKETING_PN_20201216_MOANAEVENT_BODY|Unlock Moana and Maui in the Coconut Crackdown event now!
+MARKETING_PN_20201216_GIFTDROPGRAMMATALA_TITLE|Collect gifts and Unlock the Gramma Tala spell!!
+MARKETING_PN_20201216_GIFTDROPGRAMMATALA_BODY|Log in at 8AM and 8PM PST this week to collect Gramma Tala Spell tokens!
+MARKETING_PN_20201216_GIZMODUCKEVENT_TITLE|Call me Gizmoduck
+MARKETING_PN_20201216_GIZMODUCKEVENT_BODY|Battle to earn Gizmoduck tokens now!
+MARKETING_PN_20201216_PASSHOLDER18END_TITLE|Last call for Season 18 Passholder!
+MARKETING_PN_20201216_PASSHOLDER18END_BODY|Earn ALL unlocked Season 18 Passholder rewards immediately!
+MARKETING_PN_20201216_PASSHOLDER19START_TITLE|Season 19 Passholder is Live!
+MARKETING_PN_20201216_PASSHOLDER19START_BODY|Earn Duck character tokens and more!
+MARKETING_PN_20201216_PASSHOLDER19END_TITLE|Last call for Season 19 Passholder!
+MARKETING_PN_20201216_PASSHOLDER19END_BODY|Earn ALL unlocked Season 19 Passholder rewards immediately!
 SO_ULTIMATE_A_SUBTITLE|POWER UP YOUR TEAM WITH A 10X ULTIMATE CHEST, 5X ULTIMATE CHEST, 1X ULTIMATE CHEST, ABILITY RUNES, GEMS, AND MORE ITEMS.
 SO_ULTIMATE_B_NAME|SUPER ULTIMATE 10X BUNDLE
 SO_ULTIMATE_B_SUBTITLE|TAKE ADVANTAGE OF THE SUPER 10X ULTIMATE BUNDLE WHICH CONTAINS THREE 10X ULTIMATE CHESTS, GEAR, ABILITY RUNES, GEMS, GOLD, AND MORE ITEMS.
@@ -15803,9 +15936,9 @@ URSULA_PASSIVEC_DESC_01|The first time an allied Flotsam or Jetsam is defeated o
 URSULA_PASSIVEC_DESC_02|The first time an allied Flotsam or Jetsam is defeated or this character's Health is reduced below <color=#FEF8E4>{3:P0}</color> of max, perform the following:<br><br>Cleanse all Harmful effects from self and inflict Blind on all opponents for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.<br><br>Empowered:<br>Gain <color=#FEF8E4>{1:P0}</color> bonus Offense.
 URSULA_PASSIVEC_DESC_03|The first time an allied Flotsam or Jetsam is defeated or this character's Health is reduced below <color=#FEF8E4>{3:P0}</color> of max, perform the following:<br><br>Cleanse all Harmful effects from self and inflict Blind on all opponents for <color=#FEF8E4>{0:N0}</color> turn. Gain Empowered.<br><br>Empowered:<br>Gain <color=#FEF8E4>{1:P0}</color> bonus Offense,  <color=#FEF8E4>{2:P0}</color> bonus Crit chance.
 EVENT_202010_SENSATIONALSIX_1_META_DESC|Battle Classic Villains to earn Daisy Duck, Goofy, and Donald Duck Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
-EVENT_202010_SENSATIONALSIX_1_META_NAME|SENSATIONAL SIX PT 1
+EVENT_202010_SENSATIONALSIX_1_META_NAME|THE SENSATIONAL SIX: PART 1
 EVENT_202010_SENSATIONALSIX_1_PORTAL_DESC|EARN SENSATIONAL SIX CHARACTERS!
-EVENT_202010_SENSATIONALSIX_1_PORTAL_NAME|SENSATIONAL SIX PT 1
+EVENT_202010_SENSATIONALSIX_1_PORTAL_NAME|THE SENSATIONAL SIX: PART 1
 EVENT_202010_SENSATIONALSIX_1_A_NAME|DAISY DUCK VS JAFAR
 EVENT_202010_SENSATIONALSIX_1_A_DESC|Earn Daisy Duck Tokens!
 EVENT_202010_SENSATIONALSIX_1_A_AURA_NAME|DAISY DUCK VS JAFAR
@@ -16140,10 +16273,106 @@ INBOX_EVENT_202011_BATB_2X_BELLE_SUBJECT|2x Belle Token Drops
 INBOX_EVENT_202011_BATB_2X_BELLE_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for Belle on the Heroes and Villains Campaigns! Power Belle up now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
 INBOX_EVENT_202011_BATB_2X_ALL_SUBJECT|2x Beauty and the Beast Token Drops
 INBOX_EVENT_202011_BATB_2X_ALL_BODY|Summoner,<BR><BR>For a limited time, there are 2x Bonus drops for all Beauty and the Beast characters on the Grand, Heroes, and Villains Campaigns! Power up your Beauty and the Beast team now to prepare your Beauty and the Beast team to earn <color=#54C5FF>THE BEAST</color> Tokens in the <color=#54C5FF>BEAUTY AND THE BEAST</color> Legendary Event!
+STORE_ITEM_S6_MICKEY_MOUSE_OUTFIT_NAME|WINTER MICKEY MOUSE OUTFIT
+STORE_ITEM_S6_MICKEY_MOUSE_OUTFIT_SUBTITLE|BRAVE THE COLD WITH THE WINTER MICKEY MOUSE OUTFIT. DEFEAT YOUR OPPONENTS IN STYLE WITH A CLASSY TOPHAT. UNLOCK THIS UNIQUE OUTFIT TODAY.
+STORE_ITEM_S6_MINNIE_MOUSE_OUTFIT_NAME|WINTER MINNIE MOUSE OUTFIT
+STORE_ITEM_S6_MINNIE_MOUSE_OUTFIT_SUBTITLE|THE WINTER MINNIE MOUSE OUTFIT WILL BE SURE TO DAZZLE YOUR OPPONENTS WITH HER CUTE PINK BOWTIE. UNLOCK THIS UNIQUE OUTFIT TODAY.
+STORE_ITEM_S6_TEAM_A_NAME|SENSATIONAL SIX TEAM BUNDLE
+STORE_ITEM_S6_TEAM_A_SUBTITLE|POWER UP YOUR TEAM OF THE SENSASTIONAL SIX AND BATTLE TO EARN MICKEY MOUSE TOKENS.
+STORE_ITEM_S6_MINNIE_MOUSE_A_NAME|MINNIE MOUSE BUNDLE
+STORE_ITEM_S6_MINNIE_MOUSE_A_SUBTITLE|MINNIE MOUSE IS DANGEROUSLY CHARMING! SHE CAN CHARM MULTIPLE ENEMIES AT ONCE, AND MAKES BEING CHARMED MORE DANGEROUS THAN EVER BEFORE.
+STORE_ITEM_S6_PLUTO_A_NAME|PLUTO BUNDLE
+STORE_ITEM_S6_PLUTO_A_SUBTITLE|PLUTO GAINS ADDITONAL BONUSES WHEN DEFENDING, FREQUENTLY CALLS FOR ASSISTS, ASSISTS HIS TEAMMATES, AND COUNTERATTACKS WHEN THEY ARE ATTACKED.
+STORE_ITEM_S6_MINNIE_MOUSE_GEMS_NAME|MINNIE MOUSE PACK
+STORE_ITEM_S6_PLUTO_GEMS_NAME|PLUTO PACK
+STORE_ITEM_S6_TEAM_GEMS_NAME|THE SENSATIONAL SIX LUCKY DRAW
+STORE_ITEM_S6_TEAM_GEMS_SUBTITLE|TRY YOUR LUCK WITH THE SENSATIONAL SIX LUCKY DRAW. EACH PURCHASE GUARANTEES A SENSATIONAL SIX CHARACTER TOKEN DROP AND MORE ITEMS.
+UNIT_PROMO_MAT_MICKEY_MOUSE|MICKEY MOUSE TOKENS
+UNIT_PROMO_MAT_MINNIE_MOUSE|MINNIE MOUSE TOKENS
+UNIT_PROMO_MAT_PLUTO|PLUTO TOKENS
+OUTFIT_MINNIE_MOUSE_WINTER_NAME|WINTER MINNIE MOUSE OUTFIT TOKENS
+OUTFIT_MINNIE_MOUSE_WINTER_DESC|Collect 100 to unlock the 'Winter Minnie Mouse' outfit for Minnie Mouse.
+OUTFIT_MICKEY_MOUSE_WINTER_NAME|WINTER MICKEY MOUSE OUTFIT TOKENS
+OUTFIT_MICKEY_MOUSE_WINTER_DESC|Collect 100 to unlock the 'Winter Mickey Mouse' outfit for Mickey Mouse.
 EVENT_202012_FROZEN_PVP_PREVIEW_SUBJECT|Coming Soon: Frozen PvP Event!
 EVENT_202012_FROZEN_PVP_PREVIEW_BODY|Summoner,<BR><BR>Prepare your PvP Arena team! For the upcoming PvP Season you will battle in the <color=#54C5FF>FROZEN PVP ARENA</color>.<BR><BR>Earn Frozen Character tokens and Mistletokens as bonus rewards in the limited time PvP Arena Pack.<BR><BR>In addition, you will be able to enjoy the Frozen Arena in Sorcerer's Tournament.<BR><BR>Good luck, and see you in the Arena!
 EVENT_202012_FROZEN_PVP_START_SUBJECT|The Frozen PvP Event is live!
 EVENT_202012_FROZEN_PVP_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>FROZEN PVP EVENT</color> has begun! Bring your strongest team to the Arena and battle for bonus rewards. Earn Frozen Character tokens and Mistletokens as bonus rewards in the limited time PvP Arena Pack.<BR><BR>Good luck, and see you in the Arena!
 TROPHY_S6_PT1_DESC|Awarded for completing The Sensational Six: Part 1 Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_S6_PT1_NAME|THE SENSATIONAL SIX: PART 1 TROPHY
+TROPHY_S6_PT2_DESC|Awarded for completing The Sensational Six: Part 2 Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_S6_PT2_NAME|THE SENSATIONAL SIX: PART 2 TROPHY
+EVENT_202012_SENSATIONALSIX_2_META_DESC|Prepare your Sensational Six team and battle to earn Mickey Mouse Tokens!<br><br><color=#B8E986>LEGENDARY EVENT</color>
+EVENT_202012_SENSATIONALSIX_2_META_NAME|THE SENSATIONAL SIX: PART 2
+EVENT_202012_SENSATIONALSIX_2_PORTAL_DESC|Earn Mickey Mouse tokens!<br><color=#B8E986>LEGENDARY EVENT</color>
+EVENT_202012_SENSATIONALSIX_2_PORTAL_NAME|THE SENSATIONAL SIX: PART 2
+EVENT_202012_SENSATIONALSIX_2_A_NAME|SENSATIONAL SCUFFLE
+EVENT_202012_SENSATIONALSIX_2_A_DESC|Earn Mickey Mouse Tokens!
+EVENT_202012_SENSATIONALSIX_2_A_AURA_NAME|SENSATIONAL SCUFFLE
+EVENT_202012_SENSATIONALSIX_2_A_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L0_NAME|SENSATIONAL SCUFFLE 1
+EVENT_202012_SENSATIONALSIX_2_A_L0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 15+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 2 Star</size>
+EVENT_202012_SENSATIONALSIX_2_A_L1_NAME|SENSATIONAL SCUFFLE 2
+EVENT_202012_SENSATIONALSIX_2_A_L1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 3 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_A_L2_NAME|SENSATIONAL SCUFFLE 3
+EVENT_202012_SENSATIONALSIX_2_A_L2_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_A_L3_NAME|SENSATIONAL SCUFFLE 4
+EVENT_202012_SENSATIONALSIX_2_A_L3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_A_L4_NAME|SENSATIONAL SCUFFLE 5
+EVENT_202012_SENSATIONALSIX_2_A_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 5 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_A_L5_NAME|SENSATIONAL SCUFFLE 6
+EVENT_202012_SENSATIONALSIX_2_A_L5_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_A_L6_NAME|SENSATIONAL SCUFFLE 7
+EVENT_202012_SENSATIONALSIX_2_A_L6_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_A_L7_NAME|SENSATIONAL SCUFFLE 8
+EVENT_202012_SENSATIONALSIX_2_A_L7_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit.
+EVENT_202012_SENSATIONALSIX_2_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_B_NAME|PRESTIGE: SENSATIONAL SCUFFLE
+EVENT_202012_SENSATIONALSIX_2_B_DESC|Earn Valuable Items!
+EVENT_202012_SENSATIONALSIX_2_B_AURA_NAME|SENSATIONAL SCUFFLE
+EVENT_202012_SENSATIONALSIX_2_B_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit. <br>• When Pete uses his basic ability, he calls a random teammate to assist.
+EVENT_202012_SENSATIONALSIX_2_B_L0_NAME|PRESTIGE: SENSATIONAL SCUFFLE 1
+EVENT_202012_SENSATIONALSIX_2_B_L0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit. <br>• When Pete uses his basic ability, he calls a random teammate to assist.
+EVENT_202012_SENSATIONALSIX_2_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 50+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 5 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_B_L1_NAME|PRESTIGE: SENSATIONAL SCUFFLE 2
+EVENT_202012_SENSATIONALSIX_2_B_L1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit. <br>• When Pete uses his basic ability, he calls a random teammate to assist.
+EVENT_202012_SENSATIONALSIX_2_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 6 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_B_L2_NAME|PRESTIGE: SENSATIONAL SCUFFLE 3
+EVENT_202012_SENSATIONALSIX_2_B_L2_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit. <br>• When Pete uses his basic ability, he calls a random teammate to assist.
+EVENT_202012_SENSATIONALSIX_2_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_B_L3_NAME|PRESTIGE: SENSATIONAL SCUFFLE 4
+EVENT_202012_SENSATIONALSIX_2_B_L3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit. <br>• When Pete uses his basic ability, he calls a random teammate to assist.
+EVENT_202012_SENSATIONALSIX_2_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Stars</size>
+EVENT_202012_SENSATIONALSIX_2_B_L4_NAME|PRESTIGE: SENSATIONAL SCUFFLE 5
+EVENT_202012_SENSATIONALSIX_2_B_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Pete! <br>• Pete is Immune to Stun, Sleep, Silence, and Polymorph.<br>• On receiving damage, Pete has a 20% chance per active teammate to Counterattack.<br>• When one of his teammates is defeated, Pete gains 100% Speed Meter and Guaranteed Crit. <br>• When Pete uses his basic ability, he calls a random teammate to assist.
+EVENT_202012_SENSATIONALSIX_2_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 8</color><br>• 7 Stars</size>
+EMOTE_PLUTO_DESC|Aww, you're just a mutt.
+EMOTE_PLUTO_NAME|PLUTO EMOTE
+PASSHOLDER_202012_2_SEASON_NAME|PASSHOLDER SEASON 17
+PASSHOLDER_202012_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 17 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MINNIE MOUSE TOKENS<BR>  * PLUTO TOKENS<br>  * DONALD DUCK TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202101_1_SEASON_NAME|PASSHOLDER SEASON 18
+PASSHOLDER_202101_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 18 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MIGUEL TOKENS<BR>  * DANTE TALISMAN<br>  * PEPITA TALISMAN<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+EVENT_202012_S6_PT2_INBOX_EVENT_START_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event: Part 2 has begun! Bring Daisy Duck, Goofy, Donald Duck, Pluto, and Minnie Mouse to battle and earn <color=#54C5FF>MICKEY MOUSE</color> Tokens!
+EVENT_202012_S6_PT2_INBOX_EVENT_START_SUBJECT|The Sensational Six Event: Part 2 is live!
+EVENT_202012_S6_PT2_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare your <color=#54C5FF>SENSATIONAL SIX</color> Team and get ready to battle and earn exclusive <color=#54C5FF>MICKEY MOUSE</color> Character Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event: Part 2!
+EVENT_202012_S6_PT2_INBOX_PREVIEW_SUBJECT|Coming Soon: The Sensational Six: Part 2!
+EVENT_202012_S6_PT2_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event: Part 2 will be ending soon! This is your <color=#54C5FF>LAST CHANCE</color> to battle, so enter now to earn exclusive <color=#54C5FF>MICKEY MOUSE</color> Tokens!
+EVENT_202012_S6_PT2_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Sensational Six Event: Part 2!
+EVENT_202012_S6_PT2_INBOX_POST_EVENT_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event: Part 2 has ended! Thank you for participating. Continue promoting Daisy Duck, Goofy, Donald Duck, Pluto, and Minnie Mouse so you'll be ready to earn <color=#54C5FF>MICKEY MOUSE</color> Tokens when the event returns!
+EVENT_202012_S6_PT2_INBOX_POST_EVENT_SUBJECT|Event Ended: The Sensational Six: Part 2
+EVENT_202012_NIGHTMARE_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare Jack Skellington, Sally, and the rest of your Heroes to battle against Oogie Boogie to earn Jack Skellington, Sally, and Oogie Boogie tokens in the <color=#54C5FF>OOGIE BOOGIE HOLIDAY</color> Event!
+EVENT_202012_NIGHTMARE_INBOX_PREVIEW_SUBJECT|Coming Soon: Oogie Boogie Holiday!
+EVENT_202012_NIGHTMARE_INBOX_EVENT_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>OOGIE BOOGIE HOLIDAY</color> Event has begun! Battle against Oogie Boogie with Jack Skellington, Sally, and your Heroes to earn Jack Skellington, Sally, and Oogie Boogie Tokens!
+EVENT_202012_NIGHTMARE_INBOX_EVENT_START_SUBJECT|The Oogie Boogie Holiday Event is live!
+EVENT_202012_NIGHTMARE_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5FF>OOGIE BOOGIE HOLIDAY</color> Event will be ending soon! This is your <color=#54C5FF>LAST CHANCE</color> to battle, so enter now to earn Jack Skellington, Sally, and Oogie Boogie Tokens!
+EVENT_202012_NIGHTMARE_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Oogie Boogie Holiday Event!
+TROPHY_OOGIE_DESC|Awarded for completing the Oogie Boogie Holiday Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_OOGIE_NAME|OOGIE BOOGIE HOLIDAY TROPHY
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2020 Disney.<br> © 2019-2020 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2020 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
