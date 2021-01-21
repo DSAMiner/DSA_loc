@@ -742,7 +742,7 @@ BATTLE_EFFECT_STEALTH_DESC|Affected character cannot be targeted by enemies if o
 BATTLE_EFFECT_STUN|STUN
 BATTLE_EFFECT_STUN_DESC|Affected character cannot use abilities.
 BATTLE_EFFECT_STUN_IMMUNITY|UNSTOPPABLE
-BATTLE_EFFECT_STUN_IMMUNITY_DESC|Affected character is immune to Stun, Silence, and Charm.
+BATTLE_EFFECT_STUN_IMMUNITY_DESC|Affected character is immune to Stun, Silence, Sleep, and Charm.
 BATTLE_EFFECT_TACTICS|TACTICS
 BATTLE_EFFECT_TACTICS_DESC|Chance occurences on the affected character's abilities are guaranteed.
 BATTLE_EFFECT_TAUNT|TAUNT
@@ -4309,6 +4309,8 @@ INBOX_EVENT_202101_DUCKFLASHGIFTSTART_SUBJECT|Coming Soon - Duck Flash Gifts
 INBOX_EVENT_202101_DUCKFLASHGIFTSTART_BODY|Summoner,<BR><BR><color=#54C5FF>Duck Flash Gifts</color> are on the way!<BR><BR> Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>January 18 - 21</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202101_DUCKFLASHGIFTREWARD_SUBJECT|Duck Flash Gift!
 INBOX_EVENT_202101_DUCKFLASHGIFTREWARD_BODY|Summoner,<BR><BR>You've received a <color=#54C5FF>Duck Flash Gift</color>!<BR><BR>Stay on the lookout for more Flash Gift drops at random times between <color=#54C5FF>January 18 - 21</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202101_POLKADOTDAY_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Polka Dot Day</color> with this FREE gift! Don't miss out on the Celebration Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202101_101DALMATIANS_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>101 Dalmatians 60th Anniversary</color> with this FREE <color=#54C5FF>Pongo Talisman</color>! Don't miss out on the Anniversary Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -4981,6 +4983,61 @@ FRED_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opp
 FRED_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict <color=#FEF8E4>1</color> Continuous Damage per <color=#FEF8E4>{1:N0}</color> Charges on Fred, each dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns. Consume Charges.<br><br>If Honey Lemon is a teammate, increase damage dealt by <color=#FEF8E4>{4:P0}</color>. Inflict Blind on target opponent for <color=#FEF8E4>{5:N0}</color> turn. <color=#FEF8E4>{6:P0}</color> chance to inflict Blind on all other opponents.
 FRED_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict <color=#FEF8E4>1</color> Continuous Damage per <color=#FEF8E4>{1:N0}</color> Charges on Fred, each dealing up to <color=#FFC400>{2:N0}</color> damage over <color=#FEF8E4>{3:N0}</color> turns. Consume Charges.<br><br>If Honey Lemon is a teammate, increase damage dealt by <color=#FEF8E4>{4:P0}</color>. Inflict Blind on target opponent for <color=#FEF8E4>{5:N0}</color> turn. <color=#FEF8E4>{6:P0}</color> chance to inflict Blind on all other opponents.<br><br>Extend duration of Continuous Damage on all opponents by <color=#FEF8E4>{7:N0}</color> turn.
 FRED_UNIT_NAME|FRED
+FLYNN_RIDER_UNIT_NAME|FLYNN RIDER
+RAPUNZEL_UNIT_NAME|RAPUNZEL
+RAPUNZEL_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. If this ability crits, inflict Stun for <color=#FEF8E4>{1:N0}</color> turn.
+RAPUNZEL_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents.<br><br>On primary target: Inflict Stun for <color=#FEF8E4>{1:N0}</color> turn. Reduce Speed Meter to <color=#FEF8E4>0</color>.<br><br>On adjacent targets: Inflict Slow for <color=#FEF8E4>{2:N0}</color> turn. Reduce Speed Meter by <color=#FEF8E4>{3:P0}</color>.
+RAPUNZEL_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents.<br><br>On primary target: Inflict Stun for <color=#FEF8E4>{1:N0}</color> turn. Reduce Speed Meter to <color=#FEF8E4>0</color>.<br><br>On adjacent targets: Inflict Slow for <color=#FEF8E4>{2:N0}</color> turn. Reduce Speed Meter by <color=#FEF8E4>{3:P0}</color>. <color=#FEF8E4>{4:P0}</color> chance to inflict Stun for <color=#FEF8E4>{5:N0}</color> turn.
+RAPUNZEL_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Stun on adjacent targets for <color=#FEF8E4>{1:N0}</color> turn.
+RAPUNZEL_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Stun on adjacent targets.
+RAPUNZEL_SPECIALB_DESC_01|Revert all damage dealt to teammates and revive any teammates that were defeated since Rapunzel's last turn.<br><br>Revived teammates have <color=#FEF8E4>{0:P0}</color> of their Max Health restored.<br><br>When a non-summoned teammate is defeated, this ability gains <color=#FEF8E4>{1:N0}</color> Magic.
+RAPUNZEL_SPECIALB_DESC_02|Revert all damage dealt to teammates, Cleanse all Harmful effects inflicted on teammates and revive any teammates that were defeated since Rapunzel's last turn.<br><br>Revived teammates have <color=#FEF8E4>{0:P0}</color> of their Max Health restored.<br><br>When a non-summoned teammate is defeated, this ability gains <color=#FEF8E4>{1:N0}</color> Magic.
+RAPUNZEL_SPECIALB_DESC_03|Revert all damage dealt to teammates, Cleanse all Harmful effects inflicted on teammates and revive any teammates that were defeated since Rapunzel's last turn. <color=#FEF8E4>{2:P0}</color> chance for Harmful effects to be Flipped instead of Cleansed.<br><br>Revived teammates have <color=#FEF8E4>{0:P0}</color> of their Max Health restored.<br><br>When a non-summoned teammate is defeated, this ability gains <color=#FEF8E4>{1:N0}</color> Magic.
+RAPUNZEL_SPECIALB_DESC_04|Revert all damage dealt to teammates, Flip all Harmful effects inflicted on teammates and revive any teammates that were defeated since Rapunzel's last turn.<br><br>Revived teammates have <color=#FEF8E4>{0:P0}</color> of their Max Health restored.<br><br>When a non-summoned teammate is defeated, this ability gains <color=#FEF8E4>{1:N0}</color> Magic.
+RAPUNZEL_SPECIALB_ABILPREVIEWUPGRADE_01|Cleanse all Harmful effects inflicted on teammates since Rapunzel's last turn.
+RAPUNZEL_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> of Max Health restored for revived teammates.
+RAPUNZEL_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>{0:P0}</color> chance for Harmful effects to be Flipped instead of Cleansed.
+RAPUNZEL_SPECIALB_ABILPREVIEWUPGRADE_04|Harmful effects are always Flipped instead of Cleansed.
+RAPUNZEL_PASSIVEA_DESC_01|When Rapunzel deals damage, heal the teammate with the lowest Health for <color=#FEF8E4>{0:P0}</color> of damage dealt, increased by <color=#FEF8E4>{1:P0}</color> if teammate is a 'Princess' teammate.<br><br>In Tower and Club Conquest, <color=#FEF8E4>{2:P0}</color> chance to Cleanse <color=#FEF8E4>{3:N0}</color> Harmful effect.
+RAPUNZEL_PASSIVEA_DESC_02|When Rapunzel deals damage, heal the teammate with the lowest Health for <color=#FEF8E4>{0:P0}</color> of damage dealt, increased by <color=#FEF8E4>{1:P0}</color> if teammate is a 'Princess' teammate.<br><br>In Tower and Club Conquest, Cleanse <color=#FEF8E4>{3:N0}</color> Harmful effect.
+RAPUNZEL_PASSIVEA_DESC_03|When Rapunzel deals damage, heal the teammate with the lowest Health for <color=#FEF8E4>{0:P0}</color> of damage dealt, increased by <color=#FEF8E4>{1:P0}</color> if teammate is a 'Princess' teammate.<br><br>In Tower and Club Conquest, Cleanse <color=#FEF8E4>{3:N0}</color> Harmful effects.
+RAPUNZEL_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse a Harmful effect.
+RAPUNZEL_PASSIVEA_ABILPREVIEWUPGRADE_02|Guaranteed to Cleanse a Harmful effect.
+RAPUNZEL_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Harmful effect Cleansed.
+RAPUNZEL_LEADER_DESC_01|'Princess' teammates gain the following: <color=#FEF8E4>{0:P0}</color> Offense. <color=#FEF8E4>{1:P0}</color> Speed per 'Princess' ally at the start of battle.
+RAPUNZEL_LEADER_DESC_02|'Princess' teammates gain the following: <color=#FEF8E4>{0:P0}</color> Offense. <color=#FEF8E4>{1:P0}</color> Speed per 'Princess' ally at the start of battle.<br><br>In Tower and Club Conquest, 'Princess' teammates start the battle with Offense Up for <color=#FEF8E4>{2:N0}</color> turn and Unstoppable for <color=#FEF8E4>{3:N0}</color> turns.
+RAPUNZEL_LEADER_ABILPREVIEWUPGRADE_01|In Tower and Club Conquest, 'Princess' teammates start the battle with Offense Up for <color=#FEF8E4>{0:N0}</color> turn and Unstoppable for <color=#FEF8E4>{1:N0}</color> turns.
+RAPUNZEL_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Offense.
+FLYNNRIDER_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. If Rapunzel is a teammate, attack target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>Gain <color=#FEF8E4>{2:P0}</color> Speed Meter per hit.
+FLYNNRIDER_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. If Rapunzel is a teammate, attack target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>Gain <color=#FEF8E4>{2:P0}</color> Speed Meter per hit.<br><br>If Rapunzel is a teammate, she gains the same amount of Speed Meter.
+FLYNNRIDER_BASIC_ABILPREVIEWUPGRADE_01|If Rapunzel is a teammate, she gains the same amount of Speed Meter.
+FLYNNRIDER_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed Meter per Hit.
+FLYNNRIDER_SPECIALA_DESC_01|If target opponent has a Helpful Effect, Steal <color=#FEF8E4>{0:N0}</color> Helpful Effects (excluding Taunt). Otherwise, inflict Charm for <color=#FEF8E4>{1:N0}</color> turn.<br><br><color=#FEF8E4>{2:P0}</color> chance to steal <color=#FEF8E4>{3:N0}</color> Magic.
+FLYNNRIDER_SPECIALA_DESC_02|If target opponent has a Helpful Effect, Steal <color=#FEF8E4>{0:N0}</color> Helpful Effects (excluding Taunt). Otherwise, inflict Charm for <color=#FEF8E4>{1:N0}</color> turn.<br><br><color=#FEF8E4>{2:P0}</color> chance to steal <color=#FEF8E4>{3:N0}</color> Magic.<br><br>If Rapunzel is a teammate, she gains the same amount of Magic and a copy of any stolen Helpful Effects.
+FLYNNRIDER_SPECIALA_ABILPREVIEWUPGRADE_01|If Rapunzel is a teammate, she gains the same amount of Magic and a copy of the Helpful Effects.
+FLYNNRIDER_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to steal Magic.
+FLYNNRIDER_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Helpful effect stolen.
+FLYNNRIDER_SPECIALA_ABILPREVIEWUPGRADE_04|Guaranteed to steal Magic.
+FLYNNRIDER_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target and flanking opponents. Reduce Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>Gain Unstoppable for <color=#FEF8E4>{2:N0}</color> turns.
+FLYNNRIDER_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target and flanking opponents. Reduce Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>Gain Unstoppable for <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Rapunzel is an ally, Purge <color=#FEF8E4>{3:N0}</color> Helpful effect from each affected opponent. Rapunzel gains <color=#FEF8E4>{4:N0}</color> Guaranteed Crit and Unstoppable for <color=#FEF8E4>{5:N0}</color> turns.
+FLYNNRIDER_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target and flanking opponents. Reduce Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>Gain Unstoppable for <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Rapunzel is an ally, Purge <color=#FEF8E4>{3:N0}</color> Helpful effects from each affected opponent. Rapunzel gains <color=#FEF8E4>{4:N0}</color> Guaranteed Crit and Unstoppable for <color=#FEF8E4>{5:N0}</color> turns.
+FLYNNRIDER_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target and flanking opponents. Reduce Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>Gain Unstoppable for <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Rapunzel is an ally, Flip <color=#FEF8E4>{3:N0}</color> Helpful effects from each affected opponent. Rapunzel gains <color=#FEF8E4>{4:N0}</color> Guaranteed Crit and Unstoppable for <color=#FEF8E4>{5:N0}</color> turns.
+FLYNNRIDER_SPECIALB_ABILPREVIEWUPGRADE_01|If Rapunzel is an ally, Purge <color=#FEF8E4>{0:N0}</color> Helpful effect from each affected opponent. Rapunzel gains Guaranteed <color=#FEF8E4>{1:N0}</color> Crit and Unstoppable for <color=#FEF8E4>{2:N0}</color> turns.
+FLYNNRIDER_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Helpful effect Purged if Rapunzel is an ally.
+FLYNNRIDER_SPECIALB_ABILPREVIEWUPGRADE_03|Helpful effects are Flipped instead of Purged.
+FLYNNRIDER_PASSIVEA_DESC_01|When Flynn Rider crits, gain Evasion up to a max of <color=#FEF8E4>{0:N0}</color>.<br><br>When Flynn Rider is attacked and attacker has a Helpful Effect (excluding Taunt), <color=#FEF8E4>{1:P0}</color> chance to counterattack, dealing up to <color=#FFC400>{2:N0}</color> damage and stealing <color=#FEF8E4>{3:N0}</color> Helpful Effect from attacker.
+FLYNNRIDER_PASSIVEA_DESC_02|When Flynn Rider crits, gain Evasion up to a max of <color=#FEF8E4>{0:N0}</color>.<br><br>When Flynn Rider is attacked and attacker has a Helpful Effect (excluding Taunt), <color=#FEF8E4>{1:P0}</color> chance to counterattack, dealing up to <color=#FFC400>{2:N0}</color> damage and stealing <color=#FEF8E4>{3:N0}</color> Helpful Effect from attacker.<br><br>If Rapunzel is a teammate, she gains a copy of stolen Helpful Effects.
+FLYNNRIDER_PASSIVEA_ABILPREVIEWUPGRADE_01|If Rapunzel is a teammate, she gains a copy of stolen Helpful Effects.
+FLYNNRIDER_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Counterattack chance.
+FLYNNRIDER_BASIC_NAME|Slick Tricks
+FLYNNRIDER_SPECIALA_NAME|The Smolder
+FLYNNRIDER_SPECIALB_NAME|Evasive Maneuver
+FLYNNRIDER_PASSIVEA_NAME|Sticky Fingers
+RAPUNZEL_BASIC_NAME|I Will Use This
+RAPUNZEL_SPECIALA_NAME|Hair Snare
+RAPUNZEL_SPECIALB_NAME|Restoration Incantation
+RAPUNZEL_PASSIVEA_NAME|The Sundrop
+RAPUNZEL_LEADER_NAME|We Can Handle Ourselves
 FRIENDS_LIST_FULL_ALERT|YOUR FRIEND'S LIST IS FULL
 FRIENDS_LIST_INVITES_EMPTY|You have no pending friend requests
 FRIEND_ACCEPT|ACCEPT
@@ -6525,7 +6582,7 @@ LOGIN_MERIDA_TAB|MERIDA
 LOGIN_ULTIMATE_1X_NAME|ULTIMATE CHEST LOGIN CALENDAR
 LOGIN_ULTIMATE_1X_STORE_NAME|ULTIMATE CHEST LOGIN CALENDAR
 LOGIN_ULTIMATE_1X_STORE_SUBTITLE|ULTIMATE CHESTS AND MORE
-LOGIN_ULTIMATE_1X_SUBTITLE|LOGIN EVERY DAY TO COLLECT ULTIMATE CHESTS AND MORE. <color=#FFBC08>270% VALUE!</color>
+LOGIN_ULTIMATE_1X_SUBTITLE|LOGIN TO COLLECT ULTIMATE CHESTS AND MORE. PURCHASE TO GUARANTEE 7 DAYS OF REWARDS. <color=#FFBC08>270% VALUE!</color>
 LOGIN_ULTIMATE_1X_TAB|ULTIMATE CHEST
 LOGIN_LAPSED_5X_NAME|FREE WELCOME BACK CALENDAR
 LOGIN_LAPSED_5X_STORE_NAME|WELCOME BACK CALENDAR
@@ -6534,13 +6591,13 @@ LOGIN_LAPSED_5X_TAB|5X ULTIMATE
 LOGIN_CALENDAR_NAME|DAILY CALENDAR
 LOGIN_CALENDAR_FREE_NAME|FREE CALENDAR
 LOGIN_D7_ENERGY_A_NAME|ENERGY LOGIN CALENDAR
-LOGIN_D7_ENERGY_A_SUBTITLE|LOGIN EVERY DAY TO COLLECT ENERGY. <color=#FFBC08>250% VALUE!</color>
+LOGIN_D7_ENERGY_A_SUBTITLE|LOGIN TO COLLECT ENERGY. PURCHASE TO GUARANTEE 7 DAYS OF REWARDS. <color=#FFBC08>250% VALUE!</color>
 LOGIN_D7_ENERGY_A_TAB|ENERGY CALENDAR
 LOGIN_D7_GEMS_A_NAME|GEMS LOGIN CALENDAR
-LOGIN_D7_GEMS_A_SUBTITLE|LOGIN EVERY DAY TO COLLECT GEMS. <color=#FFBC08>180% VALUE!</color>
+LOGIN_D7_GEMS_A_SUBTITLE|LOGIN TO COLLECT GEMS. PURCHASE TO GUARANTEE 7 DAYS OF REWARDS. <color=#FFBC08>180% VALUE!</color>
 LOGIN_D7_GEMS_A_TAB|GEMS CALENDAR
 LOGIN_D7_GOLD_A_NAME|GOLD LOGIN CALENDAR
-LOGIN_D7_GOLD_A_SUBTITLE|LOGIN EVERY DAY TO COLLECT GOLD. <color=#FFBC08>300% VALUE!</color>
+LOGIN_D7_GOLD_A_SUBTITLE|LOGIN TO COLLECT GOLD. PURCHASE TO GUARANTEE 7 DAYS OF REWARDS. <color=#FFBC08>300% VALUE!</color>
 LOGIN_D7_GOLD_A_TAB|GOLD CALENDAR
 LOGIN_D7_NEW_YEAR_A_NAME|NEW YEARS CELEBRATION CALENDAR
 LOGIN_D7_NEW_YEAR_A_SUBTITLE|CELEBRATE NEW YEARS WITH THIS AMAZING LOGIN CALENDAR. PURCHASE TO GUARANTEE 7 DAYS OF REWARDS. <color=#FFBC08>300% VALUE!</color>
@@ -7206,6 +7263,45 @@ MAURICE_LEADER_DESC_02|Grant summoned teammates <color=#FEF8E4>{0:P0}</color> Of
 MAURICE_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Offense Up and Haste duration.
 MAURICE_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Offense.
 MAURICE_LEADER_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Speed.
+MAXIMUS_UNIT_NAME|MAXIMUS
+MAXIMUS_BASIC_NAME|Disarming Steed
+MAXIMUS_SPECIALA_NAME|Commanding Presence
+MAXIMUS_SPECIALB_NAME|Criminal Pursuit
+MAXIMUS_PASSIVEA_NAME|Finest Horse in the Land
+MAXIMUS_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. <color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down per hit for <color=#FEF8E4>{3:N0}</color> turn.
+MAXIMUS_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. <color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down per hit for <color=#FEF8E4>{3:N0}</color> turns.
+MAXIMUS_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Offense Down chance.
+MAXIMUS_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+1 Offense Down turn.
+MAXIMUS_SPECIALA_DESC_01|Gain Taunt for <color=#FEF8E4>{7:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turn. Summon <color=#FEF8E4>{1:N0}</color> Royal Guard with full Speed Meter.<BR><BR>Royal Guard: Has <color=#FEF8E4>{2:N0}</color> Health. Has <color=#FEF8E4>{3:N0}</color> Defense. Has the following abilities:<BR><BR>Halberd Strike: Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent.<BR><BR>There!: Inflict Defense Down on target opponent for <color=#FEF8E4>{5:N0}</color> turn.
+MAXIMUS_SPECIALA_DESC_02|Gain Taunt for <color=#FEF8E4>{7:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turn. Summon <color=#FEF8E4>{1:N0}</color> Royal Guard with full Speed Meter.<BR><BR>Royal Guard: Has <color=#FEF8E4>{2:N0}</color> Health. Has <color=#FEF8E4>{3:N0}</color> Defense. Has the following abilities:<BR><BR>Halberd Strike: Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent.<BR><BR>There!: Inflict Defense Down on target opponent for <color=#FEF8E4>{5:N0}</color> turn. <color=#FEF8E4>{6:P0}</color> chance to inflict Vulnerable.
+MAXIMUS_SPECIALA_DESC_03|Gain Taunt for <color=#FEF8E4>{7:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turn. Summon <color=#FEF8E4>{1:N0}</color> Royal Guard with full Speed Meter. In Tower and Club Conquest, summon <color=#FEF8E4>{8:N0}</color> additional Royal Guard.<BR><BR>Royal Guard: Has <color=#FEF8E4>{2:N0}</color> Health. Has <color=#FEF8E4>{3:N0}</color> Defense. Has the following abilities:<BR><BR>Halberd Strike: Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent.<BR><BR>There!: Inflict Defense Down on target opponent for <color=#FEF8E4>{5:N0}</color> turn.
+MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_01|'There!' ability gains the following: <color=#FEF8E4>{0:P0}</color> chance to inflict Vulnerable.
+MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Health and <color=#FEF8E4>+{1:P0}</color> Defense for Royal Guards.
+MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_03|In Tower and Club Conquest, summon 1 additional Royal Guard.
+MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance to inflict Vulnerable.
+MAXIMUS_SPECIALB_ABILPREVIEWUPGRADE_01|Inflict Defense Down for <color=#FEF8E4>{0:N0}</color> turn.
+MAXIMUS_SPECIALB_ABILPREVIEWUPGRADE_02|In Tower and Club Conquest, Call <color=#FEF8E4>{0:N0}</color> 'Tangled' teammate to assist.
+MAXIMUS_SPECIALB_ABILPREVIEWUPGRADE_03|Call <color=#FEF8E4>{0:N0}</color> additional 'Tangled' teammate to assist.
+MAXIMUS_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn.<BR><BR>Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn. If Flynn Rider is a teammate, he gains Haste for <color=#FEF8E4>{3:N0}</color> turn.<BR><BR>In Tower and Club Conquest do the following: Inflict Vulnerable.
+MAXIMUS_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn and Defense Down for <color=#FEF8E4>{3:N0}</color> turn.<BR><BR>Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn. If Flynn Rider is a teammate, he gains Haste for <color=#FEF8E4>{3:N0}</color> turn.<BR><BR>In Tower and Club Conquest do the following: Inflict Vulnerable.
+MAXIMUS_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn and Defense Down for <color=#FEF8E4>{3:N0}</color> turn.<BR><BR>Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn. If Flynn Rider is a teammate, he gains Haste for <color=#FEF8E4>{3:N0}</color> turn.<BR><BR>In Tower and Club Conquest do the following: Inflict Vulnerable. Call <color=#FEF8E4>{5:N0}</color> 'Tangled' teammate to Assist.
+MAXIMUS_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn and Defense Down for <color=#FEF8E4>{3:N0}</color> turn.<BR><BR>Gain Taunt for <color=#FEF8E4>{2:N0}</color> turn. If Flynn Rider is a teammate, he gains Haste for <color=#FEF8E4>{3:N0}</color> turn.<BR><BR>In Tower and Club Conquest do the following: Inflict Vulnerable. Call <color=#FEF8E4>{5:N0}</color> 'Tangled' teammates to Assist.
+MAXIMUS_PASSIVEA_DESC_01|When Maximus falls below <color=#FEF8E4>{0:P0}</color> Health he gains the following: Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effect. Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn.
+MAXIMUS_PASSIVEA_DESC_02|When Maximus falls below <color=#FEF8E4>{0:P0}</color> Health he gains the following:<br><br>Flip <color=#FEF8E4>{1:N0}</color> Harmful effect. Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn.
+MAXIMUS_PASSIVEA_DESC_03|When Maximus falls below <color=#FEF8E4>{0:P0}</color> Health he gains the following:<br><br>Flip <color=#FEF8E4>{1:N0}</color> Harmful effect. Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn.<BR><BR>Reactivates when Maximus falls below <color=#FEF8E4>{3:P0}</color> Health.
+MAXIMUS_PASSIVEA_DESC_04|When Maximus falls below <color=#FEF8E4>{0:P0}</color> Health he gains the following:<br><br>Flip <color=#FEF8E4>{1:N0}</color> Harmful effect. Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn. Gain Unstoppable for <color=#FEF8E4>{4:N0}</color> turn.<BR><BR>Reactivates when Maximus falls below <color=#FEF8E4>{3:P0}</color> Health.
+MAXIMUS_PASSIVEA_DESC_05|When Maximus falls below <color=#FEF8E4>{0:P0}</color> Health he gains the following:<br><br>Flip <color=#FEF8E4>{1:N0}</color> Harmful effects. Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn. Gain Unstoppable for <color=#FEF8E4>{4:N0}</color> turn.<BR><BR>Reactivates when Maximus falls below <color=#FEF8E4>{3:P0}</color> Health.
+MAXIMUS_PASSIVEA_DESC_06|When Maximus falls below <color=#FEF8E4>{0:P0}</color> Health he gains the following:<br><br>Flip all Harmful effect. Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn. Gain Unstoppable for <color=#FEF8E4>{4:N0}</color> turn.<BR><BR>Reactivates when Maximus falls below <color=#FEF8E4>{3:P0}</color> Health.
+MAXIMUS_PASSIVEA_ABILPREVIEWUPGRADE_01|Flip <color=#FEF8E4>{0:N0}</color> Harmful effect instead of Cleansing.
+MAXIMUS_PASSIVEA_ABILPREVIEWUPGRADE_02|Reactivates when Maximus's Health falls below a low threshold.
+MAXIMUS_PASSIVEA_ABILPREVIEWUPGRADE_03|Gain Unstoppable for <color=#FEF8E4>{0:N0}</color> turn.
+MAXIMUS_PASSIVEA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Harmful effect Flipped.
+MAXIMUS_PASSIVEA_ABILPREVIEWUPGRADE_05|Flip all Harmful Effects.
+MAXIMUS_ROYALGUARD_ABILBASIC_NAME|Halberd Strike
+MAXIMUS_ROYALGUARD_ABILSPECIALA_NAME|There!
+MAXIMUS_ROYALGUARD_BASIC_DESC_01|Deal damage to target opponent.
+MAXIMUS_ROYALGUARD_SPECIALA_DESC_01|Inflict Harmful effects on target opponent.
+UNIT_PROMO_MAT_MAXIMUS|MAXIMUS TOKENS
 MENACING_CAVE_GUARDIAN_UNIT_NAME|MENACING CAVE GUARDIAN
 MERFOLK_UNIT_NAME|Mermaid
 MERIDA_ABILBASIC_ABILPREVIEWUPGRADE_BONUS_CRITICAL_CHANCE_05PCT|Increases the chance to deal a Critical Strike by 5% for each Wisp present.
@@ -7374,8 +7470,8 @@ MINNIEMOUSE_PASSIVEA_NAME|Ear-esistible!
 MINNIEMOUSE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>For each 'Sensational Six' teammate, deal up to <color=#FFC400>{0:N0}</color> damage to another random opponent, up to a max of <color=#FEF8E4>{1:N0}</color> additional time.
 MINNIEMOUSE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>For each 'Sensational Six' teammate, deal up to <color=#FFC400>{0:N0}</color> damage to another random opponent, up to a max of <color=#FEF8E4>{1:N0}</color> additional times.
 MINNIE_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> to max number of opponents that can be damaged.
-MINNIEMOUSE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Charm for <color=#FEF8E4>{2:N0}</color> turn. Repeat <color=#FEF8E4>{3:N0}</color> times on random opponents with a <color=#FEF8E4>{1:P0}</color> chance to iflict Charm with each hit.
-MINNIEMOUSE_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Charm for <color=#FEF8E4>{2:N0}</color> turn. Repeat <color=#FEF8E4>{3:N0}</color> times on random opponents with a <color=#FEF8E4>{1:P0}</color> chance to iflict Charm with each hit.<br><br>If Daisy Duck is a teammate, opponents inflicted with Charm gain Offense Up for <color=#FEF8E4>{4:N0}</color> turn.
+MINNIEMOUSE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Charm for <color=#FEF8E4>{2:N0}</color> turn. Repeat <color=#FEF8E4>{3:N0}</color> times on random opponents with a <color=#FEF8E4>{1:P0}</color> chance to inflict Charm with each hit.
+MINNIEMOUSE_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Charm for <color=#FEF8E4>{2:N0}</color> turn. Repeat <color=#FEF8E4>{3:N0}</color> times on random opponents with a <color=#FEF8E4>{1:P0}</color> chance to inflict Charm with each hit.<br><br>If Daisy Duck is a teammate, opponents inflicted with Charm gain Offense Up for <color=#FEF8E4>{4:N0}</color> turn.
 MINNIEMOUSE_SPECIALA_ABILPREVIEWUPGRADE_01|If Daisy Duck is a teammate, opponents inflicted with Charm gain Offense Up for <color=#FEF8E4>{0:N0}</color> turn.
 MINNIEMOUSE_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Charm.
 MINNIEMOUSE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents. Inflict <color=#FEF8E4>{5:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict <color=#FEF8E4>1</color> <color=#FEF8E4><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on adjacent opponents.
@@ -7554,6 +7650,11 @@ MORTALPOTION_SPELLPREVIEWUPGRADE_HEALBLOCK_ADDEFFECT|Adds a 20% chance to inflic
 MORTALPOTION_SPELLPREVIEWUPGRADE_HEALBLOCK_INCCHANCE|Increases chance to inflict Helpful Effect Block by 20%.
 MORTALPOTION_SPELLPREVIEWUPGRADE_PURGEINVINCIBIILITY_ADDEFFECT|Adds the capability to Purge Invincibility effects.
 MORTAL_POTION_SPELL_NAME|MORTAL POTION
+MOTHERGOTHEL_UNIT_NAME|MOTHER GOTHEL
+MOTHERGOTHEL_BASIC_NAME|Shadow Stiletto
+MOTHERGOTHEL_SPECIALA_NAME|Cloak and Dagger
+MOTHERGOTHEL_SPECIALB_NAME|Mother Knows Best
+MOTHERGOTHEL_PASSIVEA_NAME|Sinister Schemes
 MR_BIG_BODYGUARD_UNIT_NAME|Mr Big's Bodyguard
 MR_INCREDIBLE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>If Jack-Jack is a teammate, <color=#FEF8E4>{1:P0}</color> chance to follow up: Deal up to <color=#FFC400>{2:N0}</color> damage to target opponent.
 MR_INCREDIBLE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{4:P0}</color> chance to inflict Offense Down for <color=#FEF8E4>{5:N0}</color> turns.<br><br>If Jack-Jack is a teammate, <color=#FEF8E4>{1:P0}</color> chance to follow up: Deal up to <color=#FFC400>{2:N0}</color> damage to target opponent.
@@ -10452,6 +10553,12 @@ PIN_SOULCAT_NAME|SOUL CAT TALISMAN
 PIN_SOULCAT_DESC|Meow.
 PIN_JOE_NAME|JOE TALISMAN
 PIN_JOE_DESC|What do you want to be remembered for?
+PIN_POLKADOTMINNIE_NAME|POLKA DOT MINNIE TALISMAN
+PIN_POLKADOTMINNIE_DESC|Life needs a few more polka dots.
+PIN_PONGO_NAME|PONGO TALISMAN
+PIN_PONGO_DESC|Nothing's going to happen to our puppies.
+PIN_CRUELLADEVIL_NAME|CRUELLA DE VIL TALISMAN
+PIN_CRUELLADEVIL_DESC|Just name your price, dear.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -14001,6 +14108,37 @@ STORE_ITEM_SPECIAL_WINTERMYSTERYS6_NAME|SENSATIONAL SIX
 STORE_ITEM_SPECIAL_WINTERMYSTERYFROZEN_NAME|FROZEN
 STORE_ITEM_SPECIAL_BALOOBUNDLE_DESC|UNLOCK BALOO AND BOOST YOUR WILDS TEAM WITH THIS LIMITED TIME OFFER. INCLUDES GOLD, LOYALTY COINS, ABILITY RUNES, AND MORE.
 STORE_ITEM_STICKER_CHARACTERUPDATE_NAME|CHARACTER UPDATE
+STORE_ITEM_SPECIAL_TOWERBALOOBUNDLE_NAME|BALOO BUNDLE
+STORE_ITEM_SPECIAL_TOWERBALOOBUNDLE_DESC|UNLOCK BALOO AND BOOST UP YOUR WILDS TEAM WITH THIS LIMITED TIME OFFER. INCLUDES BALOO TOKENS, GOLD, LOYALTY COINS, AND MORE.
+STORE_ITEM_SPECIAL_TOWERHOPPERBUNDLE_NAME|HOPPER BUNDLE
+STORE_ITEM_SPECIAL_TOWERHOPPERBUNDLE_DESC|UNLOCK HOPPER AND BOOST UP YOUR WILDS TEAM WITH THIS LIMITED TIME OFFER. INCLUDES HOPPER TOKENS, GOLD, LOYALTY COINS, AND MORE.
+STORE_ITEM_SPECIAL_TOWERBRAVEBUNDLE_NAME|BRAVE BUNDLE
+STORE_ITEM_SPECIAL_TOWERBRAVEBUNDLE_DESC|UNLOCK MERIDA AND MOR'DU IN THIS LIMITED TIME OFFER. INCLUDES GOLD, LOYALTY COINS, ABILITY RUNES, AND MORE.
+STORE_ITEM_SPECIAL_TOWERWILDSMEGABUNDLE_NAME|WILDS MEGA BUNDLE
+STORE_ITEM_SPECIAL_TOWERWILDSMEGABUNDLE_DESC|UNLOCK POCAHONTAS, SHERE KHAN, BALOO, AND HOPPER IN THIS WILD LIMITED TIME OFFER. INCLUDES GOLD, LOYALTY COINS, ABILITY RUNES, AND MORE.
+STORE_ITEM_SPECIAL_TOWERSHEREKHANBUNDLE_NAME|SHERE KHAN BUNDLE
+STORE_ITEM_SPECIAL_TOWERSHEREKHANBUNDLE_DESC|UNLOCK SHERE KHAN AND BOOST UP YOUR WILDS TEAM WITH THIS LIMITED TIME OFFER. INCLUDES SHERE KHAN TOKENS, GOLD, LOYALTY COINS, AND MORE.
+STORE_ITEM_SPECIAL_TOWERPOCAHONTASBUNDLE_NAME|POCAHONTAS BUNDLE
+STORE_ITEM_SPECIAL_TOWERPOCAHONTASBUNDLE_DESC|UNLOCK POCAHONTAS AND BOOST UP YOUR WILDS TEAM WITH THIS LIMITED TIME OFFER. INCLUDES POCAHONTAS TOKENS, GOLD, LOYALTY COINS, AND MORE.
+STORE_ITEM_SPECIAL_FLYNNRIDERBUNDLE_NAME|FLYNN RIDER BUNDLE
+STORE_ITEM_SPECIAL_FLYNNRIDERBUNDLE_DESC|AN EVASIVE THIEF WHO USES TRICKERY TO SUPPORT HIS ALLIES AND RAPUNZEL BY STEALING HELPFUL EFFECTS.
+STORE_ITEM_SPECIAL_MAXIMUSBUNDLE_NAME|MAXIMUS BUNDLE
+STORE_ITEM_SPECIAL_MAXIMUSBUNDLE_DESC|A STUBBORN, STALWART TANK WHO PERSISTENTLY LASTS THROUGH THE BATTLE, GAINS SECOND WINDS, AND COMMANDS HIS ALLIES.
+STORE_ITEM_SPECIAL_FLYNNRIDER&MAXIMUSBUNDLE_NAME|FLYNN RIDER & MAXIMUS BUNDLE
+STORE_ITEM_SPECIAL_FLYNNRIDER&MAXIMUSBUNDLE_DESC|CLIMB GREAT HEIGHTS WITH THIS WILD DUO. POWER UP YOUR TEAM WITH THEIR TANK AND SUPPORT ABILITIES.
+STORE_ITEM_SPECIAL_RAPUNZELBUNDLE_NAME|RAPUNZEL BUNDLE
+STORE_ITEM_SPECIAL_RAPUNZELBUNDLE_DESC|A PRINCESS LEADER WHO PACKS A FORMIDABLE PUNCH. RAPUNZEL IS A SUPPORTIVE ATTACKER WHO HEALS HER ALLIES AND INFLICTS CONTROLLING DEBUFFS.
+STORE_ITEM_SPECIAL_RAPUNZELSPECIALBUNDLE_NAME|RAPUNZEL SPECIAL BUNDLE
+STORE_ITEM_SPECIAL_RAPUNZELSPECIALBUNDLE_DESC|UNLOCK RAPUNZEL IN THIS EXCLUSIVE, ONE-TIME BUNDLE AND GET BONUS TOKENS FOR MAXIMUS AND FLYNN RIDER.
+STORE_ITEM_SPECIAL_TOWERENERGYBUNDLE_NAME|TOWER ENERGY BUNDLE
+STORE_ITEM_SPECIAL_TOWERENERGYBUNDLE_DESC|GET AHEAD IN THE RAPUNZEL EVENT TOWER WITH THIS TOWER ENERGY BUNDLE. USE ENERGY TO AUTO-BATTLE AND GAIN MORE REWARDS. INCLUDES BONUS RAPUNZEL CHARACTER TOKEN.
+STORE_ITEM_SPECIAL_WILDSPACK_NAME|WILDS PACK
+STORE_ITEM_SPECIAL_WILDSPACK_DESC|Purchase this pack to receive Wilds Character Tokens.
+STORE_ITEM_SPECIAL_FLYNNRIDERPACK_NAME|FLYNN RIDER PACK
+STORE_ITEM_SPECIAL_FLYNNRIDERPACK_DESC|An evasive thief who uses trickery to support his allies and Rapunzel by stealing helpful effects.
+STORE_ITEM_SPECIAL_MAXIMUSPACK_NAME|MAXIMUS PACK
+STORE_ITEM_SPECIAL_MAXIMUSPACK_DESC|A stubborn, stalwart tank who persistently lasts through the battle, gains second winds, and commands his allies.
+STORE_ITEM_STICKER_RAPUNZELTOWER_NAME|RAPUNZEL TOWER
 STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
 STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
 STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
@@ -14986,6 +15124,10 @@ TOWER_RAPUNZEL_EVENT_MAP_3_NAME|RAPUNZEL TOWER TIER III
 TOWER_RAPUNZEL_EVENT_MAP_3_DESC|REQUIRES MAXIMUS & FLYNN RIDER
 TROPHY_RAPUNZEL_NAME|RAPUNZEL TROPHY
 TROPHY_RAPUNZEL_DESC|Awarded for completing the Rapunzel Event Tower.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TOWER_EXCHANGE_RAPUNZEL_NAME|RAPUNZEL TOWER EXCHANGE
+TOWER_EXCHANGE_RAPUNZELTOWER_I_DESC|COMPLETE RAPUNZEL TOWER TIER I
+TOWER_EXCHANGE_RAPUNZELTOWER_II_DESC|COMPLETE RAPUNZEL TOWER TIER II
+TOWER_EXCHANGE_RAPUNZELTOWER_III_DESC|COMPLETE RAPUNZEL TOWER TIER III
 TOWER_EVENT_MAP_LOCKED_ALERT|You must complete the previous tower
 TOWER_EVENT_REFRESH_CONFIRM|WARNING!<br><br>If you restart this tower you will reset progress for ALL towers in this event. First Time Rewards will NOT reset. Are you sure you want to continue?
 TOWER_EVENT_SIM_DISABLED_ALERT|You must complete this battle first to unlock auto-win
@@ -15280,6 +15422,7 @@ UNIT_PROMO_MAT_MERLIN|MERLIN TOKENS
 UNIT_PROMO_MAT_MOANA|MOANA TOKENS
 UNIT_PROMO_MAT_MONTEREY_JACK_AND_ZIPPER|MONTEREY JACK TOKENS
 UNIT_PROMO_MAT_MORDU|MOR'DU TOKENS
+UNIT_PROMO_MAT_MOTHER_GOTHEL|MOTHER GOTHEL TOKENS
 UNIT_PROMO_MAT_MR_INCREDIBLE|MR. INCREDIBLE TOKENS
 UNIT_PROMO_MAT_MULAN|MULAN TOKENS
 UNIT_PROMO_MAT_OLAF|OLAF TOKENS
@@ -15757,6 +15900,12 @@ MARKETING_PN_20201216_PASSHOLDER19START_TITLE|Season 19 Passholder is Live!
 MARKETING_PN_20201216_PASSHOLDER19START_BODY|Earn Duck character tokens and more!
 MARKETING_PN_20201216_PASSHOLDER19END_TITLE|Last call for Season 19 Passholder!
 MARKETING_PN_20201216_PASSHOLDER19END_BODY|Earn ALL unlocked Season 19 Passholder rewards immediately!
+MARKETING_PN_20210120_POLKADOTDAY_TITLE|Happy Polka Dot Day!
+MARKETING_PN_20210120_POLKADOTDAY_BODY|Log in now for your FREE Minnie Mouse tokens!!
+MARKETING_PN_20210120_RAPUNZELTOWERLIVE_TITLE|The Rapunzel Tower is LIVE!
+MARKETING_PN_20210120_RAPUNZELTOWERLIVE_BODY|Battle with Flynn Rider and Maximus to climb the Tower and unlock Rapunzel!
+MARKETING_PN_20210120_101DALMATIANS60TH_TITLE|Happy 60th Anniversay to 101 Dalmatians!
+MARKETING_PN_20210120_101DALMATIANS60TH_BODY|Log in now for your FREE Pongo Talisman!
 SO_ULTIMATE_A_SUBTITLE|POWER UP YOUR TEAM WITH A 10X ULTIMATE CHEST, 5X ULTIMATE CHEST, 1X ULTIMATE CHEST, ABILITY RUNES, GEMS, AND MORE ITEMS.
 SO_ULTIMATE_B_NAME|SUPER ULTIMATE 10X BUNDLE
 SO_ULTIMATE_B_SUBTITLE|TAKE ADVANTAGE OF THE SUPER 10X ULTIMATE BUNDLE WHICH CONTAINS THREE 10X ULTIMATE CHESTS, GEAR, ABILITY RUNES, GEMS, GOLD, AND MORE ITEMS.
@@ -16242,6 +16391,8 @@ UNIT_PROMO_MAT_BELLE|BELLE TOKENS
 BELLE_OUTFIT_UNIT_NAME|BALLGOWN BELLE
 UNIT_PROMO_MAT_MAURICE|MAURICE TOKENS
 UNIT_PROMO_MAT_MRS_POTTS|MRS. POTTS TOKENS
+UNIT_PROMO_MAT_FLYNN_RIDER|FLYNN RIDER TOKENS
+UNIT_PROMO_MAT_RAPUNZEL|RAPUNZEL TOKENS
 UNIT_PROMO_MAT_THE_BEAST|THE BEAST TOKENS
 OUTFIT_BELLE_BALLGOWN_NAME|BALLGOWN BELLE OUTFIT TOKENS
 OUTFIT_BELLE_BALLGOWN_DESC|Collect 100 to unlock the 'Ballgown Belle' outfit for Belle.
