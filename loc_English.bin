@@ -754,7 +754,7 @@ BATTLE_EFFECT_TRITONS_BOON_DESC|Affected character has increased Offense and inf
 BATTLE_EFFECT_TUTORIALPROTECTION|TRAINING PROTECTION
 BATTLE_EFFECT_UNKILLABLE|UNDEFEATABLE
 BATTLE_EFFECT_UNKILLABLE_DESC|Affected character's Health cannot be lower than 1.
-BATTLE_END_REASON_ALLY_DIED|YOU FAILED TO PROTECT JACK SKELLINGTON
+BATTLE_END_REASON_ALLY_DIED|DEFEAT MOTHER GOTHEL WITHOUT DEFEATING RAPUNZEL! <br><br>DO NOT DEFEAT RAPUNZEL!
 BATTLE_END_REASON_FORFEIT|The battle has ended due to forfeit
 BATTLE_END_REASON_TURN_LIMIT_REACHED|Turn Limit Reached
 BATTLE_EVENT_ABILITY_MISS|MISS!
@@ -4313,6 +4313,16 @@ INBOX_EVENT_202101_POLKADOTDAY_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Po
 INBOX_EVENT_202101_101DALMATIANS_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>101 Dalmatians 60th Anniversary</color> with this FREE <color=#54C5FF>Pongo Talisman</color>! Don't miss out on the Anniversary Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_PIXAR_SUBJECT|Pixar 35th Anniversary Gift
 INBOX_EVENT_202102_PIXAR_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Pixar's 35th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202102_LUNARNEWYEAR_SUBJECT|Lunar New Year Celebration Gift
+INBOX_EVENT_202102_LUNARNEWYEAR_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Lunar New Year</color>  with this FREE <color=#54C5FF>Gift</color> ! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202102_VALENTINEFLASHSOON_SUBJECT|Coming Soon - Valentine Flash Gifts
+INBOX_EVENT_202102_VALENTINEFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Valentine Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>February 14 - 18</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202102_VALENTINEFLASHSTART_SUBJECT|Valentine Flash Gift
+INBOX_EVENT_202102_VALENTINEFLASHSTART_BODY|Summoner,<BR><BR>You've received a <color=#54C5FF>Valentine Flash Gift</color>!<BR><BR>Stay on the lookout for more Flash Gift drops at random times between <color=#54C5FF>February 14 - 18</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202102_DYNAMICDUO_SUBJECT|Dynamic Duos Event
+INBOX_EVENT_202102_DYNAMICDUO_BODY|Summoner,<BR><BR>Celebrate Valentine's Day and vote now with <color=#54C5FF>Dynamic Duo</color> deals available in the store <color=#54C5FF>February 14 - 17</color>!<BR><BR>Each purchase of a Dynamic Duo offer counts as a vote toward those characters. See who the community picks for top Dynamic Duo on <color=#54C5FF>February 19th</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<BR><BR>All players who vote by purchasing a Dynamic Duo deal will receive a free <color=#54C5FF>BONUS</color> gift on <color=#54C5FF>February 19th</color>!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202102_DYNAMICDUOBONUS_SUBJECT|Dynamic Duos Event - Bonus Gift!
+INBOX_EVENT_202102_DYNAMICDUOBONUS_BODY|Summoner,<BR><BR>You have received a free <color=#54C5FF>BONUS</color> gift for voting by purchasing a deal in the <color=#54C5FF>Dynamic Duos Event</color>!<BR><BR>Check out the official <color=#54C5FF>DSA Twitter Channel</color> for more information, and to stay up to date on future announcements and events.
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -5441,6 +5451,32 @@ HEROCAMPAIGN_NORMAL_M05_LOCKEDTEXT_KEY|Player Level 38
 HEROCAMPAIGN_NORMAL_M06_LOCKEDTEXT_KEY|Player Level 48
 HEROCAMPAIGN_NORMAL_M07_LOCKEDTEXT_KEY|Player Level 60
 HEROS_DUTY_SOLDIER_UNIT_NAME|Hero's Duty Soldier
+HERMES_UNIT_NAME|Hermes
+HERMES_ABILBASIC_NAME|Caduceus Clobber
+HERMES_ABILSPECIALA_NAME|Hit It Ladies!
+HERMES_ABILSPECIALB_NAME|Gone, Babe
+HERMES_ABILPASSIVEA_NAME|Hot Stuff, Coming Through
+HERMES_BASIC_DESC_01|Deal up <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><Br>If this character has Haste, perform a follow up attack: Deal up to <color=#FFC400>{2:N0}</color> damage.
+HERMES_BASIC_DESC_02|Deal up <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><Br>If this character has Haste, perform a follow up attack: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> chance to extend the duration of Haste by <color=#FEF8E4>{4:N0}</color> turn, guaranteed if it Crits.
+HERMES_BASIC_DESC_03|Deal up <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><Br>If this character has Haste, perform a follow up attack: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> chance to extend the duration of Haste by <color=#FEF8E4>{4:N0}</color> turn, guaranteed if it Crits.<br><br>Each hit increases this character's Critical Chance by <color=#FEF8E4>{5:P0}</color> until the end of this ability.
+HERMES_BASIC_ABILPREVIEWUPGRADE_01|The follow-up has a <color=#FEF8E4>{0:P0}</color> chance to extend the duration of Haste by <color=#FEF8E4>{1:N0}</color> turn, guaranteed if it Crits.
+HERMES_BASIC_ABILPREVIEWUPGRADE_02|Each hit increases this character's Critical Chance by <color=#FEF8E4>{0:P0}</color> until the end of this ability.
+HERMES_SPECIALA_DESC_01|Grant this character Haste for <color=#FEF8E4>{0:N0}</color> turn.<br><br>If this character already has Haste, this character and adjacent teammates gain <color=#FEF8E4>{1:N0}</color> of the following for <color=#FEF8E4>{2:N0}</color> turn: Offense Up, Critical Chance Up, Critical Power Up, Tactics, Unstoppable.
+HERMES_SPECIALA_DESC_02|Grant this character Haste for <color=#FEF8E4>{0:N0}</color> turn.<br><br>If this character already has Haste, this character and adjacent teammates gain <color=#FEF8E4>{3:P0}</color> Speed Meter and <color=#FEF8E4>{1:N0}</color> of the following for <color=#FEF8E4>{2:N0}</color> turn: Offense Up, Critical Chance Up, Critical Power Up, Tactics, Unstoppable.
+HERMES_SPECIALA_ABILPREVIEWUPGRADE_01|If this character has Haste, grant <color=#FEF8E4>{0:P0}</color> Speed Meter to this character and adjacent teammates.
+HERMES_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Helpful Effect.
+HERMES_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target enemy. If this character has Haste, deal <color=#FFC400>{0:N0}</color> damage to adjacent opponents.<br><br>Extend <color=#FEF8E4>{1:N0}</color> Helpful Effect, excluding Taunt, on a random adjacent teammate.
+HERMES_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target enemy. If this character has Haste, deal <color=#FFC400>{0:N0}</color> damage to adjacent opponents.<br><br>Extend <color=#FEF8E4>{1:N0}</color> Helpful Effect, excluding Taunt, by <color=#FEF8E4>{2:N0}</color> on a random adjacent teammate. If this character has Haste, extend <color=#FEF8E4>{1:N0}</color> Helpful Effect, excluding Taunt, on each adjacent teammate instead.
+HERMES_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target enemy. If this character has Haste, deal <color=#FFC400>{0:N0}</color> damage to adjacent opponents.<br><br>Extend <color=#FEF8E4>{1:N0}</color> Helpful Effects, excluding Taunt, by <color=#FEF8E4>{2:N0}</color> on a random adjacent teammate. If this character has Haste, extend <color=#FEF8E4>{1:N0}</color> Helpful Effects, excluding Taunt, on each adjacent teammate instead.
+HERMES_SPECIALB_ABILPREVIEWUPGRADE_01|If this character has Haste, extend <color=#FEF8E4>{0:N0}</color> Helpful Effect on each adjacent teammate instead.
+HERMES_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Help Effect extended.
+HERMES_PASSIVEA_DESC_01|On turn end, if Hermes has Haste and at least one teammate do the following:<br><br>Grant Haste for <color=#FEF8E4>{0:N0}</color> turn to a random teammate.
+HERMES_PASSIVEA_DESC_02|On turn end, if Hermes has Haste and at least one teammate do the following:<br><br>Grant Haste for <color=#FEF8E4>{0:N0}</color> turn to a random teammate.<br><br>Grant this character <color=#FEF8E4>{1:P0}</color> Speed Meter.
+HERMES_PASSIVEA_DESC_03|On turn end, if Hermes has Haste and at least one teammate do the following:<br><br>Grant Haste for <color=#FEF8E4>{0:N0}</color> turn to a random teammate. If teammate is Mythical, grant them <color=#FEF8E4>{2:P0}</color> Speed Meter for each Helpful Effect on them, up to a max of <color=#FEF8E4>{3:N0}</color>.<br><br>Grant this character <color=#FEF8E4>{1:P0}</color> Speed Meter.
+HERMES_PASSIVEA_ABILPREVIEWUPGRADE_01|Grant this character <color=#FEF8E4>{0:P0}</color> Speed Meter.
+HERMES_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed Meter gained.
+HERMES_PASSIVEA_ABILPREVIEWUPGRADE_03|If teammate is Mythical, grant them <color=#FEF8E4>{0:P0}</color> Speed Meter for each Helpful Effect on them, up to a max of <color=#FEF8E4>{1:N0}</color>.
+HERMES_PASSIVEA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Speed Meter gained and <color=#FEF8E4>+{1:P0}</color> Speed Meter granted to Mythical teammates.
 HIRO_HAMADA_ABILBASIC_NAME|MegaSmash
 HIRO_HAMADA_ABILLEADER_NAME|Use those big brains!
 HIRO_HAMADA_ABILPROC_BASE_DESC|Deals damage and applies <color=#FEF8E4>Airborne</color> to all opponents in a line.
@@ -7660,17 +7696,19 @@ MOTHERGOTHEL_SPECIALB_NAME|Mother Knows Best
 MOTHERGOTHEL_PASSIVEA_NAME|Sinister Schemes
 MOTHERGOTHEL_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to Flip <color=#FEF8E4>{2:N0}</color> Helpful effect.
 MOTHERGOTHEL_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Flip <color=#FEF8E4>{2:N0}</color> Helpful effect.
-MOTHERGOTHEL_SPECIALA_DESC_01|If this character is not affected by Stealth, do the following:<br><br>Gain Stealth for <color=#FEF8E4>{0:N0}</color> turns. Gain <color=#FEF8E4>{1:N0}</color> Evasion. <color=#FEF8E4>{2:P0}</color> chance to gain Haste for <color=#FEF8E4>{3:N0}</color> turns.<br><br>If this character is affected by Stealth, do the following:<br><br>On turn start, this ability gains full Magic. On ability use, Lose Stealth. Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent, ignoring <color=#FEF8E4>{5:P0}</color> Defense. <color=#FEF8E4>{6:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{7:N0}</color> turns.
-MOTHERGOTHEL_SPECIALA_DESC_02|If this character is not affected by Stealth, do the following:<br><br>Gain Stealth for <color=#FEF8E4>{0:N0}</color> turns. Gain <color=#FEF8E4>{1:N0}</color> Evasion. Gain Haste for <color=#FEF8E4>{3:N0}</color> turns.<br><br>If this character is affected by Stealth, do the following:<br><br>On turn start, this ability gains full Magic. On ability use, Lose Stealth. Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent, ignoring <color=#FEF8E4>{5:P0}</color> Defense. Inflict Defense Down for <color=#FEF8E4>{7:N0}</color> turns.
-MOTHERGOTHEL_SPECIALB_DESC_01|Steal <color=#FEF8E4>100%</color> of target opponent's Speed Meter and give to teammate with the least Speed Meter. Target immediately attacks the opponent with the lowest Health, ignoring Stealth. This attack does <color=#FEF8E4>{0:P0}</color> bonus damage.<br><br>If target opponent is Rapunzel, inflict Charm for <color=#FEF8E4>{1:N0}</color> turn.
-MOTHERGOTHEL_SPECIALB_DESC_02|Steal <color=#FEF8E4>100%</color> of target opponent's Speed Meter and give to teammate with the least Speed Meter. Target immediately attacks the opponent with the lowest Health, ignoring Stealth. This attack does <color=#FEF8E4>{0:P0}</color> bonus damage.<br><br>Gain a copy of up to <color=#FEF8E4>{2:N0}</color> Helpful effects that are on the target, then Flip those effects on the target. If target has no Helpful effects, inflict Slow for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If target opponent is Rapunzel, inflict Charm for <color=#FEF8E4>{1:N0}</color> turn.
-MOTHERGOTHEL_PASSIVEA_DESC_01|When an opponent gains a Helpful effect, <color=#FEF8E4>{0:P0}</color> chance to do the following:<br><br>Drain up to <color=#FEF8E4>{1:P0}</color> of this character's max Health from opponent. <color=#FEF8E4>{2:P0}</color> chance to gain Drain Life for <color=#FEF8E4>{3:N0}</color> turn.
-MOTHERGOTHEL_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to Flip a Helpful effect.
-MOTHERGOTHEL_BASIC_ABILPREVIEWUPGRADE_02|Guaranteed to Flip a Helpful effect.
+MOTHERGOTHEL_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Flip <color=#FEF8E4>{2:N0}</color> Helpful effect. <color=#FEF8E4>{3:P0}</color> chance per Villain teammate to Flip an additional Helpful effect.
+MOTHERGOTHEL_SPECIALA_DESC_01|If this character is not affected by Stealth, do the following:<br><br>Gain Stealth for <color=#FEF8E4>{0:N0}</color> turns. Gain <color=#FEF8E4>{1:N0}</color> Evasion. <color=#FEF8E4>{2:P0}</color> chance to gain Haste for <color=#FEF8E4>{3:N0}</color> turns.<br><br>If this character is affected by Stealth, do the following:<br><br>On turn start, this ability gains full Magic. On ability use, Lose Stealth. Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent, ignoring <color=#FEF8E4>{5:P0}</color> Defense. <color=#FEF8E4>{6:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{7:N0}</color> turns. Call the Villain teammate with the highest current Offense to assist.
+MOTHERGOTHEL_SPECIALA_DESC_02|If this character is not affected by Stealth, do the following:<br><br>Gain Stealth for <color=#FEF8E4>{0:N0}</color> turns. Gain <color=#FEF8E4>{1:N0}</color> Evasion. Gain Haste for <color=#FEF8E4>{3:N0}</color> turns.<br><br>If this character is affected by Stealth, do the following:<br><br>On turn start, this ability gains full Magic. On ability use, Lose Stealth. Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent, ignoring <color=#FEF8E4>{5:P0}</color> Defense. Inflict Defense Down for <color=#FEF8E4>{7:N0}</color> turns. Call the Villain teammate with the highest current Offense to assist.
+MOTHERGOTHEL_SPECIALB_DESC_01|Steal <color=#FEF8E4>100%</color> of target opponent's Speed Meter and give it to the teammate with the least Speed Meter. Target immediately attacks the opponent with the lowest Health, ignoring Stealth. This attack does <color=#FEF8E4>{0:P0}</color> bonus damage.<br><br>If target opponent is Rapunzel, inflict Charm for <color=#FEF8E4>{1:N0}</color> turn.
+MOTHERGOTHEL_SPECIALB_DESC_02|Steal <color=#FEF8E4>100%</color> of target opponent's Speed Meter and give it to the teammate with the least Speed Meter. Target immediately attacks the opponent with the lowest Health, ignoring Stealth. This attack does <color=#FEF8E4>{0:P0}</color> bonus damage.<br><br>Gain a copy of up to <color=#FEF8E4>{2:N0}</color> Helpful effects that are on the target, excluding Taunt, then Flip those effects on the target. If target has no Helpful effects, inflict Slow for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If target opponent is Rapunzel, inflict Charm for <color=#FEF8E4>{1:N0}</color> turn.
+MOTHERGOTHEL_PASSIVEA_DESC_01|When Mother Gothel uses an Evasion effect she gains <color=#FEF8E4>{4:P0}</color> Speed Meter.<br><br>When an opponent gains a Helpful effect, <color=#FEF8E4>{0:P0}</color> chance to do the following:<br><br>Drain up to <color=#FEF8E4>{1:P0}</color> of this character's max Health from opponent. <color=#FEF8E4>{2:P0}</color> chance to gain Drain Life for <color=#FEF8E4>{3:N0}</color> turn. If opponent is a 'Princess' character this ability refills its Magic after being used.
+MOTHERGOTHEL_BASIC_ABILPREVIEWUPGRADE_01|Guaranteed to Flip a Helpful effect.
+MOTHERGOTHEL_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance per Villain teammate to Flip an additional Helpful effect.
+MOTHERGOTHEL_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance per Villain teammate to Flip an additional Helpful effect.
 MOTHERGOTHEL_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to gain Haste.
 MOTHERGOTHEL_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense down.
 MOTHERGOTHEL_SPECIALA_ABILPREVIEWUPGRADE_03|Guaranteed to gain Haste and inflict Defense Down.
-MOTHERGOTHEL_SPECIALB_ABILPREVIEWUPGRADE_01|Gain a copy of up to <color=#FEF8E4>{0:N0}</color> Helpful effects that are on the target, then Flip those effects on the target. If target has no Helpful effects, inflict Slow for <color=#FEF8E4>{1:N0}</color> turn.
+MOTHERGOTHEL_SPECIALB_ABILPREVIEWUPGRADE_01|Gain a copy of up to <color=#FEF8E4>{0:N0}</color> Helpful effects that are on the target, excluding Taunt, then Flip those effects on the target. If target has no Helpful effects, inflict Slow for <color=#FEF8E4>{1:N0}</color> turn.
 MOTHERGOTHEL_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Helpful effect Copied and Flipped.
 MOTHERGOTHEL_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to activate.
 MOTHERGOTHEL_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain Drain Life.
@@ -8012,7 +8050,7 @@ PASSHOLDER_PLATINUM_ITEM_NAME|PASSHOLDER PLATINUM
 PASSHOLDER_PLATINUM_NAME|PASSHOLDER PLATINUM
 PASSHOLDER_PLATINUM_REWARDS|<size=85%>PASSHOLDER PLATINUM REWARDS
 PASSHOLDER_PLATINUM_UPGRADE_BACK|UPGRADE TO PASSHOLDER <color=#54C5FF>PLATINUM</color> TO UNLOCK MORE SEASON REWARDS.
-PASSHOLDER_PLATINUM_UPGRADE_DESC|UPGRADE TO PASSHOLDER <color=#54C5FF>PLATINUM</color> TO RECEIVE <color=#54C5FF>PLATINUM</color> REWARDS IN ADDITION TO ALL PASSHOLDER <color=#FFBC08>GOLD</color> QUESTS AND REWARDS.<br><br>EARN MORE VALUABLE REWARDS INCLUDING:<BR><BR>  * GAMMA ABILITY RUNES<BR>  * TIER 5 GEAR<br>  * TIER 6 GEAR<br>  * AND LOTS MORE!<br><br>UPGRADE TO PASSHOLDER <color=#54C5FF>PLATINUM</color> FOR THE BEST PASSHOLDER EXPERIENCE!
+PASSHOLDER_PLATINUM_UPGRADE_DESC|UPGRADE TO PASSHOLDER <color=#54C5FF>PLATINUM</color> TO RECEIVE <color=#54C5FF>PLATINUM</color> REWARDS IN ADDITION TO ALL PASSHOLDER <color=#FFBC08>GOLD</color> QUESTS AND REWARDS.<br><br>EARN MORE VALUABLE REWARDS INCLUDING:<BR><BR>  * ABILITY RUNES<BR>  * TIER 6 GEAR<br>  * TIER 7 GEAR<br>  * AND LOTS MORE!<br><br>UPGRADE TO PASSHOLDER <color=#54C5FF>PLATINUM</color> FOR THE BEST PASSHOLDER EXPERIENCE!
 PASSHOLDER_PLATINUM_UPGRADE_NAME|PASSHOLDER PLATINUM UPGRADE
 PASSHOLDER_ROBIN_HOOD_SEASON_DESCRIPTION|COMPLETE LIMITED-TIME EXCLUSIVE QUESTS TO EARN ROBIN HOOD TOKENS AND OTHER RARE REWARDS
 PASSHOLDER_SEASON_201905_BACK_DESC|PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE<br><br>    * 10 ALADDIN TOKENS<br>    * 10 PRINCE ALI OUTFIT TOKENS<br>    * GENIE'S LAMP TALISMAN<br>    * 60 ALPHA ABILITY RUNES<br>    * ACCESS TO ALL PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS UNLOCK EVERY WEEK AND ALLOW PLAYERS TO EARN ADDITIONAL CHARACTER TOKENS, GOLD COINS AND MORE.
@@ -10272,6 +10310,36 @@ PEANUTPUMMEL_SPELL_DESC_BASE|Summons Dumbo who soars into action and shoots pean
 PEANUTPUMMEL_SPELL_NAME|PEANUT PUMMEL
 PEGACORN_ABILPASSIVEA_NAME| 
 PEGACORN_UNIT_NAME|Unicorn
+PEGASUS_UNIT_NAME|PEGASUS
+PEGASUS_BASIC_NAME|Flurry of Hooves
+PEGASUS_SPECIALA_NAME|Acrobatic Advance
+PEGASUS_PASSIVEA_NAME|A Magnificent Horse...
+PEGASUS_PASSIVEB_NAME|...with the Brain of a Bird
+PEGASUS_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.
+PEGASUS_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. Each hit has a chance to do the following:<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Critical Chance Down for <color=#FEF8E4>{3:N0}</color> turns.
+PEGASUS_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. Each hit has a chance to do the following:<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Critical Chance Down for <color=#FEF8E4>{3:N0}</color> turns.<br><br><color=#FEF8E4>{4:P0}</color> chance to purge a Helpful Effect, prioritizing Critical Chance Up and Guaranteed Crit.
+PEGASUS_BASIC_ABILPREVIEWUPGRADE_01|Each hit has a <color=#FEF8E4>{0:P0}</color> chance to inflict Critical Chance Down for <color=#FEF8E4>{1:N0}</color> turns.
+PEGASUS_BASIC_ABILPREVIEWUPGRADE_02|Each hit has a <color=#FEF8E4>{0:P0}</color> chance to purge a Helpful Effect, prioritizing Critical Chance Up and Guaranteed Crit.
+PEGASUS_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance for on hit effects.
+PEGASUS_SPECIALA_DESC_01|Inflict or Extend Blind for <color=#FEF8E4>{0:N0}</color> turn on all opponents.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents.
+PEGASUS_SPECIALA_DESC_02|Inflict or Extend Blind for <color=#FEF8E4>{0:N0}</color> turn on all opponents. <color=#FEF8E4>{2:P0}</color> chance per 'Hercules' teammate to inflict Offense Down for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents.
+PEGASUS_SPECIALA_DESC_03|Inflict or Extend Blind for <color=#FEF8E4>{0:N0}</color> turn on all opponents. <color=#FEF8E4>{2:P0}</color> chance per 'Hercules' teammate to inflict Offense Down for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents. Opponents who resist Blind or Offense Down are dealt up to <color=#FEF8E4>{4:P0}</color> bonus damage.
+PEGASUS_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance per 'Hercules' teammate to inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turn.
+PEGASUS_SPECIALA_ABILPREVIEWUPGRADE_02|Opponents who resist Blind or Offense Down take bonus damage.
+PEGASUS_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> damage and <color=#FEF8E4>+{1:P0}</color> bonus damage.
+PEGASUS_PASSIVEA_DESC_01|When a teammate would lose <color=#FEF8E4>{0:P0}</color> or more of their current Health at once, <color=#FEF8E4>{1:P0}</color> chance to do the following:<br><br>This character takes <color=#FEF8E4>{2:P0}</color> of the damage.
+PEGASUS_PASSIVEA_DESC_02|When a teammate would lose <color=#FEF8E4>{0:P0}</color> or more of their current Health at once, <color=#FEF8E4>{1:P0}</color> chance to do the following:<br><br>This character takes <color=#FEF8E4>{2:P0}</color> of the damage.<br><br>If teammate is Hercules, this character and Hercules gain Defense Up for <color=#FEF8E4>{4:N0}</color> turns.
+PEGASUS_PASSIVEA_DESC_03|When a teammate would lose <color=#FEF8E4>{0:P0}</color> or more of their current Health at once, <color=#FEF8E4>{1:P0}</color> chance to do the following:<br><br>This character takes <color=#FEF8E4>{2:P0}</color> of the damage. Restore <color=#5DFF89>{5:N0}</color> Health to Pegasus and the teammate he took damage for.<br><br>If teammate is Hercules, this character and Hercules gain Defense Up for <color=#FEF8E4>{4:N0}</color> turns.
+PEGASUS_PASSIVEA_ABILPREVIEWUPGRADE_01|If teammate is Hercules, this character and Hercules gain Defense Up for <color=#FEF8E4>{0:N0}</color> turns.
+PEGASUS_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to intercept damage.
+PEGASUS_PASSIVEA_ABILPREVIEWUPGRADE_03|Restore Health to Pegasus and the teammate he took damage for.
+PEGASUS_PASSIVEB_DESC_01|When a teammate defeats an enemy, restore <color=#5DFF89>{0:N0}</color> Health to them. If that teammate was Hercules or Megara, restore an additional <color=#FEF8E4>{1:P0}</color> Health.
+PEGASUS_PASSIVEB_DESC_02|When a teammate defeats an enemy, restore <color=#5DFF89>{0:N0}</color> Health to them. If that teammate was Hercules or Megara, restore an additional <color=#FEF8E4>{1:P0}</color> Health.<br><br>Teammate gains <color=#FEF8E4>{2:N0}</color> Magic. If teammate is Hercules or Megara, Pegasus gains <color=#FEF8E4>{3:N0}</color> Magic.
+PEGASUS_PASSIVEB_DESC_03|When a teammate defeats an enemy, restore <color=#5DFF89>{0:N0}</color> Health to them. If that teammate was Hercules or Megara, restore an additional <color=#FEF8E4>{1:P0}</color> Health.<br><br>Teammate gains <color=#FEF8E4>{2:N0}</color> Magic. If teammate is Hercules or Megara, Pegasus gains <color=#FEF8E4>{3:N0}</color> Magic.<br><br>Grant or extend Offense Up and Critical Chance Up for <color=#FEF8E4>{4:N0}</color> turn. If teammate is Hercules, grant Defense Up for <color=#FEF8E4>{5:N0}</color> turn and <color=#FEF8E4>{6:N0}</color> Heroism. If teammate is Megara, grant Haste for <color=#FEF8E4>{7:N0}</color> turn and Undefeatable.
+PEGASUS_PASSIVEB_DESC_04|When a teammate defeats an enemy, restore <color=#5DFF89>{0:N0}</color> Health to them. If that teammate was Hercules or Megara, restore an additional <color=#FEF8E4>{1:P0}</color> Health.<br><br>Teammate gains <color=#FEF8E4>{2:N0}</color> Magic. If teammate is Hercules or Megara, Pegasus gains <color=#FEF8E4>{3:N0}</color> Magic.<br><br>Grant or extend Offense Up and Critical Chance Up for <color=#FEF8E4>{4:N0}</color> turns. If teammate is Hercules, grant Defense Up for <color=#FEF8E4>{5:N0}</color> turns and <color=#FEF8E4>{6:N0}</color> Heroism. If teammate is Megara, grant Haste for <color=#FEF8E4>{7:N0}</color> turns and Undefeatable.
+PEGASUS_PASSIVEB_ABILPREVIEWUPGRADE_01|Teammate gains <color=#FEF8E4>{0:N0}</color> Magic. If teammate is Hercules or Megara, Pegasus gains <color=#FEF8E4>{1:N0}</color> Magic
+PEGASUS_PASSIVEB_ABILPREVIEWUPGRADE_02|Grant or extend Offense Up and Critical Chance Up for <color=#FEF8E4>{3:N0}</color> turn. If teammate is Hercules, grant Defense Up for <color=#FEF8E4>{4:N0}</color> turn and <color=#FEF8E4>{5:N0}</color> Heroism. If teammate is Megara, grant Haste for <color=#FEF8E4>{4:N0}</color> turn and Undefeatable.
+PEGASUS_PASSIVEB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> duration for Offense Up, Critical Chance Up, Defense Up, and Haste.
 PETE_ABILBASIC_ABILPREVIEWUPGRADE_CHANCE_EMPOWERED_25PCT|Adds 25% chance to perform a Powerful Punch that increases damage dealt by 50%.
 PETE_ABILBASIC_ABILPREVIEWUPGRADE_CHANCE_INCREASE_EMPOWERED_25PCT|Increases chance to perform a Powerful Punch by 25%.
 PETE_ABILBASIC_DESC_BASE|Swings a brutish fist and pummels an opponent, dealing up to <color=#FFC400>{0:N0}</color> Physical damage.
@@ -10578,6 +10646,12 @@ PIN_PONGO_NAME|PONGO TALISMAN
 PIN_PONGO_DESC|Nothing's going to happen to our puppies.
 PIN_CRUELLADEVIL_NAME|CRUELLA DE VIL TALISMAN
 PIN_CRUELLADEVIL_DESC|Just name your price, dear.
+PIN_LISHANG_NAME|LI SHANG TALISMAN
+PIN_LISHANG_DESC|I don't need anyone causing trouble in my camp.
+PIN_LITTLEBROTHER_NAME|LITTLE BROTHER TALISMAN
+PIN_LITTLEBROTHER_DESC|Who's the smartest doggy in the world!
+PIN_BABE_NAME|BABE THE BLUE OX TALISMAN
+PIN_BABE_DESC|What's the idea, ya big blue ox?
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -12923,7 +12997,7 @@ STORE_ITEM_F2_KRISTOFF_NAME|KRISTOFF BUNDLE
 STORE_ITEM_F2_KRISTOFF_PACK_NAME|KRISTOFF PACK
 STORE_ITEM_F2_KRISTOFF_SUBTITLE|SUMMON STONE TROLLS TO AID IN BATTLE. GAIN TAUNT & DEFENSE UP. WHEN A TEAMMATE IS DEFEATED, GAIN DEFENSE UP AND RESTORE HEALTH.
 STORE_ITEM_F2_KRISTOFF_SVEN_NAME|KRISTOFF & SVEN BUNDLE
-STORE_ITEM_F2_KRISTOFF_SVEN_SUBTITLE|KRISTOFF'S REINDEER COMPANION SVEN WILL ASSIST KRISTOFF ON HIS BASIC ATTACK. SVEN GAINS HEALTH WITH CRUNCHY CARROT WHEN KRISTOFF IS A TEAMMMATE.
+STORE_ITEM_F2_KRISTOFF_SVEN_SUBTITLE|UNLOCK OR PROMOTE KRISTOFF AND SVEN. UTILIZE THEIR SYNERGY TOGETHER TO BRING DEFENSE AND OFFENSE TO YOUR WILDS TEAM.
 STORE_ITEM_F2_OLAF_NAME|OLAF BUNDLE
 STORE_ITEM_F2_OLAF_PACK_NAME|OLAF PACK
 STORE_ITEM_F2_OLAF_SUBTITLE|OLAF IS SO ADORABLE HE CAN CHARM ENEMIES TO FIGHT FOR HIM. WHEN DEFEATED, HAS A CHANCE TO REVIVE.
@@ -14161,6 +14235,19 @@ STORE_ITEM_SPECIAL_MAXIMUSPACK_NAME|MAXIMUS PACK
 STORE_ITEM_SPECIAL_MAXIMUSPACK_DESC|A stubborn, stalwart tank who persistently lasts through the battle, gains second winds, and commands his allies.
 STORE_ITEM_STICKER_RAPUNZELTOWER_NAME|RAPUNZEL TOWER
 STORE_ITEM_STICKER_PIXARANNIVERSARY_NAME|PIXAR ANNIVERSARY
+STORE_ITEM_SPECIAL_DYNAMICDUO_DAISYDONALD_NAME|DAISY & DONALD
+STORE_ITEM_SPECIAL_DYNAMICDUO_DAISYDONALD_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>DAISY AND DONALD DUCK</color> IN THE <color=#54C5FF>DYNAMIC DUOS EVENT</color>. INCLUDES DAISY AND DONALD DUCK TOKENS, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_DYNAMICDUO_ALADDINJASMINE_NAME|ALADDIN & JASMINE
+STORE_ITEM_SPECIAL_DYNAMICDUO_ALADDINJASMINE_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>ALADDIN & JASMINE</color> IN THE <color=#54C5FF>DYNAMIC DUOS EVENT</color>. INCLUDES ALADDIN AND JASMINE TOKENS, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_DYNAMICDUO_ANNAKRISTOFF_NAME|ANNA & KRISTOFF
+STORE_ITEM_SPECIAL_DYNAMICDUO_ANNAKRISTOFF_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>ANNA & KRISTOFF</color> IN THE <color=#54C5FF>DYNAMIC DUOS EVENT</color>. INCLUDES ANNA AND KRISTOFF TOKENS, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_DYNAMICDUO_ARIELPRINCEERIC_NAME|ARIEL & PRINCE ERIC
+STORE_ITEM_SPECIAL_DYNAMICDUO_ARIELPRINCEERIC_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>ARIEL AND PRINCE ERIC</color> IN THE <color=#54C5FF>DYNAMIC DUOS EVENT</color>. INCLUDES ARIEL AND PRINCE ERIC TOKENS, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_DYNAMICDUO_JACKSALLY_NAME|JACK SKELLINGTON & SALLY
+STORE_ITEM_SPECIAL_DYNAMICDUO_JACKSALLY_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>JACK SKELLINGTON & SALLY</color> IN THE <color=#54C5FF>DYNAMIC DUOS EVENT</color>. INCLUDES JACK SKELLINGTON & SALLY TOKENS, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_DYNAMICDUO_ELASTIGIRLMRINCREDIBLE_NAME|ELASTIGIRL & MR. INCREDIBLE
+STORE_ITEM_SPECIAL_DYNAMICDUO_ELASTIGIRLMRINCREDIBLE_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>ELASTIGIRL AND MR. INCREDIBLE</color> IN THE <color=#54C5FF>DYNAMIC DUOS EVENT</color>. INCLUDES ELASTIGIRL AND MR. INCREDIBLE TOKENS, GOLD, AND MORE.
+STORE_ITEM_STICKER_DYNAMICDUOS_NAME|DYNAMIC DUOS
 STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
 STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
 STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
@@ -16573,6 +16660,8 @@ PASSHOLDER_202101_2_SEASON_NAME|PASSHOLDER SEASON 19
 PASSHOLDER_202101_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 19 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * GIZMODUCK TOKENS<BR>  * DONALD DUCK TOKENS<br>  * DAISY DUCK TOKENS <br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202102_1_SEASON_NAME|PASSHOLDER SEASON 20
 PASSHOLDER_202102_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 20 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * BELLE TOKENS<BR>  * MAURICE TOKENS<br>  * MRS. POTTS TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202102_2_SEASON_NAME|PASSHOLDER SEASON 21
+PASSHOLDER_202102_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 21 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * RAPUNZEL TOKENS<BR>  * MOTHER GOTHEL TOKENS<br>  * MAXIMUS TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 EVENT_202012_S6_PT2_INBOX_EVENT_START_BODY|Summoner,<BR><BR><color=#54C5FF>THE SENSATIONAL SIX</color> Event: Part 2 has begun! Bring Daisy Duck, Goofy, Donald Duck, Pluto, and Minnie Mouse to battle and earn <color=#54C5FF>MICKEY MOUSE</color> Tokens!
 EVENT_202012_S6_PT2_INBOX_EVENT_START_SUBJECT|The Sensational Six Event: Part 2 is live!
 EVENT_202012_S6_PT2_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare your <color=#54C5FF>SENSATIONAL SIX</color> Team and get ready to battle and earn exclusive <color=#54C5FF>MICKEY MOUSE</color> Character Tokens in <color=#54C5FF>THE SENSATIONAL SIX</color> Event: Part 2!
@@ -16589,4 +16678,88 @@ EVENT_202012_NIGHTMARE_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5F
 EVENT_202012_NIGHTMARE_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Oogie Boogie Holiday Event!
 TROPHY_OOGIE_DESC|Awarded for completing the Oogie Boogie Holiday Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_OOGIE_NAME|OOGIE BOOGIE HOLIDAY TROPHY
+EVENT_202102_MOTHERGOTHEL_META_DESC|Gather your Wilds team and battle to earn Mother Gothel Tokens! <br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202102_MOTHERGOTHEL_META_NAME|MOTHER KNOWS BEST
+EVENT_202102_MOTHERGOTHEL_PORTAL_DESC|EARN MOTHER GOTHEL TOKENS!
+EVENT_202102_MOTHERGOTHEL_PORTAL_NAME|MOTHER KNOWS BEST
+EVENT_202102_MOTHERGOTHEL_AURA_NAME|MOTHER KNOWS BEST
+EVENT_202102_MOTHERGOTHEL_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Empowered Mother Gothel WITHOUT defeating Rapunzel! <br>•DO NOT defeat Rapunzel! <br><br>• Mother Gothel is Immune to Stun, Sleep, Charm, Silence, and Polymorph.<br>• Mother Gothel's "Cloak and Dagger" inflicts Vulnerable, calls Rapunzel to assist and gives her Guaranteed Crit. <br>• Mother Gothel's "Mother Knows Best" inflicts Helpful Immunity. <br>•Mother Gothel summons beguiled Royal Guards. <br><br>•Royal Guards' "There!" calls Rapunzel to assist, gives her Guaranteed Crit, and they gain Taunt.
+EVENT_202102_MOTHERGOTHEL_A_NAME|MOTHER KNOWS BEST
+EVENT_202102_MOTHERGOTHEL_A_DESC|REQUIRES WILDS CHARACTERS
+EVENT_202102_MOTHERGOTHEL_A_L0_NAME|MOTHER KNOWS BEST I
+EVENT_202102_MOTHERGOTHEL_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 15+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 1 Star</size>
+EVENT_202102_MOTHERGOTHEL_A_L1_NAME|MOTHER KNOWS BEST II
+EVENT_202102_MOTHERGOTHEL_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 2 Star</size>
+EVENT_202102_MOTHERGOTHEL_A_L2_NAME|MOTHER KNOWS BEST III
+EVENT_202102_MOTHERGOTHEL_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Star</size>
+EVENT_202102_MOTHERGOTHEL_A_L3_NAME|MOTHER KNOWS BEST IV
+EVENT_202102_MOTHERGOTHEL_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Star</size>
+EVENT_202102_MOTHERGOTHEL_A_L4_NAME|MOTHER KNOWS BEST V
+EVENT_202102_MOTHERGOTHEL_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 5 Star</size>
+EVENT_202102_MOTHERGOTHEL_A_L5_NAME|MOTHER KNOWS BEST VI
+EVENT_202102_MOTHERGOTHEL_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Star</size>
+EVENT_202102_MOTHERGOTHEL_A_L6_NAME|MOTHER KNOWS BEST VII
+EVENT_202102_MOTHERGOTHEL_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 7 Star</size>
+EVENT_202102_MOTHERGOTHEL_A_L7_NAME|MOTHER KNOWS BEST VIII
+EVENT_202102_MOTHERGOTHEL_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Star</size>
+EVENT_202102_MOTHERGOTHEL_A_L8_NAME|MOTHER KNOWS BEST IX
+EVENT_202102_MOTHERGOTHEL_A_L8_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Star</size>
+CURRENCY_MOTHERGOTHEL_NAME|SUNDROP COINS
+CURRENCY_MOTHERGOTHEL_DESC|Earn Sundrop Coins during the Mother Knows Best Event.<br><br>Sundrop Coins can be used to open the Sundrop Chest in the Store.
+EVENT_STICKER_HERCULES|HERCULES
+STORE_ITEM_HERC_HERMES_NAME|HERMES BUNDLE
+STORE_ITEM_HERC_HERMES_SUBTITLE|HERMES ALTERNATES ABILITY EFFECTS WHEN AFFECTED BY HASTE. GRANTS A VARIETY OF HELPFUL EFFECTS TO TEAMMATES.
+STORE_ITEM_HERC_HERMES_GEMS_NAME|HERMES PACK
+STORE_ITEM_HERC_PEGASUS_NAME|PEGASUS BUNDLE
+STORE_ITEM_HERC_PEGASUS_SUBTITLE|PEGASUS IS A PROTECTOR WHO DEBILITATES OPPONENTS WITH HARMFUL EFFECTS WHILE INTERCEPTING DAMAGE FOR HIS TEAMMATES.
+STORE_ITEM_HERC_PEGASUS_GEMS_NAME|PEGASUS PACK
+UNIT_PROMO_MAT_PEGASUS|PEGASUS TOKENS
+UNIT_PROMO_MAT_HERMES|HERMES TOKENS
+STORE_ITEM_MTB_MOTHER_GOTHEL_GEMS_NAME|MOTHER GOTHEL PACK
+STORE_ITEM_MTB_MOTHER_GOTHEL_A_SUBTITLE|STEAL SPEED METER AND FORCE OPPONENTS TO ATTACK EACH OTHER. STAY IN THE FIGHT BY USING STEALTH AND STEALING HEALTH.
+STORE_ITEM_MTB_MOTHER_GOTHEL_A_NAME|MOTHER GOTHEL BUNDLE
+STORE_ITEM_MTB_COINS_NAME|SUNDROP COINS
+STORE_ITEM_MTB_COINS_BACK|COLLECT SUNDROP COINS TO OPEN THE SUNDROP CHEST.
+STORE_ITEM_SUNDROP_CHEST_BACK|EARN SUNDROP COINS DURING THE MOTHER KNOWS BEST EVENT OR PURCHASE SUNDROP COIN PACKS TO OPEN THE SUNDROP CHEST.
+STORE_ITEM_SUNDROP_CHEST_NAME|SUNDROP CHEST
+EVENT_STICKER_MTB|MOTHER KNOWS BEST
+TROPHY_MOTHER_GOTHEL_NAME|MOTHER KNOWS BEST TROPHY
+TROPHY_MOTHER_GOTHEL_DESC|Awarded for completing the Mother Knows Best Event. Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+STORE_ITEM_POCAHONTAS_PACK|POCAHONTAS PACK
+STORE_ITEM_MORDU_PACK|MORDU PACK
+STORE_ITEM_MERIDA_PACK|MERIDA PACK
+STORE_ITEM_BALOO_PACK|BALOO PACK
+STORE_ITEM_SHERE_KHAN_PACK|SHERE KHAN PACK
+PIN_MOTHER_GOTHEL_NAME|MOTHER GOTHEL TALISMAN
+PIN_MOTHER_GOTHEL_DESC|The world is dark, and selfish, and cruel.
+STORE_ITEM_MTB_TEAM_NAME|WILDS TEAM BUNDLE
+STORE_ITEM_MTB_TEAM_SUBTITLE|POWER UP YOUR WILDS TEAM WITH ENOUGH TOKENS TO PROMOTE 5 CHARACTERS TO 4-STARS. INCLUDES BONUS SUNDROP COINS AND MORE ITEMS.
+STORE_ITEM_MTB_RAFIKI_SCAR_SIMBA_NAME|LION KING BUNDLE
+STORE_ITEM_MTB_RAFIKI_SCAR_SIMBA_SUBTITLE|UNLOCK OR PROMOTE THE LION KING TRIO TO BUILD UP YOUR WILDS TEAM. INCLUDES BONUS SUNDROP COINS AND MORE ITEMS.
+STORE_ITEM_MTB_BALOO_NAME|BALOO BUNDLE
+STORE_ITEM_MTB_BALOO_SUBTITLE|GRANT CRITICAL CHANCE UP TO TEAMMATES. CONVERT HARMFUL EFFECTS INTO CONTINUOUS HEALING. RESTORE HEALTH WITH QUICK BANANA SNACKS.
+STORE_ITEM_MTB_SHERE_KHAN_NAME|SHERE KHAN BUNDLE
+STORE_ITEM_MTB_SHERE_KHAN_SUBTITLE|GAIN SPEED METER WHEN DEFEATING AN OPPONENT WITH ELEMENT OF SURPRISE. SHERE KHAN'S SPECIAL ABILITIES HAVE BONUS EFFECTS WHEN HE HAS STEALTH.
+STORE_ITEM_MTB_POCAHONTAS_NAME|POCAHONTAS BUNDLE
+STORE_ITEM_MTB_POCAHONTAS_SUBTITLE|LEAD YOUR WILDS TEAM TO VICTORY. GRANT TEAMMATES LIFE DRAIN, OFFENSE UP, AND SPEED METER. CLEANSE HARMFUL EFFECTS AND COPY THEM TO AN OPPONENT.
+STORE_ITEM_MTB_HOPPER_NAME|HOPPER BUNDLE
+STORE_ITEM_MTB_HOPPER_SUBTITLE|STEAL HELPFUL EFFECTS. INFLICT SLOW AND BLIND. DAMAGE ALL OPPONENTS WITH A CHANCE TO PURGE ALL HELPFUL EFFECTS. LEADER ABILITY INCREASES WILDS TENACITY.
+STORE_ITEM_MTB_MERIDA_MORDU_NAME|BRAVE BUNDLE
+STORE_ITEM_MTB_MERIDA_MORDU_SUBTITLE|UNLOCK OR PROMOTE MERIDA AND MOR'DU TO GIVE YOUR WILDS TEAM SOME OFFENSIVE POWER. INCLUDES SEVERAL RARE TALISMANS, BONUS SUNDROP COINS, AND MORE ITEMS.
+EVENT_202102_MOTHER_GOTHEL_INBOX_EVENT_START_BODY|Summoner,<BR><BR>The Mother Knows Best Event has begun! Recruit and power up your team of <color=#54C5FF>WILDS</color> characters and battle to earn <color=#54C5FF>SUNDROP COINS</color> which can be used to open the <color=#54C5FF>SUNDROP CHEST</color>. The Sundrop Chest contains <color=#54C5FF>MOTHER GOTHEL</color> and <color=#54C5FF>WILDS</color> Character Tokens!
+EVENT_202102_MOTHER_GOTHEL_INBOX_EVENT_START_SUBJECT|Welcome to the Mother Knows Best Event!
+EVENT_202102_MOTHER_GOTHEL_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The Mother Knows Best Event is ending soon! This is your last chance to earn exclusive <color=#54C5FF>MOTHER GOTHEL</color> tokens, so power up your <color=#54C5FF>WILDS</color> team and battle now!
+EVENT_202102_MOTHER_GOTHEL_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Mother Knows Best Event!
+EVENT_202102_MOTHER_GOTHEL_INBOX_PREVIEW_SUBJECT|Coming Soon: The Mother Knows Best Event!
+EVENT_202102_MOTHER_GOTHEL_INBOX_PREVIEW_BODY|Summoner,<BR><BR>The Mother Knows Best Event is coming soon! Recruit and power up your team of <color=#54C5FF>WILDS</color> characters and battle to earn <color=#54C5FF>SUNDROP COINS</color> which can be used to open the <color=#54C5FF>SUNDROP CHEST</color>. The Sundrop Chest contains <color=#54C5FF>MOTHER GOTHEL</color> and <color=#54C5FF>WILDS</color> Character Tokens!<BR><BR>Collect these powerful <color=#54C5FF>WILDS</color> Characters and battle in Mother Knows Best to unlock <color=#54C5FF>MOTHER GOTHEL</color>.
+EVENT_202102_MOTHER_GOTHEL_INBOX_DAILY_BODY|Summoner,<BR><BR>The Mother Knows Best Event continues. Collect and power up <color=#54C5FF>WILDS</color> Characters to earn exclusive <color=#54C5FF>MOTHER GOTHEL</color> Tokens. Battle to earn rewards every day during the event! Be sure to use your <color=#54C5FF>FREE</color> attempts, and request another from your club.
+EVENT_202102_MOTHER_GOTHEL_INBOX_DAILY_SUBJECT|The Mother Knows Best Event continues!
+EVENT_202102_HERMES_PEGASUS_INBOX_BODY|Summoner,<BR><BR><color=#54C5FF>PEGASUS</color> and <color=#54C5FF>HERMES</color> have entered the Arena! Begin collecting their Tokens in preparation for the upcoming <color=#54C5FF>HERCULES EVENT</color>! As always, thank you for playing, and see you in the Arena!
+EVENT_202102_HERMES_PEGASUS_INBOX_SUBJECT|Pegasus and Hermes enter the Arena!
+EMOTE_RAPUNZEL_NAME|RAPUNZEL EMOTE
+EMOTE_RAPUNZEL_DESC|I'll be here.
+EMOTE_PASCAL_NAME|PASCAL EMOTE
+EMOTE_PASCAL_DESC|Hey, watch it!
+EMOTE_MAXIMUS_NAME|MAXIMUS EMOTE
+EMOTE_MAXIMUS_DESC|Thanks to Maximus, crime in the kingdom disappeared almost overnight.
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
