@@ -1071,6 +1071,9 @@ BONUS_LOOT_MULAN_DESC|Complete Campaign Battles to earn <color=#FEF8E4>EMPEROR'S
 BONUS_LOOT_MULAN_TITLE|EVENT - HEART OF A WARRIOR
 BONUS_LOOT_TSKEYS_DESC|Complete <color=#FEF8E4>ANY</color> Heroes or Villains Campaign Battle for a chance to earn <color=#FEF8E4>Toy Story Keys</color>.<br><br><color=#FEF8E4>Toy Story Keys</color> are needed to enter into <color=#FEF8E4>Let's Be Friends</color> in the <color=#FEF8E4>Toy Story Showdown</color> Event.
 BONUS_LOOT_TSKEYS_TITLE|EVENT BONUS - TOY STORY SHOWDOWN
+BOOST_RESOURCE_LABEL|+{0}%
+BOOST_GRIND_NAME|BONUS GRAND COINS
+BOOST_GRIND_10_DESC|PROVIDES A PERMANENT 10% BONUS TO GRAND COINS EARNED IN CAMPAIGN BATTLES
 BOPEEPEVENT_SUBTITLE|AND WOODY
 BOPEEP_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turns if this character is affected by Defense Up.
 BOPEEP_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.
@@ -1502,6 +1505,7 @@ CLUB_ADMIN_MSG_CLUB_WAR_PLANNING_STARTED|<color=#FFBC08>[CONQUEST]</color> Prepa
 CLUB_ADMIN_MSG_CLUB_WAR_REGISTRATION_STARTED|<color=#FFBC08>[CONQUEST]</color> Registration Phase has begun.
 CLUB_ADMIN_MSG_CLUB_WAR_REWARDS_STARTED|<color=#FFBC08>[CONQUEST]</color> Conquest has ended. Collect your rewards!
 CLUB_ADMIN_MSG_CLUB_WAR_TALLYING_STARTED|<color=#FFBC08>[CONQUEST]</color> Final scores are being tallied...
+CLUB_ADMIN_MSG_LEADERBOARD_CHALLENGE_TOP_RANK|<color=#FFBC08>[CLUB] {0} has finished Rank 1 in their challenge group!
 CLUB_ADMIN_MSG_DUNGEON_DOOR_FOUND|<color=#FFBC08>[DUNGEON]</color> {0} discovered the correct path at Gate {1}
 CLUB_ADMIN_MSG_DUNGEON_STARTED|<color=#FFBC08>[DUNGEON]</color> A new Dungeon has been Found!
 CLUB_ADMIN_MSG_MILESTONE_EPIC_CHEST|<color=#FFBC08>[CLUB] {0} has opened an EPIC chest!
@@ -4361,6 +4365,12 @@ INBOX_EVENT_202102_DYNAMICDUO_SUBJECT|Dynamic Duos Event
 INBOX_EVENT_202102_DYNAMICDUO_BODY|Summoner,<BR><BR>Celebrate Valentine's Day and vote now with <color=#54C5FF>Dynamic Duo</color> deals available in the store <color=#54C5FF>February 14 - 17</color>!<BR><BR>Each purchase of a Dynamic Duo offer counts as a vote toward those characters. See who the community picks for top Dynamic Duo on <color=#54C5FF>February 19th</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<BR><BR>All players who vote by purchasing a Dynamic Duo deal will receive a free <color=#54C5FF>BONUS</color> gift on <color=#54C5FF>February 19th</color>!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_DYNAMICDUOBONUS_SUBJECT|Dynamic Duos Event - Bonus Gift!
 INBOX_EVENT_202102_DYNAMICDUOBONUS_BODY|Summoner,<BR><BR>You have received a free <color=#54C5FF>BONUS</color> gift for voting by purchasing a deal in the <color=#54C5FF>Dynamic Duos Event</color>!<BR><BR>Check out the official <color=#54C5FF>DSA Twitter Channel</color> for more information, and to stay up to date on future announcements and events.
+INBOX_EVENT_202103_ZOOTOPIA_SUBJECT|Zootopia 5th Anniversary Gift
+INBOX_EVENT_202103_ZOOTOPIA_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Zootopia 5th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202103_RAYA_SUBJECT|Raya and the Last Dragon Release - Free Gift!
+INBOX_EVENT_202103_RAYA_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Raya and the Last Dragon Release</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202103_STITCHTROPHY_SUBJECT|Stitch Tower Trophy Unlocked!
+INBOX_EVENT_202103_STITCHTROPHY_BODY|Summoner,<BR><BR>Congratulations on completing <color=#54C5FF>Tower III</color> of the <color=#54C5FF>Stitch Tower</color>!<BR><BR>Attached you will find a unique <color=#54C5FF>Trophy</color>, awarded for completing the Stitch Tower. Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.<BR><BR>Thank you for playing, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -5318,6 +5328,8 @@ GLOBALMESSAGE_GAMEISSUES_SUBJECT|Recent Game Issue
 GLOBALMESSAGE_INPROGRESS_GAMEISSUES_BODY|We're actively investigating a game issue and apologize for the inconvenience.<br><br>We'll follow up once the issue has been resolved.<br><br>Thank you for your patience.
 GLOBALMESSAGE_INPROGRESS_GAMEISSUES_SUBJECT|Currently Experiencing a Game Issue
 GLOBAL_ADMIN_MSG_SERVER_MAINTENANCE|The server will be undergoing maintenance in {0} hour(s) and {1} minute(s)
+GLOBAL_ADMIN_MSG_CLUB_LEAEDERBOARD_CHALLENGE_TOP_RANK|{0} has finished Rank 1 in the club leaderboard contest!
+GLOBAL_ADMIN_MSG_GLOBAL_LEAEDERBOARD_CHALLENGE_TOP_RANK|{0} has finished Rank 1 in the global leaderboard contest!
 GOLDEN_CAVE_GUARDIAN_UNIT_NAME|GOLDEN CAVE GUARDIAN
 GOLDEN_HAMMER_SPELLPREVIEWUPGRADE_CHANNEL_DURATION_DECREASE_01S|Reduces the repair time by 1s.
 GOLDEN_HAMMER_SPELLPREVIEWUPGRADE_MAX_HEALTH_RESTORED_10PCT|Increases the percentage of maximum Health with which allies return to battle by 10%.
@@ -5861,7 +5873,7 @@ INSTANT_BATTLE_REWARDS_CONTINUE|DONE
 INSTANT_BATTLE_REWARDS_HEADER|AUTO WIN BATTLES
 INSTANT_BATTLE_REWARDS_REBATTLE|AGAIN (x1)
 INSTANT_BATTLE_REWARDS_REBATTLE_MULTI|AGAIN (x{0})
-INSTANT_BATTLE_TITLE|CHOOSE THE NUMBER OF BATTLES
+INSTANT_BATTLE_TITLE|AUTO WIN TO GAIN REWARDS!
 INSUFFICIENT_CURRENCY|Not enough currency!
 INSUFFICIENT_CURRENCY_CLUB|Not enough currency!<br><br>Compete in Club Activities to earn the missing Club Currency.
 INSUFFICIENT_CURRENCY_RAID|Not enough currency!<br><br>Complete Raids to earn the missing Raid Coins.
@@ -6471,6 +6483,47 @@ LANGUAGE_KOREAN|Korean
 LANGUAGE_PORTUGUESE_BRAZILIAN|Brazilian Portuguese
 LANGUAGE_RUSSIAN|Russian
 LANGUAGE_SPANISH|Spanish
+LC_CLAIM_REWARDS_NOW|THIS CONTEST HAS FINISHED
+LC_EARN_POINTS|EARN POINTS
+LC_ENDING_SOON|THIS CONTEST IS ENDING SOON!
+LC_ENDS|ENDS:
+LC_HIDDEN|THIS LEADERBOARD CONTEST IS ENDING SOON!
+LC_INFO|EARN POINTS TO UNLOCK MILESTONE REWARDS. EARN FINAL RANK REWARDS IN YOUR CONTEST GROUP. COMPETE ON THE CLUBS LEADERBOARD, AND AGAINST ALL OTHER PLAYERS ON THE GLOBAL LEADERBOARD.
+LC_INFO_COOLDOWN|<br><color=#FF536F>This Leaderboard Contest has finished.</color> Visit your Inbox to claim rank rewards!
+LC_INFO_TITLE|HOW TO EARN POINTS
+LC_INFO_TEXT|Each <i>Leaderboard Contest</i> has its own goals to meet, like <i>upgrading particular characters</i> or <i>playing particular game modes</i>.<br>You can see the specific goals for a Leaderboard Contest using the Event Menu.<br><br>As you earn points, you will earn Rewards you can <i>claim on the Leaderboard CONTEST Menu</i>. These rewards will be available for a short while after the CONTEST closes. You also earn Rewards at the end of the Leaderboard CONTEST based on your Ranking.
+LC_EVENT_MILESTONE_INFO|Earn milestone points!
+LC_MILESTONE_INFO_BODY|<color=#d29bfe>LEADERBOARD CONTEST MILESTONES:</color><br>Earn milestone rewards for playing Leaderboard Contests! Climb as high as you can before the Contest ends. Work together with your club and to earn even more rewards for everyone!<br><br>Leaderboard CONTEST Points and Milestones will reset after the end of the CONTEST, so be sure to collect as many rewards as you can.<br><br><color=#d29bfe>CLUB MILESTONE RULES:</color><br> • Leaderboard CONTEST Points collected by all club members will be added together for the club's total Points.<br> • Players may only earn points for ONE club per CONTEST. Club members that have switched into the club during the Contest will not have their Points counted towards the club total.<br> • Players will not be able to continue collecting club milestone rewards if they leave the club mid-contest.
+LC_MILESTONE_INFO_HEADER|LEADERBOARD CONTEST MILESTONES
+LC_RANK|{0}
+LC_RANK_INVALID|Rank -
+LC_RANK_GROUP|{0} Rank: {1}
+LC_RANK_REWARDS|RANK {0} REWARDS
+LC_RANK_UP|YOU HAVE RANKED UP
+LC_RANK_UP_HIDDEN_PROMPT|<color=#FEC105>EARN POINTS</color><color=#D4CAF2> BEFORE THE TIME ENDS TO EARN THE BEST REWARDS</color>
+LC_SCORE|{0}
+LC_SCORE_LABEL|POINTS
+LC_SEE_CLUB|VIEW CLUB
+LC_SEE_RANKS|RANKINGS
+LC_SEE_REWARDS|REWARDS
+LC_MILESTONES_MAXED|MAXED
+LC_N_POINTS|{0} Points
+LC_NEXT_REWARD|NEXT REWARD AT
+LC_NO_LEADERBOARD_ENTRIES|NOBODY HAS EARNED ANY POINTS YET!<br>EARN POINTS TO BE RANKED
+LC_NO_REWARDS|EARN POINTS TO QUALIFY FOR REWARDS
+LC_TAB_CLUB|CLUB
+LC_TAB_GLOBAL|GLOBAL
+LC_TAB_PERSONAL|CONTEST GROUP
+LC_TOP_PRIZE|TOP PRIZE
+LC_YOUR_SCORE|YOUR POINTS
+LC_CLUB_SCORE|CLUB POINTS
+LC_INBOXMESSAGE_SENDER|Disney Sorcerer's Arena
+LC_INBOXMESSAGE_PERSONAL_SUBJECT_KOTH_A|Leaderboard Contest: Group Rank Rewards Ready!
+LC_INBOXMESSAGE_CLUB_SUBJECT_KOTH_A|Leaderboard Contest: Club Rank Rewards Ready!
+LC_INBOXMESSAGE_GLOBAL_SUBJECT_KOTH_A|Leaderboard Contest: Global Rank Rewards Ready!
+LC_INBOXMESSAGE_PERSONAL_BODY_KOTH_A|Summoner,<br><br>The Sorcerer's Tournament Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LC_INBOXMESSAGE_CLUB_BODY_KOTH_A|Summoner,<br><br>The Sorcerer's Tournament Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LC_INBOXMESSAGE_GLOBAL_BODY_KOTH_A|Summoner,<br><br>The Sorcerer's Tournament Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LIFETIME_ADD_FRIENDS_10_DESC|Add 10 Friends
 LIFETIME_ADD_FRIENDS_25_DESC|Add 25 Friends
 LIFETIME_ADD_FRIENDS_2_DESC|Add 2 Friends
@@ -10818,6 +10871,16 @@ PIN_LITTLEBROTHER_NAME|LITTLE BROTHER TALISMAN
 PIN_LITTLEBROTHER_DESC|Who's the smartest doggy in the world!
 PIN_BABE_NAME|BABE THE BLUE OX TALISMAN
 PIN_BABE_DESC|What's the idea, ya big blue ox?
+PIN_FLASH_NAME|FLASH TALISMAN
+PIN_FLASH_DESC|If you need something done, he's on it.
+PIN_GAZELLE_NAME|GAZELLE TALISMAN
+PIN_GAZELLE_DESC|I'm Gazelle, and you are one hot dancer.
+PIN_PAWPSICLE_NAME|PAWPSICLE TALISMAN
+PIN_PAWPSICLE_DESC|Pawpsicles! Get your pawpsicles!
+PIN_BOUN_NAME|BOUN TALISMAN
+PIN_BOUN_DESC|How spicy would you like it? Hot, hotter, or Boun-goes-the-dynamite?
+PIN_SISU_NAME|SISU TALISMAN
+PIN_SISU_DESC|Who's your dragon!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -11304,6 +11367,7 @@ RAID_EARN_GEAR|EARN RARE GEAR AND LOOT
 RAID_ENDS_IN|RAID ENDS IN
 RAID_COOLDOWN_ENDS_IN|AVAILABLE IN
 RAID_ON_COOLDOWN|ON COOLDOWN
+RAID_ERR_GENERAL_RETRY|There was an error with the raid. Try again momentarily.
 RAID_ERR_NO_LONGER_AVAILABLE|This Raid is no longer active.
 RAID_ERR_ALREADY_STARTED|This Raid has already started.
 RAID_ERR_CLUB_COMPLETED|Congratulations! Your club has completed this Raid.
@@ -11398,6 +11462,9 @@ RAID_URSULA_RD_TK_02_TIER_HEROIC_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color>
 RAID_URSULA_RD_TK_03_SHARED_GRANTEDABILITY|<br>All characters received the following, temporary ability within the Battle:
 RAID_SUMMARY_INFO|Club raids are incredible challenges concocted by the Sorcerer which require a Club strategizes together to overcome the Sorcerer's creation. These monumental battles draw forth from some of the most infamous opponents ever known. Prepare your strategies, train your Characters, advance your Spells, draw upon Sorcerer Stones, and help your Club achieve victory to obtain some of the most powerful relics obtainable!
 RAID_RULES_INFO|<br>- May only be started by a Club Leader or Co-Leaders<br>- Requires Raid Tickets to Start<br>- Raid Tickets are earned throughout the game by Club Members<br>- Only Club Members present at a Raid's start may earn rewards<br>- Only Club Members who meet battle requirements may participate and receive rewards<br>- Club Raids have multiple difficulty Tiers<br>- Each difficulty Tier may have different settings.<br>- Health of most opponents persists for the entire Club
+LOGIN_CALENDAR_INFO_TITLE|DAILY REWARD LOGIN CALENDARS
+LOGIN_CALENDAR_INFO_BODY_1|Daily Reward Login Calendars are limited time reward calendars that may be awarded as a free gift or may be available for purchase. Purchasing a Login Calendar guarantees that you will receive all of the rewards by logging in for the designated amount of days, and does not require consecutive-day logins. <color=#54C5FF>YOU CANNOT MISS A REWARD</color>.<BR><BR>Unlike the Monthly Login Calendar where missing days means missing rewards, these Daily Reward Login Calendars will guarantee all rewards as long as you keep logging in to collect them. If you miss a login day, you will receive the next available day's reward the next time you login.
+LOGIN_CALENDAR_INFO_BODY_2|<br><br>Example:<br>- Purchase Login Calendar. Receive Day 1 rewards immediately.<br>- Login the following day. Receive Day 2 rewards.<br>- Miss a day.<br>- Login the following day. Receieve Day 3 rewards.
 RAID_MUST_COMPLETE_TIER_5|The ultimate challenge. Complete tier 5 to unlock
 RAID_REQUIREMENT_URSULA_TIER_1|Requires 20 Club Members
 RAID_REQUIREMENT_URSULA_TIER_2|Requires 25 Club Members
@@ -15404,6 +15471,8 @@ TOWER_EXCHANGE_RAPUNZEL_NAME|RAPUNZEL TOWER EXCHANGE
 TOWER_EXCHANGE_RAPUNZELTOWER_I_DESC|COMPLETE RAPUNZEL TOWER TIER I
 TOWER_EXCHANGE_RAPUNZELTOWER_II_DESC|COMPLETE RAPUNZEL TOWER TIER II
 TOWER_EXCHANGE_RAPUNZELTOWER_III_DESC|COMPLETE RAPUNZEL TOWER TIER III
+TROPHY_STITCH_NAME|STITCH TROPHY
+TROPHY_STITCH_DESC|Awarded for completing the Stitch Event Tower.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TOWER_EVENT_MAP_LOCKED_ALERT|You must complete the previous tower
 TOWER_EVENT_REFRESH_CONFIRM|WARNING!<br><br>If you restart this tower you will reset progress for ALL towers in this event. First Time Rewards will NOT reset. Are you sure you want to continue?
 TOWER_EVENT_SIM_DISABLED_ALERT|You must complete this battle first to unlock auto-win
@@ -16845,6 +16914,12 @@ EVENT_202012_NIGHTMARE_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5F
 EVENT_202012_NIGHTMARE_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Oogie Boogie Holiday Event!
 TROPHY_OOGIE_DESC|Awarded for completing the Oogie Boogie Holiday Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_OOGIE_NAME|OOGIE BOOGIE HOLIDAY TROPHY
+INSTANT_BATTLE_NUM_USE_LABEL|AUTO x{0}
+INSTANT_BATTLE_MAX_USE_LABEL|AUTO MAX
+INSTANT_BATTLE_ATTEMPTS_REMAINING|ATTEMPTS REMAINING: {0}
+INSTANT_BATTLE_SELECT_AMOUNT_PROMPT_1|SELECT AN
+INSTANT_BATTLE_SELECT_AMOUNT_PROMPT_2|AMOUNT TO SPEND
+INSTANT_BATTLE_NO_REFRESHES_LABEL|NO ATTEMPT REFRESHES REMAINING!
 EVENT_202102_MOTHERGOTHEL_META_DESC|Gather your Wilds team and battle to earn Mother Gothel Tokens! <br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202102_MOTHERGOTHEL_META_NAME|MOTHER KNOWS BEST
 EVENT_202102_MOTHERGOTHEL_PORTAL_DESC|EARN MOTHER GOTHEL TOKENS!
@@ -16923,6 +16998,15 @@ EVENT_202102_MOTHER_GOTHEL_INBOX_DAILY_BODY|Summoner,<BR><BR>The Mother Knows Be
 EVENT_202102_MOTHER_GOTHEL_INBOX_DAILY_SUBJECT|The Mother Knows Best Event continues!
 EVENT_202102_HERMES_PEGASUS_INBOX_BODY|Summoner,<BR><BR><color=#54C5FF>PEGASUS</color> and <color=#54C5FF>HERMES</color> have entered the Arena! Begin collecting their Tokens in preparation for the upcoming <color=#54C5FF>HERCULES EVENT</color>! As always, thank you for playing, and see you in the Arena!
 EVENT_202102_HERMES_PEGASUS_INBOX_SUBJECT|Pegasus and Hermes enter the Arena!
+LCA_KOTH_A_NAME|SORCERER'S TOURNAMENT LEADERBOARD CONTEST
+LCA_KOTH_A_DESC|Win battles in the Sorcerer's Tournament to earn points!
+LCA_KOTH_A_DETAILED_TITLE|Contest Rules
+LCA_KOTH_A_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Rank up by earning points in the Sorcerer's Tournament!<br>• Earn 10 points for every victory.<BR>• Earn 5 points for every loss.<BR>• Earn 1 point for every enemy Character defeated.<BR>• Earn 1 point for every surviving teammmate.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>• Compete with other players close to your level. At the end of the event players will receive a reward to their inbox based on their final ranking.<BR><BR><color=#54C5FF>CLUB LEADERBOARD</color><br>• Earn Milestone rewards for club participation. At the end of the event players will receive a reward to their inbox based on their final club ranking.<BR><BR><color=#54C5FF>GLOBAL LEADERBOARD</color><br>• Compete with all global players. At the end of the event players will receive a reward to their inbox based on their final ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Personal and Club Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>• If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.
+LCA_KOTH_A_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
+KOTH_A_MILESTONE_REWARD_POINT_NAME|SORCERER'S TOURNAMENT CONTEST POINTS
+KOTH_A_MILESTONE_REWARD_POINT_DESC|Earn Points by battling in the Sorcerer's Tournament.
+KOTH_A_MILESTONE_VIEW_NAME|CONTEST MILESTONES
+KOTH_A_MILESTONE_VIEW_DESC|Earn Contest Points to unlock milestone rewards.
 EMOTE_RAPUNZEL_NAME|RAPUNZEL EMOTE
 EMOTE_RAPUNZEL_DESC|I'll be here.
 EMOTE_PASCAL_NAME|PASCAL EMOTE
@@ -17004,4 +17088,21 @@ HERC_T7_BUNDLE_100_NAME|MYTHICAL SUPER BUNDLE
 HERC_T7_BUNDLE_100_SUBTITLE|CONTAINS A MASSIVE AMOUNT OF T7 MYTHICAL GEAR. POWER UP YOUR HERCULES TEAM TO TIER 8. INCLUDES GEMS, GOLD, T7 GEAR, AND MATERIALS TO CRAFT EVEN MORE.
 HERC_HADES_POTION_NAME|HADES SPELL BUNDLE
 HERC_HADES_POTION_SUBTITLE|COMBINE MORTAL POTION WITH HADES TO DOUBLE CONTINUOUS DAMAGE. FLIP MORE EFFECTS WITH PAIN AND PANIC, VILLAINS, AND MYTHICAL CHARACTERS AS TEAMMATES.
+SO_MYTHICAL_RAID_T7_20_NAME|MYTHICAL CRAFTING BUNDLE
+SO_MYTHICAL_RAID_T7_20_SUBTITLE|START CRAFTING T7 MYTHICAL GEAR PIECES TO TAKE YOUR MYTHICAL TEAM TO TIER 8.
+SO_MYTHICAL_RAID_T7_30_NAME|MYTHICAL T7 BUNDLE
+SO_MYTHICAL_RAID_T7_30_SUBTITLE|CRAFT POWERUL T7 GEAR FOR YOUR MYTHICAL TEAM WITH THIS LIMITED TIME BUNDLE. UPGRADE TO TIER 8 TO UNLOCK MORE ABILITY UPGRADES.
+SO_MYTHICAL_RAID_T7_50_NAME|MYTHICAL EXCLUSIVE BUNDLE
+SO_MYTHICAL_RAID_T7_50_SUBTITLE|GIVE YOUR MYTHICAL TEAM A POWERFUL BOOST WITH THIS T7 GEAR BUNDLE. INCLUDES AN EXCLUSIVE 4-STAT T7 GEAR PIECE AND BONUS MATERIALS.
+SO_T7_GEAR_MYTHICAL_BUNDLE_50_NAME|MYTHICAL POWER BUNDLE
+SO_T7_GEAR_MYTHICAL_BUNDLE_50_SUBTITLE|POWER UP YOUR MYTHICAL TEAM WITH THIS T7 GEAR BUNDLE. INCLUDES A READY-TO-EQUIP GEAR PIECE AND MATERIALS TO CRAFT EVEN MORE.
+LC_KOTH_A_INBOX_START_SUBJECT|The Sorcerer's Tournament Leaderboard Contest is live!
+LC_KOTH_A_INBOX_START_BODY|Summoner,<BR><BR>The Sorcerer's Tournament Leaderboard Contest has begun!<br><br>Battle in the Sorcerer's Tournament to earn points. Claim milestone rewards and increase your rank within your Contest Group and Global Rankings for even more rewards!
+LC_KOTH_A_INBOX_PREVIEW_SUBJECT|Coming Soon: Sorcerer's Tournament Leaderboard Contest!
+LC_KOTH_A_INBOX_PREVIEW_BODY|Summoner,<BR><BR>The Sorcerer's Tournament Leaderboard Contest is coming soon!<br><br>Battle in the Sorcerer's Tournament to earn points. Claim milestone rewards and increase your rank within your Contest Group and Global Rankings for even more rewards!<br><br>Compete with your Club against all other Clubs. All club members will receive the final club ranking reward!<br><br>Good luck, and see you in the Arena!
+LC_KOTH_A_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Sorcerer's Tournament Leaderboard Contest!
+LC_KOTH_A_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The Sorcerer's Tournament Leaderboard Contest is ending soon!<br><br>Continue to battle in the Sorcerer's Tournament to earn as many points as you can before the event ends!<br><br>Good luck, and see you in the Arena!
+CM_TUTORIAL_LEADERBOARDS_STEP_00|WELCOME TO <color=#54C5FF>LEADERBOARD CONTESTS</color>.<br><br>COMPETE TO EARN POINTS AND INCREASE YOUR RANK.
+CM_TUTORIAL_LEADERBOARDS_STEP_01|EACH CONTEST HAS ITS OWN SET OF RULES. TAP HERE FOR MORE INFO.
+INSTANT_BATTLE_NO_COST_PROMPT|SELECT A NUMBER OF ATTEMPTS TO USE
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
