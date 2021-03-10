@@ -4371,6 +4371,8 @@ INBOX_EVENT_202103_RAYA_SUBJECT|Raya and the Last Dragon Release - Free Gift!
 INBOX_EVENT_202103_RAYA_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Raya and the Last Dragon Release</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202103_STITCHTROPHY_SUBJECT|Stitch Tower Trophy Unlocked!
 INBOX_EVENT_202103_STITCHTROPHY_BODY|Summoner,<BR><BR>Congratulations on completing <color=#54C5FF>Tower III</color> of the <color=#54C5FF>Stitch Tower</color>!<BR><BR>Attached you will find a unique <color=#54C5FF>Trophy</color>, awarded for completing the Stitch Tower. Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.<BR><BR>Thank you for playing, and see you in the Arena!
+INBOX_EVENT_202103_STPATRICKS_SUBJECT|St. Patrick's Day - Free Gift
+INBOX_EVENT_202103_STPATRICKS_BODY|Summoner,<BR><BR>Celebrate <color=#25C845>St. Patrick's Day</color> and everything <color=#25C845>GREEN</color> with this FREE <color=#25C845>Talisman</color>!<BR><BR>Don't miss out on the <color=#25C845>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202009_PLUTO_OSWALD_INBOX_BODY|Summoner,<BR><BR>Celebrate Pluto and Oswald's Birthday with this FREE <color=#54C5FF>Oswald Talisman</color>! Don't miss out on the Birthday Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
@@ -6497,7 +6499,7 @@ LC_MILESTONE_INFO_BODY|<color=#d29bfe>LEADERBOARD CONTEST MILESTONES:</color><br
 LC_MILESTONE_INFO_HEADER|LEADERBOARD CONTEST MILESTONES
 LC_RANK|{0}
 LC_RANK_INVALID|Rank -
-LC_RANK_GROUP|{0} Rank: {1}
+LC_RANK_GROUP|{0} RANK: {1}
 LC_RANK_REWARDS|RANK {0} REWARDS
 LC_RANK_UP|YOU HAVE RANKED UP
 LC_RANK_UP_HIDDEN_PROMPT|<color=#FEC105>EARN POINTS</color><color=#D4CAF2> BEFORE THE TIME ENDS TO EARN THE BEST REWARDS</color>
@@ -10881,6 +10883,10 @@ PIN_BOUN_NAME|BOUN TALISMAN
 PIN_BOUN_DESC|How spicy would you like it? Hot, hotter, or Boun-goes-the-dynamite?
 PIN_SISU_NAME|SISU TALISMAN
 PIN_SISU_DESC|Who's your dragon!
+PIN_SPRINGSPRITE_NAME|SPRING SPRITE TALISMAN
+PIN_SPRINGSPRITE_DESC|A mythical story of life, death, and renewal.
+PIN_ELLIOT_NAME|ELLIOT TALISMAN
+PIN_ELLIOT_DESC|I didn't think I'd ever be happy until I met you.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -17001,7 +17007,7 @@ EVENT_202102_HERMES_PEGASUS_INBOX_SUBJECT|Pegasus and Hermes enter the Arena!
 LCA_KOTH_A_NAME|SORCERER'S TOURNAMENT LEADERBOARD CONTEST
 LCA_KOTH_A_DESC|Win battles in the Sorcerer's Tournament to earn points!
 LCA_KOTH_A_DETAILED_TITLE|Contest Rules
-LCA_KOTH_A_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Rank up by earning points in the Sorcerer's Tournament!<br>• Earn 10 points for every victory.<BR>• Earn 5 points for every loss.<BR>• Earn 1 point for every enemy Character defeated.<BR>• Earn 1 point for every surviving teammmate.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>• Compete with other players close to your level. At the end of the event players will receive a reward to their inbox based on their final ranking.<BR><BR><color=#54C5FF>CLUB LEADERBOARD</color><br>• Earn Milestone rewards for club participation. At the end of the event players will receive a reward to their inbox based on their final club ranking.<BR><BR><color=#54C5FF>GLOBAL LEADERBOARD</color><br>• Compete with all global players. At the end of the event players will receive a reward to their inbox based on their final ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Personal and Club Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>• If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.
+LCA_KOTH_A_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Rank up by earning points in the Sorcerer's Tournament!<br>• Earn 10 points for every victory.<BR>• Earn 5 points for every loss.<BR>• Earn 1 point for every enemy Character defeated.<BR>• Earn 1 point for every surviving teammmate.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>• Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking.<BR><BR><color=#54C5FF>CLUB LEADERBOARD</color><br>• Compete with your Club against all other Clubs. At the end of the event, all players who participated and earned points will receive a reward to their inbox based on their final club ranking. Only the top 100 Clubs will receive these rewards.<BR><BR><color=#54C5FF>GLOBAL LEADERBOARD</color><br>• Compete with all global players. At the end of the event players will receive a reward to their inbox based on their final ranking. Only the top 100 global players will receive these rewards.<BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Personal and Club Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>• If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.
 LCA_KOTH_A_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
 KOTH_A_MILESTONE_REWARD_POINT_NAME|SORCERER'S TOURNAMENT CONTEST POINTS
 KOTH_A_MILESTONE_REWARD_POINT_DESC|Earn Points by battling in the Sorcerer's Tournament.
