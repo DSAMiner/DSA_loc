@@ -2363,6 +2363,8 @@ DAILY_CHALLENGE_TRAINING_TIER_6_NAME|UPGRADE CHALLENGE VII
 DAILY_CHARACTER_EQUIP_1_DESC|Equip Enchanted Gear onto a Character
 DAILY_CHARACTER_EQUIP_1_NAME|POWER UP
 DAILY_CHARACTER_EQUIP_1_OPTIONAL_DESC|(Optional) Equip Enchanted Gear onto a Character
+DAILY_PVP_OPTIONAL_NAME|PVP BRAWLER
+DAILY_PVP_OPTIONAL_DESC|(Optional) Win PvP Battles
 DAILY_CHARACTER_EQUIP_DESC|Equip Enchanted Gear onto a Character
 DAILY_CHARACTER_EQUIP_NAME|YOUR FIRST ENCHANTED GEAR PIECE
 DAILY_CHARACTER_UNLOCK_FIRST_DESC|Unlock Your First Card
@@ -4433,6 +4435,12 @@ INBOX_EVENT_202103_ANNIVERSARYCELEBRATION_SUBJECT|Disney Sorcerer's Arena 1-Year
 INBOX_EVENT_202103_ANNIVERSARYCELEBRATION_BODY|Summoner,<BR><BR>Join the celebration of the <color=#54C5FF>Disney Sorcerer's Arena 1-Year Anniversary</color>  with this FREE <color=#54C5FF>Talisman</color>!<BR><BR>Stay tuned all week long for exciting events, and offers. Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202103_DSASWEEPSTAKES_SUBJECT|DSA Anniversary Sweepstakes Gift
 INBOX_EVENT_202103_DSASWEEPSTAKES_BODY|Summoner,<BR><BR>You've received a <color=#54C5FF>DSA Anniversary Sweepstakes</color> GIFT!<BR><BR>Check your email for more information on fulfilling your Pin and Poster winnings, and stay tuned for more exciting events and offers in the future.<BR><BR>Thank you for your participation, and see you in the Arena!
+INBOX_EVENT_202104_APRILFOOLS_SUBJECT|April Fools - Free Gift!
+INBOX_EVENT_202104_APRILFOOLS_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>April Fools</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the Celebration Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202104_SPRINGHOP_SUBJECT|Spring Hop Event
+INBOX_EVENT_202104_SPRINGHOP_BODY|Summoner,<BR><BR>HOP into SPRING and vote now with <color=#54C5FF>Bunny Bundles</color> available in the store <color=#54C5FF>April 04 - 10</color>!<BR><BR>Each purchase of a <color=#54C5FF>Bunny Bundle</color> counts as a vote toward that character. See who the community picks for the Bunny with the top HOP on <color=#54C5FF>April 12</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<BR><BR>All players who vote by purchasing a Bunny Bundle will receive a free <color=#54C5FF>BONUS</color> gift on <color=#54C5FF>April 12</color>!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202104_SPRINGHOPBONUS_SUBJECT|Spring Hop Event - Bonus Gift!
+INBOX_EVENT_202104_SPRINGHOPBONUS_BODY|Summoner,<BR><BR>You have received a free <color=#54C5FF>BONUS</color> gift for voting by purchasing a Bunny Bundle in the <color=#54C5FF>Spring Hop Event</color>!<BR><BR>Check out the official DSA Twitter Channel for more information, and to stay up to date on future announcements and events.
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -8195,8 +8203,9 @@ OUTFIT_SIMBA_CUB_SIMBA_DESC|Collect 100 to unlock the 'Lion Cub Simba' outfit fo
 OUTFIT_SIMBA_CUB_SIMBA_NAME|LION CUB SIMBA OUTFIT TOKENS
 OUTFIT_SKELLINGTON_SANTA_DESC|Collect 100 to unlock the 'Santa Jack' outfit for Jack Skellington.
 OUTFIT_SKELLINGTON_SANTA_NAME|SANTA JACK TOKENS
-OUTFIT_STITCH_HULA_DESC|Collect 100 to unlock the 'Stitch Hula' outfit for Stitch.
-OUTFIT_STITCH_HULA_NAME|STITCH HULA OUTFIT TOKENS
+OUTFIT_STITCH_HULA_DESC|Collect 100 to unlock the 'Hula Stitch' outfit for Stitch.
+OUTFIT_STITCH_HULA_NAME|HULA STITCH OUTFIT TOKENS
+OUTFIT_STITCH_HULA_UNIT_NAME|HULA STITCH
 OUTFIT_YZMA_LABCOAT_DESC|Collect 100 to unlock the 'Lab Coat Yzma' outfit for Yzma.
 OUTFIT_YZMA_LABCOAT_NAME|LAB COAT YZMA OUTFIT TOKENS
 PACK_OPENING_CONTINUE|CONTINUE
@@ -10993,6 +11002,20 @@ PIN_GADGET_NAME|GADGET TALISMAN
 PIN_GADGET_DESC|Golly! I can fix that.
 PIN_MONTEREYJACK_NAME|MONTEREY JACK TALISMAN
 PIN_MONTEREYJACK_DESC|There's only one thing I like more than cheese: nothing!
+PIN_CLOPINPUPPET_NAME|CLOPIN PUPPET TALISMAN
+PIN_CLOPINPUPPET_DESC|I object!
+PIN_KINGOFFOOLS_NAME|KING OF FOOLS TALISMAN
+PIN_KINGOFFOOLS_DESC|The festival of fools.
+PIN_THUMPER_NAME|THUMPER TALISMAN
+PIN_THUMPER_DESC|I'm thumpin'.
+PIN_SKIPPY_NAME|SKIPPY TALISMAN
+PIN_SKIPPY_DESC|Gee whiz!
+PIN_MAXHARE_NAME|MAX HARE TALISMAN
+PIN_MAXHARE_DESC|Put 'er there!
+PIN_MARCHHARE_NAME|MARCH HARE TALISMAN
+PIN_MARCHHARE_DESC|How about a nice cup of tea?
+PIN_WHITERABBIT_NAME|WHITE RABBIT TALISMAN
+PIN_WHITERABBIT_DESC|I'm late, I'm late, I'm late!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -14629,6 +14652,17 @@ STORE_ITEM_SPECIAL_SANTAJACKOUTFIT_NAME|SANTA JACK OUTFIT
 STORE_ITEM_SPECIAL_SANTAJACKOUTFIT_DESC|SHOW OFF YOUR STYLE IN THE ARENA WITH THIS SPECIAL <color=#54C5FF>JACK SKELLINGTON</color> OUTFIT. CHARACTER NOT INCLUDED.
 STORE_ITEM_SPECIAL_LABCOATYZMAOUTFIT_NAME|LAB COAT YZMA OUTFIT
 STORE_ITEM_SPECIAL_LABCOATYZMAOUTFIT_DESC|SHOW OFF YOUR STYLE IN THE ARENA WITH THIS SPECIAL <color=#54C5FF>YZMA</color> OUTFIT. CHARACTER NOT INCLUDED.
+STORE_ITEM_SPECIAL_SPRINGHOP_THUMPER_NAME|THUMPER BUNNY BUNDLE
+STORE_ITEM_SPECIAL_SPRINGHOP_THUMPER_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>THUMPER</color> IN THE <color=#54C5FF>SPRING HOP EVENT</color>. INCLUDES A THUMPER TALISMAN, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_SPRINGHOP_SKIPPY_NAME|SKIPPY BUNNY BUNDLE
+STORE_ITEM_SPECIAL_SPRINGHOP_SKIPPY_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>SKIPPY</color> IN THE <color=#54C5FF>SPRING HOP EVENT</color>. INCLUDES A SKIPPY TALISMAN, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_SPRINGHOP_MAXHARE_NAME|MAX HARE BUNNY BUNDLE
+STORE_ITEM_SPECIAL_SPRINGHOP_MAXHARE_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>MAX HARE</color> IN THE <color=#54C5FF>SPRING HOP EVENT</color>. INCLUDES A MAX HARE TALISMAN, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_SPRINGHOP_MARCHHARE_NAME|MARCH HARE BUNNY BUNDLE
+STORE_ITEM_SPECIAL_SPRINGHOP_MARCHHARE_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>MARCH HARE</color> IN THE <color=#54C5FF>SPRING HOP EVENT</color>. INCLUDES A MARCH HARE TALISMAN, GOLD, AND MORE.
+STORE_ITEM_SPECIAL_SPRINGHOP_WHITERABBIT_NAME|WHITE RABBIT BUNNY BUNDLE
+STORE_ITEM_SPECIAL_SPRINGHOP_WHITERABBIT_DESC|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>WHITE RABBIT</color> IN THE <color=#54C5FF>SPRING HOP EVENT</color>. INCLUDES A WHITE RABBIT TALISMAN, GOLD, AND MORE.
+STORE_ITEM_STICKER_SPRINGHOP_NAME|SPRING HOP
 STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
 STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
 STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
@@ -15369,6 +15403,12 @@ TASK_CLUB_PVP_COMPLETIONS_T4_DESC|Win Arena Battles
 TASK_CLUB_PVP_COMPLETIONS_T4_NAME|CLUB - BRAWLER (TIER V)
 TASK_CLUB_PVP_COMPLETIONS_T5_DESC|Win Arena Battles
 TASK_CLUB_PVP_COMPLETIONS_T5_NAME|CLUB - BRAWLER (TIER VI)
+TASK_CLUB_PVP_ATTEMPTS_T0_DESC|Complete Arena Battles
+TASK_CLUB_PVP_ATTEMPTS_T1_DESC|Complete Arena Battles
+TASK_CLUB_PVP_ATTEMPTS_T2_DESC|Complete Arena Battles
+TASK_CLUB_PVP_ATTEMPTS_T3_DESC|Complete Arena Battles
+TASK_CLUB_PVP_ATTEMPTS_T4_DESC|Complete Arena Battles
+TASK_CLUB_PVP_ATTEMPTS_T5_DESC|Complete Arena Battles
 TAXTOWER_DESC_BASE|Spawns an imposing tax tower that targets all nearby enemies and activates every <color=#FEF8E4>{0:N0}s</color>. Each enemy that is successfully targeted will have the Magic cost of one of their abilities increased by 1.<br><br>Abilities that have their Magic cost increased will go back to their original cost after they have been used once.<br><br>The tax tower spawns with <color=#FEF8E4>{2:N0}</color> Health, plus <color=#FEF8E4>{3:N0}</color> Health per Player level, and gradually loses Health over time.
 TAXTOWER_DESC_U01|Spawns an imposing tax tower that targets all nearby enemies and activates every <color=#FEF8E4>{0:N0}s</color>. Each enemy that is successfully targeted will have the Magic cost of one of their abilities increased by 1. There is a <color=#FEF8E4>{1:P0}</color> chance that Magic cost will be increased by 2 instead of 1.<br><br>Abilities that have their Magic cost increased will go back to their original cost after they have been used once.<br><br>The tax tower spawns with <color=#FEF8E4>{2:N0}</color> Health, plus <color=#FEF8E4>{3:N0}</color> Health per Player level, and gradually loses Health over time.
 TAXTOWER_SPELLPREVIEWUPGRADE_MAGICCOST_INCAMOUNT_ADDEFFECT|Adds a 20% chance to increase Magic cost by 2 instead of 1.
@@ -17224,6 +17264,10 @@ PASSHOLDER_202103_1_SEASON_NAME|PASSHOLDER SEASON 22
 PASSHOLDER_202103_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 22 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MINNIE MOUSE TOKENS<BR>  * PLUTO TOKENS<br>  * DONALD DUCK TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202103_2_SEASON_NAME|PASSHOLDER SEASON 23
 PASSHOLDER_202103_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 23 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MONTEREY JACK TOKENS<BR>  * CHIP TOKENS<br>  * DALE TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202104_1_SEASON_NAME|PASSHOLDER SEASON 24
+PASSHOLDER_202104_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>9X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 24 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MOANA TOKENS<BR>  * MAUI TOKENS<br>  * GRAMMA TALA TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
+PVP_MOANA_INBOX_SUBJECT|Moana Enters the PvP Arena!
 PVP_MINNIE_MOUSE_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! Minnie Mouse will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn Minnie Mouse tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MINNIE_MOUSE_INBOX_SUBJECT|Minnie Mouse Enters the PvP Arena!
 HERC_T5_BUNDLE_20_NAME|T5 GEAR BUNDLE
