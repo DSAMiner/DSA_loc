@@ -725,6 +725,8 @@ BATTLE_EFFECT_SLEEP|SLEEP
 BATTLE_EFFECT_SLEEP_DESC|Affected character cannot use abilities. If this character is dealt damage, the effect is interrupted.
 BATTLE_EFFECT_SLOW|SLOW
 BATTLE_EFFECT_SLOW_DESC|Decreases Speed of the affected character by 50%.
+BATTLE_EFFECT_UNSTOPPABLE|UNSTOPPABLE
+BATTLE_EFFECT_UNSTOPPABLE_DESC|Affected character is immune to Stun, Silence, Sleep, and Charm.
 BATTLE_EFFECT_URSULA_CONTRACT|URSULA'S CONTRACT
 BATTLE_EFFECT_URSULA_CONTRACT_CRITICAL_STRIKES_DESC|Deal Critical Strikes to Ursula with different characters before this Contract expires.
 BATTLE_EFFECT_URSULA_CONTRACT_INFLICT_HARMFUL_DESC|Inflict Harmful effects on Ursula with different characters before this Contract expires.
@@ -6590,7 +6592,7 @@ LC_INFO_COOLDOWN|<br><color=#FF536F>This Leaderboard Contest has finished.</colo
 LC_INFO_TITLE|HOW TO EARN POINTS
 LC_INFO_TEXT|Each <i>Leaderboard Contest</i> has its own goals to meet, like <i>upgrading particular characters</i> or <i>playing particular game modes</i>.<br>You can see the specific goals for a Leaderboard Contest using the Event Menu.<br><br>As you earn points, you will earn Rewards you can <i>claim on the Leaderboard CONTEST Menu</i>. These rewards will be available for a short while after the CONTEST closes. You also earn Rewards at the end of the Leaderboard CONTEST based on your Ranking.
 LC_EVENT_MILESTONE_INFO|Earn milestone points!
-LC_MILESTONE_INFO_BODY|<color=#d29bfe>LEADERBOARD CONTEST MILESTONES:</color><br>Earn milestone rewards for playing Leaderboard Contests! Climb as high as you can before the Contest ends. Work together with your club and to earn even more rewards for everyone!<br><br>Leaderboard CONTEST Points and Milestones will reset after the end of the CONTEST, so be sure to collect as many rewards as you can.<br><br><color=#d29bfe>CLUB MILESTONE RULES:</color><br> • Leaderboard CONTEST Points collected by all club members will be added together for the club's total Points.<br> • Players may only earn points for ONE club per CONTEST. Club members that have switched into the club during the Contest will not have their Points counted towards the club total.<br> • Players will not be able to continue collecting club milestone rewards if they leave the club mid-contest.
+LC_MILESTONE_INFO_BODY|<color=#d29bfe>LEADERBOARD CONTEST MILESTONES:</color><br>Unlock milestone rewards by earning points in Leaderboard Contests. Earn as many Contest points as you can before the time runs out!<br><br>Leaderboard Contest Points and Milestones will reset after the end of the Contest, so be sure to collect as many rewards as you can.<br><br><color=#d29bfe>CLUB MILESTONE RULES (IF APPLICABLE):</color><br> • Leaderboard Contest Points collected by all Club members will be added together for the Club's total Points.<br> • Players may only earn points for ONE Club per Contest. Club members that have switched into the club during the Contest will not have their Points counted towards the Club total.<br> • Players will not be able to continue collecting Club milestone rewards if they leave the Club mid-contest.
 LC_MILESTONE_INFO_HEADER|LEADERBOARD CONTEST MILESTONES
 LC_RANK|{0}
 LC_RANK_INVALID|Rank -
@@ -6624,6 +6626,8 @@ LC_INBOXMESSAGE_GLOBAL_BODY_KOTH_A|Summoner,<br><br>The Sorcerer's Tournament Co
 LC_INBOXMESSAGE_PERSONAL_BODY_RR_A|Summoner,<br><br>The Rescue Rangers Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LC_INBOXMESSAGE_CLUB_BODY_RR_A|Summoner,<br><br>The Rescue Rangers Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LC_INBOXMESSAGE_GLOBAL_BODY_RR_A|Summoner,<br><br>The Rescue Rangers Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LC_INBOXMESSAGE_PERSONAL_BODY_RAYA|Summoner,<br><br>The Raya Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LC_INBOXMESSAGE_GLOBAL_BODY_RAYA|Summoner,<br><br>The Raya Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LIFETIME_ADD_FRIENDS_10_DESC|Add 10 Friends
 LIFETIME_ADD_FRIENDS_25_DESC|Add 25 Friends
 LIFETIME_ADD_FRIENDS_2_DESC|Add 2 Friends
@@ -8089,6 +8093,31 @@ MULAN_SPECIALB_ABILPREVIEWUPGRADE_04|+<color=#FEF8E4>{0:P0}</color> chance to in
 MULAN_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents.<br><br>Inflict Stun on primary target for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to inflict Slow on all targets for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Reduce Speed Meter of primary target by <color=#FEF8E4>{4:P0}</color> if primary target is Shan Yu.
 MULAN_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents.<br><br>Inflict Stun on primary target for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to inflict Slow on all targets for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Reduce Speed Meter of primary target by <color=#FEF8E4>{4:P0}</color> if primary target is Shan Yu.
 MULAN_UNIT_NAME|MULAN
+NAMAARI_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.
+NAMAARI_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br><color=#FEF8E4>{2:P0}</color> chance to gain <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{3:N0}</color> turn.
+NAMAARI_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>Gain <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{3:N0}</color> turn.
+NAMAARI_BASIC_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>Gain <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{3:N0}</color> turns.
+ABILPREVIEWUPGRADE_GEN_UNSTOPPABLE_CHANCE_ADD_1T|<color=#FEF8E4>{0:P0}</color> chance to gain Unstoppable for <color=#FEF8E4>{1:N0}</color> turn.
+NAMAARI_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and flanking opponents. Flip <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> to <color=#FEF8E4><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> on affected opponents.<br><br>This character and adjacent <color=#FEF8E4>'Villain Kingdom'</color> teammates gain the following: Gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn.
+NAMAARI_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and flanking opponents. Flip <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> to <color=#FEF8E4><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> on affected opponents.<br><br>This character and adjacent <color=#FEF8E4>'Villain Kingdom'</color> teammates gain the following: Gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to Cleanse <color=#FEF8E4>{3:N0}</color> Harmful effect.
+NAMAARI_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and flanking opponents. Flip <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> to <color=#FEF8E4><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> on affected opponents.<br><br>This character and adjacent <color=#FEF8E4>'Villain Kingdom'</color> teammates gain the following: Gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn. Cleanse <color=#FEF8E4>{3:N0}</color> Harmful effect.
+NAMAARI_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effect from this character and adjacent 'Villain Kingdom' teammates.
+ABILPREVIEWUPGRADE_GEN_HELPFUL_CLEANSE_CHANCE_INC|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse a Harmful effect.
+ABILPREVIEWUPGRADE_GEN_HELPFUL_CLEANSE_CHANCE_GUARANTEED|Guaranteed to Cleanse a Harmful effect.
+NAMAARI_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times.<br><br>Each time an opponent Evades damage from this ability do the following: This ability gains <color=#FEF8E4>{2:N0}</color> Magic. This character gains <color=#FEF8E4>{5:P0}</color> Speed Meter.<br><br>This character and adjacent <color=#FEF8E4>'Villain Kingdom'</color> teammates gain <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_UP>[DEFENSE UP]</link></color> for <color=#FEF8E4>{3:N0}</color> turns.
+NAMAARI_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times. Deal <color=#FEF8E4>{4:P0}</color> bonus damage per other <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>Each time an opponent Evades damage from this ability do the following: This ability gains <color=#FEF8E4>{2:N0}</color> Magic. This character gains <color=#FEF8E4>{5:P0}</color> Speed Meter.<br><br>This character and adjacent <color=#FEF8E4>'Villain Kingdom'</color> teammates gain <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_UP>[DEFENSE UP]</link></color> for <color=#FEF8E4>{3:N0}</color> turns.
+NAMAARI_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per other 'Villain Kingdom' teammate.
+NAMAARI_SPECIALB_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> bonus damage per other 'Villain Kingdom' teammate.
+NAMAARI_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> damage reduction.
+NAMAARI_PASSIVEA_DESC_01|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>45%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
+NAMAARI_PASSIVEA_DESC_02|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>70%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
+NAMAARI_PASSIVEA_DESC_03|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>85%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
+ABILPREVIEWUPGRADE_GEN_DEFENSE_BONUS_PCT_INC|<color=#FEF8E4>+{0:P0}</color> bonus Defense.
+NAMAARI_UNIT_NAME|NAMAARI
+NAMAARI_ABILBASIC_NAME|Fang Strike
+NAMAARI_ABILSPECIALA_NAME|Serlot's Fangs
+NAMAARI_ABILSPECIALB_NAME|Burn Them Out
+NAMAARI_ABILPASSIVEA_NAME|Warrior of Fang
 NODE_DETAILS_ATTEMPTS_REMAINING|ATTEMPTS REMAINING:
 NODE_DETAILS_ATTEMPTS_RESET_IN|ATTEMPTS REFRESH IN:
 NODE_DETAILS_CHARS|AVAILABLE CHARACTERS
@@ -8191,6 +8220,7 @@ OUTFIT_GASTON_WEDDING_DAY_GASTON_NAME|WEDDING DAY GASTON OUTFIT TOKENS
 OUTFIT_MOANA_CHIEF_DESC|Collect 100 to unlock the "Wayfinder Moana" outfit for Moana.
 OUTFIT_MOANA_CHIEF_NAME|WAYFINDER MOANA OUTFIT TOKENS
 OUTFIT_MOANA_CHIEF_UNIT_NAME|WAYFINDER MOANA
+OUTFIT_RAYA_YOUNG_UNIT_NAME|YOUNG RAYA
 OUTFIT_MULAN_SOLDIER_DESC|Collect 100 to unlock the 'Ping' outfit for Mulan.
 OUTFIT_MULAN_SOLDIER_NAME|MULAN'S PING OUTFIT TOKENS
 OUTFIT_OOGIE_GLOW_DESC|Collect 100 to unlock the 'Fluorescent' outfit for Oogie Boogie.
@@ -11654,6 +11684,26 @@ RANDALLBOGGS_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to
 RANDALLBOGGS_UNIT_NAME|RANDALL BOGGS
 RANDOM_SPELL_NAME|INFINITY SIDED DIE
 RANGE_SEPARATOR|-
+RAYA_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.
+RAYA_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br><color=#FEF8E4>{2:P0}</color> chance for an <color=#FEF8E4>'Adventurer'</color> teammate to assist, prioritizing the one with the highest Offense.
+RAYA_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>Call an <color=#FEF8E4>'Adventurer'</color> teammate to assist, prioritizing the one with the highest Offense.
+RAYA_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance for an 'Adventurer' teammate to assist, prioritizing the one with the highest Offense.
+RAYA_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance for an 'Adventurer' teammate to assist.
+RAYA_BASIC_ABILPREVIEWUPGRADE_03|Guaranteed chance for an 'Adventurer' teammate to assist.
+RAYA_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and flanking opponents. Flip <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_UP>[DEFENSE UP]</link></color> to <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_DOWN>[DEFENSE DOWN]</link></color> on affected opponents.<br><br>This character and adjacent <color=#FEF8E4>'Adventurer'</color> teammates gain the following: Gain Haste for <color=#FEF8E4>{1:N0}</color> turns.
+RAYA_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and flanking opponents. Flip <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_UP>[DEFENSE UP]</link></color> to <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_DOWN>[DEFENSE DOWN]</link></color> on affected opponents.<br><br>This character and adjacent <color=#FEF8E4>'Adventurer'</color> teammates gain the following: Gain Haste for <color=#FEF8E4>{1:N0}</color> turns. Increase Speed Meter by <color=#FEF8E4>{2:P0}</color>.
+RAYA_SPECIALA_ABILPREVIEWUPGRADE_01|Increase Speed Meter by <color=#FEF8E4>{0:P0}</color> for this character and adjacent 'Adventurer' teammates.
+RAYA_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times.<br><br>Flip <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> to <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> on affected opponents.<br><br>This character and adjacent <color=#FEF8E4>'Adventurer'</color> teammates gain <color=#FEF8E4>{2:N0}</color> Evasion.
+RAYA_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times. Deal <color=#FEF8E4>{3:P0}</color> bonus damage per other <color=#FEF8E4>'Adventurer'</color> teammate.<br><br>Flip <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> to <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> on affected opponents.<br><br>This character and adjacent <color=#FEF8E4>'Adventurer'</color> teammates gain <color=#FEF8E4>{2:N0}</color> Evasion.
+RAYA_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per other 'Adventurer' teammate.
+RAYA_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus damage per other 'Adventurer' teammate.
+RAYA_PASSIVEA_DESC_01|Each time this character receives damage in a given turn they gain <color=#FEF8E4>{0:P0}</color> bonus Evasion until the end of that turn, up to a max of <color=#FEF8E4>45%</color>.<br><br>On Evade of an opponent character's attack, <color=#FEF8E4>{1:P0}</color> chance for this character to perform the following: Gain <color=#FEF8E4>{2:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color>, up to a max of <color=#FEF8E4>{8:N0}</color>. Gain <color=#FEF8E4>{3:P0}</color> Speed Meter. Perform the following against opponent character: Deal up to <color=#FFC400>{4:N0}</color> damage <color=#FEF8E4>{5:N0}</color> times. Inflict <color=#FEF8E4><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{6:N0}</color> turn.
+ABILPREVIEWUPGRADE_GEN_EVASION_BON_PCT_INC|<color=#FEF8E4>+{0:P0}</color> bonus Evasion.
+RAYA_UNIT_NAME|RAYA
+RAYA_ABILBASIC_NAME|Protector's Strike
+RAYA_ABILSPECIALA_NAME|Roll, Tuk Tuk!
+RAYA_ABILSPECIALB_NAME|Warrior's Fury
+RAYA_ABILPASSIVEA_NAME|Hero of Heart
 REMOTE_BATTLE_COUNTDOWN_GO|GO!
 RESOLVED_EVENT_MILESTONE_REWARDS_BUTTON|CONTINUE
 RESOLVED_EVENT_MILESTONE_REWARDS_DESCRIPTION|You have been granted unclaimed rewards from an expired event milestone!
@@ -15817,6 +15867,7 @@ UNIT_CATEGORY_PIRATES_OF_THE_CARIBBEAN|PIRATES OF THE CARIBBEAN
 UNIT_CATEGORY_POCAHONTAS|POCAHONTAS
 UNIT_CATEGORY_PURPLEMAGIC_NAME|PURPLE ARCANA
 UNIT_CATEGORY_QUEENS_CLASH|QUEEN'S CLASH
+UNIT_CATEGORY_RAYA|RAYA AND THE LAST DRAGON
 UNIT_CATEGORY_REDMAGIC_NAME|RED ARCANA
 UNIT_CATEGORY_RESCUE_RANGERS|CHIP 'N DALE: RESCUE RANGERS
 UNIT_CATEGORY_ROBIN_HOOD|ROBIN HOOD
@@ -15968,6 +16019,8 @@ UNIT_PROMO_MAT_QUEEN_OF_HEARTS|QUEEN OF HEARTS TOKENS
 UNIT_PROMO_MAT_QUORRA|QUORRA TOKENS
 UNIT_PROMO_MAT_RAFIKI|RAFIKI TOKENS
 UNIT_PROMO_MAT_RANDALLBOGGS|RANDALL BOGGS TOKENS
+UNIT_PROMO_MAT_RAYA|RAYA TOKENS
+UNIT_PROMO_MAT_NAMAARI|NAMAARI TOKENS
 UNIT_PROMO_MAT_ROBIN_HOOD|ROBIN HOOD TOKENS
 UNIT_PROMO_MAT_SALLY|SALLY TOKENS
 UNIT_PROMO_MAT_SCAR|SCAR TOKENS
@@ -17357,6 +17410,13 @@ EVENT_202103_RESCUE_RANGERS_C_L6_NAME|GADGET 7
 EVENT_202103_RESCUE_RANGERS_C_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Star</size>
 INSTANT_BATTLE_MAX_USE_AMOUNT_LABEL|AUTO MAX x{0}
 INSTANT_BATTLE_REWARDS_V2_HEADER|AUTO-WIN REWARDS
+LCA_RAYA_NAME|RAYA LEADERBOARD CONTEST
+LCA_RAYA_DESC|Upgrade Namaari to earn points!
+LCA_RAYA_DETAILED_TITLE|Contest Rules
+LCA_RAYA_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Earn Contest Points by upgrading Namaari. Unlocking, Promoting, Leveling Up, Equipping Gear, Increasing Gear Tier, Upgrading Abilities, and acquiring Namaari Character Tokens will all award points. These points can only be acquired via Namaari. Upgrading other Characters will not award points.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>• Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking.<BR><BR><color=#54C5FF>GLOBAL LEADERBOARD</color><br>• Compete with all global players. At the end of the event players will receive a reward to their inbox based on their final ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Personal Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>• If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<BR><BR><color=#54C5FF>POINT INFORMATION</color><br>• Per Character Level Gained: 30<br>• Per Character Token Acquired: 1<br>• Unlock 4-STAR: 800<br>• Promotion 5-STAR: 1600<br>• Promotion 6-STAR: 3200<br>• Promotion 7-STAR: 6400<br>• Gear Equip T1: 40<br>• Gear Equip T2: 55 <br>• Gear Equip T3: 75<br>• Gear Equip T4: 105<br>• Gear Equip T5: 145<br>• Gear Equip T6: 205<br>• Gear Equip T7: 285<br>• Gear Tier Up T2: 150<br>• Gear Tier Up T3: 300<br>• Gear Tier Up T4: 550<br>• Gear Tier Up T5: 1050<br>• Gear Tier Up T6: 2000<br>• Gear TIer Up T7: 3800<br>• Gear Tier Up T8: 7200<br>• Ability Upgrade Level 2: 250<br>• Ability Upgrade Level 3: 500<br>• Ability Upgrade Level 4: 1250
+LCA_RAYA_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
+LCA_RAYA_MILESTONE_REWARD_POINT_NAME|RAYA CONTEST POINTS
+LCA_RAYA_MILESTONE_REWARD_POINT_DESC|Earn Points by upgrading Namaari.
 LCA_RESCUE_RANGERS_NAME|RESCUE RANGERS LEADERBOARD CONTEST
 LCA_RESCUE_RANGERS_DESC|Upgrade Chip and Dale to earn points!
 LCA_RESCUE_RANGERS_DETAILED_TITLE|Contest Rules
@@ -17427,4 +17487,78 @@ INBOX_EVENT_2021_RR_LAST_CHANCE_SUBJECT|Last Chance for Rescue Rangers!
 INBOX_EVENT_2021_RR_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>RESCUE RANGERS</color> Event is ending soon!<br><br>Upgrade Chip and Dale to earn points in the <color=#54C5FF>RESCUE RANGERS LEADERBOARD CONTEST</color> and earn exclusive <color=#54C5FF>GADGET</color> tokens!<br><br>Good luck, and see you in the Arena!
 TROPHY_RESCUE_RANGERS_NAME|RESCUE RANGERS TROPHY
 TROPHY_RESCUE_RANGERS_DESC|Awarded for completing the Rescue Rangers Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+EVENT_202104_BH6_PRESTIGE_A_NAME|PRESTIGE: BIG HERO 6
+EVENT_202104_BH6_PRESTIGE_A_L0_NAME|PRESTIGE: BIG HERO BRAWL I
+EVENT_202104_BH6_PRESTIGE_A_L1_NAME|PRESTIGE: BIG HERO BRAWL II
+EVENT_202104_BH6_PRESTIGE_A_L2_NAME|PRESTIGE: BIG HERO BRAWL III
+EVENT_202104_BH6_PRESTIGE_A_L3_NAME|PRESTIGE: BIG HERO BRAWL IV
+EVENT_202104_BH6_PRESTIGE_A_L4_NAME|PRESTIGE: BIG HERO BRAWL V
+EVENT_202104_RAYA_META_DESC|Power up your Adventurers team and battle to earn Namaari and Raya Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202104_RAYA_META_NAME|HEART AND FANG
+EVENT_202104_RAYA_PORTAL_DESC|EARN NAMAARI AND RAYA TOKENS!
+EVENT_202104_RAYA_PORTAL_NAME|HEART AND FANG
+EVENT_202104_RAYA_AURA_NAME|HEART AND FANG
+EVENT_202104_RAYA_AURA_DESC|INFO<br>•Defeat Namaari!<br>•Namaari is Immune to Stun, Sleep, Charm, Silence, and Polymorph.<br>•Namaari assists her teammates' basic attacks. When she assists, she gains Offense Up and Evasion. <br>•Namaari starts the battle with Invulnerable and Haste.
+EVENT_202104_RAYA_A_NAME|NAMAARI
+EVENT_202104_RAYA_A_DESC| 
+EVENT_202104_RAYA_A_L0_NAME|NAMAARI I
+EVENT_202104_RAYA_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 2</color><br>• 2 Star</size>
+EVENT_202104_RAYA_A_L1_NAME|NAMAARI II
+EVENT_202104_RAYA_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 40+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 3 Star</size>
+EVENT_202104_RAYA_A_L2_NAME|NAMAARI III
+EVENT_202104_RAYA_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Star</size>
+EVENT_202104_RAYA_A_L3_NAME|NAMAARI IV
+EVENT_202104_RAYA_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 50+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 5 Star</size>
+EVENT_202104_RAYA_A_L4_NAME|NAMAARI V
+EVENT_202104_RAYA_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Star</size>
+EVENT_202104_RAYA_A_L5_NAME|NAMAARI VI
+EVENT_202104_RAYA_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 7 Star</size>
+EVENT_202104_RAYA_A_L6_NAME|NAMAARI VII
+EVENT_202104_RAYA_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Star</size>
+EVENT_202104_RAYA_A_L7_NAME|NAMAARI VIII
+EVENT_202104_RAYA_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Star</size>
+EVENT_202104_RAYA_B_NAME|RAYA
+EVENT_202104_RAYA_B_DESC| 
+EVENT_202104_RAYA_B_L0_NAME|RAYA I
+EVENT_202104_RAYA_B_L0_DESC|INFO<br>•Raya assists her teammates' basic attacks. When she assists, she gains Offense Up and Evasion. <br>•Raya starts the battle with Invulnerable and Haste.
+EVENT_202104_RAYA_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Star</size>
+EVENT_202104_RAYA_B_L1_NAME|RAYA II
+EVENT_202104_RAYA_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 50+<br>• Gear <color=#8ab65d>Tier 4</color><br>• 5 Star</size>
+EVENT_202104_RAYA_B_L2_NAME|RAYA III
+EVENT_202104_RAYA_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 5</color><br>• 6 Star</size>
+EVENT_202104_RAYA_B_L3_NAME|RAYA IV
+EVENT_202104_RAYA_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Star</size>
+EVENT_202104_RAYA_B_L4_NAME|RAYA V
+EVENT_202104_RAYA_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Star</size>
+EVENT_202104_RAYA_B_L5_NAME|RAYA VI
+EVENT_202104_RAYA_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 8</color><br>• 7 Star</size>
+STORE_ITEM_RAYA_COINS_NAME|KUMANDRA COINS
+STORE_ITEM_RAYA_COINS_BACK|COLLECT KUMANDRA COINS TO OPEN THE KUMANDRA CHEST.
+STORE_ITEM_KUMANDRA_CHEST_BACK|EARN KUMANDRA COINS DURING THE HEART AND FANG EVENT OR PURCHASE KUMANDRA COIN PACKS TO OPEN THE KUMANDRA CHEST.
+STORE_ITEM_KUMANDRA_CHEST_NAME|KUMANDRA CHEST
+TROPHY_RAYA_NAME|HEART AND FANG TROPHY
+TROPHY_RAYA_DESC|Awarded for completing the Heart and Fang Event. Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+EVENT_202104_RAYA_INBOX_EVENT_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event has begun! Power up your team of <color=#54C5FF>ADVENTURERS</color> and battle to earn <color=#54C5FF>NAMAARI</color> and <color=#54C5FF>RAYA</color> tokens.<br><br>Upgrade NAMAARI to earn points in the <color=#54C5FF>RAYA LEADERBOARD CONTEST</color> and earn exclusive <color=#54C5FF>RAYA</color> tokens!<br><br>Good luck, and see you in the Arena!
+EVENT_202104_RAYA_INBOX_EVENT_START_SUBJECT|The Heart and Fang event has started!
+EVENT_202104_RAYA_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event is ending soon!<br><br>Upgrade <color=#54C5FF>NAMAARI</color> to earn points in the <color=#54C5FF>RAYA LEADERBOARD CONTEST</color> and earn exclusive <color=#54C5FF>RAYA</color> tokens!<br><br>Good luck, and see you in the Arena!
+EVENT_202104_RAYA_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Heart and Fang Event!
+EVENT_202104_RAYA_INBOX_PREVIEW_SUBJECT|Coming Soon: The Heart and Fang Event!
+EVENT_202104_RAYA_INBOX_PREVIEW_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event is coming soon! Prepare your team of <color=#54C5FF>ADVENTURERS</color> to battle and earn <color=#54C5FF>NAMAARI</color> Tokens.<br><br>In addition to battling, there will also be a <color=#54C5FF>LEADERBOARD CONTEST</color> to earn exclusive <color=#54C5FF>RAYA</color> tokens!<br><br>Good luck, and see you in the Arena!
+EVENT_202104_RAYA_INBOX_DAILY_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event continues. Power up your <color=#54C5FF>ADVENTURER</color> Characters to earn exclusive <color=#54C5FF>NAMAARI</color> and <color=#54C5FF>RAYA</color> Tokens. Battle to earn rewards every day during the event! Be sure to use your <color=#54C5FF>FREE</color> attempts, and request another from your club.<br><br>Good luck, and see you in the Arena!
+EVENT_202104_RAYA_INBOX_DAILY_SUBJECT|The Heart and Fang Event continues!
+OUTFIT_RAYA_YOUNG_NAME|YOUNG RAYA OUTFIT TOKENS
+OUTFIT_RAYA_YOUNG_DESC|Collect 100 to unlock the 'Young Raya' outfit for Raya.
+RAYA_RAYA_NAME|RAYA BUNDLE
+RAYA_RAYA_SUBTITLE|GRANT ADVENTURER ALLIES HASTE AND EVASION AND CALL THEM TO ASSIST. FLIP OFFENSE AND DEFENSE UP ON OPPONENTS.
+RAYA_NAMAARI_NAME|NAMAARI BUNDLE
+RAYA_NAMAARI_SUBTITLE|FLIP HASTE ON OPPONENTS AND GRANT OFFENSE UP AND DEFENSE UP TO VILLAIN KINGDOM TEAMMATES. STRIKE OPPONENTS AS THEIR HEALTH BECOMES LOW.
+RAYA_TEAM_NAME|ADVENTURER TEAM BUNDLE
+RAYA_TEAM_SUBTITLE|COLLECT TOKENS FOR BO PEEP, MOANA, BARLEY, JACK SPARROW, AND MONTEREY JACK. INCLUDES BONUS GEMS, GOLD, ABILITY RUNES, AND MORE ITEMS.
+RAYA_ABILITY_MATS_20_SUBTITLE|UPGRADE NAMAARI'S ABILITIES TO EARN MORE POINTS IN THE RAYA LEADERBOARD CONTEST.
+RAYA_RAYA_GEMS_NAME|RAYA PACK
+RAYA_NAMAARI_GEMS_NAME|NAMAARI PACK
+RAYA_OUTFIT_NAME|YOUNG RAYA OUTFIT BUNDLE
+RAYA_OUTFIT_DESC|UNLOCK THE YOUNG RAYA OUTFIT FOR RAYA. INCLUDES BONUS GEMS, GOLD, ABILITY RUNES, AND MORE.
+STORE_ITEM_BO_PEEP_PACK|BO PEEP PACK
+STORE_ITEM_BARLEY_BUNDLE|BARLEY BUNDLE
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
