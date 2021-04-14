@@ -14290,23 +14290,25 @@ STORE_ITEM_PASSHOLDER_NAME|PASSHOLDER GOLD
 STORE_ITEM_PASSHOLDER_NOVEMBER|NOVEMBER
 STORE_ITEM_PASSHOLDER_OCTOBER|OCTOBER
 STORE_ITEM_PASSHOLDER_SEPTEMBER|SEPTEMBER
-STORE_ITEM_PASSHOLDER_XP_LARGE_BACK_DESC|Immediately boost 25 Passholder Tiers.<BR><BR>Club Members will also receive a free Passholder Tier.<BR><BR>DISCLAIMERS<BR><BR>* Purchasing a booster pack without owning Passholder <color=#FFBC08>GOLD</color> will still increase your tier level.<BR><BR>* You must own Passholder <color=#FFBC08>GOLD</color> to receive the Passholder <color=#FFBC08>GOLD</color> rewards.<BR><BR>* You may purchase Passholder <color=#FFBC08>GOLD</color> at any time to instantly receive all rewards from all unlocked tiers.<BR><BR>* Purchasing a tier boost will not allow you to exceed tier 50. Any excess tiers purchased that exceed 50 will not be reimbursed.
-STORE_ITEM_PASSHOLDER_XP_LARGE_BACK_SHORT_DESC|Immediately boost 25 Passholder Tiers.<BR><color=#FFBC08>Club Members will also receive a free Passholder Tier!</color>
+STORE_ITEM_PASSHOLDER_XP_LARGE_BACK_DESC|Immediately boost 40 Passholder Tiers with 20,000 Passholder XP.<BR><BR>Club Members will also receive a free Passholder Tier.<BR><BR>DISCLAIMERS<BR><BR>* Purchasing a Passholder XP pack without owning Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> will still increase your tier level.<BR><BR>* You must own Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> to receive the appropriate rewards.<BR><BR>* You may purchase Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> at any time to instantly receive all rewards from all unlocked tiers.<BR><BR>* Purchasing a tier boost will not allow you to exceed tier 50. Any excess tiers purchased that exceed 50 will not be reimbursed.<BR><BR>* Passholder XP obtained during Passholder Leaderboard Contests will award Contest points, even after Tier 50 has been reached.
+STORE_ITEM_PASSHOLDER_XP_LARGE_BACK_SHORT_DESC|Immediately boost 40 Passholder Tiers with 20,000 Passholder XP.<BR><color=#FFBC08>Club Members will also receive a free Passholder Tier!</color>
+STORE_ITEM_PASSHOLDER_XP_MEDIUM_BACK_SHORT_DESC|Immediately boost 18 Passholder Tiers with 9,000 Passholder XP.
+STORE_ITEM_PASSHOLDER_XP_SMALL_BACK_SHORT_DESC|Immediately boost 8 Passholder Tiers with 4,000 Passholder XP.
 STORE_ITEM_PASSHOLDER_XP_LARGE_BOX_BACK_NAME|25 PASSHOLDER TIERS
-STORE_ITEM_PASSHOLDER_XP_LARGE_LOWER_STICKER|BOOST 25 TIERS
-STORE_ITEM_PASSHOLDER_XP_LARGE_NAME|25 PASSHOLDER TIERS
+STORE_ITEM_PASSHOLDER_XP_LARGE_LOWER_STICKER|20,000 PASSHOLDER XP
+STORE_ITEM_PASSHOLDER_XP_LARGE_NAME|40 PASSHOLDER TIERS
 STORE_ITEM_PASSHOLDER_XP_LARGE_SHELF|<color=#FFBC08>25 PASSHOLDER TIERS
 STORE_ITEM_PASSHOLDER_XP_LARGE_STICKER_KEY|BEST VALUE
-STORE_ITEM_PASSHOLDER_XP_MEDIUM_BACK_DESC|Purchase this Passholder XP to immediately boost 12 Passholder Tiers.<BR><BR>DISCLAIMERS<BR><BR>* Purchasing a booster pack without owning Passholder <color=#FFBC08>GOLD</color> will still increase your tier level.<BR><BR>* You must own Passholder <color=#FFBC08>GOLD</color> to receive the Passholder <color=#FFBC08>GOLD</color> rewards.<BR><BR>* You may purchase Passholder <color=#FFBC08>GOLD</color> at any time to instantly receive all rewards from all unlocked tiers.<BR><BR>* Purchasing a tier boost will not allow you to exceed tier 50. Any excess tiers purchased that exceed 50 will not be reimbursed.
+STORE_ITEM_PASSHOLDER_XP_MEDIUM_BACK_DESC|Immediately boost 18 Passholder Tiers with 9,000 Passholder XP.<BR><BR>DISCLAIMERS<BR><BR>* Purchasing a Passholder XP pack without owning Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> will still increase your tier level.<BR><BR>* You must own Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> to receive the appropriate rewards.<BR><BR>* You may purchase Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> at any time to instantly receive all rewards from all unlocked tiers.<BR><BR>* Purchasing a tier boost will not allow you to exceed tier 50. Any excess tiers purchased that exceed 50 will not be reimbursed.<BR><BR>* Passholder XP obtained during Passholder Leaderboard Contests will award Contest points, even after Tier 50 has been reached.
 STORE_ITEM_PASSHOLDER_XP_MEDIUM_BOX_BACK_NAME|12 PASSHOLDER TIERS
-STORE_ITEM_PASSHOLDER_XP_MEDIUM_LOWER_STICKER|BOOST 12 TIERS
-STORE_ITEM_PASSHOLDER_XP_MEDIUM_NAME|12 PASSHOLDER TIERS
+STORE_ITEM_PASSHOLDER_XP_MEDIUM_LOWER_STICKER|9,000 PASSHOLDER XP
+STORE_ITEM_PASSHOLDER_XP_MEDIUM_NAME|18 PASSHOLDER TIERS
 STORE_ITEM_PASSHOLDER_XP_MEDIUM_SHELF|<color=#FFBC08>12 PASSHOLDER TIERS
 STORE_ITEM_PASSHOLDER_XP_MEDIUM_STICKER_KEY|20% BONUS
-STORE_ITEM_PASSHOLDER_XP_SMALL_BACK_DESC|Purchase this Passholder XP to immediately boost 5 Passholder Tiers.<BR><BR>DISCLAIMERS<BR><BR>* Purchasing a booster pack without owning Passholder <color=#FFBC08>GOLD</color> will still increase your tier level.<BR><BR>* You must own Passholder <color=#FFBC08>GOLD</color> to receive the Passholder <color=#FFBC08>GOLD</color> rewards.<BR><BR>* You may purchase Passholder <color=#FFBC08>GOLD</color> at any time to instantly receive all rewards from all unlocked tiers.<BR><BR>* Purchasing a tier boost will not allow you to exceed tier 50. Any excess tiers purchased that exceed 50 will not be reimbursed.
+STORE_ITEM_PASSHOLDER_XP_SMALL_BACK_DESC|Immediately boost 8 Passholder Tiers with 4,000 Passholder XP.<BR><BR>DISCLAIMERS<BR><BR>* Purchasing a Passholder XP pack without owning Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> will still increase your tier level.<BR><BR>* You must own Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> to receive the appropriate rewards.<BR><BR>* You may purchase Passholder <color=#FFBC08>GOLD</color> or <color=#54C5FF>PLATINUM</color> at any time to instantly receive all rewards from all unlocked tiers.<BR><BR>* Purchasing a tier boost will not allow you to exceed tier 50. Any excess tiers purchased that exceed 50 will not be reimbursed.<BR><BR>* Passholder XP obtained during Passholder Leaderboard Contests will award Contest points, even after Tier 50 has been reached.
 STORE_ITEM_PASSHOLDER_XP_SMALL_BOX_BACK_NAME|5 PASSHOLDER TIERS
-STORE_ITEM_PASSHOLDER_XP_SMALL_LOWER_STICKER|BOOST 5 TIERS
-STORE_ITEM_PASSHOLDER_XP_SMALL_NAME|5 PASSHOLDER TIERS
+STORE_ITEM_PASSHOLDER_XP_SMALL_LOWER_STICKER|4,000 PASSHOLDER XP
+STORE_ITEM_PASSHOLDER_XP_SMALL_NAME|8 PASSHOLDER TIERS
 STORE_ITEM_PASSHOLDER_XP_SMALL_SHELF|<color=#FFBC08>5 PASSHOLDER TIERS
 STORE_ITEM_PASSHOLDER_XP_SMALL_STICKER_KEY|TIER BOOSTER
 STORE_ITEM_PASSHOLDER_SUPER_PLATINUM_NAME|PLATINUM PASSHOLDER BUNDLE
@@ -17319,6 +17321,8 @@ PASSHOLDER_202103_2_SEASON_NAME|PASSHOLDER SEASON 23
 PASSHOLDER_202103_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 23 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MONTEREY JACK TOKENS<BR>  * CHIP TOKENS<br>  * DALE TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202104_1_SEASON_NAME|PASSHOLDER SEASON 24
 PASSHOLDER_202104_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>9X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 24 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MOANA TOKENS<BR>  * MAUI TOKENS<br>  * GRAMMA TALA TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202104_2_SEASON_NAME|PASSHOLDER SEASON 25
+PASSHOLDER_202104_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>9X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 25 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * BELLE TOKENS<BR>  * MAURICE TOKENS<br>  * MRS. POTTS TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MOANA_INBOX_SUBJECT|Moana Enters the PvP Arena!
 PVP_MINNIE_MOUSE_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! Minnie Mouse will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn Minnie Mouse tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
@@ -17417,6 +17421,18 @@ LCA_RAYA_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Earn Contest
 LCA_RAYA_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
 LCA_RAYA_MILESTONE_REWARD_POINT_NAME|RAYA CONTEST POINTS
 LCA_RAYA_MILESTONE_REWARD_POINT_DESC|Earn Points by upgrading Namaari.
+LCA_PASSHOLDER_NAME|PASSHOLDER LEADERBOARD CONTEST
+LCA_PASSHOLDER_DESC|Earn points by purchasing Passholder Gold, Passholder Platinum, and gaining Passholder XP!
+LCA_PASSHOLDER_DETAILED_TITLE|Contest Rules
+LCA_PASSHOLDER_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Earn Contest Points by purchasing Passholder Gold, Passholder Platinum, and gaining Passholder XP.<br>• Passholder XP can be obtained by battling in Campaigns, completing Passholder Quests, and by purchasing store packs that contain Passholder XP.<br>• Passholder XP can still be earned and will award Contest Points after Tier 50 has been reached during the active Passholder Season.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>• Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Personal Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>• If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<BR><BR><color=#54C5FF>POINT INFORMATION</color><br>• Passholder Gold: 25000<br>• Passholder Platinum: 50000<br>• Passholder XP: 1
+LCA_PASSHOLDER_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
+LCA_PASSHOLDER_MILESTONE_REWARD_POINT_NAME|PASSHOLDER LEADERBOARD CONTEST POINTS
+LCA_PASSHOLDER_MILESTONE_REWARD_POINT_DESC|Earn points by purchasing Passholder Gold, Passholder Platinum, and gaining Passholder XP!
+LCA_PASSHOLDER_INBOXMESSAGE_PERSONAL_BODY|Summoner,<br><br>The Passholder Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LCA_PASSHOLDER_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The Passholder Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LCA_PASSHOLDER_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The Passholder Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LCA_PASSHOLDER_INBOXMESSAGE_START_BODY|Summoner,<br><br>The <color=#54C5FF>PASSHOLDER LEADERBOARD CONTEST</color> has begun!<br><br>Earn points by collecting <color=#54C5FF>PASSHOLDER XP</color>. Climb the ranks for the best rewards!<br><br>Good luck, and see you in the Arena!
+LCA_PASSHOLDER_INBOXMESSAGE_START_SUBJECT|The Passholder Leaderboard Contest has begun!
 LCA_RESCUE_RANGERS_NAME|RESCUE RANGERS LEADERBOARD CONTEST
 LCA_RESCUE_RANGERS_DESC|Upgrade Chip and Dale to earn points!
 LCA_RESCUE_RANGERS_DETAILED_TITLE|Contest Rules
@@ -17493,6 +17509,7 @@ EVENT_202104_BH6_PRESTIGE_A_L1_NAME|PRESTIGE: BIG HERO BRAWL II
 EVENT_202104_BH6_PRESTIGE_A_L2_NAME|PRESTIGE: BIG HERO BRAWL III
 EVENT_202104_BH6_PRESTIGE_A_L3_NAME|PRESTIGE: BIG HERO BRAWL IV
 EVENT_202104_BH6_PRESTIGE_A_L4_NAME|PRESTIGE: BIG HERO BRAWL V
+EVENT_202008_BIGHERO6_LEGENDARY_PRESTIGE_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Yokai!<br>• Yokai starts the battle with Stealth, Haste and Invulnerable. <br>• Yokai is Immune to Stun, Sleep, Silence, Slow, and Charm.<br>• When Yokai summons Microbot Spires, he gains Stealth and Invulnerable.<br>• When a Microbot Spire is defeated, Yokai gains Speed Meter and Undefeatable.<br>• When a player character is defeated, Yokai gains Tactics.
 EVENT_202104_RAYA_META_DESC|Power up your Adventurers team and battle to earn Namaari and Raya Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202104_RAYA_META_NAME|HEART AND FANG
 EVENT_202104_RAYA_PORTAL_DESC|EARN NAMAARI AND RAYA TOKENS!
