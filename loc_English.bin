@@ -2257,6 +2257,8 @@ CURRENCY_SPOOKY_NAME|SPOOKY COINS
 CURRENCY_SPOOKY_DESC|Collect Spooky Coins in events and offers throughout October. Spooky Coins can be used to open special limited time Mystery Packs.
 CURRENCY_MISTLETOKENS_NAME|MISTLETOKENS
 CURRENCY_MISTLETOKENS_DESC|Collect Mistletokens in events and offers throughout December.<br><br>Mistletokens can be used to open special limited time Mystery Packs available in the Store throughout the month.
+CURRENCY_HUNNYCOINS_NAME|HUNNY COINS
+CURRENCY_HUNNYCOINS_DESC|Collect Hunny Coins from daily gifts and Daily Hunny Hunt Quests for a limited time.<BR><BR>Use Hunny Coins to open the Winnie the Pooh Pack available in the Store.
 CU_20200122_BODY|Summoner, <br><br>Updates are here! Here's a list of what's new! Please be sure to check our Newsletter for further detail. <br><br>- PvP coins have been changed to "Tournament Coins". Earn them in the Sorcerer's Tournament! <br>- The Tournament Exchange now has Hades, Shan Yu, Mor'du, and Merlin tokens. <br>- Earn Robin Hood in the PvP Arena. <br>- PvP Daily Quest and Tournament Daily Quest rewards have been rebalanced <br>- Various bug fixes.
 CU_20200122_SUBJECT|Updates are Here!
 CU_20200129_BODY|Summoner, <br><br>Updates are here! Here's a list of what's new! Please be sure to check our Newsletter for further detail. <br><br>- Summoner's Challenges requirements for some of the Defense and Support battles have been lowered.<br>- Gold Challenge rewards have been rebalanced. <br>- Some characters have changed in the Villains Elite Campaign- Monterey Jack now drops at node 2B, Tinker Bell at 2C, and Kronk at 3C.<br>- Gold now drops in the Grand Campaign. <br>- Passholder XP now drops in Heroes and Villains Campaign. <br>- Various balance and bug fixes.<br><br>As a reminder, the Cave of Wonders Event will be ending soon, so be sure to finish those battles!
@@ -4467,6 +4469,7 @@ PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYGRAND_DESC|(Optional) Complete Grand Cam
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYHEROES_DESC|(Optional) Complete Heroes Elite Battles
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYVILLAINS_DESC|(Optional) Complete Villians Elite Battles
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYTOURNAMENT_DESC|(Optional) Complete Sorcerer's Tournament Battles
+PLAYER_ACTIVITY_EVENT_202104_HUNNYDAILYSTORE_NAME|DAILY HUNNY HUNT
 INBOX_EVENT_202012_SVEN2X_SUBJECT|2x Sven Token Event
 INBOX_EVENT_202012_SVEN2X_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Sven Tokens</color> for a limited time!<BR><BR>Bonus drops can be found on Grand Campaign 3-C.<BR><BR>Thank you for your continued support, and see you in the Arena!
 BONUS_LOOT_SVEN2X_NAME|2X  SVEN TOKEN EVENT
@@ -4530,6 +4533,10 @@ INBOX_EVENT_202104_EARTHDAY_SUBJECT|Earth Day - Free Gift!
 INBOX_EVENT_202104_EARTHDAY_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Earth Day</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the Celebration Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202104_PRINCESS_SUBJECT|Princess Celebration - Free Gift!
 INBOX_EVENT_202104_PRINCESS_BODY|Summoner,<BR><BR>Celebrate the start of the <color=#54C5FF>Princess Celebration</color> with this FREE <color=#54C5FF>Talisman</color>!<BR><BR>Don't miss out on the Celebration Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202104_GOLDENWEEK_SUBJECT|Player Appreciation Week - Hunny Coin Gift!
+INBOX_EVENT_202104_GOLDENWEEK_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Player Appreciation Week</color> with FREE <color=#54C5FF>Hunny Coins</color>!<BR><BR>Use <color=#54C5FF>Hunny Coins</color> to open the <color=#54C5FF>Winnie the Pooh Pack</color> available for a limited time in the Store. Open for a chance to collect all 13 Winnie the Pooh Talismans!<BR><BR>Login daily to collect <color=#54C5FF>Hunny Coins</color> throughout the game, including through limited time <color=#54C5FF>Daily Hunny Hunt Quests</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202104_GOLDENBONUS_SUBJECT|Player Appreciation Week - Summoner's Council Bonus Gift
+INBOX_EVENT_202104_GOLDENBONUS_BODY|Summoner's Council Member,<BR><BR>Celebrate <color=#54C5FF>Player Appreciation Week</color> with BONUS <color=#54C5FF>Hunny Coins</color>!<BR><BR>Use <color=#54C5FF>Hunny Coins</color> to open the <color=#54C5FF>Winnie the Pooh Pack</color> available for a limited time in the Store. Open for a chance to collect all 13 Winnie the Pooh Talismans!<BR><BR>Login daily to collect <color=#54C5FF>Hunny Coins</color> throughout the game, including through limited time <color=#54C5FF>Daily Hunny Hunt Quests</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -4663,7 +4670,8 @@ EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_3|<size=90%>RECOMMENDED<br>• Level 
 EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_4|<size=90%>RECOMMENDED<br>• Level 42+<br>• Enchantment <color=#4a90e2>Tier 4</color><br>• 6 Stars</size>
 EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_5|<size=90%>RECOMMENDED<br>• Level 47+<br>• Enchantment <color=#4a90e2>Tier 5</color><br>• 7 Stars</size>
 EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_6|<size=90%>RECOMMENDED<br>• Level 60<br>• Enchantment <color=#4a90e2>Tier 6</color><br>• 7 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_7|<size=90%>RECOMMENDED<br>• Level 60<br>• Enchantment <color=#4a90e2>Tier 7</color><br>• 7 Stars</size>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_7|<size=90%>RECOMMENDED<br>• Level 60<br>• Enchantment <color=#B94EFF>Tier 7</color><br>• 7 Stars</size>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_8|<size=90%>RECOMMENDED<br>• Level 70<br>• Enchantment <color=#B94EFF>Tier 7</color><br>• 7 Stars</size>
 EVENT_ALADDIN_LEGENDARY_C_TIER_0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat empowered Jafar.<br>
 EVENT_ALADDIN_LEGENDARY_C_TIER_0_NAME|LAMP CHAMBER I
 EVENT_ALADDIN_LEGENDARY_C_TIER_1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat empowered Jafar.<br>
@@ -4677,6 +4685,7 @@ EVENT_ALADDIN_LEGENDARY_C_TIER_4_NAME|LAMP CHAMBER V
 EVENT_ALADDIN_LEGENDARY_C_TIER_5_NAME|LAMP CHAMBER VI
 EVENT_ALADDIN_LEGENDARY_C_TIER_6_NAME|LAMP CHAMBER VII
 EVENT_ALADDIN_LEGENDARY_C_TIER_7_NAME|LAMP CHAMBER VIII
+EVENT_ALADDIN_LEGENDARY_C_TIER_8_NAME|LAMP CHAMBER IX
 EVENT_ALADDIN_LEGENDARY_INBOX_A_BODY|Summoner,<BR><BR>The <color=#54C5FF>CAVE OF WONDERS EVENT</color> has begun! Battle now to earn <color=#54C5FF>Aladdin</color>, <color=#54C5FF>Jasmine</color>, and <color=#54C5FF>Genie</color> tokens. Power up your team to prepare for the upcoming wrath of <color=#54C5FF>Jafar</color>.<BR><BR>As a reminder, Aladdin, Jasmine, and Genie tokens are available in the Villains Campaign on Elite Nodes 2A, 2C, 4A, and 4C. So recruit them today and head to the Cave of Wonders!
 EVENT_ALADDIN_LEGENDARY_INBOX_A_SUBJECT|Cave of Wonders Event is Live!
 EVENT_ALADDIN_LEGENDARY_INBOX_B_BODY|Summoner,<BR><BR>For a limited time, there will be 2x drops for <color=#54C5FF>JASMINE</color> and <color=#54C5FF>GENIE</color> tokens on the Villains Elite Campaign! Battle and promote them now!
@@ -11149,6 +11158,16 @@ PIN_WALL-E_NAME|WALL•E TALISMAN
 PIN_WALL-E_DESC|Ta-da!
 PIN_EVE_NAME|EVE TALISMAN
 PIN_EVE_DESC|Directive!
+PIN_CHRISTOPHERROBIN_NAME|CHRISTOPHER ROBIN TALISMAN
+PIN_CHRISTOPHERROBIN_DESC|You are braver than you believe, stronger than you seem, and smarter than you think.
+PIN_KANGA_NAME|KANGA TALISMAN
+PIN_KANGA_DESC|Hello, dears.
+PIN_GOPHER_NAME|GOPHER TALISMAN
+PIN_GOPHER_DESC|Did somebody call for an excavation expert?
+PIN_LUMPY_NAME|LUMPY TALISMAN
+PIN_LUMPY_DESC|I'm a heffalump.
+PIN_LUMPYFLOWERS_NAME|LUMPY FLOWERS TALISMAN
+PIN_LUMPYFLOWERS_DESC|Heffa nice day.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -14871,6 +14890,8 @@ STORE_ITEM_SPECIAL_HUNCHBACKPRINCESSDUO_NAME|PRINCESS DUO BUNDLE
 STORE_ITEM_SPECIAL_HUNCHBACKPRINCESSDUO_DESC|UNLOCK JASMINE AND ARIEL IN THIS LIMITED TIME OFFER. INCLUDES GOLD, GEAR, ABILITY RUNES, AND MORE.
 STORE_ITEM_SPECIAL_HUNCHBACKPRINCESSTEAM_NAME|PRINCESS MEGA BUNDLE
 STORE_ITEM_SPECIAL_HUNCHBACKPRINCESSTEAM_DESC|UNLOCK POCAHONTAS, BELLE, MOANA, AND MULAN, IN THIS LIMITED TIME OFFER. INCLUDES GOLD, LOYALTY COINS, ABILITY RUNES, AND MORE.
+STORE_ITEM_SPECIAL_WINNIETHEPOOHPACK_NAME|WINNIE THE POOH PACK
+STORE_ITEM_SPECIAL_WINNIETHEPOOHPACK_DESC|TRY YOUR LUCK FOR A CHANCE AT WINNIE THE POOH TALISMANS AND GOLD REWARDS. AVAILABLE FOR A LIMITED TIME.
 STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
 STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
 STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
@@ -17494,6 +17515,10 @@ PASSHOLDER_202104_1_SEASON_NAME|PASSHOLDER SEASON 24
 PASSHOLDER_202104_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>9X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 24 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MOANA TOKENS<BR>  * MAUI TOKENS<br>  * GRAMMA TALA TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202104_2_SEASON_NAME|PASSHOLDER SEASON 25
 PASSHOLDER_202104_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>9X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 25 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * BELLE TOKENS<BR>  * MAURICE TOKENS<br>  * MRS. POTTS TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202105_1_SEASON_NAME|PASSHOLDER SEASON 26
+PASSHOLDER_202105_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 26 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MEGARA TOKENS<BR>  * PHIL TOKENS<br>  * PEGASUS TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PVP_MEGARA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MEGARA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MEGARA</color> and <color=#54C5FF>MORTAL POTION</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
+PVP_MEGARA_INBOX_SUBJECT|Megara Enters the PvP Arena!
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MOANA_INBOX_SUBJECT|Moana Enters the PvP Arena!
 PVP_MINNIE_MOUSE_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! Minnie Mouse will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn Minnie Mouse tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
@@ -17749,6 +17774,12 @@ RAYA_OUTFIT_NAME|YOUNG RAYA OUTFIT BUNDLE
 RAYA_OUTFIT_DESC|UNLOCK THE YOUNG RAYA OUTFIT FOR RAYA. INCLUDES BONUS GEMS, GOLD, ABILITY RUNES, AND MORE.
 STORE_ITEM_BO_PEEP_PACK|BO PEEP PACK
 STORE_ITEM_BARLEY_BUNDLE|BARLEY BUNDLE
+EVENT_202105_Hercules_PRESTIGE_A_NAME|PRESTIGE: ZERO TO HERO
+EVENT_202105_Hercules_PRESTIGE_A_L0_NAME|PRESTIGE: ZERO TO HERO I
+EVENT_202105_Hercules_PRESTIGE_A_L1_NAME|PRESTIGE: ZERO TO HERO II
+EVENT_202105_Hercules_PRESTIGE_A_L2_NAME|PRESTIGE: ZERO TO HERO III
+EVENT_202105_Hercules_PRESTIGE_A_L3_NAME|PRESTIGE: ZERO TO HERO IV
+EVENT_202105_Hercules_PRESTIGE_A_L4_NAME|PRESTIGE: ZERO TO HERO V
 EVENT_202104_Batb_PRESTIGE_A_NAME|PRESTIGE: THE BEAST
 EVENT_202104_Batb_PRESTIGE_A_L0_NAME|PRESTIGE: THE BEAST I
 EVENT_202104_Batb_PRESTIGE_A_L1_NAME|PRESTIGE: THE BEAST II
