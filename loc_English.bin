@@ -8,6 +8,8 @@ ABILITY_MAT_B_DESC|Used to upgrade Abilities (LVL 2+).
 ABILITY_MAT_B_NAME|BETA ABILITY RUNE
 ABILITY_MAT_C_DESC|Used to upgrade Abilities (LVL 3).
 ABILITY_MAT_C_NAME|GAMMA ABILITY RUNE
+ABILITY_MAT_D_NAME|DELTA ABILITY RUNE
+ABILITY_MAT_D_DESC|Used to upgrade Abilities.
 ABILITY_MAT_EVENT_TIER_0_DESC|<color=#906f73>TITLE GOES HERE</color><br>Ability Upgrade Materials<br><br>Recommended Level: 10<br>Stars: 1
 ABILITY_MAT_EVENT_TIER_0_NAME|WINTER WONDER ONE
 ABILITY_MAT_EVENT_TIER_1_DESC|<color=#906f73>TITLE GOES HERE</color><br>Ability Upgrade Materials<br><br>Recommended Level: 20<br>Stars: 2
@@ -330,6 +332,7 @@ ALADDIN_ABILBASIC_NAME|Street Rat Strike
 ALADDIN_ABILPASSIVE_DESC_01|On receiving damage, <color=#FEF8E4>{0:P0}</color> - <color=#FEF8E4>{1:P0}</color> chance to restore <color=#5DFF89>{2:N0}</color> Health <color=#FEF8E4>{3:N0}</color> time to this character.<br><br>Chance to activate is increased the lower this character's Health is.
 ALADDIN_ABILPASSIVE_DESC_02|On receiving damage, <color=#FEF8E4>{0:P0}</color> - <color=#FEF8E4>{1:P0}</color> chance to restore <color=#5DFF89>{2:N0}</color> Health <color=#FEF8E4>{3:N0}</color> times to this character.<br><br>Chance to activate is increased the lower this character's Health is.
 ALADDIN_ABILPASSIVE_NAME|Thief's Cure
+ALADDIN_ABILPASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> number of times Health is restored. Reduce Magic by <color=#FEF8E4>1</color>.
 ALADDIN_ABILPROC_ABILPREVIEWUPGRADE_APPLES_INCREASE_01|Increases apples eaten by 1.
 ALADDIN_ABILPROC_DESC_BASE|Chomps down on <color=#FEF8E4>{3:N0}</color> apple(s), restoring <color=#5DFF89>{0:N0}</color> Health in total.<br><br><color=#FEF8E4>{1:P0}</color> - <color=#FEF8E4>{2:P0}</color> chance to activate upon receiving damage based upon the amount of Aladdin's missing Health.<br><br>Cannot occur more often than once every <color=#FEF8E4>{4:N0}s</color>.
 ALADDIN_ABILPROC_NAME|Thief's Cure
@@ -808,6 +811,8 @@ BATTLE_RESTRICTION_DETAILS_TITLE_REQUIRED_FILTER|<color=#89CEF3>MUST HAVE</color
 BATTLE_RESTRICTION_DETAILS_TITLE_REQUIRED_FILTER_FAIL|<color=#89CEF3>MUST HAVE</color> <color=#FF2C5A>{0}</color>: 
 BATTLE_RESTRICTION_DETAILS_TITLE_REQUIRED_SPELLS|<color=#89CEF3>SPELLS</color>: 
 BATTLE_RESTRICTION_DETAILS_TITLE_REQUIRED_UNITS|<color=#89CEF3>CHARACTERS</color>: 
+BATTLE_RESTRICTION_DETAILS_TITLE_EXCLUDED_UNITS|<color=#89CEF3>EXCLUDED</color>: 
+BATTLE_RESTRICTION_DETAILS_TITLE_EXCLUDED_UNITS_NO_FORMAT|EXCLUDED UNITS: 
 BATTLE_RESTRICTION_DETAILS_TITLE_SPELL_CATEGORIES|<color=#89CEF3>SPELL CATEGORIES</color>: 
 BATTLE_RESTRICTION_DETAILS_TITLE_SPELL_CATEGORIES_NO_FORMAT|SPELL CATEGORIES: 
 BATTLE_RESTRICTION_DETAILS_TITLE_SPELL_RESTRICTIONS|SPELL RESTRICTIONS
@@ -1165,6 +1170,21 @@ BUZZLIGHTYEAR_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage t
 BUZZLIGHTYEAR_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{2:P0}</color> bonus damage if target is affected by Vulnerable.<br><br>Inflict Stun for <color=#FEF8E4>{1:N0}</color> turn.
 BUZZLIGHTYEAR_UNIT_NAME|BUZZ LIGHTYEAR
 BUZZ_LIGHTYEAR_INTERGALACTIC_UNIT_NAME|INTERGALACTIC BUZZ LIGHTYEAR
+CAMPAIGNS|CAMPAIGNS
+CAMPAIGN_ENTRY_REQUIREMENTS|ENTRY REQUIREMENTS
+CAMPAIGN_INFO|{0} INFO
+CAMPAIGN_GROUP_MAIN|MAIN
+CAMPAIGN_GROUP_SIDE|SIDE
+CAMPAIGN_REQUIRES_CAMPAIGN|COMPLETE {0}
+CAMPAIGN_REQUIRES_LEVEL|REQUIRES LEVEL {0}
+CAMPAIGN_REQUIRES_STARS|REQUIRES {1} {0}
+CAMPAIGN_REQUIRES|REQUIRES:
+CAMPAIGN_STARTS_IN|STARTS IN:
+CAMPAIGN_UNLOCKS_IN|UNLOCKS IN:
+CAMPAIGN_COMING_SOON_MISC|COMING SOON
+CAMPAIGN_LOCKED_MORE_INFO|LOCKED: TAP FOR INFO
+CAMPAIGN_SATISFIED|<color=#8BEB77>• {0}</color>
+CAMPAIGN_UNSATISFIED|<color=#FF536F>• {0}</color>
 CAMPAIGNNODE_01_A_NAME|1-A
 CAMPAIGNNODE_01_B_NAME|1-B
 CAMPAIGNNODE_01_C_NAME|1-C
@@ -1177,6 +1197,11 @@ CAMPAIGNNODE_01_I_NAME|1-I
 CAMPAIGNNODE_01_J_NAME|1-J
 CAMPAIGNNODE_01_K_NAME|1-K
 CAMPAIGNNODE_01_L_NAME|1-L
+CAMPAIGNNODE_01_M_NAME|1-M
+CAMPAIGNNODE_01_N_NAME|1-N
+CAMPAIGNNODE_01_O_NAME|1-O
+CAMPAIGNNODE_01_P_NAME|1-P
+CAMPAIGNNODE_01_Q_NAME|1-Q
 CAMPAIGNNODE_02_A_ELITE_NAME|2-A ELITE
 CAMPAIGNNODE_02_A_NAME|2-A
 CAMPAIGNNODE_02_B_ELITE_NAME|2-B ELITE
@@ -1195,6 +1220,11 @@ CAMPAIGNNODE_02_I_NAME|2-I
 CAMPAIGNNODE_02_J_NAME|2-J
 CAMPAIGNNODE_02_K_NAME|2-K
 CAMPAIGNNODE_02_L_NAME|2-L
+CAMPAIGNNODE_02_M_NAME|2-M
+CAMPAIGNNODE_02_N_NAME|2-N
+CAMPAIGNNODE_02_O_NAME|2-O
+CAMPAIGNNODE_02_P_NAME|2-P
+CAMPAIGNNODE_02_Q_NAME|2-Q
 CAMPAIGNNODE_03_A_ELITE_NAME|3-A ELITE
 CAMPAIGNNODE_03_A_NAME|3-A
 CAMPAIGNNODE_03_B_ELITE_NAME|3-B ELITE
@@ -1335,6 +1365,8 @@ CAMPAIGN_REWARD_NODE_LOCKED|COMPLETE ALL BATTLES TO UNLOCK
 CAMPAIGN_REWARD_NODE_TEXT|PRIZE
 CAMPAIGN_START|START
 CAMPAIGN_TITLE_DESCRIPTION_TEXT|<size=85%><color=#ffa193>EARN TOKENS IN ELITE MODE
+CAMPAIGN_STORE_TITLE|CAMPAIGN STORE
+CAMPAIGN_DISABLED|THIS CAMPAIGN IS CURRENTLY UNAVAILABLE
 CAPTAINGANTU_ABILBASIC_NAME|Plasma Blast
 CAPTAINGANTU_ABILPASSIVEA_NAME|Kreplok System Lineage
 CAPTAINGANTU_ABILSPECIALA_NAME|Abomination!
@@ -1401,7 +1433,7 @@ CAPTAINHOOK_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to 
 CAPTAINHOOK_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Damage dealt is increased by <color=#FEF8E4>{1:P0}</color> if target is affected by Shield.
 CAPTAINHOOK_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance for teammates to Assist. Bonus <color=#FEF8E4>{1:P0}</color> chance for Oceanic teammates to Assist.
 CAPTAINHOOK_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance for teammates to Assist.
-CAPTAINHOOK_SPECIALB_ABILPREVIEWUPGRADE_03|+<color=#FEF8E4>+{0:N0}</color> Helpful effect copied.
+CAPTAINHOOK_SPECIALB_ABILPREVIEWUPGRADE_03|+<color=#FEF8E4>{0:N0}</color> Helpful effect copied.
 CAPTAINHOOK_SPECIALB_DESC_01|Inflict Vulnerable on target opponent. Copy <color=#FEF8E4>{0:N0}</color> Helpful effect from target opponent to this character.
 CAPTAINHOOK_SPECIALB_DESC_02|Inflict Vulnerable on target opponent. Copy <color=#FEF8E4>{0:N0}</color> Helpful effect from target opponent to this character.<br><br><color=#FEF8E4>{1:P0}</color> chance for teammates to Assist. Bonus <color=#FEF8E4>{2:P0}</color> chance for Oceanic teammates to Assist.
 CAPTAINHOOK_UNIT_NAME|CAPTAIN HOOK
@@ -2094,15 +2126,19 @@ COBRABUBBLES_PASSIVEA_ABILPREVIEWUPGRADE_01|Each time a teammate takes damage, C
 COBRABUBBLES_PASSIVEA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> Speed Meter gained.
 COBRABUBBLES_PASSIVEA_DESC_01|On start of turn, <color=#FEF8E4>{0:P0}</color> chance to grant or extend Tactics on a random teammate for <color=#FEF8E4>{1:N0}</color> turn.<br><br>When a teammate with Tactics attacks, Cobra is called to assist.
 COBRABUBBLES_PASSIVEA_DESC_02|On start of turn, <color=#FEF8E4>{0:P0}</color> chance to grant or extend Tactics on a random teammate for <color=#FEF8E4>{1:N0}</color> turn.<br><br>When a teammate with Tactics attacks, Cobra is called to assist.<br><br>Each time a teammate takes damage, Cobra gains <color=#FEF8E4>{2:P0}</color> Speed Meter, doubled if the teammate is "Lilo & Stitch."
-COBRABUBBLES_SPECIALA_ABILPREVIEWUPGRADE_01|Speed Meter removal doubled if Cobra has Tactics.
+COBRABUBBLES_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Silence for <color=#FEF8E4>{1:N0}</color> turn.
+COBRABUBBLES_SPECIALA_ABILPREVIEWUPGRADE_02|Speed Meter removal doubled if Cobra has Tactics.
 COBRABUBBLES_SPECIALA_DESC_01|Purge <color=#FEF8E4>{0:N0}</color> random Helpful effect on target opponent. Inflict Intimidate for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Remove <color=#FEF8E4>{2:P0}</color> Speed Meter from the target.<br><br>This ability has bonus Potency equal to Cobra's current Health percent.
-COBRABUBBLES_SPECIALA_DESC_02|Purge <color=#FEF8E4>{0:N0}</color> random Helpful effect on target opponent. Inflict Intimidate and Silence for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Remove <color=#FEF8E4>{2:P0}</color> Speed Meter from the target.<br><br>This ability has bonus Potency equal to Cobra's current Health percent.
-COBRABUBBLES_SPECIALA_DESC_03|Purge <color=#FEF8E4>{0:N0}</color> random Helpful effect on target opponent. Inflict Intimidate and Silence for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Remove <color=#FEF8E4>{2:P0}</color> Speed Meter from the target, doubled if Cobra has Tactics.<br><br>This ability has bonus Potency equal to Cobra's current Health percent.
+COBRABUBBLES_SPECIALA_DESC_02|Purge <color=#FEF8E4>{0:N0}</color> random Helpful effect on target opponent. Inflict Intimidate for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{3:P0}</color> chance to inflict Silence for <color=#FEF8E4>{4:N0}</color> turn.<br><br>Remove <color=#FEF8E4>{2:P0}</color> Speed Meter from the target.<br><br>This ability has bonus Potency equal to Cobra's current Health percent.
+COBRABUBBLES_SPECIALA_DESC_03|Purge <color=#FEF8E4>{0:N0}</color> random Helpful effect on target opponent. Inflict Intimidate for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{3:P0}</color> chance to inflict Silence for <color=#FEF8E4>{4:N0}</color> turn.<br><br>Remove <color=#FEF8E4>{2:P0}</color> Speed Meter from the target, doubled if Cobra has Tactics.<br><br>This ability has bonus Potency equal to Cobra's current Health percent.
 COBRABUBBLES_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+1</color> effect Cleansed if the target is Oceanic.
 COBRABUBBLES_SPECIALB_ABILPREVIEWUPGRADE_02|Speed Meter gain is doubled if the target is "Lilo & Stitch."
-COBRABUBBLES_SPECIALB_DESC_01|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate.<br><br>The target gains Speed Meter equal to their missing Health percent.<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turns.
-COBRABUBBLES_SPECIALB_DESC_02|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. <color=#FEF8E4>+1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent.<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turns.
-COBRABUBBLES_SPECIALB_DESC_03|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. +<color=#FEF8E4>1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent, doubled if the target is "Lilo & Stitch."<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turns.
+COBRABUBBLES_SPECIALB_DESC_01|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate.<br><br>The target gains Speed Meter equal to their missing Health percent.<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turn. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turn and Offense Up for <color=#FEF8E4>{3:N0}</color> turn.
+COBRABUBBLES_SPECIALB_DESC_02|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. <color=#FEF8E4>+1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent.<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turn. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turn and Offense Up for <color=#FEF8E4>{3:N0}</color> turn.
+COBRABUBBLES_SPECIALB_DESC_03|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. <color=#FEF8E4>+1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent.<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turn and Offense Up for <color=#FEF8E4>{3:N0}</color> turn.
+COBRABUBBLES_SPECIALB_DESC_04|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. <color=#FEF8E4>+1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent, doubled if the target is "Lilo & Stitch."<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turn and Offense Up for <color=#FEF8E4>{3:N0}</color> turn.
+COBRABUBBLES_SPECIALB_DESC_05|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. <color=#FEF8E4>+1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent, doubled if the target is "Lilo & Stitch."<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turn and Offense Up for <color=#FEF8E4>{3:N0}</color> turns.
+COBRABUBBLES_SPECIALB_DESC_06|Cleanse <color=#FEF8E4>{0:N0}</color> random Harmful effect on target teammate. <color=#FEF8E4>+1</color> effect Cleansed if the target is Oceanic.<br><br>The target gains Speed Meter equal to their missing Health percent, doubled if the target is "Lilo & Stitch."<br><br>Cobra and the target gain Tactics for <color=#FEF8E4>{1:N0}</color> turns. The target gains Haste for <color=#FEF8E4>{2:N0}</color> turns and Offense Up for <color=#FEF8E4>{3:N0}</color> turns.
 COBRABUBBLES_UNIT_NAME|COBRA BUBBLES
 BATTLE_EFFECT_INCREASE_BASE_DEFENSE|DEFENSE INCREASED
 BATTLE_EFFECT_INCREASE_BASE_CRIT_CHANCE|CRIT CHANCE INCREASED
@@ -2171,6 +2207,39 @@ COOP_FINDING_MATCH|<color=#FFC002>Searching for an ally...</color>
 COOP_INVITE_DECLINED_MATCH|<color=#FF596B>Your request was declined.</color><br><br>Try again!
 COOP_WAITING_FOR_CLUB|<color=#FFC002>Waiting for a Club Member to accept your request...</color>
 COOP_WAITING_FOR_FRIEND|<color=#FFC002>Waiting for a friend to accept your request...</color>
+CRUELLADEVIL_UNIT_NAME|CRUELLA
+CRUELLADEVIL_ABILBASIC_NAME|Blast This Pen!
+CRUELLADEVIL_ABILSPECIALA_NAME|Name Your Price, Dear
+CRUELLADEVIL_ABILSPECIALB_NAME|After Them!
+CRUELLADEVIL_ABILPASSIVEA_NAME|You're Such A Wit
+CRUELLADEVIL_ABILPASSIVEB_NAME|I Live For Furs
+CRUELLADEVIL_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.  <br><br>Inflict <color=#FEF8E4>{1:N0}</color> of the following Harmful effects, prioritizing effects target is not inflicted with:<br>Blind for <color=#FEF8E4>{2:N0}</color> turn.<br>Heal Block for <color=#FEF8E4>{3:N0}</color> turns.<br>Offense Down for <color=#FEF8E4>{4:N0}</color> turn.<br>Continuous Damage dealing <color=#FFC400>{5:N0}</color> damage over <color=#FEF8E4>{6:N0}</color> turns.
+CRUELLADEVIL_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.  Deal <color=#FEF8E4>{7:P0}</color> bonus damage to Summoned opponents. <br><br>Inflict <color=#FEF8E4>{1:N0}</color> of the following Harmful effects, prioritizing effects target is not inflicted with:<br>Blind for <color=#FEF8E4>{2:N0}</color> turn.<br>Heal Block for <color=#FEF8E4>{3:N0}</color> turns.<br>Offense Down for <color=#FEF8E4>{4:N0}</color> turn.<br>Continuous Damage dealing <color=#FFC400>{5:N0}</color> damage over <color=#FEF8E4>{6:N0}</color> turns.
+CRUELLADEVIL_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> to target opponent.  Deal <color=#FEF8E4>{7:P0}</color> bonus damage to Summoned opponents. <br><br>Inflict <color=#FEF8E4>{1:N0}</color> of the following Harmful effects, prioritizing effects target is not inflicted with:<br>Blind for <color=#FEF8E4>{2:N0}</color> turn.<br>Heal Block for <color=#FEF8E4>{3:N0}</color> turns.<br>Offense Down for <color=#FEF8E4>{4:N0}</color> turn.<br>Continuous Damage dealing <color=#FFC400>{5:N0}</color> damage over <color=#FEF8E4>{6:N0}</color> turns.<br><br>Inflict <color=#FEF8E4>{8:N0}</color> additional effect if you have at least <color=#FEF8E4>{9:N0}</color> other non-Summoned Villain teammates.
+CRUELLADEVIL_BASIC_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> to target opponent.  Deal <color=#FEF8E4>{7:P0}</color> bonus damage to Summoned opponents. <br><br>Inflict <color=#FEF8E4>{1:N0}</color> of the following Harmful effects, prioritizing effects they are not inflicted with:<br>Blind for <color=#FEF8E4>{2:N0}</color> turn.<br>Heal Block for <color=#FEF8E4>{3:N0}</color> turns.<br>Offense Down for <color=#FEF8E4>{4:N0}</color> turn.<br>Continuous Damage dealing <color=#FFC400>{5:N0}</color> damage over <color=#FEF8E4>{6:N0}</color> turns.<br><br>Inflict <color=#FEF8E4>{8:N0}</color> additional effect if you have at least <color=#FEF8E4>{9:N0}</color> other non-Summoned Villain teammates.<br>Inflict <color=#FEF8E4>{8:N0}</color> additional effect if you have at least <color=#FEF8E4>{10:N0}</color> other non-Summoned Villain teammates.
+CRUELLADEVIL_BASIC_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage to Summoned opponents.
+CRUELLADEVIL_BASIC_ABILPREVIEWUPGRADE_02|Inflict <color=#FEF8E4>{0:N0}</color> additional effect if you have <color=#FEF8E4>{1:N0}</color> other non-Summoned Villain teammates.
+CRUELLADEVIL_SPECIALA_DESC_01|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate. Transfer <color=#FEF8E4>{1:N0}</color> Helpful effects from target to this character, excluding Taunt and Protect. Restore <color=#FEF8E4>{2:P0}</color> bonus Health per effect Transferred.<br><br>If target is Summoned do the following:<br><br>Instantly Defeat it to restore <color=#5DFF89>{3:N0}</color> Health to all teammates. Grant Defense Up for <color=#FEF8E4>{4:N0}</color> turns to non-Summoned Villain teammates.
+CRUELLADEVIL_SPECIALA_DESC_02|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate. Transfer <color=#FEF8E4>{1:N0}</color> Helpful effects from target to this character, excluding Taunt and Protect. Restore <color=#FEF8E4>{2:P0}</color> bonus Health per effect Transferred. Copy each effect Transferred to <color=#FEF8E4>{5:N0}</color> other non-Summoned Villain teammate.<br><br>If target is Summoned do the following:<br> <br>Instantly Defeat it to restore <color=#5DFF89>{3:N0}</color> Health to all teammates. Grant Defense Up for <color=#FEF8E4>{4:N0}</color> turns to non-Summoned Villain teammates.
+CRUELLADEVIL_SPECIALA_DESC_03|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate. Transfer <color=#FEF8E4>{1:N0}</color> Helpful effects from target to this character, excluding Taunt and Protect. Restore <color=#FEF8E4>{2:P0}</color> bonus Health per effect Transferred. Copy each effect Transferred to <color=#FEF8E4>{5:N0}</color> other non-Summoned Villain teammates.<br><br>If target is Summoned do the following:<br><br>Instantly Defeat it to restore <color=#5DFF89>{3:N0}</color> Health to all teammates. Grant Defense Up for <color=#FEF8E4>{4:N0}</color> turns to non-Summoned Villain teammates.
+CRUELLADEVIL_SPECIALA_ABILPREVIEWUPGRADE_01|Copy each effect Transferred to <color=#FEF8E4>{0:N0}</color> other non-Summoned Villain teammate.
+CRUELLADEVIL_SPECIALA_ABILPREVIEWUPGRADE_02|Copy effects to <color=#FEF8E4>+{0:N0}</color> other non-Summoned Villain teammates.
+CRUELLADEVIL_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage to the opponent with lowest Health.<br><br><color=#FEF8E4>{2:P0}</color> chance to transfer <color=#FEF8E4>{3:N0}</color> Helpful effect (excluding Taunt and Protect) from each opponent to a random non-Summoned teammate.
+CRUELLADEVIL_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage to the opponent with lowest Health.<br><br><color=#FEF8E4>{2:P0}</color> chance to transfer <color=#FEF8E4>{3:N0}</color> Helpful effect (excluding Taunt and Protect) from each opponent to a random non-Summoned teammate. If teammate is a Villain, restore <color=#5DFF89>{4:N0}</color> Health to them.
+CRUELLADEVIL_SPECIALB_ABILPREVIEWUPGRADE_01|If teammate is a Villain, restore Health to them.
+CRUELLADEVIL_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to transfer Helpful effect.
+CRUELLADEVIL_PASSIVEA_DESC_01|When your team defeats an opponent, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.
+CRUELLADEVIL_PASSIVEA_DESC_02|When your team defeats an opponent, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.<br><br>If defeated opponent was Summoned, grant <color=#FEF8E4>{4:N0}</color> random Helpful effect to non-Summoned Villain teammates.
+CRUELLADEVIL_PASSIVEA_DESC_03|When your team defeats an opponent, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.<br><br>If defeated opponent was Summoned, grant <color=#FEF8E4>{4:N0}</color> random Helpful effects to non-Summoned Villain teammates.
+CRUELLADEVIL_PASSIVEA_ABILPREVIEWUPGRADE_01|If defeated opponent was Summoned, grant <color=#FEF8E4>{0:N0}</color> random Helpful effect to non-Summoned Villain teammates.
+CRUELLADEVIL_PASSIVEA_ABILPREVIEWUPGRADE_02|Extend effect for <color=#FEF8E4>+{0:N0}</color> teammates.
+CRUELLADEVIL_PASSIVEA_ABILPREVIEWUPGRADE_03|Extend effect for <color=#FEF8E4>+{0:N0}</color> opponents.
+CRUELLADEVIL_PASSIVEA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Helpful effect on Summoned defeat.
+CRUELLADEVIL_PASSIVEB_DESC_01|This character has <color=#FEF8E4>{0:P0}</color> bonus Defense for each Helpful effect on them, up to a max of <color=#FEF8E4>{1:N0}</color> Helpful effects.
+CRUELLADEVIL_PASSIVEB_DESC_02|This character has <color=#FEF8E4>{0:P0}</color> bonus Defense for each Helpful effect on them, up to a max of <color=#FEF8E4>{1:N0}</color> Helpful effects.<br><br>This character takes <color=#FEF8E4>{2:P0}</color> less damage from Summoned opponents.
+CRUELLADEVIL_PASSIVEB_ABILPREVIEWUPGRADE_01|This character takes <color=#FEF8E4>{0:P0}</color> less damage from Summoned opponents.
+CRUELLADEVIL_PASSIVEB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Defense per Helpful effect.
+CRUELLADEVIL_PASSIVEB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> less damage from Summoned opponents.
 CSR_8.0_CONVERSION_COMPENSATION_BODY|Hello Summoners!<br><br>We are very excited for the release of our 8.0 update! As a small token of our appreciation we wanted to reward you with extra Gems to those who have supported us throughout the Beta.  For every real dollar you have spent in-game, we will be giving you Bonus Gems to help you continue on your journey.<br><br>Enjoy,<br>The Disney Sorcerer's Arena Dev Team
 CSR_8.0_CONVERSION_COMPENSATION_SUBJECT|Thank you for your support in setting the ground work for this quest.
 CSR_9.0_SKIN_EXTRA_SHARD_CONVERSION_BODY|Hello Summoners!<br><br>We converted your extra outfit tokens into token shop tokens.<br><br>Enjoy,<br>The Disney Sorcerer's Arena Dev Team
@@ -2614,6 +2683,7 @@ DAVYJONES_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> to bonus Cr
 DAVYJONES_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> bonus Critical Strike chance if opponent is affected by a Harmful effect.
 DAVYJONES_PASSIVE02_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Max Health restored on revive per 'Oceanic Villain' teammate.
 DAVYJONES_PASSIVE02_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Dead Man's Chest Health.
+DAVYJONES_PASSIVE02_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> base max Health restored on spawn.
 DAVYJONES_PASSIVE02_DESC_01|Summon the Dead Man's Chest when this character is defeated. The Dead Man's Chest has <color=#5DFF89>{0:N0}</color> Health.<br><br>Unless it is defeated, this character will revive after <color=#FEF8E4>{1:N0}</color> turn with <color=#FEF8E4>{2:P0}</color> of their max Health restored.<br><br>On revive, summon <color=#FEF8E4>{3:N0}</color> allied Flying Dutchman Crewmates at random locations.
 DAVYJONES_PASSIVE02_DESC_02|Summon the Dead Man's Chest when this character is defeated. The Dead Man's Chest has <color=#5DFF89>{0:N0}</color> Health.<br><br>Unless it is defeated, this character will revive after <color=#FEF8E4>{1:N0}</color> turn with <color=#FEF8E4>{2:P0}</color> of their max Health restored with <color=#FEF8E4>{4:P0}</color> bonus max Health restored per 'Oceanic Villain' teammate (including any Flying Dutchmen Crewmates).<br><br>On revive, summon <color=#FEF8E4>{3:N0}</color> allied Flying Dutchman Crewmates at random locations.
 DAVYJONES_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to summon allied Flying Dutchman crewmate.
@@ -2944,6 +3014,7 @@ EMOTE_MICKEYTHUMBSUP_NAME|MICKEY THUMBS UP EMOTE
 EMOTE_MICKEYTHUMBSUP_DESC|Oh boy!
 EMOTE_MICKEYHEART_NAME|MICKEY HEART EMOTE
 EMOTE_MICKEYHEART_DESC|Have a hand in love.
+EMOTE_PRIDE_NAME|PRIDE HEART EMOTE
 EMPERORZURG_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>3</color> times. Deal up to <color=#FEF8E4>{2:P0}</color> bonus damage the higher the target's Health is.
 EMPERORZURG_PASSIVE02_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to gain Offense Up
 EMPERORZURG_PASSIVE02_DESC_01|On receiving damage, this character has a <color=#FEF8E4>{0:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Chance to activate is increased by <color=#FEF8E4>{2:P0}</color> per Downtown Villain ally.
@@ -3389,7 +3460,128 @@ ENCHANTMENT_ALL_DEFENSE_EVASION_HEALTH_TENACITY_DESC|Increases Defense, Evasion,
 ENCHANTMENT_ALL_DEFENSE_EVASION_OFFENSE_TENACITY_DESC|Increases Defense, Evasion, Offense, and Tenacity when equipped onto a Character.
 ENCHANTMENT_ALL_DEFENSE_EVASION_RECOVERY_TENACITY_DESC|Increases Defense, Evasion, Recovery, and Tenacity when equipped onto a Character.
 ENCHANTMENT_ALL_DEFENSE_HEALTH_SPEED_TENACITY_DESC|Increases Defense, Health, Speed, and Tenacity when equipped onto a Character.
+ENCHANTMENT_ALL_DEFENSE_HEALTH_SPEED_DESC|Increases Defense, Health, and Speed when equipped onto a Character.
 ENCHANTMENT_ALL_HEALTH_RECOVERY_SPEED_TENACITY_DESC|Increases Health, Recovery, Speed, and Tenacity when equipped onto a Character.
+ENCHANTMENT_08_DOWNTOWN_HERO_RECOVERY_SPEED_NAME|WINDY SEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_HEALTH_SPEED_NAME|WINDY HEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_SPEED_NAME|WINDY SHELL AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_OFFENSE_SPEED_NAME|WINDY FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_HEALTH_RECOVERY_NAME|HEARTSEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_RECOVERY_NAME|SHELLED SEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_OFFENSE_RECOVERY_NAME|FIERY SEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_HEALTH_NAME|SHELLED HEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_HEALTH_OFFENSE_NAME|FIERY HEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_OFFENSE_NAME|SHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_RECOVERY_SPEED_NAME|WINDY SEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_HEALTH_SPEED_NAME|WINDY HEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_SPEED_NAME|WINDY SHELL AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_OFFENSE_SPEED_NAME|WINDY FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_HEALTH_RECOVERY_NAME|HEARTSEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_RECOVERY_NAME|SHELLED SEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_OFFENSE_RECOVERY_NAME|FIERY SEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_HEALTH_NAME|SHELLED HEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_HEALTH_OFFENSE_NAME|FIERY HEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_OFFENSE_NAME|SHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_KINGDOM_RECOVERY_SPEED_NAME|WINDY SEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_HEALTH_SPEED_NAME|WINDY HEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_SPEED_NAME|WINDY SHELL AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_OFFENSE_SPEED_NAME|WINDY FIRE AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_HEALTH_RECOVERY_NAME|HEARTSEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_RECOVERY_NAME|SHELLED SEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_OFFENSE_RECOVERY_NAME|FIERY SEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_HEALTH_NAME|SHELLED HEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_HEALTH_OFFENSE_NAME|FIERY HEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_OFFENSE_NAME|SHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_MYTHICAL_RECOVERY_SPEED_NAME|WINDY SEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_HEALTH_SPEED_NAME|WINDY HEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_SPEED_NAME|WINDY SHELL AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_OFFENSE_SPEED_NAME|WINDY FIRE AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_HEALTH_RECOVERY_NAME|HEARTSEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_RECOVERY_NAME|SHELLED SEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_OFFENSE_RECOVERY_NAME|FIERY SEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_HEALTH_NAME|SHELLED HEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_HEALTH_OFFENSE_NAME|FIERY HEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_OFFENSE_NAME|SHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_OCEANIC_RECOVERY_SPEED_NAME|WINDY SEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_HEALTH_SPEED_NAME|WINDY HEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_SPEED_NAME|WINDY SHELL AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_OFFENSE_SPEED_NAME|WINDY FIRE AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_HEALTH_RECOVERY_NAME|HEARTSEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_RECOVERY_NAME|SHELLED SEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_OFFENSE_RECOVERY_NAME|FIERY SEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_HEALTH_NAME|SHELLED HEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_HEALTH_OFFENSE_NAME|FIERY HEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_OFFENSE_NAME|SHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_WILDS_RECOVERY_SPEED_NAME|WINDY SEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_HEALTH_SPEED_NAME|WINDY HEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_SPEED_NAME|WINDY SHELL AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_OFFENSE_SPEED_NAME|WINDY FIRE AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_HEALTH_RECOVERY_NAME|HEARTSEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_RECOVERY_NAME|SHELLED SEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_OFFENSE_RECOVERY_NAME|FIERY SEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_HEALTH_NAME|SHELLED HEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_HEALTH_OFFENSE_NAME|FIERY HEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_OFFENSE_NAME|SHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_HEALTH_RECOVERY_SPEED_NAME|WINDY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_RECOVERY_SPEED_NAME|WINDY SEEDSHELL AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_OFFENSE_RECOVERY_SPEED_NAME|WINDY FIRESEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_HEALTH_SPEED_NAME|WINDY HEARTSHELL AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_HEALTH_OFFENSE_SPEED_NAME|WINDY FIREHEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_OFFENSE_SPEED_NAME|WINDY FIRESHELL AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_HEALTH_RECOVERY_NAME|SHELLED HEARTSEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_HEALTH_OFFENSE_RECOVERY_NAME|FIERY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_OFFENSE_RECOVERY_NAME|SHELLED FIRESEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_HEALTH_OFFENSE_NAME|SHELLED FIREHEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_HEALTH_RECOVERY_SPEED_NAME|WINDY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_RECOVERY_SPEED_NAME|WINDY SEEDSHELL AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_OFFENSE_RECOVERY_SPEED_NAME|WINDY FIRESEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_HEALTH_SPEED_NAME|WINDY HEARTSHELL AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_HEALTH_OFFENSE_SPEED_NAME|WINDY FIREHEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_OFFENSE_SPEED_NAME|WINDY FIRESHELL AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_HEALTH_RECOVERY_NAME|SHELLED HEARTSEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_HEALTH_OFFENSE_RECOVERY_NAME|FIERY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_OFFENSE_RECOVERY_NAME|SHELLED FIRESEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_HEALTH_OFFENSE_NAME|SHELLED FIREHEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_KINGDOM_HEALTH_RECOVERY_SPEED_NAME|WINDY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_RECOVERY_SPEED_NAME|WINDY SEEDSHELL AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_OFFENSE_RECOVERY_SPEED_NAME|WINDY FIRESEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_HEALTH_SPEED_NAME|WINDY HEARTSHELL AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_HEALTH_OFFENSE_SPEED_NAME|WINDY FIREHEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_OFFENSE_SPEED_NAME|WINDY FIRESHELL AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_HEALTH_RECOVERY_NAME|SHELLED HEARTSEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_HEALTH_OFFENSE_RECOVERY_NAME|FIERY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_OFFENSE_RECOVERY_NAME|SHELLED FIRESEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_HEALTH_OFFENSE_NAME|SHELLED FIREHEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_MYTHICAL_HEALTH_RECOVERY_SPEED_NAME|WINDY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_RECOVERY_SPEED_NAME|WINDY SEEDSHELL AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_OFFENSE_RECOVERY_SPEED_NAME|WINDY FIRESEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_HEALTH_SPEED_NAME|WINDY HEARTSHELL AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_HEALTH_OFFENSE_SPEED_NAME|WINDY FIREHEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_OFFENSE_SPEED_NAME|WINDY FIRESHELL AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_HEALTH_RECOVERY_NAME|SHELLED HEARTSEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_HEALTH_OFFENSE_RECOVERY_NAME|FIERY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_OFFENSE_RECOVERY_NAME|SHELLED FIRESEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_HEALTH_OFFENSE_NAME|SHELLED FIREHEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_OCEANIC_HEALTH_RECOVERY_SPEED_NAME|WINDY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_RECOVERY_SPEED_NAME|WINDY SEEDSHELL AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_OFFENSE_RECOVERY_SPEED_NAME|WINDY FIRESEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_HEALTH_SPEED_NAME|WINDY HEARTSHELL AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_HEALTH_OFFENSE_SPEED_NAME|WINDY FIREHEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_OFFENSE_SPEED_NAME|WINDY FIRESHELL AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_HEALTH_RECOVERY_NAME|SHELLED HEARTSEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_HEALTH_OFFENSE_RECOVERY_NAME|FIERY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_OFFENSE_RECOVERY_NAME|SHELLED FIRESEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_HEALTH_OFFENSE_NAME|SHELLED FIREHEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_WILDS_HEALTH_RECOVERY_SPEED_NAME|WINDY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_RECOVERY_SPEED_NAME|WINDY SEEDSHELL AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_OFFENSE_RECOVERY_SPEED_NAME|WINDY FIRESEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_HEALTH_SPEED_NAME|WINDY HEARTSHELL AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_HEALTH_OFFENSE_SPEED_NAME|WINDY FIREHEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_OFFENSE_SPEED_NAME|WINDY FIRESHELL AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_HEALTH_RECOVERY_NAME|SHELLED HEARTSEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_HEALTH_OFFENSE_RECOVERY_NAME|FIERY HEARTSEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_OFFENSE_RECOVERY_NAME|SHELLED FIRESEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_HEALTH_OFFENSE_NAME|SHELLED FIREHEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
 ENCHANTMENT_08_ATTACK_SPEED_HEALTH_NAME|WINDY HEART GEM (T8)
 ENCHANTMENT_08_ATTACK_SPEED_NAME|WIND GEM (T8)
 ENCHANTMENT_08_CRIT_CHANCE_HEALTH_NAME|LUCKY HEART GEM (T8)
@@ -3406,6 +3598,92 @@ ENCHANTMENT_08_OFFENSE_NAME|FIRE GEM (T8)
 ENCHANTMENT_08_OFFENSE_RECOVERY_NAME|FIRESEED GEM (T8)
 ENCHANTMENT_08_RECOVERY_NAME|SEED GEM (T8)
 ENCHANTMENT_08_SPEED_NAME|WIND GEM (T8)
+ENCHANTMENT_REAGENT_08_A_01_DOWNTOWN_HERO_NAME|GRANITE CHIP (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_REAGENT_08_A_02_DOWNTOWN_HERO_NAME|MIRAGE (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_REAGENT_08_A_FINAL_DOWNTOWN_HERO_NAME|GRANITE SLAB (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_REAGENT_08_A_01_DOWNTOWN_VILLAIN_NAME|GLASS SHARD (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_REAGENT_08_A_02_DOWNTOWN_VILLAIN_NAME|MIRAGE (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_REAGENT_08_A_FINAL_DOWNTOWN_VILLAIN_NAME|SHATTERED GLASS (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_REAGENT_08_A_01_KINGDOM_NAME|COPPER ORE (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_REAGENT_08_A_02_KINGDOM_NAME|MIRAGE (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_REAGENT_08_A_FINAL_KINGDOM_NAME|COPPER BAR (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_REAGENT_08_A_01_MYTHICAL_NAME|CHIMERA FUR (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_REAGENT_08_A_02_MYTHICAL_NAME|MIRAGE (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_REAGENT_08_A_FINAL_MYTHICAL_NAME|CHIMERA YARN (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_REAGENT_08_A_01_OCEANIC_NAME|BRINICLE CHIP (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_REAGENT_08_A_02_OCEANIC_NAME|MIRAGE (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_REAGENT_08_A_FINAL_OCEANIC_NAME|BRINICLE ORB (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_REAGENT_08_A_01_WILDS_NAME|SAVANNA BLADE (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_REAGENT_08_A_02_WILDS_NAME|MIRAGE (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_REAGENT_08_A_FINAL_WILDS_NAME|SAVANNA GRASS (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_REAGENT_08_NAME|VISION FRAGMENT (T8)
+ENCHANTMENT_CATALYST_08_DEFENSE_EVASION_NAME|TWILIGHT ORCHID (T8)
+ENCHANTMENT_CATALYST_08_HEALTH_RECOVERY_CRIT_POWER_NAME|GLINTING LILAC (T8)
+ENCHANTMENT_CATALYST_08_OFFENSE_TENACITY_ACCURACY_NAME|TORRID DAYLILY (T8)
+ENCHANTMENT_CATALYST_08_SPEED_POTENCY_CRIT_CHANCE_NAME|DAWNING HYACINTH (T8)
+ENCHANTMENT_CURIO_08_RECOVERY_SPEED_NAME|WINDY SEED CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_SPEED_NAME|WINDY HEART CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_SPEED_NAME|WINDY SHELL CURIO (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_SPEED_NAME|WINDY FIRE CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_RECOVERY_NAME|HEARTSEED CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_RECOVERY_NAME|SHELLED SEED CURIO (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_RECOVERY_NAME|FIERY SEED CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_HEALTH_NAME|SHELLED HEART CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_OFFENSE_NAME|FIERY HEART CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_OFFENSE_NAME|SHELLED FIRE CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_RECOVERY_SPEED_NAME|WINDY HEARTSEED CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_RECOVERY_SPEED_NAME|WINDY SEEDSHELL CURIO (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_RECOVERY_SPEED_NAME|WINDY FIRESEED CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_HEALTH_SPEED_NAME|WINDY HEARTSHELL CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_OFFENSE_SPEED_NAME|WINDY FIREHEART CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_OFFENSE_SPEED_NAME|WINDY FIRESHELL CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_HEALTH_RECOVERY_NAME|SHELLED HEARTSEED CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_OFFENSE_RECOVERY_NAME|FIERY HEARTSEED CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_OFFENSE_RECOVERY_NAME|SHELLED FIRESEED CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_HEALTH_OFFENSE_NAME|SHELLED FIREHEART CURIO (T8)
+ENCHANTMENT_REAGENT_08_A_01_DOWNTOWN_HERO_DESC|Component for the following Enchanted Gear recipes:<br><br>GRANITE SLAB (T8)
+ENCHANTMENT_REAGENT_08_A_02_DOWNTOWN_HERO_DESC|Component for the following Enchanted Gear recipes:<br><br>GRANITE SLAB (T8)
+ENCHANTMENT_REAGENT_08_A_FINAL_DOWNTOWN_HERO_DESC|Component for the following Enchanted Gear recipes:<br><br>DOWNTOWN HERO GEAR (T8)
+ENCHANTMENT_REAGENT_08_A_01_DOWNTOWN_VILLAIN_DESC|Component for the following Enchanted Gear recipes:<br><br>SHATTERED GLASS (T8)
+ENCHANTMENT_REAGENT_08_A_02_DOWNTOWN_VILLAIN_DESC|Component for the following Enchanted Gear recipes:<br><br>SHATTERED GLASS (T8)
+ENCHANTMENT_REAGENT_08_A_FINAL_DOWNTOWN_VILLAIN_DESC|Component for the following Enchanted Gear recipes:<br><br>DOWNTOWN VILLAIN GEAR (T8)
+ENCHANTMENT_REAGENT_08_A_01_KINGDOM_DESC|Component for the following Enchanted Gear recipes:<br><br>COPPER BAR (T8)
+ENCHANTMENT_REAGENT_08_A_02_KINGDOM_DESC|Component for the following Enchanted Gear recipes:<br><br>COPPER BAR (T8)
+ENCHANTMENT_REAGENT_08_A_FINAL_KINGDOM_DESC|Component for the following Enchanted Gear recipes:<br><br>KINGDOM GEAR (T8)
+ENCHANTMENT_REAGENT_08_A_01_MYTHICAL_DESC|Component for the following Enchanted Gear recipes:<br><br>CHIMERA YARN (T8)
+ENCHANTMENT_REAGENT_08_A_02_MYTHICAL_DESC|Component for the following Enchanted Gear recipes:<br><br>CHIMERA YARN (T8)
+ENCHANTMENT_REAGENT_08_A_FINAL_MYTHICAL_DESC|Component for the following Enchanted Gear recipes:<br><br>MYTHICAL GEAR (T8)
+ENCHANTMENT_REAGENT_08_A_01_OCEANIC_DESC|Component for the following Enchanted Gear recipes:<br><br>BRINICLE ORB (T8)
+ENCHANTMENT_REAGENT_08_A_02_OCEANIC_DESC|Component for the following Enchanted Gear recipes:<br><br>BRINICLE ORB (T8)
+ENCHANTMENT_REAGENT_08_A_FINAL_OCEANIC_DESC|Component for the following Enchanted Gear recipes:<br><br>OCEANIC GEAR (T8)
+ENCHANTMENT_REAGENT_08_A_01_WILDS_DESC|Component for the following Enchanted Gear recipes:<br><br>SAVANNA GRASS (T8)
+ENCHANTMENT_REAGENT_08_A_02_WILDS_DESC|Component for the following Enchanted Gear recipes:<br><br>SAVANNA GRASS (T8)
+ENCHANTMENT_REAGENT_08_A_FINAL_WILDS_DESC|Component for the following Enchanted Gear recipes:<br><br>WILDS GEAR (T8)
+ENCHANTMENT_REAGENT_08_DESC|Component for many of the T8 Enchanted Gear recipes.
+ENCHANTMENT_CATALYST_08_DEFENSE_EVASION_DESC|Component for Defense and Evasion T8 Enchanted Gear.
+ENCHANTMENT_CATALYST_08_HEALTH_RECOVERY_CRIT_POWER_DESC|Component for Critical Power, Health, and Recovery T8 Enchanted Gear.
+ENCHANTMENT_CATALYST_08_OFFENSE_TENACITY_ACCURACY_DESC|Component for Offense, Precision, and Tenacity T8 Enchanted Gear.
+ENCHANTMENT_CATALYST_08_SPEED_POTENCY_CRIT_CHANCE_DESC|Component for Critical Chance, Potency, and Speed T8 Enchanted Gear.
+ENCHANTMENT_CURIO_08_RECOVERY_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY SEED AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY HEART AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY SHELL AMULET (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY FIRE AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_RECOVERY_DESC|Component for the following Enchanted Gear recipes:<br><br>HEARTSEED AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_RECOVERY_DESC|Component for the following Enchanted Gear recipes:<br><br>SHELLED SEED AMULET (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_RECOVERY_DESC|Component for the following Enchanted Gear recipes:<br><br>FIERY SEED AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_HEALTH_DESC|Component for the following Enchanted Gear recipes:<br><br>SHELLED HEART AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_OFFENSE_DESC|Component for the following Enchanted Gear recipes:<br><br>FIERY HEART AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_OFFENSE_DESC|Component for the following Enchanted Gear recipes:<br><br>SHELLED FIRE AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_RECOVERY_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY HEARTSEED AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_RECOVERY_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY SEEDSHELL AMULET (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_RECOVERY_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY FIRESEED AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_HEALTH_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY HEARTSHELL AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_OFFENSE_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY FIREHEART AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_OFFENSE_SPEED_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDY FIRESHELL AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_HEALTH_RECOVERY_DESC|Component for the following Enchanted Gear recipes:<br><br>SHELLED HEARTSEED AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_OFFENSE_RECOVERY_DESC|Component for the following Enchanted Gear recipes:<br><br>FIERY HEARTSEED AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_OFFENSE_RECOVERY_DESC|Component for the following Enchanted Gear recipes:<br><br>SHELLED FIRESEED AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_HEALTH_OFFENSE_DESC|Component for the following Enchanted Gear recipes:<br><br>SHELLED FIREHEART AMULET (T8)
 ENCHANTMENT_09_ATTACK_SPEED_HEALTH_NAME|WINDY HEART CRYSTAL (T9)
 ENCHANTMENT_09_ATTACK_SPEED_NAME|WIND CRYSTAL (T9)
 ENCHANTMENT_09_CRIT_CHANCE_HEALTH_NAME|LUCKY HEART CRYSTAL (T9)
@@ -3752,7 +4030,7 @@ ENCHANTMENT_REAGENT_07_NAME|DREAM FRAGMENT
 ENCHANTMENT_REAGENT_10_DESC|Combine with T10 Enchanting Quintessence to create an T10 Enchanting Bauble.
 ENCHANTMENT_REAGENT_10_NAME|GLOWING BAUBLE (T10)
 ENCHANTMENT_XX_MYSTERY_DESC|A mysterious relic that radiates with immense energy.<br><br>Its effects are not yet known.
-ENCHANTMENT_XX_MYSTERY_NAME|RELIC OF THE DEPTHS
+ENCHANTMENT_XX_MYSTERY_NAME|CURIO OF THE SKY
 ENCHANTMENT_XX_MYSTERY_UNAVAILABLE_KEY|<sprite=3><color=#ffb705>LEGENDARY ITEM</color><sprite=3><br><size=70%>This powerful relic's whereabouts have not yet been revealed.
 ENERGY_AD_REWARD_BUTTON|<size=70%>WATCH A VIDEO FOR<br>FREE BONUS ENERGY:
 ENERGY_AD_REWARD_MAXED|YOU HAVE CLAIMED ALL FREE BONUS ENERGY TODAY!
@@ -4495,6 +4773,8 @@ INBOX_EVENT_202105_MDFLASHSOON_SUBJECT|Coming Soon - Mother's Day Flash Gifts
 INBOX_EVENT_202105_MDFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Mother's Day Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>May 09 - 15</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202105_MDFLASHGIFT_SUBJECT|Mother's Day Flash Gift
 INBOX_EVENT_202105_MDFLASHGIFT_BODY|Summoner,<BR><BR>You've received a <color=#54C5FF>Mother's Day Flash Gift</color>!<BR><BR>Stay on the lookout for more Flash Gift drops at random times between <color=#54C5FF>May 09 - 15</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202105_CRUELLA_RELEASE_SUBJECT|Cruella Release - Free Gift!
+INBOX_EVENT_202105_CRUELLA_RELEASE_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Cruella Release</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202012_SVEN2X_SUBJECT|2x Sven Token Event
 INBOX_EVENT_202012_SVEN2X_BODY|Summoner,<BR><BR>Earn <color=#54C5FF>2x Sven Tokens</color> for a limited time!<BR><BR>Bonus drops can be found on Grand Campaign 3-C.<BR><BR>Thank you for your continued support, and see you in the Arena!
 BONUS_LOOT_SVEN2X_NAME|2X  SVEN TOKEN EVENT
@@ -5425,28 +5705,32 @@ GASTON_ABILSPECIALB_ABILPREVIEWUPGRADE_CHANCE_BLIND_100PCT|Inflicts <color=#FEF8
 GASTON_ABILSPECIALB_DESC_BASE|Fires a powerful shot from a blunderbuss within the target area, dealing up to <color=#FFC400>{0:N0}</color> Physical damage to all opponents within the line of fire. <br><br>Opponents within the explosive barrel's target area are dealt up to <color=#FFC400>{1:N0}</color> Fire damage.
 GASTON_ABILSPECIALB_DESC_U01|Fires a powerful shot from a blunderbuss within the target area, dealing up to <color=#FFC400>{0:N0}</color> Physical damage to all opponents within the line of fire, and inflicting <color=#FEF8E4><link=BATTLE_EFFECT_BLIND>[BLIND]</link></color> for <color=#FEF8E4>{3:N0}s</color>. <br><br>Opponents within the explosive barrel's target area are dealt up to <color=#FFC400>{1:N0}</color> Fire damage.
 GASTON_ABILSPECIALB_NAME|The Most Magnificent Shot
-GASTON_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to perform a follow up attack and gain Offense Up.
-GASTON_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> base chance to perform a follow up attack. If any teammate is a Villain, increase this chance by <color=#FEF8E4>+{1:P0}</color>.
-GASTON_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> base chance to perform an Extra Attack.
+GASTON_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance per Villain teammate, including self, to perform a follow up attack and gain Offense Up.
+GASTON_BASIC_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> chance per Villain teammate, including self, to perform a follow up attack and gain Offense Up.
+GASTON_BASIC_ABILPREVIEWUPGRADE_03|Follow up attack now inflicts Intimidate for <color=#FEF8E4>{0:N0}</color> turn.
 GASTON_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent
-GASTON_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to perform a follow up attack: Deal up to <color=#FFC400>{2:N0}</color> damage and gain Offense Up for <color=#FEF8E4>{3:N0}</color> turn.
-GASTON_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to perform a follow up attack: Deal up to <color=#FFC400>{2:N0}</color> damage and gain Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If any teammate is a Villain, increase chance to perform a follow up attack by <color=#FEF8E4>{4:P0}</color>.
-GASTON_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to gain Defense Up.
-GASTON_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Health.
-GASTON_PASSIVE_ABILPREVIEWUPGRADE_03|Villain teammates also gain Defense Up.
+GASTON_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br><color=#FEF8E4>{1:P0}</color> chance per Villain teammate, including self, to perform a follow up attack: Deal up to <color=#FFC400>{2:N0}</color> damage. Gain Offense Up for <color=#FEF8E4>{3:N0}</color> turn.
+GASTON_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br><color=#FEF8E4>{1:P0}</color> chance per Villain teammate, including self, to perform a follow up attack: Deal up to <color=#FFC400>{2:N0}</color> damage. Gain Offense Up for <color=#FEF8E4>{3:N0}</color> turn. Inflict Intimidate for <color=#FEF8E4>{4:N0}</color> turn.
+GASTON_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus Health. <color=#FEF8E4>+{0:P0}</color> bonus Potency.
+GASTON_PASSIVE_ABILPREVIEWUPGRADE_02|When Gaston gains Offense Up, <color=#FEF8E4>{0:P0}</color> chance for Villain and Kingdom teammates to gain Defense Up for <color=#FEF8E4>{0:N0}</color> turn.
+GASTON_PASSIVE_ABILPREVIEWUPGRADE_03|+<color=#FEF8E4>{0:P0}</color> chance for Villain and Kingdom teammates to gain Defense Up.
 GASTON_PASSIVE_ABILPREVIEWUPGRADE_04|Guaranteed to gain Defense Up.
-GASTON_PASSIVE_DESC_01|Gain <color=#FEF8E4>{0:P0}</color> bonus maximum Health.<br><br><color=#FEF8E4>{1:P0}</color> chance to gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn whenever this character receives Offense Up.
-GASTON_PASSIVE_DESC_02|Gain <color=#FEF8E4>{0:P0}</color> bonus maximum Health.<br><br><color=#FEF8E4>{1:P0}</color> chance for this character and all Villain teammates to gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn whenever this character receives Offense Up.
+GASTON_PASSIVE_DESC_01|Gaston has <color=#FEF8E4>{0:P0}</color> bonus max Health per Kingdom teammate present at the start of combat.<br><br>Gaston has <color=#FEF8E4>{1:P0}</color> bonus Potency per Villain teammate present at the start of combat.<br><br>When Gaston gains Offense Up, perform the following: Gaston gains Defense Up for <color=#FEF8E4>{2:N0}</color> turn.
+GASTON_PASSIVE_DESC_02|Gaston has <color=#FEF8E4>{0:P0}</color> bonus max Health per Kingdom teammate present at the start of combat.<br><br>Gaston has <color=#FEF8E4>{1:P0}</color> bonus Potency per Villain teammate present at the start of combat.<br><br>When Gaston gains Offense Up, perform the following: Gaston gains Defense Up for <color=#FEF8E4>{2:N0}</color> turn. <color=#FEF8E4>{3:P0}</color> chance for Villain and Kingdom teammates to gain Defense Up for <color=#FEF8E4>{4:N0}</color> turn.
 GASTON_PASSIVE_DESC_03|Gain <color=#FEF8E4>{0:P0}</color> bonus maximum Health.<br><br>This character and all Villain teammates to gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn whenever this character receives Offense Up.
 GASTON_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to grant Haste to all teammates.
 GASTON_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed Meter increase.
-GASTON_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to grant Haste to all teammates.
-GASTON_SPECIALA_DESC_01|This character gains Taunt for <color=#FEF8E4>{0:N0}</color> turn.<br><br><color=#FEF8E4>{1:P0}</color> Speed Meter fill to all teammates.
-GASTON_SPECIALA_DESC_02|This character gains Taunt for <color=#FEF8E4>{0:N0}</color> turn.<br><br><color=#FEF8E4>{1:P0}</color> Speed Meter fill to all teammates. <color=#FEF8E4>{2:P0}</color> chance to grant Haste to all teammates for <color=#FEF8E4>{3:N0}</color> turn.
+GASTON_SPECIALA_ABILPREVIEWUPGRADE_03|Chance to grant Haste increased by <color=#FEF8E4>{0:P0}</color> on Villain teammates.
+GASTON_SPECIALA_DESC_01|This character gains Taunt for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Grant the following to all teammates: <color=#FEF8E4>{1:P0}</color> Speed Meter (increased by <color=#FEF8E4>{2:P0}</color> on Villain teammates).
+GASTON_SPECIALA_DESC_02|This character gains Taunt for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Grant the following to all teammates: <color=#FEF8E4>{1:P0}</color> Speed Meter (increased by <color=#FEF8E4>{2:P0}</color> on Villain teammates). <color=#FEF8E4>{3:P0}</color> chance to grant Haste for <color=#FEF8E4>{4:N0}</color> turn.
+GASTON_SPECIALA_DESC_03|This character gains Taunt for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Grant the following to all teammates: <color=#FEF8E4>{1:P0}</color> Speed Meter (increased by <color=#FEF8E4>{2:P0}</color> on Villain teammates). <color=#FEF8E4>{3:P0}</color> chance to grant Haste (increased by <color=#FEF8E4>{5:P0}</color> on Villain teammates) for <color=#FEF8E4>{4:N0}</color> turn.
 GASTON_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Blind on adjacent opponents.
-GASTON_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Blind on adjacent opponents.
-GASTON_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal up to <color=#FFC400>{1:N0}</color> damage to adjacent opponents.<br><br>Inflict Blind for <color=#FEF8E4>{2:N0}</color> turn on target opponent.
-GASTON_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal up to <color=#FFC400>{1:N0}</color> damage to adjacent opponents.<br><br>Inflict Blind for <color=#FEF8E4>{2:N0}</color> turn on target opponent. <color=#FEF8E4>{3:P0}</color> chance to inflict Blind on adjacent opponents for <color=#FEF8E4>{2:N0}</color> turn.
+GASTON_SPECIALB_ABILPREVIEWUPGRADE_02|Inflict Offense Down on target for <color=#FEF8E4>{0:N0}</color> turns.
+GASTON_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>{0:P0}</color> chance to inflict Offense Down on adjacent opponents for <color=#FEF8E4>{1:N0}</color> turns.
+GASTON_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Blind for <color=#FEF8E4>{2:N0}</color> turn. On Crit, Gaston calls himself to Assist.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to adjacent opponents.
+GASTON_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Blind for <color=#FEF8E4>{2:N0}</color> turn. On Crit, Gaston calls himself to Assist.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Blind for <color=#FEF8E4>{4:N0}</color> turn.
+GASTON_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Blind for <color=#FEF8E4>{2:N0}</color> turn. Inflcit Offense Down for <color=#FEF8E4>{5:N0}</color> turns. On Crit, Gaston calls himself to Assist.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Blind for <color=#FEF8E4>{4:N0}</color> turn.
+GASTON_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Blind for <color=#FEF8E4>{2:N0}</color> turn. Inflcit Offense Down for <color=#FEF8E4>{5:N0}</color> turns. On Crit, Gaston calls himself to Assist.<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Blind for <color=#FEF8E4>{4:N0}</color> turn. <color=#FEF8E4>{6:P0}</color> chance to inflict Offense Down for <color=#FEF8E4>{7:N0}</color> turns.
 GASTON_UNIT_NAME|GASTON
 GASTON_WEDDING_UNIT_NAME|WEDDING DAY GASTON
 GDPR_LOCKOUT_BUTTON_TEXT|Contact Us
@@ -5617,6 +5901,7 @@ GO_GO_TOMAGO_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to
 GO_GO_TOMAGO_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times. Inflict Defense Down for <color=#FEF8E4>{5:N0}</color> turn on each affected opponent.<br><br><color=#FEF8E4>{2:P0}</color> chance to steal Charged on each hit Steal chance increased by <color=#FEF8E4>{3:P0}</color> per Charged on Go Go.<br><br>Can only steal Charged if this character has less than <color=#FEF8E4>{4:N0}</color> Charged.
 GO_GO_TOMAGO_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage to Summoned opponents.
 GO_GO_TOMAGO_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus damage to Summoned opponents.
+GO_GO_TOMAGO_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> bonus damage per Charged.
 GO_GO_TOMAGO_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents <color=#FEF8E4>{1:N0}</color> times. Deal <color=#FEF8E4>{2:P0}</color> additional bonus damage per Charged on Go Go. Lose Charged.<br><br>Steal <color=#FEF8E4>{3:P0}</color> Speed Meter on each hit. This attack is unavoidable.
 GO_GO_TOMAGO_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents <color=#FEF8E4>{1:N0}</color> times. Deal <color=#FEF8E4>{2:P0}</color> additional bonus damage per Charged on Go Go. Deal <color=#FEF8E4>{4:P0}</color> bonus damage to Summoned opponents. Lose Charged.<br><br>Steal <color=#FEF8E4>{3:P0}</color> Speed Meter on each hit. This attack is unavoidable.
 GO_GO_TOMAGO_UNIT_NAME|GO GO TOMAGO
@@ -5765,7 +6050,7 @@ PHIL_SPECIALB_DESC_02|Grant <color=#FEF8E4>{0:N0}</color> Magic for a random abi
 PHIL_SPECIALB_DESC_03|Grant <color=#FEF8E4>{0:N0}</color> Magic for a random ability to target teammate. Increase their Speed Meter by <color=#FEF8E4>{4:P0}</color>.<br><br>If target teammate is affected by Crit Chance Up, remove it and replace it with <color=#FEF8E4>{1:N0}</color> Guaranteed Crit per duration of the removed Crit Chance Up. Otherwise, grant Crit Chance Up for <color=#FEF8E4>{5:N0}</color> turn.<br><br>If target teammate is a Mythical Hero, <color=#FEF8E4>{2:P0}</color> chance per Helpful effect on this character to grant <color=#FEF8E4>{3:N0}</color> additional Magic for a random ability.
 PHIL_SPECIALB_ABILPREVIEWUPGRADE_01|If target teammate is a Mythical Hero, <color=#FEF8E4>{0:P0}</color> chance per Helpful effect on this character to grant <color=#FEF8E4>{1:N0}</color> additional Magic for a random ability.
 PHIL_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> Speed Meter increase for target teammate.
-PHIL_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to grant additional Magic.
+PHIL_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to grant additional Magic per Helpful Effect.
 PHIL_SPECIALB_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Speed Meter increase.
 PHIL_PASSIVEA_DESC_01|On Hero teammate losing a Helpful effect, excluding Invincibility and Taunt, <color=#FEF8E4>{0:P0}</color> chance to grant a copy of that effect to the teammate with its duration refreshed.<br><br>If affected teammate is Hercules, he gains <color=#FEF8E4>{1:N0}</color> Magic for a random ability. If Pegasus is also a teammate, Hercules gains an additional <color=#FEF8E4>{2:N0}</color> magic for a random ability.
 PHIL_PASSIVEA_DESC_02|On Hero teammate losing a Helpful effect, excluding Invincibility, <color=#FEF8E4>{0:P0}</color> chance to grant a copy of that effect to the teammate with its duration refreshed. <color=#FEF8E4>{3:P0}</color> chance to gain <color=#FEF8E4>{4:N0}</color> Magic for this ability if target is Mythical.<br><br>If affected teammate is Hercules, he gains <color=#FEF8E4>{1:N0}</color> Magic for a random ability. If Pegasus is also a teammate, Hercules gains an additional <color=#FEF8E4>{2:N0}</color> magic for a random ability.
@@ -5814,7 +6099,7 @@ HERMES_BASIC_ABILPREVIEWUPGRADE_02|Each hit increases this character's Critical 
 HERMES_SPECIALA_DESC_01|Grant this character Haste for <color=#FEF8E4>{0:N0}</color> turn.<br><br>If this character already has Haste, this character and adjacent teammates gain <color=#FEF8E4>{1:N0}</color> of the following for <color=#FEF8E4>{2:N0}</color> turn: Offense Up, Critical Chance Up, Critical Power Up, Tactics, Unstoppable.
 HERMES_SPECIALA_DESC_02|Grant this character Haste for <color=#FEF8E4>{0:N0}</color> turn.<br><br>If this character already has Haste, this character and adjacent teammates gain <color=#FEF8E4>{3:P0}</color> Speed Meter and <color=#FEF8E4>{1:N0}</color> of the following for <color=#FEF8E4>{2:N0}</color> turn: Offense Up, Critical Chance Up, Critical Power Up, Tactics, Unstoppable.
 HERMES_SPECIALA_ABILPREVIEWUPGRADE_01|If this character has Haste, grant <color=#FEF8E4>{0:P0}</color> Speed Meter to this character and adjacent teammates.
-HERMES_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Helpful Effect.
+HERMES_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Helpful Effect.
 HERMES_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target enemy. If this character has Haste, deal <color=#FFC400>{0:N0}</color> damage to adjacent opponents.<br><br>Extend <color=#FEF8E4>{1:N0}</color> Helpful Effect, excluding Taunt, on a random adjacent teammate.
 HERMES_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target enemy. If this character has Haste, deal <color=#FFC400>{0:N0}</color> damage to adjacent opponents.<br><br>Extend <color=#FEF8E4>{1:N0}</color> Helpful Effect, excluding Taunt, by <color=#FEF8E4>{2:N0}</color> on a random adjacent teammate. If this character has Haste, extend <color=#FEF8E4>{1:N0}</color> Helpful Effect, excluding Taunt, on each adjacent teammate instead.
 HERMES_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target enemy. If this character has Haste, deal <color=#FFC400>{0:N0}</color> damage to adjacent opponents.<br><br>Extend <color=#FEF8E4>{1:N0}</color> Helpful Effects, excluding Taunt, by <color=#FEF8E4>{2:N0}</color> on a random adjacent teammate. If this character has Haste, extend <color=#FEF8E4>{1:N0}</color> Helpful Effects, excluding Taunt, on each adjacent teammate instead.
@@ -5842,18 +6127,19 @@ HIRO_HAMADA_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to tar
 HIRO_HAMADA_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{3:P0}</color> chance to attack all adjacent opponents. Chance increased <color=#FEF8E4>{4:P0}</color> per <color=#FEF8E4>'Tech'</color> teammate. <br><br><color=#FEF8E4>{1:P0}</color> chance to inflict <color=#FEF8E4><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.
 HIRO_HAMADA_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{3:P0}</color> chance to attack all adjacent opponents. Chance increased <color=#FEF8E4>{4:P0}</color> per <color=#FEF8E4>'Tech'</color> teammate. <br><br><color=#FEF8E4>{1:P0}</color> chance to inflict <color=#FEF8E4><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#FEF8E4>{6:P0}</color> chance to assist <color=#FEF8E4>'Tech'</color> teammates' basic attacks. Assist guaranteed if teammate is <color=#FEF8E4>Baymax</color>.
 HIRO_HAMADA_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>'Big Hero 6'</color> teammates gain <color=#FEF8E4>{0:P0}</color> Speed.
+HIRO_HAMADA_LEADER_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> Speed for 'Tech' teammates.
 HIRO_HAMADA_LEADER_DESC_01|<color=#FEF8E4>'Tech'</color> teammates gain <color=#FEF8E4>{0:P0}</color> Speed.
-HIRO_HAMADA_LEADER_DESC_02|<color=#FEF8E4>'Tech'</color> teammates gain <color=#FEF8E4>{0:P0}</color> Speed. <br><br><color=#FEF8E4>'Big Hero 6'</color> teammates gain an additional <color=#FEF8E4>{0:P0}</color> Speed.
+HIRO_HAMADA_LEADER_DESC_02|<color=#FEF8E4>'Tech'</color> teammates gain <color=#FEF8E4>{0:P0}</color> Speed. <br><br><color=#FEF8E4>'Big Hero 6'</color> teammates gain an additional <color=#FEF8E4>{1:P0}</color> Speed.
 HIRO_HAMADA_PASSIVEA_ABILPREVIEWUPGRADE_01|Hiro gains <color=#FEF8E4>{0:P0}</color> Potency per <color=#FEF8E4>'Tech'</color> teammate.
-HIRO_HAMADA_PASSIVEA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> Potency. +<color=#FEF8E4>{1:P0}</color> chance to gain additional <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.
+HIRO_HAMADA_PASSIVEA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> base chance to gain additional Charged.
 HIRO_HAMADA_PASSIVEA_DESC_01|On turn start, Hiro and 1 random <color=#FEF8E4>'Big Hero 6' Hero</color> teammate gain {0:N0} <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. <color=#FEF8E4>{1:P0}</color> chance to gain additional Charged, with an additional <color=#FEF8E4>{2:P0}</color> chance per <color=#FEF8E4>'Tech'</color> teammate.<br><br>Hiro can have up to a maximum of <color=#FEF8E4>{3:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.
 HIRO_HAMADA_PASSIVEA_DESC_02|On turn start, Hiro and 1 random <color=#FEF8E4>'Big Hero 6' Hero</color> teammate gain {0:N0} <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. <color=#FEF8E4>{1:P0}</color> chance to gain additional Charged, with an additional <color=#FEF8E4>{2:P0}</color> chance per <color=#FEF8E4>'Tech'</color> teammate.<br><br>Hiro can have up to a maximum of <color=#FEF8E4>{3:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><br>Hiro gains <color=#FEF8E4>{4:P0}</color> Potency per <color=#FEF8E4>'Tech'</color> teammate.
-HIRO_HAMADA_SPECIALA_ABILPREVIEWUPGRADE_01|Grants affected teammates Evasion.
+HIRO_HAMADA_SPECIALA_ABILPREVIEWUPGRADE_01|Grants affected 'Tech' teammates Evasion.
 HIRO_HAMADA_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> base Shield granted.
 HIRO_HAMADA_SPECIALA_ABILPREVIEWUPGRADE_03|If Baymax is a teammate, grant him Undefeatable.
 HIRO_HAMADA_SPECIALA_DESC_01|Grant all teammates <color=#FEF8E4>{0:N0}</color> Shield. Adds <color=#FEF8E4>{1:N0}</color> Shield per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on Hiro. Consumes <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.
-HIRO_HAMADA_SPECIALA_DESC_02|Grant all teammates <color=#FEF8E4>{0:N0}</color> Shield. Adds <color=#FEF8E4>{1:N0}</color> Shield per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on Hiro. Consumes <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><br>Grants affected teammates <color=#FEF8E4><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color>.
-HIRO_HAMADA_SPECIALA_DESC_03|Grant all teammates <color=#FEF8E4>{0:N0}</color> Shield. Adds <color=#FEF8E4>{1:N0}</color> Shield per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on Hiro. Consumes <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><br>Grants affected teammates <color=#FEF8E4><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color>. <br><br>If <color=#FEF8E4>Baymax</color> is a teammate, grant him <color=#FEF8E4><link=BATTLE_EFFECT_UNKILLABLE>[UNDEFEATABLE]</link></color>.
+HIRO_HAMADA_SPECIALA_DESC_02|Grant all teammates <color=#FEF8E4>{0:N0}</color> Shield. Adds <color=#FEF8E4>{1:N0}</color> Shield per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on Hiro. Consumes <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><br>Grants affected 'Tech' teammates <color=#FEF8E4><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color>.
+HIRO_HAMADA_SPECIALA_DESC_03|Grant all teammates <color=#FEF8E4>{0:N0}</color> Shield. Adds <color=#FEF8E4>{1:N0}</color> Shield per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on Hiro. Consumes <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><br>Grants affected 'Tech' teammates <color=#FEF8E4><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color>. <br><br>If <color=#FEF8E4>Baymax</color> is a teammate, grant him <color=#FEF8E4><link=BATTLE_EFFECT_UNKILLABLE>[UNDEFEATABLE]</link></color>.
 HIRO_HAMADA_SPECIALB_ABILPREVIEWUPGRADE_01|Cleanses Stun from target teammate.
 HIRO_HAMADA_SPECIALB_ABILPREVIEWUPGRADE_02|If target is Baymax, he gains all effects.
 HIRO_HAMADA_SPECIALB_ABILPREVIEWUPGRADE_03|+<color=#FEF8E4>20%</color> Shield. <br> +<color=#FEF8E4>{0:P0}</color> Speed Meter increase.
@@ -5873,6 +6159,7 @@ HOME_DAILY_EVENTS|SUMMONER CHALLENGES
 HOME_EVENT_PREFIX_ACTIVE|ENDS:
 HOME_EVENT_PREFIX_INACTIVE|BEGINS:
 HOME_GRAND_TEXT|GRAND CAMPAIGN
+HOME_ADVENTURE_TEXT|ADVENTURES
 HOME_GUILDS|CLUBS
 HOME_HERO_TEXT|HEROES CAMPAIGN
 HOME_INBOX|INBOX
@@ -7044,6 +7331,12 @@ LOGIN_D7_WINTER_FREE_A_TAB|FREE WINTER CALENDAR
 LOGIN_D25_CHRISTMAS_A_NAME|WINTER LOGIN CALENDAR
 LOGIN_D25_CHRISTMAS_A_SUBTITLE|PURCHASE THIS LIMITED TIME CALENDAR BEFORE TIME RUNS OUT TO GUARANTEE YOURSELF 25 DAYS OF DAILY LOGIN REWARDS
 LOGIN_D25_CHRISTMAS_A_TAB|WINTER CALENDAR
+LOGIN_D7_ASCENSION_ENERGY_A_NAME|ASCENSION ENERGY CALENDAR
+LOGIN_D7_ASCENSION_ENERGY_A_SUBTITLE|LOGIN TO COLLECT ASCENSION ENERGY. PURCHASE TO GUARANTEE 7 DAYS OF REWARDS. <color=#FFBC08>200% VALUE!</color>
+LOGIN_D7_ASCENSION_ENERGY_A_TAB|ASCENSION CALENDAR
+LOGIN_FREE_GEAR_NAME|FREE GEAR CALENDAR
+LOGIN_FREE_GEAR_SUBTITLE|TO CELEBRATE THE LAUNCH OF THE ASCENSION CAMPAIGN - ENJOY A FREE GEAR CALENDAR ON US!
+LOGIN_FREE_GEAR_TAB|FREE GEAR
 LONESOME_GHOST_UNIT_NAME|Lonesome Ghost
 LOSE_A_BATTLE_DESC|Lose 3 Battles
 LOSE_A_BATTLE_NAME|A LOSING EFFORT
@@ -7100,11 +7393,12 @@ LUMIERE_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to targ
 LUMIERE_SPECIALA_ABILPREVIEWUPGRADE_01|Each hit grants <color=#FEF8E4>{0:P0}</color> Speed Meter to a random 'Kingdom' teammate.
 LUMIERE_SPECIALB_DESC_01|Inflict Charm on opponent with highest Offense. Fill their Speed Meter.<br><br>This ability is unavoidable.
 LUMIERE_SPECIALB_DESC_02|Inflict Charm on opponent with highest Offense. Fill their Speed Meter. <color=#FEF8E4>{0:P0}</color> chance to grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn.<br><br>This ability is unavoidable.
-LUMIERE_SPECIALB_DESC_03|Inflict Charm on opponent with highest Offense. Fill their Speed Meter. <color=#FEF8E4>{0:P0}</color> chance to grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to grant that opponent Critical Chance Up for <color=#FEF8E4>{3:P0}</color> turn.<br><br>This ability is unavoidable.
-LUMIERE_SPECIALB_DESC_04|Inflict Charm on opponent with highest Offense. Fill their Speed Meter. Grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn. Grant that opponent Critical Chance Up for <color=#FEF8E4>{3:P0}</color> turn.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALB_DESC_03|Inflict Charm on opponent with highest Offense. Fill their Speed Meter. <color=#FEF8E4>{0:P0}</color> chance to grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to grant that opponent Guaranteed Crit.<br><br>This ability is unavoidable.
+LUMIERE_SPECIALB_DESC_04|Inflict Charm on opponent with highest Offense. Fill their Speed Meter. Grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn. Grant that opponent Guaranteed Crit.<br><br>This ability is unavoidable.
 LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to grant that opponent Offense Up for <color=#FEF8E4>{1:N0}</color> turn.
-LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to grant Offense Up. <color=#FEF8E4>+{1:P0}</color> chance to grant Critical Chance Up.
-LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_03|Guaranteed to grant Offense Up and Critical Chance Up.
+LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to grant Offense Up. <color=#FEF8E4>+{0:P0}</color> chance to grant Guaranteed Crit.
+LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>{0:P0}</color> chance to grant Offense Up and Guaranteed Crit.
+LUMIERE_SPECIALB_ABILPREVIEWUPGRADE_04|Guaranteed to grant Offense Up and Critical Chance Up.
 LUMIERE_PASSIVE_DESC_01|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Crit Chance as bonus Crit Chance to adjacent teammates.<br><br>On this character or adjacent teammate receiving Blind, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Blind.<br><br>If Lumiere, Cogsworth, Mrs. Potts, and Belle are teammates: At the start of battle, fill Belle's Speed Meter.
 LUMIERE_PASSIVE_DESC_02|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Crit Chance as bonus Crit Chance to adjacent teammates.<br><br>On this character or adjacent teammate receiving Blind, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Blind. Chance is increased by <color=#FEF8E4>{2:P0}</color> for 'Kingdom' teammates.<br><br>If Lumiere, Cogsworth, Mrs. Potts, and Belle are teammates: At the start of battle, fill Belle's Speed Meter.
 LUMIERE_PASSIVE_DESC_03|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Crit Chance as bonus Crit Chance to adjacent teammates.<br><br>On this character or adjacent teammate receiving Blind, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Blind. Chance is increased by <color=#FEF8E4>{2:P0}</color> for 'Kingdom' teammates. Guaranteed for 'Beauty and  the Beast' teammates including this character.<br><br>If Lumiere, Cogsworth, Mrs. Potts, and Belle are teammates: At the start of battle, fill Belle's Speed Meter.
@@ -7712,7 +8006,7 @@ MAXIMUS_SPECIALA_DESC_01|Gain Taunt for <color=#FEF8E4>{7:N0}</color> turn and D
 MAXIMUS_SPECIALA_DESC_02|Gain Taunt for <color=#FEF8E4>{7:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turn. Summon <color=#FEF8E4>{1:N0}</color> Royal Guard with full Speed Meter.<BR><BR>Royal Guard: Has <color=#FEF8E4>{2:N0}</color> Health. Has <color=#FEF8E4>{3:N0}</color> Defense. Has the following abilities:<BR><BR>Halberd Strike: Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent.<BR><BR>There!: Inflict Defense Down on target opponent for <color=#FEF8E4>{5:N0}</color> turn. <color=#FEF8E4>{6:P0}</color> chance to inflict Vulnerable.
 MAXIMUS_SPECIALA_DESC_03|Gain Taunt for <color=#FEF8E4>{7:N0}</color> turn and Defense Up for <color=#FEF8E4>{0:N0}</color> turn. Summon <color=#FEF8E4>{1:N0}</color> Royal Guard with full Speed Meter. In Tower and Club Conquest, summon <color=#FEF8E4>{8:N0}</color> additional Royal Guard.<BR><BR>Royal Guard: Has <color=#FEF8E4>{2:N0}</color> Health. Has <color=#FEF8E4>{3:N0}</color> Defense. Has the following abilities:<BR><BR>Halberd Strike: Deal up to <color=#FFC400>{4:N0}</color> damage to target opponent.<BR><BR>There!: Inflict Defense Down on target opponent for <color=#FEF8E4>{5:N0}</color> turn.
 MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_01|'There!' ability gains the following: <color=#FEF8E4>{0:P0}</color> chance to inflict Vulnerable.
-MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Health and <color=#FEF8E4>+{1:P0}</color> Defense for Royal Guards.
+MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Health, <color=#FEF8E4>+{1:P0}</color> Defense, and <color=#FEF8E4>+{2:P0}</color> Offense for Royal Guards.
 MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_03|In Tower and Club Conquest, summon 1 additional Royal Guard.
 MAXIMUS_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance to inflict Vulnerable.
 MAXIMUS_SPECIALB_ABILPREVIEWUPGRADE_01|Inflict Defense Down for <color=#FEF8E4>{0:N0}</color> turn.
@@ -7792,7 +8086,7 @@ MERIDA_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Critical
 MERIDA_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal up to <color=#FFC400>{1:N0}</color> damage to adjacent opponents.<br><br>If Empowered gain the following: This attack is unavoidable.<br><br>Gain <color=#FEF8E4>1</color> Wisp, up to a maximum of <color=#FEF8E4>4</color> Wisps. <color=#FEF8E4>{2:P0}</color> chance to per 'Princess' teammate to repeat this ability 1 time.
 MERIDA_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal up to <color=#FFC400>{1:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> bonus Critical Strike Chance per active Wisp.<br><br>If Empowered gain the following: This attack is unavoidable.<br><br>Gain <color=#FEF8E4>1</color> Wisp, up to a maximum of <color=#FEF8E4>4</color> Wisps. <color=#FEF8E4>{2:P0}</color> chance to per 'Princess' teammate to repeat this ability 1 time.
 MERIDA_PASSIVE_ABILPREVIEWUPGRADE_01|Increase Speed Meter <color=#FEF8E4>{0:P0}</color> for each active Wisp lost.
-MERIDA_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Offense.
+MERIDA_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Offense per Wisp.
 MERIDA_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Speed Meter increase.
 MERIDA_PASSIVE_DESC_01|Wisps affect Rain of Arrows and Choose Your Fate. Gain <color=#FEF8E4>{0:P0}</color> bonus Offense per active Wisp.<br><br>The first time this character reaches <color=#FEF8E4>4</color> Wisps, perform the following:<br>Gain Empowered. Gain Guaranteed Crit.<br><br>Empowered: Abilities gain additional effects.
 MERIDA_PASSIVE_DESC_02|Wisps affect Rain of Arrows and Choose Your Fate. Gain <color=#FEF8E4>{0:P0}</color> bonus Offense per active Wisp. Increase Speed Meter <color=#FEF8E4>{1:P0}</color> for each active Wisp lost.<br><br>The first time this character reaches <color=#FEF8E4>4</color> Wisps, perform the following:<br>Gain Empowered. Gain Guaranteed Crit.<br><br>Empowered: Abilities gain additional effects.
@@ -7960,6 +8254,7 @@ MOANA_PASSIVEA_DESC_01|This character cannot be dealt a Critical Strike while af
 MOANA_PASSIVEB_ABILPREVIEWUPGRADE_01|Teammates who assist have a <color=#FEF8E4>{0:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn.
 MOANA_PASSIVEB_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> chance for allies to gain Offense Up.
 MOANA_PASSIVEB_ABILPREVIEWUPGRADE_03|+<color=#FEF8E4>{0:N0}</color> duration to Offense Up.
+MOANA_PASSIVEB_ABILPREVIEWUPGRADE_04|Allies are guaranteed to gain Offense Up.
 MOANA_PASSIVEB_DESC_01|On turn start, apply Taunt for <color=#FEF8E4>{0:N0}</color> turns to the opponent with the lowest current Health percentage ignoring Stealth.<br><br>If Maui is a teammate he will immediately assist. Call one additional teammate to assist.<br><br>When Maui gains Taunt fill this character's Speed Bar.
 MOANA_PASSIVEB_DESC_02|On turn start, apply Taunt for <color=#FEF8E4>{0:N0}</color> turns to the opponent with the lowest current Health percentage ignoring Stealth.<br><br>If Maui is a teammate he will immediately assist. Call one additional teammate to assist. Teammates who assist have a <color=#FEF8E4>{1:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn.<br><br>When Maui gains Taunt fill this character's Speed Bar.
 MOANA_PASSIVEB_DESC_03|On turn start, apply Taunt for <color=#FEF8E4>{0:N0}</color> turns to the opponent with the lowest current Health percentage ignoring Stealth.<br><br>If Maui is a teammate he will immediately assist. Call one additional teammate to assist. Teammates who assist have a <color=#FEF8E4>{1:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{2:N0}</color> turns.<br><br>When Maui gains Taunt fill this character's Speed Bar.
@@ -8095,8 +8390,9 @@ MORDU_CHALLENGE_TIER_6_NAME|THE LEGENDARY MOR'DU
 MORDU_EFFECT_IMMUNE|EFFECT IMMUNE
 MORDU_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Offense Up duration.
 MORDU_PASSIVE_ABILPREVIEWUPGRADE_02|Increase Health threshold by <color=#FEF8E4>{0:P0}</color>.
-MORDU_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Counter.
+MORDU_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Counter per Wilds teammate.
 MORDU_PASSIVE_DESC_01|The first time Mordu's Health drops below <color=#FEF8E4>{0:P0}</color>, perform the following:<br><br>Cleanse all Harmful effects. Gain <color=#FEF8E4><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>. Gain <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{1:N0}</color> turn and <color=#FEF8E4>{2:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_COUNTER>[COUNTERATTACK]</link></color>.<br><br>Ancient Rage <color=#FEF8E4><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>: 'Wild Swipe' and 'Ruinous' gain extra effects.
+MORDU_PASSIVE_DESC_02|When Health drops below <color=#FEF8E4>{0:P0}</color>, gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn, <color=#FEF8E4>{2:N0}</color> Counter per Wilds teammate, and remove Stun from self.<br><br>Wild Swipe and Ruinous become Ancient Rage empowered while Health is below <color=#FEF8E4>{0:P0}</color>.
 MORDU_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to inflict Slow.
 MORDU_SPECIALA_ABILPREVIEWUPGRADE_02|Guaranteed to inflict Slow.
 MORDU_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>{0:P0}</color> bonus Critical Strike chance when Ancient Rage empowered.
@@ -8187,7 +8483,7 @@ MRS_POTTS_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to ta
 MRS_POTTS_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turn.<br><br>This character gains <color=#FEF8E4>{2:P0}</color> Speed Meter for each opponent hit.
 MRS_POTTS_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turn.<br><br>This character gains <color=#FEF8E4>{2:P0}</color> Speed Meter for each opponent hit. Teammates affected by Continous Healing gain <color=#FEF8E4>{3:P0}</color> Speed Meter for each opponent hit.
 MRS_POTTS_SPECIALB_ABILPREVIEWUPGRADE_01|This character gains <color=#FEF8E4>{0:P0}</color> Speed Meter for each opponent hit.
-MRS_POTTS_SPECIALB_ABILPREVIEWUPGRADE_02|Teammates affected by Continous Healing gain <color=#FEF8E4>{0:N0}</color> Speed Meter for each opponent hit.<br><br><color=#FEF8E4>+{1:P0}</color> Speed Meter for each opponent hit.
+MRS_POTTS_SPECIALB_ABILPREVIEWUPGRADE_02|Teammates affected by Continous Healing gain <color=#FEF8E4>{0:P0}</color> Speed Meter for each opponent hit.<br><br><color=#FEF8E4>+{1:P0}</color> Speed Meter for each opponent hit.
 MRS_POTTS_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Speed Meter for each opponent hit.
 MRS_POTTS_PASSIVEA_DESC_01|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Recovery as bonus Recovery to adjacent teammates.<br><br>On this character or adjacent teammate receiving Sleep, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Sleep.
 MRS_POTTS_PASSIVEA_DESC_02|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> of this character's Recovery as bonus Recovery to adjacent teammates.<br><br>On this character or adjacent teammate receiving Sleep, <color=#FEF8E4>{1:P0}</color> chance to Cleanse Sleep. Chance is increased by <color=#FEF8E4>{2:P0}</color> for 'Kingdom' teammates.
@@ -8241,10 +8537,11 @@ NAMAARI_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all 
 NAMAARI_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times. Deal <color=#FEF8E4>{4:P0}</color> bonus damage per other non-summoned <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>Each time an opponent Evades damage from this ability do the following: This ability gains <color=#FEF8E4>{2:N0}</color> Magic. This character gains <color=#FEF8E4>{5:P0}</color> Speed Meter.<br><br>This character and adjacent <color=#FEF8E4>'Villain Kingdom'</color> teammates gain <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_UP>[DEFENSE UP]</link></color> for <color=#FEF8E4>{3:N0}</color> turns.
 NAMAARI_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per other non-summoned 'Villain Kingdom' teammate.
 NAMAARI_SPECIALB_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> bonus damage per other non-summoned 'Villain Kingdom' teammate.
-NAMAARI_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> damage reduction.
-NAMAARI_PASSIVEA_DESC_01|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>45%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
-NAMAARI_PASSIVEA_DESC_02|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>70%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
-NAMAARI_PASSIVEA_DESC_03|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>85%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
+NAMAARI_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> damage reduction per hit and +<color=#FEF8E4>15%</color> max damage reduction.
+NAMAARI_PASSIVEA_DESC_01|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>30%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
+NAMAARI_PASSIVEA_DESC_02|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>45%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
+NAMAARI_PASSIVEA_DESC_03|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>60%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
+NAMAARI_PASSIVEA_DESC_04|Each time this character receives damage in a given turn they receive <color=#FEF8E4>{0:P0}</color> less damage per attack until the end of that turn, up to a max of <color=#FEF8E4>75%</color>.<br><br>On an opponent falling below <color=#FEF8E4>{1:P0}</color> Health for the first time, perform the following against them: Deal up to <color=#FFC400>{2:N0}</color> damage. <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>'Villain Kingdom'</color> teammate.<br><br>This attack is unavoidable.
 ABILPREVIEWUPGRADE_GEN_DEFENSE_BONUS_PCT_INC|<color=#FEF8E4>+{0:P0}</color> bonus Defense.
 NAMAARI_UNIT_NAME|NAMAARI
 NAMAARI_ABILBASIC_NAME|Fang Strike
@@ -8260,6 +8557,7 @@ NODE_DETAILS_POSSIBLE_ENEMIES|POSSIBLE ENEMIES:
 NODE_DETAILS_POSSIBLE_REWARDS|POSSIBLE REWARDS:
 NODE_DETAILS_REFRESH_ATTEMPTS|REFRESH ATTEMPTS
 NODE_DETAILS_RESTRICTIONS|RESTRICTIONS
+NODE_DETAILS_DESCRPTION|MISSION DETAILS
 NODE_DETAILS_SELECT_HEROES|BATTLE
 NODE_DETAILS_SPELLS|AVAILABLE SPELLS
 NOTIFICATION_DAILY_ENERGY_GIFT_TEXT|FREE Bonus Energy is available to claim
@@ -11193,6 +11491,10 @@ PIN_LUMPY_NAME|LUMPY TALISMAN
 PIN_LUMPY_DESC|I'm a heffalump.
 PIN_LUMPYFLOWERS_NAME|LUMPY FLOWERS TALISMAN
 PIN_LUMPYFLOWERS_DESC|Heffa nice day.
+PIN_PATCH_NAME|PATCH TALISMAN
+PIN_PATCH_DESC|Ol' Thunder always wins!
+PIN_RAINBOW_MICKEY_NAME|RAINBOW MICKEY TALISMAN
+PIN_RAINBOW_MICKEY_DESC|In celebration of Pride Month!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -11317,7 +11619,7 @@ PLUTO_SPECIALA_DESC_04|Inflict Taunt on target opponent for <color=#FEF8E4>{0:N0
 PLUTO_SPECIALA_ABILPREVIEWUPGRADE_01|Call <color=#FEF8E4>{0:N0}</color> 'Sensational Six' teammate to assist.
 PLUTO_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance to Inflict Defense Down for <color=#FEF8E4>{1:N0}</color> turns.
 PLUTO_SPECIALA_ABILPREVIEWUPGRADE_03|Call <color=#FEF8E4>{0:N0}</color> additional 'Sensational Six' teammate to assist.
-PLUTO_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance to Inflict Tenacity Down.
+PLUTO_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance to Inflict Defense Down.
 PLUTO_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Tenacity Down for <color=#FEF8E4>{1:N0}</color> turns on target opponent. <color=#FEF8E4>{2:P0}</color> chance to inflict Tenacity Down for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents.
 PLUTO_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Tenacity Down for <color=#FEF8E4>{1:N0}</color> turns on target opponent. <color=#FEF8E4>{2:P0}</color> chance to inflict Tenacity Down for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents.<br><br>If Mickey Mouse or Minnie Mouse is a teammate, Mickey Mouse, Minnie Mouse and Pluto gain <color=#FEF8E4>{3:N0}</color> Magic.
 PLUTO_SPECIALB_ABILPREVIEWUPGRADE_01|If Mickey Mouse or Minnie Mouse is a teammate, Mickey Mouse, Minnie Mouse and Pluto gain <color=#FEF8E4>{0:N0}</color> Magic.
@@ -11325,7 +11627,7 @@ PLUTO_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to in
 PLUTO_PASSIVEA_DESC_01|On turn start, grant effects of Angel or Devil to this character:<br><br>Angel: Gain Haste for <color=#FEF8E4>{0:N0}</color> turn.<br>Devil: Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn.<br><br>While affected by Haste, <color=#FEF8E4>{1:P0}</color> chance to assist 'Sensational Six' teammates when they use a basic attack.<br><br>While affected by Offense Up, <color=#FEF8E4>{3:P0}</color> chance to counterattack when 'Sensational Six' teammates are dealt damage by an opponent.<br><br>On Defense, chance to assist and counterattack is increased by <color=#FEF8E4>{4:P0}</color>.
 PLUTO_PASSIVEA_DESC_02|On turn start, grant effects of Angel or Devil to this character:<br><br>Angel: Gain Haste for <color=#FEF8E4>{0:N0}</color> turns.<br>Devil: Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turns.<br><br>While affected by Haste, <color=#FEF8E4>{1:P0}</color> chance to assist 'Sensational Six' teammates when they use a basic attack.<br><br>While affected by Offense Up, <color=#FEF8E4>{3:P0}</color> chance to counterattack when 'Sensational Six' teammates are dealt damage by an opponent.<br><br>On Defense, chance to assist and counterattack is increased by <color=#FEF8E4>{4:P0}</color>.
 PLUTO_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to Assist or Counterattack.
-PLUTO_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Haste and Offense Up duration.
+PLUTO_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Haste and Offense Up duration.
 POCAHONTAS_ABILBASIC_ABILPREVIEWUPGRADE_CONTINUOUSHEALING_ADDEFFECT|Adds a 10% chance to apply Continuous Healing to allies if their Health is below 50%.
 POCAHONTAS_ABILBASIC_ABILPREVIEWUPGRADE_HEALINGINITIAL_INCAMOUNT|Increases initial Health restored by 5%.
 POCAHONTAS_ABILBASIC_DESC_BASE|Adapts to the battle where needed most, changing between supportive and offensive stances based upon the situation.<br><br><color=#FEF8E4>Supportive:</color> Sends a verdant cluster of leaves to the ally with the lowest Health percentage, restoring up to <color=#5DFF89>{0:N0}</color> Health.<br><br>Occurs when there are no nearby opponents and at least one ally exists.<br><br><color=#FEF8E4>Offensive:</color> Strikes with a staff at an opponent, dealing up to <color=#FFC400>{1:N0}</color> Physical damage.<br><br>Occurs when there is a nearby opponent or no allies exist.
@@ -11363,7 +11665,7 @@ POCAHONTAS_PASSIVE_DESC_BASE|Appreciates the natural resources of the land, givi
 POCAHONTAS_PASSIVE_DESC_U01|Appreciates the natural resources of the land, giving Pocahontas' Basic Ability a <color=#FEF8E4>{0:P0}</color> chance to gain an <color=#FEF8E4>Extra Attack</color>.<br><br>Additionally, each time Pocahontas inflicts damage with any ability, she has a <color=#FEF8E4>{1:P0}</color> chance to reduce the Magic Cost of a random spell or ability in her Summoner's hand by <color=#FEF8E4>{2:N0}</color>.
 POCAHONTAS_PASSIVE_NAME|Natural Resources
 POCAHONTAS_SPECIALA_ABILPREVIEWUPGRADE_01|Teammates adjacent to target gain the following: Life Drain for <color=#FEF8E4>{0:N0}</color> turn. 'Wilds' teammates gain <color=#FEF8E4>{1:P0} Speed Meter.
-POCAHONTAS_SPECIALA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> Speed Meter to primary target. +<color=#FEF8E4>{1:P0}</color> Speed Meter to adjacent targets.
+POCAHONTAS_SPECIALA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> Speed Meter.
 POCAHONTAS_SPECIALA_ABILPREVIEWUPGRADE_03|Teammates adjacent to target have <color=#FEF8E4>{0:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn.
 POCAHONTAS_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance to grant Offense Up for <color=#FEF8E4>{1:N0}</color> turn to adjacent teammates.
 POCAHONTAS_SPECIALA_ABILPREVIEWUPGRADE_05|Guaranteed to grant Offense Up to adjacent teammates who receive Life Drain.
@@ -11514,6 +11816,7 @@ PVP_LOBBY_LEADERBOARDS|LEADERBOARDS
 PVP_LOBBY_REWARDS|MONTHLY REWARDS
 PVP_LOBBY_SEASON_BEGINS|NEXT SEASON BEGINS IN:
 PVP_LOBBY_SEASON_ENDS|SEASON ENDS IN:
+PVP_LOBBY_SEASON_ERROR|Error getting season details
 PVP_LOBBY_TITLE|PVP ARENA LOBBY
 PVP_PAYOUT_SEASON_INBOX_MSG|Congratulations! The season has concluded and you have achieved a League rank of:<br><br>    {0}<br><br>Attached are your rewards for this accomplishment!
 PVP_PAYOUT_WEEKLY_INBOX_MSG|Congratulations! The week has concluded and you have achieved a League rank of:<br><br>    {0}<br><br>Attached are your rewards for this accomplishment!
@@ -11624,9 +11927,9 @@ QUORRA_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to perf
 QUORRA_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.
 QUORRA_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to perform an Extra Attack. <color=#FEF8E4>{3:P0}</color> bonus chance to perform an Extra Attack per Tech teammate.
 QUORRA_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to perform an Extra Attack. <color=#FEF8E4>{3:P0}</color> bonus chance to perform an Extra Attack per Tech teammate. <color=#FEF8E4>{2:P0}</color> bonus Critical Strike chance against opponents affected by Stun.
-QUORRA_PASSIVE_ABILPREVIEWUPGRADE_01|Quorra's avatar can use her For the Users ability.
+QUORRA_PASSIVE_ABILPREVIEWUPGRADE_01|Quorra's Avatar can use her 'For the Users' ability.
 QUORRA_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> to Quorra's Avatars statistics.
-QUORRA_PASSIVE_ABILPREVIEWUPGRADE_03|Quorra's avatar can use her Backflip Kick ability.
+QUORRA_PASSIVE_ABILPREVIEWUPGRADE_03|Quorra's Avatar can use her 'Backflip Kick' ability.
 QUORRA_PASSIVE_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>{0:P0}</color> chance for Quorra's avatar to gain Haste on spawn.
 QUORRA_PASSIVE_DESC_01|On being defeated, summons Quorra's Avatar:<br><br>Has <color=#FEF8E4>{0:P0}</color> of Quorra's statistics. Gains additional <color=#FEF8E4>{7:P0}</color> of Quorra's Health per Tech teammate. Can only perform ISO Strike.<br><br>On spawn and on end of turn when not Stunned, if affected by less than <color=#FEF8E4>{8:N0}</color> Evade, this character and Quorra's Avatar each have <color=#FEF8E4>{5:P0}</color> chance per Tech teammate including this character to gain Evade.<br><br>This character and Quorra's avatar deal <color=#FEF8E4>{6:P0}</color> bonus damage per Evade affecting them.
 QUORRA_PASSIVE_DESC_02|On being defeated, summons Quorra's Avatar:<br><br>Has <color=#FEF8E4>{0:P0}</color> of Quorra's statistics. Gains additional <color=#FEF8E4>{7:P0}</color> of Quorra's Health per Tech teammate. Can only perform ISO Strike and I Fight For the Users.<br><br>On spawn and on end of turn when not Stunned, if affected by less than <color=#FEF8E4>{8:N0}</color> Evade, this character and Quorra's Avatar each have <color=#FEF8E4>{5:P0}</color> chance per Tech teammate including this character to gain Evade.<br><br>This character and Quorra's avatar deal <color=#FEF8E4>{6:P0}</color> bonus damage per Evade affecting them.
@@ -11866,6 +12169,8 @@ RAYA_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus dam
 RAYA_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus damage per other 'Adventurer' teammate.
 RAYA_PASSIVEA_DESC_01|Each time this character receives damage in a given turn they gain <color=#FEF8E4>{0:P0}</color> bonus Evasion until the end of that turn, up to a max of <color=#FEF8E4>45%</color>.<br><br>On Evade of an opponent character's attack, <color=#FEF8E4>{1:P0}</color> chance for this character to perform the following: Gain <color=#FEF8E4>{2:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color>, up to a max of <color=#FEF8E4>{8:N0}</color>. Gain <color=#FEF8E4>{3:P0}</color> Speed Meter. Perform the following against opponent character: Deal up to <color=#FFC400>{4:N0}</color> damage <color=#FEF8E4>{5:N0}</color> times. Inflict <color=#FEF8E4><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{6:N0}</color> turn.
 ABILPREVIEWUPGRADE_GEN_EVASION_BON_PCT_INC|<color=#FEF8E4>+{0:P0}</color> bonus Evasion.
+ABILPREVIEWUPGRADE_GEN_EVASION_NUM_INC|+<color=#FEF8E4>{0:N0}</color> Evasion gained.
+ABILPREVIEWUPGRADE_GEN_DAMAGE_REDUCTION_INC|+<color=#FEF8E4>{0:P0}</color> damage reduction.
 RAYA_UNIT_NAME|RAYA
 RAYA_ABILBASIC_NAME|Protector's Strike
 RAYA_ABILSPECIALA_NAME|Roll, Tuk Tuk!
@@ -11888,7 +12193,7 @@ ROBINHOOD_PASSIVEA_DESC_01|On Kingdom teammate performing a basic attack, <color
 ROBINHOOD_PASSIVEA_DESC_02|On Kingdom teammate performing a basic attack, <color=#FEF8E4>{0:P0}</color> chance for this character to perform Favorable Odds against the opponent that the teammate is attacking.<br><br>Favorable Odds: Deal up to <color=#FFC400>{1:N0}</color> damage. <color=#FEF8E4>{2:P0}</color> chance to Purge a random Helpful effect and grant it to a random teammate with its duration refreshed.
 ROBINHOOD_SPECIALA_ABILPREVIEWUPGRADE_01|Increase duration of <color=#FEF8E4>{0:N0}</color> Helpful effect by <color=#FEF8E4>{1:N0}</color> on affected teammates.
 ROBINHOOD_SPECIALA_ABILPREVIEWUPGRADE_02|Fill this character's Speed Meter by <color=#FEF8E4>{0:P0}</color> for each Kingdom teammate.
-ROBINHOOD_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Helpful effect will have its duration increased.
+ROBINHOOD_SPECIALA_ABILPREVIEWUPGRADE_03|Increase the duration of <color=#FEF8E4>+{0:N0}</color> Helpful effects.
 ROBINHOOD_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Speed Meter gain for each Kingdom teammate.
 ROBINHOOD_SPECIALA_DESC_01|Grant Guaranteed Critical to target teammate and all flanking teammates.
 ROBINHOOD_SPECIALA_DESC_02|Grant Guaranteed Critical to target teammate and all flanking teammates. Increase duration of <color=#FEF8E4>{0:N0}</color> random Helpful effect by <color=#FEF8E4>{1:N0}</color> on each affected teammate.
@@ -12243,8 +12548,8 @@ SCAR_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target 
 SCAR_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turns. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn.
 SCAR_SPECIALB_ABILPREVIEWUPGRADE_01|This character gains Stealth.
 SCAR_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> initial Hyena Health and Offense.
-SCAR_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance for Hyenas to spawn with Life Drain.
-SCAR_SPECIALB_ABILPREVIEWUPGRADE_04|Hyenas are guaranteed to gain Life Drain when spawned.
+SCAR_SPECIALB_ABILPREVIEWUPGRADE_03|Hyenas are guaranteed to gain Life Drain. Duration increased to <color=#FEF8E4>{0:N0}</color> turns.
+SCAR_SPECIALB_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Hyena spawned.
 SCAR_SPECIALB_DESC_01|Calls <color=#FEF8E4>{6:N0}</color>-<color=#FEF8E4>{7:N0}</color> allied Hyenas to the battlefield. Scar's Hyenas deal up to <color=#FFC400>{0:N0}</color> damage to target opponent per attack, have <color=#FEF8E4>{1:N0}</color> Health, and assist allies attacking opponents affected by Continuous Damage. Hyenas have <color=#FEF8E4>{2:P0}</color> chance to gain Life Drain for <color=#FEF8E4>{3:N0}</color> turn when spawned.
 SCAR_SPECIALB_DESC_02|Calls <color=#FEF8E4>{6:N0}</color>-<color=#FEF8E4>{7:N0}</color> allied Hyenas to the battlefield. Scar's Hyenas deal up to <color=#FFC400>{0:N0}</color> damage to target opponent per attack, have <color=#FEF8E4>{1:N0}</color> Health, and assist allies attacking opponents affected by Continuous Damage. Hyenas have <color=#FEF8E4>{2:P0}</color> chance to gain Life Drain for <color=#FEF8E4>{3:N0}</color> turn when spawned.<br><br>Gain Stealth for <color=#FEF8E4>{4:N0}</color> turn.
 SCAR_SPECIALB_DESC_03|Calls <color=#FEF8E4>{6:N0}</color>-<color=#FEF8E4>{7:N0}</color> allied Hyenas to the battlefield. Scar's Hyenas deal up to <color=#FFC400>{0:N0}</color> damage to target opponent per attack, have <color=#FEF8E4>{1:N0}</color> Health, and assist allies attacking opponents affected by Continuous Damage. Hyenas gain Life Drain for <color=#FEF8E4>{3:N0}</color> turn when spawned.<br><br>Gain Stealth for <color=#FEF8E4>{4:N0}</color> turn.
@@ -12535,10 +12840,12 @@ SHERIFFOFNOTTINGHAM_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> b
 SHERIFFOFNOTTINGHAM_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.
 SHERIFFOFNOTTINGHAM_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> bonus Critical Strike chance per Helpful effect on target.
 SHERIFFOFNOTTINGHAM_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> stolen Speed Meter.
+SHERIFFOFNOTTINGHAM_ABILSPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per helpful effect on this character, up to a max of <color=#FEF8E4>{1:N0}</color>.
 SHERIFFOFNOTTINGHAM_PASSIVE_DESC_01|On opponent receiving a Helpful effect, <color=#FEF8E4>{0:P0}</color> chance to perform the following:<br><br>Steal <color=#FEF8E4>{1:P0}</color> of the opponent's Speed Meter.
 SHERIFFOFNOTTINGHAM_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> bonus damage if target is affected by Shield.
 SHERIFFOFNOTTINGHAM_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> bonus damage if target is affected by Shield.
-SHERIFFOFNOTTINGHAM_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Deal <color=#FEF8E4>{2:P0}</color> bonus damage per Helpful effect on this character.
+SHERIFFOFNOTTINGHAM_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns.
+SHERIFFOFNOTTINGHAM_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Deal <color=#FEF8E4>{2:P0}</color> bonus damage per Helpful effect on this character, up to a max of <color=#FEF8E4>{3:N0}</color>.
 SHERIFF_OF_NOTTINGHAM_ABILBASIC_DESC_BASE|Clumsily swings his sword at an opponent, dealing up to <color=#FFC400>{0:N0}</color> Physical damage.
 SHERIFF_OF_NOTTINGHAM_ABILBASIC_DESC_U01|Clumsily swings his sword at an opponent, dealing up to <color=#FFC400>{0:N0}</color>  Physical damage with a <color=#FEF8E4>{1:P0}</color> chance to refresh the duration of harmful effects.
 SHERIFF_OF_NOTTINGHAM_ABILBASIC_NAME|Taxes Are Due
@@ -12644,9 +12951,9 @@ SIMBA_PASSIVE_ABILPREVIEWUPGRADE_05|Guaranteed chance for Rafiki to assist any a
 SIMBA_PASSIVE_ABILPREVIEWUPGRADE_06|<color=#FEF8E4>+{0:N0}</color> duration to Defense Up.
 SIMBA_PASSIVE_DESC_01|Gain <color=#FEF8E4>{0:P0}</color> bonus Defense for every <color=#FEF8E4>{1:P0}</color> of missing Health.
 SIMBA_PASSIVE_DESC_02|Gain <color=#FEF8E4>{0:P0}</color> bonus Defense for every <color=#FEF8E4>{1:P0}</color> of missing Health.<br><br><color=#FEF8E4>{4:P0}</color> chance for Rafiki to assist any attack by this character.
-SIMBA_PASSIVE_DESC_03|Gain <color=#FEF8E4>{0:P0}</color> bonus Defense for every <color=#FEF8E4>{1:P0}</color> of missing Health.<br><br><color=#FEF8E4>{4:P0}</color> chance for Rafiki to assist any attack by this character. <br><br>If at least one teammate is a "Lion King" character, gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn when Health is reduced below <color=#FEF8E4>{3:P0}</color>.
-SIMBA_PASSIVE_DESC_04|Gain <color=#FEF8E4>{0:P0}</color> bonus Defense for every <color=#FEF8E4>{1:P0}</color> of missing Health.<br><br>Rafiki will assist any attack by this character. <br><br>If at least one teammate is a "Lion King" character, gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn when Health is reduced below <color=#FEF8E4>{3:P0}</color>.
-SIMBA_PASSIVE_DESC_05|Gain <color=#FEF8E4>{0:P0}</color> bonus Defense for every <color=#FEF8E4>{1:P0}</color> of missing Health.<br><br>Rafiki will assist any attack by this character. <br><br>If at least one teammate is a "Lion King" character, gain Defense Up for <color=#FEF8E4>{2:N0}</color> turns when Health is reduced below <color=#FEF8E4>{3:P0}</color>.
+SIMBA_PASSIVE_DESC_03|Gain <color=#FEF8E4>{0:P0}</color> bonus Defense for every <color=#FEF8E4>{1:P0}</color> of missing Health.<br><br><color=#FEF8E4>{4:P0}</color> chance for Rafiki to assist any attack by this character. <br><br>Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn the first time Health falls below <color=#FEF8E4>{3:P0}</color>.
+SIMBA_PASSIVE_DESC_04|Gain <color=#FEF8E4>{0:P0}</color> bonus Defense for every <color=#FEF8E4>{1:P0}</color> of missing Health.<br><br>Rafiki will assist any attack by this character. <br><br>Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn the first time Health falls below <color=#FEF8E4>{3:P0}</color>.
+SIMBA_PASSIVE_DESC_05|Gain <color=#FEF8E4>{0:P0}</color> bonus Defense for every <color=#FEF8E4>{1:P0}</color> of missing Health.<br><br>Rafiki will assist any attack by this character. <br><br>Gain Defense Up for <color=#FEF8E4>{2:N0}</color> turn the first time Health falls below <color=#FEF8E4>{3:P0}</color> and <color=#FEF8E4>{4:P0}</color>.
 SIMBA_SPECIALA_ABILPREVIEWUPGRADE_01|Reduce each affected opponent's Speed Meter by <color=#FEF8E4>{0:P0}</color>.
 SIMBA_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed Meter reduction
 SIMBA_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turn.
@@ -13131,8 +13438,8 @@ STITCH_ABILSPECIALB_BASE_DESC|Stitch hurls a car at the target area, dealing hea
 STITCH_ABILSPECIALB_NAME|Blue Punch Buggy
 STITCH_BASIC_ABILPREVIEWUPGRADE_01|If it is Stitch's turn, and he started the turn with <color=#FEF8E4>4</color> arms, double the hits from this attack.
 STITCH_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict or extend Defense Down.
-STITCH_BASIC_DESC_01|If this ability is used on his turn, Stitch grows an arm (up to a max of <color=#FEF8E4>4</color>).<br><br>For each arm Stitch has, deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Each hit from this attack has a <color=#FEF8E4>{1:P0}</color> chance to inflict or extend Defense Down for <color=#FEF8E4>{2:N0}</color> turn.
-STITCH_BASIC_DESC_02|If this ability is used on his turn, Stitch grows an arm (up to a max of <color=#FEF8E4>4</color>). If he started the turn with <color=#FEF8E4>4</color> arms, double the hits from this attack.<br><br>For each arm Stitch has, deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Each hit from this attack has a <color=#FEF8E4>{1:P0}</color> chance to inflict or extend Defense Down for <color=#FEF8E4>{2:N0}</color> turn.
+STITCH_BASIC_DESC_01|If this ability is used on his turn, Stitch grows an arm (up to a max of <color=#FEF8E4>4</color>).<br><br>For each arm Stitch has, deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Each hit from this attack has a <color=#FEF8E4>{1:P0}</color> chance to inflict or extend Defense Down for <color=#FEF8E4>{2:N0}</color> turn, up to a max of <color=#FEF8E4>{5:N0}</color> turns.
+STITCH_BASIC_DESC_02|If this ability is used on his turn, Stitch grows an arm (up to a max of <color=#FEF8E4>4</color>). If he started the turn with <color=#FEF8E4>4</color> arms, double the hits from this attack.<br><br>For each arm Stitch has, deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Each hit from this attack has a <color=#FEF8E4>{1:P0}</color> chance to inflict or extend Defense Down for <color=#FEF8E4>{2:N0}</color> turn, up to a max of <color=#FEF8E4>{5:N0}</color> turns.
 STITCH_PASSIVEA_ABILPREVIEWUPGRADE_01|Health recovery and Speed Meter gain doubled on receiving a Crit.
 STITCH_PASSIVEA_DESC_01|Each time Stitch receives damage he recovers <color=#FEF8E4>{0:P0}</color> Health and gains <color=#FEF8E4>{1:P0}</color> Speed Meter.<br><br>When an enemy gains Charged, <color=#FEF8E4>{2:P0}</color> chance for Stitch to counterattack.
 STITCH_PASSIVEA_DESC_02|Each time Stitch receives damage he recovers <color=#FEF8E4>{0:P0}</color> Health and gains <color=#FEF8E4>{1:P0}</color> Speed Meter, both doubled on Crits.<br><br>When an enemy gains Charged, <color=#FEF8E4>{2:P0}</color> chance for Stitch to counterattack.
@@ -13230,6 +13537,40 @@ STORE_ITEM_4X_BASIC_BOX_BACK_DESCRIPTION|Open the 'HEROES & VILLAINS PACK' 4 tim
 STORE_ITEM_4X_BASIC_BOX_BACK_NAME|HEROES & BILLAINS 4-PACK
 STORE_ITEM_4X_BASIC_BOX_SHELF|4X AT ONCE
 STORE_ITEM_4X_BASIC_LOWER_STICKER|4-PACK
+STORE_ITEM_SPECIAL_T8_LEGENDARY_BUNDLE_NAME|T8 LEGENDARY GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_DTV_SUPER_BUNDLE_NAME|T8 DOWNTOWN VILLAIN SUPER GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_KINGDOM_SUPER_BUNDLE_NAME|T8 KINGDOM SUPER GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_MYTHICAL_SUPER_BUNDLE_NAME|T8 MYTHICAL SUPER GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_WILDS_SUPER_BUNDLE_NAME|T8 WILDS SUPER GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_DTH_SUPER_BUNDLE_NAME|T8 DOWNTOWN HERO SUPER GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_OCEANIC_SUPER_BUNDLE_NAME|T8 OCEANIC SUPER GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_DTV_BUNDLE_NAME|T8 DOWNTOWN VILLAIN GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_KINGDOM_BUNDLE_NAME|T8 KINGDOM GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_MYTHICAL_BUNDLE_NAME|T8 MYTHICAL GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_WILDS_BUNDLE_NAME|T8 WILDS GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_DTH_BUNDLE_NAME|T8 DOWNTOWN HERO GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_OCEANIC_BUNDLE_NAME|T8 OCEANIC GEAR BUNDLE
+STORE_ITEM_SPECIAL_T8_CATALYST_TORRID_DAYLILY_BUNDLE_NAME|TORRID DAYLILY BUNDLE
+STORE_ITEM_SPECIAL_T8_CATALYST_GLINTING_LILAC_BUNDLE_NAME|GLINTING LILAC BUNDLE
+STORE_ITEM_SPECIAL_T8_CATALYST_TWILIGHT_ORCHID_BUNDLE_NAME|TWILIGHT ORCHID BUNDLE
+STORE_ITEM_SPECIAL_T8_CATALYST_DAWNING_HYACINTH_BUNDLE_NAME|DAWNING HYACINTH BUNDLE
+STORE_ITEM_SPECIAL_T8_LEGENDARY_BUNDLE_DESC|GIVE YOUR LEGENDARY CHARACTERS A POWERFUL BOOST WITH THIS T8 GEAR BUNDLE. INCLUDES 1 COMPLETE T8 GEAR PIECE EACH FOR BAYMAX, ELSA, AND THE BEAST, IN ADDITION TO MORE ITEMS.
+STORE_ITEM_SPECIAL_T8_DTV_SUPER_BUNDLE_DESC|CRAFT POWERFUL T8 GEAR FOR YOUR DOWNTOWN VILLAIN CHARACTERS WITH THIS BUNDLE. USE THE MATERIALS IN THIS BUNDLE TO CRAFT SOME OF THE MOST POWERFUL GEAR IN THE GAME. CONTAINS T8 MATERIALS, T7 MATERIALS, AND MORE.
+STORE_ITEM_SPECIAL_T8_KINGDOM_SUPER_BUNDLE_DESC|CRAFT POWERFUL T8 GEAR FOR YOUR KINGDOM CHARACTERS WITH THIS BUNDLE. USE THE MATERIALS IN THIS BUNDLE TO CRAFT SOME OF THE MOST POWERFUL GEAR IN THE GAME. CONTAINS T8 MATERIALS, T7 MATERIALS, AND MORE.
+STORE_ITEM_SPECIAL_T8_MYTHICAL_SUPER_BUNDLE_DESC|CRAFT POWERFUL T8 GEAR FOR YOUR MYTHICAL CHARACTERS WITH THIS BUNDLE. USE THE MATERIALS IN THIS BUNDLE TO CRAFT SOME OF THE MOST POWERFUL GEAR IN THE GAME. CONTAINS T8 MATERIALS, T7 MATERIALS, AND MORE.
+STORE_ITEM_SPECIAL_T8_WILDS_SUPER_BUNDLE_DESC|CRAFT POWERFUL T8 GEAR FOR YOUR WILDS CHARACTERS WITH THIS BUNDLE. USE THE MATERIALS IN THIS BUNDLE TO CRAFT SOME OF THE MOST POWERFUL GEAR IN THE GAME. CONTAINS T8 MATERIALS, T7 MATERIALS, AND MORE.
+STORE_ITEM_SPECIAL_T8_DTH_SUPER_BUNDLE_DESC|CRAFT POWERFUL T8 GEAR FOR YOUR DOWNTOWN HERO CHARACTERS WITH THIS BUNDLE. USE THE MATERIALS IN THIS BUNDLE TO CRAFT SOME OF THE MOST POWERFUL GEAR IN THE GAME. CONTAINS T8 MATERIALS, T7 MATERIALS, AND MORE.
+STORE_ITEM_SPECIAL_T8_OCEANIC_SUPER_BUNDLE_DESC|CRAFT POWERFUL T8 GEAR FOR YOUR OCEANIC CHARACTERS WITH THIS BUNDLE. USE THE MATERIALS IN THIS BUNDLE TO CRAFT SOME OF THE MOST POWERFUL GEAR IN THE GAME. CONTAINS T8 MATERIALS, T7 MATERIALS, AND MORE.
+STORE_ITEM_SPECIAL_T8_DTV_BUNDLE_DESC|START CRAFTING POWERFUL T8 GEAR FOR YOUR DOWNTOWN VILLAIN CHARACTERS WITH THIS BUNDLE.
+STORE_ITEM_SPECIAL_T8_KINGDOM_BUNDLE_DESC|START CRAFTING POWERFUL T8 GEAR FOR YOUR KINGDOM CHARACTERS WITH THIS BUNDLE.
+STORE_ITEM_SPECIAL_T8_MYTHICAL_BUNDLE_DESC|START CRAFTING POWERFUL T8 GEAR FOR YOUR MYTHICAL CHARACTERS WITH THIS BUNDLE.
+STORE_ITEM_SPECIAL_T8_WILDS_BUNDLE_DESC|START CRAFTING POWERFUL T8 GEAR FOR YOUR WILDS CHARACTERS WITH THIS BUNDLE.
+STORE_ITEM_SPECIAL_T8_DTH_BUNDLE_DESC|START CRAFTING POWERFUL T8 GEAR FOR YOUR DOWNTOWN HERO CHARACTERS WITH THIS BUNDLE.
+STORE_ITEM_SPECIAL_T8_OCEANIC_BUNDLE_DESC|START CRAFTING POWERFUL T8 GEAR FOR YOUR OCEANIC CHARACTERS WITH THIS BUNDLE.
+STORE_ITEM_SPECIAL_T8_CATALYST_TORRID_DAYLILY_BUNDLE_DESC|CRAFT T8 GEAR AND POWER UP YOUR TEAM WITH THIS BUNDLE. INCLUDES THE IMPORTANT TORRID DAYLILY MATERIAL, WHICH IS USED FOR CRAFTING T8 OFFENSE, TENACITY, AND ACCURACY GEAR.
+STORE_ITEM_SPECIAL_T8_CATALYST_GLINTING_LILAC_BUNDLE_DESC|CRAFT T8 GEAR AND POWER UP YOUR TEAM WITH THIS BUNDLE. INCLUDES THE IMPORTANT GLINTING LILAC MATERIAL, WHICH IS USED FOR CRAFTING T8 HEALTH, RECOVERY, AND CRIT POWER GEAR.
+STORE_ITEM_SPECIAL_T8_CATALYST_TWILIGHT_ORCHID_BUNDLE_DESC|CRAFT T8 GEAR AND POWER UP YOUR TEAM WITH THIS BUNDLE. INCLUDES THE IMPORTANT TWILIGHT ORCHID MATERIAL, WHICH IS USED FOR CRAFTING T8 DEFENSE AND EVASION GEAR.
+STORE_ITEM_SPECIAL_T8_CATALYST_DAWNING_HYACINTH_BUNDLE_DESC|CRAFT T8 GEAR AND POWER UP YOUR TEAM WITH THIS BUNDLE. INCLUDES THE IMPORTANT DAWNING HYACINTH MATERIAL, WHICH IS USED FOR CRAFTING T8 SPEED, POTENCY, AND CRIT CHANCE GEAR.
 STORE_ITEM_4X_BASIC_NAME|HEROES & VILLAINS
 STORE_ITEM_610_GEMS_DESC|610 Count
 STORE_ITEM_70_TO_210_GOLD_DESC|70k to 210k
@@ -13567,6 +13908,7 @@ STORE_ITEM_EVT_ROBINTEAM_PACK_999_STICKER|TEAM UP
 STORE_ITEM_EVT_TICKETS_999_BACK_DESC|PURCHASE THIS PACK AND INSTANTLY RECEIVE:<br><br>    1,000 WILD HEARTS EVENT TICKETS
 STORE_ITEM_EVT_TICKETS_999_BACK_NAME|WILD HEARTS TICKET PACK
 STORE_ITEM_EVT_TICKETS_999_LOWER_STICKER|1,000
+STORE_ITEM_EXPIRED|This store item has expired or is no longer available.
 STORE_ITEM_EVT_TICKETS_999_NAME|WILD HEARTS TICKET PACK
 STORE_ITEM_EVT_TICKETS_999_SHELF|GET AHEAD AND SAVE TIME
 STORE_ITEM_EVT_TICKETS_999_STICKER|GET AHEAD
@@ -13929,6 +14271,11 @@ STORE_ITEM_LC_PH_WELCOME_BOOSTER_STICKER|3X VALUE
 STORE_ITEM_LC_PH_WELCOME_BOOSTER_SUBTITLE|WELCOME TO PASSHOLDER GOLD. BOOST YOUR SEASON WITH 25 PASSHOLDER TIERS, A 1X ULTIMATE CHEST, GEMS, AND MORE ITEMS.
 STORE_ITEM_LC_PH_WELCOME_PACK_NAME|WELCOME PACK
 STORE_ITEM_LC_PH_WELCOME_PACK_STICKER|BONUS GEMS
+STORE_ITEM_BONUS_GEMS_NAME|BONUS GEMS
+STORE_ITEM_SO_GEMS_100_NAME|SUPER BONUS GEMS
+STORE_ITEM_SO_GEMS_20_NAME|BONUS GEMS
+STORE_ITEM_SO_GEMS_100_SUBTITLE|TAKE ADVANTAGE OF THIS EXCLUSIVE OFFER OF EXTRA GEMS. INCLUDES BONUS GOLD, ABILITY RUNES, AND MORE ITEMS.
+STORE_ITEM_SO_GEMS_20_SUBTITLE|TAKE ADVANTAGE OF THIS EXCLUSIVE OFFER OF EXTRA GEMS. INCLUDES BONUS GOLD, ABILITY RUNES, AND MORE ITEMS.
 STORE_ITEM_LC_PH_WELCOME_PACK_SUBTITLE|WELCOME TO DISNEY SORCERER'S ARENA. START OFF WITH EXTRA GEMS AND 2 BONUS PASSHOLDER TIERS
 STORE_ITEM_LC_PRINCE_ALI_BACK_DECS|Purchase this pack to receive the Prince Ali Outfit, Aladdin Tokens, and more!
 STORE_ITEM_LC_PRINCE_ALI_NAME|PRINCE ALI BUNDLE
@@ -14917,6 +15264,8 @@ STORE_ITEM_SPECIAL_HUNCHBACKPRINCESSTEAM_NAME|PRINCESS MEGA BUNDLE
 STORE_ITEM_SPECIAL_HUNCHBACKPRINCESSTEAM_DESC|UNLOCK POCAHONTAS, BELLE, MOANA, AND MULAN, IN THIS LIMITED TIME OFFER. INCLUDES GOLD, LOYALTY COINS, ABILITY RUNES, AND MORE.
 STORE_ITEM_SPECIAL_WINNIETHEPOOHPACK_NAME|WINNIE THE POOH PACK
 STORE_ITEM_SPECIAL_WINNIETHEPOOHPACK_DESC|TRY YOUR LUCK FOR A CHANCE AT WINNIE THE POOH TALISMANS AND GOLD REWARDS. AVAILABLE FOR A LIMITED TIME.
+STORE_ITEM_SPECIAL_PRIDECELEBRATIONGIFT_NAME|CELEBRATION GIFT
+STORE_ITEM_SPECIAL_PRIDECELEBRATIONGIFT_DESC|CELEBRATE PRIDE MONTH WITH THIS <color=#54C5FF>FREE</color> GIFT. COLLECT NOW TO UNLOCK THE <color=#54C5FF>RAINBOW MICKEY TALISMAN</color> AND <color=#54C5FF>PRIDE HEART EMOTE</color>!
 STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
 STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
 STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
@@ -15548,8 +15897,8 @@ SULLEY_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to i
 SULLEY_UNIT_NAME|SULLEY
 SUMMONED_UNIT_BASIC_GEN_DESC|Deal damage to target opponent.
 SUMMONED_UNIT_SPECIAL_HEAL_GEN_DESC|Restore health to target teammate.
-SVEN_ABILBASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Damage is increased by <color=#FEF8E4>{1:P0}</color> per Helpful effect on this character. Damage is increased by <color=#FEF8E4>{2:P0}</color> per "Frozen" teammate.
-SVEN_ABILBASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Damage is increased by <color=#FEF8E4>{1:P0}</color> per Helpful effect on this character. Damage is increased by <color=#FEF8E4>{2:P0}</color> per "Frozen" teammate.<br><br>Critical Power is increased by <color=#FEF8E4>{3:P0}</color> for this attack.
+SVEN_ABILBASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Damage is increased by <color=#FEF8E4>{1:P0}</color> per Helpful effect on this character, up to a max of <color=#FEF8E4>{4:N0}</color>. Damage is increased by <color=#FEF8E4>{2:P0}</color> per "Frozen" teammate.
+SVEN_ABILBASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Damage is increased by <color=#FEF8E4>{1:P0}</color> per Helpful effect on this character, up to a max of <color=#FEF8E4>{4:N0}</color>. Damage is increased by <color=#FEF8E4>{2:P0}</color> per "Frozen" teammate.<br><br>Critical Strike damage is increased by <color=#FEF8E4>{3:P0}</color> for this attack.
 SVEN_ABILBASIC_NAME|Reindeer Dash
 SVEN_ABILPASSIVEA_NAME|Table Scraps
 SVEN_ABILPASSIVEB_NAME|Reindeer(s) Are Better Than People
@@ -15587,8 +15936,8 @@ SYNDROME_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to ga
 SYNDROME_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.
 SYNDROME_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn.
 SYNDROME_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus Critical Strike chance.
-SYNDROME_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance for Villain teammates to gain Critical Power Up for <color=#FEF8E4>{1:N0}</color> turns on turn start.
-SYNDROME_LEADER_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance for Villain teammates to gain Critical Power Up for <color=#FEF8E4>{1:N0}</color> turns after dealing a Critical Strike.
+SYNDROME_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance for Villain teammates to gain Critical Power Up for <color=#FEF8E4>{1:N0}</color> turn on their turn start.
+SYNDROME_LEADER_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance for Villain teammates to gain Critical Power Up on their turn start.
 SYNDROME_LEADER_DESC_01|Villain teammates receive a bonus <color=#FEF8E4>{0:P0}</color> chance to deal a Critical Strike.
 SYNDROME_LEADER_DESC_02|Villain teammates receive a bonus <color=#FEF8E4>{0:P0}</color> chance to deal a Critical Strike.<br><br><color=#FEF8E4>{1:P0}</color> chance for Villain teammates to gain Critical Power Up for <color=#FEF8E4>{2:N0}</color> turns on turn start.
 SYNDROME_LEADER_DESC_BASE|Villain Allies receive a bonus <color=#fef8e4>{0:P0}</color> chance to deal a Critical Strike.
@@ -16033,6 +16382,7 @@ UNIT_ABILITY_TYPE_LEADER|LEADER
 UNIT_ABILITY_TYPE_PASSIVE|PASSIVE
 UNIT_ABILITY_TYPE_PROC|CHANCE (Auto)
 UNIT_ABILITY_TYPE_SPECIAL|SPECIAL
+UNIT_CATEGORY_101_DALMATIANS|101 DALMATIANS
 UNIT_CATEGORY_ADVENTURER|ADVENTURER
 UNIT_CATEGORY_ALADDIN|ALADDIN
 UNIT_CATEGORY_ALICE_IN_WONDERLAND|ALICE IN WONDERLAND
@@ -16050,6 +16400,8 @@ UNIT_CATEGORY_DISNEY_PRINCESS|PRINCESS
 UNIT_CATEGORY_DOWNTOWN|DOWNTOWN
 UNIT_CATEGORY_DOWNTOWN_HERO|DOWNTOWN HERO
 UNIT_CATEGORY_DOWNTOWN_VILLAIN|DOWNTOWN VILLAIN
+UNIT_CATEGORY_KINGDOM_HERO|KINGDOM HERO
+UNIT_CATEGORY_KINGDOM_VILLAIN|KINGDOM VILLAIN
 UNIT_CATEGORY_DUCKTALES|DUCKTALES
 UNIT_CATEGORY_DUCK|DUCKS
 UNIT_CATEGORY_SENSATIONAL_SIX|SENSATIONAL SIX
@@ -16274,7 +16626,7 @@ UNIT_SKIN_FIND|FIND
 UNIT_SKIN_UNEQUIP|UNEQUIP
 UNIT_STATS_VIEW_STAT_HEADER|CHARACTER STATS
 UNIT_STAT_ACCURACY|PRECISION
-UNIT_STAT_ACCURACY_DESC|The % chance to land any harmful event.
+UNIT_STAT_ACCURACY_DESC|Increase chance to bypass opponent Evasion.
 UNIT_STAT_ATTACK_RANGE|ATTACK RANGE
 UNIT_STAT_ATTACK_SPEED|ATTACK SPEED
 UNIT_STAT_ATTACK_SPEED_DESC|How fast a character attacks.
@@ -16485,7 +16837,7 @@ WASABI_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target o
 WASABI_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br>If target has a Shield or has a Helpful effect, perform a follow up attack:<br>Deal up to <color=#FFC400>{2:N0}</color> damage.
 WASABI_PASSIVEA_ABILPREVIEWUPGRADE_01|Chance increased by <color=#FEF8E4>{0:P0}</color> per Charged if below <color=#FEF8E4>{1:P0}</color> Health.
 WASABI_PASSIVEA_ABILPREVIEWUPGRADE_02|Guaranteed to activate when dealt damage by an Assist or Counterattack.
-WASABI_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>{0:P0}</color> reduced damage.
+WASABI_PASSIVEA_ABILPREVIEWUPGRADE_03|Reduce damage by an additional <color=#FEF8E4>{0:P0}</color>.
 WASABI_PASSIVEA_DESC_01|On taking damage, <color=#FEF8E4>{1:P0}</color> chance to reduce damage by <color=#FEF8E4>{0:P0}</color>.
 WASABI_PASSIVEA_DESC_02|On taking damage, <color=#FEF8E4>{1:P0}</color> chance to reduce damage by <color=#FEF8E4>{0:P0}</color>. If below <color=#FEF8E4>{4:P0}</color> Health, chance increased by <color=#FEF8E4>{2:P0}</color> per Charged on Wasabi.
 WASABI_PASSIVEA_DESC_03|On taking damage, <color=#FEF8E4>{1:P0}</color> chance to reduce damage by <color=#FEF8E4>{0:P0}</color>. If below <color=#FEF8E4>{4:P0}</color> Health, chance increased by <color=#FEF8E4>{2:P0}</color> per Charged on Wasabi.<br><br>Guaranteed to activate when dealt damage by an Assist or Counterattack.
@@ -16497,6 +16849,7 @@ WASABI_PASSIVEB_DESC_02|This character's attacks ignore <color=#FEF8E4>{0:P0}</c
 WASABI_PASSIVEB_DESC_03|This character's attacks ignore <color=#FEF8E4>{0:P0}</color> of target's defense. If attacking a target with Shield, guaranteed to deal a Critical Strike.<br><br>Ignore additional <color=#FEF8E4>{1:P0}</color> of target's defense per Charged on this character at start of ability. <br><br>If this character attacks a target with a Helpful Effect or Shield, or receives Heals, Shields, or Helpful Effects from teammates, gain <color=#FEF8E4>{3:N0}</color> Charged up to a max of <color=#FEF8E4>{4:N0}</color>.<br><br>This character can have up to a max of <color=#FEF8E4>{4:N0}</color> Charged.
 WASABI_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to Purge <color=#FEF8E4>{1:N0}</color> Helpful effect per hit.
 WASABI_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to Purge Helpful effect per hit.
+WASABI_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> damage dealt. <color=#FEF8E4>+{1:P0}</color> bonus damage dealt.
 WASABI_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. Deals <color=#FEF8E4>{2:P0}</color> bonus damage if target has a Helpful effect, increased by an additional <color=#FEF8E4>{3:P0}</color> if effect is Taunt or if target has Shield at the start of this ability.
 WASABI_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. Deals <color=#FEF8E4>{2:P0}</color> bonus damage if target has a Helpful effect, increased by an additional <color=#FEF8E4>{3:P0}</color> if effect is Taunt or if target has Shield at the start of this ability.<br><br><color=#FEF8E4>{4:P0}</color> chance to Purge <color=#FEF8E4>{5:N0}</color> Helpful effect per hit.
 WASABI_SPECIALB_ABILPREVIEWUPGRADE_01|Inflict Heal Block and Shield Block on target opponent for <color=#FEF8E4>{0:N0}</color> turns.
@@ -16579,6 +16932,7 @@ YOKAI_SPECIALA_ABILPREVIEWUPGRADE_01|In Club Conquest: When an opponent gains a 
 YOKAI_SPECIALA_ABILPREVIEWUPGRADE_02|Summon <color=#FEF8E4>{0:N0}</color> additional Microbot Spire.
 YOKAI_SPECIALA_ABILPREVIEWUPGRADE_03|If target has Slow, <color=#FEF8E4>{0:P0}</color> chance to inflict Stun for <color=#FEF8E4>{1:N0}</color> turn.
 YOKAI_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance to Purge a Helpful effect.
+YOKAI_SPECIALA_ABILPREVIEWUPGRADE_05|<color=#FEF8E4>+{0:P0}</color> chance to attack in Club Conquest.
 YOKAI_SPECIALA_DESC_01|Summon <color=#FEF8E4>{0:N0}</color> Microbot Spires. If this character is defeated, summoned Microbot Spires are also defeated.<br><br>Microbot Spires have <color=#FEF8E4>{1:N0}</color> Health, <color=#FEF8E4>{2:N0}</color> Defense and perform the following ability:<br><br>Spike: Deal up to <color=#FFC400>{3:N0}</color> damage to target opponent. <color=#FEF8E4>{4:P0}</color> chance to Purge <color=#FEF8E4>{5:N0}</color> random Helpful effect.
 YOKAI_SPECIALA_DESC_02|Summon <color=#FEF8E4>{0:N0}</color> Microbot Spires. If this character is defeated, summoned Microbot Spires are also defeated.<br><br>Microbot Spires have <color=#FEF8E4>{1:N0}</color> Health, <color=#FEF8E4>{2:N0}</color> Defense and perform the following ability:<br><br>Spike: Deal up to <color=#FFC400>{3:N0}</color> damage to target opponent. <color=#FEF8E4>{4:P0}</color> chance to Purge <color=#FEF8E4>{5:N0}</color> random Helpful effect.<br><br>In Club Conquest: When an opponent gains a Helpful Effect, <color=#FEF8E4>{7:P0}</color> chance for each Microbot Spire to attack that opponent.
 YOKAI_SPECIALA_DESC_03|Summon <color=#FEF8E4>{0:N0}</color> Microbot Spires. If this character is defeated, summoned Microbot Spires are also defeated.<br><br>Microbot Spires have <color=#FEF8E4>{1:N0}</color> Health, <color=#FEF8E4>{2:N0}</color> Defense and perform the following ability:<br><br>Spike: Deal up to <color=#FFC400>{3:N0}</color> damage to target opponent. <color=#FEF8E4>{4:P0}</color> chance to Purge <color=#FEF8E4>{5:N0}</color> random Helpful effect.If target is affected by Slow, <color=#FEF8E4>{8:P0}</color> chance to inflict Stun for {9:N0} turn.<br><br>In Club Conquest: When an opponent gains a Helpful Effect, <color=#FEF8E4>{7:P0}</color> chance for each Microbot Spire to attack that opponent.
@@ -16605,21 +16959,26 @@ YZMA_ABILSPECIALA_NAME|Experimental Concoction
 YZMA_ABILSPECIALB_DESC_BASE|Releases a speeding coaster cart through the target area, dealing up to <color=#FFC400>{0:N0}</color> Physical damage and briefly inflicting <color=#FEF8E4>Airborne</color> to affected opponents.
 YZMA_ABILSPECIALB_NAME|Pull the Lever!
 YZMA_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> damage dealt. <color=#FEF8E4>+{1:P0}</color> chance for Kronk to Assist.
-YZMA_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>If Kronk is a teammate, <color=#FEF8E4>{1:P0}</color> chance for him to Assist.
+YZMA_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> damage dealt. If Kronk is a teammate, grant him <color=#FEF8E4>{1:N0}</color> Protect.
+YZMA_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> damage dealt. Kronk is guaranteed to Assist.
+YZMA_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>If Kronk is a teammate, he gains the following: <color=#FEF8E4>{1:P0}</color> chance to Assist.
+YZMA_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>If Kronk is a teammate, he gains the following: <color=#FEF8E4>{1:P0}</color> chance to Assist. <color=#FEF8E4>{2:N0}</color> Protect.
+YZMA_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>If Kronk is a teammate, he gains the following: Assist. <color=#FEF8E4>{2:N0}</color> Protect.
 YZMA_LABCOAT_UNIT_NAME|LAB COAT YZMA
-YZMA_PASSIVE_ABILPREVIEWUPGRADE_01|Adds a chance to grant the effects of Green Vial to a random teammate.
-YZMA_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> duration to all effects.
-YZMA_PASSIVE_DESC_01|On turn start, <color=#FEF8E4>{0:P0}</color> chance to inflict the effects of Red Vial on a random opponent. <br><br>Red Vial: Deal up to <color=#FFC400>{1:N0}</color> damage. Inflict Offense Down, Defense Down, Blind, or Critical Chance Down for <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>+{4:P0}</color> bonus chance to activate if any teammate is a Kingdom character.
+YZMA_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> base chance to activate. <color=#FEF8E4>+{1:P0}</color> bonus chance to activate.
+YZMA_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> damage dealt. <color=#FEF8E4>+{1:P0}</color> health restored.
+YZMA_PASSIVE_DESC_01|On turn start, perform each of the following:<br><br><color=#FEF8E4>{0:P0}</color> chance (increased by <color=#FEF8E4>{1:P0}</color> per Villain teammate): Deal up to <color=#FFC400>{2:N0}</color> damage to a random opponent. Inflict Offense Down, Defense Down, Blind, or Critical Chance Down for <color=#FEF8E4>{3:N0}</color> turns.<br><br><color=#FEF8E4>{4:P0}</color> chance (increased by <color=#FEF8E4>{5:P0}</color> per Kingdom teammate): Restore <color=#5DFF89>{6:N0}</color> Health to a random teammate. Grant Offense Up, Defense Up, or Crit Chance Up for <color=#FEF8E4>{7:N0}</color> turns.
 YZMA_PASSIVE_DESC_02|On turn start, <color=#FEF8E4>{0:P0}</color> chance to inflict the effects of Red Vial on a random opponent or grant the effects of Green Vial on a random teammate.<br><br>Red Vial: Deal up to <color=#FFC400>{1:N0}</color> damage. Inflict Offense Down, Defense Down, Blind, or Critical Chance Down for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Green Vial: Grant Offense Up, Defense Up, or Crit Chance Up for <color=#FEF8E4>{3:N0}</color> turns.<br><br><color=#FEF8E4>+{4:P0}</color> bonus chance to activate if any teammate is a Kingdom character.
-YZMA_SPECIALA_ABILPREVIEWUPGRADE_01|Fills target's Speed Meter by <color=#FEF8E4>{0:P0}</color>.
-YZMA_SPECIALA_ABILPREVIEWUPGRADE_02|Grant a second Continuous Healing effect.
-YZMA_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Speed Meter increase.
-YZMA_SPECIALA_DESC_01|Grants the effects of Green Elixir on target teammate.<br><br>Green Elixir: Restore <color=#5DFF89>{0:N0}</color> Health. Grant <color=#FEF8E4>{1:N0}</color> Continuous Healing effect, restoring <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns.
-YZMA_SPECIALA_DESC_02|Grants the effects of Green Elixir on target teammate.<br><br>Green Elixir: Restore <color=#5DFF89>{0:N0}</color> Health. Grant <color=#FEF8E4>{1:N0}</color> Continuous Healing effect, restoring <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns. Increase Speed Meter by <color=#FEF8E4>{4:P0}</color>.
+YZMA_SPECIALA_ABILPREVIEWUPGRADE_01|Increase target's Speed Meter by <color=#FEF8E4>{0:P0}</color>.
+YZMA_SPECIALA_ABILPREVIEWUPGRADE_02|Grant <color=#FEF8E4>+{0:N0}</color> Continuous Healing.
+YZMA_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Continuous Healing. <color=#FEF8E4>+{1:N0}</color> Cleanse.
+YZMA_SPECIALA_DESC_01|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate.<br><br>Grant <color=#FEF8E4>{1:N0}</color> Continuous Healing effects, each restoring <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns.<br><br>If the target is Kingdom or Villain, cleanse <color=#FEF8E4>{4:N0}</color> Harmful effects.
+YZMA_SPECIALA_DESC_02|Restore <color=#5DFF89>{0:N0}</color> Health to target teammate. Increase target's Speed Meter by <color=#FEF8E4>{5:P0}</color>.<br><br>Grant <color=#FEF8E4>{1:N0}</color> Continuous Healing effects, each restoring <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns.<br><br>If the target is Kingdom or Villain, cleanse <color=#FEF8E4>{4:N0}</color> Harmful effects.
 YZMA_SPECIALA_DESC_03|Grants the effects of Green Elixir on target teammate.<br><br>Green Elixir: Restore <color=#5DFF89>{0:N0}</color> Health. Grant <color=#FEF8E4>{1:N0}</color> Continuous Healing effects, each restoring <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns. Increase Speed Meter by <color=#FEF8E4>{4:P0}</color>.
-YZMA_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> initial Magic. <color=#FEF8E4>+{0:N0}</color> additional initial Magic if Kronk is a teammate.
-YZMA_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed Meter decrease.
-YZMA_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Reduce each affected opponent's Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>If Kronk is a teammate, increase initial Magic by <color=#FEF8E4>{2}</color>.
+YZMA_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> damage dealt. If Kronk is a teammate, increase Speed Meter of Kronk and Yzma by <color=#FEF8E4>{0:P0}</color>.
+YZMA_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> damage dealt. <color=#FEF8E4>+{1:P0}</color> Speed Meter increase.
+YZMA_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and flanking opponents. Reduce Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>If Kronk is a teammate, Kronk and Yzma gain the following: Haste for <color=#FEF8E4>{2:N0}</color> turns.
+YZMA_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and flanking opponents. Reduce Speed Meter by <color=#FEF8E4>{1:P0}</color>.<br><br>If Kronk is a teammate, Kronk and Yzma gain the following: Haste for <color=#FEF8E4>{2:N0}</color> turns. Increase Speed Meter by <color=#FEF8E4>{3:P0}</color>.
 YZMA_UNIT_NAME|YZMA
 ZAP_SPELLPREVIEWUPGRADE_ADDITIONAL_IMPACT_ADDCHANCE_25PCT|Adds a 25% chance to strike the targeted area a second time.
 ZAP_SPELLPREVIEWUPGRADE_CHANCE_ADDITIONAL_IMPACT_25PCT|Increases chance to strike the targeted area a second time by 25%.
@@ -16784,6 +17143,10 @@ STORE_ITEM_SO_WILDS_RAID_T7_20_NAME|T7 WILDS GEAR
 STORE_ITEM_SO_WILDS_RAID_T7_20_SUBTITLE|CRAFT T7 GEAR FOR YOUR WILDS CHARACTERS WITH THIS T7 GEAR BUNDLE.
 STORE_ITEM_SO_WILDS_RAID_T7_50_NAME|T7 WILDS POWER BUNDLE
 STORE_ITEM_SO_WILDS_RAID_T7_50_SUBTITLE|POWER UP YOUR WILDS CHARACTERS WITH THIS T7 GEAR BUNDLE. INCLUDES FULL T7 CRAFTING PIECES, BONUS ABILITY MATERIALS, AND MORE ITEMS.
+STORE_ITEM_SO_GOLD_10_NAME|MEGA GOLD BUNDLE
+STORE_ITEM_SO_GOLD_10_SUBTITLE|LEVEL UP AND POWER UP YOUR TEAM WITH THIS MEGA GOLD BUNDLE. CONTAINS A MASSIVE AMOUNT OF GOLD.
+STORE_ITEM_SO_ENERGY_10_NAME|MEGA ENERGY BUNDLE
+STORE_ITEM_SO_ENERGY_10_SUBTITLE|GET AHEAD OF THE COMPETITION WITH THIS MEGA ENERGY BUNDLE. CONTAINS A MASSIVE AMOUNT OF CAMPAIGN ENERGY, GRAND ENERGY, AND MORE ITEMS.
 PASSHOLDER_202009_2_SEASON_NAME|PASSHOLDER SEASON 11
 PASSHOLDER_202009_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 11 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * CHUNK TOKENS<BR>  * BIG BABY TOKENS<br>  * LOTSO TOKENS<br>  * FREE CHUCKLES EMOTE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 EMAIL_CONNECT_NOT_FINISHED|EMAIL
@@ -17430,6 +17793,15 @@ INSTANT_BATTLE_ATTEMPTS_REMAINING|ATTEMPTS REMAINING: {0}
 INSTANT_BATTLE_SELECT_AMOUNT_PROMPT_1|SELECT AN
 INSTANT_BATTLE_SELECT_AMOUNT_PROMPT_2|AMOUNT TO SPEND
 INSTANT_BATTLE_NO_REFRESHES_LABEL|NO ATTEMPT REFRESHES REMAINING!
+QUEST_GOAL_STATUS_CLAIM_REWARD|CLAIM REWARDS
+QUEST_GOAL_STATUS_COMPLETE|COMPLETE
+QUEST_GOAL_STATUS_INCOMPLETE|INCOMPLETE
+TEST_QUEST_2_NAME|It's about Buzz
+TEST_QUEST_2_DESC|Test quest about having buzz and using him in a pve battle
+TEST_GOAL_DESC|Recruit Buzz Lightyear!
+TEST_GOAL_2_DESC|Win Grand Campaign battle 1-D with Buzz Lightyear in your party!
+TEST_CHALLENGE_DESC|Complete all the Buzz Lightyear goals before the time is up!
+QUEST_GOAL_TIME_LIMIT_EXPIRED|TIME'S UP!
 EVENT_202102_MOTHERGOTHEL_META_DESC|Gather your Wilds team and battle to earn Mother Gothel Tokens! <br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202102_MOTHERGOTHEL_META_NAME|MOTHER KNOWS BEST
 EVENT_202102_MOTHERGOTHEL_PORTAL_DESC|EARN MOTHER GOTHEL TOKENS!
@@ -17458,6 +17830,27 @@ EVENT_202102_MOTHERGOTHEL_A_L8_NAME|MOTHER KNOWS BEST IX
 EVENT_202102_MOTHERGOTHEL_A_L8_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Star</size>
 CURRENCY_MOTHERGOTHEL_NAME|SUNDROP COINS
 CURRENCY_MOTHERGOTHEL_DESC|Earn Sundrop Coins during the Mother Knows Best Event.<br><br>Sundrop Coins can be used to open the Sundrop Chest in the Store.
+CHAPTER_AVAILABLE_IN|AVAILABLE IN
+CHAPTER_CHALLENGE_AVAILABLE|CHALLENGE AVAILABLE
+CHAPTER_CHALLENGE_ENDS_IN|ENDS IN
+CHAPTER_CHALLENGE_EXPIRED|CHALLENGE EXPIRED
+CHAPTER_CLAIM_REWARD|CLAIM REWARD
+CHAPTER_ENDS_IN|ENDS IN
+CHAPTER_COMPLETE|COMPLETED
+CHAPTER_QUEST_BUTTON_COMPLETED|COMPLETED
+CHAPTER_QUEST_BUTTON_ENTER|ENTER
+CHAPTER_QUEST_BUTTON_LOCKED|LOCKED
+CHAPTER_QUEST_COMPLETED|COMPLETE
+CHAPTER_QUEST_ENTER|ENTER
+CHAPTER_QUEST_IN_PROGRESS|IN PROGRESS
+CHAPTER_QUEST_LOCKED|LOCKED
+CHAPTER_QUEST_REWARD|CHAPTER REWARD
+CHAPTER_UNLOCK_REQUIREMENT|CHAPTER LOCKED
+HOME_TOME|SORCERER'S TOME
+SORCERER_TOME_TITLE|SORCERER'S TOME
+TEST_QUEST_2_LOCKED|IT'S LOCKED!
+TEST_CHAPTER_DESC|This chapter exists solely for this sync meeting
+TEST_CHAPTER_NAME|TEST CHAPTER
 EVENT_STICKER_HERCULES|HERCULES
 STORE_ITEM_HERC_HERMES_NAME|HERMES BUNDLE
 STORE_ITEM_HERC_HERMES_SUBTITLE|HERMES ALTERNATES ABILITY EFFECTS WHEN AFFECTED BY HASTE. GRANTS A VARIETY OF HELPFUL EFFECTS TO TEAMMATES.
@@ -17582,6 +17975,32 @@ INBOX_EVENT_2021_HERC_LAST_CHANCE_SUBJECT|Last Chance to earn rewards for the Ze
 INBOX_EVENT_2021_HERC_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5FF>ZERO TO HERO LEGENDARY EVENT</color> will be ending soon! This is your <color=#54C5FF>LAST CHANCE</color> to battle, so enter now to earn exclusive <color=#54C5FF>HERCULES</color> Tokens!
 INBOX_EVENT_2021_HERC_POST_EVENT_SUBJECT|Event Ended: Zero to Hero Legendary
 INBOX_EVENT_2021_HERC_POST_EVENT_BODY|Summoner,<BR><BR>The <color=#54C5FF>ZERO TO HERO LEGENDARY EVENT</color> has ended! Thank you for participating. Continue promoting Hermes, Pegasus, Phil, Pain and Panic, and Megara so you'll be ready to earn more <color=#54C5FF>HERCULES</color> Tokens when the Event returns!
+QUEST_GOAL_STATUS_GO|GO
+TEST_GOAL_2_NAME|PUT HIM TO BATTLE
+TEST_GOAL_3_NAME|PUT HIM TO BATTLE PT. 2
+TEST_GOAL_3_DESC|Win Grand Campaign battle 1-E with Buzz Lightyear in your party!
+TEST_GOAL_NAME|RECRUIT HIM
+QUEST_VIEW_CHAPTER_TIME_EXPIRED|CHAPTER'S CLOSED
+QUEST_VIEW_CHAPTER_CLOSES_IN|CHAPTER CLOSES IN: {0}
+QUEST_VIEW_GOAL_SELECTION|GOAL SELECTION
+QUEST_VIEW_CHALLENGES_SELECTION|CHALLENGES SELECTION
+QUEST_VIEW_CLAIM_ALL|CLAIM ALL
+QUEST_VIEW_COMPLETE_ALL_QUESTS_DESC|COMPLETE ALL QUESTS IN THE CHAPTER TO GET THIS REWARD
+QUEST_VIEW_CHALLENGES_EXPIRE_DESC|CHALLENGES DO NOT RETURN ONCE THE TIMER EXPIRES
+QUEST_VIEW_INFO_BANNER_TITLE|HOW IT WORKS!
+QUEST_VIEW_INFO_TITLE|QUESTS
+QUEST_VIEW_INFO_BODY|QUESTS ARE REALLY COOL!
+QUEST_VIEW_CARD_1_DESC|THIS IS CARD 1
+QUEST_VIEW_CARD_2_DESC|THIS IS CARD 2
+QUEST_VIEW_CARD_3_DESC|THIS IS CARD 3
+TEST_QUEST_3_NAME|ZERO TO HERO
+TEST_QUEST_3_DESC|THIS IS TESTING GOALS HAVING TO DO WITH COUNT REQUIREMENTS
+TEST_QUEST_3_GOAL_1_NAME|GOTTA UPGRADE THEM ALL
+TEST_QUEST_3_GOAL_1_DESC|HAVE 5 HERO ALIGNED UNITS ABOVE RARITY OF 1
+TEST_CHAPTER_CHALLENGE_NAME|TEST CHALLENGE
+QUEST_VIEW_REWARDS_MORE|+{0} MORE!
+QUEST_GOAL_REWARDS|GOAL REWARDS
+QUEST_CHALLENGE_REWARDS|CHALLENGE REWARDS
 PASSHOLDER_202103_1_SEASON_NAME|PASSHOLDER SEASON 22
 PASSHOLDER_202103_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>7X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 22 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MINNIE MOUSE TOKENS<BR>  * PLUTO TOKENS<br>  * DONALD DUCK TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202103_2_SEASON_NAME|PASSHOLDER SEASON 23
@@ -17594,6 +18013,8 @@ PASSHOLDER_202105_1_SEASON_NAME|PASSHOLDER SEASON 26
 PASSHOLDER_202105_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 26 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * MEGARA TOKENS<BR>  * PHIL TOKENS<br>  * PEGASUS TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202105_2_SEASON_NAME|PASSHOLDER SEASON 27
 PASSHOLDER_202105_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 27 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * EVE TOKENS<BR>  * WALL•E TOKENS<br>  * GIZMODUCK TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202106_1_SEASON_NAME|PASSHOLDER SEASON 28
+PASSHOLDER_202106_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 28 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * CRUELLA TOKENS<BR>  * SHAN YU TOKENS<br>  * GASTON TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PVP_MEGARA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MEGARA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MEGARA</color> and <color=#54C5FF>MORTAL POTION</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MEGARA_INBOX_SUBJECT|Megara Enters the PvP Arena!
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
@@ -17620,6 +18041,12 @@ SO_MYTHICAL_RAID_T7_50_NAME|MYTHICAL EXCLUSIVE BUNDLE
 SO_MYTHICAL_RAID_T7_50_SUBTITLE|GIVE YOUR MYTHICAL TEAM A POWERFUL BOOST WITH THIS T7 GEAR BUNDLE. INCLUDES AN EXCLUSIVE 4-STAT T7 GEAR PIECE AND BONUS MATERIALS.
 SO_T7_GEAR_MYTHICAL_BUNDLE_50_NAME|MYTHICAL POWER BUNDLE
 SO_T7_GEAR_MYTHICAL_BUNDLE_50_SUBTITLE|POWER UP YOUR MYTHICAL TEAM WITH THIS T7 GEAR BUNDLE. INCLUDES A READY-TO-EQUIP GEAR PIECE AND MATERIALS TO CRAFT EVEN MORE.
+NOTIFICATION_TOME_CHAPTER_CLOSING_TITLE|Chapter closing soon!
+NOTIFICATION_TOME_CHAPTER_CLOSING_TEXT|A Sorcerer's Tome Chapter is closing soon! Login now to complete Quests and Challenges.
+NOTIFICATION_TOME_CHAPTER_NEWLY_UNLOCKED_TITLE|Chapter newly unlocked!
+NOTIFICATION_TOME_CHAPTER_NEWLY_UNLOCKED_TEXT|A new Chapter in the Sorcerer's Tome has been unlocked! Login now to complete Quests and Limited Time Challenges!
+NOTIFICATION_TOME_CHALLENGE_CLOSING_TITLE|Challenge closing soon!
+NOTIFICATION_TOME_CHALLENGE_CLOSING_TEXT|A Sorcerer's Tome Limited Time Challenge is ending soon! Login now before it's gone!
 LC_KOTH_A_INBOX_START_SUBJECT|The Sorcerer's Tournament Leaderboard Contest is live!
 LC_KOTH_A_INBOX_START_BODY|Summoner,<BR><BR>The Sorcerer's Tournament Leaderboard Contest has begun!<br><br>Battle in the Sorcerer's Tournament to earn points. Claim milestone rewards and increase your rank within your Contest Group and Global Rankings for even more rewards!
 LC_KOTH_A_INBOX_PREVIEW_SUBJECT|Coming Soon: Sorcerer's Tournament Leaderboard Contest!
@@ -17687,6 +18114,7 @@ EVENT_202103_RESCUE_RANGERS_C_L6_NAME|GADGET 7
 EVENT_202103_RESCUE_RANGERS_C_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Star</size>
 INSTANT_BATTLE_MAX_USE_AMOUNT_LABEL|AUTO MAX x{0}
 INSTANT_BATTLE_REWARDS_V2_HEADER|AUTO-WIN REWARDS
+LCA_PORTAL_GENERIC_DESC|EARN POINTS TO RANK UP
 LCA_TECH_DAMAGE_NAME|TECH DAMAGE LEADERBOARD CONTEST
 LCA_TECH_DAMAGE_DESC|Earn Points by dealing the highest amount of damage with WALL•E, EVE, and GIZMODUCK in the PvP Arena.
 LCA_TECH_DAMAGE_DETAILED_TITLE|Contest Rules
@@ -17739,6 +18167,32 @@ LCA_RESCUE_RANGERS_MILESTONE_REWARD_POINT_NAME|RESCUE RANGERS CONTEST POINTS
 LCA_RESCUE_RANGERS_MILESTONE_REWARD_POINT_DESC|Earn Points by upgrading Chip and Dale.
 LCA_CONTEST_MILESTONE_VIEW_NAME|CONTEST MILESTONES
 LCA_CONTEST_MILESTONE_VIEW_DESC|Earn Contest Points to unlock milestone rewards.
+LCA_PLAYER_XP_INBOX_SUBJECT|The Player XP Leaderboard Contest has begun!
+LCA_PLAYER_XP_INBOX_BODY|Summoner,<BR><BR>The <color=#54C5FF>Player XP Leaderboard Contest</color> has begun!<BR><BR>Earn Contest Points when gaining Player XP. Player XP can be gained by using Campaign Energy and completing Daily Quests. Climb the ranks for the best rewards!<BR><BR>Good luck, and see you in the Arena!
+LCA_PLAYER_XP_NAME|PLAYER XP LEADERBOARD CONTEST
+LCA_PLAYER_XP_DESC|Earn Contest Points when gaining Player XP.
+LCA_PLAYER_XP_PORTAL_DESC|EARN CONTEST POINTS WHEN GAINING PLAYER XP
+LCA_PLAYER_XP_DETAILED_TITLE|Contest Rules
+LCA_PLAYER_XP_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Earn Contest Points when gaining Player XP. Player XP can be gained by using Campaign Energy and completing Daily Quests.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>• Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking.<BR><BR><color=#54C5FF>CLUB LEADERBOARD</color><br>• Compete with your Club against all other Clubs. At the end of the event, all players who participated and earned points will receive a reward to their inbox based on their final club ranking.<BR><BR><color=#54C5FF>GLOBAL LEADERBOARD</color><br>• Compete with all global players. At the end of the event players will receive a reward to their inbox based on their final ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>• If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<BR><BR><color=#54C5FF>POINT INFORMATION</color><br>• Per Player XP Gained: 1
+LCA_PLAYER_XP_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
+LCA_PLAYER_XP_MILESTONE_REWARD_POINT_NAME|PLAYER XP CONTEST POINTS
+LCA_PLAYER_XP_MILESTONE_REWARD_POINT_DESC|Earn Contest Points when gaining Player XP. Player XP can be gained by using Campaign Energy and completing Daily Quests.
+LCA_PLAYER_XP_INBOXMESSAGE_PERSONAL_BODY|Summoner,<br><br>The Player XP Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LCA_PLAYER_XP_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The Player XP Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LCA_PLAYER_XP_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The Player XP Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LCA_ASCENSION_ENERGY_INBOX_SUBJECT|The Ascension Energy Leaderboard Contest has begun!
+LCA_ASCENSION_ENERGY_INBOX_BODY|Summoner,<BR><BR>The <color=#54C5FF>Ascension Energy Leaderboard Contest</color> has begun!<BR><BR>Earn Contest Points by using Ascension Energy in the Ascension Campaign. Manually battling as well as using auto-win will provide the same amount of points per energy used. Climb the ranks for the best rewards!<BR><BR>Good luck, and see you in the Arena!
+LCA_ASCENSION_ENERGY_NAME|ASCENSION ENERGY LEADERBOARD CONTEST
+LCA_ASCENSION_ENERGY_DESC|Earn Contest Points by using Ascension Energy in the Ascension Campaign.
+LCA_ASCENSION_ENERGY_PORTAL_DESC|EARN T8 CRAFTING MATERIALS
+LCA_ASCENSION_ENERGY_DETAILED_TITLE|Contest Rules
+LCA_ASCENSION_ENERGY_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Earn Contest Points by using Ascension Energy in the Ascension Campaign. Manually battling as well as using auto-win will provide the same amount of points per energy used.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>• Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking.<BR><BR><color=#54C5FF>GLOBAL LEADERBOARD</color><br>• Compete with all global players. At the end of the event players will receive a reward to their inbox based on their final ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>• If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<BR><BR><color=#54C5FF>POINT INFORMATION</color><br>• Per Ascension Energy Used: 1
+LCA_ASCENSION_ENERGY_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
+LCA_ASCENSION_ENERGY_MILESTONE_REWARD_POINT_NAME|ASCENSION ENERGY CONTEST POINTS
+LCA_ASCENSION_ENERGY_MILESTONE_REWARD_POINT_DESC|Earn Contest Points by using Ascension Energy in the Ascension Campaign. Manually battling as well as using auto-win will provide the same amount of points per energy used.
+LCA_ASCENSION_ENERGY_INBOXMESSAGE_PERSONAL_BODY|Summoner,<br><br>The Ascension Energy Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LCA_ASCENSION_ENERGY_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The Ascension Energy Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LCA_ASCENSION_ENERGY_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The Ascension Energy Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 EVENT_STICKER_RESCUE_RANGERS|RESCUE RANGERS
 OUTFIT_HADES_DSA_UNIT_NAME|SORCERER'S ARENA HADES
 OUTFIT_HADES_DSA_DESC|Collect 100 to unlock the 'Sorcerer's Arena' outfit for Hades.
@@ -17800,6 +18254,7 @@ INBOX_EVENT_2021_RR_LAST_CHANCE_SUBJECT|Last Chance for Rescue Rangers!
 INBOX_EVENT_2021_RR_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>RESCUE RANGERS</color> Event is ending soon!<br><br>Upgrade Chip and Dale to earn points in the <color=#54C5FF>RESCUE RANGERS LEADERBOARD CONTEST</color> and earn exclusive <color=#54C5FF>GADGET</color> tokens!<br><br>Good luck, and see you in the Arena!
 TROPHY_RESCUE_RANGERS_NAME|RESCUE RANGERS TROPHY
 TROPHY_RESCUE_RANGERS_DESC|Awarded for completing the Rescue Rangers Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+BATTLE_MODE_CAMPAIGN_MODE|ADVENTURES
 EVENT_202104_BH6_PRESTIGE_A_NAME|PRESTIGE: BIG HERO 6
 EVENT_202104_BH6_PRESTIGE_A_L0_NAME|PRESTIGE: BIG HERO BRAWL I
 EVENT_202104_BH6_PRESTIGE_A_L1_NAME|PRESTIGE: BIG HERO BRAWL II
@@ -17905,6 +18360,60 @@ LCA_ENERGY_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The energy Leaderboard Cont
 LCA_ENERGY_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The energy Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_ENERGY_INBOXMESSAGE_START_BODY|Summoner,<br><br>The <color=#54C5FF>ENERGY LEADERBOARD CONTEST</color> has begun!<br><br>Earn Contest Points by using <color=#54C5FF>GRAND ENERGY</color> and <color=#54C5FF>CAMPAIGN ENERGY</color>. Climb the ranks for the best rewards!<br><br>Good luck, and see you in the Arena!
 LCA_ENERGY_INBOXMESSAGE_START_SUBJECT|The Energy Leaderboard Contest has begun!
+ADVENTURES_MAIN_GRAND_NAME|GRAND
+ADVENTURES_MAIN_GRAND_DESC|Welcome to the <color=#54C5FF>Grand Campaign</color>, where your journey through the Arena begins!<BR><BR>Power up your team to make your way through this <color=#54C5FF>Main Adventure Campaign</color> and earn character tokens, XP, and more! Spend <color=#54C5FF>Grand Energy</color> on each battle attempt in this Campaign.<BR><BR>Completing a battle with your full team still intact will earn you three <color=#54C5FF>Main Adventure Stars</color>.<BR><BR>Go back to previously conquered nodes and <color=#54C5FF>Auto-Win</color> (requires player level 10) to collect specific rewards to keep growing and powering up your collection.
+ADVENTURES_MAIN_HEROES_NAME|HEROES
+ADVENTURES_MAIN_HEROES_DESC|Welcome to the <color=#54C5FF>Heroes Campaign</color>!<BR><BR>Power up your team of <color=#54C5FF>HERO</color> characters to make your way through this <color=#54C5FF>Main Adventure Campaign</color> and earn character tokens and gear along the way.<BR><BR>Spend <color=#54C5FF>Campaign Energy</color> on each battle attempt in this Campaign. Completing a battle with your full team still intact will earn you three <color=#54C5FF>Main Adventure Stars</color> and unlock the <color=#54C5FF>Auto-Win</color> feature (requires player level 10).<BR><BR>Go back to previously conquered nodes and <color=#54C5FF>Auto-Win</color> to collect specific rewards in order to keep growing and powering up your collection.<BR><BR>Conquer <color=#54C5FF>ELITE</color> nodes to earn character tokens. Look out for <color=#54C5FF>BOSS</color> nodes which will put your team to the test.
+ADVENTURES_MAIN_VILLAINS_NAME|VILLAINS
+ADVENTURES_MAIN_VILLAINS_DESC|Welcome to the <color=#54C5FF>Villains Campaign</color>!<BR><BR>Power up your team of <color=#54C5FF>VILLAINS</color> characters to make your way through this <color=#54C5FF>Main Adventure Campaign</color> and earn character tokens and gear along the way.<BR><BR>Spend <color=#54C5FF>Campaign Energy</color> on each battle attempt in this Campaign. Completing a battle with your full team still intact will earn you three <color=#54C5FF>Main Adventure Stars</color> and unlock the <color=#54C5FF>Auto-Win</color> feature (requires player level 10).<BR><BR>Go back to previously conquered nodes and <color=#54C5FF>Auto-Win</color> to collect specific rewards in order to keep growing and powering up your collection.<BR><BR>Conquer <color=#54C5FF>ELITE</color> nodes to earn character tokens. Look out for <color=#54C5FF>BOSS</color> nodes which will put your team to the test.
+ADVENTURES_MAIN_ASCENSION_NAME|ASCENSION CAMPAIGN
+ADVENTURES_MAIN_ASCENSION_DESC|Welcome to the <color=#54C5FF>Ascension Campaign</color>!<BR><BR>Reach new heights and rise to the challenge in this Campaign to collect <color=#54C5FF>Tier 8 Gear Pieces</color>, and power up your team to the next level.<BR><BR>Spend <color=#54C5FF>Ascension Energy</color> on each battle attempt in this Campaign.<BR><BR>Make your way through <color=#54C5FF>Stage II</color> to earn BIG rewards and more access to gear.<BR><BR>Conquer <color=#54C5FF>Stage III</color> to unlock the <color=#54C5FF>Ascension Trophy</color> and <color=#54C5FF>Frame</color>!
+ADVENTURES_SIDE_LIONKING_NAME|THE LION KING
+ADVENTURES_SIDE_LIONKING_DESC|Welcome to the <color=#54C5FF>Lion King Campaign</color>!<BR><BR>Battle your way through this <color=#54C5FF>Side Adventure Campaign</color> to earn <color=#54C5FF>Rafiki</color> and <color=#54C5FF>Simba</color> tokens. Power up your Lion King team to conquer <color=#54C5FF>Stage II</color> and earn <color=#54C5FF>Scar</color> tokens and more!<BR><BR>Battle attempts can cost either <color=#54C5FF>Grand Energy</color> or <color=#54C5FF>Campaign Energy</color> in this Campaign. Completing a battle with your full team still intact will earn you three <color=#54C5FF>Side Adventure Stars</color>.
+CURRENCY_STAR_MAIN_NAME|MAIN ADVENTURE STARS
+CURRENCY_STAR_SIDE_NAME|SIDE ADVENTURE STARS
+CURRENCY_ENERGY_ASCENSION_NAME|ASCENSION ENERGY
+ASCENSION_ENERGY_DAILY_GIFT_DESC|Claim Free Ascension Energy
+ASCENSION_ENERGY_DAILY_GIFT_TITLE|FREE ASCENSION ENERGY
+ASCENSION_ENERGY_DESC_KEY|Used to access the Ascension Campaign Mode
+ADVENTURES_SIDE_LIONKING_S03N01_DESC|Power up your Lion King team to take on Scar in this epic Boss Battle for BIG rewards.
+ADVENTURES_MAIN_ASCENSION_S03N01_DESC|•Earn BIG rewards!<br><br>•Hades and Mickey are immune to Stun, Silence, Charm, Polymorph, Sleep, and Intimidate.<br><br>•Hades and Mickey assist each other's Basic and Special B attacks.
+TROPHY_ASCENSION_NAME|ASCENSION TROPHY
+TROPHY_ASCENSION_DESC|Awarded for completing the Ascension Campaign.<BR><BR>Collect Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+FRAME_ASCENSION_NAME|ASCENSION FRAME
+FRAME_ASCENSION_DESC|Awarded for completing the <color=#54C5FF>Ascension Campaign</color> in the Sorcerer's Arena!
+ACHIEVEMENT_ASCENSION_NAME|ASCENSION CAMPAIGN
+ACHIEVEMENT_ASCENSION_DESC|Complete the Ascension Campaign
+ACHIEVEMENT_ASCENSIONSTAGE1_DESC|Finish Ascension Campaign Stage 1
+ACHIEVEMENT_ASCENSIONSTAGE2_DESC|Finish Ascension Campaign Stage 2
+ACHIEVEMENT_ASCENSIONSTAGE3_DESC|Finish Ascension Campaign Stage 3
+ACHIEVEMENT_LIONKING_NAME|LION KING CAMPAIGN
+ACHIEVEMENT_LIONKING_DESC|Complete the Lion King Campaign
+ADVENTURES_MAIN_HEROES_LOCKED_DESC|REQUIRES GRAND CAMPAIGN STAGE 2 COMPLETION
+ADVENTURES_MAIN_VILLAINS_LOCKED_DESC|REQUIRES 4 VILLAIN CHARACTERS
+STORE_ITEM_SPECIAL_ASCENSION_KINGDOMTRIO_NAME|KINGDOM TRIO BUNDLE
+STORE_ITEM_SPECIAL_ASCENSION_KINGDOMTRIO_DESC|BOOST UP YOUR KINGDOM TEAM FOR THE ASCENSION CAMPAIGN WITH THIS OFFER. INCLUDES SHAN YU, BELLE, AND ANNA TOKENS, GOLD, ABILITY RUNES, AND MORE.
+STORE_ITEM_SPECIAL_ASCENSION_TS3DUO_NAME|BIG BABY & CHUNK BUNDLE
+STORE_ITEM_SPECIAL_ASCENSION_TS3DUO_DESC|BOOST UP YOUR TOY STORY TEAM FOR THE ASCENSION CAMPAIGN WITH THIS OFFER. INCLUDES BIG BABY AND CHUNK TOKENS, AND MORE.
+STORE_ITEM_SPECIAL_ASCENSION_TSTEAM_NAME|TOY STORY TEAM BUNDLE
+STORE_ITEM_SPECIAL_ASCENSION_TSTEAM_DESC|BUILD UP YOUR TOY STORY TEAM FOR THE ASCENSION CAMPAIGN WITH THIS OFFER. INCLUDES BIG BABY, CHUNK, BUZZ LIGHTYEAR, JESSIE, AND WOODY TOKENS, AND MORE.
+STORE_ITEM_SPECIAL_ASCENSION_MYTHICALTRIO_NAME|MYTHICAL TRIO BUNDLE
+STORE_ITEM_SPECIAL_ASCENSION_MYTHICALTRIO_DESC|BUILD UP YOUR MYTHICAL TEAM FOR THE ASCENSION CAMPAIGN WITH THIS OFFER. INCLUDES SALLY, MADAM MIM, AND MIGUEL TOKENS, AND MORE.
+STORE_ITEM_SPECIAL_ASCENSION_OCEANICTRIO_NAME|OCEANIC TRIO BUNDLE
+STORE_ITEM_SPECIAL_ASCENSION_OCEANICTRIO_DESC|BUILD UP YOUR OCEANIC TEAM FOR THE ASCENSION CAMPAIGN WITH THIS OFFER. INCLUDES MOANA, JACK SPARROW, AND CAPTAIN HOOK TOKENS, AND MORE.
+STORE_ITEM_SPECIAL_ASCENSION_WILDSTRIO_NAME|WILDS TRIO BUNDLE
+STORE_ITEM_SPECIAL_ASCENSION_WILDSTRIO_DESC|BUILD UP YOUR WILDS TEAM FOR THE ASCENSION CAMPAIGN WITH THIS OFFER. INCLUDES SHERE KHAN, MERIDA, AND POCAHONTAS TOKENS, AND MORE.
+STORE_ITEM_SPECIAL_ASCENSION_HUNCHBACKDUO_DESC|GET A JUMP START ON THE ASCENSION CAMPAIGN WITH THIS OFFER. INCLUDES QUASIMODO AND ESMERALDA TOKENS, AND MORE.
+STORE_ITEM_SPECIAL_CAMPAIGN_LIONKINGBUNDLE_DESC|POWER UP YOUR LION KING TEAM WITH THIS SPECIAL OFFER. INCLUDES A BONUS 5X ULTIMATE CHEST, AND MORE.
+STORE_ITEM_SPECIAL_CAMPAIGN_PRIDEROCKBUNDLE_DESC|BE PREPARED WITH THE PRIDE ROCK BUNDLE. CONTAINS SIMBA TOKENS, RAFIKI TOKENS, CAMPAIGN ENERGY, AND MORE.
+INBOX_ADVENTURECAMPAIGNS_SUBJECT|Adventure Campaigns have arrived!
+INBOX_ADVENTURECAMPAIGNS_BODY|Summoner,<BR><BR>Campaigns are getting a fresh new look! Check out the new <color=#54C5FF>Adventures</color> section!<BR><BR>Visit the <color=#54C5FF>Main Adventure</color> tab, where all Main Adventure Campaigns including Grand, Heroes, and Villains Campaigns can be found. Continue your journey in the new <color=#54C5FF>Ascension Campaign</color>.<BR><BR>Check out the <color=#54C5FF>Side Adventure</color> tab for Side Adventure Campaigns, where you can continue to build your collections and power up your teams for battle.<BR><BR>Collect Main Adventure and Side Adventure <color=#54C5FF>Stars</color> by mastering each node in order to unlock more content in the future.<BR><BR>Level up further with the player level extension to <color=#54C5FF>Level 80</color> and continue to strengthen your team with new <color=#54C5FF>Tier 8 Gear Pieces</color>! Upgrade character abilities with new <color=#54C5FF>Delta Ability Runes</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_CAMPAIGN_LIONKING_SUBJECT|New Main Adventure Campaign - Ascension
+INBOX_CAMPAIGN_LIONKING_BODY|Summoner,<BR><BR>The <color=#54C5FF>Ascension Campaign</color> has arrived!<BR><BR>Head to <color=#54C5FF>Adventures</color> to get started on this new <color=#54C5FF>Main Adventure Campaign</color>, or continue to work your way through Grand, Heroes, and Villains Campaigns to prepare your team for what lies ahead.<BR><BR>Rise to the challenge and reach new heights in this new Campaign to collect <color=#54C5FF>Tier 8 Gear Pieces</color>, and power up your teams to the next level.<BR><BR>Continue through <color=#54C5FF>Stage II</color> to earn BIG rewards, and more access to Tier 8 Gear. Assemble your best team to conquer <color=#54C5FF>Stage III</color> and earn the <color=#54C5FF>Ascension Trophy</color> and <color=#54C5FF>Frame</color>!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_CAMPAIGN_ASCENSION_SUBJECT|New Side Adventure Campaign - The Lion King
+INBOX_CAMPAIGN_ASCENSION_BODY|Summoner,<BR><BR>The <color=#54C5FF>Lion King Campaign</color> has arrived in the Arena!<BR><BR>Head to <color=#54C5FF>Adventures</color> to get started on this new <color=#54C5FF>Side Adventure Campaign</color>.<BR><BR>Make your way through <color=#54C5FF>Stage I</color> to collect <color=#54C5FF>Rafiki</color> and <color=#54C5FF>Simba</color> tokens. Power up your <color=#54C5FF>Lion King</color> team to conquer <color=#54C5FF>Stage II</color> and earn <color=#54C5FF>Scar</color> tokens and more!<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_ADVENTURE_DAILY_GIFT_SUBJECT|Adventure Campaigns - Free Gift
+INBOX_ADVENTURE_DAILY_GIFT_BODY|Summoner,<BR><BR>You have received a FREE gift to help you on your journey as you make your way through <color=#54C5FF>Adventure Campaigns</color>!<BR><BR>Stay on the lookout for daily inbox gifts between <color=#54C5FF>June 03 - 09</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202105_WALLE_META_DESC|Power up Gizmoduck and your Tech Team and battle to earn EVE and WALL•E Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202105_WALLE_META_NAME|THE LAST ROBOT ON EARTH
 EVENT_202105_WALLE_PORTAL_DESC|EARN EVE AND WALL•E TOKENS!
@@ -17912,7 +18421,7 @@ EVENT_202105_WALLE_PORTAL_NAME|THE LAST ROBOT ON EARTH
 EVENT_202105_WALLE_A_NAME|EVE
 EVENT_202105_WALLE_A_DESC|REQUIRES GIZMODUCK AND TECH CHARACTERS
 EVENT_202105_WALLE_A_AURA_NAME|EVE
-EVENT_202105_WALLE_A_AURA_DESC|INFO<br>•Fight alongside EVE to defeat an Empowered Yokai.<br>•Yokai gains Stealth when he summons Microbot Spires.<br>•Opponents have a 50% chance to steal Helpful Effects when they deal damage.
+EVENT_202105_WALLE_A_AURA_DESC|INFO<br>•Fight alongside EVE to defeat an Empowered Yokai and all opponents.<br>•Yokai starts the battle with Stealth and Haste, and gains Stealth when he summons Microbot Spires.<br>•Yokai is Immune to Stun, Silence, Sleep, Polymorph, Charm, and Slow.<br>•Opponents have a 50% chance to steal Helpful Effects when they deal damage.
 EVENT_202105_WALLE_A_L0_NAME|EVE I
 EVENT_202105_WALLE_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Star</size>
 EVENT_202105_WALLE_A_L1_NAME|EVE II
@@ -17928,7 +18437,7 @@ EVENT_202105_WALLE_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>�
 EVENT_202105_WALLE_B_NAME|WALL•E
 EVENT_202105_WALLE_B_DESC|REQUIRES GIZMODUCK, EVE, AND TECH CHARACTERS
 EVENT_202105_WALLE_B_AURA_NAME|WALL•E
-EVENT_202105_WALLE_B_AURA_DESC|INFO<br>•Fight alongside WALL•E to defeat an Empowered Captain Gantu and Intergalatic foes with reduced Magic Costs.<br>•Captain Gantu prefers to use his "Abomination!" ability. <br>•Captain Gantu starts the battle with Taunt. <br>•On Battle Start and on their turn, Captain Gantu and Intergalatic foes gain Tactics and Haste.<br>•Yokai gains Stealth when he summons Microbot Spires.
+EVENT_202105_WALLE_B_AURA_DESC|INFO<br>•Fight alongside WALL•E to defeat an Empowered Captain Gantu and Intergalatic foes with reduced Magic Costs.<br>•Captain Gantu prefers to use his "Abomination!" ability. <br>•Captain Gantu starts the battle with Taunt. <br>•Captain Gantu is Immune to Stun, Silence, Charm, Polymorph, and Sleep.<br>•On Battle Start and on their turn, Captain Gantu and Intergalatic foes gain Tactics and Haste.<br>•Yokai starts the battle with Haste and Stealth, and gains Stealth when he summons Microbot Spires.
 EVENT_202105_WALLE_B_L0_NAME|WALL•E I
 EVENT_202105_WALLE_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color><br>• 4 Star</size>
 EVENT_202105_WALLE_B_L1_NAME|WALL•E II
@@ -17941,6 +18450,15 @@ EVENT_202105_WALLE_B_L4_NAME|WALL•E V
 EVENT_202105_WALLE_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 7</color><br>• 7 Star</size>
 EVENT_202105_WALLE_B_L5_NAME|WALL•E VI
 EVENT_202105_WALLE_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 8</color><br>• 7 Star</size>
+ASCENSION_CAMPAIGN_BOSS_1_NAME|Sorcerer's Fire and Water
+ASCENSION_CAMPAIGN_BOSS_1_DESC|INFO<br>•Defeat Hades and Sorcerer's Apprentice Mickey! <br>•Hades and Mickey are immune to Stun, Silence, Charm, Polymorph, Sleep, and Intimidate. <br>•Hades and Mickey assist each other's Basic and Special B attacks.
+GENERIC_MUTATOR_CHARMED_GAIN_BUFFS_NAME|Charming Challenge
+GENERIC_MUTATOR_CHARMED_GAIN_BUFFS_DESC|INFO<br>•When opponents gain Charm, they gain Offense Up and Guaranteed Crit.
+GENERIC_MUTATOR_HELPFULEFFECTS_GIVE_SPEEDMETER_NAME|Helfpul Hasting
+GENERIC_MUTATOR_HELPFULEFFECTS_GIVE_SPEEDMETER_DESC|INFO<br>•When opponents gain Helpful Effects, they gain Speed Meter.
+GENERIC_MUTATOR_HELPFUL_CHANCE_NAME|Infernal Four
+GENERIC_MUTATOR_HELPFUL_CHANCE_DESC|INFO<br>•When opponents take a turn, they have a chance to gain Offense Up, Crit Chance Up, Crit Power Up, and Guaranteed Crit.
+UNIT_CATEGORY_TOY_STORY_3|TOY STORY 3
 STORE_ITEM_TECH_WALLE_NAME|WALL•E BUNDLE
 STORE_ITEM_TECH_WALLE_SUBTITLE|ACTIVATE BOX MODE WHEN FALLING INTO LOW HEALTH. GAIN DEFENSE AND IMMUNITY TO CRITICAL STRIKES. RECOVER HEALTH WHEN LOSING BOX MODE.
 STORE_ITEM_TECH_EVE_NAME|EVE BUNDLE
@@ -17965,4 +18483,109 @@ INBOX_EVENT_202105_WALLE_START_SUBJECT|The Last Robot on Earth Event has started
 INBOX_EVENT_202105_WALLE_START_BODY|Summoner,<BR><BR><color=#54C5FF>The Last Robot on Earth</color> Event has begun! Power up <color=#54C5FF>Gizmoduck</color> and your <color=#54C5FF>Tech</color> Team for battle to earn Tokens for <color=#54C5FF>Eve</color> and <color=#54C5FF>Wall•E</color> Tokens!
 INBOX_EVENT_202105_WALLE_LAST_CHANCE_SUBJECT|Last Chance to earn rewards for The Last Robot on Earth!
 INBOX_EVENT_202105_WALLE_LAST_CHANCE_BODY|Summoner,<BR><BR><color=#54C5FF>The Last Robot on Earth</color> Event will be ending soon! This is your <color=#54C5FF>LAST CHANCE</color> to battle, so enter now to earn <color=#54C5FF>Eve</color> and <color=#54C5FF>Wall•E</color> Tokens!
+UNIT_PROMO_MAT_CRUELLA_DE_VIL|CRUELLA TOKENS
+PVP_PLUTO_INBOX_SUBJECT|Pluto enters the PvP Arena!
+PVP_PLUTO_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! Battle on <color=#54C5FF>Main Street</color> for a limited time!<br><br><color=#54C5FF>Pluto</color> will be featured in the Weekly and Seasonal rewards for the next two seasons.<br><br>Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Pluto</color> and <color=#54C5FF>Golden Hammer</color> spell tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
+EVENT_STICKER_KV|KINGDOM VILLAIN
+EVENT_STICKER_CR|SEEING SPOTS
+CR_CRUELLA_NAME|CRUELLA BUNDLE
+CR_CRUELLA_SUBTITLE|INFLICT HARMFUL EFFECTS AND STEAL HELPFUL EFFECTS FROM OPPONENTS WHILE SUPPORTING YOUR TEAMMATES WITH CLEANSING AND HEALING.
+CR_CHEST_SPECIAL_NAME|GLAMOROUS CHEST BUNDLE
+CR_CHEST_SPECIAL_SUBTITLE|COLLECT EVENT COINS, ABILITY MATERIALS, KINGDOM VILLAIN CHARACTER TOKENS, AND MORE ITEMS WITH THIS HIGH VALUE BUNDLE.
+CR_NAMAARI_NAME|NAMAARI BUNDLE
+CR_NAMAARI_SUBTITLE|FLIP HASTE ON OPPONENTS AND GRANT OFFENSE UP AND DEFENSE UP TO VILLIAN KINGDOM TEAMMATES. STRIKE OPPONENTS AS THEIR HEALTH BECOMES LOW.
+CR_TEAM_NAME|KINGDOM VILLAINS TEAM BUNDLE
+CR_TEAM_SUBTITLE|POWER UP YOUR KINGDOM VILLAINS TEAM WITH TOKENS FOR CHARACTERS REQUIRED TO BATTLE IN THE SEEING SPOTS EVENT.
+CR_MOTHER_GOTHEL_NAME|MOTHER GOTHEL BUNDLE
+CR_MOTHER_GOTHEL_SUBTITLE|STEAL SPEED METER AND FORCE OPPONENTS TO ATTACK EACH OTHER. STAY IN THE FIGHT BY USING STEALTH AND STEALING HEALTH.
+CR_GASTON_NAME|GASTON BUNDLE
+CR_GASTON_SUBTITLE|CHARACTER REFRESH! STORM THE CASTLE NOW GRANTS MORE SPEED METER TO VILLAIN TEAMMATES. GAIN BONUS HEALTH PER KINGDOM TEAMMATE.
+CR_YZMA_NAME|YZMA BUNDLE
+CR_YZMA_SUBTITLE|CHARACTER REFRESH! POTENT POTION CAN NOW HEAL AND HAS A CHANCE TO DAMAGE AND HEAL EACH TURN. NEW SYNERGIES WITH KRONK.
+CR_SHERIFF_NAME|SHERIFF OF NOTTINGHAM BUNDLE
+CR_SHERIFF_SUBTITLE|STEAL ENEMY SPEED METER AND USE BIG BELLIED BULLY TO DEAL MASSIVE DAMAGE
+CR_SHAN_YU_NAME|SHAN YU BUNDLE
+CR_SHAN_YU_SUBTITLE|SHAN YU IS A POWERFUL LEADER WHO GIVES ALL KINGDOM CHARACTERS A SPEED BOOST IN BATTLE!
+CR_JAFAR_NAME|JAFAR BUNDLE
+CR_JAFAR_SUBTITLE|JAFAR IS A FORMIDDABLE ATTACKER WHO CAN BEND TIME TO BLOCK ENEMIES FROM HEALING.
+CURRENCY_CRUELLA_NAME|GLAMOROUS COINS
+CURRENCY_CRUELLA_DESC|Earn Glamorous Coins during the Seeing Spots Event.<br><br>Glamorous Coins can be used to open the Glamorous Chest in the Store.
+CR_CRUELLA_GEMS_NAME|CRUELLA PACK
+CR_MOTHER_GOTHEL_GEMS_NAME|MOTHER GOTHEL PACK
+CR_NAMAARI_GEMS_NAME|NAMAARI PACK
+CR_GASTON_GEMS_NAME|GASTON PACK
+CR_JAFAR_GEMS_NAME|JAFAR PACK
+CR_SHERIFF_GEMS_NAME|SHERIFF OF NOTTINGHAM PACK
+CR_SHAN_YU_GEMS_NAME|SHAN YU PACK
+CR_YZMA_GEMS_NAME|YZMA PACK
+CR_COINS_NAME|GLAMOROUS COINS
+CR_COINS_BACK|COLLECT GLAMOROUS COINS TO OPEN THE GLAMOROUS CHEST.
+CR_CHEST_BACK|EARN GLAMOROUS COINS DURING THE SEEING SPOTS EVENT OR PURCHASE GLAMOROUS COIN PACKS TO OPEN THE GLAMOROUS CHEST.
+CR_CHEST_NAME|GLAMOROUS CHEST
+TROPHY_CRUELLA_NAME|SEEING SPOTS TROPHY
+TROPHY_CRUELLA_DESC|Awarded for completing the Seeing Spots Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+EVENT_202106_CRUELLA_INBOX_EVENT_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>Seeing Spots</color> Event has begun! Recruit and power up your team of <color=#54C5FF>Kingdom Villain</color> Characters and battle to earn <color=#54C5FF>Glamorous Coins</color> which can be used to open the <color=#54C5FF>Glamorous Chest</color>. The <color=#54C5FF>Glamorous Chest</color> contains <color=#54C5FF>Cruella</color> and <color=#54C5FF>Kingdom Villains</color> Character Tokens!<BR><BR>Good luck, and see you in the Arena!
+EVENT_202106_CRUELLA_INBOX_EVENT_START_SUBJECT|Welcome to the Seeing Spots Event!
+EVENT_202106_CRUELLA_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5FF>Seeing Spots Event</color> is ending soon! This is your last chance to earn exclusive <color=#54C5FF>Cruella</color> Tokens, so power up your <color=#54C5FF>Kingdom Villains</color> team and battle now!<BR><BR>Good luck, and see you in the Arena!
+EVENT_202106_CRUELLA_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Seeing Spots Event!
+EVENT_202106_CRUELLA_INBOX_PREVIEW_SUBJECT|Coming Soon: The Seeing Spots Event!
+EVENT_202106_CRUELLA_INBOX_PREVIEW_BODY|Summoner,<BR><BR>The <color=#54C5FF>Seeing Spots</color> Event is coming soon! Recruit and power up your team of <color=#54C5FF>Kingdom Villain</color> Characters and battle to earn <color=#54C5FF>Glamorous Coins</color> which can be used to open the <color=#54C5FF>Glamorous Chest</color>. The <color=#54C5FF>Glamorous Chest</color> contains <color=#54C5FF>Cruella</color> and <color=#54C5FF>Kingdom Villains</color> Character Tokens!<BR><BR>Collect these powerful <color=#54C5FF>Kingdom Villain</color> Characters and battle in Seeing Spots to unlock <color=#54C5FF>Cruella</color>!<BR><BR>Good luck, and see you in the Arena!
+EVENT_202106_CRUELLA_INBOX_DAILY_BODY|Summoner,<BR><BR>The <color=#54C5FF>Seeing Spots</color> Event continues. Collect and power up <color=#54C5FF>Kingdom Villain</color> Characters to earn exclusive <color=#54C5FF>Cruella</color> Tokens. Battle to earn rewards every day during the event! Be sure to use your <color=#54C5FF>FREE</color> attempts, and request another from your club.<BR><BR>Good luck, and see you in the Arena!
+EVENT_202106_CRUELLA_INBOX_DAILY_SUBJECT|The Seeing Spots Event continues!
+EVENT_202106_CRUELLA_META_DESC|Power up your Kingdom Villains team and battle to earn Cruella Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202106_CRUELLA_META_NAME|SEEING SPOTS
+EVENT_202106_CRUELLA_PORTAL_DESC|EARN CRUELLA TOKENS!
+EVENT_202106_CRUELLA_PORTAL_NAME|SEEING SPOTS
+EVENT_202106_CRUELLA_AURA_NAME|A
+EVENT_202106_CRUELLA_AURA_DESC|A
+EVENT_202106_CRUELLA_A_NAME|SEEING SPOTS
+EVENT_202106_CRUELLA_A_DESC|REQUIRES KINGDOM VILLAINS
+EVENT_202106_CRUELLA_A_AURA_NAME|A
+EVENT_202106_CRUELLA_A_AURA_DESC|A
+EVENT_202106_CRUELLA_A_L0_NAME|SEEING SPOTS I
+EVENT_202106_CRUELLA_A_L0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 15+<br>• Gear <color=#8ab65d>Tier 2</color>
+EVENT_202106_CRUELLA_A_L1_NAME|SEEING SPOTS II
+EVENT_202106_CRUELLA_A_L1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color>
+EVENT_202106_CRUELLA_A_L2_NAME|SEEING SPOTS III
+EVENT_202106_CRUELLA_A_L2_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202106_CRUELLA_A_L3_NAME|SEEING SPOTS IV
+EVENT_202106_CRUELLA_A_L3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 40+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202106_CRUELLA_A_L4_NAME|SEEING SPOTS V
+EVENT_202106_CRUELLA_A_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#4A90E2>Tier 4</color>
+EVENT_202106_CRUELLA_A_L5_NAME|SEEING SPOTS VI
+EVENT_202106_CRUELLA_A_L5_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#4A90E2>Tier 5</color>
+EVENT_202106_CRUELLA_A_L6_NAME|SEEING SPOTS VII
+EVENT_202106_CRUELLA_A_L6_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#4A90E2>Tier 5</color>
+EVENT_202106_CRUELLA_A_L7_NAME|SEEING SPOTS VIII
+EVENT_202106_CRUELLA_A_L7_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#4A90E2>Tier 6</color>
+EVENT_202106_CRUELLA_A_L8_NAME|SEEING SPOTS IX
+EVENT_202106_CRUELLA_A_L8_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_A_L8_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#B94EFF>Tier 7</color>
+EVENT_202106_CRUELLA_B_NAME|PRESTIGE: SEEING SPOTS
+EVENT_202106_CRUELLA_B_DESC|REQUIRES CRUELLA AND KINGDOM VILLAINS
+EVENT_202106_CRUELLA_B_AURA_NAME|A
+EVENT_202106_CRUELLA_B_AURA_DESC|A
+EVENT_202106_CRUELLA_B_L0_NAME|PRESTIGE: SEEING SPOTS I
+EVENT_202106_CRUELLA_B_L0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 50+<br>• Gear <color=#4A90E2>Tier 5</color>
+EVENT_202106_CRUELLA_B_L1_NAME|PRESTIGE: SEEING SPOTS II
+EVENT_202106_CRUELLA_B_L1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#4A90E2>Tier 6</color>
+EVENT_202106_CRUELLA_B_L2_NAME|PRESTIGE: SEEING SPOTS III
+EVENT_202106_CRUELLA_B_L2_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#4A90E2>Tier 6</color>
+EVENT_202106_CRUELLA_B_L3_NAME|PRESTIGE: SEEING SPOTS IV
+EVENT_202106_CRUELLA_B_L3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#B94EFF>Tier 7</color>
+EVENT_202106_CRUELLA_B_L4_NAME|PRESTIGE: SEEING SPOTS V
+EVENT_202106_CRUELLA_B_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
+EVENT_202106_CRUELLA_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 8</color>
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
