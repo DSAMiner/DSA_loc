@@ -167,6 +167,7 @@ ABILPREVIEWUPGRADE_GEN_DAMAGE_BONUS_PER_CHARGED|+<color=#FEF8E4>{0:P0}</color> O
 ABILPREVIEWUPGRADE_GEN_DAMAGE_BONUS_VS_DEFENSEDOWN|Damage increased by <color=#FEF8E4>{0:P0}</color> on opponents with Defense Down.
 ABILPREVIEWUPGRADE_GEN_DAMAGE_INITIAL_05PCT|Increases damage dealt by 5%.
 ABILPREVIEWUPGRADE_GEN_DAMAGE_PCT_INC|<color=#FEF8E4>+{0:P0}</color> damage dealt.
+ABILPREVIEWUPGRADE_GEN_HEALTH_RESTORED_INC|<color=#FEF8E4>+{0:P0}</color> Health restored.
 ABILPREVIEWUPGRADE_GEN_DEFENSEDOWN_CHANCE_INC|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense Down.
 ABILPREVIEWUPGRADE_GEN_DEFENSEDOWN_DURATION|<color=#FEF8E4>+{0:N0}</color> Defense Down duration.
 ABILPREVIEWUPGRADE_GEN_DEFENSEIGNORE_PCT_ADD|Ignore <color=#FEF8E4>{0:P0}</color> Defense.
@@ -760,6 +761,8 @@ BATTLE_EFFECT_FURY|FURY
 BATTLE_EFFECT_FURY_DESC|Fury is accrued by Claude Frollo and is used to make his special abilities more powerful.
 BATTLE_EFFECT_SCORE|SCORE
 BATTLE_EFFECT_SCORE_DESC|Score is accrued by Vanellope and is used to make her abilities more powerful.
+BATTLE_EFFECT_CYBUGEGG_COUNTDOWN|COUNTDOWN
+BATTLE_EFFECT_CYBUGEGG_COUNTDOWN_DESC|This egg will hatch when the countdown reaches zero.
 BATTLE_EFFECT_TNT|BOOM
 BATTLE_EFFECT_TNT_DESC|On natural expiration, deals damage and inflicts harmful effects.
 BATTLE_EFFECT_TRITONS_BOON|TRITON'S BOON
@@ -12153,6 +12156,42 @@ PUSHNOTE_RAID_STARTED_BODY|<Raid Type> Raid has started! Battle now!
 PUSHNOTE_RAID_ENDED_BODY|<Raid Type> Raid has ended! Collect your rewards!
 PUSHNOTE_RAID_ATTEMPTS_REFRESHED_BODY|<Raid Type> Raid attempts refreshed! Battle now!
 RAJAH_BASIC_DESC_01|Deal damage to target opponent.
+RALPH_ABILBASIC_NAME|Wreck It, Ralph!
+RALPH_ABILPASSIVEA_NAME|I'm Gonna Wreck It!
+RALPH_ABILPASSIVEB_NAME|Rage Gauge
+RALPH_ABILSPECIALA_NAME|I Break Things
+RALPH_ABILSPECIALB_NAME|Game Over!
+ABILPREVIEWUPGRADE_GEN_FLIPHELPFUL_CHANCE_INC|<color=#FEF8E4>+{0:P0}</color> chance to Flip a Helpful effect.
+RALPH_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and adjacent opponents <color=#FEF8E4>{1:N0}</color> times. On each hit on the primary target, <color=#FEF8E4>{2:P0}</color> chance to flip <color=#FEF8E4>{3:N0}</color> Helpful effect.
+RALPH_PASSIVEA_ABILPREVIEWUPGRADE_01|Also activate when falling below {0:P0} health.
+RALPH_PASSIVEA_ABILPREVIEWUPGRADE_02|Gain {0:N0} Undefeatable.
+RALPH_PASSIVEA_ABILPREVIEWUPGRADE_03|Gain {0:N0} Magic for a random ability.
+ABILPREVIEWUPGRADE_GEN_CLEANSE_INC|<color=#FEF8E4>+{0:N0}</color> Harmful effect Cleansed.
+RALPH_PASSIVEA_DESC_01|When Ralph or a teammate Vanellope falls below <color=#FEF8E4>{0:P0}</color> health, perform the following:<br><br>Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effect, preferring Stun and Silence. Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn. Gain <color=#FEF8E4>{5:N0}</color> Magic for Ralph's <color=#FEF8E4>'Game Over'</color> ability. Immediately take a turn.
+RALPH_PASSIVEA_DESC_02|When Ralph or a teammate Vanellope falls below <color=#FEF8E4>{0:P0}</color> health and <color=#FEF8E4>{3:P0}</color> health, perform the following:<br><br>Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effect, preferring Stun and Silence. Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn. Gain <color=#FEF8E4>{5:N0}</color> Magic for Ralph's <color=#FEF8E4>'Game Over'</color> ability. Immediately take a turn.
+RALPH_PASSIVEA_DESC_03|When Ralph or a teammate Vanellope falls below <color=#FEF8E4>{0:P0}</color> health and <color=#FEF8E4>{3:P0}</color> health, perform the following:<br><br>Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effects, preferring Stun and Silence. Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn. Gain <color=#FEF8E4>{5:N0}</color> Magic for Ralph's <color=#FEF8E4>'Game Over'</color> ability. Immediately take a turn.
+RALPH_PASSIVEA_DESC_04|When Ralph or a teammate Vanellope falls below <color=#FEF8E4>{0:P0}</color> health and <color=#FEF8E4>{3:P0}</color> health, perform the following:<br><br>Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effects, preferring Stun and Silence. Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn. Gain <color=#FEF8E4>{4:N0}</color> Undefeatable. Gain <color=#FEF8E4>{5:N0}</color> Magic for Ralph's <color=#FEF8E4>'Game Over'</color> ability. Immediately take a turn.
+RALPH_PASSIVEA_DESC_05|When Ralph or a teammate Vanellope falls below <color=#FEF8E4>{0:P0}</color> health and <color=#FEF8E4>{3:P0}</color> health, perform the following:<br><br>Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effects, preferring Stun and Silence. Gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn. Gain <color=#FEF8E4>{4:N0}</color> Undefeatable. Gain <color=#FEF8E4>{5:N0}</color> Magic for a random ability. Gain <color=#FEF8E4>{5:N0}</color> Magic for Ralph's <color=#FEF8E4>'Game Over'</color> ability. Immediately take a turn.
+RALPH_PASSIVEB_ABILPREVIEWUPGRADE_01|+{0:P0} chance to gain Guaranteed Crit.
+RALPH_PASSIVEB_ABILPREVIEWUPGRADE_02|+{0:P0} chance to gain Magic.
+RALPH_PASSIVEB_DESC_01|On turn start, <color=#FEF8E4>{0:P0}</color> chance per each opponent with higher Speed than Ralph to gain <color=#FEF8E4>{1:N0}</color> Guaranteed Crit.<br><br>When an opponent gains a Helpful effect, <color=#FEF8E4>{2:P0}</color> chance for Ralph to gain <color=#FEF8E4>{3:N0}</color> Magic for a random ability.
+RALPH_SPECIALA_ABILPREVIEWUPGRADE_01|Reduce Magic of a random ability by {0:N0} for each effect Purged on a target.
+RALPH_SPECIALA_ABILPREVIEWUPGRADE_02|Opponents with Harmful effects can't evade this attack.
+RALPH_SPECIALA_ABILPREVIEWUPGRADE_03|If all hits are Critical Strikes and Vanellope is a teammate, she gains full Magic for all abilities and immediately takes a turn.
+RALPH_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times. On each hit, Purge <color=#FEF8E4>{1:N0}</color> Helpful effect.
+RALPH_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times. On each hit, Purge <color=#FEF8E4>{1:N0}</color> Helpful effect.<br><br>Reduce Magic of a random ability by <color=#FEF8E4>{2:N0}</color> for each effect Purged on a target.
+RALPH_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times. On each hit, Purge <color=#FEF8E4>{1:N0}</color> Helpful effect. Opponents with Harmful effects can't evade this attack.<br><br>Reduce Magic of a random ability by <color=#FEF8E4>{2:N0}</color> for each effect Purged on a target.
+RALPH_SPECIALA_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times. On each hit, Purge <color=#FEF8E4>{1:N0}</color> Helpful effect. Opponents with Harmful effects can't evade this attack.<br><br>Reduce Magic of a random ability by <color=#FEF8E4>{2:N0}</color> for each effect Purged on a target.<br><br>If all hits are Critical Strikes and Vanellope is a teammate, she gains full Magic for all abilities and immediately takes a turn.
+RALPH_SPECIALB_DESC_01|Deal <color=#FFC400>{0:N0}</color> damage to target opponent. Increase damage by <color=#FEF8E4>{1:P0}</color> per Helpful effect on target, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Purge Invulnerable before damage is applied.
+RALPH_SPECIALB_DESC_02|Deal <color=#FFC400>{0:N0}</color> damage to target opponent. Increase damage by <color=#FEF8E4>{1:P0}</color> per Helpful effect on target, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Purge Invulnerable before damage is applied. This ability can't be evaded.
+RALPH_SPECIALB_DESC_03|Deal <color=#FFC400>{0:N0}</color> damage to target opponent, ignoring their Defense. Increase damage by <color=#FEF8E4>{1:P0}</color> per Helpful effect on target, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Purge Invulnerable before damage is applied. This ability can't be evaded.
+RALPH_SPECIALB_DESC_04|Deal <color=#FFC400>{0:N0}</color> damage to target opponent, ignoring their Defense. Increase damage by <color=#FEF8E4>{1:P0}</color> per Helpful effect on target, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Purge Invulnerable and all Helpful effects before damage is applied. This ability can't be evaded.
+RALPH_SPECIALB_DESC_05|Deal <color=#FFC400>{0:N0}</color> damage to target opponent, ignoring their Defense. Increase damage by <color=#FEF8E4>{1:P0}</color> per Helpful effect on target, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Purge Invulnerable and all Helpful effects before damage is applied. This ability can't be evaded. Characters defeated by this ability can't be revived.
+RALPH_SPECIALB_ABILPREVIEWUPGRADE_01|This ability can't be evaded.
+RALPH_SPECIALB_ABILPREVIEWUPGRADE_02|This ability ignores Defense.
+RALPH_SPECIALB_ABILPREVIEWUPGRADE_03|Purge all Helpful effects before damage is applied.
+RALPH_SPECIALB_ABILPREVIEWUPGRADE_04|Characters defeated by this ability can't be revived.
+RALPH_UNIT_NAME|RALPH
 RAM_UNIT_NAME|Ram
 RANDALLBOGGS_ABILBASIC_ABILPREVIEWUPGRADE_CHANCE_BLIND_25PCT|Adds 25% chance to inflict Blind for 3s.
 RANDALLBOGGS_ABILBASIC_DESC_BASE|Delivers a painful hit against an opponent, dealing up to <color=#ffc400>{0:N0}</color> Physical Damage.
@@ -12827,6 +12866,36 @@ SHAN_YU_ABILSPECIALB_DESC_U01|Strikes the target opponent twice, dealing up to <
 SHAN_YU_ABILSPECIALB_DESC_U02|Strikes the target opponent twice, dealing up to <color=#FFC400>{0:N0}</color> Physical damage with <color=#FEF8E4>{2:P0}</color> increased chance to deal a Critical Strike.<br><br>Inflicts <color=#FEF8E4>Stun</color> for <color=#FEF8E4>{1:N0}s</color> if both attacks deal a Critical Strike.<br><br>If this ability defeats the target opponent, Shan Yu and his allies gain <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{3:N0}s</color>.
 SHAN_YU_ABILSPECIALB_NAME|Now It's Your Turn!
 SHAN_YU_UNIT_NAME|SHAN YU
+FELIX_UNIT_NAME|FIX-IT FELIX
+UNIT_PROMO_MAT_FELIX|FIX-IT FELIX TOKENS
+FELIX_BASIC_DESC_01|If a teammate is able to assist, perform the following:<br><br>Restore <color=#5DFF89>{0:N0}</color> Health to self. Call <color=#FEF8E4>{1:N0}</color> teammate to assist, preferring Sergeant Calhoun.<br><br>If no teammate can assist, perform the following:<br><br>Deal up to <color=#FFC400>{2:N0}</color> damage. Inflict <color=#FEF8E4>{4:N0}</color> Sweetened.
+FELIX_BASIC_DESC_02|If a teammate is able to assist, perform the following:<br><br>Restore <color=#5DFF89>{0:N0}</color> Health to self. Cleanse up to <color=#FEF8E4>{5:N0}</color> Harmful effect. Call <color=#FEF8E4>{1:N0}</color> teammate to assist, preferring Sergeant Calhoun.<br><br>If no teammate can assist, perform the following:<br><br>Deal up to <color=#FFC400>{2:N0}</color> damage. Inflict <color=#FEF8E4>{4:N0}</color> Sweetened.
+FELIX_BASIC_DESC_03|If a teammate is able to assist, perform the following:<br><br>Restore <color=#5DFF89>{0:N0}</color> Health to self. Cleanse up to <color=#FEF8E4>{5:N0}</color> Harmful effect. Call <color=#FEF8E4>{1:N0}</color> teammate to assist, preferring Sergeant Calhoun. If teammate is Sergeant Calhoun, grant her Offense Up for <color=#FEF8E4>{6:N0}</color> turn.<br><br>If no teammate can assist, perform the following:<br><br>Deal up to <color=#FFC400>{2:N0}</color> damage. Inflict <color=#FEF8E4>{4:N0}</color> Sweetened.
+FELIX_BASIC_DESC_04|If a teammate is able to assist, perform the following:<br><br>Restore <color=#5DFF89>{0:N0}</color> Health to self. Cleanse up to <color=#FEF8E4>{5:N0}</color> Harmful effect. Call <color=#FEF8E4>{1:N0}</color> teammate to assist, preferring Sergeant Calhoun. If teammate is Sergeant Calhoun, grant her Offense Up for <color=#FEF8E4>{6:N0}</color> turns.<br><br>If no teammate can assist, perform the following:<br><br>Deal up to <color=#FFC400>{2:N0}</color> damage. Inflict <color=#FEF8E4>{4:N0}</color> Sweetened.
+FELIX_BASIC_ABILPREVIEWUPGRADE_01|Cleanse {0:N0} Harmful Effect.
+FELIX_BASIC_ABILPREVIEWUPGRADE_02|+{0:P0} damage dealt. +{1:P0} Health restored.
+FELIX_BASIC_ABILPREVIEWUPGRADE_03|If teammate is Sergeant Calhoun, grant her Offense Up for {0:N0} turn.
+FELIX_BASIC_ABILPREVIEWUPGRADE_04|+{0:N0} Offense Up duration.
+FELIX_SPECIALA_DESC_01|Perform the following on target teammate <color=#FEF8E4>{0:N0}</color> times: <color=#FEF8E4>{1:P0}</color> chance to Cleanse 1 Harmful effect. Restore up to <color=#5DFF89>{2:N0}</color> Health. <br><br>Then, if target has no Harmful effects, grant <color=#FEF8E4>{3:N0}</color> Shield.
+FELIX_SPECIALA_DESC_02|Perform the following on target teammate <color=#FEF8E4>{0:N0}</color> times: <color=#FEF8E4>{1:P0}</color> chance to Cleanse 1 Harmful effect. Restore up to <color=#5DFF89>{2:N0}</color> Health, increased by <color=#FEF8E4>{4:P0}</color> if teammate is <color=#FEF8E4>'Wreck-It Ralph'</color>.<br><br>Then, if target has no Harmful effects, grant <color=#FEF8E4>{3:N0}</color> Shield.
+FELIX_SPECIALA_ABILPREVIEWUPGRADE_01|+{0:P0} Health restored to 'Wreck-It Ralph' teammates.
+FELIX_SPECIALA_ABILPREVIEWUPGRADE_02|+{0:P0} chance to Cleanse.
+FELIX_SPECIALB_DESC_01|Cleanse this character of all Harmful effects. Gain Harmful Immunity for <color=#FEF8E4>{0:N0}</color> turns.<br><br>Perform the following on all teammates <color=#FEF8E4>{2:N0}</color> times: Cleanse <color=#FEF8E4>1</color> Harmful effect. Restore up to <color=#5DFF89>{3:N0}</color> Health.<br><br>Then, if teammate is <color=#FEF8E4>'Wreck-It Ralph'</color> and has no Harmful effects, grant the following: Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turn. Critical Immunity for <color=#FEF8E4>{5:N0}</color> turn.
+FELIX_SPECIALB_DESC_02|Cleanse this character of all Harmful effects. Gain Harmful Immunity for <color=#FEF8E4>{0:N0}</color> turns. Gain Crit Immunity for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Perform the following on all teammates <color=#FEF8E4>{2:N0}</color> times: Cleanse <color=#FEF8E4>1</color> Harmful effect. Restore up to <color=#5DFF89>{3:N0}</color> Health.<br><br>Then, if teammate is <color=#FEF8E4>'Wreck-It Ralph'</color> and has no Harmful effects, grant the following: Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turn. Critical Immunity for <color=#FEF8E4>{5:N0}</color> turn.
+FELIX_SPECIALB_DESC_03|Cleanse this character of all Harmful effects. Gain Harmful Immunity for <color=#FEF8E4>{0:N0}</color> turns. Gain Crit Immunity for <color=#FEF8E4>{1:N0}</color> turns. Gain Defense Up for <color=#FEF8E4>{6:N0}</color> turns.<br><br>Perform the following on all teammates <color=#FEF8E4>{2:N0}</color> times: Cleanse <color=#FEF8E4>1</color> Harmful effect. Restore up to <color=#5DFF89>{3:N0}</color> Health.<br><br>Then, if teammate is <color=#FEF8E4>'Wreck-It Ralph'</color> and has no Harmful effects, grant the following: Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turn. Critical Immunity for <color=#FEF8E4>{5:N0}</color> turn.
+FELIX_SPECIALB_DESC_04|Cleanse this character of all Harmful effects. Gain Harmful Immunity for <color=#FEF8E4>{0:N0}</color> turns. Gain Crit Immunity for <color=#FEF8E4>{1:N0}</color> turns. Gain Defense Up for <color=#FEF8E4>{6:N0}</color> turns.<br><br>Perform the following on all teammates <color=#FEF8E4>{2:N0}</color> times: Cleanse <color=#FEF8E4>1</color> Harmful effect. Restore up to <color=#5DFF89>{3:N0}</color> Health.<br><br>Then, if teammate is <color=#FEF8E4>'Wreck-It Ralph'</color> and has no Harmful effects, grant the following: Harmful Immunity for <color=#FEF8E4>{4:N0}</color> turn. Critical Immunity for <color=#FEF8E4>{5:N0}</color> turn. Defense Up for <color=#FEF8E4>{7:N0}</color> turn.
+FELIX_SPECIALB_ABILPREVIEWUPGRADE_01|Gain Crit Immunity for {0:N0} turns.
+FELIX_SPECIALB_ABILPREVIEWUPGRADE_02|Gain Defense Up for {0:N0} turns.
+FELIX_SPECIALB_ABILPREVIEWUPGRADE_03|'Wreck-It Ralph' characters gain Defense Up for {0:N0} turn.
+FELIX_PASSIVEA_DESC_01|If a teammate takes at least <color=#FEF8E4>{0:P0}</color> of their Health as damage from a single attack, this character uses his 'I Can Fix It!' ability on them regardless of its Magic Charge, preferring the least healthy non-summoned teammate.
+FELIX_PASSIVEA_DESC_02|If a teammate takes at least <color=#FEF8E4>{0:P0}</color> of their Health as damage from a single attack, this character uses his 'I Can Fix It!' ability on them regardless of its Magic Charge, preferring the least healthy non-summoned teammate. <br><br>When a teammate receives a Harmful Effect, <color=#FEF8E4>{1:P0}</color> chance to gain <color=#FEF8E4>1</color> Magic for 'Fix It, Felix!', up to max of <color=#FEF8E4>{2:N0}</color> per turn. If Harmful effect is inflicted by an enemy Ralph, guaranteed to gain Magic.
+FELIX_PASSIVEA_ABILPREVIEWUPGRADE_01|When a teammate receives a Harmful Effect, {0:P0} chance to gain 1 Magic for 'Fix It, Felix!' If Harmful effect is inflicted by an enemy Ralph, guaranteed to gain Magic.
+FELIX_PASSIVEA_ABILPREVIEWUPGRADE_02|+{0:P0} chance to gain Magic.
+FELIX_PASSIVEA_ABILPREVIEWUPGRADE_03|+{0:N0} max Magic gained per turn.
+FELIX_ABILBASIC_NAME|I Fix Everything I Touch
+FELIX_ABILSPECIALA_NAME|I Can Fix iIt!
+FELIX_ABILSPECIALB_NAME|Fix It, Felix!
+FELIX_ABILPASSIVEA_NAME|It's My Job to Fix!
 SHANK_ABILBASIC_NAME|One Two Shank
 SHANK_ABILSPECIALA_NAME|Shank You Very Much
 SHANK_ABILSPECIALB_NAME|Style for Miles
@@ -13571,6 +13640,16 @@ STORE_GRANT_SHARED_SLOT_12_NAME|12TH CARD OPTIONS
 STORE_GRANT_SHARED_SLOT_13_NAME|13TH CARD OPTIONS
 STORE_GRANT_SHARED_SLOT_14_NAME|14TH CARD OPTIONS
 STORE_GRANT_SHARED_SLOT_15_NAME|15TH CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_16_NAME|16TH CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_17_NAME|17TH CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_18_NAME|18TH CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_19_NAME|19TH CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_20_NAME|20TH CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_21_NAME|21ST CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_22_NAME|22ND CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_23_NAME|23RD CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_24_NAME|24TH CARD OPTIONS
+STORE_GRANT_SHARED_SLOT_25_NAME|25TH CARD OPTIONS
 STORE_GRANT_SHARED_SLOT_BONUS_NAME|BONUS CARD OPTIONS
 STORE_HEROES_ONLY_BACK_DESC|Best chance at ONLY HERO Characters!
 STORE_HEROES_ONLY_GACHA_NAME|HEROES ONLY PACK
@@ -16765,6 +16844,35 @@ URSULABIG_SPECIALC_DESC_02|Instantly defeats the target opponent. A character de
 URSULABIG_SPECIALC_DESC_03|Instantly defeats the target opponent. A character defeated in this way cannot be revived. Deal up to <color=#FFC400>{0:N0}</color> damage to adjacent opponents and inflict Fear for <color=#FEF8E4>{2}</color> turns.
 URSULABIG_PASSIVEA_DESC_01|This character gains <color=#FEF8E4>{0:P0}</color> bonus Defense if not affected by a Harmful effect.<br><br>Begin encounter with <color=#FEF8E4>{1:N0}</color> allied Ursula's Tentacles. This character gains <color=#FEF8E4>{2:P0}</color> bonus Tenacity per Tentacle on the battlefield. On defeat of any Tentacle, this character is inflicted with <color=#FEF8E4>{3:N0}</color> Vulnerable.<br><br>Tentacles have <color=#FEF8E4>{4:N0}</color> Health, <color=#FEF8E4>{5:N0}</color> Defense, receive <color=#FEF8E4>{6:P0}</color> reduced damage from characters affected by Harmful effects, and can perform the following attack:<br>Deal up to <color=#FFC400>{7:N0}</color> damage to all opponents. Purge <color=#FEF8E4>{8:N0}</color> Helpful effects. Inflict Helpful Immunity for <color=#FEF8E4>{9:N0}</color> turn. Inflict Poison, dealing <color=#FEF8E4>{10:P0}</color> of affected character's max Health as damage over <color=#FEF8E4>{11:N0}</color> turns. On the start of this character's turn, each present Tentacle will attack.<br><br>The first time all Tentacles are cleared from the battlefield:<br>This character is inflicted with Stagger for <color=#FEF8E4>{12:N0}</color> turn, and Defense Down for <color=#FEF8E4>{13:N0}</color> turns. This character's opponents gain <color=#FEF8E4>{14:N0}</color> Guaranteed Crit. On recovering from Stagger, Ursula summons <color=#FEF8E4>{15:N0}</color> allied Tentacles.
 URSULABIG_PASSIVEA_DESC_SUMMARIZED_01|This character gains an amount of bonus Defense if not affected by a Harmful effect.<br><br>This character begins the encounter with a number of allied Ursula's Tentacles. This character gains an amount of bonus Tenacity per Ursula's Tentacle on the battlefield. On defeat of any Ursula's Tentacle, this character is inflicted with Vulnerable.<br><br>Ursula's Tentacles receive reduced damage from characters affected by Harmful effects, and can perform the following attack:<br><br>• Deals damage to all opponents. Purge an amount of Helpful effects from each affected opponent. Inflict Helpful Immunity on each affected opponent for a number of turns. Inflict Poison on each affected opponent, dealing an amount of their max Health as damage over a number of turns.<br><br>On the start of this character's turn, each present Ursula's Tentacle will attack.<br><br>The first time all Tentacles are cleared from the battlefield the following occurs:<br>This character is inflicted with Stagger for a number of turns, and Defense Down for a number of turns. This character's opponents gain an amount of Guaranteed Crit.<br><br>On recovering from Stagger, Ursula summons a number of allied Ursula's Tentacles to the battlefield.
+VANELLOPE_UNIT_NAME|VANELLOPE
+VANELLOPE_ABILBASIC_NAME|Work of Art
+VANELLOPE_ABILSPECIALA_NAME|Behind You... In Front of You!
+VANELLOPE_ABILSPECIALB_NAME|Candy Cane Clobber
+VANELLOPE_ABILPASSIVEA_NAME|The Glitch
+VANELLOPE_ABILPASSIVEB_NAME|High Score!
+VANELLOPE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. On Crit, inflict <color=#FEF8E4>{2:N0}</color> Sweetened.
+VANELLOPE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. On Crit, inflict <color=#FEF8E4>{2:N0}</color> Sweetened.<br><br>This ability gains <color=#FEF8E4>{3:P0}</color> bonus Crit Chance per <color=#FEF8E4>{4:N0}</color> Score on Vanellope.
+VANELLOPE_BASIC_ABILPREVIEWUPGRADE_01|This ability gains <color=#FEF8E4>{0:P0}</color> bonus Crit Chance per <color=#FEF8E4>{1:N0}</color> Score on Vanellope.
+VANELLOPE_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Sweetened inflicted.
+VANELLOPE_SPECIALA_DESC_01|Flip up to <color=#FEF8E4>{0:N0}</color> Harmful effects on this character.<br><br>Gain <color=#FEF8E4>{1:N0}</color> Evasion, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Reduce Speed Meter of each opponent by <color=#FEF8E4>{3:P0}</color> per <color=#FEF8E4>{4:N0}</color> Score on Vanellope.<br><br>If Ralph is a teammate, grant him Haste for <color=#FEF8E4>{5:N0}</color> turns.
+VANELLOPE_SPECIALA_DESC_02|Flip up to <color=#FEF8E4>{0:N0}</color> Harmful effects on this character. Then, if this character has no Harmful effects, gain Haste for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain <color=#FEF8E4>{1:N0}</color> Evasion, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Reduce Speed Meter of each opponent by <color=#FEF8E4>{3:P0}</color> per <color=#FEF8E4>{4:N0}</color> Score on Vanellope.<br><br>If Ralph is a teammate, grant him Haste for <color=#FEF8E4>{5:N0}</color> turns.
+VANELLOPE_SPECIALA_DESC_03|Flip up to <color=#FEF8E4>{0:N0}</color> Harmful effects on this character. Then, if this character has no Harmful effects, gain Haste for <color=#FEF8E4>{6:N0}</color> turns.<br><br>Gain <color=#FEF8E4>{1:N0}</color> Evasion, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>Reduce Speed Meter of each opponent by <color=#FEF8E4>{3:P0}</color> per <color=#FEF8E4>{4:N0}</color> Score on Vanellope.<br><br>If Ralph is a teammate, grant him Haste for <color=#FEF8E4>{5:N0}</color> turns.
+VANELLOPE_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Harmful effects Flipped.
+VANELLOPE_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Evasion gained.
+VANELLOPE_SPECIALA_ABILPREVIEWUPGRADE_03|If this character has no Harmful effects, gain Haste for <color=#FEF8E4>{0:N0}</color> turn.
+VANELLOPE_SPECIALA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Haste duration.
+VANELLOPE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents.<br><br>Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4>{2:N0}</color> Score on Vanellope.
+VANELLOPE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. <color=#FEF8E4>{3:P0}</color> bonus Critical Strike chance against opponents affected by Sweetened.<br><br>Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4>{2:N0}</color> Score on Vanellope.
+VANELLOPE_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Guaranteed Critical Strike chance against opponents affected by Sweetened.<br><br>Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4>{2:N0}</color> Score on Vanellope.
+VANELLOPE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus Critical Strike chance against opponents affected by Sweetened.
+VANELLOPE_SPECIALB_ABILPREVIEWUPGRADE_02|Guaranteed Critical Strike chance against opponents affected by Sweetened.
+VANELLOPE_PASSIVEA_DESC_01|Vanellope gains <color=#FEF8E4>{0:P0}</color> bonus Evasion per <color=#FEF8E4>{1:N0}</color> Score.<br><br>On Evade, perform the following:<br><br>Gain <color=#FEF8E4>{2:P0}</color> Speed Meter. <color=#FEF8E4>{3:P0}</color> chance to gain <color=#FEF8E4>{4:N0}</color> Magic for a random ability.
+VANELLOPE_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Speed Meter gained.
+VANELLOPE_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain Magic for a random ability.
+VANELLOPE_PASSIVEB_DESC_01|Vanellope gains <color=#FEF8E4>{0:P0}</color> Speed per <color=#FEF8E4>{1:N0}</color> Score.<br><br>When the following occurs this character gains <color=#FEF8E4>{2:N0}</color> Score, up to a max of <color=#FEF8E4>{3:N0}</color>:<br><br>This character deals a Critical Strike, grants or inflicts any effect, defeats an opponent, or Evades an attack. A <color=#FEF8E4>'Wreck-It Ralph'</color> character uses an ability, defeats an opponent or is defeated.
+VANELLOPE_PASSIVEB_DESC_02|Vanellope gains <color=#FEF8E4>{0:P0}</color> Speed per <color=#FEF8E4>{1:N0}</color> Score.<br><br>When the following occurs this character gains <color=#FEF8E4>{2:N0}</color> Score, up to a max of <color=#FEF8E4>{3:N0}</color>:<br><br>This character deals a Critical Strike, grants or inflicts any effect, defeats an opponent, or Evades an attack. A <color=#FEF8E4>'Wreck-It Ralph'</color>c haracter uses an ability, defeats an opponent or is defeated.<br><br>When Vanellope reaches max Score she gains the following: Gain full Magic for special abilities. Immediately gain a turn.
+VANELLOPE_PASSIVEB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> max Score.
+VANELLOPE_PASSIVEB_ABILPREVIEWUPGRADE_02|When Vanellope reaches max Score she gains the following: Gain full Magic for special abilities. Immediately gain a turn.
 VARIANT_LOCKABLE_FEATURE_DESC_PVP|<color=#fdf8e3><size=60>ARENA MODE<br><br><size=36>Challenge other <i>Disney Sorcerer's Arena</i> players in real-time battles. Earn Trophies to ascend the leaderboards and compete in seasonal Leagues for exclusive rewards!<br><br><color=#ff8498>Requires Player Level 5
 VICIOUS_COBRA_UNIT_NAME|VICIOUS COBRA
 VILLAINCAMPAIGNHARD_NAME|VILLAINS CAMPAIGN - ELITE
@@ -18736,7 +18844,7 @@ EVENT_202106_RALPH_PORTAL_DESC|Earn Ralph Tokens!<br><color=#B8E986>LEGENDARY EV
 EVENT_202106_RALPH_PORTAL_NAME|HERO'S DUTY
 EVENT_202106_RALPH_A_NAME|HERO'S DUTY
 EVENT_202106_RALPH_A_DESC| 
-EVENT_202106_RALPH_A_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Giant Cy-Bug!<br>• Giant Cy-Bug is immune to Stun, Silence, Sleep, Slow, Charm, Polymorph, and Stasis. <br>• Giant Cy-Bug lays Cy-Bug Eggs that hatch into Cy-Bugs when the Countdown expires.<br>• Giant Cy-Bug drains Health and damages all opponents.
+EVENT_202106_RALPH_A_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Giant Cy-Bug!<br>• Enemies are immune to Stun, Silence, Sleep, Slow, Charm, Polymorph, and Stasis. <br>• Giant Cy-Bug lays Cy-Bug Eggs that hatch into Cy-Bugs when the Countdown expires.<br>• Giant Cy-Bug drains Health and damages all opponents.
 EVENT_202106_RALPH_A_L0_NAME|HERO'S DUTY I
 EVENT_202106_RALPH_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 15+<br>• Gear <color=#8ab65d>Tier 2</color>
 EVENT_202106_RALPH_A_L1_NAME|HERO'S DUTY II
@@ -18751,11 +18859,11 @@ EVENT_202106_RALPH_A_L5_NAME|HERO'S DUTY VI
 EVENT_202106_RALPH_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
 EVENT_202106_RALPH_A_L6_NAME|HERO'S DUTY VII
 EVENT_202106_RALPH_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 6</color>
-EVENT_202106_RALPH_A_L7_NAME|HERO'S DUTY VII
+EVENT_202106_RALPH_A_L7_NAME|HERO'S DUTY VIII
 EVENT_202106_RALPH_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 7</color>
 EVENT_202106_RALPH_B_NAME|PRESTIGE: HERO'S DUTY
 EVENT_202106_RALPH_B_DESC| 
-EVENT_202106_RALPH_B_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Giant Cy-Bug!<br>• Giant Cy-Bug is immune to Stun, Silence, Sleep, Slow, Charm, Polymorph, and Stasis. <br>• Giant Cy-Bug lays Cy-Bug Eggs that hatch into Cy-Bugs when the Countdown expires.<br>• Giant Cy-Bug drains Health and damages all opponents.
+EVENT_202106_RALPH_B_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Giant Cy-Bug!<br>• Enemies are immune to Stun, Silence, Sleep, Slow, Charm, Polymorph, and Stasis. <br>• Giant Cy-Bug lays Cy-Bug Eggs that hatch into Cy-Bugs when the Countdown expires.<br>• Giant Cy-Bug drains Health and damages all opponents.
 EVENT_202106_RALPH_B_L0_NAME|PRESTIGE: HERO'S DUTY I
 EVENT_202106_RALPH_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 5</color>
 EVENT_202106_RALPH_B_L1_NAME|PRESTIGE: HERO'S DUTY II
@@ -18768,4 +18876,79 @@ EVENT_202106_RALPH_B_L4_NAME|PRESTIGE: HERO'S DUTY V
 EVENT_202106_RALPH_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 8</color>
 CYBUGGIANT_UNIT_NAME|GIANT CY-BUG
 CYBUGEGG_UNIT_NAME|CY-BUG EGG
+CYBUGGIANT_ABILBASIC_NAME|CY-BUG EGG
+CYBUGGIANT_ABILSPECIALA_NAME|CY-BUG EGG
+CYBUGGIANT_ABILSPECIALB_NAME|CY-BUG EGG
+EMOTE_VANELLOPE_NAME|VANELLOPE EMOTE
+EMOTE_VANELLOPE_DESC|Au revoir, Admiral Underpants.
+EMOTE_RALPH_NAME|WRECK-IT RALPH EMOTE
+EMOTE_RALPH_DESC|I'm gonna wreck it!
+PIN_YESSS_NAME|YESSS TALISMAN
+PIN_YESSS_DESC|And these are for you. Hearts, hearts, hearts!
+PIN_TURBO_NAME|TURBO TALISMAN
+PIN_TURBO_DESC|Turbo-Tastic!
+PIN_FUNBUN_NAME|FUN BUN TALISMAN
+PIN_FUNBUN_DESC|The bunny gets the pancake.
+PIN_PUDDLES_NAME|PUDDLES TALISMAN
+PIN_PUDDLES_DESC|The kitty gets the milkshake.
+STORE_ITEM_WIR_WELCOME_NAME|WRECK-IT RALPH WELCOME BUNDLE
+STORE_ITEM_WIR_WELCOME_DESC|WELCOME TO THE HERO'S DUTY LEGENDARY EVENT! UNLOCK AND PROMOTE SERGEANT CALHOUN, SHANK, KING CANDY, FIX-IT FELIX, AND VANELLOPE. BATTLE TO UNLOCK WRECK-IT RALPH.
+STORE_ITEM_WIR_TEAM_NAME|WRECK-IT RALPH TEAM BUNDLE
+STORE_ITEM_WIR_TEAM_DESC|POWER UP YOUR WRECK-IT RALPH TEAM WITH TOKENS FOR ALL OF THE CHARACTERS REQUIRED TO BATTLE IN THE LEGENDARY HERO'S DUTY EVENT.
+STORE_ITEM_WIR_TEAM_GEMS_NAME|WRECK-IT RALPH LUCKY DRAW
+STORE_ITEM_WIR_TEAM_GEMS_DESC|TRY YOUR LUCK WITH THE WRECK-IT RALPH LUCKY DRAW. EACH PURCHASE GUARANTEES A WRECK-IT RALPH CHARACTER TOKEN DROP AND MORE ITEMS.
+STORE_ITEM_WIR_SUGAR_RUSH_NAME|SUGAR RUSH BUNDLE
+STORE_ITEM_WIR_SUGAR_RUSH_DESC|<color=#54C5FF>SPELL REFRESH!</color> GAIN SPELL CHARGE WHEN INFLICTING SWEETENED. WRECK-IT RALPH TEAMMATES DEAL BONUS DAMAGE.
+STORE_ITEM_WIR_GOLDEN_HAMMER_NAME|GOLDEN HAMMER BUNDLE
+STORE_ITEM_WIR_GOLDEN_HAMMER_DESC|<color=#54C5FF>SPELL REFRESH!</color> IF FIX-IT FELIX IS REVIVED, GRANT HIM MAX HEALTH, HARMFUL IMMUNITY, AND FULLY RESTORE HIS MAGIC.
+STORE_ITEM_WIR_SPELL_COMBO_NAME|DOWNTOWN SPELL BUNDLE
+STORE_ITEM_WIR_SPELL_COMBO_DESC|<color=#54C5FF>DOUBLE SPELL REFRESH!</color> COLLECT TOKENS FOR SUGAR RUSH AND GOLDEN HAMMER TO GO FURTHER IN THE HERO'S DUTY EVENT.
+STORE_ITEM_WIR_ABILITY_MATS_NAME|ABILITY MATERIALS BUNDLE
+STORE_ITEM_WIR_ABILITY_MATS_DESC|UPGRADE THE ABILITIES OF YOUR WRECK-IT RALPH CHARACTERS TO POWER THROUGH THE HERO'S DUTY EVENT.
+STORE_ITEM_WIR_T5_GEAR_NAME|T5 GEAR BUNDLE
+STORE_ITEM_WIR_T5_GEAR_DESC|GET READY TO CONQUER YOUR FOES. POWER UP YOUR WRECK-IT RALPH TEAM WITH THIS T5 GEAR BUNDLE.
+STORE_ITEM_WIR_T6_GEAR_NAME|T6 GEAR BUNDLE
+STORE_ITEM_WIR_T6_GEAR_DESC|GEAR UP YOUR WRECK-IT RALPH TEAM. POWER UP YOUR CHARACTERS WITH THIS T6 GEAR BUNDLE.
+STORE_ITEM_WIR_T7_GEAR_NAME|DOWNTOWN HERO T7 GEAR BUNDLE
+STORE_ITEM_WIR_T7_GEAR_DESC|POWER UP YOUR WRECK-IT RALPH TEAM WITH THIS T7 GEAR BUNDLE. UPGRADE TO CONQUER THE HERO'S DUTY EVENT.
+STORE_ITEM_WIR_T7_GEAR_SUPER_NAME|DOWNTOWN HERO SUPER T7 GEAR BUNDLE
+STORE_ITEM_WIR_T7_GEAR_SUPER_DESC|CONTAINS A MASSIVE AMOUNT OF T7 DOWNTOWN HERO GEAR AND MORE ITEMS. POWER UP YOUR WRECK-IT RALPH TEAM TO TIER 8.
+STORE_ITEM_WIR_T8_GEAR_NAME|DOWNTOWN HERO T8 GEAR BUNDLE
+STORE_ITEM_WIR_T8_GEAR_DESC|PREPARE YOUR WRECK-IT RALPH TEAM TO TAKE ON ANYTHING WITH THIS T8 GEAR BUNDLE.
+STORE_ITEM_WIR_VANELLOPE_NAME|VANELLOPE BUNDLE
+STORE_ITEM_WIR_VANELLOPE_DESC|INFLICT SWEETENED ON CRITS. BUILD A HIGH SCORE TO GAIN BONUS EVASION AND DEAL MORE DAMAGE.
+STORE_ITEM_WIR_FELIX_NAME|FIX-IT FELIX BUNDLE
+STORE_ITEM_WIR_FELIX_DESC|CLEANSE AND GAIN HARMFUL IMMUNITY. FIX TEAMMATES BY HEALING AND CLEANSING HARMFUL EFFECTS. HEAL SELF WHEN TEAMMATES ASSIST.
+STORE_ITEM_WIR_VANELLOPE_GEMS_NAME|VANELLOPE PACK
+STORE_ITEM_WIR_FELIX_GEMS_NAME|FIX-IT FELIX PACK
+STORE_ITEM_WIR_SUGAR_RUSH_GEMS_NAME|SUGAR RUSH PACK
+STORE_ITEM_WIR_GOLDEN_HAMMER_GEMS_NAME|GOLDEN HAMMER PACK
+INBOX_MESSAGE_BONUS_LOOT_RALPH_CALHOUN_DESC|Summoner,<br>Power up your Wreck-It Ralph team for the <color=#54C5FF>Hero's Duty Legendary Event</color> to earn <color=#54C5FF>Wreck-It Ralph</color> Tokens!<br><br>For a limited time only, get 2x token drops for <color=#54C5FF>Sergeant Calhoun</color> in the Wreck-It Ralph Side Adventure Campaign.
+INBOX_MESSAGE_BONUS_LOOT_RALPH_CALHOUN_TITLE|2X Sergeant Calhoun Tokens
+INBOX_MESSAGE_BONUS_LOOT_RALPH_SHANK_DESC|Summoner,<br>Power up your Wreck-It Ralph team for the <color=#54C5FF>Hero's Duty Legendary Event</color> to earn <color=#54C5FF>Wreck-It Ralph</color> Tokens!<br><br>For a limited time only, get 2x token drops for <color=#54C5FF>Shank</color> in the Wreck-It Ralph Side Adventure Campaign.
+INBOX_MESSAGE_BONUS_LOOT_RALPH_SHANK_TITLE|2X Shank Tokens
+INBOX_MESSAGE_BONUS_LOOT_RALPH_KING_CANDY_DESC|Summoner,<br>Power up your Wreck-It Ralph team for the <color=#54C5FF>Hero's Duty Legendary Event</color> to earn <color=#54C5FF>Wreck-It Ralph</color> Tokens!<br><br>For a limited time only, get 2x token drops for <color=#54C5FF>King Candy</color> in the Wreck-It Ralph Side Adventure Campaign.
+INBOX_MESSAGE_BONUS_LOOT_RALPH_KING_CANDY_TITLE|2X King Candy Tokens
+INBOX_MESSAGE_BONUS_LOOT_RALPH_FELIX_DESC|Summoner,<br>Power up your Wreck-It Ralph team for the <color=#54C5FF>Hero's Duty Legendary Event</color> to earn <color=#54C5FF>Wreck-It Ralph</color> Tokens!<br><br>For a limited time only, get 2x token drops for <color=#54C5FF>Fix-It Felix</color> in the Wreck-It Ralph Side Adventure Campaign.
+INBOX_MESSAGE_BONUS_LOOT_RALPH_FELIX_TITLE|2X Fix-It Felix Tokens
+INBOX_MESSAGE_BONUS_LOOT_RALPH_VANELLOPE_DESC|Summoner,<br>Power up your Wreck-It Ralph team for the <color=#54C5FF>Hero's Duty Legendary Event</color> to earn <color=#54C5FF>Wreck-It Ralph</color> Tokens!<br><br>For a limited time only, get 2x token drops for <color=#54C5FF>Vanellope</color> in the Wreck-It Ralph Side Adventure Campaign.
+INBOX_MESSAGE_BONUS_LOOT_RALPH_VANELLOPE_TITLE|2X Vanellope Tokens
+INBOX_MESSAGE_BONUS_LOOT_RALPH_ALL_2X_DESC|Summoner,<br>Power up your Wreck-It Ralph team for the <color=#54C5FF>Hero's Duty Legendary Event</color> to earn <color=#54C5FF>Wreck-It Ralph</color> Tokens!<br><br>For a limited time only, get 2x token drops for <color=#54C5FF>Wreck-It Ralph</color> characters in the Wreck-It Ralph Side Adventure Campaign.
+INBOX_MESSAGE_BONUS_LOOT_RALPH_ALL_2X_TITLE|2X Wreck-It Ralph Tokens
+INBOX_EVENT_2021_RALPH_PREVIEW_SUBJECT|Coming Soon: Hero's Duty Legendary Event!
+INBOX_EVENT_2021_RALPH_PREVIEW_BODY|Summoner,<BR><BR>Gather your Wreck-It Ralph team and get ready to battle and earn exclusive <color=#54C5FF>Wreck-It Ralph</color> Tokens in the <color=#54C5FF>Hero's Duty Legendary Event</color>!
+INBOX_EVENT_2021_RALPH_START_SUBJECT|The Hero's Duty Legendary Event has started!
+INBOX_EVENT_2021_RALPH_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>Hero's Duty Legendary Event</color> has begun! Unlock and Promote Sergeant Calhoun, Shank, King Candy, Fix-It Felix, and Vanellope to battle and earn Tokens for <color=#54C5FF>Wreck-It Ralph</color>!
+INBOX_EVENT_2021_RALPH_LAST_CHANCE_SUBJECT|Last Chance to earn rewards for the Hero's Duty Legendary Event!
+INBOX_EVENT_2021_RALPH_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5FF>Hero's Duty Legendary Event</color> will be ending soon! This is your <color=#54C5FF>LAST CHANCE</color> to battle, so enter now to earn exclusive <color=#54C5FF>Wreck-It Ralph</color> Tokens!
+INBOX_EVENT_2021_RALPH_POST_EVENT_SUBJECT|Event Ended: Hero's Duty Legendary
+INBOX_EVENT_2021_RALPH_POST_EVENT_BODY|Summoner,<BR><BR>The <color=#54C5FF>Hero's Duty Legendary Event</color> has ended! Thank you for participating. Continue promoting Sergeant Calhoun, Shank, King Candy, Fix-It Felix, and Vanellope so you'll be ready to earn more <color=#54C5FF>Wreck-It Ralph</color> Tokens when the Event returns!
+CURRENCY_PASSHOLDER_NAME|PASSHOLDER COINS
+CURRENCY_PASSHOLDER_DESC|Collect Passholder Coins to open the Passholder Chest. As you increase your player level more Passholder Chests will become available that have appropriate gear for your Characters.
+STORE_ITEM_PASSHOLDER_CHEST_NAME|PASSHOLDER CHEST
+STORE_ITEM_PASSHOLDER_CHEST_T4_DESC|T4 GEAR
+STORE_ITEM_PASSHOLDER_CHEST_T5_DESC|T5 GEAR
+STORE_ITEM_PASSHOLDER_CHEST_T6_DESC|T6 GEAR
+STORE_ITEM_PASSHOLDER_CHEST_T7_DESC|T7 GEAR
+STORE_ITEM_PASSHOLDER_CHEST_T8_DESC|T8 GEAR
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
