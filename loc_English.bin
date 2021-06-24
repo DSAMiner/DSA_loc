@@ -1855,7 +1855,7 @@ CLUB_WAR_INFO_BUTTON|OK
 CLUB_WAR_INFO_CARD_1|SET DEFENSE SQUADS TO PROTECT YOUR CLUBS BASES
 CLUB_WAR_INFO_CARD_2|DEFEAT OPPONENTS TO CAPTURE BASES
 CLUB_WAR_INFO_CARD_3|CONTROL MORE BASES TO EARN MORE POINTS AND WIN BETTER REWARDS
-CLUB_WAR_INFO_SCROLL_BODY| <color=#d29bfe>CLUB CONQUEST SCHEDULE:</color><br> Club Conquest occurs on a reoccurring weekly schedule with phases at the following times (PDT):<br> • Registration: Friday 10:00am - Saturday 11:00am<br> • Matchmaking: Saturday 11:00am - Saturday 12:00pm<br> • Planning: Saturday 12:00pm - Sunday 8:00am<br> • Attack: Sunday 8:00am - Monday 12:00am<br> • Regroup: Monday 12:00am - Monday 8:00am<br> • Attack: Monday 8:00am - Tuesday 12:00am<br> • Regroup: Tuesday 12:00am - Tuesday 8:00am<br> • Attack: Tuesday 8:00am - Wednesday 12:00am <br> • Regroup: Wednesday 12:00am - Wednesday 8:00am<br> • Attack: Wednesday 8:00am - Thursday 12:00am <br> • Gathering Rewards: After a Club Conquest's winner has been determined, the Gathering Rewards Phase will begin and continue until the Registration Phase begins for the next Club Conquest. Rewards Chests will be available to collect until the Gathering Rewards Phase begins for the next Club Conquest.<br><br> <color=#d29bfe>REQUIREMENTS TO PARTICIPATE:</color><br> • Only Clubs with at least 10 registered Club Members can participate in Club Conquest.<br><br> <color=#d29bfe>REGISTRATION:</color><br> • Members of Clubs can register to participate through the "Register" button during the Registration Phase.<br><br> <color=#d29bfe>DEFENSE TEAMS AND DEFENDING BASES:</color><br> • Club Members build Defense Teams which can be assigned by Club Leaders and Co-Leaders to protect Bases their Club controls.<br> • Defense teams are created and edited through the Set Defenses button.<br> • Defense Teams only require 1 Character, but can consist of up to 5 Characters and 2 Spells.<br> • Once a Club Member has created a Defense Team, it will be saved for their use in future Club Conquests.<br> • A player can also assign and move their own Defense Teams to Bases.<br> • Each Base can hold up to 5 Defense Teams.<br> • Each Defense Team can only be assigned to 1 Base and only during the Planning Phase or when a Base has been captured.<br> • Each Club Member can contribute up to 10 Defense Teams.<br> • Bases may grant additional bonuses to certain defending characters. These bonuses and the necessary criteria can be seen in the base details under FORTIFICATIONS.<br> • The affinities and sub-categories that currently gain bonuses and the affected bases are: <br>    • Mythical: A10, B10, C10<br>    • Oceanic: A2, B2, C2<br>    • Tech: A12, B12, C12<br>    • Princess: A5, B5, C5<br>    • Onward: A6, B6, C6<br>    • Toy Story: A8, B8, C8<br><br> <color=#d29bfe>ATTACKING BASES:</color><br> • Participating Club Members can attack with up to 50 Characters each Club Conquest.<br> • There is no limit on the number of Spells that can be used in attacks.<br> • Each Character and Spell can only be used in 1 attack per Club Conquest.<br> • Attacks can only occur during Attack Phases.<br> • Teams used in attacks only require 1 Character but can have up to 5 Characters and 2 Spells.<br><br> <color=#d29bfe>CAPTURING BASES:</color><br> • If your Club defeats all Defense Teams at an opponent's Base then your Club takes control of that Base.<br> • If no Defense Team is assigned to a captured Base, then it will become available for other Clubs to capture.<br> • When a Club takes control of a Base, the Base can not be attacked by opposing Clubs for 1 hour. During this time Club Leaders and Co-Leaders can assign Defense Teams to the Base or create new Defense Teams within the Base. Defense Teams created in this way can exceed a Club Member's normal limit of 10.<br><br> <color=#d29bfe>CONQUEST POINTS AND VICTORY:</color><br> • Conquest Points determine the winner of Club Conquests.<br> • The first Club to earn 45000 Conquest Points wins the Conquest, causing the Conquest to end.<br> • The larger Base located in the corner of your Club's starting territory is your Headquarters.<br> • Clubs earn 1 Conquest Point each minute for each Base they control that is connected to their Headquarters.<br> • A Club's Headquarters does not contribute Conquest Points.<br> • If a Club controls 13 or more Bases they will earn an additional 10 Conquest Points each minute.<br> • Successful attacks award the attacking player's Club 15 Conquest Points.<br> • Successfully defending against an attack awards the defending player's Club 5 Conquest Points.<br><br> <color=#d29bfe>REGROUP:</color><br> • During the Regroup Phase players cannot attack and Conquest Points are not generated.<br><br> <color=#d29bfe>REWARDS:</color><br> • Clubs are placed into a Reward Tier based on the total power of registered Club Members.<br> • The Reward Tier of a Club will be locked once the Matchmaking Phase begins.<br> • Each Club Member that registered and participated in a Club Conquest will be awarded a Rewards Chest after it ends.<br> • The contents of a Club's Reward Chests will depend on both their Reward Tier and their placement (1st, 2nd, or 3rd).<br> • Additional details on rewards can be seen by tapping the Rewards Info button. Tap any Rewards Chest to see its contents.<br> • Rewards Chests will be available to collect until the Gathering Rewards Phase begins for the next Club Conquest.
+CLUB_WAR_INFO_SCROLL_BODY| <color=#d29bfe>CLUB CONQUEST SCHEDULE:</color><br>Club Conquest occurs on a reoccurring weekly schedule with phases at the following times (PDT):<br> • Registration: Monday 10:00am - Saturday 11:00am<br> • Matchmaking: Saturday 11:00am - Saturday 12:00pm<br> • Planning: Saturday 12:00pm - Sunday 10:00am<br> • Attack: Sunday 10:00am - Sunday 10:00pm <br> • Gathering Rewards: After a Club Conquest's winner has been determined, the Gathering Rewards Phase will begin and continue until the Registration Phase begins for the next Club Conquest. Rewards Chests will be available to collect until the Gathering Rewards Phase begins for the next Club Conquest.<br><br> <color=#d29bfe>REQUIREMENTS TO PARTICIPATE:</color><br> • Only Clubs with at least 10 registered Club Members can participate in Club Conquest.<br><br> <color=#d29bfe>REGISTRATION:</color><br> • Members of Clubs can register to participate through the "Register" button during the Registration Phase.<br><br> <color=#d29bfe>DEFENSE TEAMS AND DEFENDING BASES:</color><br> • Club Members build Defense Teams which can be assigned by Club Leaders and Co-Leaders to protect Bases their Club controls.<br> • Defense teams are created and edited through the Set Defenses button.<br> • Defense Teams only require 1 Character, but can consist of up to 5 Characters and 2 Spells.<br> • Once a Club Member has created a Defense Team, it will be saved for their use in future Club Conquests.<br> • A player can also assign and move their own Defense Teams to Bases.<br> • Each Base can hold up to 5 Defense Teams.<br> • Each Defense Team can only be assigned to 1 Base and only during the Planning Phase or when a Base has been captured.<br> • Each Club Member can contribute up to 14 Defense Teams.<br> • Bases may grant additional bonuses to certain defending characters. These bonuses and the necessary criteria can be seen in the base details under FORTIFICATIONS.<br> • The affinities and sub-categories that currently gain bonuses and the affected bases are: <br>    • Mythical: A10, B10, C10<br>    • Oceanic: A2, B2, C2<br>    • Tech: A12, B12, C12<br>    • Princess: A5, B5, C5<br>    • Onward: A6, B6, C6<br>    • Toy Story: A8, B8, C8<br><br> <color=#d29bfe>ATTACKING BASES:</color><br> • Participating Club Members can attack with up to 70 Characters each Club Conquest.<br> • There is no limit on the number of Spells that can be used in attacks.<br> • Each Character and Spell can only be used in 1 attack per Club Conquest.<br> • Attacks can only occur during Attack Phases.<br> • Teams used in attacks only require 1 Character but can have up to 5 Characters and 2 Spells.<br><br> <color=#d29bfe>CAPTURING BASES:</color><br> • If your Club defeats all Defense Teams at an opponent's Base then your Club takes control of that Base.<br> • If no Defense Team is assigned to a captured Base, then it will become available for other Clubs to capture.<br> • When a Club takes control of a Base, the Base can not be attacked by opposing Clubs for 45 minutes. During this time Club Leaders and Co-Leaders can assign Defense Teams to the Base or create new Defense Teams within the Base. Defense Teams created in this way can exceed a Club Member's normal limit.<br><br> <color=#d29bfe>CONQUEST POINTS AND VICTORY:</color><br> • Conquest Points determine the winner of Club Conquests.<br> • The first Club to earn 30000 Conquest Points wins the Conquest, causing the Conquest to end.<br> • Successful attacks award the attacking player's Club 125 Conquest Points.<br> • Successfully defending against an attack awards the defending player's Club 15 Conquest Points.<br> • The larger Base located in the corner of your Club's starting territory is your Headquarters.<br> • Clubs earn 1 Conquest Point each minute for each Base they control that is connected to their Headquarters.<br> • A Club's Headquarters does not contribute Conquest Points.<br> • If a Club controls 13 or more Bases they will earn an additional 10 Conquest Points each minute.<br><br> <color=#d29bfe>REWARDS:</color><br> • Clubs are placed into a Reward Tier based on the total power of registered Club Members.<br> • The Reward Tier of a Club will be locked once the Matchmaking Phase begins.<br> • Each Club Member that registered and participated in a Club Conquest will be awarded a Rewards Chest after it ends.<br> • The contents of a Club's Reward Chests will depend on both their Reward Tier and their placement (1st, 2nd, or 3rd).<br> • Additional details on rewards can be seen by tapping the Rewards Info button. Tap any Rewards Chest to see its contents.<br> • Rewards Chests will be available to collect until the Gathering Rewards Phase begins for the next Club Conquest.
 CLUB_WAR_INFO_TITLE|CLUB CONQUEST
 CLUB_WAR_INVALID_PHASE_FOR_BATTLE|Attack Phase has ended
 CLUB_WAR_INVALID_PHASE_FOR_NODE_DETAILS|Club Conquest hasn't started
@@ -2012,8 +2012,8 @@ CM_TUTORIAL_GRANDADVENTURE_PT1_STEP00_BODY|Congratulations! You've unlocked the 
 CM_TUTORIAL_GRANDADVENTURE_PT1_STEP03_BODY|In the <color=#FF7810>Grand Campaign</color> you can use both Heroes and Villains to create your ideal team!
 CM_TUTORIAL_GRANDADVENTURE_PT1_STEP04_BODY|The <color=#FF7810>Grand Campaign</color> uses its own type of <color=#54C5FF>Energy!</color> Be sure to use it all every day!
 CM_TUTORIAL_GRANDADVENTURE_PT1_STEP05_BODY|There are many <color=#FF7810>Character Tokens</color> and <color=#54C5FF>Spell Tokens</color> available in the <color=#FF7810>Grand Campaign.</color> Some of the toughest battles give the best rewards. Good luck!
-CM_TUTORIAL_GRAND_GACHA_STEP_00_BODY|You have collected a lot of Grand Campaign Coins.<br><br>They can be used to open the Campaign Pack in the Store!
-CM_TUTORIAL_GRAND_GACHA_STEP_01_BODY|It's free to open! Be sure to spend Grand Campaign Coins when you earn them from the Grand Campaign.
+CM_TUTORIAL_GRAND_GACHA_STEP_00_BODY|You have collected a lot of Grand Coins! They can be used to open the Grand Chest in the Store.
+CM_TUTORIAL_GRAND_GACHA_STEP_01_BODY|It's free to open! Be sure to spend Grand Coins when you earn them by completing Adventure Campaign battles that require Grand Energy.
 CM_TUTORIAL_HARDMODE_PT1_STEP00_BODY|You have unlocked <color=#FF7810>ELITE Battles</color>
 CM_TUTORIAL_HARDMODE_PT1_STEP01_BODY|<color=#FF7810>ELITE Battles</color> are the best way to collect new Characters
 CM_TUTORIAL_HARDMODE_PT1_STEP02_BODY|Tap here to toggle between <color=#FF7810>Normal Mode</color> and <color=#F65215>Token Mode</color>
@@ -2345,6 +2345,8 @@ CURRENCY_MISTLETOKENS_NAME|MISTLETOKENS
 CURRENCY_MISTLETOKENS_DESC|Collect Mistletokens in events and offers throughout December.<br><br>Mistletokens can be used to open special limited time Mystery Packs available in the Store throughout the month.
 CURRENCY_HUNNYCOINS_NAME|HUNNY COINS
 CURRENCY_HUNNYCOINS_DESC|Collect Hunny Coins from daily gifts and Daily Hunny Hunt Quests for a limited time.<BR><BR>Use Hunny Coins to open the Winnie the Pooh Pack available in the Store.
+CURRENCY_GRANDCOINS_NAME|GRAND COINS
+CURRENCY_GRANDCOINS_DESC|Grand Coins are earned by completing battles using Grand Energy. Earn Grand Coins to open the Grand Chest in the Store.
 CU_20200122_BODY|Summoner, <br><br>Updates are here! Here's a list of what's new! Please be sure to check our Newsletter for further detail. <br><br>- PvP coins have been changed to "Tournament Coins". Earn them in the Sorcerer's Tournament! <br>- The Tournament Exchange now has Hades, Shan Yu, Mor'du, and Merlin tokens. <br>- Earn Robin Hood in the PvP Arena. <br>- PvP Daily Quest and Tournament Daily Quest rewards have been rebalanced <br>- Various bug fixes.
 CU_20200122_SUBJECT|Updates are Here!
 CU_20200129_BODY|Summoner, <br><br>Updates are here! Here's a list of what's new! Please be sure to check our Newsletter for further detail. <br><br>- Summoner's Challenges requirements for some of the Defense and Support battles have been lowered.<br>- Gold Challenge rewards have been rebalanced. <br>- Some characters have changed in the Villains Elite Campaign- Monterey Jack now drops at node 2B, Tinker Bell at 2C, and Kronk at 3C.<br>- Gold now drops in the Grand Campaign. <br>- Passholder XP now drops in Heroes and Villains Campaign. <br>- Various balance and bug fixes.<br><br>As a reminder, the Cave of Wonders Event will be ending soon, so be sure to finish those battles!
@@ -4474,9 +4476,9 @@ EVENT_202006_TS3_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>SUNNYSIDE 
 EVENT_202006_TS3_LAST_CHANCE_SUBJECT|Last Chance to earn rewards in the Sunnyside Playtime Event!
 EVENT_202006_TS3_OFFERS_BODY|Summoner,<br><br>Need some help in the <color=#54C5FF>SUNNYSIDE PLAYTIME EVENT</color>? New offers are live in the <color=#54C5FF>STORE</color> to power up your team! Visit now to check them out!
 EVENT_202006_TS3_OFFERS_SUBJECT|New Special Offers!
-EVENT_202006_TS3_PREVIEW_BODY|Summoner,<br><br>Get ready! The <color=#54C5FF>SUNNYSIDE PLAYTIME EVENT</color> will soon begin, with the chance to earn exclusive Toy Story characters. Use Chunk to fight to earn Big Baby and Lotso in this brand new event!
+EVENT_202006_TS3_PREVIEW_BODY|Summoner,<br><br>Get ready! The <color=#54C5FF>SUNNYSIDE PLAYTIME EVENT</color> will begin soon. Battle with Chunk and Big Baby to earn Lotso Tokens!
 EVENT_202006_TS3_PREVIEW_SUBJECT|Coming Soon: Sunnyside Playtime
-EVENT_202006_TS3_START_BODY|Summoner,<br><br>The <color=#54C5FF>SUNNYSIDE PLAYTIME EVENT</color> is live! Build a brand new team of Toy Story villains and fight to earn Lotso tokens! This team will help you defeat your enemies in Club Conquest, and Lotso is their fearless leader! He supports his team with passive healing and strikes fear into enemy hearts.<br><br>Power up your team and battle now!
+EVENT_202006_TS3_START_BODY|Summoner,<br><br>The <color=#54C5FF>SUNNYSIDE PLAYTIME EVENT</color> is live! Power up your team of Toy Story villains and battle to earn Lotso tokens! The Toy Story 3 Villains team will help you defeat your enemies in Club Conquest, and Lotso is their fearless leader! He supports his team with passive healing and strikes fear into enemy hearts.<br><br>Power up your team and battle now!
 EVENT_202006_TS3_START_SUBJECT|The Sunnyside Playtime Event is Live!
 EVENT_202007_BASTILLEDAY_INBOX_DAY01_BODY|Summoners,<BR><BR>Celebrate today with this FREE <color=#54C5FF>Remy Talisman</color>! Don't miss out on the Celebration Bundle, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_202007_BASTILLEDAY_INBOX_DAY01_SUBJECT|A Special Gift!
@@ -4867,6 +4869,8 @@ INBOX_EVENT_202106_FDFLASHGIFT_SUBJECT|Father's Day Flash Gift
 INBOX_EVENT_202106_FDFLASHGIFT_BODY|Summoner,<BR><BR>You've received a <color=#54C5FF>Father's Day Flash Gift</color>!<BR><BR>Stay on the lookout for more Flash Gift drops at random times between <color=#54C5FF>June 20 - 26</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202106_POCAHONTAS_SUBJECT|Pocahontas Anniversary - Free Gift!
 INBOX_EVENT_202106_POCAHONTAS_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Pocahontas Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202106_STITCHDAY_SUBJECT|Happy Stitch Day!
+INBOX_EVENT_202106_STITCHDAY_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Stitch Day</color> and <color=#54C5FF>Experiment 626</color> with a FREE <color=#54C5FF>Stitch Day Login Calendar</color>! Don't miss out on the <color=#54C5FF>Stitch Day Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -13921,7 +13925,7 @@ STORE_ITEM_DAILY_DEFENSE_PACK_NAME|DEFENSE PACK
 STORE_ITEM_DAILY_DEFENSE_PACK_SUBTITLE|DEFEND YOUR TEAM- INCLUDES 10 DEFENSE CHARACTER TOKENS AND MORE
 STORE_ITEM_DAILY_ENERGY_BIG_NAME|BIG ENERGY BUNDLE
 STORE_ITEM_DAILY_ENERGY_BOOST_NAME|ENERGY BOOST BUNDLE
-STORE_ITEM_DAILY_ENERGY_BOOST_SUBTITLE|BOOST YOUR ENERGY WITH THIS LIMITED TIME OFFER. INCLUDES ENERGY, GRAND CAMPAIGN COINS, GEMS, AND MORE.
+STORE_ITEM_DAILY_ENERGY_BOOST_SUBTITLE|BOOST YOUR ENERGY WITH THIS LIMITED TIME OFFER. INCLUDES ENERGY, GRAND COINS, GEMS, AND MORE.
 STORE_ITEM_DAILY_ENERGY_PACK_NAME|ENERGY PACK
 STORE_ITEM_DAILY_ENERGY_PACK_SUBTITLE|RECHARGE NOW AND GET READY TO BATTLE- INCLUDES ENERGY AND MORE
 STORE_ITEM_DAILY_GEAR_DEFENSE_OFFENSE_NAME|DEFENSE & OFFENSE BUNDLE
@@ -13935,7 +13939,7 @@ STORE_ITEM_DAILY_GEAR_PACK_NAME|GEAR PACK
 STORE_ITEM_DAILY_GEAR_PACK_SUBTITLE|POWER UP YOUR TEAM WITH ENCHANTED GEAR!
 STORE_ITEM_DAILY_GEAR_PACK_SUBTITLE_LK2|Power up your team! Includes bonus event items!
 STORE_ITEM_DAILY_GOLD_BONUS_NAME|GOLD BONUS BUNDLE
-STORE_ITEM_DAILY_GOLD_BONUS_SUBTITLE|BOOST YOUR CHARACTERS WITH THIS LIMITED TIME OFFER. INCLUDES GOLD, GRAND CAMPAIGN COINS, ABILITY RUNES, AND MORE.
+STORE_ITEM_DAILY_GOLD_BONUS_SUBTITLE|BOOST YOUR CHARACTERS WITH THIS LIMITED TIME OFFER. INCLUDES GOLD, GRAND COINS, ABILITY RUNES, AND MORE.
 STORE_ITEM_DAILY_GOLD_MIGHTY_NAME|MIGHTY GOLD BUNDLE
 STORE_ITEM_DAILY_GOLD_PACK_NAME|GOLD AND GEAR PACK
 STORE_ITEM_DAILY_GOLD_PACK_SUBTITLE|GREAT VALUE- UPGRADE YOUR CHARACTERS NOW
@@ -13948,7 +13952,21 @@ STORE_ITEM_DAILY_PVP_REWARD_NAME|ARENA REWARD
 STORE_ITEM_DAILY_SUPPORT_PACK_NAME|SUPPORT PACK
 STORE_ITEM_DAILY_SUPPORT_PACK_SUBTITLE|SUPPORT YOUR TEAM- INCLUDES 10 SUPPORT CHARACTER TOKENS AND MORE
 STORE_ITEM_DAILY_ULTIMATE_CURRENCY_NAME|ULTIMATE BUNDLE
-STORE_ITEM_DAILY_ULTIMATE_CURRENCY_SUBTITLE|UNLOCK ULTIMATE POTENTIAL WITH THIS LIMITED TIME OFFER. INCLUDES ULTIMATE CHEST TOKENS, GRAND CAMPAIGN COINS, GEMS, AND MORE.
+STORE_ITEM_DAILY_ULTIMATE_CURRENCY_SUBTITLE|UNLOCK ULTIMATE POTENTIAL WITH THIS LIMITED TIME OFFER. INCLUDES ULTIMATE CHEST TOKENS, GRAND COINS, GEMS, AND MORE.
+STORE_ITEM_DAILY_GEAR_T7_DOWNTOWNHERO|T7 DOWNTOWN HERO DAILY BUNDLE
+STORE_ITEM_DAILY_GEAR_T7_DOWNTOWNVILLAIN|T7 DOWNTOWN VILLAIN DAILY BUNDLE
+STORE_ITEM_DAILY_GEAR_T7_KINGDOM|T7 KINGDOM DAILY BUNDLE
+STORE_ITEM_DAILY_GEAR_T7_WILDS|T7 WILDS DAILY BUNDLE
+STORE_ITEM_DAILY_GEAR_T7_MYTHICAL|T7 MYTHICAL DAILY BUNDLE
+STORE_ITEM_DAILY_GEAR_T7_OCEANIC|T7 OCEANIC DAILY BUNDLE
+STORE_ITEM_DAILY_RAID_GEAR_T7_DOWNTOWNHERO|T7 DOWNTOWN HERO SUPER DAILY BUNDLE
+STORE_ITEM_DAILY_RAID_GEAR_T7_DOWNTOWNVILLAIN|T7 DOWNTOWN VILLAIN SUPER DAILY BUNDLE
+STORE_ITEM_DAILY_RAID_GEAR_T7_KINGDOM|T7 KINGDOM SUPER DAILY BUNDLE
+STORE_ITEM_DAILY_RAID_GEAR_T7_WILDS|T7 WILDS SUPER DAILY BUNDLE
+STORE_ITEM_DAILY_RAID_GEAR_T7_MYTHICAL|T7 MYTHICAL SUPER DAILY BUNDLE
+STORE_ITEM_DAILY_RAID_GEAR_T7_OCEANIC|T7 OCEANIC SUPER DAILY BUNDLE
+STORE_ITEM_DAILY_GEAR_T7_DISTILLATES_GENREAGENTS|T7 ESSENCE DAILY BUNDLE
+STORE_ITEM_DAILY_GEAR_T7_RARE_DISTILLATES_GENREAGENTS|T7 ADVANCED ESSENCE DAILY BUNDLE
 STORE_ITEM_DETAILS_QUANTITY|QUANTITY:
 STORE_ITEM_DETAIL_CHANCE|CHANCE
 STORE_ITEM_DETAIL_GRANT_HEADING|{0:P2} CHANCE TO WIN ONE OF THE FOLLOWING:
@@ -14150,7 +14168,7 @@ STORE_ITEM_FTUE_BONUSXP_BUNDLE_SUBTITLE|LEVEL UP YOUR PLAY WITH THIS LIMITED TIM
 STORE_ITEM_FTUE_DASH_STARTER_NAME|DASH STARTER BUNDLE
 STORE_ITEM_FTUE_ENERGYCHARGE_BUNDLE_NAME|ENERGY CHARGE BUNDLE
 STORE_ITEM_FTUE_ENERGYSAVER_BUNDLE_NAME|ENERGY SAVER BUNDLE
-STORE_ITEM_FTUE_ENERGYSAVER_BUNDLE_SUBTITLE|RECHARGE WITH THIS LIMITED TIME OFFER. INCLUDES ENERGY, GRAND CAMPAIGN COINS, GEMS, AND MORE.
+STORE_ITEM_FTUE_ENERGYSAVER_BUNDLE_SUBTITLE|RECHARGE WITH THIS LIMITED TIME OFFER. INCLUDES ENERGY, GRAND COINS, GEMS, AND MORE.
 STORE_ITEM_FTUE_GENIEVARIETY_NAME|GENIE VARIETY BUNDLE
 STORE_ITEM_FTUE_GENIEVARIETY_SUBTITLE|BUILD UP YOUR HERO TEAM AND CONQUER THE ARENA WITH THE ALL POWERFUL GENIE. INCLUDES LOYALTY COINS, ULTIMATE 1X TOKENS, GEAR, ABILITY RUNES, AND MORE.
 STORE_ITEM_FTUE_HERO_POWER_NAME|POWER HERO BUNDLE
@@ -15410,6 +15428,10 @@ STORE_ITEM_SPECIAL_WINNIETHEPOOHPACK_NAME|WINNIE THE POOH PACK
 STORE_ITEM_SPECIAL_WINNIETHEPOOHPACK_DESC|TRY YOUR LUCK FOR A CHANCE AT WINNIE THE POOH TALISMANS AND GOLD REWARDS. AVAILABLE FOR A LIMITED TIME.
 STORE_ITEM_SPECIAL_PRIDECELEBRATIONGIFT_NAME|CELEBRATION GIFT
 STORE_ITEM_SPECIAL_PRIDECELEBRATIONGIFT_DESC|CELEBRATE PRIDE MONTH WITH THIS <color=#54C5FF>FREE</color> GIFT. COLLECT NOW TO UNLOCK THE <color=#54C5FF>RAINBOW MICKEY TALISMAN</color> AND <color=#54C5FF>PRIDE HEART EMOTE</color>!
+STORE_ITEM_SPECIAL_STITCHDAY_OUTFIT_NAME|STITCH DAY BUNDLE
+STORE_ITEM_SPECIAL_STITCHDAY_OUTFIT_DESC|CELEBRATE <color=#54C5FF>STITCH DAY</color> WITH THIS LIMITED TIME OFFER. INCLUDES THE <color=#54C5FF>HULA STITCH OUTFIT</color>, ENERGY, ABILITY RUNES, AND MORE. CHARACTER NOT INCLUDED.
+STORE_ITEM_GRANDCHEST_NAME|GRAND CHEST
+STORE_ITEM_GRANDCHEST_DESC|Complete Campaign battles in Adventures using Grand Energy to earn Grand Coins and unlock this chest.
 STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
 STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
 STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
@@ -18444,13 +18466,13 @@ STORE_ITEM_RR_T7_BUNDLE_50_SUBTITLE|POWER UP YOUR RESCUE RANGERS TEAM WITH THIS 
 STORE_ITEM_RR_T7_BUNDLE_100_NAME|DOWNTOWN HERO SUPER BUNDLE
 STORE_ITEM_RR_T7_BUNDLE_100_SUBTITLE|CONTAINS A MASSIVE AMOUNT OF T7 DOWNTOWN HERO GEAR. POWER UP YOUR RESCUE RANGERS TEAM TO TIER 8. INCLUDES GEMS, GOLD, T7 GEAR PIECES, AND MATERIALS TO CRAFT EVEN MORE.
 STORE_ITEM_RR_ABILITY_MATS_NAME|ABILITY RUNES BUNDLE
-STORE_ITEM_RR_ABILITY_MATS_SUBTITLE|UPGRADE CHIP AND DALE'S ABILITIES TO EARN MORE POINTS IN THE RESCUE RANGERS LEADERBOARD CONTEST
+STORE_ITEM_RR_ABILITY_MATS_SUBTITLE|POWER UP YOUR RESCUE RANGERS ABILITY LEVELS AND COLLECT CHARACTER TOKENS WITH THIS ABILITY RUNES BUNDLE.
 INBOX_EVENT_2021_RR_START_SUBJECT|The Rescue Rangers Event has started!
-INBOX_EVENT_2021_RR_START_BODY|Summoner,<br><br>The <color=#54C5FF>RESCUE RANGERS</color> Event has begun! Power up Monterey Jack and battle to earn Chip and Dale tokens.<br><br>Upgrade Chip and Dale to earn points in the <color=#54C5FF>RESCUE RANGERS LEADERBOARD CONTEST</color> and earn exclusive <color=#54C5FF>GADGET</color> tokens!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_2021_RR_START_BODY|Summoner,<br><br>The <color=#54C5FF>Rescue Rangers</color> Event has begun! Power up Monterey Jack and battle to earn Chip and Dale tokens.<br><br>Battle with Chip and Dale to earn exclusive <color=#54C5FF>Gadget</color> tokens!<br><br>Good luck, and see you in the Arena!
 INBOX_EVENT_2021_RR_PREVIEW_SUBJECT|Coming Soon: Rescue Rangers
-INBOX_EVENT_2021_RR_PREVIEW_BODY|Summoner,<br><br>Prepare Monterey Jack to battle and earn Chip and Dale Tokens.<br><br>In addition to battling, there will also be a <color=#54C5FF>LEADERBOARD CONTEST</color> to earn exclusive <color=#54C5FF>GADGET</color> tokens!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_2021_RR_PREVIEW_BODY|Summoner,<br><br>The <color=#54C5FF>Rescue Rangers</color> Event is coming soon! Battle with Monterey Jack, Chip, and Dale to earn exclusive <color=#54C5FF>Gadget</color> tokens!<br><br>Good luck, and see you in the Arena!
 INBOX_EVENT_2021_RR_LAST_CHANCE_SUBJECT|Last Chance for Rescue Rangers!
-INBOX_EVENT_2021_RR_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>RESCUE RANGERS</color> Event is ending soon!<br><br>Upgrade Chip and Dale to earn points in the <color=#54C5FF>RESCUE RANGERS LEADERBOARD CONTEST</color> and earn exclusive <color=#54C5FF>GADGET</color> tokens!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_2021_RR_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>Rescue Rangers</color> Event is ending soon!<br><br>Battle with Monterey Jack, Chip, and Dale to earn exclusive <color=#54C5FF>Gadget</color> tokens!<br><br>Good luck, and see you in the Arena!
 TROPHY_RESCUE_RANGERS_NAME|RESCUE RANGERS TROPHY
 TROPHY_RESCUE_RANGERS_DESC|Awarded for completing the Rescue Rangers Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 BATTLE_MODE_CAMPAIGN_MODE|ADVENTURES
@@ -18832,6 +18854,9 @@ EVENT_202106_CRUELLA_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>
 LOGIN_D7_CALHOUN_NAME|WEDDING DAY CALHOUN
 LOGIN_D7_CALHOUN_SUBTITLE|CELEBRATE THE HERO'S DUTY EVENT WITH A COMPLIMENTARY SERGEANT CALHOUN WEDDING DAY OUTFIT. MUST OWN SERGEANT CALHOUN TO EQUIP. CLAIM NOW TO GUARANTEE 7 DAYS OF REWARDS.
 LOGIN_D7_CALHOUN_TAB|FREE OUTFIT
+LOGIN_D7_STITCH_DAY_NAME|STITCH DAY
+LOGIN_D7_STITCH_DAY_SUBTITLE|CELEBRATE STITCH DAY AND EXPERIMENT 626 WITH A FREE STITCH DAY LOGIN CALENDAR! CLAIM NOW TO GUARANTEE 7 DAYS OF REWARDS.
+LOGIN_D7_STITCH_DAY_TAB|STITCH DAY
 OUTFIT_CALHOUN_WEDDING_UNIT_NAME|WEDDING DAY CALHOUN
 OUTFIT_CALHOUN_WEDDING_NAME|WEDDING DAY CALHOUN OUTFIT TOKENS
 OUTFIT_CALHOUN_WEDDING_DESC|Collect 100 to unlock the 'Wedding Day Calhoun' outfit for Sergeant Calhoun.
