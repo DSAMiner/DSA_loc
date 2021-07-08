@@ -238,12 +238,12 @@ ABILPREVIEWUPGRADE_GEN_INNATE_OFFENSE_PCT|+<color=#FEF8E4>{0:P0}</color> Offense
 ABILPREVIEWUPGRADE_GEN_INNATE_POTENCY_PCT|+<color=#FEF8E4>{0:P0}</color> Potency.
 ABILPREVIEWUPGRADE_GEN_INNATE_SPEED_PCT|+<color=#FEF8E4>{0:P0}</color> Speed.
 ABILPREVIEWUPGRADE_GEN_LIFEDRAIN_DURATION|<color=#FEF8E4>+{0:N0}</color> to Life Drain duration.
-ABILPREVIEWUPGRADE_GEN_MAGIC_COST_DECREASE_01|Decrease Magic Cost by 1.
+ABILPREVIEWUPGRADE_GEN_MAGIC_COST_DECREASE_01|-1 Magic Cost.
 ABILPREVIEWUPGRADE_GEN_MAGIC_GRANT_INC|+<color=#FEF8E4>{0:N0}</color> Magic granted.
 ABILPREVIEWUPGRADE_GEN_MAX_CHAIN_AMOUNT_INC|<color=#FEF8E4>+{0:N0}</color> maximum chain amount.
 ABILPREVIEWUPGRADE_GEN_NYI|Ability upgrade info coming soon...
 ABILPREVIEWUPGRADE_GEN_OFFENSEDOWN_CHANCE_ADD|<color=#FEF8E4>{0:P0}</color> chance to inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turns.
-ABILPREVIEWUPGRADE_GEN_OFFENSEDOWN_CHANCE_INC|<color=#FEF8E4>+{0:P0}</color> chance to inflict Offense Down
+ABILPREVIEWUPGRADE_GEN_OFFENSEDOWN_CHANCE_INC|<color=#FEF8E4>+{0:P0}</color> chance to inflict Offense Down.
 ABILPREVIEWUPGRADE_GEN_OFFENSEUP_DURATION|<color=#FEF8E4>+{0:N0}</color> to Offense Up duration.
 ABILPREVIEWUPGRADE_GEN_OFFENSEUP_DURATION_02S|Increases duration of Offense Up by 2s.
 ABILPREVIEWUPGRADE_GEN_PURGE_ADD|<color=#FEF8E4>{0:N0}</color> Helpful effect Purged.
@@ -1424,23 +1424,24 @@ CAPTAINHOOK_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> bonus Cri
 CAPTAINHOOK_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to perform an Extra Attack.
 CAPTAINHOOK_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to perform an Extra Attack.<br><br><color=#FEF8E4>{2:P0}</color> bonus Critical Strike chance if this character is affected by Haste.
 CAPTAINHOOK_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to perform an Extra Attack. Guaranteed to perform an extra attack if target is affected by a Harmful effect.<br><br><color=#FEF8E4>{2:P0}</color> bonus Critical Strike chance if this character is affected by Haste.
-CAPTAINHOOK_PASSIVE_ABILPREVIEWUPGRADE_01|If teammate is an Oceanic character, increase their Speed Meter by <color=#FEF8E4>{0:P0}</color>.
+CAPTAINHOOK_PASSIVE_ABILPREVIEWUPGRADE_01|For Oceanic teammates affected by this ability, increase their Speed Meter by <color=#FEF8E4>{0:P0}</color>.
 CAPTAINHOOK_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> max chance to activate.
 CAPTAINHOOK_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Haste duration.
 CAPTAINHOOK_PASSIVE_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Haste duration.
-CAPTAINHOOK_PASSIVE_DESC_01|On turn start, <color=#FEF8E4>{0:P0}</color> - <color=#FEF8E4>{1:P0}</color> chance to perform the following:<br><br>Gain Haste for <color=#FEF8E4>{2:N0}</color> turn. Grant Haste to a random teammate for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Chance to activate is increased the lower this character's Health is.
-CAPTAINHOOK_PASSIVE_DESC_02|On turn start, <color=#FEF8E4>{0:P0}</color> - <color=#FEF8E4>{1:P0}</color> chance to perform the following:<br><br>Gain Haste for <color=#FEF8E4>{2:N0}</color> turn. Grant Haste to a random teammate for <color=#FEF8E4>{3:N0}</color> turn. If teammate is an Oceanic character, increase their Speed Meter by <color=#FEF8E4>{4:P0}</color>.<br><br>Chance to activate is increased the lower this character's Health is.
+CAPTAINHOOK_PASSIVE_DESC_01|On turn start, perform the following:<br><br>Gain Haste for <color=#FEF8E4>{0:N0}</color> turn. Grant Haste to a random teammate for <color=#FEF8E4>{1:N0}</color> turn.<br><br>On Offense in Club Conquest if Smee is a teammate: This ability also activates on combat start and affects all <color=#FEF8E4>'Peter Pan'</color> teammates.
+CAPTAINHOOK_PASSIVE_DESC_02|On turn start, perform the following:<br><br>Gain Haste for <color=#FEF8E4>{0:N0}</color> turns. Grant Haste to a random teammate for <color=#FEF8E4>{1:N0}</color> turns.<br><br>On Offense in Club Conquest if Smee is a teammate: This ability also activates on combat start and affects all <color=#FEF8E4>'Peter Pan'</color> teammates.
 CAPTAINHOOK_PASSIVE_DESC_03|On turn start, <color=#FEF8E4>{0:P0}</color> - <color=#FEF8E4>{1:P0}</color> chance to perform the following:<br><br>Gain Haste for <color=#FEF8E4>{2:N0}</color> turns. Grant Haste to a random teammate for <color=#FEF8E4>{3:N0}</color> turns. If teammate is an Oceanic character, increase their Speed Meter by <color=#FEF8E4>{4:P0}</color>.<br><br>Chance to activate is increased the lower this character's Health is.
 CAPTAINHOOK_SPECIALA_ABILPREVIEWUPGRADE_01|Inflict Defense Down for <color=#FEF8E4>{0:N0}</color> turns.
 CAPTAINHOOK_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> damage dealt against opponents affected by Shield.
 CAPTAINHOOK_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>{0:P0}</color> chance to inflict Defense Down on adjacent opponents for <color=#FEF8E4>{1:N0}</color> turn.
-CAPTAINHOOK_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Damage dealt is increased by <color=#FEF8E4>{1:P0}</color> if target is affected by Shield.
-CAPTAINHOOK_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Damage dealt is increased by <color=#FEF8E4>{1:P0}</color> if target is affected by Shield.
-CAPTAINHOOK_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance for teammates to Assist. Bonus <color=#FEF8E4>{1:P0}</color> chance for Oceanic teammates to Assist.
+CAPTAINHOOK_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Damage dealt is increased by <color=#FEF8E4>{1:P0}</color> if target is affected by Shield.<br><br>On Offense in Club Conquest: Inflict Intimidate for <color=#FEF8E4>{2:N0}</color> turn. This attack can't be Countered.
+CAPTAINHOOK_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turns.<br><br>Damage dealt is increased by <color=#FEF8E4>{1:P0}</color> if target is affected by Shield.<br><br>On Offense in Club Conquest: Inflict Intimidate for <color=#FEF8E4>{2:N0}</color> turn. This attack can't be Countered.
+CAPTAINHOOK_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance for teammates to Assist. Bonus <color=#FEF8E4>{1:P0}</color> chance for Oceanic teammates to Assist. On Offense in Club Conquest: 'Peter Pan' teammates are guaranteed to assist.
 CAPTAINHOOK_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance for teammates to Assist.
 CAPTAINHOOK_SPECIALB_ABILPREVIEWUPGRADE_03|+<color=#FEF8E4>{0:N0}</color> Helpful effect copied.
 CAPTAINHOOK_SPECIALB_DESC_01|Inflict Vulnerable on target opponent. Copy <color=#FEF8E4>{0:N0}</color> Helpful effect from target opponent to this character.
-CAPTAINHOOK_SPECIALB_DESC_02|Inflict Vulnerable on target opponent. Copy <color=#FEF8E4>{0:N0}</color> Helpful effect from target opponent to this character.<br><br><color=#FEF8E4>{1:P0}</color> chance for teammates to Assist. Bonus <color=#FEF8E4>{2:P0}</color> chance for Oceanic teammates to Assist.
+CAPTAINHOOK_SPECIALB_DESC_02|Inflict Vulnerable on target opponent. Copy <color=#FEF8E4>{0:N0}</color> random Helpful effect from target opponent to this character.<br><br><color=#FEF8E4>{1:P0}</color> chance for teammates to Assist. Bonus <color=#FEF8E4>{2:P0}</color> chance for Oceanic teammates to Assist. On Offense in Club Conquest: <color=#FEF8E4>'Peter Pan'</color> teammates are guaranteed to assist.
+CAPTAINHOOK_SPECIALB_DESC_03|Inflict Vulnerable on target opponent. Copy <color=#FEF8E4>{0:N0}</color> random Helpful effects from target opponent to this character.<br><br><color=#FEF8E4>{1:P0}</color> chance for teammates to Assist. Bonus <color=#FEF8E4>{2:P0}</color> chance for Oceanic teammates to Assist. On Offense in Club Conquest: <color=#FEF8E4>'Peter Pan'</color> teammates are guaranteed to assist.
 CAPTAINHOOK_UNIT_NAME|CAPTAIN HOOK
 CARD_SOLDIER_UNIT_NAME|Card Soldier
 CARD_UNLOCK_CLOSE_BUTTON|GOT IT
@@ -1855,7 +1856,7 @@ CLUB_WAR_INFO_BUTTON|OK
 CLUB_WAR_INFO_CARD_1|SET DEFENSE SQUADS TO PROTECT YOUR CLUBS BASES
 CLUB_WAR_INFO_CARD_2|DEFEAT OPPONENTS TO CAPTURE BASES
 CLUB_WAR_INFO_CARD_3|CONTROL MORE BASES TO EARN MORE POINTS AND WIN BETTER REWARDS
-CLUB_WAR_INFO_SCROLL_BODY| <color=#d29bfe>CLUB CONQUEST SCHEDULE:</color><br>Club Conquest occurs on a reoccurring weekly schedule with phases at the following times (PDT):<br> • Registration: Monday 10:00am - Saturday 11:00am<br> • Matchmaking: Saturday 11:00am - Saturday 12:00pm<br> • Planning: Saturday 12:00pm - Sunday 10:00am<br> • Attack: Sunday 10:00am - Sunday 10:00pm <br> • Gathering Rewards: After a Club Conquest's winner has been determined, the Gathering Rewards Phase will begin and continue until the Registration Phase begins for the next Club Conquest. Rewards Chests will be available to collect until the Gathering Rewards Phase begins for the next Club Conquest.<br><br> <color=#d29bfe>REQUIREMENTS TO PARTICIPATE:</color><br> • Only Clubs with at least 10 registered Club Members can participate in Club Conquest.<br><br> <color=#d29bfe>REGISTRATION:</color><br> • Members of Clubs can register to participate through the "Register" button during the Registration Phase.<br><br> <color=#d29bfe>DEFENSE TEAMS AND DEFENDING BASES:</color><br> • Club Members build Defense Teams which can be assigned by Club Leaders and Co-Leaders to protect Bases their Club controls.<br> • Defense teams are created and edited through the Set Defenses button.<br> • Defense Teams only require 1 Character, but can consist of up to 5 Characters and 2 Spells.<br> • Once a Club Member has created a Defense Team, it will be saved for their use in future Club Conquests.<br> • A player can also assign and move their own Defense Teams to Bases.<br> • Each Base can hold up to 5 Defense Teams.<br> • Each Defense Team can only be assigned to 1 Base and only during the Planning Phase or when a Base has been captured.<br> • Each Club Member can contribute up to 14 Defense Teams.<br> • Bases may grant additional bonuses to certain defending characters. These bonuses and the necessary criteria can be seen in the base details under FORTIFICATIONS.<br> • The affinities and sub-categories that currently gain bonuses and the affected bases are: <br>    • Mythical: A10, B10, C10<br>    • Oceanic: A2, B2, C2<br>    • Tech: A12, B12, C12<br>    • Princess: A5, B5, C5<br>    • Onward: A6, B6, C6<br>    • Toy Story: A8, B8, C8<br><br> <color=#d29bfe>ATTACKING BASES:</color><br> • Participating Club Members can attack with up to 70 Characters each Club Conquest.<br> • There is no limit on the number of Spells that can be used in attacks.<br> • Each Character and Spell can only be used in 1 attack per Club Conquest.<br> • Attacks can only occur during Attack Phases.<br> • Teams used in attacks only require 1 Character but can have up to 5 Characters and 2 Spells.<br><br> <color=#d29bfe>CAPTURING BASES:</color><br> • If your Club defeats all Defense Teams at an opponent's Base then your Club takes control of that Base.<br> • If no Defense Team is assigned to a captured Base, then it will become available for other Clubs to capture.<br> • When a Club takes control of a Base, the Base can not be attacked by opposing Clubs for 45 minutes. During this time Club Leaders and Co-Leaders can assign Defense Teams to the Base or create new Defense Teams within the Base. Defense Teams created in this way can exceed a Club Member's normal limit.<br><br> <color=#d29bfe>CONQUEST POINTS AND VICTORY:</color><br> • Conquest Points determine the winner of Club Conquests.<br> • The first Club to earn 30000 Conquest Points wins the Conquest, causing the Conquest to end.<br> • Successful attacks award the attacking player's Club 125 Conquest Points.<br> • Successfully defending against an attack awards the defending player's Club 15 Conquest Points.<br> • The larger Base located in the corner of your Club's starting territory is your Headquarters.<br> • Clubs earn 1 Conquest Point each minute for each Base they control that is connected to their Headquarters.<br> • A Club's Headquarters does not contribute Conquest Points.<br> • If a Club controls 13 or more Bases they will earn an additional 10 Conquest Points each minute.<br><br> <color=#d29bfe>REWARDS:</color><br> • Clubs are placed into a Reward Tier based on the total power of registered Club Members.<br> • The Reward Tier of a Club will be locked once the Matchmaking Phase begins.<br> • Each Club Member that registered and participated in a Club Conquest will be awarded a Rewards Chest after it ends.<br> • The contents of a Club's Reward Chests will depend on both their Reward Tier and their placement (1st, 2nd, or 3rd).<br> • Additional details on rewards can be seen by tapping the Rewards Info button. Tap any Rewards Chest to see its contents.<br> • Rewards Chests will be available to collect until the Gathering Rewards Phase begins for the next Club Conquest.
+CLUB_WAR_INFO_SCROLL_BODY| <color=#d29bfe>CLUB CONQUEST SCHEDULE:</color><br>Club Conquest occurs on a reoccurring weekly schedule with phases at the following times (PDT):<br> • Registration: Monday 10:00am - Saturday 11:00am<br> • Matchmaking: Saturday 11:00am - Saturday 12:00pm<br> • Planning: Saturday 12:00pm - Sunday 9:30am<br> • Attack: Sunday 9:30am - Sunday 10:00pm <br> • Gathering Rewards: After a Club Conquest's winner has been determined, the Gathering Rewards Phase will begin and continue until the Registration Phase begins for the next Club Conquest. Rewards Chests will be available to collect until the Gathering Rewards Phase begins for the next Club Conquest.<br><br> <color=#d29bfe>REQUIREMENTS TO PARTICIPATE:</color><br> • Only Clubs with at least 10 registered Club Members can participate in Club Conquest.<br><br> <color=#d29bfe>REGISTRATION:</color><br> • Members of Clubs can register to participate through the "Register" button during the Registration Phase.<br><br> <color=#d29bfe>DEFENSE TEAMS AND DEFENDING BASES:</color><br> • Club Members build Defense Teams which can be assigned by Club Leaders and Co-Leaders to protect Bases their Club controls.<br> • Defense teams are created and edited through the Set Defenses button.<br> • Defense Teams only require 1 Character, but can consist of up to 5 Characters and 2 Spells.<br> • Once a Club Member has created a Defense Team, it will be saved for their use in future Club Conquests.<br> • A player can also assign and move their own Defense Teams to Bases.<br> • Each Base can hold up to 5 Defense Teams.<br> • Each Defense Team can only be assigned to 1 Base and only during the Planning Phase or when a Base has been captured.<br> • Each Club Member can contribute up to 14 Defense Teams.<br> • Bases may grant additional bonuses to certain defending characters. These bonuses and the necessary criteria can be seen in the base details under FORTIFICATIONS.<br> • The affinities and sub-categories that currently gain bonuses and the affected bases are: <br>    • Mythical: A10, B10, C10<br>    • Oceanic: A2, B2, C2<br>    • Tech: A12, B12, C12<br>    • Princess: A5, B5, C5<br>    • Onward: A6, B6, C6<br>    • Toy Story: A8, B8, C8<br><br> <color=#d29bfe>ATTACKING BASES:</color><br> • Participating Club Members can attack with up to 70 Characters each Club Conquest.<br> • There is no limit on the number of Spells that can be used in attacks.<br> • Each Character and Spell can only be used in 1 attack per Club Conquest.<br> • Attacks can only occur during Attack Phases.<br> • Teams used in attacks only require 1 Character but can have up to 5 Characters and 2 Spells.<br><br> <color=#d29bfe>CAPTURING BASES:</color><br> • If your Club defeats all Defense Teams at an opponent's Base then your Club takes control of that Base.<br> • If no Defense Team is assigned to a captured Base, then it will become available for other Clubs to capture.<br> • When a Club takes control of a Base, the Base can not be attacked by opposing Clubs for 45 minutes. During this time Club Leaders and Co-Leaders can assign Defense Teams to the Base or create new Defense Teams within the Base. Defense Teams created in this way can exceed a Club Member's normal limit.<br><br> <color=#d29bfe>CONQUEST POINTS AND VICTORY:</color><br> • Conquest Points determine the winner of Club Conquests.<br> • The first Club to earn 30000 Conquest Points wins the Conquest, causing the Conquest to end.<br> • Successful attacks award the attacking player's Club 125 Conquest Points.<br> • Successfully defending against an attack awards the defending player's Club 15 Conquest Points.<br> • The larger Base located in the corner of your Club's starting territory is your Headquarters.<br> • Clubs earn 1 Conquest Point each minute for each Base they control that is connected to their Headquarters.<br> • A Club's Headquarters does not contribute Conquest Points.<br> • If a Club controls 13 or more Bases they will earn an additional 10 Conquest Points each minute.<br><br> <color=#d29bfe>REWARDS:</color><br> • Clubs are placed into a Reward Tier based on the total power of registered Club Members.<br> • The Reward Tier of a Club will be locked once the Matchmaking Phase begins.<br> • Each Club Member that registered and participated in a Club Conquest will be awarded a Rewards Chest after it ends.<br> • The contents of a Club's Reward Chests will depend on both their Reward Tier and their placement (1st, 2nd, or 3rd).<br> • Additional details on rewards can be seen by tapping the Rewards Info button. Tap any Rewards Chest to see its contents.<br> • Rewards Chests will be available to collect until the Gathering Rewards Phase begins for the next Club Conquest.
 CLUB_WAR_INFO_TITLE|CLUB CONQUEST
 CLUB_WAR_INVALID_PHASE_FOR_BATTLE|Attack Phase has ended
 CLUB_WAR_INVALID_PHASE_FOR_NODE_DETAILS|Club Conquest hasn't started
@@ -4885,6 +4886,10 @@ INBOX_2X_DROP_TOKENS_SUBJECT|2x Drop Event - Character Tokens!
 INBOX_2X_DROP_TOKENS_BODY|Summoner,<BR><BR>Look for the <color=#54C5FF>BONUS</color> banner on select campaign nodes in <color=#54C5FF>Adventures</color> and complete battles on these nodes to earn <color=#54C5FF>2X CHARACTER TOKEN</color> rewards for a limited time!<BR><BR>Thank you for your continued support and see you in the Arena!
 INBOX_2X_DROP_GEAR_SUBJECT|2x Drop Event - Gear!
 INBOX_2X_DROP_GEAR_BODY|Summoner,<BR><BR>Look for the <color=#54C5FF>BONUS</color> banner on select campaign nodes in <color=#54C5FF>Adventures</color> and complete battles on these nodes to earn <color=#54C5FF>2X GEAR</color> rewards for a limited time!<BR><BR>Thank you for your continued support and see you in the Arena!
+INBOX_EVENT_202107_FOXANDHOUND_SUBJECT|The Fox and the Hound Anniversary - Free Gift!
+INBOX_EVENT_202107_FOXANDHOUND_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>The Fox and the Hound 40th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202107_DISNEYLAND_SUBJECT|Disneyland Anniversary - Free Gift!
+INBOX_EVENT_202107_DISNEYLAND_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Disneyland's Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -11220,6 +11225,38 @@ PETE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target 
 PETE_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Continuous Damage dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns.<br><br>On Critical Strike, inflict additional Continuous Damage effect, dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>{3:P0}</color> bonus Critical Strike chance.
 PETE_STEAMBOAT_UNIT_NAME|STEAMBOAT PETE
 PETE_UNIT_NAME|PETE
+PETERPAN_UNIT_NAME|PETER PAN
+PETERPAN_ABILBASIC_NAME|Soaring Strikes
+PETERPAN_ABILSPECIALA_NAME|Mimicry Mischief
+PETERPAN_ABILSPECIALB_NAME|Air Acrobatics
+PETERPAN_ABILPASSIVEA_NAME|Crow Like a Rooster
+PETERPAN_ABILPASSIVEB_NAME|Goading Grin
+PETERPAN_ABILLEADER_NAME|Leader of the Lost Boys
+PETERPAN_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. This attack can't be countered.<br><br>On Offense in Club Conquest, <color=#FEF8E4>{2:P0}</color> chance for the <color=#FEF8E4>'Peter Pan'</color> teammate with the highest Speed Meter to immediately take a turn.
+PETERPAN_BASIC_ABILPREVIEWUPGRADE_01|+{0:P0} chance for the 'Peter Pan' teammate with the highest Speed Meter to immediately take a turn.
+PETERPAN_SPECIALA_DESC_01|Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. On Offense in Club Conquest, +<color=#FEF8E4>{1:N0}</color> Charm duration.<br><br>This ability has +<color=#FEF8E4>{2:P0}</color> Potency per <color=#FEF8E4>'Peter Pan' </color>teammate.
+PETERPAN_SPECIALA_DESC_02|Inflict Intimidate for <color=#FEF8E4>{3:N0}</color> turn. Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. On Offense in Club Conquest, +<color=#FEF8E4>{1:N0}</color> Charm duration.<br><br>This ability has +<color=#FEF8E4>{2:P0}</color> Potency per <color=#FEF8E4>'Peter Pan'</color> teammate.
+PETERPAN_SPECIALA_DESC_03|Inflict Intimidate for <color=#FEF8E4>{3:N0}</color> turns. Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. On Offense in Club Conquest, +<color=#FEF8E4>{1:N0}</color> Charm duration.<br><br>This ability has +<color=#FEF8E4>{2:P0}</color> Potency per <color=#FEF8E4>'Peter Pan'</color> teammate.
+PETERPAN_SPECIALA_ABILPREVIEWUPGRADE_01|Inflict Intimidate for <color=#FEF8E4>{0:N0}</color> turn.
+PETERPAN_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Potency per 'Peter Pan' teammate.
+PETERPAN_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Intimidate duration.
+PETERPAN_SPECIALB_DESC_01|Grant Haste to all Oceanic teammates for <color=#FEF8E4>{0:N0}</color> turns.<br><br>Deal <color=#FFC400>{1:N0}</color> damage to target opponent. Inflict Stun for <color=#FEF8E4>{2:N0}</color> turn.
+PETERPAN_SPECIALB_DESC_02|Grant Haste to all Oceanic teammates for <color=#FEF8E4>{0:N0}</color> turns. On Offense in Club Conquest, grant <color=#FEF8E4>{3:N0}</color> Evasion to all <color=#FEF8E4>'Peter Pan'</color> teammates.<br><br>Deal <color=#FFC400>{1:N0}</color> damage to target opponent. Inflict Stun for <color=#FEF8E4>{2:N0}</color> turn.
+PETERPAN_SPECIALB_DESC_03|Grant Haste to all Oceanic teammates for <color=#FEF8E4>{0:N0}</color> turns. On Offense in Club Conquest, grant <color=#FEF8E4>{3:N0}</color> Evasion to all <color=#FEF8E4>'Peter Pan'</color> teammates.<br><br>Deal <color=#FFC400>{1:N0}</color> damage to target opponent. Inflict Stun for <color=#FEF8E4>{2:N0}</color> turn. On Offense in Club Conquest, +<color=#FEF8E4>{4:N0}</color> Stun duration.
+PETERPAN_SPECIALB_ABILPREVIEWUPGRADE_01|On Offense in Club Conquest, grant <color=#FEF8E4>{0:N0}</color> Evasion to all 'Peter Pan' teammates.
+PETERPAN_SPECIALB_ABILPREVIEWUPGRADE_02|On Offense in Club Conquest, <color=#FEF8E4>+{0:N0}</color> Stun duration.
+PETERPAN_SPECIALB_ABILPREVIEWUPGRADE_03|On Offense in Club Conquest, grant <color=#FEF8E4>+{0:N0}</color> Evasion to all 'Peter Pan' teammates.
+PETERPAN_PASSIVEA_DESC_01|On turn start, do the following: Gain Taunt for <color=#FEF8E4>{0:N0}</color> turn. Gain <color=#FEF8E4>{1:N0}</color> Evasion, up to a max of <color=#FEF8E4>{2:N0}</color>. <color=#FEF8E4>{3:P0}</color> chance to gain <color=#FEF8E4>{4:N0}</color> Magic for this ability.<br><br>After Peter Pan evades, if he is not affected by Evasion and has Taunt, flip Taunt to Stealth.
+PETERPAN_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Evasion.
+PETERPAN_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain Magic for this ability.
+PETERPAN_PASSIVEB_DESC_01|On Evade, <color=#FEF8E4>{0:P0}</color> chance to transfer <color=#FEF8E4>{1:N0}</color> Helpful effect excluding Taunt and Protect from the attacker to Peter Pan.
+PETERPAN_PASSIVEB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>-1</color> Magic cost.
+PETERPAN_PASSIVEB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to transfer a Helpful effect.
+PETERPAN_PASSIVEB_ABILPREVIEWUPGRADE_03|Guaranteed to transfer a Helpful effect.
+PETERPAN_LEADER_DESC_01|On Offense in Club Conquest, <color=#FEF8E4>'Peter Pan'</color> teammates gain the following:<br><br><color=#FEF8E4>{0:P0}</color> bonus Speed.<br><color=#FEF8E4>{1:P0}</color> bonus Potency.<br><color=#FEF8E4>{2:P0}</color> bonus Tenacity.
+PETERPAN_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus Speed.
+PETERPAN_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Potency.
+PETERPAN_LEADER_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> bonus Tenacity.
 PIG_ARCHER_UNIT_NAME|Merry Man
 PINPAGE_EXCLUSIVE_TITLE|EXCLUSIVE TALISMANS
 PINPAGE_GAME_TITLE|DISNEY SORCERER'S ARENA TALISMANS
@@ -11556,6 +11593,10 @@ PIN_RATIGAN_NAME|RATIGAN TALISMAN
 PIN_RATIGAN_DESC|I am not a rat!
 PIN_OLIVIA_NAME|OLIVIA TALISMAN
 PIN_OLIVIA_DESC|Would you like a crumpet?
+PIN_COPPER_NAME|COPPER TALISMAN
+PIN_COPPER_DESC|I'm a hound dog!
+PIN_VIXEY_NAME|VIXEY TALISMAN
+PIN_VIXEY_DESC|Let me show you around.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -13437,14 +13478,14 @@ SPELL_PEANUTPUMMEL_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC
 SPELL_PEANUTPUMMEL_UPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Blind duration.
 SPELL_PEANUTPUMMEL_UPGRADE_02|Completely decrease the Speed Meter of the target opponent.
 SPELL_PIXIE_DUST_NAME|BLUE FAIRY MAGIC
-SPELL_SHADOWCLONE_DESC_01|Summon a Shadow of target teammate.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's Health, Offense and Defense. Can only perform the teammate's Basic Ability.
-SPELL_SHADOWCLONE_DESC_02|Summon a Shadow of target teammate. <color=#FEF8E4>{1:P0}</color> chance to grant Haste for <color=#FEF8E4>{2:N0}</color> turns to the Shadow.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's statistics. Can only perform the teammate's Basic Ability.
-SPELL_SHADOWCLONE_DESC_03|Summon a Shadow of target teammate. Grant Haste for <color=#FEF8E4>{2:N0}</color> turns to the Shadow.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's statistics. Can only perform the teammate's Basic Ability.
+SPELL_SHADOWCLONE_DESC_01|Summon a Shadow of target teammate.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's Health, Offense and Defense. Can only perform the teammate's Basic Ability.<br><br>On Offense in Club Conquest do the following: If target teammate is a 'Peter Pan' character grant the Shadow <color=#FEF8E4>{3:N0}</color> Evasion. If target teammate is Peter Pan the Shadow can perform Peter Pan's Passive Abilities (if Peter Pan has those abilities unlocked).
+SPELL_SHADOWCLONE_DESC_02|Summon a Shadow of target teammate. <color=#FEF8E4>{1:P0}</color> chance to grant Haste for <color=#FEF8E4>{2:N0}</color> turns to the Shadow.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's statistics. Can only perform the teammate's Basic Ability.<br><br>On Offense in Club Conquest do the following: If target teammate is a 'Peter Pan' character grant the Shadow <color=#FEF8E4>{3:N0}</color> Evasion. If target teammate is Peter Pan the Shadow can perform Peter Pan's Passive Abilities (if Peter Pan has those abilities unlocked).
+SPELL_SHADOWCLONE_DESC_03|Summon a Shadow of target teammate. Grant Haste for <color=#FEF8E4>{2:N0}</color> turns to the Shadow.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's statistics. Can only perform the teammate's Basic Ability.<br><br>On Offense in Club Conquest do the following: If target teammate is a 'Peter Pan' character grant the Shadow <color=#FEF8E4>{3:N0}</color> Evasion. If target teammate is Peter Pan the Shadow can perform Peter Pan's Passive Abilities (if Peter Pan has those abilities unlocked).
 SPELL_SHADOWCLONE_DESC_04|Summon a Shadow of target teammate. Grant Haste for <color=#FEF8E4>{2:N0}</color> turns to the Shadow. <color=#FEF8E4>{3:P0}</color> chance to grant Evasion to the Shadow.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's statistics. Can only perform the teammate's Basic Ability.
 SPELL_SHADOWCLONE_UPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to grant Haste for <color=#FEF8E4>{1:N0}</color> turns when summoned.
 SPELL_SHADOWCLONE_UPGRADE_02|<color=#FEF8E4>+{0:P0}</color> to Shadow's statistics.
 SPELL_SHADOWCLONE_UPGRADE_03|Guaranteed to grant Haste.
-SPELL_SHADOWCLONE_UPGRADE_04|<color=#FEF8E4>{0:P0}</color> chance to grant Evasion when summoned.
+SPELL_SHADOWCLONE_UPGRADE_04|<color=#FEF8E4>+{0:N0}</color> Evasion granted to 'Peter Pan' characters.
 SPELL_SNOWGIES_DESC_01|<color=#FEF8E4>{2:P0}</color> chance to inflict Stun for <color=#FEF8E4>{0:N0}</color> turn on target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn on target opponent. <br><br>Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn on <color=#FEF8E4>{3:N0}</color> other random opponent.
 SPELL_SNOWGIES_DESC_02|<color=#FEF8E4>{2:P0}</color> chance to inflict Stun for <color=#FEF8E4>{0:N0}</color> turn on target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn on target opponent.<br><br>Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn on <color=#FEF8E4>{3:N0}</color> other random opponents.
 SPELL_SNOWGIES_DESC_03|Inflict Stun for <color=#FEF8E4>{0:N0}</color> turn on target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn on target opponent.<br><br>Inflict Slow for <color=#FEF8E4>{1:N0}</color> turn on <color=#FEF8E4>{3:N0}</color> other random opponents.
@@ -16321,15 +16362,15 @@ TINKERBELL_SPECIALA_ABILPREVIEWUPGRADE_01|Grant Evade to target teammate.
 TINKERBELL_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Shield amount.
 TINKERBELL_SPECIALA_ABILPREVIEWUPGRADE_03|Grant Evade to adjacent teammate.
 TINKERBELL_SPECIALA_ABILPREVIEWUPGRADE_04|Grant an additional Evade to target and adjacent teammate.
-TINKERBELL_SPECIALA_DESC_01|Grant target teammate <color=#FEF8E4>{0:N0}</color> Shield. Chain to an adjacent teammate granting <color=#FEF8E4>{1:N0}</color> Shield.<br><br>If affected teammate is an Oceanic character, remove <color=#FEF8E4>{2:N0}</color> Harmful effect.
-TINKERBELL_SPECIALA_DESC_02|Grant target teammate <color=#FEF8E4>{0:N0}</color> Shield. Chain to an adjacent teammate granting <color=#FEF8E4>{1:N0}</color> Shield.<br><br>Grant <color=#FEF8E4>{3:N0}</color> Evade to target teammate.<br><br>If affected teammate is an Oceanic character, remove <color=#FEF8E4>{2:N0}</color> Harmful effect.
-TINKERBELL_SPECIALA_DESC_03|Grant target teammate <color=#FEF8E4>{0:N0}</color> Shield. Chain to an adjacent teammate granting <color=#FEF8E4>{1:N0}</color> Shield.<br><br>Grant <color=#FEF8E4>{3:N0}</color> Evade to target and adjacent teammate.<br><br>If affected teammate is an Oceanic character, remove <color=#FEF8E4>{2:N0}</color> Harmful effect.
+TINKERBELL_SPECIALA_DESC_01|Grant target teammate <color=#FEF8E4>{0:N0}</color> Shield. Grant an adjacent teammate <color=#FEF8E4>{1:N0}</color> Shield. On Offense in Club Conquest: Grant all teammates <color=#FEF8E4>{1:N0}</color> Shield.<br><br>On affected Oceanic teammates: Cleanse <color=#FEF8E4>{2:N0}</color> Harmful effect. If teammate is Peter Pan, Cleanse all Harmful effects.
+TINKERBELL_SPECIALA_DESC_02|Grant target teammate <color=#FEF8E4>{0:N0}</color> Shield. Grant an adjacent teammate <color=#FEF8E4>{1:N0}</color> Shield. Grant <color=#FEF8E4>{3:N0}</color> Evade to target teammate. On Offense in Club Conquest: Grant all teammates <color=#FEF8E4>{1:N0}</color> Shield.<br><br>On affected Oceanic teammates: Cleanse <color=#FEF8E4>{2:N0}</color> Harmful effect. If teammate is Peter Pan, Cleanse all Harmful effects.
+TINKERBELL_SPECIALA_DESC_03|Grant target teammate <color=#FEF8E4>{0:N0}</color> Shield. Grant an adjacent teammate <color=#FEF8E4>{1:N0}</color> Shield. Grant <color=#FEF8E4>{3:N0}</color> Evade to target and adjacent teammate. On Offense in Club Conquest: Grant all teammates <color=#FEF8E4>{1:N0}</color> Shield.<br><br>On affected Oceanic teammates: Cleanse <color=#FEF8E4>{2:N0}</color> Harmful effect. If teammate is Peter Pan, Cleanse all Harmful effects.
 TINKERBELL_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Heal Block on Chained opponents.
 TINKERBELL_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Heal Block on Chained opponents.
 TINKERBELL_SPECIALB_ABILPREVIEWUPGRADE_03|Guaranteed to inflict Heal Block on Chained opponents.
-TINKERBELL_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Heal Block on target opponent for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Chain to <color=#FEF8E4>{2:N0}</color>-<color=#FEF8E4>{3:N0}</color> adjacent opponents, dealing up to <color=#FFC400>{4:N0}</color> damage.
-TINKERBELL_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Heal Block on target opponent for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Chain to <color=#FEF8E4>{2:N0}</color>-<color=#FEF8E4>{3:N0}</color> adjacent opponents, dealing up to <color=#FFC400>{4:N0}</color> damage. <color=#FEF8E4>{5:P0}</color> chance to inflict Heal Block on Chained opponents for <color=#FEF8E4>{2:N0}</color> turns.
-TINKERBELL_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Heal Block on target opponent for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Chain to <color=#FEF8E4>{2:N0}</color>-<color=#FEF8E4>{3:N0}</color> adjacent opponents, dealing up to <color=#FFC400>{4:N0}</color> damage. <color=#FEF8E4>{5:P0}</color> chance to inflict Heal Block on Chained opponents for <color=#FEF8E4>{2:N0}</color> turns.
+TINKERBELL_SPECIALB_DESC_01|Deal up to <color=#FEF8E4>{0:N0}</color> damage to target opponent. Inflict Heal Block on target opponent for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Chain to <color=#FEF8E4>{2:N0}</color>-<color=#FEF8E4>{3:N0}</color> adjacent opponents, dealing up to <color=#FEF8E4>{4:N0}</color> damage.<br><br>On Offense in Club Conquest: Chain to <color=#FEF8E4>+{7:N0}</color> opponent. If Peter Pan is a teammate, Purge all Helpful effects on each opponent hit.
+TINKERBELL_SPECIALB_DESC_02|Deal up to <color=#FEF8E4>{0:N0}</color> damage to target opponent. Inflict Heal Block on target opponent for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Chain to <color=#FEF8E4>{2:N0}</color>-<color=#FEF8E4>{3:N0}</color> adjacent opponents, dealing up to <color=#FEF8E4>{4:N0}</color> damage. <color=#FEF8E4>{5:P0}</color> chance to inflict Heal Block on each opponent hit for <color=#FEF8E4>{1:N0}</color> turns.<br><br>On Offense in Club Conquest: Chain to <color=#FEF8E4>+{7:N0}</color> opponent. If Peter Pan is a teammate, Purge all Helpful effects on each opponent hit.
+TINKERBELL_SPECIALB_DESC_03|Deal up to <color=#FEF8E4>{0:N0}</color> damage to target opponent. Inflict Heal Block on target opponent for <color=#FEF8E4>{1:N0}</color> turns.<br><br>Chain to <color=#FEF8E4>{2:N0}</color>-<color=#FEF8E4>{3:N0}</color> adjacent opponents, dealing up to <color=#FEF8E4>{4:N0}</color> damage. Inflict Heal Block on each opponent hit for <color=#FEF8E4>{1:N0}</color> turns.<br><br>On Offense in Club Conquest: Chain to <color=#FEF8E4>+{7:N0}</color> opponent. If Peter Pan is a teammate, Purge all Helpful effects on each opponent hit.
 TINKERBELL_UNIT_NAME|TINKER BELL
 TITLE_SKIP_INTRO|SKIP
 TITLE_TAP_TO_CONTINUE|TAP TO UNLOCK THE MAGIC
@@ -16775,6 +16816,7 @@ UNIT_PROMO_MAT_OOGIEBOOGIE|OOGIE BOOGIE TOKENS
 UNIT_PROMO_MAT_PRINCE_ERIC|PRINCE ERIC TOKENS
 UNIT_PROMO_MAT_KING_TRITON|KING TRITON TOKENS
 UNIT_PROMO_MAT_PETE|PETE TOKENS
+UNIT_PROMO_MAT_PETERPAN|PETER PAN TOKENS
 UNIT_PROMO_MAT_POCAHONTAS|POCAHONTAS TOKENS
 UNIT_PROMO_MAT_QUASIMODO|QUASIMODO TOKENS
 UNIT_PROMO_MAT_CLAUDEFROLLO|CLAUDE FROLLO TOKENS
@@ -18673,6 +18715,11 @@ INBOX_CAMPAIGN_WRECKITRALPH_SUBJECT|New Side Adventure Campaign - Wreck-It Ralph
 INBOX_CAMPAIGN_WRECKITRALPH_BODY|Summoner,<BR><BR>The <color=#54C5FF>Wreck-It Ralph Campaign</color> has arrived in the Arena! Head to <color=#54C5FF>Adventures</color> to get started on this new <color=#54C5FF>Side Adventure Campaign</color>.<BR><BR>Win battles to collect <color=#54C5FF>Sergeant Calhoun</color>, <color=#54C5FF>King Candy</color>, and <color=#54C5FF>Shank</color> tokens. Keep an eye out for more characters in the future! Power up your team to prepare for the <color=#54C5FF>Wreck-It Ralph Event</color> coming soon!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_CAMPAIGN_WRECKITRALPH_02_SUBJECT|Wreck-It Ralph Campaign - New Characters Available!
 INBOX_CAMPAIGN_WRECKITRALPH_02_BODY|Summoner,<BR><BR><color=#54C5FF>Fix-It Felix</color> and <color=#54C5FF>Vanellope</color> are now available in the <color=#54C5FF>Wreck-It Ralph Side Adventure Campaign</color>! Head to <color=#54C5FF>Adventures</color> now to start earning tokens.<BR><BR>Power up your team to battle in the limited time <color=#54C5FF>Wreck-It Ralph Event</color>!<BR><BR>Thank you for your continued support, and see you in the Arena!
+ADVENTURES_SIDE_ONWARD_NAME|ONWARD
+ADVENTURES_SIDE_ONWARD_DESC|Welcome to the <color=#54C5FF>Onward Campaign</color>!<BR><BR>Battle your way through this <color=#54C5FF>Side Adventure Campaign</color> to earn <color=#54C5FF>Ian</color> and <color=#54C5FF>Barley</color> tokens. Power up your <color=#54C5FF>Onward</color> team to conquer <color=#54C5FF>Stage II</color> and earn <color=#54C5FF>Manticore</color> tokens and more!<BR><BR>Battle attempts can cost either <color=#54C5FF>Grand Energy</color> or <color=#54C5FF>Campaign Energy</color> in this Campaign. Completing a battle with your full team still intact will earn you three <color=#54C5FF>Side Adventure Stars</color> for that node.
+INBOX_EVENT_202107_ONWARDCAMPAIGN_SUBJECT|New Side Adventure Campaign - Onward
+INBOX_EVENT_202107_ONWARDCAMPAIGN_BODY|Summoner,<BR><BR>The <color=#54C5FF>Onward Campaign</color> has arrived in the Arena!<BR><BR>Head to <color=#54C5FF>Adventures</color> to get started on this new <color=#54C5FF>Side Adventure Campaign</color>.<BR><BR>Make your way through <color=#54C5FF>Stage I</color> to collect <color=#54C5FF>Ian</color> and <color=#54C5FF>Barley</color> tokens. Power up your <color=#54C5FF>Onward</color> team to conquer <color=#54C5FF>Stage II</color> and earn <color=#54C5FF>Manticore</color> tokens and more!<BR><BR>Thank you for your continued support, and see you in the Arena!
+ADVENTURES_SIDE_ONWARD_S02N01_DESC|Power up your Onward team to take on Manticore in this epic Boss Battle.
 EVENT_202105_WALLE_META_DESC|Power up Gizmoduck and your Tech Team and battle to earn EVE and WALL•E Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202105_WALLE_META_NAME|THE LAST ROBOT ON EARTH
 EVENT_202105_WALLE_PORTAL_DESC|EARN EVE AND WALL•E TOKENS!
@@ -18883,6 +18930,12 @@ EVENT_202106_CRUELLA_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>
 EVENT_202106_CRUELLA_B_L4_NAME|PRESTIGE: SEEING SPOTS V
 EVENT_202106_CRUELLA_B_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
 EVENT_202106_CRUELLA_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 8</color>
+OUTFIT_MERLIN_BERMUDA_UNIT_NAME|BERMUDA MERLIN
+OUTFIT_MERLIN_BERMUDA_NAME|BERMUDA MERLIN OUTFIT TOKENS
+OUTFIT_MERLIN_BERMUDA_DESC|Collect 100 to unlock the 'Bermuda Merlin' outfit for Merlin.
+LOGIN_D7_MERLIN_NAME|BERMUDA MERLIN
+LOGIN_D7_MERLIN_SUBTITLE|ENJOY THIS FREE BERMUDA MERLIN OUTFIT CALENDAR WITH MANY COMPLIMENTARY REWARDS. CLAIM NOW TO GUARANTEE 7 DAYS OF REWARDS.
+LOGIN_TAB_FREE_OUTFIT|FREE OUTFIT
 LOGIN_D7_CALHOUN_NAME|WEDDING DAY CALHOUN
 LOGIN_D7_CALHOUN_SUBTITLE|CELEBRATE THE HERO'S DUTY EVENT WITH A COMPLIMENTARY SERGEANT CALHOUN WEDDING DAY OUTFIT. MUST OWN SERGEANT CALHOUN TO EQUIP. CLAIM NOW TO GUARANTEE 7 DAYS OF REWARDS.
 LOGIN_D7_CALHOUN_TAB|FREE OUTFIT
@@ -19022,4 +19075,143 @@ STORE_ITEM_FTUE_D0_TP_NAME|SUPER STARTER LEVEL UP POTIONS BUNDLE
 STORE_ITEM_FTUE_D0_TP_SUBTITLE|PREPARE FOR THE FUTURE WITH ENOUGH <color=#54C5FF>LEVEL UP POTIONS</color> TO POWER UP YOUR CHARACTERS. LEVEL UP POTIONS ARE USED TO INCREASE THE LEVEL OF YOUR CHARACTERS.
 STORE_ITEM_FTUE_D0_T1_T3_GEAR_NAME|SUPER STARTER GEAR BUNDLE
 STORE_ITEM_FTUE_D0_T1_T3_GEAR_SUBTITLE|PREPARE YOUR TEAM FOR LONG TERM POWER AND SUCCESS WITH AN ALMOST ENDLESS SUPPLY OF GEAR! EQUIP GEAR TO YOUR CHARACTERS TO <color=#54C5FF>MAKE THEM STRONGER</color> IN BATTLE.
+UNIT_PROMO_MAT_SMEE|SMEE TOKENS
+SMEE_UNIT_NAME|SMEE
+SMEE_ABILBASIC_NAME|CLUMSY SERVICE
+SMEE_ABILSPECIALA_NAME|ROW FOR THE SHIP!
+SMEE_ABILSPECIALB_NAME|ALL HANDS ON DECK!
+SMEE_ABILPASSIVEA_NAME|A PIRATE'S LIFE IS A WONDERFUL LIFE
+SMEE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.
+SMEE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.
+SMEE_BASIC_ABILPREVIEWUPGRADE_01|Guaranteed to inflict Offense Down.
+SMEE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#FEF8E4><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn.<br><br>On Offense in Club Conquest, decrease Speed Meter of target by <color=#FEF8E4>{2:P0}</color>.<br><br>If <color=#FEF8E4>Captain Hook</color> is a teammate, grant him <color=#FEF8E4>{3:N0}</color> Magic for all abilities.
+SMEE_SPECIALB_DESC_01|Summon <color=#FEF8E4>{0:N0}</color> Jolly Roger Pirate. On Offense in Club Conquest, summon <color=#FEF8E4>{1:N0}</color> additional Jolly Roger Pirate. <color=#FEF8E4>{2:P0}</color> chance for summoned Jolly Roger Pirates to gain <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_UP>[DEFENSE UP]</link></color> for <color=#FEF8E4>{3:N0}</color> turns.<br><br>Call all Jolly Roger Pirates to attack random opponents.<br><br>Jolly Roger Pirates have <color=#FEF8E4>{4:N0}</color> Health, <color=#FEF8E4>{5:N0}</color> Defense, and have the following abilities:<br><br>Basic: Deal <color=#FFC400>{6:N0}</color> damage to target opponent.<br><br>Special A: Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{7:N0}</color> turn and <color=#FEF8E4><link=BATTLE_EFFECT_CRIT_CHANCE_UP>[CRIT CHANCE UP]</link></color> for <color=#FEF8E4>{8:N0}</color> turn.<br><br>Special B: Gain <color=#FEF8E4><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> for <color=#FEF8E4>{9:N0}</color> turn.
+SMEE_SPECIALB_DESC_02|Summon <color=#FEF8E4>{0:N0}</color> Jolly Roger Pirate. On Offense in Club Conquest, summon <color=#FEF8E4>{1:N0}</color> additional Jolly Roger Pirates. <color=#FEF8E4>{2:P0}</color> chance for summoned Jolly Roger Pirates to gain <color=#FEF8E4><link=BATTLE_EFFECT_DEFENSE_UP>[DEFENSE UP]</link></color> for <color=#FEF8E4>{3:N0}</color> turns.<br><br>Call all Jolly Roger Pirates to attack random opponents.<br><br>Jolly Roger Pirates have <color=#FEF8E4>{4:N0}</color> Health, <color=#FEF8E4>{5:N0}</color> Defense, and have the following abilities:<br><br>Basic: Deal <color=#FFC400>{6:N0}</color> damage to target opponent.<br><br>Special A: Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{7:N0}</color> turn and <color=#FEF8E4><link=BATTLE_EFFECT_CRIT_CHANCE_UP>[CRIT CHANCE UP]</link></color> for <color=#FEF8E4>{8:N0}</color> turn.<br><br>Special B: Gain <color=#FEF8E4><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> for <color=#FEF8E4>{9:N0}</color> turn.
+SMEE_SPECIALB_ABILPREVIEWUPGRADE_01|On Offense in Club Conquest, summon +<color=#FEF8E4>{0:N0}</color> Jolly Roger Pirate.
+SMEE_SPECIALB_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> chance to grant summoned Jolly Roger Pirates Defense Up.
+SMEE_PASSIVEA_DESC_01|On summoned or cloned teammate being defeated, <color=#FEF8E4>{0:P0}</color> chance to restore <color=#5DFF89>{1:N0}</color> Health to the most injured teammate, preferring non-summon and non-clone teammates.
+SMEE_PASSIVEA_DESC_02|On summoned or cloned teammate being defeated, restore <color=#5DFF89>{1:N0}</color> health to the most injured teammate, preferring non-summon and non-clone teammates.
+SMEE_PASSIVEA_ABILPREVIEWUPGRADE_01|Guaranteed to restore Health.
+JOLLYROGERCREW_ABILBASIC_NAME|Sword Strike
+JOLLYROGERCREW_ABILBASIC_DESC|Deal damage to a target opponent.
+JOLLYROGERCREW_ABILSPECIALA_NAME|Buff Display
+JOLLYROGERCREW_ABILSPECIALA_DESC|Grant the following to a target teammate: Offense Up for <color=#FEF8E4>1</color> turn. Crit Chance Up for <color=#FEF8E4>1</color> turn.
+JOLLYROGERCREW_ABILSPECIALB_NAME|Jaunty Taunt
+JOLLYROGERCREW_ABILSPECIALB_DESC|Gain Taunt for <color=#FEF8E4>1</color> turn.
+UNIT_PROMO_MAT_WENDYDARLING|WENDY TOKENS
+WENDYDARLING_UNIT_NAME|WENDY
+WENDYDARLING_ABILBASIC_NAME|DON'T YOU DARE!
+WENDYDARLING_ABILSPECIALA_NAME|I SAVED YOUR SHADOW FOR YOU
+WENDYDARLING_ABILSPECIALB_NAME|WHY, YOU'RE VERY WELCOME
+WENDYDARLING_ABILPASSIVEA_NAME|HOW COULD YOU!
+WENDYDARLING_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Call <color=#FEF8E4>{1:N0}</color> random Shadow to assist. <color=#FEF8E4>{2:P0}</color> chance per <color=#FEF8E4>'Peter Pan'</color> teammate to call <color=#FEF8E4>{3:N0}</color> additional Shadow to assist.
+WENDYDARLING_BASIC_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> chance per 'Peter Pan' teammate to call a random Shadow to assist.
+WENDYDARLING_SPECIALA_DESC_01|Summon a Shadow of target teammate at a random location.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's Health, Defense, and Offense. Can only perform the teammate's Basic Ability.
+WENDYDARLING_SPECIALA_DESC_02|Summon a Shadow of target teammate at a random location. <color=#FEF8E4>{1:P0}</color> chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{2:N0}</color> turns to the Shadow.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's Health, Defense, and Offense. Can only perform the teammate's Basic Ability.
+WENDYDARLING_SPECIALA_DESC_03|Summon a Shadow of target teammate at a random location. Grant <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{2:N0}</color> turns to the Shadow.<br><br>Shadow: Has <color=#FEF8E4>{0:P0}</color> of target teammate's Health, Defense, and Offense. Can only perform the teammate's Basic Ability.
+WENDYDARLING_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to grant Haste for <color=#FEF8E4>{1:N0}</color> turns to the Shadow when summoned.
+WENDYDARLING_SPECIALA_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> to Shadow's statistics.
+WENDYDARLING_SPECIALA_ABILPREVIEWUPGRADE_03|Guaranteed to grant Haste to the Shadow when Summoned.
+WENDYDARLING_SPECIALB_DESC_01|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{0:N0}</color> turn. If target is <color=#FEF8E4>'Oceanic'</color>, grant them <color=#FEF8E4>{1:P0}</color> Speed Meter.<br><br>Target uses their basic on a random opponent. If the target has any Shadows, the Shadows assist.
+WENDYDARLING_SPECIALB_DESC_02|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{0:N0}</color> turn. If target is <color=#FEF8E4>'Oceanic'</color>, grant them <color=#FEF8E4>{1:P0}</color> Speed Meter. If the target has any Shadows, <color=#FEF8E4>{2:P0}</color> chance for them to gain the same effects.<br><br>Target uses their basic on a random opponent. If the target has any Shadows, the Shadows assist.
+WENDYDARLING_SPECIALB_DESC_03|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{0:N0}</color> turn. If target is <color=#FEF8E4>'Oceanic'</color>, grant them <color=#FEF8E4>{1:P0}</color> Speed Meter. If the target has any Shadows, <color=#FEF8E4>{2:P0}</color> chance for them to gain the same effects.<br><br>On Offense in Club Conquest, grant <color=#FEF8E4>{3:N0}</color> Magic for all abilities.<br><br>Target uses their basic on a random opponent. If the target has any Shadows, the Shadows assist.
+WENDYDARLING_SPECIALB_DESC_04|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{0:N0}</color> turn. If target is <color=#FEF8E4>'Oceanic'</color>, grant them <color=#FEF8E4>{1:P0}</color> Speed Meter. If the target has any Shadows, they gain the same effects.<br><br>On Offense in Club Conquest, grant <color=#FEF8E4>{3:N0}</color> Magic for all abilities. <br><br>Target uses their basic on a random opponent. If the target has any Shadows, the Shadows assist.
+WENDYDARLING_SPECIALB_ABILPREVIEWUPGRADE_01|If the target has any Shadows, <color=#FEF8E4>{0:P0}</color> chance for the Shadow to gain the same effects.
+WENDYDARLING_SPECIALB_ABILPREVIEWUPGRADE_02|On Offense in Club Conquest, grant <color=#FEF8E4>{0:N0}</color> Magic for all abilities.
+WENDYDARLING_SPECIALB_ABILPREVIEWUPGRADE_03|Target's Shadows are guaranteed to gain the same effects.
+WENDYDARLING_PASSIVEA_DESC_01|When Wendy or a teammate receive <color=#FEF8E4><link=BATTLE_EFFECT_CHARM>[CHARM]</link></color>, <color=#FEF8E4>{0:P0}</color> chance to Cleanse it.<br><br>On Offense in Club Conquest, transfer it to a random opponent instead.
+WENDYDARLING_PASSIVEA_DESC_02|When Wendy or a teammate receive <color=#FEF8E4><link=BATTLE_EFFECT_CHARM>[CHARM]</link></color>, Cleanse it.<br><br>On Offense in Club Conquest, transfer it to a random opponent instead.
+WENDYDARLING_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> chance to Cleanse or transfer Charm.
+TROPHY_PETER_PAN_NAME|NEVERLAND TROPHY
+TROPHY_PETER_PAN_DESC|Awarded for completing the Neverland Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+EMOTE_WENDY_NAME|WENDY EMOTE
+EMOTE_WENDY_DESC|Peter Pan will save us!
+EMOTE_PETER_PAN_NAME|PETER PAN EMOTE
+EMOTE_PETER_PAN_DESC|Watch this!
+EMOTE_TINKERBELL_NAME|TINKER BELL EMOTE
+EMOTE_TINKERBELL_DESC|It's taken care of.
+STORE_ITEM_PP_PETER_PAN_GEMS_NAME|PETER PAN PACK
+STORE_ITEM_PP_WENDY_GEMS_NAME|WENDY PACK
+STORE_ITEM_PP_SMEE_GEMS_NAME|SMEE PACK
+STORE_ITEM_PP_SHADOW_GEMS_NAME|PETER'S SHADOW PACK
+STORE_ITEM_PP_TINKERBELL_GEMS_NAME|TINKER BELL PACK
+STORE_ITEM_PP_HOOK_GEMS_NAME|CAPTAIN HOOK PACK
+EVENT_STICKER_PETER_PAN|NEVERLAND
+STORE_ITEM_PP_PETER_PAN_NAME|PETER PAN BUNDLE
+STORE_ITEM_PP_PETER_PAN_DESC|PETER PAN IS A <COLOR=#54C5FF>CLUB CONQUEST OFFENSE SPECIALIST</COLOR>. CHARM AND STUN OPPONENTS. LEADER ABILITY GRANTS BONUS SPEED, POTENCY, AND TENACITY TO TEAMMATES WHEN ON OFFENSE IN CLUB CONQUEST.
+STORE_ITEM_PP_WENDY_NAME|WENDY BUNDLE
+STORE_ITEM_PP_WENDY_DESC|SUMMON SHADOWS OF TEAMMATES. CALL SHADOWS TO ASSIST. GRANT TEAMMATES OFFENSE UP WITH A SPEED METER INCREASE FOR OCEANIC TEAMMATES. SEND CHARM BACK TO OPPONENTS IN CLUB CONQUEST.
+STORE_ITEM_PP_SMEE_NAME|SMEE BUNDLE
+STORE_ITEM_PP_SMEE_DESC|SUMMON JOLLY ROGER CREW. ON OFFENSE IN CLUB CONQUEST DECREASE OPPONENT SPEED METER. INFLICT STUN AND OFFENSE DOWN. GRANT CAPTAIN HOOK MAGIC.
+STORE_ITEM_PP_TEAM_NAME|PETER PAN TEAM BUNDLE
+STORE_ITEM_PP_TEAM_DESC|COLLECT TOKENS FOR ALL CHARACTERS REQUIRED IN THE NEVERLAND EVENT. INCLUDES BONUS PETER'S SHADOW SPELL TOKENS, ABILITY RUNES, AND MORE ITEMS.
+STORE_ITEM_PP_SHADOW_NAME|PETER'S SHADOW BUNDLE
+STORE_ITEM_PP_SHADOW_DESC|<COLOR=#54C5FF>SPELL REFRESH!</COLOR> CREATE A SHADOW COPY OF A TEAMMATE. SHADOWS CAN ONLY USE BASIC ATTACKS. GAIN BONUS EFFECTS WHEN USING ON A 'PETER PAN' TEAMMATE.
+STORE_ITEM_PP_TINKERBELL_NAME|TINKER BELL BUNDLE
+STORE_ITEM_PP_TINKERBELL_DESC|<COLOR=#54C5FF>CHARACTER REFRESH!</COLOR> ON OFFENSE IN CLUB CONQUEST TINKER BELL NOW GRANTS TEAMMATES SHIELD, CLEANSES PETER PAN'S HARMFUL EFFECTS, AND CAN PURGE HELPFUL EFFECTS.
+STORE_ITEM_PP_HOOK_NAME|CAPTAIN HOOK BUNDLE
+STORE_ITEM_PP_HOOK_DESC|<COLOR=#54C5FF>CHARACTER REFRESH!</COLOR> ON OFFENSE IN CLUB CONQUEST CAPTAIN HOOK CAN NOW INFLICT INTIMIDATE, GUARANTEE 'PETER PAN' TEAMMATES TO ASSIST, AND GRANT HASTE ON COMBAT START.
+EVENT_202107_PETER_PAN_INBOX_EVENT_START_BODY|Summoner,<br><br>The <color=#54C5FF>Neverland</color> Event has begun! Battle with Captain Hook, Tinker Bell, Smee, Wendy, and Peter's Shadow to earn exclusive <color=#54C5FF>Peter Pan</color> tokens!<br><br>Good luck, and see you in the Arena!
+EVENT_202107_PETER_PAN_INBOX_EVENT_START_SUBJECT|The Neverland Event has begun!
+EVENT_202107_PETER_PAN_INBOX_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>Neverland</color> Event is ending soon!<br><br>Battle with Captain Hook, Tinker Bell, Smee, Wendy, and PETER'S SHADOW to earn exclusive <color=#54C5FF>Peter Pan</color> tokens!<br><br>Good luck, and see you in the Arena!
+EVENT_202107_PETER_PAN_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Neverland Event!
+EVENT_202107_PETER_PAN_INBOX_PREVIEW_SUBJECT|The Neverland Event is coming soon!
+EVENT_202107_PETER_PAN_INBOX_PREVIEW_BODY|Summoner,<br><br>The <color=#54C5FF>Neverland</color> Event is coming soon! Battle with Captain Hook, Tinker Bell, Smee, Wendy, and Peter's Shadow to earn exclusive <color=#54C5FF>Peter Pan</color> tokens!<br><br>Good luck, and see you in the Arena!
+EVENT_202107_PETER_PAN_META_DESC|Battle with Captain Hook, Tinker Bell, Smee, Wendy, and Peter's Shadow to earn Peter Pan Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202107_PETER_PAN_META_NAME|NEVERLAND
+EVENT_202107_PETER_PAN_PORTAL_DESC|Earn Peter Pan Tokens!<br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202107_PETER_PAN_PORTAL_NAME|NEVERLAND
+EVENT_202107_PETER_PAN_A_NAME|SMEE
+EVENT_202107_PETER_PAN_A_AURA_NAME|NEVERLAND: SMEE
+EVENT_202107_PETER_PAN_A_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Pirates!<br>• Pirates give Offense Up, Crit Chance Up and Speed Meter to each other.<br>• Pirates gain Taunt, Counterattack, and Defense Up.
+EVENT_202107_PETER_PAN_A_L0_NAME|SMEE I
+EVENT_202107_PETER_PAN_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 2</color>
+EVENT_202107_PETER_PAN_A_L1_NAME|SMEE II
+EVENT_202107_PETER_PAN_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202107_PETER_PAN_A_L2_NAME|SMEE III
+EVENT_202107_PETER_PAN_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202107_PETER_PAN_A_L3_NAME|SMEE IV
+EVENT_202107_PETER_PAN_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 4</color>
+EVENT_202107_PETER_PAN_A_L4_NAME|SMEE V
+EVENT_202107_PETER_PAN_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202107_PETER_PAN_A_L5_NAME|SMEE VI
+EVENT_202107_PETER_PAN_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202107_PETER_PAN_A_L6_NAME|SMEE VII
+EVENT_202107_PETER_PAN_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202107_PETER_PAN_A_L7_NAME|SMEE VIII
+EVENT_202107_PETER_PAN_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 7</color>
+EVENT_202107_PETER_PAN_B_NAME|WENDY
+EVENT_202107_PETER_PAN_B_AURA_NAME|NEVERLAND: WENDY
+EVENT_202107_PETER_PAN_B_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Pirates!<br>• Smee is immune to Stun, Silence, Sleep, Slow, Charm, Polymorph, and Stasis. <br>• Smee gains Haste and Tactics on his turn. <br>• Pirates give Offense Up, Crit Chance Up and Speed Meter to each other.<br>• Pirates gain Taunt, Counterattack, and Defense Up.
+EVENT_202107_PETER_PAN_B_L0_NAME|WENDY I
+EVENT_202107_PETER_PAN_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202107_PETER_PAN_B_L1_NAME|WENDY II
+EVENT_202107_PETER_PAN_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202107_PETER_PAN_B_L2_NAME|WENDY III
+EVENT_202107_PETER_PAN_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 4</color>
+EVENT_202107_PETER_PAN_B_L3_NAME|WENDY IV
+EVENT_202107_PETER_PAN_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202107_PETER_PAN_B_L4_NAME|WENDY V
+EVENT_202107_PETER_PAN_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202107_PETER_PAN_B_L5_NAME|WENDY VI
+EVENT_202107_PETER_PAN_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202107_PETER_PAN_B_L6_NAME|WENDY VII
+EVENT_202107_PETER_PAN_B_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 7</color>
+EVENT_202107_PETER_PAN_C_NAME|PETER PAN
+EVENT_202107_PETER_PAN_C_AURA_NAME|NEVERLAND: PETER PAN
+EVENT_202107_PETER_PAN_C_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Pirates!<br>• Captain Hook and Smee are immune to Stun, Silence, Sleep, Slow, Charm, Polymorph, and Stasis. <br>• Captain Hook calls all his allies to assist with his 'Forty-Two Degrees' ability and gains an extra turn. <br>• Captain Hook gains Offense Up and Tactics on his turn. <br>• Smee gains Haste and Tactics on his turn.<br>• Pirates give Offense Up, Crit Chance Up and Speed Meter to each other.<br>• Pirates gain Taunt, Counterattack, and Defense Up.
+EVENT_202107_PETER_PAN_C_L0_NAME|PETER PAN I
+EVENT_202107_PETER_PAN_C_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202107_PETER_PAN_C_L1_NAME|PETER PAN II
+EVENT_202107_PETER_PAN_C_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 4</color>
+EVENT_202107_PETER_PAN_C_L2_NAME|PETER PAN III
+EVENT_202107_PETER_PAN_C_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202107_PETER_PAN_C_L3_NAME|PETER PAN IV
+EVENT_202107_PETER_PAN_C_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202107_PETER_PAN_C_L4_NAME|PETER PAN V
+EVENT_202107_PETER_PAN_C_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202107_PETER_PAN_C_L5_NAME|PETER PAN VI
+EVENT_202107_PETER_PAN_C_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 7</color>
+EVENT_202107_PETER_PAN_C_L6_NAME|PETER PAN VII
+EVENT_202107_PETER_PAN_C_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 8</color>
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
