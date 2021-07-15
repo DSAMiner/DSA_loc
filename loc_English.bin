@@ -11597,6 +11597,10 @@ PIN_COPPER_NAME|COPPER TALISMAN
 PIN_COPPER_DESC|I'm a hound dog!
 PIN_VIXEY_NAME|VIXEY TALISMAN
 PIN_VIXEY_DESC|Let me show you around.
+PIN_MATTERHORN_YETI_NAME|MATTERHORN YETI TALISMAN
+PIN_MATTERHORN_YETI_DESC|Prepare for an icy reception!
+PIN_SMALLWORLD_NAME|IT'S A SMALL WORLD TALISMAN
+PIN_SMALLWORLD_DESC|It's a small world (after all).
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -17072,8 +17076,8 @@ WALLE_BASIC_ABILPREVIEWUPGRADE_01|If EVE is a teammate: When EVE uses her basic 
 WALLE_BASIC_ABILPREVIEWUPGRADE_02|+<color=#FEF8E4>{0:P0}</color> chance to assist when EVE uses her basic attack.
 WALLE_BASIC_ABILPREVIEWUPGRADE_03|Always assist when EVE uses her basic attack.
 WALLE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> Helpful effect.
-WALLE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> Helpful effect.<br><br>If <color=#FEF8E4>EVE</color> is a teammate: When <color=#FEF8E4>EVE</color> uses her basic attack, <color=#FEF8E4>{2:P0}</color> chance to assist.
-WALLE_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> Helpful effect.<br><br>If <color=#FEF8E4>EVE</color> is a teammate: When <color=#FEF8E4>EVE</color> uses her basic attack, <color=#FEF8E4>WALL•E</color> is called to assist.
+WALLE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> Helpful effect.<br><br>If <color=#FEF8E4>EVE</color> is a teammate: When <color=#FEF8E4>EVE</color> uses her basic attack on her turn, <color=#FEF8E4>{2:P0}</color> chance to assist.
+WALLE_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Purge <color=#FEF8E4>{1:N0}</color> Helpful effect.<br><br>If <color=#FEF8E4>EVE</color> is a teammate: When <color=#FEF8E4>EVE</color> uses her basic attack on her turn, <color=#FEF8E4>WALL•E</color> is called to assist.
 WALLE_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> Speed per Charge on WALL•E.
 WALLE_PASSIVEA_DESC_01|<color=#FEF8E4>WALL•E</color> can't have more than <color=#FEF8E4>{0:N0}</color> Charges. When he is targeted by <color=#FEF8E4>EVE's</color> <color=#FEF8E4>'Directive'</color> ability, <color=#FEF8E4>WALL•E</color> gains <color=#FEF8E4>{1:N0}</color> Charges.<br><br><color=#FEF8E4>WALL•E</color> has +<color=#FEF8E4>{2:P0}</color> Speed per Charge on him. At the start of each of his turns <color=#FEF8E4>WALL-E</color> loses <color=#FEF8E4>{3:N0}</color> Charge.
 WALLE_PASSIVEB_DESC_01|<color=#FEF8E4>WALL•E</color> gains Empowered the first time he falls below <color=#FEF8E4>{0:P0}</color> max Health, the first time he falls below <color=#FEF8E4>{1:P0}</color> max Health, or when he loses <color=#FEF8E4>{2:P0}</color> of his max Health in one attack.<br><br>Empowered: +<color=#FEF8E4>{3:P0}</color> Defense. Immune to Critical Strikes. Expires on turn start.<br><br>When <color=#FEF8E4>WALL•E</color> loses Empowered, he recovers <color=#FEF8E4>{4:P0}</color> max Health.
@@ -18284,6 +18288,8 @@ PASSHOLDER_202106_2_SEASON_NAME|PASSHOLDER SEASON 29
 PASSHOLDER_202106_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 29 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * VANELLOPE TOKENS<BR>  * FIX-IT FELIX TOKENS<br>  * KING CANDY TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202107_1_SEASON_NAME|PASSHOLDER SEASON 30
 PASSHOLDER_202107_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 30 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * CHIP TOKENS<BR>  * DALE TOKENS<br>  * GADGET TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202107_2_SEASON_NAME|PASSHOLDER SEASON 31
+PASSHOLDER_202107_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 31 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * SMEE TOKENS<BR>  * WENDY TOKENS<br>  * PETER PAN TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PVP_MEGARA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MEGARA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MEGARA</color> and <color=#54C5FF>MORTAL POTION</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MEGARA_INBOX_SUBJECT|Megara Enters the PvP Arena!
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
