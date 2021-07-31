@@ -2096,7 +2096,7 @@ CM_TUTORIAL_SYNDROMECHECK_STEP02_BODY|Let's battle to get enough <color=#FF7810>
 CM_TUTORIAL_TOWER_PT1_STEP00_BODY|You have unlocked the <color=#54C5FF>TOWERS OF ENDURANCE</color>
 CM_TUTORIAL_TOWER_PT1_STEP01_BODY|Enter the first Tower of Endurance.
 CM_TUTORIAL_TOWER_PT1_STEP02_BODY|The Tower can be played once every <color=#54C5FF>24 hours</color> and can be <color=#FF7810>Restarted</color> to start from the beginning.
-CM_TUTORIAL_TOWER_PT1_STEP03_BODY|The <color=#6E44EE>PURPLE BAR</color> is your Character's Health.<br><br>Health is Persistent in the Towers of Endurance.<br><br><size=70%><color=#FFFFFF>TAP ANYWHERE TO CONTINUE
+CM_TUTORIAL_TOWER_PT1_STEP03_BODY|The <color=#11F73E>GREEN BAR</color> is your Character's Health.<br><br>Health is Persistent in the Towers of Endurance.<br><br><size=70%><color=#FFFFFF>TAP ANYWHERE TO CONTINUE
 CM_TUTORIAL_TOWER_PT1_STEP04_BODY|Characters who are <color=#F65215>DEFEATED</color> in battle <color=#54C5FF>CANNOT</color> be used in the next battle so be sure to prepare many Characters for the climb! Good luck!
 CM_TUTORIAL_TOWER_PT2_STEP00_BODY|If you can't make it to the top, you can <color=#54C5FF>RESTART</color> the Tower to begin your climb again and collect more rewards!<br><br><size=70%><color=#FFFFFF>TAP ANYWHERE TO CONTINUE
 CM_TUTORIAL_TOWER_PT2_STEP01_BODY|Use the Tower Currency you earn from battles to purchase exclusive <color=#54C5FF>SPELLS</color> in the Exchange!<br><br><size=70%><color=#FFFFFF>TAP ANYWHERE TO CONTINUE
@@ -4892,6 +4892,8 @@ INBOX_EVENT_202107_DISNEYLAND_SUBJECT|Disneyland Anniversary - Free Gift!
 INBOX_EVENT_202107_DISNEYLAND_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Disneyland's Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202107_ALICEINWONDERLAND_SUBJECT|Alice in Wonderland 70th Anniversary - Free Gift!
 INBOX_EVENT_202107_ALICEINWONDERLAND_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Alice in Wonderland 70th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202107_JUNGLECRUISE_SUBJECT|Jungle Cruise Release - Free Gift!
+INBOX_EVENT_202107_JUNGLECRUISE_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Jungle Cruise Release</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -4987,10 +4989,10 @@ EVENT_ALADDIN_LEGENDARY_A_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat th
 EVENT_ALADDIN_LEGENDARY_A_AURA_NAME|THE CAVE OF WONDERS: TREASURE ROOM
 EVENT_ALADDIN_LEGENDARY_A_DESC|<size=85%>DATES AVAILABLE (PDT) January 17 - February 2</size>
 EVENT_ALADDIN_LEGENDARY_A_NAME|THE CAVE OF WONDERS:<br>TREASURE ROOM
-EVENT_ALADDIN_LEGENDARY_A_RECOMMENDED_TIER_0|<size=90%>RECOMMENDED<br>• Level 15+<br>• Enchantment <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
-EVENT_ALADDIN_LEGENDARY_A_RECOMMENDED_TIER_1|<size=90%>RECOMMENDED<br>• Level 20+<br>• Enchantment <color=#8ab65d>Tier 2</color><br>• 3 Stars</size>
-EVENT_ALADDIN_LEGENDARY_A_RECOMMENDED_TIER_2|<size=90%>RECOMMENDED<br>• Level 25+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
-EVENT_ALADDIN_LEGENDARY_A_RECOMMENDED_TIER_3|<size=90%>RECOMMENDED<br>• Level 30+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 4 Stars</size>
+EVENT_ALADDIN_LEGENDARY_A_RECOMMENDED_TIER_0|<size=90%>RECOMMENDED<br>• Level 15+<br>• Gear <color=#8ab65d>Tier 2</color>
+EVENT_ALADDIN_LEGENDARY_A_RECOMMENDED_TIER_1|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color>
+EVENT_ALADDIN_LEGENDARY_A_RECOMMENDED_TIER_2|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_ALADDIN_LEGENDARY_A_RECOMMENDED_TIER_3|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#8ab65d>Tier 3</color>
 EVENT_ALADDIN_LEGENDARY_A_TIER_0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Cave Statue before the timer expires.<br>
 EVENT_ALADDIN_LEGENDARY_A_TIER_0_NAME|TREASURE ROOM I
 EVENT_ALADDIN_LEGENDARY_A_TIER_1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Cave Statue before the timer expires.<br>
@@ -5005,11 +5007,11 @@ EVENT_ALADDIN_LEGENDARY_B_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat al
 EVENT_ALADDIN_LEGENDARY_B_AURA_NAME|THE CAVE OF WONDERS: THE GUARDIAN LAIR
 EVENT_ALADDIN_LEGENDARY_B_DESC|<size=85%>DATES AVAILABLE (PDT) January 17 - February 2</size>
 EVENT_ALADDIN_LEGENDARY_B_NAME|THE CAVE OF WONDERS:<br>THE GUARDIAN LAIR
-EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_0|<size=90%>RECOMMENDED<br>• Level 17+<br>• Enchantment <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
-EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_1|<size=90%>RECOMMENDED<br>• Level 22+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
-EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_2|<size=90%>RECOMMENDED<br>• Level 27+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
-EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_3|<size=90%>RECOMMENDED<br>• Level 32+<br>• Enchantment <color=#4a90e2>Tier 4</color><br>• 4 Stars</size>
-EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_4|<size=90%>RECOMMENDED<br>• Level 37+<br>• Enchantment <color=#4a90e2>Tier 5</color><br>• 5 Stars</size>
+EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_0|<size=90%>RECOMMENDED<br>• Level 17+<br>• Gear <color=#8ab65d>Tier 2</color>
+EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_1|<size=90%>RECOMMENDED<br>• Level 22+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_2|<size=90%>RECOMMENDED<br>• Level 27+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_3|<size=90%>RECOMMENDED<br>• Level 32+<br>• Gear <color=#4a90e2>Tier 4</color>
+EVENT_ALADDIN_LEGENDARY_B_RECOMMENDED_TIER_4|<size=90%>RECOMMENDED<br>• Level 37+<br>• Gear <color=#4a90e2>Tier 5</color>
 EVENT_ALADDIN_LEGENDARY_B_TIER_0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat all enemies.<br>
 EVENT_ALADDIN_LEGENDARY_B_TIER_0_NAME|THE GUARDIAN LAIR I
 EVENT_ALADDIN_LEGENDARY_B_TIER_1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat all enemies.<br>
@@ -5024,15 +5026,15 @@ EVENT_ALADDIN_LEGENDARY_C_AURA_DESC|<color=#8D5FB6>INFO</color><br>• Defeat em
 EVENT_ALADDIN_LEGENDARY_C_AURA_NAME|THE CAVE OF WONDERS: LAMP CHAMBER
 EVENT_ALADDIN_LEGENDARY_C_DESC|<size=85%>DATES AVAILABLE (PDT) January 24 - February 2</size>
 EVENT_ALADDIN_LEGENDARY_C_NAME|THE CAVE OF WONDERS:<br>LAMP CHAMBER
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_0|<size=90%>RECOMMENDED<br>• Level 17+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 2 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_1|<size=90%>RECOMMENDED<br>• Level 25+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 3 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_2|<size=90%>RECOMMENDED<br>• Level 32+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 4 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_3|<size=90%>RECOMMENDED<br>• Level 37+<br>• Enchantment <color=#4a90e2>Tier 4</color><br>• 5 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_4|<size=90%>RECOMMENDED<br>• Level 42+<br>• Enchantment <color=#4a90e2>Tier 4</color><br>• 6 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_5|<size=90%>RECOMMENDED<br>• Level 47+<br>• Enchantment <color=#4a90e2>Tier 5</color><br>• 7 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_6|<size=90%>RECOMMENDED<br>• Level 60<br>• Enchantment <color=#4a90e2>Tier 6</color><br>• 7 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_7|<size=90%>RECOMMENDED<br>• Level 60<br>• Enchantment <color=#B94EFF>Tier 7</color><br>• 7 Stars</size>
-EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_8|<size=90%>RECOMMENDED<br>• Level 70<br>• Enchantment <color=#B94EFF>Tier 7</color><br>• 7 Stars</size>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_0|<size=90%>RECOMMENDED<br>• Level 17+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_1|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_2|<size=90%>RECOMMENDED<br>• Level 32+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_3|<size=90%>RECOMMENDED<br>• Level 37+<br>• Gear <color=#4a90e2>Tier 4</color>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_4|<size=90%>RECOMMENDED<br>• Level 42+<br>• Gear <color=#4a90e2>Tier 4</color>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_5|<size=90%>RECOMMENDED<br>• Level 47+<br>• Gear <color=#4a90e2>Tier 5</color>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_6|<size=90%>RECOMMENDED<br>• Level 60<br>• Gear <color=#4a90e2>Tier 6</color>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_7|<size=90%>RECOMMENDED<br>• Level 60<br>• Gear <color=#B94EFF>Tier 7</color>
+EVENT_ALADDIN_LEGENDARY_C_RECOMMENDED_TIER_8|<size=90%>RECOMMENDED<br>• Level 70<br>• Enchantment <color=#B94EFF>Tier 7</color>
 EVENT_ALADDIN_LEGENDARY_C_TIER_0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat empowered Jafar.<br>
 EVENT_ALADDIN_LEGENDARY_C_TIER_0_NAME|LAMP CHAMBER I
 EVENT_ALADDIN_LEGENDARY_C_TIER_1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat empowered Jafar.<br>
@@ -5152,25 +5154,25 @@ EVENT_ONBOARDING_ALADDIN_PORTAL_DESC|EARN ALADDIN TOKENS
 EVENT_ONBOARDING_ALADDIN_PORTAL_NAME|THE DIAMOND IN THE ROUGH
 EVENT_ONBOARDING_ALADDIN_TIER_0_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>
 EVENT_ONBOARDING_ALADDIN_TIER_0_NAME|THE DIAMOND IN THE ROUGH I
-EVENT_ONBOARDING_ALADDIN_TIER_0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 4+<br>• Enchantment <color=#a99cb0>Tier 1</color><br>• 1 Star</size>
+EVENT_ONBOARDING_ALADDIN_TIER_0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 4+<br>• Gear <color=#a99cb0>Tier 1</color>
 EVENT_ONBOARDING_ALADDIN_TIER_1_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>
 EVENT_ONBOARDING_ALADDIN_TIER_1_NAME|THE DIAMOND IN THE ROUGH II
-EVENT_ONBOARDING_ALADDIN_TIER_1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 4+<br>• Enchantment <color=#a99cb0>Tier 1</color><br>• 1 Star</size>
+EVENT_ONBOARDING_ALADDIN_TIER_1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 4+<br>• Gear <color=#a99cb0>Tier 1</color>
 EVENT_ONBOARDING_ALADDIN_TIER_2_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>
 EVENT_ONBOARDING_ALADDIN_TIER_2_NAME|THE DIAMOND IN THE ROUGH III
-EVENT_ONBOARDING_ALADDIN_TIER_2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 10+<br>• Enchantment <color=#a99cb0>Tier 1</color><br>• 1 Star</size>
+EVENT_ONBOARDING_ALADDIN_TIER_2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 10+<br>• Gear <color=#a99cb0>Tier 1</color>
 EVENT_ONBOARDING_ALADDIN_TIER_3_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>
 EVENT_ONBOARDING_ALADDIN_TIER_3_NAME|THE DIAMOND IN THE ROUGH IV
-EVENT_ONBOARDING_ALADDIN_TIER_3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Enchantment <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
+EVENT_ONBOARDING_ALADDIN_TIER_3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color>
 EVENT_ONBOARDING_ALADDIN_TIER_4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>
 EVENT_ONBOARDING_ALADDIN_TIER_4_NAME|THE DIAMOND IN THE ROUGH V
-EVENT_ONBOARDING_ALADDIN_TIER_4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Enchantment <color=#8ab65d>Tier 2</color><br>• 2 Stars</size>
+EVENT_ONBOARDING_ALADDIN_TIER_4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 2</color>
 EVENT_ONBOARDING_ALADDIN_TIER_5_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>
 EVENT_ONBOARDING_ALADDIN_TIER_5_NAME|THE DIAMOND IN THE ROUGH VI
-EVENT_ONBOARDING_ALADDIN_TIER_5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Enchantment <color=#8ab65d>Tier 3</color><br>• 2 Stars</size>
+EVENT_ONBOARDING_ALADDIN_TIER_5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 20+<br>• Gear <color=#8ab65d>Tier 3</color>
 EVENT_ONBOARDING_ALADDIN_TIER_6_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>
 EVENT_ONBOARDING_ALADDIN_TIER_6_NAME|THE DIAMOND IN THE ROUGH VII
-EVENT_ONBOARDING_ALADDIN_TIER_6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Enchantment <color=#4a90e2>Tier 4</color><br>• 3 Stars</size>
+EVENT_ONBOARDING_ALADDIN_TIER_6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 30+<br>• Gear <color=#4a90e2>Tier 4</color>
 EVENT_ONBOARDING_ALADDIN_TIER_7_DESC|<color=#8D5FB6>INFO</color><br>• Defeat All Enemies<br>
 EVENT_ONBOARDING_ALADDIN_TIER_7_NAME|THE DIAMOND IN THE ROUGH VIII
 EVENT_ONBOARDING_ALADDIN_TIER_7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 50+<br>• Enchantment <color=#4a90e2>Tier 6</color><br>• 4 Stars</size>
@@ -5451,7 +5453,7 @@ Event_202003_Onward_C_DESC|
 Event_202003_Onward_C_Desc|<color=#8D5FB6>INFO</color><br>• Defeat the Trash Can to win.<br>•The Trash Can calls Unicorn teammates to the battlefield.<br>• When the Trash Can's Health falls below half, Unicorn teammates Cleanse themselves and gain Helpful effects.<br>• Unicorns inflict Defense Down and gain Taunt.
 Event_202003_Onward_C_NAME|TRASH CLASH
 Event_202003_Onward_C_Name|TRASH CLASH
-Event_202003_Onward_C_Tiers_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Trash Can to win.<br>•The Trash Can calls Unicorn teammates to the battlefield.<br>• When the Trash Can's Health falls below half, Unicorn teammates Cleanse themselves and gain Helpful effects.<br>• Unicorns inflict Defense Down and gain Taunt.
+Event_202003_Onward_C_Tiers_DESC|<color=#8D5FB6>INFO</color><br>• Defeat the Trash Can to win.<br>• The Trash Can calls Unicorn teammates to the battlefield.<br>• When the Trash Can's Health falls below half, Unicorn teammates Cleanse themselves and gain Helpful effects.<br>• Unicorns inflict Defense Down and gain Taunt.
 Event_202003_Onward_META_DESC|Earn character tokens for Ian, Barley and The Manticore!<br><br><color=#B8E986>SEASONAL EVENT</color>
 Event_202003_Onward_META_NAME|THE PATH OF PERIL
 Event_202004_Incredibles_A_0_NAME|SECURITY BREACH I
@@ -6395,6 +6397,9 @@ INBOX_GO|GO
 INBOX_MESSAGE_AD_OFFER_WALL_BODY|Here are your rewards for completing the offer.
 INBOX_MESSAGE_AD_OFFER_WALL_SENDER|<color=#FF6FBB>Sorcerer's Arena Team
 INBOX_MESSAGE_AD_OFFER_WALL_SUBJECT|<color=#FF6FBB>Offer Reward
+INBOX_MESSAGE_AD_SURVEY_REWARD_BODY|Here are your rewards for completing the survey.
+INBOX_MESSAGE_AD_SURVEY_REWARD_SENDER|<color=#FF6FBB>Sorcerer's Arena Team</color>
+INBOX_MESSAGE_AD_SURVEY_REWARD_SUBJECT|<color=#FF6FBB>Survey Reward</color>
 INBOX_MESSAGE_BODY_LOGIN_REWARDS|Check-in every day this month to earn Gear, Gems, Gold Coins, and more!  Each day you Check-in you'll receive the next reward in the list.  Missed days can be purchased for Gems.<br><br>Rewards will reset next month, and Tokens from a different character will become available.
 INBOX_MESSAGE_BODY_TEST|Hello there
 INBOX_MESSAGE_BODY_WELCOME|Welcome!<br><br>We want to thank you for joining us by giving you some valuable rewards to help on your journey.<br><br>Complete your <color=#54C5FF>DAILY QUESTS</color> to Unlock <color=#54C5FF>DARKWING DUCK!</color>
@@ -7104,6 +7109,22 @@ LC_INBOXMESSAGE_CLUB_BODY_RR_A|Summoner,<br><br>The Rescue Rangers Leaderboard C
 LC_INBOXMESSAGE_GLOBAL_BODY_RR_A|Summoner,<br><br>The Rescue Rangers Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LC_INBOXMESSAGE_PERSONAL_BODY_RAYA|Summoner,<br><br>The Raya Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LC_INBOXMESSAGE_GLOBAL_BODY_RAYA|Summoner,<br><br>The Raya Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LTA_STORE_TITLE|SHOWDOWN STORE
+LTA_202107_LAUNCH_SUBJECT|Summoner Showdown
+LTA_202107_LAUNCH_BODY|Summoner,<BR><BR>Ready yourself for battle! The new <color=#54C5FF>SUMMONER SHOWDOWN</color> PvP event mode is here! Use the allowed characters and spells to battle against other players, earn points, and win exciting rewards over the course of a season! Special rules will be in effect in each Showdown event, and the allowed characters and spells will change each season. Stamina Potions will be used to refresh characters to keep them battling and can be obtained from completing Daily Quests, the Club Exchange, and Tournament Exchange. Here are some to get you started!<BR><BR>Learn more about Summoner Showdown on our forums and Discord!
+LTA_INBOX_PERSONAL_GENERIC_SUBJECT|Summoner Showdown: Group Rank Rewards Ready!
+LTA_INBOX_GLOBAL_GENERIC_SUBJECT|Summoner Showdown: Global Rank Rewards Ready!
+LTA_INBOX_CLUB_GENERIC_SUBJECT|Summoner Showdown: Club Rank Rewards Ready!
+LTA_S1_202107_EVENT_1_INBOX_PERSONAL_BODY|Summoner,<br><br>Summoner Showdown Season 1, Round 1 has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LTA_S1_202107_EVENT_2_INBOX_PERSONAL_BODY|Summoner,<br><br>Summoner Showdown Season 1, Round 2 has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LTA_S1_202107_EVENT_3_INBOX_PERSONAL_BODY|Summoner,<br><br>Summoner Showdown Season 1, Round 3 has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LTA_S1_202107_EVENT_4_INBOX_PERSONAL_BODY|Summoner,<br><br>Summoner Showdown Season 1, Round 4 has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LTA_S1_202107_EVENT_5_INBOX_PERSONAL_BODY|Summoner,<br><br>Summoner Showdown Season 1, Round 5 has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LC_INBOX_PERSONAL_GENERIC_SUBJECT|Leaderboard Contest: Group Rank Rewards Ready!
+LC_INBOX_CLUB_GENERIC_SUBJECT|Leaderboard Contest: Club Rank Rewards Ready!
+LC_INBOX_GLOBAL_GENERIC_SUBJECT|Leaderboard Contest: Global Rank Rewards Ready!
+LC_LTA_S1_202107_INBOX_PERSONAL_BODY|Summoner,<br><br>The Summoner Showdown Season 1 Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+LC_LTA_S1_202107_INBOX_GLOBAL_BODY|Summoner,<br><br>The Summoner Showdown Season 1 Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LIFETIME_ADD_FRIENDS_10_DESC|Add 10 Friends
 LIFETIME_ADD_FRIENDS_25_DESC|Add 25 Friends
 LIFETIME_ADD_FRIENDS_2_DESC|Add 2 Friends
@@ -7321,6 +7342,7 @@ LOCKABLE_FEATURE_DESC_NEWSLETTER|<color=#fdf8e3><size=60>NEWSLETTER ACCESS<br><b
 LOCKABLE_FEATURE_DESC_PASSPORT|<color=#fdf8e3><size=60>PASSHOLDER<color=#FFBC08> GOLD</color> ACCESS<br><br><size=36>Become a PASSHOLDER<color=#FFBC08> GOLD</color> Player of <i>Disney Sorcerer's Arena</i> within the current Season and unlock exclusive content! Earn Passholder<color=#FFBC08> GOLD</color> Experience, highly coveted rewards, and more!<br><br><color=#ff8498>Requires Player Level 10
 LOCKABLE_FEATURE_DESC_PINS|<color=#fdf8e3><size=60>TALISMAN COLLECTION<br><br><size=36>Talismans are collectible items that may be displayed to other Players Earn Talismans through Quests, Rare Rewards, and Exclusive Events!<br><br><color=#ff8498>Requires Player Level 4
 LOCKABLE_FEATURE_DESC_PVP|<color=#fdf8e3><size=60>ARENA<br><br><size=36>Challenge other <i>Disney Sorcerer's Arena</i> players in real-time battles. Earn Trophies to ascend the leaderboards and compete in seasonal Leagues for exclusive rewards!<br><br><color=#ff8498>Requires Player Level 27
+LOCKABLE_FEATURE_DESC_LTA|<color=#fdf8e3><size=60>ARENA<br><br><size=36>Challenge other <i>Disney Sorcerer's Arena</i> players in real-time battles within limited-time events that have unique rules. Compete for exclusive rewards!<br><br><color=#ff8498>Requires Player Level 30
 LOCKABLE_FEATURE_DESC_SAVED_SQUADS|<color=#fdf8e3><size=60>SAVED TEAMS<br><br><size=36>Quick access to your favorite squads.<br><br><color=#ff8498>Requires Player Level 27
 LOCKABLE_FEATURE_DESC_SHIPMENTS|<color=#fdf8e3><size=60>EXCHANGE<br><br><size=36>Trade Gems as well as Gold, Grand, Club, Arena, and Tower Coins for items the Exchange offers. These offers change frequently, so check often!<br><br><color=#ff8498>Requires Player Level 12
 LOCKABLE_FEATURE_DESC_SHOP|<color=#FF8498>Complete 1-E to unlock the Store!
@@ -7334,6 +7356,7 @@ LOCKABLE_FEATURE_NAME_CLUBDUNGEON|<color=#43FF77>NEW!</color> Club Dungeon Unloc
 LOCKABLE_FEATURE_NAME_CLUBS|<color=#43FF77>NEW!</color> Clubs Unlocked
 LOCKABLE_FEATURE_NAME_CLUBWAR|<color=#43FF77>NEW!</color> Club Conquest Unlocked
 LOCKABLE_FEATURE_NAME_RAIDS|<color=#43FF77>NEW!</color> Raids Unlocked
+LOCKABLE_FEATURE_NAME_LTA|<color=#43FF77>NEW!</color> PvP Events Unlocked
 LOCKABLE_FEATURE_NAME_COLLECTIONPOWER|<color=#43FF77>NEW!</color> Summoner Score Unlocked
 LOCKABLE_FEATURE_NAME_DAILYLOGIN|<color=#43FF77>NEW!</color> Daily Check-in Rewards Unlocked
 LOCKABLE_FEATURE_NAME_DAILYREWARD|<color=#43FF77>NEW!</color> Bonus Rewards Unlocked
@@ -8269,6 +8292,8 @@ MILESTONE_REWARD_DESC|EARN EVENT TOWER XP TO COLLECT REWARDS
 MILESTONE_REWARD_NAME|TOWER EVENT MILESTONES
 MILESTONE_REWARD_POINT|EVENT TOWER XP
 MILESTONE_REWARD_POINT_DESC|Progression XP earned from battling in Event Towers.
+MILESTONE_LTA_REWARD_POINT|EVENT ARENA XP
+MILESTONE_LTA_REWARD_POINT_DESC|Progression XP earned from battling in Event Arenas.
 MILESTONE_RAID_REWARD_NAME|RAID MILESTONES
 MILESTONE_RAID_REWARD_POINT|RAID XP
 MILESTONE_RAID_REWARD_POINT_DESC|Progression XP earned from battling in Raids.
@@ -11607,6 +11632,10 @@ PIN_ALICE_NAME|ALICE TALISMAN
 PIN_ALICE_DESC|Curiouser and curiouser.
 PIN_MADHATTER_NAME|MAD HATTER TALISMAN
 PIN_MADHATTER_DESC|This is an unbirthday party!
+PIN_CAPTAINSHAT_NAME|CAPTAIN'S HAT TALISMAN
+PIN_CAPTAINSHAT_DESC|Heads up, coming through.
+PIN_CRUISESHIP_NAME|LA QUILA TALISMAN
+PIN_CRUISESHIP_DESC|Ladies and gentlemen, the moment you've all been waiting for!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -12442,6 +12471,70 @@ SAMPLE_STORE_ITEM_MEDIUM_GRIND_CURRENCY_NAME|SATCHEL OF GOLD
 SAMPLE_STORE_ITEM_MEDIUM_PREMIUM_CURRENCY_NAME|SATCHEL OF GEMS
 SAMPLE_STORE_ITEM_SMALL_GRIND_CURRENCY_NAME|POUCH OF GOLD
 SAMPLE_STORE_ITEM_SMALL_PREMIUM_CURRENCY_NAME|POUCH OF GEMS
+STORE_ITEM_2X_SHOWDOWN_STAMINAPOTIONS_NAME|STAMINA PACK
+STORE_ITEM_2X_SHOWDOWN_STAMINAPOTIONS_DESC|USE STAMINA POTIONS TO SKIP A CHARACTER'S COOLDOWN TIMER IN SUMMONER SHOWDOWN PVP EVENTS.
+STORE_ITEM_SHOWDOWN_ANGER_PACK_NAME|ANGER SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_ANGER_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE ANGER TOKENS!
+STORE_ITEM_SHOWDOWN_BARLEY_PACK_NAME|BARLEY SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_BARLEY_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE BARLEY TOKENS!
+STORE_ITEM_SHOWDOWN_DAISY_PACK_NAME|DAISY DUCK SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_DAISY_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE DAISY DUCK TOKENS!
+STORE_ITEM_SHOWDOWN_DARKWING_DUCK_PACK_NAME|DARKWING DUCK SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_DARKWING_DUCK_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE DARKWING DUCK TOKENS!
+STORE_ITEM_SHOWDOWN_GENIE_PACK_NAME|GENIE SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_GENIE_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE GENIE TOKENS!
+STORE_ITEM_SHOWDOWN_HERMES_PACK_NAME|HERMES SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_HERMES_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE HERMES TOKENS!
+STORE_ITEM_SHOWDOWN_HONEY_LEMON_PACK_NAME|HONEY LEMON SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_HONEY_LEMON_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE HONEY LEMON TOKENS!
+STORE_ITEM_SHOWDOWN_HORNED_KING_PACK_NAME|THE HORNED KING SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_HORNED_KING_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE THE HORNED KING TOKENS!
+STORE_ITEM_SHOWDOWN_JACKSPARROW_PACK_NAME|JACK SPARROW SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_JACKSPARROW_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE JACK SPARROW TOKENS!
+STORE_ITEM_SHOWDOWN_JASMINE_PACK_NAME|JASMINE SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_JASMINE_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE JASMINE TOKENS!
+STORE_ITEM_SHOWDOWN_MOANA_PACK_NAME|MOANA SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_MOANA_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE MOANA TOKENS!
+STORE_ITEM_SHOWDOWN_MONTEREY_JACK_PACK_NAME|MONTEREY JACK SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_MONTEREY_JACK_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE MONTEREY JACK TOKENS!
+STORE_ITEM_SHOWDOWN_RAFIKI_PACK_NAME|RAFIKI SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_RAFIKI_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE RAFIKI TOKENS!
+STORE_ITEM_SHOWDOWN_SIMBA_PACK_NAME|SIMBA SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_SIMBA_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE SIMBA TOKENS!
+STORE_ITEM_SHOWDOWN_BALOO_PACK_NAME|BALOO SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_BALOO_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE BALOO TOKENS!
+STORE_ITEM_SHOWDOWN_QUASIMODO_PACK_NAME|QUASIMODO SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_QUASIMODO_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE QUASIMODO TOKENS!
+STORE_ITEM_SHOWDOWN_FRED_PACK_NAME|FRED SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_FRED_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE FRED TOKENS!
+STORE_ITEM_SHOWDOWN_HOPPER_PACK_NAME|HOPPER SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_HOPPER_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE HOPPER TOKENS!
+STORE_ITEM_SHOWDOWN_JANGLES_PACK_NAME|JANGLES SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_JANGLES_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE JANGLES TOKENS!
+STORE_ITEM_SHOWDOWN_MADAM_MIM_PACK_NAME|MADAM MIM SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_MADAM_MIM_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE MADAM MIM TOKENS!
+STORE_ITEM_SHOWDOWN_MAURICE_PACK_NAME|MAURICE SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_MAURICE_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE MAURICE TOKENS!
+STORE_ITEM_SHOWDOWN_MERLIN_PACK_NAME|MERLIN SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_MERLIN_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE MERLIN TOKENS!
+STORE_ITEM_SHOWDOWN_OLAF_PACK_NAME|OLAF SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_OLAF_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE OLAF TOKENS!
+STORE_ITEM_SHOWDOWN_PETE_PACK_NAME|PETE SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_PETE_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE PETE TOKENS!
+STORE_ITEM_SHOWDOWN_QUORRA_PACK_NAME|QUORRA SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_QUORRA_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE QUORRA TOKENS!
+STORE_ITEM_SHOWDOWN_SALLY_PACK_NAME|SALLY SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_SALLY_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE SALLY TOKENS!
+STORE_ITEM_SHOWDOWN_SCAR_PACK_NAME|SCAR SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_SCAR_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE SCAR TOKENS!
+STORE_ITEM_SHOWDOWN_MANTICORE_PACK_NAME|MANTICORE SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_MANTICORE_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE MANTICORE TOKENS!
+STORE_ITEM_SHOWDOWN_EVE_PACK_NAME|EVE SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_EVE_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE EVE TOKENS!
+STORE_ITEM_SHOWDOWN_WALLE_PACK_NAME|WALL-E SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_WALLE_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE WALL-E TOKENS!
+STORE_ITEM_SHOWDOWN_CRUELLA_PACK_NAME|CRUELLA DE VIL SHOWDOWN PACK
+STORE_ITEM_SHOWDOWN_CRUELLA_PACK_SUBTITLE|PURCHASE THIS PACK TO RECEIVE CRUELLA DE VIL TOKENS!
 SATYR_UNIT_NAME|Satyr
 SAVED_SQUADS_BUTTON|SAVED TEAMS
 SAVED_SQUADS_POPUP_CONFIRM_TEXT|Are you sure you want to replace the existing saved team?
@@ -14204,10 +14297,10 @@ STORE_ITEM_SS_2TO3_UPGRADE_BUNDLE_DESC|UPGRADE YOUR SORCERER STONES AND BRING YO
 STORE_ITEM_FREE_AD_BACK_DESC|WATCH A VIDEO AD TO OPEN THE AD CHEST
 STORE_ITEM_FREE_AD_NAME|AD CHEST
 STORE_ITEM_FREE_AD_SUBTITLE|EARN BONUS REWARDS
-STORE_ITEM_FREE_PACK_LARGE_BOX_BACK_DESC|Check in every 24 hours for FREE rewards!
+STORE_ITEM_FREE_PACK_LARGE_BOX_BACK_DESC|LOG IN EVERY DAY TO COLLECT THIS FREE CHEST!
 STORE_ITEM_FREE_PACK_LARGE_BOX_BACK_NAME|24 HOUR FREE PACK
 STORE_ITEM_FREE_PACK_LARGE_LOWER_STICKER|lower sticker
-STORE_ITEM_FREE_PACK_LARGE_NAME|24 HOUR FREE CHEST
+STORE_ITEM_FREE_PACK_LARGE_NAME|DAILY FREE CHEST
 STORE_ITEM_FREE_PACK_LARGE_SHELF|24 HOUR FREE PACK
 STORE_ITEM_FREE_PACK_LARGE_STICKER|sticker
 STORE_ITEM_FREE_PACK_LOYALTY_BOX_BACK_DESC|Earn Loyalty Coins by completing ALL Daily Quests!
@@ -18296,6 +18389,8 @@ PASSHOLDER_202107_1_SEASON_NAME|PASSHOLDER SEASON 30
 PASSHOLDER_202107_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 30 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * CHIP TOKENS<BR>  * DALE TOKENS<br>  * GADGET TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202107_2_SEASON_NAME|PASSHOLDER SEASON 31
 PASSHOLDER_202107_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 31 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * SMEE TOKENS<BR>  * WENDY TOKENS<br>  * PETER PAN TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202108_1_SEASON_NAME|PASSHOLDER SEASON 32
+PASSHOLDER_202108_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 32 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * RAYA TOKENS<br>  * NANMAARI TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PVP_MEGARA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MEGARA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MEGARA</color> and <color=#54C5FF>MORTAL POTION</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MEGARA_INBOX_SUBJECT|Megara Enters the PvP Arena!
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
@@ -18304,6 +18399,8 @@ PVP_MINNIE_MOUSE_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! Minnie 
 PVP_MINNIE_MOUSE_INBOX_SUBJECT|Minnie Mouse Enters the PvP Arena!
 PVP_CHIP_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>Chip</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Chip</color> and <color=#54C5FF>Dale</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_CHIP_INBOX_SUBJECT|Chip Enters the PvP Arena!
+PVP_NAMAARI_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>Namaari</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Namaari</color> and <color=#54C5FF>Raya</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
+PVP_NAMAARI_INBOX_SUBJECT|Namaari Enters the PvP Arena!
 HERC_T5_BUNDLE_20_NAME|T5 GEAR BUNDLE
 HERC_T5_BUNDLE_20_SUBTITLE|GET READY TO CONQUER YOUR FOES. POWER UP YOUR HERCULES TEAM WITH THIS T5 GEAR BUNDLE.
 HERC_T6_BUNDLE_30_NAME|T6 GEAR BUNDLE
@@ -18338,6 +18435,8 @@ LC_KOTH_A_INBOX_LAST_CHANCE_SUBJECT|Last Chance for the Sorcerer's Tournament Le
 LC_KOTH_A_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The Sorcerer's Tournament Leaderboard Contest is ending soon!<br><br>Continue to battle in the Sorcerer's Tournament to earn as many points as you can before the event ends!<br><br>Good luck, and see you in the Arena!
 CM_TUTORIAL_LEADERBOARDS_STEP_00|WELCOME TO <color=#54C5FF>LEADERBOARD CONTESTS</color>.<br><br>COMPETE TO EARN POINTS AND INCREASE YOUR RANK.
 CM_TUTORIAL_LEADERBOARDS_STEP_01|EACH CONTEST HAS ITS OWN SET OF RULES. TAP HERE FOR MORE INFO.
+CM_TUTORIAL_SUMMONERSHOWDOWNS_STEP_00|WELCOME TO <color=#54C5FF>SUMMONER SHOWDOWN EVENTS</color>.<br><br>COMPETE IN PVP TO EARN POINTS AND INCREASE YOUR RANK.
+CM_TUTORIAL_SUMMONERSHOWDOWNS_STEP_01|EACH SHOWDOWN EVENT MAY REQUIRE DIFFERENT CHARACTERS AND HAVE UNIQUE RULES. TAP HERE FOR MORE INFO.
 INSTANT_BATTLE_NO_COST_PROMPT|SELECT A NUMBER OF ATTEMPTS TO USE
 EVENT_202103_RESCUE_RANGERS_META_DESC|Battle with Monterey Jack, Chip, and Dale to earn Gadget Tokens! <br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202103_RESCUE_RANGERS_META_NAME|RESCUE RANGERS
@@ -18523,6 +18622,14 @@ FRAME_RR_RED_BLUE_NAME|RESCUE RANGERS FRAME
 FRAME_RR_RED_BLUE_DESC|Exclusive Profile Frame. Awarded during the Rescue Rangers event.
 FRAME_RR_ACORNS_NAME|RESCUE RANGERS FRAME
 FRAME_RR_ACORNS_DESC|Exclusive Profile Frame. Awarded during the Rescue Rangers event.
+FRAME_LTA_S1_BRONZE_NAME|SHOWDOWN SEASON 1 BRONZE FRAME
+FRAME_LTA_S1_BRONZE_DESC|Exclusive Profile Frame. Awarded during the Summoner Showdown Season 1 event.
+FRAME_LTA_S1_SILVER_NAME|SHOWDOWN SEASON I SILVER FRAME
+FRAME_LTA_S1_SILVER_DESC|Exclusive Profile Frame. Awarded during the Summoner Showdown Season 1 event.
+FRAME_LTA_S1_GOLD_NAME|SHOWDOWN SEASON 1 GOLD FRAME
+FRAME_LTA_S1_GOLD_DESC|Exclusive Profile Frame. Awarded during the Summoner Showdown Season 1 event.
+FRAME_LTA_S1_PLATINUM_NAME|SHOWDOWN SEASON 1 PLATINUM FRAME
+FRAME_LTA_S1_PLATINUM_DESC|Exclusive Profile Frame. Awarded during the Summoner Showdown Season 1 event.
 LIFETIME_ACHIEVEMENT_YEAR_1_NAME|1-YEAR ANNIVERSARY
 LIFETIME_ACHIEVEMENT_YEAR_1_DESC|Play Disney Sorcerer's Arena for One Year
 STORE_ITEM_RR_WELCOME_NAME|RESCUE RANGERS WELCOME BUNDLE
@@ -18562,6 +18669,59 @@ INBOX_EVENT_2021_RR_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>Rescue 
 TROPHY_RESCUE_RANGERS_NAME|RESCUE RANGERS TROPHY
 TROPHY_RESCUE_RANGERS_DESC|Awarded for completing the Rescue Rangers Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 BATTLE_MODE_CAMPAIGN_MODE|ADVENTURES
+BATTLE_MODE_PVP_MODE|PVP MODES
+BATTLE_MODE_SELECTION|BATTLE MODE SELECTION
+BATTLE_MODE_SELECTION_NEXT_PVP_EVENT|NEXT PVP EVENT:
+BATTLE_MODE_BONUS_LOOT|BONUS
+BATTLE_MODE_NEXT_PVP_EVENT|NEXT PVP EVENT IN: {0}
+BATTLE_MODE_PVP_EVENT_TIME_REMAINING|TIME REMAINING:
+BATTLE_MODE_PVP_EVENT_COMING_SOON|COMING SOON
+LTA_DEFAULT_EMPTY_MUTATOR_DESC|The following special rules for determining a tie-break are in effect in this Summoner Showdown:<br><br> • If turns reach 0 then the winner is the player with the most remaining non-summoned characters.<br><br> • If remaining characters are equal then the winnner is the player with the highest total remaining Health percentage. If this is also equal, then the match is a tie.
+LTA_S1_202107_EVENT_1_NAME|SUMMONER SHOWDOWN<br><color=#FFB30C>Season 1, Round 1</color>
+LTA_S1_202107_EVENT_1_DESC|Compete in this PvP event to earn Gamma Runes and other rewards!<br><br>This event's points also count for the Summoner Showdown Season 1 Leaderboard Contest.
+LTA_S1_202107_EVENT_1_SHORT_DESC|EARN GAMMA RUNES!
+LTA_S1_202107_EVENT_2_NAME|SUMMONER SHOWDOWN<br><color=#FFB30C>Season 1, Round 2</color>
+LTA_S1_202107_EVENT_2_DESC|Compete in this PvP event Gamma Runes and other rewards!<br><br>This event's points also count for the Summoner Showdown Season 1 Leaderboard Contest.
+LTA_S1_202107_EVENT_2_SHORT_DESC|EARN GAMMA RUNES!
+LTA_S1_202107_EVENT_3_NAME|SUMMONER SHOWDOWN<br><color=#FFB30C>Season 1, Round 3</color>
+LTA_S1_202107_EVENT_3_DESC|Compete in this PvP event Gamma Runes and other rewards!<br><br>This event's points also count for the Summoner Showdown Season 1 Leaderboard Contest.
+LTA_S1_202107_EVENT_3_SHORT_DESC|EARN GAMMA RUNES!
+LTA_S1_202107_EVENT_4_NAME|SUMMONER SHOWDOWN<br><color=#FFB30C>Season 1, Round 4</color>
+LTA_S1_202107_EVENT_4_DESC|Compete in this PvP event Gamma Runes and other rewards!<br><br>This event's points also count for the Summoner Showdown Season 1 Leaderboard Contest.
+LTA_S1_202107_EVENT_4_SHORT_DESC|EARN GAMMA RUNES!
+LTA_S1_202107_EVENT_5_NAME|SUMMONER SHOWDOWN<br><color=#FFB30C>Season 1, Round 5</color>
+LTA_S1_202107_EVENT_5_DESC|Compete in this PvP event Gamma Runes and other rewards!<br><br>This event's points also count for the Summoner Showdown Season 1 Leaderboard Contest.
+LTA_S1_202107_EVENT_5_SHORT_DESC|EARN GAMMA RUNES!
+LCA_LTA_S1_202107_SEASON_NAME|SUMMONER SHOWDOWN SEASON 1 LEADERBOARD CONTEST
+LCA_LTA_S1_202107_SEASON_DESC|Complete PvP battles in Summoner Showdown events to earn points. Earn Delta Runes, Maleficent tokens and other rewards!
+LCA_LTA_S1_202107_SEASON_DETAILED_TITLE|Contest Rules
+LCA_LTA_S1_202107_SEASON_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color> <br>Earn points for every PvP battle completed in Summoner Showdown, Season 1 events. You can earn points from the following sources when battling:<br><br> • Completing Battle: 2000 points<br><br> • Winning Battle: 5000 points<br><br> • Defeating Characters: 400 points per opponent character defeated in the battle<br><br> • Surviving Characters:  200 points per surviving teammate character at the end of battle<br><br> • Progress Points: Earn points for each Gear Tier and Star for undefeated characters on battle end. Points are based on stats before BOLSTER is applied.<br> • Gear Tiers:<br> Gear Tier 3 - 10 points<br> Gear Tier 4 - 40 points<br> Gear Tier 5 - 60 points<br> Gear Tier 6 - 80 points<br> Gear Tier 7 - 100 points<br> Gear Tier 8 - 160 points<br> • Stars: <br> Star 3 - 20 points<br> Star 4 - 20 points<br> Star 5 - 40 points<br> Star 6 - 40 points<br> Star 7 - 80 points<br><br> • Bonus Point Characters: Additional points for each bonus point character brought into battle. Bonus point characters in each event are indicated with an icon and listed in the info for that event. <BR><BR><color=#54C5FF>CONTEST GROUP</color><br>Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking. <BR><BR><color=#54C5FF>GLOBAL LEADERBOARD</color><br>Compete with all global players. At the end of the event players will receive a reward to their inbox based on their final ranking. <BR><BR><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking. <BR><BR><color=#54C5FF>TIEBREAKING</color><br>If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br><color=#54C5FF>CHARACTERS AND SPELLS</color><br>The following Characters will be featured in battles this season:<br>• Anger<br>• Baloo<br>• Barley<br>• Quasimodo<br>• Cruella<br>• Daisy Duck<br>• Darkwing Duck<br>• Eve<br>• Fred<br>• Genie<br>• Hermes<br>• Honey Lemon<br>• Hopper<br>• The Horned King<br>• Jack Sparrow<br>• Jangles<br>• Jasmine<br>• Madam Mim<br>• Maurice<br>• Merlin<br>• Moana<br>• Monterey Jack<br>• Olaf<br>• Pete<br>• Quorra<br>• Rafiki<br>• Sally<br>• Scar<br>• Simba<br>• The Manticore<br>• Wall•E<br><br>The following Spells will be featured in battles this season:<br>• Blue Fairy Magic<br>• Clock Tower<br>• Duke Caboom<br>• Fairy Slumber<br>• Infinity Sided Die<br>• Magical Meteor<br>• Peanut Pummel<br>• Prince John's Taxes<br>• Snowgies<br>• Splash Mountain Soak<br>• Sugar Rush<br>• Thunder Mountain Boom<br>• Trigger's Tower<br>• Zap
+LCA_LTA_S1_202107_SEASON_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
+LCA_LTA_S1_202107_SEASON_MILESTONE_REWARD_POINT_NAME|SUMMONER SHOWDOWN SEASON 1 CONTEST POINTS
+LCA_LTA_S1_202107_SEASON_MILESTONE_REWARD_POINT_DESC|Earn Points by completing PvP battles in Summoner Showdown events.
+LTA_PVP_MODE_ENDS_IN|ENDS IN:
+LTA_PVP_MODE_STARTS_IN|STARTS IN:
+LTA_PVP_MODE_EVENT_ENDED|EVENT HAS ENDED
+LTA_EVENT_ACTIVE|PvP EVENT ACTIVE
+LTA_LOCKED|SUMMONER SHOWDOWN<br>REACH LEVEL 30
+PVP_BATTLE_MODE_SELECTION|PVP BATTLE MODE SELECTION
+LTA_PVP_LOBBY|SUMMONER SHOWDOWN LOBBY
+LTA_INCREASED_REWARDS|EXTRA REWARDS
+LTA_LOBBY_UNITS_LABEL|UNITS
+LTA_LOBBY_REWARDS_LABEL|REWARDS
+LTA_FOOTER_CHAT_LABEL|CHAT
+LTA_FOOTER_INFO_LABEL|INFO
+LTA_FOOTER_INVENTORY_LABEL|COLLECTIONS
+LTA_FOOTER_EMOTES_LABEL|EMOTES
+LTA_FOOTER_MILESTONES_LABEL|MILESTONES
+LTA_GEAR_LEVEL_N|<color={0}>GEAR TIER {1}</color>    
+LTA_LEVEL_N|<color=#FFF9DB>LEVEL {0}</color>
+LTA_MILESTONE_REWARD_NAME|SHOWDOWN EVENT MILESTONES
+LTA_MILESTONE_REWARD_DESC|EARN SHOWDOWN POINTS TO COLLECT REWARDS
+LTA_MILESTONE_REWARD_POINT|SHOWDOWN POINTS
+LTA_MILESTONE_REWARD_POINT_DESC|Earn Points by completing PvP battles in this Summoner Showdown event.
+LTA_SEASON_MILESTONE_REWARD_POINT|SHOWDOWN SEASON POINTS
+LTA_SEASON_MILESTONE_REWARD_POINT_DESC|Earn Points by completing PvP battles in Summoner Showdown events for this season.
 EVENT_202104_BH6_PRESTIGE_A_NAME|PRESTIGE: BIG HERO 6
 EVENT_202104_BH6_PRESTIGE_A_L0_NAME|PRESTIGE: BIG HERO BRAWL I
 EVENT_202104_BH6_PRESTIGE_A_L1_NAME|PRESTIGE: BIG HERO BRAWL II
@@ -18667,6 +18827,28 @@ LCA_ENERGY_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The energy Leaderboard Cont
 LCA_ENERGY_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The energy Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_ENERGY_INBOXMESSAGE_START_BODY|Summoner,<br><br>The <color=#54C5FF>ENERGY LEADERBOARD CONTEST</color> has begun!<br><br>Earn Contest Points by using <color=#54C5FF>GRAND ENERGY</color> and <color=#54C5FF>CAMPAIGN ENERGY</color>. Climb the ranks for the best rewards!<br><br>Good luck, and see you in the Arena!
 LCA_ENERGY_INBOXMESSAGE_START_SUBJECT|The Energy Leaderboard Contest has begun!
+LTA_REQUIRED_PREFIX|REQUIRED
+LTA_N_STARS_REQUIRED|<color=#FFF9DB>{0} STARS</color>   
+LTA_ONE_STAR_REQUIRED|<color=#FFF9DB>1 STAR</color>   
+LTA_RANK_REWARDS_CAT_TAB|RANK REWARDS
+LTA_UNITS_CAT_TAB|CHARACTERS
+LTA_SPELLS_CAT_TAB|SPELLS
+LTA_REQUIREMENT_NOT_MET|REQUIREMENT NOT MET
+LTA_REFRESH_BUTTON_LABEL|REFRESH
+LTA_REFRESH_COUNT|{0}/{1}
+LTA_OUT_OF_STAMINA|OUT OF STAMINA
+LTA_COOLDOWN|COOLDOWN
+LTA_BUY_MORE_GEMS_BUTTON_LABEL|BUY MORE GEMS
+LTA_BUY_MORE_GEMS_DESC|WOULD YOU LIKE TO GET MORE?
+LTA_BUY_MORE_GEMS_HEADER|NOT ENOUGH GEMS!
+LTA_BUY_STAMINA_HEADER|NOT ENOUGH STAMINA!
+LTA_BUY_STAMINA_DESC|YOU CAN SPEND GEMS INSTEAD IN PLACE OF STAMINA{0}
+LTA_CANT_BATTLE_NO_AVAILABLE_REFRESHES|1 OR MORE CHARACTERS ARE AT THEIR REFRESH LIMIT
+LTA_JOIN_EVENT|JOIN
+LTA_JOIN_HEADER|JOIN TO BATTLE OTHER PLAYERS IN THIS SUMMONER SHOWDOWN!
+LTA_EVENT_TIMER_HEADER|THIS EVENT ENDS IN:
+LTA_EVENT_INFO|EVENT INFO
+LTA_TEST_DESC_KEY|This is a test limited time arena event! The data for this event is garbage and is not a reflection of Christian's designing prowess.
 ADVENTURES_MAIN_GRAND_NAME|GRAND
 ADVENTURES_MAIN_GRAND_DESC|Welcome to the <color=#54C5FF>Grand Campaign</color>, where your journey through the Arena begins!<BR><BR>Power up your team to make your way through this <color=#54C5FF>Main Adventure Campaign</color> and earn character tokens, XP, and more! Spend <color=#54C5FF>Grand Energy</color> on each battle attempt in this Campaign.<BR><BR>Completing a battle with your full team still intact will earn you three <color=#54C5FF>Main Adventure Stars</color>.<BR><BR>Go back to previously conquered nodes and <color=#54C5FF>Auto-Win</color> (requires player level 10) to collect specific rewards to keep growing and powering up your collection.
 ADVENTURES_MAIN_HEROES_NAME|HEROES
@@ -18732,6 +18914,18 @@ ADVENTURES_SIDE_ONWARD_DESC|Welcome to the <color=#54C5FF>Onward Campaign</color
 INBOX_EVENT_202107_ONWARDCAMPAIGN_SUBJECT|New Side Adventure Campaign - Onward
 INBOX_EVENT_202107_ONWARDCAMPAIGN_BODY|Summoner,<BR><BR>The <color=#54C5FF>Onward Campaign</color> has arrived in the Arena!<BR><BR>Head to <color=#54C5FF>Adventures</color> to get started on this new <color=#54C5FF>Side Adventure Campaign</color>.<BR><BR>Make your way through <color=#54C5FF>Stage I</color> to collect <color=#54C5FF>Ian</color> and <color=#54C5FF>Barley</color> tokens. Power up your <color=#54C5FF>Onward</color> team to conquer <color=#54C5FF>Stage II</color> and earn <color=#54C5FF>Manticore</color> tokens and more!<BR><BR>Thank you for your continued support, and see you in the Arena!
 ADVENTURES_SIDE_ONWARD_S02N01_DESC|Power up your Onward team to take on Manticore in this epic Boss Battle.
+ADVENTURES_SIDE_TOYSTORY_NAME|TOY STORY
+ADVENTURES_SIDE_TOYSTORY_DESC|Welcome to the <color=#54C5FF>Toy Story Campaign</color>!<BR><BR>Battle your way through this <color=#54C5FF>Side Adventure Campaign</color> to earn <color=#54C5FF>Woody</color>, <color=#54C5FF>Buzz Lightyear</color>, <color=#54C5FF>Jessie</color>, <color=#54C5FF>Chunk</color>, and <color=#54C5FF>Big Baby</color> tokens. Power up your <color=#54C5FF>Toy Story</color> characters to conquer <color=#54C5FF>Stage II</color> and earn <color=#54C5FF>Bo Peep</color> and <color=#54C5FF>Lotso</color> tokens, and more!<BR><BR>Battle attempts can cost either <color=#54C5FF>Grand Energy</color> or <color=#54C5FF>Campaign Energy</color> in this Campaign. Completing a battle with your full team still intact will earn you three <color=#54C5FF>Side Adventure Stars</color> for that node.
+INBOX_EVENT_202107_TOYSTORYCAMPAIGN_SUBJECT|New Side Adventure Campaign - Toy Story
+INBOX_EVENT_202107_TOYSTORYCAMPAIGN_BODY|Summoner,<BR><BR>The <color=#54C5FF>Toy Story Campaign</color> has arrived in the Arena!<BR><BR>Head to <color=#54C5FF>Adventures</color> to get started on this new <color=#54C5FF>Side Adventure Campaign</color>.<BR><BR>Make your way through this <color=#54C5FF>Side Adventure Campaign</color> to earn <color=#54C5FF>Woody</color>, <color=#54C5FF>Buzz Lightyear</color>, <color=#54C5FF>Jessie</color>, <color=#54C5FF>Chunk</color>, and <color=#54C5FF>Big Baby</color> tokens. Power up your <color=#54C5FF>Toy Story</color> characters to conquer <color=#54C5FF>Stage II</color> and earn <color=#54C5FF>Bo Peep</color> and <color=#54C5FF>Lotso</color> tokens, and more!<BR><BR>Thank you for your continued support, and see you in the Arena!
+ADVENTURES_SIDE_TOYSTORY_S02N01_DESC|Power up Woody, Jessie, and Buzz Lightyear to take on this epic Boss Battle.
+ADVENTURES_SIDE_TOYSTORY_S02N02_DESC|Power up Chunk and Big Baby to take on this epic Boss Battle.
+LTA_CANT_BATTLE_UNIT_CANT_BE_REFRESHED|1 OR MORE CHARACTERS ARE AT THEIR REFRESH LIMIT
+SHIPMENT_TITLE_LTA|LIMITED TIME ARENA EXCHANGE
+LTA_ACTIVE_MUTATOR| 
+LTA_ACTIVE_MUTATOR_DETAILS|SUMMONER SHOWDOWN EFFECTS
+CURRENCY_LTA_NAME|STAMINA POTIONS
+CURRENCY_LTA_DESC|Stamina Potions are used to refresh characters in PvP events to skip their cooldown between battles.
 EVENT_202105_WALLE_META_DESC|Power up Gizmoduck and your Tech Team and battle to earn EVE and WALL•E Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202105_WALLE_META_NAME|THE LAST ROBOT ON EARTH
 EVENT_202105_WALLE_PORTAL_DESC|EARN EVE AND WALL•E TOKENS!
@@ -18795,13 +18989,35 @@ UNIT_PROMO_MAT_WALLE|WALL•E TOKENS
 UNIT_PROMO_MAT_EVE|EVE TOKENS
 TROPHY_WALLE_NAME|THE LAST ROBOT ON EARTH TROPHY
 TROPHY_WALLE_DESC|Awarded for completing the Last Robot on Earth Event. Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+LTA_PVP_BATTLE_RESULTS_LOBBY|LOBBY
 INBOX_EVENT_202105_WALLE_PREVIEW_SUBJECT|Coming Soon: The Last Robot on Earth Event!
 INBOX_EVENT_202105_WALLE_PREVIEW_BODY|Summoner,<BR><BR>Prepare <color=#54C5FF>Gizmoduck</color> and your <color=#54C5FF>Tech</color> Team for battle to earn <color=#54C5FF>Eve</color> and <color=#54C5FF>Wall•E</color> Tokens in <color=#54C5FF>The Last Robot on Earth</color> Event!
 INBOX_EVENT_202105_WALLE_START_SUBJECT|The Last Robot on Earth Event has started!
 INBOX_EVENT_202105_WALLE_START_BODY|Summoner,<BR><BR><color=#54C5FF>The Last Robot on Earth</color> Event has begun! Power up <color=#54C5FF>Gizmoduck</color> and your <color=#54C5FF>Tech</color> Team for battle to earn Tokens for <color=#54C5FF>Eve</color> and <color=#54C5FF>Wall•E</color> Tokens!
 INBOX_EVENT_202105_WALLE_LAST_CHANCE_SUBJECT|Last Chance to earn rewards for The Last Robot on Earth!
 INBOX_EVENT_202105_WALLE_LAST_CHANCE_BODY|Summoner,<BR><BR><color=#54C5FF>The Last Robot on Earth</color> Event will be ending soon! This is your <color=#54C5FF>LAST CHANCE</color> to battle, so enter now to earn <color=#54C5FF>Eve</color> and <color=#54C5FF>Wall•E</color> Tokens!
+COMBAT_POINT_TYPE_INVALID|INVALID
+COMBAT_POINT_TYPE_BATTLECOMPLETE|BATTLE COMPLETE
+COMBAT_POINT_TYPE_SURVIVINGUNITS|SURVIVING CHARACTERS
+COMBAT_POINT_TYPE_BONUSPROGRESSIONPOINTS|BONUS PROGRESSION POINTS
+COMBAT_POINT_TYPE_BONUSSPECIALUNITS|BONUS POINT CHARACTERS
+COMBAT_POINT_TYPE_DEFEATEDUNITS|DEFEATED CHARACTERS
+LTA_PVP_BATTLE_RESULTS_NEXT|NEXT
+LTA_CELEBRATION_EVENT_INACTIVE|EVENT INACTIVE
+LTA_CELEBRATION_CLAIM_REWARDS|CLAIM REWARDS
+LTA_CELEBRATION_NEXT|NEXT
+LTA_CELEBRATION_TOP_PLACEMENT_HEADER|YOU MADE TOP 3!
+LTA_CELEBRATION_TOP_PLACEMENT_DESC| 
+LTA_CELEBRATION_1ST_PLACE|1ST
+LTA_CELEBRATION_2ND_PLACE|2ND
+LTA_CELEBRATION_3RD_PLACE|3RD
+LEADERBOARD_CHALLENGE_TYPE_Personal|CONTEST GROUP
+LEADERBOARD_CHALLENGE_TYPE_Global|GLOBAL
+LEADERBOARD_CHALLENGE_TYPE_Club|CLUB
 LEADERBOARD_CHALLENGE_NEW_HIGH_SCORE|New High Score!
+LTA_CELEBRATION_CLAIM|CLAIM
+LTA_CELEBRATION_CLAIM_ALL|CLAIM ALL
+LTA_MILESTONES_REWARDS|MILESTONES
 UNIT_PROMO_MAT_CRUELLA_DE_VIL|CRUELLA TOKENS
 PVP_PLUTO_INBOX_SUBJECT|Pluto enters the PvP Arena!
 PVP_PLUTO_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! Battle on <color=#54C5FF>Main Street</color> for a limited time!<br><br><color=#54C5FF>Pluto</color> will be featured in the Weekly and Seasonal rewards for the next two seasons.<br><br>Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Pluto</color> and <color=#54C5FF>Golden Hammer</color> spell tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
@@ -18886,6 +19102,10 @@ UNIT_PROMO_MAT_SHANK|SHANK TOKENS
 UNIT_PROMO_MAT_VANELLOPE|VANELLOPE TOKENS
 EMOTE_CALHOUN_NAME|SERGEANT CALHOUN EMOTE
 EMOTE_CALHOUN_DESC|Flattery don't charge these batteries, civilian.
+LTA_EQUALIZATION_HEADER_MESSAGE|THIS CHARACTER MEETS THE CRITERIA TO HAVE THEIR STATS UPDATED DURING BATTLE IN THIS EVENT ARENA
+LTA_PVP_MODE_ACTIVE_IN|REOPENS IN:
+LTA_CLOSED|THE ARENA IS CURRENTLY CLOSED!
+LTA_NO_REFRESHES|EXHAUSTED
 EVENT_202106_CRUELLA_META_DESC|Power up your Kingdom Villains team and battle to earn Cruella Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
 EVENT_202106_CRUELLA_META_NAME|SEEING SPOTS
 EVENT_202106_CRUELLA_PORTAL_DESC|EARN CRUELLA TOKENS!
@@ -18942,6 +19162,10 @@ EVENT_202106_CRUELLA_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>
 EVENT_202106_CRUELLA_B_L4_NAME|PRESTIGE: SEEING SPOTS V
 EVENT_202106_CRUELLA_B_L4_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Cruella.
 EVENT_202106_CRUELLA_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 8</color>
+LTA_GEAR_LEVEL_DEFAULT|<color=#FFF9DB>GEAR TIER {0}</color>    
+LTA_RANK_SLOT_RANK_1|FIRST
+LTA_RANK_SLOT_RANK_2|SECOND
+LTA_RANK_SLOT_RANK_3|THIRD
 OUTFIT_MERLIN_BERMUDA_UNIT_NAME|BERMUDA MERLIN
 OUTFIT_MERLIN_BERMUDA_NAME|BERMUDA MERLIN OUTFIT TOKENS
 OUTFIT_MERLIN_BERMUDA_DESC|Collect 100 to unlock the 'Bermuda Merlin' outfit for Merlin.
@@ -19001,6 +19225,18 @@ CYBUGEGG_UNIT_NAME|CY-BUG EGG
 CYBUGGIANT_ABILBASIC_NAME|CY-BUG EGG
 CYBUGGIANT_ABILSPECIALA_NAME|CY-BUG EGG
 CYBUGGIANT_ABILSPECIALB_NAME|CY-BUG EGG
+LTA_PVP_MODE_CLOSING_IN|REGROUP IN:
+LTA_PVP_MODE_EVENT_LIVE|EVENT LIVE!
+LTA_INFO_HEADER|SUMMONER SHOWDOWN
+LTA_INFO_CARD_1_DESC|BATTLE WITH EVENT CHARACTERS & SPELLS
+LTA_INFO_CARD_2_DESC|USE STAMINA POTIONS TO REFRESH CHARACTERS
+LTA_INFO_BODY_TITLE|SUMMONER SHOWDOWN RULES
+LTA_INFO_BODY|Welcome to Summoner Showdown! Use the allowed characters and spells to battle against other players, earn points, and win rewards.<br><br> <color=#54C5FF>CHARACTER REQUIREMENTS</color><br> • Usable characters, character requirements, and usable spells are displayed by tapping the UNITS button. They are also displayed in the event preview.<br><br> <color=#54C5FF>BOLSTER</color><br> • In Summoner Showdowns player level, spell level, and character stats are affected by Bolster in battle. If a character meets the minimum requirements of a given Summoner Showdown but is below the following values, they will be bolstered to those values.<br><br> Player Level:<br> • Level 80<br> Character Stats:<br> • Level: 80<br> • Stars: 7<br> • Gear Tier: 8<br> • Ability Level: 4<br> • Sorcerer Stone: Highest quality<br> Spell Level:<br> • Level 3<br><br> <color=#54C5FF>ARENA STAMINA</color><br> When a character is used in battle it will go on cooldown and will be unavailable for use for the remainder of this event unless refreshed with Stamina Potions. You can spend Stamina Potions to refresh a character and battle with them again right away, up to a max of 10 times per event. The Stamina Potion refresh cost will increase per use on a single character per event. Stamina Potions can be obtained from Daily Quests, the Club Exchange, and the Tournament Exchange.<br><br> <color=#54C5FF>MILESTONES</color><br> • Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<br><br> <color=#54C5FF>EARNING POINTS</color><br> • Earn points for every battle completed in this PvP event. A battle only grants points if it concludes before the event ends. You can earn points from the following sources when battling:<br><br> • Completing Battle: 2000 points<br><br> • Winning Battle: 5000 points<br><br> • Defeating Characters: 400 points per opponent character defeated in the battle<br><br> • Surviving Characters:  200 points per surviving teammate character at the end of battle<br><br> • Progress Points: Earn points for each Gear Tier and Star for undefeated characters on battle end. Points are based on stats before BOLSTER is applied.<br> • Gear Tiers:<br> Gear Tier 3 - 10 points<br> Gear Tier 4 - 40 points<br> Gear Tier 5 - 60 points<br> Gear Tier 6 - 80 points<br> Gear Tier 7 - 100 points<br> Gear Tier 8 - 160 points<br><br> • Stars: <br> Star 3 - 20 points<br> Star 4 - 20 points<br> Star 5 - 40 points<br> Star 6 - 40 points<br> Star 7 - 80 points<br><br> • Bonus Point Characters: Additional points for each bonus character brought into battle.<br><br> The following Characters each grant 50 bonus points per battle for this event:<br> • Barley<br> • Honey Lemon<br> • Jack Sparrow<br> • Jasmine<br> • Moana<br> • Jasmine<br> • Rafiki<br> • Simba<br><br> The following Characters each grant 300 bonus points per battle for this event:<br> • Cruella<br> • Darkwing Duck<br> • Wall•E<br><br> <color=#54C5FF>CONTEST GROUP:</color><br> • Compete with other players close to your level. At the end of the contest, all players who participated and earned points can claim a reward chest based on their final contest group ranking. <BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking. <BR><BR><color=#54C5FF>TIEBREAKING:</color><br> • If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br> <color=#54C5FF>SCHEDULE</color><br> Players are not able to battle during Regroup phases.<br> Battle Phases:<br> • 7:30 AM - 10:30 AM PT<br> • 7:30 PM - 10:30 PM PT<br> Regroup Phases:<br> • 10:30 AM - 7:30 PM PT<br> • 10:30 PM - 7:30 AM PT<br><br> <color=#54C5FF>ARENA PACK AND DAILY QUESTS</color><br> • PvP battles completed in Summoner Showdown events will count towards the ARENA READY Daily Quest.<br> • PvP wins in Summoner Showdown events will count towards the PVP BRAWLER Daily Quest.<br> • Battles in Summoner Showdown events will progress the player towards unlocking their ARENA PACK in the same manner as normal PVP Arena battles.
+LTA_S1_202107_EVENT_1_INFO_BODY|<br><br>Welcome to Summoner Showdown! Use the allowed characters and spells to battle against other players, earn points, and win rewards.<br><br><color=#54C5FF>CHARACTER REQUIREMENTS</color><br>Usable characters, character requirements, and usable spells are displayed by tapping the UNITS button. They are also displayed in the event preview.<br><br><color=#54C5FF>BOLSTER</color><br>In Summoner Showdowns player level, spell level, and character stats are affected by Bolster in battle. If a character meets the minimum requirements of a given Summoner Showdown but is below the following values, they will be bolstered to those values.<br><br> Player Level:<br> • Level 80<br><br> Character Stats:<br> • Level: 80<br> • Stars: 7<br> • Gear Tier: 8<br> • Ability Level: 4<br> • Sorcerer Stone: Highest quality<br><br> Spell Level:<br> • Level 3<br><br><color=#54C5FF>ARENA STAMINA</color><br>When a character is used in battle it will go on cooldown and will be unavailable for use for the remainder of this event unless refreshed with Stamina Potions. You can spend Stamina Potions to refresh a character and battle with them again right away, up to a max of 10 times per event. The Stamina Potion refresh cost will increase per use on a single character per event. Stamina Potions can be obtained from Daily Quests, the Club Exchange, and the Tournament Exchange.<br><br><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<br><br><color=#54C5FF>EARNING POINTS</color><br> • Earn points for every battle completed in this PvP event. A battle only grants points if it concludes before the event ends. You can earn points from the following sources when battling:<br><br> • Completing Battle: 2000 points<br><br> • Winning Battle: 5000 points<br><br> • Defeating Characters: 400 points per opponent character defeated in the battle<br><br> • Surviving Characters:  200 points per surviving teammate character at the end of battle<br><br> • Progress Points: Earn points for each Gear Tier and Star for undefeated characters on battle end. Points are based on stats before BOLSTER is applied.<br> • Gear Tiers:<br> Gear Tier 3 - 10 points<br> Gear Tier 4 - 40 points<br> Gear Tier 5 - 60 points<br> Gear Tier 6 - 80 points<br> Gear Tier 7 - 100 points<br> Gear Tier 8 - 160 points<br><br> • Stars: <br> Star 3 - 20 points<br> Star 4 - 20 points<br> Star 5 - 40 points<br> Star 6 - 40 points<br> Star 7 - 80 points<br><br> • Bonus Point Characters: Additional points for each bonus character brought into battle.<br><br> The following Characters each grant 50 bonus points per battle for this event:<br> • Barley<br> • Honey Lemon<br> • Jack Sparrow<br> • Jasmine<br> • Moana<br> • Rafiki<br> • Simba<br><br> The following Characters each grant 300 bonus points per battle for this event:<br> • Cruella<br> • Darkwing Duck<br> • Wall•E<br><br><color=#54C5FF>CONTEST GROUP</color><br>Compete with other players close to your level. At the end of the contest, all players who participated and earned points can claim a reward chest based on their final contest group ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br><color=#54C5FF>SCHEDULE</color><br>Players are not able to battle during Regroup phases.<br> Battle Phases:<br> • 7:30 AM - 10:30 AM PT<br> • 7:30 PM - 10:30 PM PT<br> Regroup Phases:<br> • 10:30 AM - 7:30 PM PT<br> • 10:30 PM - 7:30 AM PT<br><br> <color=#54C5FF>ARENA PACK AND DAILY QUESTS</color><br> • PvP battles completed in Summoner Showdown events will count towards the ARENA READY Daily Quest.<br> • PvP wins in Summoner Showdown events will count towards the PVP BRAWLER Daily Quest.<br> • Battles in Summoner Showdown events will progress the player towards unlocking their ARENA PACK in the same manner as normal PVP Arena battles.
+LTA_S1_202107_EVENT_2_INFO_BODY|<br><br>Welcome to Summoner Showdown! Use the allowed characters and spells to battle against other players, earn points, and win rewards.<br><br><color=#54C5FF>CHARACTER REQUIREMENTS</color><br>Usable characters, character requirements, and usable spells are displayed by tapping the UNITS button. They are also displayed in the event preview.<br><br><color=#54C5FF>BOLSTER</color><br>In Summoner Showdowns player level, spell level, and character stats are affected by Bolster in battle. If a character meets the minimum requirements of a given Summoner Showdown but is below the following values, they will be bolstered to those values.<br><br> Player Level:<br> • Level 80<br><br> Character Stats:<br> • Level: 80<br> • Stars: 7<br> • Gear Tier: 8<br> • Ability Level: 4<br> • Sorcerer Stone: Highest quality<br><br> Spell Level:<br> • Level 3<br><br><color=#54C5FF>ARENA STAMINA</color><br>When a character is used in battle it will go on cooldown and will be unavailable for use for the remainder of this event unless refreshed with Stamina Potions. You can spend Stamina Potions to refresh a character and battle with them again right away, up to a max of 10 times per event. The Stamina Potion refresh cost will increase per use on a single character per event. Stamina Potions can be obtained from Daily Quests, the Club Exchange, and the Tournament Exchange.<br><br><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<br><br><color=#54C5FF>EARNING POINTS</color><br> • Earn points for every battle completed in this PvP event. A battle only grants points if it concludes before the event ends. You can earn points from the following sources when battling:<br><br> • Completing Battle: 2000 points<br><br> • Winning Battle: 5000 points<br><br> • Defeating Characters: 400 points per opponent character defeated in the battle<br><br> • Surviving Characters:  200 points per surviving teammate character at the end of battle<br><br> • Progress Points: Earn points for each Gear Tier and Star for undefeated characters on battle end. Points are based on stats before BOLSTER is applied.<br> • Gear Tiers:<br> Gear Tier 3 - 10 points<br> Gear Tier 4 - 40 points<br> Gear Tier 5 - 60 points<br> Gear Tier 6 - 80 points<br> Gear Tier 7 - 100 points<br> Gear Tier 8 - 160 points<br><br> • Stars: <br> Star 3 - 20 points<br> Star 4 - 20 points<br> Star 5 - 40 points<br> Star 6 - 40 points<br> Star 7 - 80 points<br><br> • Bonus Point Characters: Additional points for each bonus character brought into battle.<br><br> The following Characters each grant 50 bonus points per battle for this event:<br> • Baloo<br> • Quasimodo<br> • Fred<br> • Hopper<br> • Jangles<br> • Madam Mim<br> • Maurice<br> • Merlin<br> • Olaf<br> • Pete<br> • Quorra<br> • Sally<br> • Scar<br> • The Manticore<br> The following Characters each grant 300 bonus points per battle for this event:<br> • Cruella<br> • Eve<br> • Wall•E<br><br><color=#54C5FF>CONTEST GROUP</color><br>Compete with other players close to your level. At the end of the contest, all players who participated and earned points can claim a reward chest based on their final contest group ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br><color=#54C5FF>SCHEDULE</color><br>Players are not able to battle during Regroup phases.<br> Battle Phases:<br> • 7:30 AM - 10:30 AM PT<br> • 7:30 PM - 10:30 PM PT<br> Regroup Phases:<br> • 10:30 AM - 7:30 PM PT<br> • 10:30 PM - 7:30 AM PT<br><br> <color=#54C5FF>ARENA PACK AND DAILY QUESTS</color><br> • PvP battles completed in Summoner Showdown events will count towards the ARENA READY Daily Quest.<br> • PvP wins in Summoner Showdown events will count towards the PVP BRAWLER Daily Quest.<br> • Battles in Summoner Showdown events will progress the player towards unlocking their ARENA PACK in the same manner as normal PVP Arena battles.
+LTA_S1_202107_EVENT_3_INFO_BODY|<br><br>Welcome to Summoner Showdown! Use the allowed characters and spells to battle against other players, earn points, and win rewards.<br><br><color=#54C5FF>CHARACTER REQUIREMENTS</color><br>Usable characters, character requirements, and usable spells are displayed by tapping the UNITS button. They are also displayed in the event preview.<br><br><color=#54C5FF>BOLSTER</color><br>In Summoner Showdowns player level, spell level, and character stats are affected by Bolster in battle. If a character meets the minimum requirements of a given Summoner Showdown but is below the following values, they will be bolstered to those values.<br><br> Player Level:<br> • Level 80<br><br> Character Stats:<br> • Level: 80<br> • Stars: 7<br> • Gear Tier: 8<br> • Ability Level: 4<br> • Sorcerer Stone: Highest quality<br><br> Spell Level:<br> • Level 3<br><br><color=#54C5FF>ARENA STAMINA</color><br>When a character is used in battle it will go on cooldown and will be unavailable for use for the remainder of this event unless refreshed with Stamina Potions. You can spend Stamina Potions to refresh a character and battle with them again right away, up to a max of 10 times per event. The Stamina Potion refresh cost will increase per use on a single character per event. Stamina Potions can be obtained from Daily Quests, the Club Exchange, and the Tournament Exchange.<br><br><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<br><br><color=#54C5FF>EARNING POINTS</color><br> • Earn points for every battle completed in this PvP event. A battle only grants points if it concludes before the event ends. You can earn points from the following sources when battling:<br><br> • Completing Battle: 2000 points<br><br> • Winning Battle: 5000 points<br><br> • Defeating Characters: 400 points per opponent character defeated in the battle<br><br> • Surviving Characters:  200 points per surviving teammate character at the end of battle<br><br> • Progress Points: Earn points for each Gear Tier and Star for undefeated characters on battle end. Points are based on stats before BOLSTER is applied.<br> • Gear Tiers:<br> Gear Tier 3 - 10 points<br> Gear Tier 4 - 40 points<br> Gear Tier 5 - 60 points<br> Gear Tier 6 - 80 points<br> Gear Tier 7 - 100 points<br> Gear Tier 8 - 160 points<br><br> • Stars: <br> Star 3 - 20 points<br> Star 4 - 20 points<br> Star 5 - 40 points<br> Star 6 - 40 points<br> Star 7 - 80 points<br><br> • Bonus Point Characters: Additional points for each bonus character brought into battle.<br><br> The following Characters each grant 50 bonus points per battle for this event:<br> • Anger<br> • Daisy Duck<br> • Eve<br> • Genie<br> • Hermes<br> • The Horned King<br> • Monterey Jack<br> The following Characters each grant 300 bonus points per battle for this event:<br> • Cruella<br> • Darkwing Duck<br> • Wall•E<br><br><color=#54C5FF>CONTEST GROUP</color><br>Compete with other players close to your level. At the end of the contest, all players who participated and earned points can claim a reward chest based on their final contest group ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING:</color><br>If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br><color=#54C5FF>SCHEDULE</color><br>Players are not able to battle during Regroup phases.<br> Battle Phases:<br> • 7:30 AM - 10:30 AM PT<br> • 7:30 PM - 10:30 PM PT<br> Regroup Phases:<br> • 10:30 AM - 7:30 PM PT<br> • 10:30 PM - 7:30 AM PT<br><br><color=#54C5FF>ARENA PACK AND DAILY QUESTS</color><br> • PvP battles completed in Summoner Showdown events will count towards the ARENA READY Daily Quest.<br> • PvP wins in Summoner Showdown events will count towards the PVP BRAWLER Daily Quest.<br> • Battles in Summoner Showdown events will progress the player towards unlocking their ARENA PACK in the same manner as normal PVP Arena battles.
+LTA_S1_202107_EVENT_4_INFO_BODY|<br><br>Welcome to Summoner Showdown! Use the allowed characters and spells to battle against other players, earn points, and win rewards.<br><br><color=#54C5FF>CHARACTER REQUIREMENTS</color><br>Usable characters, character requirements, and usable spells are displayed by tapping the UNITS button. They are also displayed in the event preview.<br><br><color=#54C5FF>BOLSTER</color><br>In Summoner Showdowns player level, spell level, and character stats are affected by Bolster in battle. If a character meets the minimum requirements of a given Summoner Showdown but is below the following values, they will be bolstered to those values.<br><br> Player Level:<br> • Level 80<br><br> Character Stats:<br> • Level: 80<br> • Stars: 7<br> • Gear Tier: 8<br> • Ability Level: 4<br> • Sorcerer Stone: Highest quality<br><br> Spell Level:<br> • Level 3<br><br><color=#54C5FF>ARENA STAMINA</color><br>When a character is used in battle it will go on cooldown and will be unavailable for use for the remainder of this event unless refreshed with Stamina Potions. You can spend Stamina Potions to refresh a character and battle with them again right away, up to a max of 10 times per event. The Stamina Potion refresh cost will increase per use on a single character per event. Stamina Potions can be obtained from Daily Quests, the Club Exchange, and the Tournament Exchange.<br><br><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<br><br><color=#54C5FF>EARNING POINTS</color><br> • Earn points for every battle completed in this PvP event. A battle only grants points if it concludes before the event ends. You can earn points from the following sources when battling:<br><br> • Completing Battle: 2000 points<br><br> • Winning Battle: 5000 points<br><br> • Defeating Characters: 400 points per opponent character defeated in the battle<br><br> • Surviving Characters:  200 points per surviving teammate character at the end of battle<br><br> • Progress Points: Earn points for each Gear Tier and Star for undefeated characters on battle end. Points are based on stats before BOLSTER is applied.<br> • Gear Tiers:<br> Gear Tier 3 - 10 points<br> Gear Tier 4 - 40 points<br> Gear Tier 5 - 60 points<br> Gear Tier 6 - 80 points<br> Gear Tier 7 - 100 points<br> Gear Tier 8 - 160 points<br><br> • Stars: <br> Star 3 - 20 points<br> Star 4 - 20 points<br> Star 5 - 40 points<br> Star 6 - 40 points<br> Star 7 - 80 points<br><br> • Bonus Point Characters: Additional points for each bonus character brought into battle.<br><br> The following Characters each grant 100 bonus points per battle for this event:<br> • Quasimodo<br> • Jangles<br> • Madam Mim<br> • Maurice<br> • Pete<br> • Quorra<br> • Sally<br> The following Characters each grant 300 bonus points per battle for this event:<br> • Cruella<br> • Eve<br> • Wall•E<br><br><color=#54C5FF>CONTEST GROUP</color><br>Compete with other players close to your level. At the end of the contest, all players who participated and earned points can claim a reward chest based on their final contest group ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br><color=#54C5FF>SCHEDULE</color><br>Players are not able to battle during Regroup phases.<br> Battle Phases:<br> • 7:30 AM - 10:30 AM PT<br> • 7:30 PM - 10:30 PM PT<br> Regroup Phases:<br> • 10:30 AM - 7:30 PM PT<br> • 10:30 PM - 7:30 AM PT<br><br><color=#54C5FF>ARENA PACK AND DAILY QUESTS</color><br> • PvP battles completed in Summoner Showdown events will count towards the ARENA READY Daily Quest.<br> • PvP wins in Summoner Showdown events will count towards the PVP BRAWLER Daily Quest.<br> • Battles in Summoner Showdown events will progress the player towards unlocking their ARENA PACK in the same manner as normal PVP Arena battles.
+LTA_S1_202107_EVENT_5_INFO_BODY|<br><br>Welcome to Summoner Showdown! Use the allowed characters and spells to battle against other players, earn points, and win rewards.<br><br><color=#54C5FF>CHARACTER REQUIREMENTS</color><br>Usable characters, character requirements, and usable spells are displayed by tapping the UNITS button. They are also displayed in the event preview.<br><br><color=#54C5FF>BOLSTER</color><br>In Summoner Showdowns player level, spell level, and character stats are affected by Bolster in battle. If a character meets the minimum requirements of a given Summoner Showdown but is below the following values, they will be bolstered to those values.<br><br> Player Level:<br> • Level 80<br><br> Character Stats:<br> • Level: 80<br> • Stars: 7<br> • Gear Tier: 8<br> • Ability Level: 4<br> • Sorcerer Stone: Highest quality<br><br> Spell Level:<br> • Level 3<br><br><color=#54C5FF>ARENA STAMINA</color><br>When a character is used in battle it will go on cooldown and will be unavailable for use for the remainder of this event unless refreshed with Stamina Potions. You can spend Stamina Potions to refresh a character and battle with them again right away, up to a max of 10 times per event. The Stamina Potion refresh cost will increase per use on a single character per event. Stamina Potions can be obtained from Daily Quests, the Club Exchange, and the Tournament Exchange.<br><br><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<br><br><color=#54C5FF>EARNING POINTS</color><br> • Earn points for every battle completed in this PvP event. A battle only grants points if it concludes before the event ends. You can earn points from the following sources when battling:<br><br> • Completing Battle: 2000 points<br><br> • Winning Battle: 5000 points<br><br> • Defeating Characters: 400 points per opponent character defeated in the battle<br><br> • Surviving Characters:  200 points per surviving teammate character at the end of battle<br><br> • Progress Points: Earn points for each Gear Tier and Star for undefeated characters on battle end. Points are based on stats before BOLSTER is applied.<br> • Gear Tiers:<br> Gear Tier 3 - 10 points<br> Gear Tier 4 - 40 points<br> Gear Tier 5 - 60 points<br> Gear Tier 6 - 80 points<br> Gear Tier 7 - 100 points<br> Gear Tier 8 - 160 points<br><br> • Stars: <br> Star 3 - 20 points<br> Star 4 - 20 points<br> Star 5 - 40 points<br> Star 6 - 40 points<br> Star 7 - 80 points<br><br> • Bonus Point Characters: Additional points for each bonus character brought into battle.<br><br> The following Characters each grant 300 bonus points per battle for this event:<br> • Cruella<br> • Eve<br> • Wall•E<br> • Quorra<br> • Maurice<br><br><color=#54C5FF>CONTEST GROUP</color><br>Compete with other players close to your level. At the end of the contest, all players who participated and earned points can claim a reward chest based on their final contest group ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br><color=#54C5FF>SCHEDULE</color><br>Players are not able to battle during Regroup phases.<br> Battle Phases:<br> • 7:30 AM - 10:30 AM PT<br> • 7:30 PM - 10:30 PM PT<br> Regroup Phases:<br> • 10:30 AM - 7:30 PM PT<br> • 10:30 PM - 7:30 AM PT<br><br><color=#54C5FF>ARENA PACK AND DAILY QUESTS</color><br> • PvP battles completed in Summoner Showdown events will count towards the ARENA READY Daily Quest.<br> • PvP wins in Summoner Showdown events will count towards the PVP BRAWLER Daily Quest.<br> • Battles in Summoner Showdown events will progress the player towards unlocking their ARENA PACK in the same manner as normal PVP Arena battles.
 EMOTE_VANELLOPE_NAME|VANELLOPE EMOTE
 EMOTE_VANELLOPE_DESC|Au revoir, Admiral Underpants.
 EMOTE_RALPH_NAME|WRECK-IT RALPH EMOTE
@@ -19087,6 +19323,9 @@ STORE_ITEM_FTUE_D0_TP_NAME|SUPER STARTER LEVEL UP POTIONS BUNDLE
 STORE_ITEM_FTUE_D0_TP_SUBTITLE|PREPARE FOR THE FUTURE WITH ENOUGH <color=#54C5FF>LEVEL UP POTIONS</color> TO POWER UP YOUR CHARACTERS. LEVEL UP POTIONS ARE USED TO INCREASE THE LEVEL OF YOUR CHARACTERS.
 STORE_ITEM_FTUE_D0_T1_T3_GEAR_NAME|SUPER STARTER GEAR BUNDLE
 STORE_ITEM_FTUE_D0_T1_T3_GEAR_SUBTITLE|PREPARE YOUR TEAM FOR LONG TERM POWER AND SUCCESS WITH AN ALMOST ENDLESS SUPPLY OF GEAR! EQUIP GEAR TO YOUR CHARACTERS TO <color=#54C5FF>MAKE THEM STRONGER</color> IN BATTLE.
+LTA_CLAIM_REWARDS|CLAIM REWARDS!
+LTA_TEST_PORTAL_SHORT_DESC_KEY|Limited Time Arena event test!
+LTA_INFO_CARD_3_DESC|EARN PRIZES FOR THE EVENT AND INCREASE YOUR SEASON RANKING
 UNIT_PROMO_MAT_SMEE|SMEE TOKENS
 SMEE_UNIT_NAME|SMEE
 SMEE_ABILBASIC_NAME|CLUMSY SERVICE
@@ -19134,6 +19373,7 @@ WENDYDARLING_SPECIALB_ABILPREVIEWUPGRADE_03|Target's Shadows are guaranteed to g
 WENDYDARLING_PASSIVEA_DESC_01|When Wendy or a teammate receive <color=#FEF8E4><link=BATTLE_EFFECT_CHARM>[CHARM]</link></color>, <color=#FEF8E4>{0:P0}</color> chance to Cleanse it.<br><br>On Offense in Club Conquest, transfer it to a random opponent instead.
 WENDYDARLING_PASSIVEA_DESC_02|When Wendy or a teammate receive <color=#FEF8E4><link=BATTLE_EFFECT_CHARM>[CHARM]</link></color>, Cleanse it.<br><br>On Offense in Club Conquest, transfer it to a random opponent instead.
 WENDYDARLING_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#FEF8E4>{0:P0}</color> chance to Cleanse or transfer Charm.
+BATTLE_RESULTS_DRAW|DRAW
 TROPHY_PETER_PAN_NAME|NEVERLAND TROPHY
 TROPHY_PETER_PAN_DESC|Awarded for completing the Neverland Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 EMOTE_WENDY_NAME|WENDY EMOTE
@@ -19226,6 +19466,32 @@ EVENT_202107_PETER_PAN_C_L5_NAME|PETER PAN VI
 EVENT_202107_PETER_PAN_C_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 7</color>
 EVENT_202107_PETER_PAN_C_L6_NAME|PETER PAN VII
 EVENT_202107_PETER_PAN_C_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 8</color>
+LCA_LTA_S1_202107_INBOX_PREVIEW_SUBJECT|Coming Soon: Summoner Showdown Season 1 Leaderboard Contest
+LCA_LTA_S1_202107_INBOX_PREVIEW_BODY|Summoner,<BR><BR>The <color=#54C5FF>SUMMONER SHOWDOWN SEASON 1 LEADERBOARD CONTEST</color> is starting soon! Get ready to face off with other Summoners in Showdown PvP events over the coming weeks to rank on this seasonal Leaderboard. Complete battles for points and earn Maleficent tokens, Miguel tokens, Delta Runes, and other exciting rewards!<br><br>The following Characters will be featured in battles this season: <br>• Anger<br>• Baloo<br>• Barley<br>• Quasimodo<br>• Cruella<br>• Daisy Duck<br>• Darkwing Duck<br>• Eve<br>• Fred<br>• Genie<br>• Hermes<br>• Honey Lemon<br>• Hopper<br>• The Horned King<br>• Jack Sparrow<br>• Jangles<br>• Jasmine<br>• Madam Mim<br>• Maurice<br>• Merlin<br>• Moana<br>• Monterey Jack<br>• Olaf<br>• Pete<br>• Quorra<br>• Rafiki<br>• Sally<br>• Scar<br>• Simba<br>• The Manticore<br>• Wall•E<br><br>The following Spells will be featured in battles this season:<br>• Blue Fairy Magic<br>• Clock Tower<br>• Duke Caboom<br>• Fairy Slumber<br>• Infinity Sided Die<br>• Magical Meteor<br>• Peanut Pummel<br>• Prince John's Taxes<br>• Snowgies<br>• Splash Mountain Soak<br>• Sugar Rush<br>• Thunder Mountain Boom<br>• Trigger's Tower<br>• Zap
+LCA_LTA_S1_202107_INBOX_START_SUBJECT|Summoner Showdown Season 1 Leaderboard Contest
+LCA_LTA_S1_202107_INBOX_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>SUMMONER SHOWDOWN SEASON 1 LEADERBOARD CONTEST</color> has begun! Face off with other Summoners in Showdown PvP events over the coming weeks to rank on this seasonal leaderboard. Complete battles for points and earn Maleficent tokens, Miguel tokens, Delta Runes, and other exciting rewards!<br><br>The following Characters will be featured in battles this season:<br>• Anger<br>• Baloo<br>• Barley<br>• Quasimodo<br>• Cruella<br>• Daisy Duck<br>• Darkwing Duck<br>• Eve<br>• Fred<br>• Genie<br>• Hermes<br>• Honey Lemon<br>• Hopper<br>• The Horned King<br>• Jack Sparrow<br>• Jangles<br>• Jasmine<br>• Madam Mim<br>• Maurice<br>• Merlin<br>• Moana<br>• Monterey Jack<br>• Olaf<br>• Pete<br>• Quorra<br>• Rafiki<br>• Sally<br>• Scar<br>• Simba<br>• The Manticore<br>• Wall•E<br><br>The following Spells will be featured in battles this season:<br>• Blue Fairy Magic<br>• Clock Tower<br>• Duke Caboom<br>• Fairy Slumber<br>• Infinity Sided Die<br>• Magical Meteor<br>• Peanut Pummel<br>• Prince John's Taxes<br>• Snowgies<br>• Splash Mountain Soak<br>• Sugar Rush<br>• Thunder Mountain Boom<br>• Trigger's Tower<br>• Zap
+LTA_S1_202107_EVENT_1_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare for battle! <color=#54C5FF>SUMMONER SHOWDOWN ROUND 1</color> is starting soon! Get ready to face off with other Summoners in this PvP event to earn Gamma Runes and Gold.
+LTA_S1_202107_EVENT_1_INBOX_PREVIEW_SUBJECT|Coming Soon: Summoner Showdown Round 1
+LTA_S1_202107_EVENT_1_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 1</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
+LTA_S1_202107_EVENT_1_INBOX_START_SUBJECT|Summoner Showdown Round 1
+LTA_S1_202107_EVENT_2_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare for battle! <color=#54C5FF>SUMMONER SHOWDOWN ROUND 2</color> is starting soon! Get ready to face off with other Summoners in this PvP event to earn Gamma Runes and Gold.
+LTA_S1_202107_EVENT_2_INBOX_PREVIEW_SUBJECT|Coming Soon: Summoner Showdown Round 2
+LTA_S1_202107_EVENT_2_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 2</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
+LTA_S1_202107_EVENT_2_INBOX_START_SUBJECT|Summoner Showdown Round 2
+LTA_S1_202107_EVENT_3_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare for battle! <color=#54C5FF>SUMMONER SHOWDOWN ROUND 3</color> is starting soon! Get ready to face off with other Summoners in this PvP event to earn Gamma Runes and Gold.
+LTA_S1_202107_EVENT_3_INBOX_PREVIEW_SUBJECT|Coming Soon: Summoner Showdown Round 3
+LTA_S1_202107_EVENT_3_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 3</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
+LTA_S1_202107_EVENT_3_INBOX_START_SUBJECT|Summoner Showdown Round 3
+LTA_S1_202107_EVENT_4_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare for battle! <color=#54C5FF>SUMMONER SHOWDOWN ROUND 4</color> is starting soon! Get ready to face off with other Summoners in this PvP event to earn Gamma Runes and Gold.
+LTA_S1_202107_EVENT_4_INBOX_PREVIEW_SUBJECT|Coming Soon: Summoner Showdown Round 4
+LTA_S1_202107_EVENT_4_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 4</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
+LTA_S1_202107_EVENT_4_INBOX_START_SUBJECT|Summoner Showdown Round 4
+LTA_S1_202107_EVENT_5_INBOX_PREVIEW_BODY|Summoner,<BR><BR>Prepare for battle! <color=#54C5FF>SUMMONER SHOWDOWN ROUND 5</color> is starting soon! Get ready to face off with other Summoners in this PvP event to earn Gamma Runes and Gold.
+LTA_S1_202107_EVENT_5_INBOX_PREVIEW_SUBJECT|Coming Soon: Summoner Showdown Round 5
+LTA_S1_202107_EVENT_5_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 5</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
+LTA_S1_202107_EVENT_5_INBOX_START_SUBJECT|Summoner Showdown Round 5
+LTA_MILESTONE_INFO_BODY|<color=#d29bfe>SUMMONER SHOWDOWN MILESTONES:</color><br>Unlock milestone rewards by earning points in this Summoner Showdown event. Earn as many Showdown points as you can before the time runs out!<br><br>Showdown Points and Milestones will reset after the end of the Summoner Showdown, so be sure to collect as many rewards as you can.
+LTA_MILESTONE_INFO_HEADER|SUMMONER SHOWDOWN MILESTONES
 EVENT_202107_RAYA_INBOX_EVENT_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event has begun!<br><br>Battle with your team of <color=#54C5FF>ADVENTURERS</color> to earn exclusive <color=#54C5FF>NAMAARI</color> and <color=#54C5FF>RAYA</color> tokens!<br><br>Good luck, and see you in the Arena!
 EVENT_202107_RAYA_INBOX_EVENT_START_SUBJECT|The Heart and Fang event has started!
 EVENT_202107_RAYA_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event is ending soon!<br><br>Battle with your team of <color=#54C5FF>ADVENTURERS</color> to earn exclusive <color=#54C5FF>NAMAARI</color> and <color=#54C5FF>RAYA</color> tokens before the event ends. <br><br>Good luck, and see you in the Arena!
@@ -19234,4 +19500,5 @@ EVENT_202107_RAYA_INBOX_PREVIEW_SUBJECT|Coming Soon: Heart and Fang
 EVENT_202107_RAYA_INBOX_PREVIEW_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event is coming soon!<br><br> Battle with your team of <color=#54C5FF>ADVENTURERS</color> to earn exclusive <color=#54C5FF>NAMAARI</color> and <color=#54C5FF>RAYA</color> tokens!<br><br>Good luck, and see you in the Arena!
 EVENT_202107_RAYA_INBOX_DAILY_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event continues. Power up your <color=#54C5FF>ADVENTURER</color> Characters to earn exclusive <color=#54C5FF>NAMAARI</color> and <color=#54C5FF>RAYA</color> Tokens. Battle to earn rewards every day during the event! Be sure to use your <color=#54C5FF>FREE</color> attempts, and request another from your club.<br><br>Good luck, and see you in the Arena!
 EVENT_202107_RAYA_INBOX_DAILY_SUBJECT|The Heart and Fang Event continues!
-ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
+EXCHANGE_MAX|<color=#FF536F>MAX</color>
+ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
