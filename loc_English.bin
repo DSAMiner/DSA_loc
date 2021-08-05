@@ -2350,6 +2350,8 @@ CURRENCY_GRANDCOINS_NAME|GRAND COINS
 CURRENCY_GRANDCOINS_DESC|Grand Coins are earned by completing battles using Grand Energy. Earn Grand Coins to open the Grand Chest in the Store.
 CURRENCY_FIREWORKS_COINS_NAME|FIREWORK COINS
 CURRENCY_FIREWORKS_COINS_DESC|Collect <color=#54C5FF>Firework Coins</color> from daily gifts and <color=#54C5FF>Club Dungeon Bonus Rewards</color> for a limited time.<BR><BR>Use Firework Coins to open the <color=#54C5FF>Fireworks Chest</color> available in the Store.
+CURRENCY_PAWCOIN_NAME|PAW COINS
+CURRENCY_PAWCOIN_DESC|Collect <color=#54C5FF>Paw Coins</color> throughout the Arena from August 06 - 28.<BR><BR>Use Paw Coins to open the <color=#54C5FF>Meow Paw Pack</color> or <color=#54C5FF>Woof Paw Pack</color> available in the Store.
 CU_20200122_BODY|Summoner, <br><br>Updates are here! Here's a list of what's new! Please be sure to check our Newsletter for further detail. <br><br>- PvP coins have been changed to "Tournament Coins". Earn them in the Sorcerer's Tournament! <br>- The Tournament Exchange now has Hades, Shan Yu, Mor'du, and Merlin tokens. <br>- Earn Robin Hood in the PvP Arena. <br>- PvP Daily Quest and Tournament Daily Quest rewards have been rebalanced <br>- Various bug fixes.
 CU_20200122_SUBJECT|Updates are Here!
 CU_20200129_BODY|Summoner, <br><br>Updates are here! Here's a list of what's new! Please be sure to check our Newsletter for further detail. <br><br>- Summoner's Challenges requirements for some of the Defense and Support battles have been lowered.<br>- Gold Challenge rewards have been rebalanced. <br>- Some characters have changed in the Villains Elite Campaign- Monterey Jack now drops at node 2B, Tinker Bell at 2C, and Kronk at 3C.<br>- Gold now drops in the Grand Campaign. <br>- Passholder XP now drops in Heroes and Villains Campaign. <br>- Various balance and bug fixes.<br><br>As a reminder, the Cave of Wonders Event will be ending soon, so be sure to finish those battles!
@@ -4791,6 +4793,10 @@ PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYHEROES_DESC|(Optional) Complete Heroes E
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYVILLAINS_DESC|(Optional) Complete Villians Elite Battles
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYTOURNAMENT_DESC|(Optional) Complete Sorcerer's Tournament Battles
 PLAYER_ACTIVITY_EVENT_202104_HUNNYDAILYSTORE_NAME|DAILY HUNNY HUNT
+PLAYER_ACTIVITY_EVENT_202108_PAWPURSUIT_NAME|DAILY PAW PURSUIT
+PLAYER_ACTIVITY_EVENT_202108_PVP_BATTLES_DESC|(Optional) Complete PvP Arena Battles
+PLAYER_ACTIVITY_EVENT_202108_CAST_SPELLS_DESC|(Optional) Cast Spells in Battle
+PLAYER_ACTIVITY_EVENT_202108_DEFEAT_ENEMIES_DESC|(Optional) Defeat Enemies
 INBOX_EVENT_202105_MDFLASHSOON_SUBJECT|Coming Soon - Mother's Day Flash Gifts
 INBOX_EVENT_202105_MDFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Mother's Day Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>May 09 - 15</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202105_MDFLASHGIFT_SUBJECT|Mother's Day Flash Gift
@@ -4894,6 +4900,22 @@ INBOX_EVENT_202107_ALICEINWONDERLAND_SUBJECT|Alice in Wonderland 70th Anniversar
 INBOX_EVENT_202107_ALICEINWONDERLAND_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Alice in Wonderland 70th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202107_JUNGLECRUISE_SUBJECT|Jungle Cruise Release - Free Gift!
 INBOX_EVENT_202107_JUNGLECRUISE_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Jungle Cruise Release</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202108_PAWPARTY_CATDAY_SUBJECT|Paw Party - Cat Day Celebration Gift
+INBOX_EVENT_202108_PAWPARTY_CATDAY_BODY|Summoner,<br><br>It's raining cats and dogs in the Arena! Celebrate <color=#54C5FF>Cat Day</color> today with this FREE Gift!<br><br>Earn more Paw Coins in <color=#54C5FF>Limited Time Daily Quests</color> from <color=#54C5FF>August 06 - 14</color>!<br><br>Use <color=#54C5FF>Paw Coins</color> to open your choice between the <color=#54C5FF>Meow Paw Pack</color> or <color=#54C5FF>Woof Paw Pack</color> available in the Store from <color=#54C5FF>August 06 - 28</color>. Open for a chance at exclusive talismans and more!<br><br>Each Pack open counts as a vote for either Team Meow or Team Woof. Find out the community team pick on <color=#54C5FF>August 30</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202108_PAWPARTY_DOGDAY_SUBJECT|Paw Party - Dog Day Celebration Gift
+INBOX_EVENT_202108_PAWPARTY_DOGDAY_BODY|Summoner,<br><br>It's raining cats and dogs in the Arena! Celebrate <color=#54C5FF>Dog Day</color> today with this FREE Gift!<br><br>Earn more Paw Coins in <color=#54C5FF>Limited Time Club Dungeon Bonus Rewards</color> from <color=#54C5FF>August 22 - 28</color>!<br><br>Use <color=#54C5FF>Paw Coins</color> to open your choice between the <color=#54C5FF>Meow Paw Pack</color> or <color=#54C5FF>Woof Paw Pack</color> available in the Store from <color=#54C5FF>August 06 - 28</color>. Open for a chance at exclusive talismans and more!<br><br>Each Pack open counts as a vote for either Team Meow or Team Woof. Find out the community team pick on <color=#54C5FF>August 30</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202108_PAWPARTY_FLASH_SUBJECT|Paw Party - Limited Time Flash Gifts
+INBOX_EVENT_202108_PAWPARTY_FLASH_BODY|Summoner,<br><br>It's raining cats and dogs in the Arena! Join the <color=#54C5FF>Paw Party</color> celebration with this FREE <color=#54C5FF>Paw Coin Flash Gift</color>!<br><br>Stay on the lookout for more <color=#54C5FF>Flash Gifts</color> from <color=#54C5FF>August 15 - 21</color>, and enable push notifications so you don't miss them!<br><br>Use <color=#54C5FF>Paw Coins</color> to open your choice between the <color=#54C5FF>Meow Paw Pack</color> or <color=#54C5FF>Woof Paw Pack</color> available in the Store from <color=#54C5FF>August 06 - 28</color>. Open for a chance at exclusive talismans and more!<br><br>Each Pack open counts as a vote for either Team Meow or Team Woof. Find out the community team pick on <color=#54C5FF>August 30</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202108_PAWPARTY_DUNGEON_SUBJECT|Paw Party - Limited Time Club Dungeon Bonus
+INBOX_EVENT_202108_PAWPARTY_DUNGEON_BODY|Summoner,<br><br>It's raining cats and dogs in the Arena! Join the <color=#54C5FF>Paw Party</color> celebration with FREE <color=#54C5FF>Paw Coins</color>.<br><br>Earn more Paw Coins in <color=#54C5FF>Limited Time Club Dungeon Bonus Rewards</color> from <color=#54C5FF>August 22 - 28</color>!<br><br>Use <color=#54C5FF>Paw Coins</color> to open your choice between the <color=#54C5FF>Meow Paw Pack</color> or <color=#54C5FF>Woof Paw Pack</color> available in the Store from <color=#54C5FF>August 06 - 28</color>. Open for a chance at exclusive talismans and more!<br><br>Each Pack open counts as a vote for either Team Meow or Team Woof. Find out the community team pick on <color=#54C5FF>August 30</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202108_PAWPARTY_2XCAT_SUBJECT|Paw Party - 2x Token Drop Bonus Event
+INBOX_EVENT_202108_PAWPARTY_2XCAT_BODY|Summoner,<br><br>Join the <color=#54C5FF>Paw Party</color> celebration with <color=#54C5FF>2x Token Drops</color> for select character nodes in Adventure Campaigns for a limited time!<br><br>Look for the BONUS banner on nodes for <color=#54C5FF>Simba</color>, <color=#54C5FF>Scar</color>, <color=#54C5FF>Shere Khan</color>, <color=#54C5FF>Pete</color>, and <color=#54C5FF>Jasmine</color>.<br><br>Thank you for your continued support, and see you in the Arena!
+BONUS_LOOT_2XDROP_202108_CATS_NAME|PAW PARTY 2X TOKEN DROP
+INBOX_EVENT_202108_PAWPARTY_2XDOG_SUBJECT|Paw Party - 2x Token Drop Bonus Event
+INBOX_EVENT_202108_PAWPARTY_2XDOG_BODY|Summoner,<br><br>Join the <color=#54C5FF>Paw Party</color> celebration with <color=#54C5FF>2x Token Drops</color> for select character nodes in Adventure Campaigns for a limited time!<br><br>Look for the BONUS banner on nodes for <color=#54C5FF>Pluto</color>, <color=#54C5FF>Goofy</color>, <color=#54C5FF>Sheriff of Nottingham</color>, and <color=#54C5FF>Big Bad Wolf</color>.<br><br>Thank you for your continued support, and see you in the Arena!
+BONUS_LOOT_2XDROP_202108_DOGS_NAME|PAW PARTY 2X TOKEN DROP
+INBOX_EVENT_202108_PAWPARTY_QUESTS_SUBJECT|Paw Party - Limited Time Daily Quests
+INBOX_EVENT_202108_PAWPARTY_QUESTS_BODY|Summoner,<br><br>It's raining cats and dogs in the Arena! Join the <color=#54C5FF>Paw Party</color> celebration with FREE <color=#54C5FF>Paw Coins</color>.<br><br>Earn more Paw Coins in <color=#54C5FF>Limited Time Daily Quests</color> from <color=#54C5FF>August 06 - 14</color>!<br><br>Use <color=#54C5FF>Paw Coins</color> to open your choice between the <color=#54C5FF>Meow Paw Pack</color> or <color=#54C5FF>Woof Paw Pack</color> available in the Store from <color=#54C5FF>August 06 - 28</color>. Open for a chance at exclusive talismans and more!<br><br>Each Pack open counts as a vote for either Team Meow or Team Woof. Find out the community team pick on <color=#54C5FF>August 30</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<br><br>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -11636,6 +11658,18 @@ PIN_CAPTAINSHAT_NAME|CAPTAIN'S HAT TALISMAN
 PIN_CAPTAINSHAT_DESC|Heads up, coming through.
 PIN_CRUISESHIP_NAME|LA QUILA TALISMAN
 PIN_CRUISESHIP_DESC|Ladies and gentlemen, the moment you've all been waiting for!
+PIN_OLIVER_NAME|OLIVER TALISMAN
+PIN_OLIVER_DESC|When are we gonna get those hotdogs?
+PIN_SCATCAT_NAME|SCAT CAT TALISMAN
+PIN_SCATCAT_DESC|This is outrageous. It's crazy!
+PIN_MACHIAVELLI_NAME|MACHIAVELLI TALISMAN
+PIN_MACHIAVELLI_DESC|I'm so sorry about the cat.
+PIN_DODGER_NAME|DODGER TALISMAN
+PIN_DODGER_DESC|Check ya later!
+PIN_LADY_NAME|LADY TALISMAN
+PIN_LADY_DESC|Oh, dear.
+PIN_PERCY_NAME|PERCY TALISMAN
+PIN_PERCY_DESC|Who's a good doggie?
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -14271,6 +14305,12 @@ STORE_ITEM_FIREWORKS_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS BIG LIMITED TIME 
 STORE_ITEM_CELEBRATION_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS LIMITED TIME DEAL. GET A SPECIAL <color=#54C5FF>EMOTE</color>, <color=#54C5FF>TALISMAN</color>, 1X ULTIMATE CHEST, GEMS, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_CELEBRATION_BUNDLE_SUBTITLE_02|CELEBRATE TODAY WITH THIS BIG LIMITED TIME DEAL. GET A UNIQUE TALISMAN, 1X ULTIMATE CHEST, LOYALTY COINS, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_CELEBRATION_BUNDLE_SUBTITLE_03|CELEBRATE TODAY WITH THIS BIG LIMITED TIME DEAL. GET A SPECIAL <color=#54C5FF>EMOTE</color>, 1X ULTIMATE CHEST, LOYALTY COINS, ENERGY, ABILITY RUNES, AND MORE.
+STORE_ITEM_PAWPARTY_CATPAWPACK_NAME|MEOW PAW PACK
+STORE_ITEM_PAWPARTY_CATPAWPACK_SUBTITLE|COLLECT GOLD, A LOYALTY COIN, AND TRY YOUR LUCK FOR A CHANCE AT EXCLUSIVE TALISMANS, AND MORE. AVAILABLE FOR A LIMITED TIME. PURCHASING THIS PACK COUNTS AS A VOTE FOR <color=#54C5FF>TEAM MEOW</color>.
+STORE_ITEM_PAWPARTY_DOGPAWPACK_NAME|WOOF PAW PACK
+STORE_ITEM_PAWPARTY_DOGPAWPACK_SUBTITLE|COLLECT GOLD, A LOYALTY COIN, AND TRY YOUR LUCK FOR A CHANCE AT EXCLUSIVE TALISMANS, AND MORE. AVAILABLE FOR A LIMITED TIME. PURCHASING THIS PACK COUNTS AS A VOTE FOR <color=#54C5FF>TEAM WOOF</color>.
+STORE_ITEM_PAWPARTY_PAWCOINS_NAME|PAW COINS
+STORE_ITEM_PAWPARTY_PAWCOINS_SUBTITLE|COLLECT <color=#54C5FF>PAW COINS</color> THROUGHOUT THE ARENA FROM <color=#54C5FF>AUGUST 06 - 28</color>. PAW COINS CAN BE USED TO PURCHASE THE <color=#54C5FF>MEOW PAW PACK</color> AND <color=#54C5FF>WOOF PAW PACK</color>, AVAILABLE IN THE STORE. OPEN PACKS TO VOTE FOR TEAM MEOW OR TEAM WOOF!
 STORE_ITEM_CELEBRATION_EMOTE_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS LIMITED TIME DEAL. GET A <color=#54C5FF>UNIQUE EMOTE</color>, 1X ULTIMATE CHEST, GEMS, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_FLAWED_ALL_SS_BUNDLE_DESC|BRING YOUR TEAM TO THE NEXT LEVEL. UPGRADE AND POWER UP A FULL SET OF FLAWED SORCERER STONES WITH THIS BUNDLE.
 STORE_ITEM_FLAWED_ALL_SS_BUNDLE_NAME|SUPER STONE BUNDLE
@@ -18606,6 +18646,9 @@ OUTFIT_HADES_DSA_NAME|SORCERER'S ARENA HADES OUTFIT TOKENS
 LOGIN_D7_ANNIVERSARY_Y1_NAME|ANNIVERSARY LOGIN CALENDAR
 LOGIN_D7_ANNIVERSARY_Y1_TAB|ANNIVERSARY
 LOGIN_D7_ANNIVERSARY_Y1_SUBTITLE|TO CELEBRATE THE 1-YEAR ANNIVERSARY OF DSA, CLAIM A FREE EXCLUSIVE SORCERER'S ARENA HADES OUTFIT AND MORE. FROM THE WHOLE DSA TEAM, THANK YOU FOR PLAYING!
+LOGIN_D7_GENERIC_CELEBRATION_NAME|CELEBRATION LOGIN CALENDAR
+LOGIN_D7_GENERIC_CELEBRATION_TAB|CELEBRATION
+LOGIN_D7_GENERIC_CELEBRATION_SUBTITLE|CELEBRATE WITH FREE REWARDS! CLAIM THIS LOGIN CALENDAR NOW TO GUARANTEE 7 DAYS OF REWARDS.
 DSA_ANNIVERSARY_STICKER|DSA ANNIVERSARY
 UNIT_PROMO_MAT_CHIP|CHIP TOKENS
 UNIT_PROMO_MAT_DALE|DALE TOKENS
@@ -19323,7 +19366,7 @@ STORE_ITEM_FTUE_D0_TP_NAME|SUPER STARTER LEVEL UP POTIONS BUNDLE
 STORE_ITEM_FTUE_D0_TP_SUBTITLE|PREPARE FOR THE FUTURE WITH ENOUGH <color=#54C5FF>LEVEL UP POTIONS</color> TO POWER UP YOUR CHARACTERS. LEVEL UP POTIONS ARE USED TO INCREASE THE LEVEL OF YOUR CHARACTERS.
 STORE_ITEM_FTUE_D0_T1_T3_GEAR_NAME|SUPER STARTER GEAR BUNDLE
 STORE_ITEM_FTUE_D0_T1_T3_GEAR_SUBTITLE|PREPARE YOUR TEAM FOR LONG TERM POWER AND SUCCESS WITH AN ALMOST ENDLESS SUPPLY OF GEAR! EQUIP GEAR TO YOUR CHARACTERS TO <color=#54C5FF>MAKE THEM STRONGER</color> IN BATTLE.
-LTA_CLAIM_REWARDS|CLAIM REWARDS!
+LTA_CLAIM_REWARDS|CLAIM AVAILABLE REWARDS!
 LTA_TEST_PORTAL_SHORT_DESC_KEY|Limited Time Arena event test!
 LTA_INFO_CARD_3_DESC|EARN PRIZES FOR THE EVENT AND INCREASE YOUR SEASON RANKING
 UNIT_PROMO_MAT_SMEE|SMEE TOKENS
@@ -19492,6 +19535,10 @@ LTA_S1_202107_EVENT_5_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER 
 LTA_S1_202107_EVENT_5_INBOX_START_SUBJECT|Summoner Showdown Round 5
 LTA_MILESTONE_INFO_BODY|<color=#d29bfe>SUMMONER SHOWDOWN MILESTONES:</color><br>Unlock milestone rewards by earning points in this Summoner Showdown event. Earn as many Showdown points as you can before the time runs out!<br><br>Showdown Points and Milestones will reset after the end of the Summoner Showdown, so be sure to collect as many rewards as you can.
 LTA_MILESTONE_INFO_HEADER|SUMMONER SHOWDOWN MILESTONES
+LTA_S1_202107_SHOWDOWN_BUNDLE_NAME|SHOWDOWN BUNDLE
+LTA_S1_202107_SHOWDOWN_BUNDLE_DESC|GET TONS OF CHARACTER TOKENS, INCLUDING FEATURED BONUS POINT CHARACTERS FOR THIS SUMMONER SHOWDOWN SEASON! INCLUDES T4 AND T5 GEAR TO GET YOUR CHARACTERS IN FIGHTING SHAPE!
+LTA_S1_202107_SHOWDOWN_SUPER_BUNDLE_NAME|SHOWDOWN SUPER BUNDLE
+LTA_S1_202107_SHOWDOWN_SUPER_BUNDLE_DESC|GET TONS OF CHARACTER TOKENS, INCLUDING FEATURED BONUS POINT CHARACTERS FOR THIS SUMMONER SHOWDOWN SEASON! INCLUDES MASSIVE AMOUNT OF T4 AND T5 GEAR TO GET YOUR CHARACTERS IN FIGHTING SHAPE!
 EVENT_202107_RAYA_INBOX_EVENT_START_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event has begun!<br><br>Battle with your team of <color=#54C5FF>ADVENTURERS</color> to earn exclusive <color=#54C5FF>NAMAARI</color> and <color=#54C5FF>RAYA</color> tokens!<br><br>Good luck, and see you in the Arena!
 EVENT_202107_RAYA_INBOX_EVENT_START_SUBJECT|The Heart and Fang event has started!
 EVENT_202107_RAYA_INBOX_LAST_CHANCE_BODY|Summoner,<BR><BR>The <color=#54C5FF>HEART AND FANG</color> Event is ending soon!<br><br>Battle with your team of <color=#54C5FF>ADVENTURERS</color> to earn exclusive <color=#54C5FF>NAMAARI</color> and <color=#54C5FF>RAYA</color> tokens before the event ends. <br><br>Good luck, and see you in the Arena!
