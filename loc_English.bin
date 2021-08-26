@@ -4949,6 +4949,8 @@ INBOX_EVENT_202108_PAWPARTY_QUESTS_SUBJECT|Paw Party - Limited Time Daily Quests
 INBOX_EVENT_202108_PAWPARTY_QUESTS_BODY|Summoner,<br><br>It's raining cats and dogs in the Arena! Join the <color=#54C5FF>Paw Party</color> celebration with FREE <color=#54C5FF>Paw Coins</color>.<br><br>Earn more Paw Coins in <color=#54C5FF>Limited Time Daily Quests</color> from <color=#54C5FF>August 06 - 14</color>!<br><br>Use <color=#54C5FF>Paw Coins</color> to open your choice between the <color=#54C5FF>Meow Paw Pack</color> or <color=#54C5FF>Woof Paw Pack</color> available in the Store from <color=#54C5FF>August 06 - 28</color>. Open for a chance at exclusive talismans and more!<br><br>Each Pack open counts as a vote for either Team Meow or Team Woof. Find out the community team pick on <color=#54C5FF>August 30</color> on the official <color=#54C5FF>DSA Twitter Channel</color>!<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202108_BAMBI_SUBJECT|Bambi Anniversary - Free Gift!
 INBOX_EVENT_202108_BAMBI_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Bambi Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202108_MARYPOPPINS_SUBJECT|Mary Poppins Anniversary - Free Gift!
+INBOX_EVENT_202108_MARYPOPPINS_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Mary Poppins Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -11731,6 +11733,10 @@ PIN_BAMBI_NAME|BAMBI TALISMAN
 PIN_BAMBI_DESC|Purty.
 PIN_FLOWER_NAME|FLOWER TALISMAN
 PIN_FLOWER_DESC|He can call me a flower if he wants to.
+PIN_PENGUIN_NAME|PENGUIN TALISMAN
+PIN_PENGUIN_DESC|You're our favorite person.
+PIN_UMBRELLA_NAME|UMBRELLA TALISMAN
+PIN_UMBRELLA_DESC|Awk, that's gratitude for you.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -18495,6 +18501,8 @@ PASSHOLDER_202108_1_SEASON_NAME|PASSHOLDER SEASON 32
 PASSHOLDER_202108_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 32 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * RAYA TOKENS<br>  * NANMAARI TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202108_2_SEASON_NAME|PASSHOLDER SEASON 33
 PASSHOLDER_202108_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 33 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * GIZMODUCK TOKENS<BR>  * EVE TOKENS<br>  * WALL-E TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202109_1_SEASON_NAME|PASSHOLDER SEASON 34
+PASSHOLDER_202109_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 34 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * CRUELLA DE VIL TOKENS<br>  * SHAN YU TOKENS<br>  * GASTON TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PVP_MEGARA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MEGARA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MEGARA</color> and <color=#54C5FF>MORTAL POTION</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MEGARA_INBOX_SUBJECT|Megara Enters the PvP Arena!
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
@@ -18505,6 +18513,8 @@ PVP_CHIP_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>
 PVP_CHIP_INBOX_SUBJECT|Chip Enters the PvP Arena!
 PVP_NAMAARI_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>Namaari</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Namaari</color> and <color=#54C5FF>Raya</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_NAMAARI_INBOX_SUBJECT|Namaari Enters the PvP Arena!
+PVP_CRUELLA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>Cruella</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Cruella</color> Tokens.<BR><BR>As always, thank you for playing, and see you in the Arena!
+PVP_CRUELLA_INBOX_SUBJECT|Cruella Enters the PvP Arena!
 HERC_T5_BUNDLE_20_NAME|T5 GEAR BUNDLE
 HERC_T5_BUNDLE_20_SUBTITLE|GET READY TO CONQUER YOUR FOES. POWER UP YOUR HERCULES TEAM WITH THIS T5 GEAR BUNDLE.
 HERC_T6_BUNDLE_30_NAME|T6 GEAR BUNDLE
