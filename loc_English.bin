@@ -674,11 +674,15 @@ BATTLE_EFFECT_HARMFUL_IMMUNITY|HARMFUL IMMUNITY
 BATTLE_EFFECT_HARMFUL_IMMUNITY_DESC|Prevents harmful effects from being inflicted on the affected character.
 BATTLE_EFFECT_HASTE|HASTE
 BATTLE_EFFECT_HASTE_DESC|Increases Speed of the affected character by 50%.
+BATTLE_EFFECT_HASTE_MINOR|MINOR HASTE
+BATTLE_EFFECT_HASTE_MINOR_DESC|Increases Speed of the affected character by 25%.
 BATTLE_EFFECT_HEAL_BLOCK|HEAL BLOCK
 BATTLE_EFFECT_HEAL_BLOCK_DESC|Prevents the affected character from having their Health restored.
 BATTLE_EFFECT_HELPFUL_IMMUNITY|HELPFUL IMMUNITY
 BATTLE_EVENT_HELPFUL_IMMUNE|HELPFUL IMMUNE
 BATTLE_EFFECT_HELPFUL_IMMUNITY_DESC|Prevents helpful effects from being granted to the affected character.
+BATTLE_EFFECT_IMPRISON|IMPRISON
+BATTLE_EFFECT_IMPRISON_DESC|Affected character cannot use abilities. This effect does not naturally expire.
 BATTLE_EFFECT_INSTANTDEFEAT|INSTANT DEFEAT!
 BATTLE_EFFECT_INTIMIDATE|INTIMIDATE
 BATTLE_EFFECT_INTIMIDATE_DESC|Cannot perform the following actions:  Gain Speed Meter. Assist. Counterattack.
@@ -721,6 +725,8 @@ BATTLE_EFFECT_REFLECT_DESC|A portion of damage dealt to the affected character w
 BATTLE_EFFECT_REPAIRED|FIXED!
 BATTLE_EFFECT_REPAIRING|FIXING
 BATTLE_EFFECT_ROOT|ROOT
+BATTLE_EFFECT_SCALDING|SCALDING
+BATTLE_EFFECT_SCALDING_DESC|Deals percentage of character's max Health as damage each turn. Cannot be Cleansed. Duration is reduced by 1 each time affected character is Healed.
 BATTLE_EFFECT_SHIELD_BLOCK|SHIELD BLOCK
 BATTLE_EFFECT_SHIELD_BLOCK_DESC|Prevents the affected character from gaining or receiving Shield.
 BATTLE_EFFECT_SILENCE|SILENCE
@@ -729,6 +735,8 @@ BATTLE_EFFECT_SLEEP|SLEEP
 BATTLE_EFFECT_SLEEP_DESC|Affected character cannot use abilities. If this character is dealt damage, the effect is interrupted.
 BATTLE_EFFECT_SLOW|SLOW
 BATTLE_EFFECT_SLOW_DESC|Decreases Speed of the affected character by 50%.
+BATTLE_EFFECT_SLOW_MINOR|MINOR SLOW
+BATTLE_EFFECT_SLOW_MINOR_DESC|Decreases Speed of the affected character by 25%.
 BATTLE_EFFECT_UNSTOPPABLE|UNSTOPPABLE
 BATTLE_EFFECT_UNSTOPPABLE_DESC|Affected character is immune to Stun, Silence, Sleep, and Charm.
 BATTLE_EFFECT_URSULA_CONTRACT|URSULA'S CONTRACT
@@ -1017,7 +1025,7 @@ BIG_BAD_WOLF_ABILSPECIALB_DESC_U02|Dons sheep's clothing and <color=#FEF8E4>Entr
 BIG_BAD_WOLF_ABILSPECIALB_NAME|In Sheep's Clothing
 BIG_BAD_WOLF_DISGUISE_UNIT_NAME|NOT BIG BAD WOLF
 BIG_BAD_WOLF_UNIT_NAME|BIG BAD WOLF
-BLACK_CAULDRON_BASIC_DESC_01|Deal damage to target opponent. Chance to Purge a random Helpful effect from target.
+BLACK_CAULDRON_BASIC_DESC_01|Deal damage to target opponent. Chance to Purge a random Helpful effect from target. Reduce target's Speed Meter.
 BLACK_PEARL_CREW_UNIT_NAME|Captain Jack's Crew
 BONUS_LOOT_202002_GROUP_01_DESC|Complete the following Heroes Campaign Battles for a chance to earn <color=#FEF8E4>BONUS CHARACTER TOKENS</color>:<br><br><color=#FEF8E4>DEMONA</color> 2-B Elite, 6-D Elite<br><color=#FEF8E4>PETE</color> 3-D Elite, 7-D Elite<br><color=#FEF8E4>DR. FACILIER</color> 5-D Elite, 6-C Elite
 BONUS_LOOT_202002_GROUP_02_DESC|Complete the following Heroes Campaign Battles for a chance to earn <color=#FEF8E4>BONUS CHARACTER TOKENS</color>:<br><br><color=#FEF8E4>SYNDROME</color> 4-A Elite<br><color=#FEF8E4>RANDALL BOGGS</color> 5-A Elite, 7-A Elite
@@ -1819,6 +1827,8 @@ CLUB_SORT_COLLECTION_SCORE|SUMMONER SCORE
 CLUB_SORT_CONTRIBUTION_DAILY|DAILY RAID TICKETS
 CLUB_SORT_CONTRIBUTION_LIFETIME|LIFETIME RAID TICKETS
 CLUB_SORT_CONTRIBUTION_SEASONAL|SEASONAL RAID TICKETS
+CLUB_SORT_CONTRIBUTION_LIFETIME_TITANS|LIFETIME SIEGE ON OLYMPUS RAID TICKETS
+CLUB_SORT_CONTRIBUTION_SEASONAL_TITANS|SEASONAL SIEGE ON OLYMPUS RAID TICKETS
 CLUB_COOLDOWN_LABEL|YOU CAN JOIN A CLUB IN:
 CLUB_SORT_DONATION_COUNT|DONATIONS
 CLUB_SORT_JOIN_DATE|JOIN DATE
@@ -2284,9 +2294,9 @@ CRUELLADEVIL_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to
 CRUELLADEVIL_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage to the opponent with lowest Health.<br><br><color=#FEF8E4>{2:P0}</color> chance to transfer <color=#FEF8E4>{3:N0}</color> Helpful effect (excluding Taunt and Protect) from each opponent to a random non-Summoned teammate. If teammate is a Villain, restore <color=#5DFF89>{4:N0}</color> Health to them.
 CRUELLADEVIL_SPECIALB_ABILPREVIEWUPGRADE_01|If teammate is a Villain, restore Health to them.
 CRUELLADEVIL_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to transfer Helpful effect.
-CRUELLADEVIL_PASSIVEA_DESC_01|When your team defeats an opponent, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.
-CRUELLADEVIL_PASSIVEA_DESC_02|When your team defeats an opponent, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.<br><br>If defeated opponent was Summoned, grant <color=#FEF8E4>{4:N0}</color> random Helpful effect to non-Summoned Villain teammates.
-CRUELLADEVIL_PASSIVEA_DESC_03|When your team defeats an opponent, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.<br><br>If defeated opponent was Summoned, grant <color=#FEF8E4>{4:N0}</color> random Helpful effects to non-Summoned Villain teammates.
+CRUELLADEVIL_PASSIVEA_DESC_01|When an opponent is defeated, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.
+CRUELLADEVIL_PASSIVEA_DESC_02|When an opponent is defeated, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.<br><br>If defeated opponent was Summoned, grant <color=#FEF8E4>{4:N0}</color> random Helpful effect to non-Summoned Villain teammates.
+CRUELLADEVIL_PASSIVEA_DESC_03|When an opponent is defeated, do the following:<br><br>Extend the Duration of up to <color=#FEF8E4>{0:N0}</color> Helpful effect on up to <color=#FEF8E4>{1:N0}</color> teammates. Extend the Duration of up to <color=#FEF8E4>{2:N0}</color> Harmful effect on up to <color=#FEF8E4>{3:N0}</color> opponents.<br><br>If defeated opponent was Summoned, grant <color=#FEF8E4>{4:N0}</color> random Helpful effects to non-Summoned Villain teammates.
 CRUELLADEVIL_PASSIVEA_ABILPREVIEWUPGRADE_01|If defeated opponent was Summoned, grant <color=#FEF8E4>{0:N0}</color> random Helpful effect to non-Summoned Villain teammates.
 CRUELLADEVIL_PASSIVEA_ABILPREVIEWUPGRADE_02|Extend effect for <color=#FEF8E4>+{0:N0}</color> teammates.
 CRUELLADEVIL_PASSIVEA_ABILPREVIEWUPGRADE_03|Extend effect for <color=#FEF8E4>+{0:N0}</color> opponents.
@@ -2323,10 +2333,16 @@ CURRENCY_ARENA_DESC|Tournament Coins are earned by competing against other playe
 CURRENCY_ARENA_NAME|TOURNAMENT COINS
 CURRENCY_CLUB_DESC|Club Coins are earned by participating in Club Dungeon, Club Conquest, and Club Activities. They can be redeemed in the CLUB EXCHANGE
 CURRENCY_CLUB_NAME|CLUB COINS
-CURRENCY_RAID_DESC|Raid Coins are earned by participating in Raids. They can be redeemed in the RAID EXCHANGE
-CURRENCY_RAID_NAME|RAID COINS
-CURRENCY_URSULA_TICKET_DESC|Used by Clubs to start <color=#FEF8E4>RAID BATTLES</color>. Earned throughout various game modes and are delivered immediately to a Club's inventory.<br><br>Must be in a Club to obtain.
+CURRENCY_RAID_DESC|Forbidden Depths Raid Coins are earned by participating in the Forbidden Depths Raid. They can be redeemed in the FORBIDDEN DEPTHS RAID EXCHANGE.
+CURRENCY_RAID_NAME|FORBIDDEN DEPTHS RAID COINS
+CURRENCY_URSULA_TICKET_DESC|Used by Clubs to start <color=#FEF8E4>FORBIDDEN DEPTHS RAID BATTLES</color>. Earned throughout various game modes and are delivered immediately to a Club's inventory.<br><br>Must be in a Club to obtain.
 CURRENCY_URSULA_TICKET_NAME|FORBIDDEN DEPTHS RAID TICKET<br><size=80%><color=#BCB9ED>Club Currency</color></size>
+CURRENCY_TITANS_RAID_TICKET_DESC|Used by Clubs to start <color=#FEF8E4>SIEGE ON OLYMPUS RAID BATTLES</color>. Earned throughout various game modes and are delivered immediately to a Club's inventory.<br><br>Must be in a Club to obtain.
+CURRENCY_TITANS_RAID_TICKET_NAME|SIEGE ON OLYMPUS RAID TICKET<br><size=80%><color=#BCB9ED>Club Currency</color></size>
+CURRENCY_TITANS_RAID_NAME|SIEGE ON OLYMPUS RAID COINS
+CURRENCY_TITANS_RAID_DESC|Siege On Olympus Raid Coins are earned by participating in Siege on Olympus Raids. They can be redeemed in the SIEGE ON OLYMPUS RAID EXCHANGE.
+CURRENCY_TITAN_RAID_TICKET_NAME|SIEGE ON OLYMPUS RAID TICKET<br><size=80%><color=#BCB9ED>Club Currency</color></size>
+CURRENCY_TITAN_RAID_TICKET_DESC|Used by Clubs to start <color=#FEF8E4>RAID BATTLES</color> in the Titan Raid. Earned throughout various game modes and are delivered immediately to a Club's inventory.<br><br>Must be in a Club to obtain.
 CURRENCY_EVENT_COINS|EVENT COINS
 CURRENCY_EVENT_KEYS|EVENT KEYS
 CURRENCY_EVENT_NAME|EVENT CURRENCY
@@ -3527,6 +3543,124 @@ ENCHANTMENT_ALL_DEFENSE_EVASION_RECOVERY_TENACITY_DESC|Increases Defense, Evasio
 ENCHANTMENT_ALL_DEFENSE_HEALTH_SPEED_TENACITY_DESC|Increases Defense, Health, Speed, and Tenacity when equipped onto a Character.
 ENCHANTMENT_ALL_DEFENSE_HEALTH_SPEED_DESC|Increases Defense, Health, and Speed when equipped onto a Character.
 ENCHANTMENT_ALL_HEALTH_RECOVERY_SPEED_TENACITY_DESC|Increases Health, Recovery, Speed, and Tenacity when equipped onto a Character.
+ENCHANTMENT_08_DOWNTOWN_HERO_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|GLINTSTORM FIRESHELL AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|WINDGLINT WATERSTORM AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED WINDSHELL HEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_HERO_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|GLINTSTORM FIRESHELL AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|WINDGLINT WATERSTORM AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED WINDSHELL HEART AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_DOWNTOWN_VILLAIN_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND AMULET (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_08_KINGDOM_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|GLINTSTORM FIRESHELL AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|WINDGLINT WATERSTORM AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED WINDSHELL HEART AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_KINGDOM_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND AMULET (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_08_MYTHICAL_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|GLINTSTORM FIRESHELL AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|WINDGLINT WATERSTORM AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED WINDSHELL HEART AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_MYTHICAL_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND AMULET (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_08_WILDS_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|GLINTSTORM FIRESHELL AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|WINDGLINT WATERSTORM AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED WINDSHELL HEART AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_WILDS_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND AMULET (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_08_OCEANIC_ACCURACY_CRIT_CHANCE_CRIT_POWER_HEALTH_NAME|LUCKY LUMINBURST HEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_ACCURACY_CRIT_CHANCE_CRIT_POWER_OFFENSE_NAME|LUCKY LUMINBURST FIRE AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_ACCURACY_DEFENSE_HEALTH_POTENCY_NAME|LUMINOUS HEXSHELLED HEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_ACCURACY_DEFENSE_OFFENSE_POTENCY_NAME|LUMINOUS HEXSHELLED FIRE AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_ACCURACY_DEFENSE_OFFENSE_SPEED_NAME|LUMINOUS FIRESHELLED WIND AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_ACCURACY_OFFENSE_POTENCY_SPEED_NAME|LUMINOUS FIREHEXED WIND AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_ACCURACY_OFFENSE_RECOVERY_SPEED_NAME|LUMINOUS FIRESEED WIND AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_CRIT_CHANCE_CRIT_POWER_DEFENSE_OFFENSE_NAME|GLINTSTORM FIRESHELL AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_CRIT_CHANCE_CRIT_POWER_RECOVERY_SPEED_NAME|WINDGLINT WATERSTORM AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_CRIT_CHANCE_DEFENSE_OFFENSE_RECOVERY_NAME|LUCKY FIRESEED SHELL AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_CURIO_08_CRIT_CHANCE_CRIT_POWER_NAME|LUCKY BURST CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_ACCURACY_NAME|LUMINOUS SHELL CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_CRIT_CHANCE_NAME|LUCKY SHELL CURIO (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_EVASION_NAME|SHADOWSHELL CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_CRIT_POWER_NAME|BURSTING HEART CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_POTENCY_NAME|HEARTHEX CURIO (T8)
+ENCHANTMENT_CURIO_08_HEALTH_TENACITY_NAME|WARDING HEART CURIO (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_ACCURACY_NAME|LUMINFIRE CURIO (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_CRIT_POWER_NAME|BURSTFIRE CURIO (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_POTENCY_NAME|HEXFIRE CURIO (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_TENACITY_NAME|WARDING FIRE CURIO (T8)
+ENCHANTMENT_CURIO_08_RECOVERY_TENACITY_NAME|SEEDWARD CURIO (T8)
+ENCHANTMENT_CURIO_08_SPEED_POTENCY_NAME|HEXWIND CURIO (T8)
+ENCHANTMENT_CURIO_08_SPEED_TENACITY_NAME|WINDWARD CURIO (T8)
+ENCHANTMENT_CURIO_08_CRIT_CHANCE_CRIT_POWER_DESC|Component for the following Enchanted Gear recipes:<br><br>LUCKY BURST AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_ACCURACY_DESC|Component for the following Enchanted Gear recipes:<br><br>LUMINOUS SHELL AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_CRIT_CHANCE_DESC|Component for the following Enchanted Gear recipes:<br><br>LUCKY SHELL AMULET (T8)
+ENCHANTMENT_CURIO_08_DEFENSE_EVASION_DESC|Component for the following Enchanted Gear recipes:<br><br>SHADOWSHELL AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_CRIT_POWER_DESC|Component for the following Enchanted Gear recipes:<br><br>BURSTING HEART AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_POTENCY_DESC|Component for the following Enchanted Gear recipes:<br><br>HEARTHEX AMULET (T8)
+ENCHANTMENT_CURIO_08_HEALTH_TENACITY_DESC|Component for the following Enchanted Gear recipes:<br><br>WARDING HEART AMULET (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_ACCURACY_DESC|Component for the following Enchanted Gear recipes:<br><br>LUMINFIRE AMULET (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_CRIT_POWER_DESC|Component for the following Enchanted Gear recipes:<br><br>BURSTFIRE AMULET (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_POTENCY_DESC|Component for the following Enchanted Gear recipes:<br><br>HEXFIRE AMULET (T8)
+ENCHANTMENT_CURIO_08_OFFENSE_TENACITY_DESC|Component for the following Enchanted Gear recipes:<br><br>WARDING FIRE AMULET (T8)
+ENCHANTMENT_CURIO_08_RECOVERY_TENACITY_DESC|Component for the following Enchanted Gear recipes:<br><br>SEEDWARD AMULET (T8)
+ENCHANTMENT_CURIO_08_SPEED_POTENCY_DESC|Component for the following Enchanted Gear recipes:<br><br>HEXWIND AMULET (T8)
+ENCHANTMENT_CURIO_08_SPEED_TENACITY_DESC|Component for the following Enchanted Gear recipes:<br><br>WINDWARD AMULET (T8)
+ENCHANTMENT_08_OCEANIC_DEFENSE_EVASION_HEALTH_TENACITY_NAME|WARDED SHADOWSHELL HEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_EVASION_OFFENSE_TENACITY_NAME|WARDED SHADOWSHELL FIRE AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_EVASION_RECOVERY_TENACITY_NAME|WARDED SHADOWSHELL SEED AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_DEFENSE_HEALTH_SPEED_TENACITY_NAME|WARDED WINDSHELL HEART AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_08_OCEANIC_HEALTH_RECOVERY_SPEED_TENACITY_NAME|WARDED HEARTSEED WIND AMULET (T8)<br><color=#BCB9ED>Oceanic</color>
 ENCHANTMENT_08_DOWNTOWN_HERO_RECOVERY_SPEED_NAME|WINDY SEED AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
 ENCHANTMENT_08_DOWNTOWN_HERO_HEALTH_SPEED_NAME|WINDY HEART AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
 ENCHANTMENT_08_DOWNTOWN_HERO_DEFENSE_SPEED_NAME|WINDY SHELL AMULET (T8)<br><color=#BCB9ED>Downtown Hero</color>
@@ -3681,6 +3815,30 @@ ENCHANTMENT_REAGENT_08_A_FINAL_OCEANIC_NAME|BRINICLE ORB (T8)<br><color=#BCB9ED>
 ENCHANTMENT_REAGENT_08_A_01_WILDS_NAME|SAVANNA BLADE (T8)<br><color=#BCB9ED>Wilds</color>
 ENCHANTMENT_REAGENT_08_A_02_WILDS_NAME|MIRAGE (T8)<br><color=#BCB9ED>Wilds</color>
 ENCHANTMENT_REAGENT_08_A_FINAL_WILDS_NAME|SAVANNA GRASS (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_REAGENT_08_B_01_DOWNTOWN_HERO_NAME|MALLEABLE CLOUD (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_REAGENT_08_B_01_DOWNTOWN_VILLAIN_NAME|OMINOUS STONE (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_REAGENT_08_B_01_KINGDOM_NAME|SERPENT FIGURINE (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_REAGENT_08_B_01_MYTHICAL_NAME|DROP OF NECTAR (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_REAGENT_08_B_01_OCEANIC_NAME|SHELL FRAGMENT (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_REAGENT_08_B_01_WILDS_NAME|GOLDEN THREAD (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_REAGENT_08_B_FINAL_DOWNTOWN_HERO_NAME|OLYMPUS FIGURINE (T8)<br><color=#BCB9ED>Downtown Hero</color>
+ENCHANTMENT_REAGENT_08_B_FINAL_DOWNTOWN_VILLAIN_NAME|TARTARUS FIGURINE (T8)<br><color=#BCB9ED>Downtown Villain</color>
+ENCHANTMENT_REAGENT_08_B_FINAL_KINGDOM_NAME|SERPENTINE SHIELD (T8)<br><color=#BCB9ED>Kingdom</color>
+ENCHANTMENT_REAGENT_08_B_FINAL_MYTHICAL_NAME|AMBROSIA (T8)<br><color=#BCB9ED>Mythical</color>
+ENCHANTMENT_REAGENT_08_B_FINAL_OCEANIC_NAME|NAUTILUS SHELL (T8)<br><color=#BCB9ED>Oceanic</color>
+ENCHANTMENT_REAGENT_08_B_FINAL_WILDS_NAME|GOLDEN FLEECE (T8)<br><color=#BCB9ED>Wilds</color>
+ENCHANTMENT_REAGENT_08_B_01_DOWNTOWN_HERO_DESC|Component for the following Enchanted Gear recipes:<br><br>OLYMPUS FIGURINE (T8)
+ENCHANTMENT_REAGENT_08_B_FINAL_DOWNTOWN_HERO_DESC|Component for the following Enchanted Gear recipes:<br><br>DOWNTOWN HERO GEAR (T8)
+ENCHANTMENT_REAGENT_08_B_01_DOWNTOWN_VILLAIN_DESC|Component for the following Enchanted Gear recipes:<br><br>TARTARUS FIGURINE (T8)
+ENCHANTMENT_REAGENT_08_B_FINAL_DOWNTOWN_VILLAIN_DESC|Component for the following Enchanted Gear recipes:<br><br>DOWNTOWN VILLAIN GEAR (T8)
+ENCHANTMENT_REAGENT_08_B_01_KINGDOM_DESC|Component for the following Enchanted Gear recipes:<br><br>SERPENTINE SHIELD (T8)
+ENCHANTMENT_REAGENT_08_B_FINAL_KINGDOM_DESC|Component for the following Enchanted Gear recipes:<br><br>KINGDOM GEAR (T8)
+ENCHANTMENT_REAGENT_08_B_01_MYTHICAL_DESC|Component for the following Enchanted Gear recipes:<br><br>AMBROSIA (T8)
+ENCHANTMENT_REAGENT_08_B_FINAL_MYTHICAL_DESC|Component for the following Enchanted Gear recipes:<br><br>MYTHICAL GEAR (T8)
+ENCHANTMENT_REAGENT_08_B_01_OCEANIC_DESC|Component for the following Enchanted Gear recipes:<br><br>NAUTILUS SHELL (T8)
+ENCHANTMENT_REAGENT_08_B_FINAL_OCEANIC_DESC|Component for the following Enchanted Gear recipes:<br><br>OCEANIC GEAR (T8)
+ENCHANTMENT_REAGENT_08_B_01_WILDS_DESC|Component for the following Enchanted Gear recipes:<br><br>GOLDEN FLEECE (T8)
+ENCHANTMENT_REAGENT_08_B_FINAL_WILDS_DESC|Component for the following Enchanted Gear recipes:<br><br>WILDS GEAR (T8)
 ENCHANTMENT_REAGENT_08_NAME|VISION FRAGMENT (T8)
 ENCHANTMENT_CATALYST_08_DEFENSE_EVASION_NAME|TWILIGHT ORCHID (T8)
 ENCHANTMENT_CATALYST_08_HEALTH_RECOVERY_CRIT_POWER_NAME|GLINTING LILAC (T8)
@@ -4827,6 +4985,9 @@ INBOX_EVENT_202012_WINTERGIFTDROPSTART_SUBJECT|Coming Soon - Limited Time Winter
 INBOX_EVENT_202012_WINTERGIFTDROPSTART_BODY|Summoner,<BR><BR>A limited time <color=#54C5FF>Winter Gift Drop</color> is on the way!<BR><BR>Stay on the lookout for <color=#54C5FF>Gift Drops</color> between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> from <color=#54C5FF>December 21 - 25</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202012_WINTERGIFTDROPGIFT_SUBJECT|Limited Time Winter Gift Drop
 INBOX_EVENT_202012_WINTERGIFTDROPGIFT_BODY|Summoner,<BR><BR>Celebrate the holidays with this FREE <color=#54C5FF>Winter Gift</color>!<BR><BR>Login daily between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> from <color=#54C5FF>December 21 - 25</color> to collect FREE gifts. Enable push notifications to get notified so you don't miss out.<BR><BR>Thank you for your continued support, and see you in the Arena!
+IMPORTANT_EFFECT_ACTIVE_TITLE|{0}: <color=#8BEB77>Active</color>
+IMPORTANT_EFFECT_INACTIVE_TITLE|{0}: <color=#FF536F>Inactive</color>
+IMPORTANT_EFFECTS_TITLE|Important Effects
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYSTORE_NAME|WINTER DAILY QUEST
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYSTORE_DESC|(Optional) Open Store Packs
 PLAYER_ACTIVITY_EVENT_202012_WINTERDAILYGRAND_DESC|(Optional) Complete Grand Campaign Battles
@@ -4984,6 +5145,10 @@ INBOX_EVENT_202109_SULLEY_2XDROP_SUBJECT|Pixar Fest - Sulley 2x Token Drop
 INBOX_EVENT_202109_SULLEY_2XDROP_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Monsters Inc.</color> and <color=#54C5FF>Pixar Fest</color> with <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Sulley</color> in campaigns for a limited time!<br><br>Look for the BONUS banner on <color=#54C5FF>Node 2-B</color> in the Grand Campaign.<br><br>Thank you for your continued support, and see you in the Arena!<br><br>
 INBOX_EVENT_202109_RANDALL_2XDROP_SUBJECT|Pixar Fest - Randall 2x Token Drop
 INBOX_EVENT_202109_RANDALL_2XDROP_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Monsters Inc.</color> and <color=#54C5FF>Pixar Fest</color> with <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Randall</color> in campaigns for a limited time!<br><br>Look for the BONUS banner on <color=#54C5FF>Node 5-F</color> in the Grand Campaign and <color=#54C5FF>Node 7-A</color> in the Heroes Campaign.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202108_RAID_GIFTDROP_SUBJECT|Siege on Olympus Raid - Daily Raid Gift Drop
+INBOX_EVENT_202108_RAID_GIFTDROP_BODY|Summoner,<br><br>You've received a <color=#54C5FF>Raid Gift Drop</color> in celebration of the NEW <color=#54C5FF>Siege on Olympus Raid</color>!<br><br>Stay on the lookout for more Gift Drops daily between <color=#54C5FF>12:00 AM PT - 11:59 PM PT</color> from <color=#54C5FF>October 04 - 10</color>, and enable push notifications to get notified so you don't miss them!<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202108_RAID_LAUNCH_SUBJECT|Siege on Olympus Raid is Live!
+INBOX_EVENT_202108_RAID_LAUNCH_BODY|Summoner,<br><br>A monstrous band has arrived in the Arena! The <color=#54C5FF>Titans</color> have been unleashed in the new <color=#54C5FF>Siege on Olympus Raid</color>! Work together with your club to take down all four Titans and earn exciting new rewards!<br><br>Collect <color=#54C5FF>Siege on Olympus Raid Tickets</color> by completing Campaign battles. Each player can earn up to 1,500 tickets per day. Club Leaders and Officers can use these tickets to start the Raid. During the Raid, you will fight each Titan using multiple teams of characters. You can attempt up to 4-5 battles per day in Tiers 1-4, and each character can be used once per day. As you defeat each Titan, the remaining Titans will become stronger, so work with your Club to come up with the best strategy to defeat them all.<br><br>Conquer higher Raid Tiers to earn <color=#54C5FF>Zeus</color> tokens and check out the new <color=#54C5FF>Siege on Olympus Raid Exchange</color> to unlock even more rewards!<br><br>Learn more about the <color=#54C5FF>Siege on Olympus Raid</color> in News and on the DSA Official Discord!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -5785,24 +5950,30 @@ FROZONE_ABILSPECIALB_DESC_BASE|Encases the target ally or opponent in an icy pil
 FROZONE_ABILSPECIALB_DESC_U01|Encases the target ally or opponent in an icy pillar, inflicting Stasis for <color=#FEF8E4>{0:N0}s</color> and additional effects based on the target's team.<br><br>Ally: Restores up to <color=#5DFF89>{2:N0}</color>  Health over <color=#FEF8E4>{3:N0}s</color>.<br><br>Opponent: Deals up to <color=#FFC400>{1:N0}</color>  Ice damage when this effect expires and inflicts both <color=#FEF8E4><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> and Weak vs. Ice for <color=#FEF8E4>{4:N0}s</color>.
 FROZONE_ABILSPECIALB_DESC_U02|Encases the target ally or opponent in an icy pillar, inflicting Stasis for <color=#FEF8E4>{0:N0}s</color> and additional effects based on the target's team.<br><br>Ally: Restores up to <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}s</color>.<br><br>Opponent: Deals up to <color=#FFC400>{1:N0}</color> Ice damage when this effect expires and inflicts both <color=#FEF8E4><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> and Weak vs. Ice for <color=#FEF8E4>{4:N0}s</color>. Also inflicts <color=#FEF8E4><link=BATTLE_EFFECT_CONTINUOUS_DAMAGE>[CONTINUOUS DAMAGE]</link></color>, dealing up to <color=#FFC400>{5:N0}</color>  Ice damage over <color=#FEF8E4>{6:N0}s</color>.
 FROZONE_ABILSPECIALB_NAME|Ice Block
-FROZONE_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turn or increase duration of Slow by <color=#FEF8E4>{1:N0}</color> if it is already present.
-FROZONE_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict or increase duration of Slow.
+FROZONE_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to extend duration of Slow by <color=#FEF8E4>{1:N0}</color>. In Raids, this chance is guaranteed.
+FROZONE_BASIC_ABILPREVIEWUPGRADE_02|If duration of Slow is extended to <color=#FEF8E4>{0:N0}</color> or more, inflict Stun for <color=#FEF8E4>{1:N0}</color> turn. Raid bosses take additional damage instead.
+FROZONE_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to inflict or extend Slow.
 FROZONE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.
-FROZONE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict Slow for <color=#FEF8E4>{2:N0}</color> turn or increase duration of Slow by <color=#FEF8E4>{2:N0}</color> turn if it is already present.
+FROZONE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to extend duration of Slow by <color=#FEF8E4>{2:N0}</color>. In Raids, this chance is guaranteed.
+FROZONE_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to extend duration of Slow by <color=#FEF8E4>{2:N0}</color>. In Raids, this chance is guaranteed.<br><br>If duration of Slow is extended to <color=#FEF8E4>{3:N0}</color> or more, inflict Stun for <color=#FEF8E4>{4:N0}</color> turn. Raid bosses take up to <color=#FFC400>{5:N0}</color> additional damage instead.
 FROZONE_PASSIVE_ABILPREVIEWUPGRADE_01|When an "Incredibles" Hero teammate falls below <color=#FEF8E4>{0:P0}</color> Health, or any teammate gains Stasis, Frozone gains <color=#FEF8E4>{1:P0}</color> Speed Bar.
-FROZONE_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense Down.
-FROZONE_PASSIVE_DESC_01|On receiving damage, <color=#FEF8E4>{1:P0}</color> chance to Counterattack; Deal up to <color=#FFC400>{0:N0}</color> damage and inflict Slow for <color=#FEF8E4>{2:N0}</color> turn or Stun for <color=#FEF8E4>{2:N0}</color> turn if they were already Slowed.
-FROZONE_PASSIVE_DESC_02|On receiving damage, <color=#FEF8E4>{1:P0}</color> chance to Counterattack; Deal up to <color=#FFC400>{0:N0}</color> damage and inflict Slow for <color=#FEF8E4>{2:N0}</color> turn, or Stun for <color=#FEF8E4>{2:N0}</color> turn if they were already Slowed.<br><br>When an "Incredibles" Hero teammate falls below <color=#FEF8E4>{3:P0}</color> Health, or any teammate gains Stasis, Frozone gains <color=#FEF8E4>{4:P0}</color> Speed Bar.
-FROZONE_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to reduce Speed Meter by <color=#FEF8E4>{1:P0}</color>.
-FROZONE_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to reduce Speed Meter.
-FROZONE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns, or Defense Down for <color=#FEF8E4>{1:N0}</color> turns on targets already affected by Slow.
-FROZONE_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns, or Defense Down for <color=#FEF8E4>{1:N0}</color> turns on targets already affected by Slow. <color=#FEF8E4>{2:P0}</color> chance to reduce Speed Meter by <color=#FEF8E4>{3:P0}</color>.
-FROZONE_SPECIALB_ABILPREVIEWUPGRADE_01|On Stasis expire, <color=#FEF8E4>{0:P0}</color> chance for affected teammate to gain a Shield.
-FROZONE_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain a Shield on Stasis expire.
+FROZONE_PASSIVE_ABILPREVIEWUPGRADE_02|If a target is already affected by Slow, inflict Stun for <color=#FEF8E4>{0:N0}</color> turn. Raid bosses take additional damage instead.
+FROZONE_PASSIVE_ABILPREVIEWUPGRADE_03|If they are still Slow, inflict Stun for <color=#FEF8E4>+{0:P0}</color>  turn. Raid bosses take additional damage instead.
+FROZONE_PASSIVE_DESC_01|When an opponent is inflicted with Slow, <color=#FEF8E4>{0:P0}</color> chance to attack, dealing up to <color=#FFC400>{1:N0}</color> damage.
+FROZONE_PASSIVE_DESC_02|When an opponent is inflicted with Slow, <color=#FEF8E4>{0:P0}</color> chance to attack, dealing up to <color=#FFC400>{1:N0}</color> damage.<br><br>When an <color=#FEF8E4>'Incredibles'</color> Hero teammate falls below <color=#FEF8E4>{2:P0}</color> Health, or any teammate gains Stasis, Frozone gains <color=#FEF8E4>{3:P0}</color> Speed Meter.
+FROZONE_PASSIVE_DESC_03|When an opponent is inflicted with Slow, <color=#FEF8E4>{0:P0}</color> chance to attack, dealing up to <color=#FFC400>{1:N0}</color> damage. If a target is already affected by Slow, inflict Stun for <color=#FEF8E4>{4:N0}</color> turn. Raid bosses take up to <color=#FFC400>{5:N0}</color> additional damage instead.<br><br>When an <color=#FEF8E4>'Incredibles'</color> Hero teammate falls below <color=#FEF8E4>{2:P0}</color> Health, or any teammate gains Stasis, Frozone gains <color=#FEF8E4>{3:P0}</color> Speed Meter.
+FROZONE_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to reduce Speed Meter by <color=#FEF8E4>{1:P0}</color>. In Raids, this chance is guaranteed.
+FROZONE_SPECIALA_ABILPREVIEWUPGRADE_02|If a target is already affected by Slow, inflict Stun for <color=#FEF8E4>{0:N0}</color> turn. Raid bosses take additional damage instead.
+FROZONE_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to reduce Speed Meter.
+FROZONE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns. Inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turns.<br><br>In Raids, this ability gains <color=#FEF8E4>{7:P0}</color> bonus Potency.
+FROZONE_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns. Inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>{3:P0}</color> chance to reduce Speed Meter by <color=#FEF8E4>{4:P0}</color>. In Raids, this chance is guaranteed.<br><br>In Raids, this ability gains <color=#FEF8E4>{7:P0}</color> bonus Potency.
+FROZONE_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns. Inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>{3:P0}</color> chance to reduce Speed Meter by <color=#FEF8E4>{4:P0}</color>. In Raids, this chance is guaranteed.<br><br>If a target is already affected by Slow, inflict Stun for <color=#FEF8E4>{5:N0}</color> turn. Raid bosses take up to <color=#FFC400>{6:N0}</color> additional damage instead.<br><br>In Raids, this ability gains <color=#FEF8E4>{7:P0}</color> bonus Potency.
+FROZONE_SPECIALB_ABILPREVIEWUPGRADE_01|On Stasis end, grant the following: Critical Chance Up for <color=#FEF8E4>{0:N0}</color> turns. Crit Power Up for <color=#FEF8E4>{1:N0}</color> turns.
+FROZONE_SPECIALB_ABILPREVIEWUPGRADE_02|On Stasis end, grant the following: <color=#FEF8E4>{0:N0}</color> Undefeatable.
 FROZONE_SPECIALB_ABILPREVIEWUPGRADE_03|Guaranteed to gain a Shield on Stasis expire.
-FROZONE_SPECIALB_DESC_01|Encase target teammate in an icy pillar. Remove all Harmful effects as well as Taunt, then apply Stasis for <color=#FEF8E4>{0:N0}</color> turns.<br><br>On Stasis expire, restore up to <color=#5DFF89>{1:N0}</color> Health to that teammate.
-FROZONE_SPECIALB_DESC_02|Encase target teammate in an icy pillar. Remove all Harmful effects as well as Taunt, then apply Stasis for <color=#FEF8E4>{0:N0}</color> turns.<br><br>On Stasis expire, restore up to <color=#5DFF89>{1:N0}</color> Health to that teammate with a <color=#FEF8E4>{2:P0}</color> chance to grant <color=#FEF8E4>{3:N0}</color> Shield.
-FROZONE_SPECIALB_DESC_03|Encase target teammate in an icy pillar. Remove all Harmful effects as well as Taunt, then apply Stasis for <color=#FEF8E4>{0:N0}</color> turns.<br><br>On Stasis expire, restore up to <color=#5DFF89>{1:N0}</color> Health to and grant <color=#FEF8E4>{3:N0}</color> Shield to that teammate.
+FROZONE_SPECIALB_DESC_01|Cleanse Harmful Effects and remove Taunt and Protect from target teammate. Grant Stasis for <color=#FEF8E4>{0:N0}</color> turn. Grant Haste for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Restore <color=#5DFF89>{2:N0}</color> Health, plus <color=#FEF8E4>{3:P0}</color> bonus per Harmful Effect cleansed, up to a max of <color=#FEF8E4>{4:P0}</color>.
+FROZONE_SPECIALB_DESC_02|Cleanse Harmful Effects and remove Taunt and Protect from target teammate. Grant Stasis for <color=#FEF8E4>{0:N0}</color> turn. Grant Haste for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Restore <color=#5DFF89>{2:N0}</color> Health, plus <color=#FEF8E4>{3:P0}</color> bonus per Harmful Effect cleansed, up to a max of <color=#FEF8E4>{4:P0}</color>.<br><br>On Stasis end, grant the following: Critical Chance Up for <color=#FEF8E4>{5:N0}</color> turns. Crit Power Up for <color=#FEF8E4>{6:N0}</color> turns.
+FROZONE_SPECIALB_DESC_03|Cleanse Harmful Effects and remove Taunt and Protect from target teammate. Grant Stasis for <color=#FEF8E4>{0:N0}</color> turn. Grant Haste for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Restore <color=#5DFF89>{2:N0}</color> Health, plus <color=#FEF8E4>{3:P0}</color> bonus per Harmful Effect cleansed, up to a max of <color=#FEF8E4>{4:P0}</color>.<br><br>On Stasis end, grant the following: Critical Chance Up for <color=#FEF8E4>{5:N0}</color> turns. Crit Power Up for <color=#FEF8E4>{6:N0}</color> turns. <color=#FEF8E4>{7:N0}</color> Undefeatable.
 FROZONE_UNIT_NAME|FROZONE
 GABBY_GABBY_SUBTITLE| 
 GABBY_GABBY_UNIT_NAME|GABBY GABBY
@@ -6178,6 +6349,33 @@ HERCULES_ABILSPECIALA_NAME|Zero to Hero
 HERCULES_ABILSPECIALB_NAME|Strength of the Gods
 HERCULES_ABILPASSIVEA_NAME|A True Hero
 HERCULES_ABILPASSIVEB_NAME|Go the Distance
+UNIT_PYROS_KEY|LAVA TITAN
+UNIT_HYDROS_KEY|ICE TITAN
+UNIT_STRATOS_KEY|TORNADO TITAN
+UNIT_LYTHOS_KEY|ROCK TITAN
+PYROS_UNIT_NAME|LAVA TITAN
+PYROS_BASIC_NAME|Magma Spew
+PYROS_BASIC_DESC|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and inflict <color=#FEF8E4>{1:N0}</color> Scalding. If adjacent opponents do not have a Helpful Effect, deal up to <color=#FFC400>{3:N0}</color> damage to them and inflict <color=#FEF8E4>{1:N0}</color> Scalding.<br><br><color=#FEF8E4>SCALDING</color>: Deals up to <color=#FFC400>{2:P0}</color> of maximum Health as damage each turn. Last indefinitely until affected Unit receives a Health restoring effect or is defeated.
+PYROS_BASIC_DESC_SUMMARIZED|Deal damage to target opponent and inflict Scalding. If adjacent opponents do not have a Helpful Effect, deal damage to them and inflict Scalding.
+PYROS_SPECIALA_NAME|Lava Glob
+PYROS_SPECIALA_DESC|Deal up to <color=#FFC400>{0:N0}</color> unavoidable damage to target opponent. Inflict <color=#FEF8E4>{1:N0}</color> Scalding. Purge all Helpful Effects. Inflict Heal Block for <color=#FEF8E4>{3:N0}</color> turns and Helpful Immunity for <color=#FEF8E4>{4:N0}</color> turns.<br><br>On adjacent opponents, inflict <color=#FFC400>{5:N0}</color> damage. <color=#FEF8E4>{6:P0}</color> chance to Purge <color=#FEF8E4>{7:N0}</color> Helpful Effects.<br><br><color=#FEF8E4>SCALDING</color>: Deals up to <color=#FFC400>{2:P0}</color> of maximum Health as damage each turn. Last indefinitely until affected Unit receives a Health restoring effect or is defeated.
+PYROS_SPECIALA_DESC_SUMMARIZED|Deal unavoidable damage to target opponent. Inflict Scalding. Purge all Helpful Effects. Inflict Heal Block and Helpful Immunity.<br><br>On adjacent opponents, inflict damage. Chance to Purge Helpful Effects.
+PYROS_SPECIALB_NAME|Molten Eruption
+PYROS_SPECIALB_DESC|Deal up to <color=#FFC400>{0:N0}</color> unavoidable damage to all opponents. Deal <color=#FEF8E4>{1:P0}</color> more damage for each Harmful Effect. Deal <color=#FEF8E4>{2:P0}</color> less damage for each Helpful Effect, max <color=#FEF8E4>{3:N0}</color>. Inflict <color=#FEF8E4>{4:N0}</color> Scalding. Purge all Helpful Effects.<br><br><color=#FEF8E4>SCALDING</color>: Deals up to <color=#FFC400>{5:P0}</color> of maximum Health as damage each turn. Last indefinitely until affected Unit receives a Health restoring effect or is defeated.
+PYROS_SPECIALB_DESC_SUMMARIZED|Deal unavoidable damage to all opponents. Deal more damage for each Harmful Effect. Deal less damage for each Helpful Effect, up to a max. Inflict Scalding. Purge all Helpful Effects.<br><br>This character gains Staggered. Opponents gain Guarenteed Crit.<br><br>On recovering from Stagger, this character becomes Empowered and gains Speed Meter for each Harmful Effect on opponents.
+PYROS_PASSIVEA_NAME|Congealing Surface
+PYROS_PASSIVEA_DESC|Continuous Damage and Scalding deal <color=#FEF8E4>{0:P0}</color> bonus damage unless this character is inflicted with Slow.<br><br>This character takes <color=#FEF8E4>{1:P0}</color> less damage from characters unless they have a Helpful Effect.<br>This character deals <color=#FEF8E4>{2:P0}</color> bonus damage to characters unless they have a Helpful Effect.
+PYROS_PASSIVEA_DESC_SUMMARIZED|Continous Damage and Scalding deal bonus damage unless this character is inflicted with Slow.<br><br>This character takes less damage from characters unless they have a Helpful Effect.<br>This character deals bonus damage to characters unless they have a Helpful Effect.
+PYROS_PASSIVEB_NAME|Shadow of the Lava Titan
+PYROS_PASSIVEB_DESC|On dealing damage, this character inflicts Continuous Damage equal to <color=#FEF8E4>{0:P0}</color> of the damage dealt over <color=#FEF8E4>{1:N0}</color> turns.<br><br>While fighting other Titans in the raid, while this character has not been defeated, apply the following:<br><br>IRE OF FIRE: On dealing damage, this Titan has a <color=#FEF8E4>{2:P0}</color> chance to inflict Continuous Damage equal to <color=#FEF8E4>{3:P0}</color> of the damage dealt over <color=#FEF8E4>{1:N0}</color> turns.<br><br>For each Titan defeated in the raid, this character gains <color=#FEF8E4>{4:P0}</color> Offense.<br><br>When this character loses a substantial amount of its max Health in a fight, become Empowered. While Empowered, gain <color=#FEF8E4>{6:P0}</color> Offense and <color=#FEF8E4>{7:N0}</color> Magic to Lava Glob each turn. Cleanse all Harmful Effects from this Titan and gain Harmful Effect Immunity.
+PYROS_PASSIVEB_DESC_SUMMARIZED|On dealing damage, this character inflicts Continuous Damage.<br><br>While fighting other Titans in the raid, while this character has not been defeated, apply the following:<br>IRE OF FIRE: On dealing damage, this Titan has a chance to inflict Continuous Damage.<br><br>For each Titan defeated in the raid, this character gains Offense.<br>When this character loses a substantial amount of its max Health in a fight, become Empowered.  While Empowered, gain Offense, and Magic to Lava Glob each turn. Cleanse all Harmful Effects from this Titan and gain Harmful Effect Immunity.
+PYROS_AURA_NAME|IRE OF FIRE
+PYROS_AURA_DESC|<br>When Lava Titan deals damage it inflicts Continuous Damage that deals <color=#FEF8E4>50%</color> as much damage over <color=#FEF8E4>2</color> turns.<br><br>While Lava Titan is alive, when other Titans deal damage they have a <color=#FEF8E4>50%</color> chance to inflict Continuous Damage that deals <color=#FEF8E4>25%</color> as much damage over <color=#FEF8E4>2</color> turns.
+PYROS_PASSIVEB_IMPORTANTEFFECTS_DESC|<br>Ice, Tornado, and Rock Titan gains <color=#FEF8E4>IRE OF FIRE</color><br><br><color=#FEF8E4>IRE OF FIRE</color>: On dealing damage, this Titan has a <color=#FEF8E4>50%</color> chance to inflict Continuous Damage equal to <color=#FEF8E4>25%</color> of the damage dealt over <color=#FEF8E4>2</color> turns.
+PYROS_RAIDPASSIVE_NAME|Sorcerer's Strength - Lava Titan
+PYROS_RAIDPASSIVE_DESC|This character performs an additional action on its turn.<br><br>Immune to Stun, Silence, Intimidate, Polymorph, Charm, Sleep, Stasis, Poison, Scalding and Imprison.<br><br>This character gradually builds up a resistance to Speed Meter reduction and Magic Charge reduction.
+PYROS_EFFECT_TITLE|IRE OF FIRE
+PYROS_EFFECT_DESC|While Lava Titan is alive:<br><br>Titans have a chance to inflict Continuous Damage whenever they deal damage to players.<br><br>Bring Slows, Healing, Cleanses, and Harmful and Helpful Effects to defeat this formidable foe.
 PHIL_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.
 PHIL_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br><color=#FEF8E4>{1:P0}</color> chance to gain Crit Chance Up for <color=#FEF8E4>{2:N0}</color> turn on ability start.
 PHIL_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Gain Crit Chance Up for <color=#FEF8E4>{2:N0}</color> turn on ability start.
@@ -6213,6 +6411,29 @@ PHIL_ABILBASIC_NAME|Watch it Pal!
 PHIL_ABILSPECIALA_NAME|Expert Coaching
 PHIL_ABILSPECIALB_NAME|Rule #96: Aim
 PHIL_ABILPASSIVEA_NAME|The Trainer of Heroes
+HYDROS_UNIT_NAME|ICE TITAN
+HYDROS_BASIC_NAME|Frost Breath
+HYDROS_BASIC_DESC|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. If they have Continous Damage, inflict Offense Down for <color=#FEF8E4>{1:N0}</color> turn. If they have a Offense Down, inflict <color=#FEF8E4>{2:N0}</color> Imprison. Otherwise, inflict Continuous Damage dealing up to <color=#FEF8E4>{3:N0}</color> damage over <color=#FEF8E4>{4:N0}</color> turns.
+HYDROS_BASIC_DESC_SUMMARIZED|Deal damage to target opponent. If they have Continuous Damage, inflict Offense Down. If the have Offense Down, inflict Imprison. Otherwise, inflict Continuous Damage.
+HYDROS_SPECIALA_NAME|Ice Spike
+HYDROS_SPECIALA_DESC|Summon <color=#FEF8E4>{0:N0}</color> Ice Spikes with <color=#FEF8E4>{1:N0}</color> Health. Inflict Fear for <color=#FEF8E4>{2:N0}</color> turns on all opponents.<br><br>When Ice Spike is afflicted by Silence, Sleep, or Polymorph, destroy it.<br><br>On turn start if an Ice Spike survived, Titan performs Icicle Crash.<br><br>Icicle Crash: Destroy all Ice Spikes. Deal up to <color=#FFC400>{3:N0}</color> unavoidable damage to all opponents. Deal <color=#FEF8E4>{4:P0}</color> bonus damage based on the total Health of the destroyed Ice Spikes. If they have Continous Damage, inflict Offense Down for <color=#FEF8E4>{5:N0}</color> turn. If they have a Offense Down, inflict <color=#FEF8E4>{6:N0}</color> Imprison. Otherwise, inflict Continuous Damage dealing up to <color=#FFC400>{7:N0}</color> damage over <color=#FEF8E4>{8:N0}</color> turns.
+HYDROS_SPECIALA_DESC_SUMMARIZED|Summon some Ice Spikes. Inflict Fear on all opponents.<br><br>When Ice Spike is afflicted by Silence, Sleep, or Polymorph, destroy it.<br><br>On turn start if an Ice Spike survived, Titan performs  Icicle Crash.<br><br>Icicle Crash: Destroy all Ice Spikes. Deal unavoidable damage to all opponents. Deal bonus damage based on the total Health of the destroyed Ice Spikes. If they have Continuous Damage, inflict Offense Down. If they have Offense Down, inflict Imprison. Otherwise, inflict Continuous Damage.
+HYDROS_SPECIALB_NAME|Frost Storm
+HYDROS_SPECIALB_DESC|Deal up to <color=#FFC400>{0:N0}</color> unavoidable damage to all opponents <color=#FEF8E4>{1:N0}</color> times. Deal <color=#FEF8E4>{2:P0}</color> bonus damage for each Harmful Effect inflicted on opponent.<br><br>If they have Continous Damage, inflict Offense Down for <color=#FEF8E4>{3:N0}</color> turn. If they have a Offense Down, inflict <color=#FEF8E4>{4:N0}</color> Imprison. Otherwise, inflict Continuous Damage dealing up to <color=#FFC400>{5:N0}</color> damage over <color=#FEF8E4>{6:N0}</color> turns.
+HYDROS_SPECIALB_DESC_SUMMARIZED|Deal unavoidable damage to all opponents 2 times. Deal bonus damage for each Harmful Effect inflicted on opponent.<br><br>If they have Continuous Damage, inflicted Offense Down. If they have Offense Down, inflict Imprison. Otherwise, inflict Continuous Damage.
+HYDROS_PASSIVEA_NAME|Hypothermia
+HYDROS_PASSIVEA_DESC|When an opponent inflicts damage on this character, extend the duration of all Harmful Effects on them by <color=#FEF8E4>{0:N0}</color> turn.
+HYDROS_PASSIVEA_DESC_SUMMARIZED|When an opponent inflicts damage on this character, extend the duration of all Harmful Effects on them.
+HYDROS_PASSIVEB_NAME|Shadow of the Ice Titan
+HYDROS_PASSIVEB_DESC|On attacking opponents inflicted with a Harmful Effect, this character has <color=#FEF8E4>{0:P0}</color> bonus Critical Chance.<br><br>While fighting other Titans in the raid, while this character has not been defeated, apply the following:<br><br>LETHALITY OF ICE: On attacking opponents inflicted with a Harmful Effect, this Titan has <color=#FEF8E4>{2:P0}</color> bonus Critical Chance.<br><br>For each Titan defeated in the raid, this character gains <color=#FEF8E4>{4:P0}</color> Offense, <color=#FEF8E4>{5:P0}</color> Potency, and <color=#FEF8E4>{6:P0}</color> Precision.<br><br>When this character loses a substantial amount of its max Health in a fight, become Empowered. While Empowered, gain <color=#FEF8E4>{8:P0}</color> Offense and <color=#FEF8E4>{9:N0}</color> Magic to Ice Spike each turn, and <color=#FEF8E4>{10:N0}</color> additional action each turn. Cleanse all Harmful Effects from this Titan and gain Harmful Effect Immunity.
+HYDROS_PASSIVEB_DESC_SUMMARIZED|On attacking opponents inflicted with a Harmful Effect, this character has bonus Critical Chance.<br><br>While fighting other Titains in the raid, while this character has not been defeated, apply the following:<br>LETHALITY OF ICE: On attacking opponents inflicted with Harmful Effect, this Ttain has bonus Critical Chance.<br><br>For each Titan defeated in the raid, this character gains Offense, Potency, and Precision.<br><br>When this character loses a substantial amount of its max Health in a fight, become Empowered. While Empowered, gain Offense, Magic to Ice Spike each turn, and an additional action each turn. Cleanse all Harmful Effects from this Titan and gain Harmful Effect Immunity.
+HYDROS_AURA_NAME|LETHALITY OF ICE
+HYDROS_AURA_DESC|<br>Ice Titan has <color=#FEF8E4>100%</color> bonus Crit Chance against players inflicted with a Harmful Effect.<br><br>While Ice Titan is alive, other Titans have <color=#FEF8E4>50%</color> bonus Critical Chance against players inflicted with a Harmful Effect.
+HYDROS_PASSIVEB_IMPORTANTEFFECTS_DESC|<br>Lava, Wind, and Rock Titan gains <color=#FEF8E4>LETHALITY OF ICE</color><br><br><color=#FEF8E4>LETHALITY OF ICE</color>: On attacking opponents inflicted with a Harmful Effect, this Titan has <color=#FEF8E4>50%</color> bonus Critical Chance.
+HYDROS_RAIDPASSIVE_NAME|Sorcerer's Strength - Ice Titan
+HYDROS_RAIDPASSIVE_DESC|This character performs an additional action on its turn.<br><br>Immune to Stun, Silence, Intimidate, Polymorph, Charm, Sleep, Stasis, Poison, Scalding and Imprison.<br><br>This character gradually builds up a resistance to Speed Meter reduction and Magic Charge reduction.
+HYDROS_EFFECT_TITLE|LETHALITY OF ICE
+HYDROS_EFFECT_DESC|While Ice Titan is alive:<br><br>Titans have greatly increased Critical Chance when attacking players inflicted with a Harmful Effect.<br><br>Bring Cleanses, AoE Damage, and Harmful Effects to defeat this formidable foe.
 HARD_ATTEMPT_COUNT|x{0}
 HEADLESS_HORSEMAN_ABILPREVIEWUPGRADE_CHANCE_INC_MAGICCOST_25PCT|Adds a 25% chance to increase the Magic Cost of a random ability by 1.
 HEADLESS_HORSEMAN_ABILPREVIEWUPGRADE_INC_CHANCE_INC_MAGICCOST_25PCT|Chance to increase the Magic Cost of a random ability is increased by 25%.
@@ -6413,15 +6634,16 @@ HORNEDKING_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to targ
 HORNEDKING_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict Heal Block for <color=#FEF8E4>{2:N0}</color> turn.
 HORNEDKING_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Heal Block for <color=#FEF8E4>{2:N0}</color> turn.
 HORNEDKING_PASSIVE_ABILPREVIEWUPGRADE_01|Gain <color=#FEF8E4>{0:P0}</color> bonus Speed per Mythic teammate.
-HORNEDKING_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed
+HORNEDKING_PASSIVE_ABILPREVIEWUPGRADE_02|While Black Cauldron is present, this character's summons also deal increased bonus damage.
 HORNEDKING_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> bonus damage dealt.
 HORNEDKING_PASSIVE_DESC_01|If an allied Black Cauldron is present, <color=#FEF8E4>{0:P0}</color> of Health restored to this character is also restored to the allied Black Cauldron.<br><br>While an allied Black Cauldron is present this character gains the following:<br><br>Damage dealt is increased by bonus damage equal to <color=#FEF8E4>{1:P0}</color> of the damaged opponents max Health (excluding Raid Bosses). Raid Bosses receive up to an additional <color=#FFC400>{3:N0}</color> damage instead.
 HORNEDKING_PASSIVE_DESC_02|If an allied Black Cauldron is present, <color=#FEF8E4>{0:P0}</color> of Health restored to this character is also restored to the allied Black Cauldron.<br><br>While an allied Black Cauldron is present this character gains the following:<br><br>Damage dealt is increased by bonus damage equal to <color=#FEF8E4>{1:P0}</color> of the damaged opponents max Health (excluding Raid Bosses). Raid Bosses receive up to an additional <color=#FFC400>{3:N0}</color> damage instead.<br><br>Gain <color=#FEF8E4>{2:P0}</color> bonus Speed per Mythic teammate.
+HORNEDKING_PASSIVE_DESC_03|If an allied Black Cauldron is present, <color=#FEF8E4>{0:P0}</color> of Health restored to this character is also restored to the allied Black Cauldron.<br><br>While an allied Black Cauldron is present this character and his summons gain the following:<br><br>Damage dealt is increased by bonus damage equal to <color=#FEF8E4>{1:P0}</color> of the damaged opponents max Health (excluding Raid Bosses). Raid Bosses receive up to an additional <color=#FFC400>{3:N0}</color> damage instead.<br><br>Gain <color=#FEF8E4>{2:P0}</color> bonus Speed per Mythic teammate.
 HORNEDKING_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> of damage dealt restored as Health.
 HORNEDKING_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents.<br><br>Restore Health to this character equal to <color=#FEF8E4>{1:P0}</color> of damage dealt.<br><br>Health restored is increased by <color=#FEF8E4>{2:P0}</color> of damage dealt per Mythic teammate.
 HORNEDKING_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Health for Black Cauldron.
 HORNEDKING_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Health for Cauldron Born. <color=#FEF8E4>+{0:P0}</color> damage dealt for Cauldron Born.
-HORNEDKING_SPECIALB_DESC_01|If no allied Black Cauldron is present: Summon the Black Cauldron at the target location.<br><br>Black Cauldron: Has <color=#5DFF89>{0:N0}</color> Health. Deal up to <color=#FFC400>{1:N0}</color> damage with each attack. <color=#FEF8E4>{2:P0}</color> chance to Purge a random Helpful effect. Deal up to <color=#FFC400>{3:N0}</color> damage to allied Horned King when defeated.<br><br>If an allied Black Cauldron is present: Summon a Cauldron Born at the target location.<br><br>Cauldron Born: Has <color=#FEF8E4>{4:N0}</color> Health. Deal up to <color=#FFC400>{5:N0}</color> damage with each attack.
+HORNEDKING_SPECIALB_DESC_01|If no allied Black Cauldron is present:<br><br>Summon the Black Cauldron at the target location.<br><br>Black Cauldron: Has <color=#FEF8E4>{0:N0}</color> Health. Deal up to <color=#FFC400>{1:N0}</color> damage with each attack. <color=#FEF8E4>{2:P0}</color> chance to Purge a random Helpful effect. Reduce target's Speed Meter by <color=#FEF8E4>{3:P0}</color>. Deal up to <color=#FFC400>{4:N0}</color> damage to allied Horned King when defeated.<br><br>If an allied Black Cauldron is present:<br><br>Summon a Cauldron Born at the target location.<br><br>Cauldron Born: Has <color=#FEF8E4>{5:N0}</color> Health. Deal up to <color=#FFC400>{6:N0}</color> damage with each attack.
 HORNED_KING_ABILBASIC_ABILPREVIEWUPGRADE_CHANCE_HEALBLOCK_ADD_25PCT|Adds 25% chance to inflict Heal Block for 2s.
 HORNED_KING_ABILBASIC_DESC_BASE|Hurls a ball of sinister magic at an opponent, dealing up to <color=#FFC400>{0:N0}</color> Dark damage.
 HORNED_KING_ABILBASIC_DESC_U01|Hurls a ball of sinister magic at an opponent, dealing up to <color=#FFC400>{0:N0}</color> Dark damage, with <color=#FEF8E4>{1:P0}</color> chance to apply <color=#FEF8E4><link=BATTLE_EFFECT_HEAL_BLOCK>[HEAL BLOCK]</link></color> for <color=#FEF8E4>{2:N0}s</color>.
@@ -6545,7 +6767,8 @@ INSTANT_BATTLE_REWARDS_REBATTLE_MULTI|AGAIN (x{0})
 INSTANT_BATTLE_TITLE|AUTO WIN TO GAIN REWARDS!
 INSUFFICIENT_CURRENCY|Not enough currency!
 INSUFFICIENT_CURRENCY_CLUB|Not enough currency!<br><br>Compete in Club Activities to earn the missing Club Currency.
-INSUFFICIENT_CURRENCY_RAID|Not enough currency!<br><br>Complete Raids to earn the missing Raid Coins.
+INSUFFICIENT_CURRENCY_RAID|Not enough currency!<br><br>Complete Forbidden Depths Raids to earn the missing Forbidden Depths Raid Coins.
+INSUFFICIENT_CURRENCY_RAID_TITANS|Not enough currency!<br><br>Complete Siege On Olympus Raids to earn the missing Siege On Olympus Raid Coins.
 INSUFFICIENT_CURRENCY_RAID_TICKETS|Not enough Raid Tickets!<br><br>Complete Campaign Battles to earn the missing Raid Tickets.
 INSUFFICIENT_CURRENCY_CLUB_DUNGEON|Not enough currency!<br><br>Compete in Sorcerer's Trials to earn the missing Sorcerer's Coins.
 INSUFFICIENT_CURRENCY_CONVERSION_MSG|Not enough currency!<br><br>Buy the missing {0}?
@@ -6685,17 +6908,17 @@ JACKSKELLINGTON_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chanc
 JACKSKELLINGTON_BASIC_ABILPREVIEWUPGRADE_02|Guaranteed to increase duration of Harmful effect.
 JACKSKELLINGTON_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to increase duration of a random Harmful effect. This cannot increase the duration of Stun.
 JACKSKELLINGTON_PASSIVE_ABILPREVIEWUPGRADE_01|Guaranteed to inflict Offense Down.
-JACKSKELLINGTON_PASSIVE_DESC_01|On turn start, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents affected by Fear. <color=#FEF8E4>{1:P0}</color> chance to inflict Offense Down for <color=#FEF8E4>{2:N0}</color> turn.
-JACKSKELLINGTON_PASSIVE_DESC_02|On turn start, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents affected by Fear. Inflict Offense Down for <color=#FEF8E4>{2:N0}</color> turn.
+JACKSKELLINGTON_PASSIVE_DESC_01|On turn start, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents affected by Fear. <color=#FEF8E4>{1:P0}</color> chance to inflict Offense Down for <color=#FEF8E4>{2:N0}</color> turn. In Raids, increase duration of Offense Down by <color=#FEF8E4>{3:N0}</color>.
+JACKSKELLINGTON_PASSIVE_DESC_02|On turn start, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents affected by Fear. Inflict Offense Down for <color=#FEF8E4>{2:N0}</color> turn. In Raids, increase duration of Offense Down by <color=#FEF8E4>{3:N0}</color>.
 JACKSKELLINGTON_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to inflict Heal Block.
 JACKSKELLINGTON_SPECIALA_ABILPREVIEWUPGRADE_02|Guaranteed to inflict Heal Block.
-JACKSKELLINGTON_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Fear for <color=#FEF8E4>{1:N0}</color> turns. <color=#FEF8E4>{2:P0}</color> chance to inflict Heal Block for <color=#FEF8E4>{3:N0}</color> turns.<br><br>If Sally is a teammate, gain <color=#FEF8E4>{4:N0}</color> Magic for this ability.
-JACKSKELLINGTON_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Fear for <color=#FEF8E4>{1:N0}</color> turns. Inflict Heal Block for <color=#FEF8E4>{2:N0}</color> turns.<br><br>If Sally is a teammate, gain <color=#FEF8E4>{4:N0}</color> Magic for this ability.
+JACKSKELLINGTON_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Fear for <color=#FEF8E4>{1:N0}</color> turns. In Raids, increase the duration of Fear by <color=#FEF8E4>{5:N0}</color>. <color=#FEF8E4>{2:P0}</color> chance to inflict Heal Block for <color=#FEF8E4>{3:N0}</color> turns.<br><br>This ability has <color=#FEF8E4>{6:P0}</color> bonus Potency.<br><br>If Sally is a teammate, gain <color=#FEF8E4>{4:N0}</color> Magic for this ability.
+JACKSKELLINGTON_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict Fear for <color=#FEF8E4>{1:N0}</color> turns. In Raids, increase the duration of Fear by <color=#FEF8E4>{5:N0}</color>. Inflict Heal Block for <color=#FEF8E4>{3:N0}</color> turns.<br><br>This ability has <color=#FEF8E4>{6:P0}</color> bonus Potency.<br><br>If Sally is a teammate, gain <color=#FEF8E4>{4:N0}</color> Magic for this ability.
 JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> initial Shield amount.
 JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_02|If target is Mythical, grant them <color=#FEF8E4>{0:N0}</color> Undefeatable.
 JACKSKELLINGTON_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> Undefeatable granted.
-JACKSKELLINGTON_SPECIALB_DESC_01|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color> for <color=#FEF8E4>{0:N0}</color> turns. Grant Shield worth <color=#FEF8E4>{3:P0}</color> of their max Health.<br><br>Pumpkin Shield:<br>Increase Defense by <color=#FEF8E4>{1:P0}</color>. On expiration or combat end, Shield on the unit is converted to Health until Health is full or Shield is consumed. Each time an opponent gains Fear, gain Shield worth <color=#FEF8E4>{2:P0}</color> of max Health.
-JACKSKELLINGTON_SPECIALB_DESC_02|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color> for <color=#FEF8E4>{0:N0}</color> turns. Grant Shield worth <color=#FEF8E4>{3:P0}</color> of their max Health. If target is Mythical, grant them Undefeatable.<br><br>Pumpkin Shield:<br>Increase Defense by <color=#FEF8E4>{1:P0}</color>. On expiration or combat end, Shield on the unit is converted to Health until Health is full or Shield is consumed. Each time an opponent gains Fear, gain Shield worth <color=#FEF8E4>{2:P0}</color> of max Health.
+JACKSKELLINGTON_SPECIALB_DESC_01|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color> for <color=#FEF8E4>{0:N0}</color> turns. Grant Shield worth <color=#FEF8E4>{3:P0}</color> of their max Health.<br><br>Grant Taunt for <color=#FEF8E4>{5:N0}</color> turn. Grant Defense Up for <color=#FEF8E4>{6:N0}</color> turn. In Raids, increase duration of Taunt and Defense Up by <color=#FEF8E4>{7:N0}</color>.<br><br>Pumpkin Shield:<br>Increase Defense by <color=#FEF8E4>{1:P0}</color>. On expiration or combat end, Shield on the unit is converted to Health until Health is full or Shield is consumed. Each time an opponent gains Fear, gain Shield worth <color=#FEF8E4>{2:P0}</color> of max Health.
+JACKSKELLINGTON_SPECIALB_DESC_02|Grant target teammate <color=#FEF8E4><link=BATTLE_EFFECT_PUMPKIN_SHIELD>[PUMPKIN SHIELD]</link></color> for <color=#FEF8E4>{0:N0}</color> turns. Grant Shield worth <color=#FEF8E4>{3:P0}</color> of their max Health. If target is Mythical, grant them Undefeatable.<br><br>Grant Taunt for <color=#FEF8E4>{5:N0}</color> turn. Grant Defense Up for <color=#FEF8E4>{6:N0}</color> turn. In Raids, increase duration of Taunt and Defense Up by <color=#FEF8E4>{7:N0}</color>.<br><br>Pumpkin Shield:<br>Increase Defense by <color=#FEF8E4>{1:P0}</color>. On expiration or combat end, Shield on the unit is converted to Health until Health is full or Shield is consumed. Each time an opponent gains Fear, gain Shield worth <color=#FEF8E4>{2:P0}</color> of max Health.
 JACKSKELLINGTON_SPECIALB_DESC_03|Grant target teammate Pumpkin Shield for <color=#FEF8E4>{0:N0}</color> turn.<br><br>Pumpkin Shield: Increase Defense by <color=#FEF8E4>{1:P0}</color>. Grant a Shield worth <color=#FEF8E4>{4:P0}</color> of target's maximum Health.<br><br>On natural expiration, grant affected character a Shield worth <color=#FEF8E4>{2:P0}</color> of their maximum Health. If affected character has max Health, grant Invincibility for <color=#FEF8E4>{3:N0}</color> turn.
 JACKSKELLINGTON_UNIT_NAME|JACK SKELLINGTON
 JACKSPARROW_ABILBASIC_DESC|Melee: Performs a canny sword strike at an opponent, dealing up to <color=#FFC400>{0:N0}</color> Physical damage.<br><br>Ranged: Throws an improvised explosive, dealing up to <color=#FFC400>{1:N0}</color> Fire damage to an opponent.
@@ -7317,6 +7540,8 @@ LIFETIME_FINISH_GRAND_4_DESC|Finish Grand Campaign Stage 4
 LIFETIME_FINISH_GRAND_5_DESC|Finish Grand Campaign Stage 5
 LIFETIME_FINISH_GRAND_6_DESC|Finish Grand Campaign Stage 6
 LIFETIME_FINISH_GRAND_7_DESC|Finish Grand Campaign Stage 7
+LIFETIME_FINISH_TITANS_RAID_HEROIC_NAME|SIEGE ON OLYMPUS - HEROIC
+LIFETIME_FINISH_TITANS_RAID_HEROIC_DESC|Complete the Heroic tier of the Siege on Olympus Raid
 LIFETIME_FINISH_GRAND_NAME|THE GRAND JOURNEY
 LIFETIME_FINISH_HERO_HARD_1_DESC|Finish Heroes Stage 2 - ELITE
 LIFETIME_FINISH_HERO_HARD_2_DESC|Finish Heroes Stage 3 - ELITE
@@ -7620,6 +7845,31 @@ LUMIERE_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to C
 LUMIERE_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Crit Chance granted as bonus Crit Chance.
 LUMIERE_PASSIVE_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse Blind. Guaranteed for 'Beauty and  the Beast' teammates, including this character.
 LUMIERE_PASSIVE_ABILPREVIEWUPGRADE_04|Guaranteed to Cleanse Blind.
+LYTHOS_UNIT_NAME|ROCK TITAN
+LYTHOS_BASIC_NAME|Boulder Toss
+LYTHOS_BASIC_DESC|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deals <color=#FEF8E4>{1:P0}</color> bonus damage if opponent has Defense Down.<br><br>If opponent doesn't have Defense Up, inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turns. On Critical Strike, inflict <color=#FEF8E4>{3:N0}</color> Vulnerable.
+LYTHOS_BASIC_DESC_SUMMARIZED|Deal damage to target opponent. Deals bonus damage if opponent has Defense Down.<br><br>If opponent doesn't have Defense Up, inflict Defense Down. On Critical Strike, inflict Vulnerable.
+LYTHOS_SPECIALA_NAME|Crag Press
+LYTHOS_SPECIALA_DESC|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deals <color=#FEF8E4>{1:P0}</color> bonus damage if opponent doesn't have Taunt.<br><br>If the opponent doesn't have Taunt or Protect, inflict Defense Down and Shaken for <color=#FEF8E4>{2:N0}</color> turns. On Critical Strike, inflict <color=#FEF8E4>{3:N0}</color> Vulnerable.
+LYTHOS_SPECIALA_DESC_SUMMARIZED|Deal damage to target opponent. Deal bonus damage if opponent doesn't have Taunt.<br><br>If opponent doesn't have Taunt, inflict Defense Down and Shaken. On Critical Strike, inflict Vulnerable.
+LYTHOS_SPECIALB_NAME|Seismic Destruction
+LYTHOS_SPECIALB_DESC|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents <color=#FEF8E4>{1:N0}</color> times.<br><br>Then, deal up to <color=#FFC400>{2:N0}</color> unavoidable damage to all opponents. On Critical Strike, inflict <color=#FEF8E4>{3:N0}</color> Vulnerable. If opponent is inflicted with Shaken, deal <color=#FEF8E4>{4:P0}</color> bonus damage and inflict Stun for <color=#FEF8E4>{5:N0}</color> turn. Inflict Defense Down and Shaken for <color=#FEF8E4>{6:N0}</color> turns.
+LYTHOS_SPECIALB_DESC_SUMMARIZED|Deal damage to all opponents 4 times. Then, deal unavoidable damage to all opponents. On Critical Strike, inflict Vulnerable. If opponent is inflicted with Shaken, deal bonus damage and inflict Stun. Inflict Defense Down and Shaken.
+TITAN_SPECIALC_NAME|Beneath the Seas of Tartarus
+TITAN_SPECIALC_DESC|Instantly defeat target opponent. A character defeated this way cannot be revived. Ignores summoned and cloned opponents.
+LYTHOS_PASSIVEA_NAME|Two-headed Titan
+LYTHOS_PASSIVEA_DESC|When a head is destroyed or at the start of Battle where a head has been destroyed, do the following:<br><br>This character gains Staggered for <color=#FEF8E4>{0:N0}</color> turn. Opponents gain <color=#FEF8E4>{1:N0}</color> Guarenteed Crit.<br><br>On recovering from Stagger, this character will become Empowered and perform Seismic Destruction, ignoring its Magic cost.
+LYTHOS_PASSIVEA_DESC_SUMMARIZED|When a head is destroyed or at the start of Battle where a head has been destroyed, do the following:<br><br>This character gains Staggered. Opponents gain Guarenteed Crit.<br><br>On recovering from Stagger, this character will become Empowered and perform Seismic Destruction, ignoring its Magic cost.
+LYTHOS_PASSIVEB_NAME|Shadow of the Rock Titan
+LYTHOS_PASSIVEB_DESC|This character gains <color=#FEF8E4>{0:P0}</color> Tenacity. Opponents lose <color=#FEF8E4>{1:P0}</color> Tenacity.<br><br>While fighting other Titans in the raid, while this character has not been defeated, apply the following on Battle start:<br><br>FORTITUDE OF EARTH: This Titan gains <color=#FEF8E4>{2:P0}</color> Tenacity. Opponents lose <color=#FEF8E4>{3:P0}</color> Tenacity.<br><br>For each Titan defeated in the raid, this character gains <color=#FEF8E4>{4:P0}</color> Offense and takes <color=#FEF8E4>{5:P0}</color> less damage.<br><br>When this character loses a substantial amount of its max Health in a fight, become Empowered. While Empowered, gain <color=#FEF8E4>{7:P0}</color> Offense, <color=#FEF8E4>{8:P0}</color> Speed, and <color=#FEF8E4>{9:P0}</color> Magic to all abilities each turn. Cleanse all Harmful Effects from this Titan and gain Harmful Effect Immunity.
+LYTHOS_PASSIVEB_DESC_SUMMARIZED|This character gains <color=#FEF8E4>100%</color> Tenacity. Opponents lose Tenacity.<br><br>While fighting other Titans in the raid, while this character has not been defeated, apply the following on Battle start:<br>FORTITUDE OF EARTH: This Titan gains Tenacity. Opponents lose Tenacity.<br><br>For each Titan defeated in the raid, this character gains Offense and takes less damage.<br><br>When this character loses a substantial amount of its max Health in a fight, become Empowered. While Empowered, gain Offense, Speed, and Magic to all abilities each turn. Cleanse all Harmful Effects from this Titan and gain Harmful Effect Immunity.
+LYTHOS_AURA_NAME|FORTITUDE OF EARTH
+LYTHOS_AURA_DESC|<br>While fighting Rock Titan, it gains <color=#FEF8E4>200%</color> Tenacity and players lose <color=#FEF8E4>100%</color> Tenacity.<br><br>While Rock Titan is alive, other Titans gain <color=#FEF8E4>50%</color> Tenacity and players lose <color=#FEF8E4>25%</color> Tenacity.
+LYTHOS_PASSIVEB_IMPORTANTEFFECTS_DESC|<br>Lava, Ice, and Tornado Titan gains <color=#FEF8E4>FORTITUDE OF EARTH</color><br><br><color=#FEF8E4>FORTITUDE OF EARTH</color>: This Titan gains <color=#FEF8E4>50%</color> Tenacity. Opponents lose <color=#FEF8E4>25%</color> Tenacity.
+LYTHOS_RAIDPASSIVE_NAME|Sorcerer's Strength - Rock Titan
+LYTHOS_RAIDPASSIVE_DESC|This character performs an additional action on its turn.<br><br>Immune to Stun, Silence, Intimidate, Polymorph, Charm, Sleep, Stasis, Poison, Scalding and Imprison.<br><br>This character gradually builds up a resistance to Speed Meter reduction and Magic Charge reduction.
+LYTHOS_EFFECT_TITLE|FORTITUDE OF EARTH
+LYTHOS_EFFECT_DESC|While Rock Titan is alive:<br><br> Titans have greatly increased Tenacity. Players have greatly reduced Tenacity.<br><br>Bring Taunt, Defense Up, Crit Immunity, and Cleanses to defeat this formidable foe.
 MADAMMIM_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to inflict a random Harmful effect.
 MADAMMIM_BASIC_DESC_01|Deal <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>If any teammate is a Villain, <color=#FEF8E4>{1:P0}</color> chance to inflict a random Harmful effect for <color=#FEF8E4>{2:N0}</color> turn.
 MADAMMIM_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> Speed Meter increase after inflicting a Harmful effect.
@@ -7639,8 +7889,8 @@ MADAMMIM_SPECIALB_ABILPREVIEWUPGRADE_02|Deal <color=#FEF8E4>{0:P0}</color> bonus
 MADAMMIM_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>{0:P0}</color> chance to inflict Heal Block.
 MADAMMIM_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.  Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Harmful effect on target.
 MADAMMIM_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.  Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Harmful effect on target.<br><br>Purge all Helpful effects from target.
-MADAMMIM_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Harmful effect on target.<br><br>Purge all Helpful effects from target. Deal <color=#FEF8E4>{2:P0}</color> bonus damage per Helpful effect removed by Purge.
-MADAMMIM_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.  Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Harmful effect on target.<br><br>Purge all Helpful effects from target. Deal <color=#FEF8E4>{2:P0}</color> bonus damage per Helpful effect removed by Purge.<br><br><color=#FEF8E4>{3:P0}</color> chance to inflict Heal Block on target for <color=#FEF8E4>{4:N0}</color> turn.
+MADAMMIM_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Harmful effect on target.<br><br>Purge all Helpful effects from target. Deal <color=#FEF8E4>{3:P0}</color> bonus damage per Helpful effect removed by Purge.
+MADAMMIM_SPECIALB_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.  Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Harmful effect on target.<br><br>Purge all Helpful effects from target. Deal <color=#FEF8E4>{3:P0}</color> bonus damage per Helpful effect removed by Purge.<br><br><color=#FEF8E4>{4:P0}</color> chance to inflict Heal Block on target for <color=#FEF8E4>{5:N0}</color> turn.
 MADAM_MIM_ABILBASIC_ABILPREVIEWUPGRADE_HARMFULEFFECTS_ADDEFFECT|Adds 10% chance to refresh harmful effect duration.
 MADAM_MIM_ABILBASIC_ABILPREVIEWUPGRADE_PRIORITIZETARGETS|Prioritizes opponents affected by harmful effects.
 MADAM_MIM_ABILBASIC_DESC_BASE|Blasts an opponent with malicious magic, dealing up to <color=#FFC400>{0:N0}</color> Dark damage.
@@ -8340,18 +8590,23 @@ MERLIN_ABILSPECIALB_DESC_U01|Instructs the ally with a quick lesson, applying Cl
 MERLIN_ABILSPECIALB_DESC_U02|Instructs the ally with a quick lesson, applying Cleanse and granting them <color=#FEF8E4><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> for <color=#FEF8E4>{0:N0}s</color>.<br><br>Grants <color=#FEF8E4>{2:N0}</color> Magic if a harmful effect is removed by this ability.
 MERLIN_ABILSPECIALB_NAME|Use Your Head!
 MERLIN_BASIC_ABILPREVIEWUPGRADE_01|{0:P0}</color> chance to inflict Defense Down.
-MERLIN_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense Down.
+MERLIN_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance to inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn (Guaranteed in Raids.)
+MERLIN_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense Down.
+MERLIN_BASIC_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> chance to inflict Defense Down and Sleep.
 MERLIN_BASIC_DESC_01|Deals up to <color=#FFC400>{0:N0}</color> damage to target opponent.
-MERLIN_BASIC_DESC_02|Deals up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turn.
+MERLIN_BASIC_DESC_02|<color=#FFC400>{0:P0}</color> chance to inflict Sleep for <color=#FFC400>{1:N0}</color> turn (Guaranteed in Raids.)
+MERLIN_BASIC_DESC_03|Deals up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to inflict Defense Down for <color=#FEF8E4>{2:N0}</color> turn. <color=#FEF8E4>{3:P0}</color> chance to inflict Sleep for <color=#FEF8E4>{4:N0}</color> turn (Guaranteed in Raids.)
 MERLIN_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> bonus Spell Charge gained per Mythic teammate.
 MERLIN_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Magic.
 MERLIN_PASSIVE_DESC_01|On turn start, <color=#FEF8E4>{0:P0}</color> chance to increase your Spell Charge by <color=#FEF8E4>{1:P0}</color>.
 MERLIN_PASSIVE_DESC_02|On turn start, <color=#FEF8E4>{0:P0}</color> chance to increase your Spell Charge by <color=#FEF8E4>{1:P0}</color>.<br><br><color=#FEF8E4>{2:P0}</color> bonus Spell Charge gained per Mythic teammate.
 MERLIN_PASSIVE_DESC_03|On turn start, <color=#FEF8E4>{0:P0}</color> chance to increase your Magic by <color=#FEF8E4>{1:P0}</color>. <color=#FEF8E4>{2:P0}</color> bonus Magic gained per Mythic teammate.
 MERLIN_SPECIALA_ABILPREVIEWUPGRADE_01|Reduce target's Speed Meter by <color=#FEF8E4>{0:P0}</color>.
-MERLIN_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed Meter reduction.
+MERLIN_SPECIALA_ABILPREVIEWUPGRADE_02|Reduce target's Magic if they are a Raid Boss.
+MERLIN_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Speed Meter reduction.
 MERLIN_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Stun for <color=#FEF8E4>{1:N0}</color> turn. Reduce the Magic of target's abilities by <color=#FEF8E4>{2:N0}</color> if they are already affected by Stun.
 MERLIN_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Stun for <color=#FEF8E4>{1:N0}</color> turn. Reduce the Magic of target's abilities by <color=#FEF8E4>{2:N0}</color> if they are already affected by Stun. Reduce target's Speed Meter by <color=#FEF8E4>{3:P0}</color>.
+MERLIN_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Stun for <color=#FEF8E4>{1:N0}</color> turn. Reduce the Magic of target's abilities by <color=#FEF8E4>{2:N0}</color> if they are already affected by Stun or are a Raid Boss. Reduce target's Speed Meter by <color=#FEF8E4>{3:P0}</color>.
 MERLIN_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> Magic granted.
 MERLIN_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance to Cleanse an additional Harmful effect.
 MERLIN_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to Cleanse an additional Harmful effect.
@@ -8429,9 +8684,11 @@ MILESTONE_REWARD_POINT_DESC|Progression XP earned from battling in Event Towers.
 MILESTONE_LTA_REWARD_POINT|EVENT ARENA XP
 MILESTONE_LTA_REWARD_POINT_DESC|Progression XP earned from battling in Event Arenas.
 MILESTONE_RAID_REWARD_NAME|RAID MILESTONES
-MILESTONE_RAID_REWARD_POINT|RAID XP
-MILESTONE_RAID_REWARD_POINT_DESC|Progression XP earned from battling in Raids.
+MILESTONE_RAID_REWARD_POINT|FORBIDDEN DEPTHS RAID XP
+MILESTONE_RAID_REWARD_POINT_DESC|Progression XP earned from battling in Forbidden Depths Raids.
 MILESTONE_RAID_REWARD_DESC|EARN RAID XP TO COLLECT REWARDS
+MILESTONE_TITANS_RAID_REWARD_POINT_DESC|Progression XP earned from battling in Siege on Olympus Raids.
+MILESTONE_TITANS_RAID_REWARD_POINT_NAME|SIEGE ON OLYMPUS RAID XP
 MIND_WORKER_UNIT_NAME|Mind Worker
 MINNIEMOUSE_UNIT_NAME|MINNIE MOUSE
 MINNIEMOUSE_WINTER_UNIT_NAME|WINTER MINNIE MOUSE
@@ -8800,14 +9057,14 @@ OLAF_ABILSPECIALA_NAME|Living the Dream
 OLAF_ABILSPECIALB_NAME|Warm Hugs
 OLAF_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.
 OLAF_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Reduce target opponent's Speed Meter by <color=#FEF8E4>{1:P0}</color>.
-OLAF_PASSIVEA_DESC_01|On defeat, <color=#FEF8E4>{0:P0}</color> chance to revive with <color=#FEF8E4>{1:P0}</color> maximum health restored. If Anna is a teammate, fill her speed meter by <color=#FEF8E4>{2:P0}</color>.<br><br>If Elsa is a teammate chance to revive is instead <color=#FEF8E4>{3:P0}</color>.
+OLAF_PASSIVEA_DESC_01|On defeat, <color=#FEF8E4>{0:P0}</color> chance to revive with <color=#FEF8E4>{1:P0}</color> maximum health restored. If Anna is a teammate, fill her speed meter by <color=#FEF8E4>{2:P0}</color>.<br><br>If Elsa is a teammate chance to revive is instead <color=#FEF8E4>{3:P0}</color>. In Raids, this ability is guaranteed to activate.
 OLAF_SPECIALA_ABILPREVIEWUPGRADE_01|For each Harmful effect on target teammate grant an additional Continuous Healing effect up to a maximum of <color=#FEF8E4>{0:N0}</color>.
 OLAF_SPECIALA_ABILPREVIEWUPGRADE_02|+1 maximum additional Continuous Healing effect.
 OLAF_SPECIALA_DESC_01|Grant target teammate Tactics for <color=#FEF8E4>{0:N0}</color> turn. Extend duration of Helpful Effects by <color=#FEF8E4>{1:N0}</color>.<br><br>Grant Continuous Healing, restoring up to <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns.<br><br>If target teammate is Anna or Elsa, grant Harmful Effect Immunity for <color=#FEF8E4>{5:N0}</color> turns.
 OLAF_SPECIALA_DESC_02|Grant target teammate Tactics for <color=#FEF8E4>{0:N0}</color> turn. Extend duration of Helpful Effects by <color=#FEF8E4>{1:N0}</color>.<br><br>Grant Continuous Healing, restoring up to <color=#5DFF89>{2:N0}</color> Health over <color=#FEF8E4>{3:N0}</color> turns. For each Harmful effect on target teammate grant an additional Continuous Healing effect up to a maximum of <color=#FEF8E4>{4:N0}</color>.<br><br>If target teammate is Anna or Elsa, grant Harmful Effect Immunity for <color=#FEF8E4>{5:N0}</color> turns.
-OLAF_SPECIALB_DESC_01|Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. Grant Continuous Healing to teammate with lowest Health, restoring up to <color=#5DFF89>{1:N0}</color> Health over <color=#FEF8E4>{2:N0}</color> turns.
-OLAF_SPECIALB_DESC_02|Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. Grant Continuous Healing to teammate with lowest Health, restoring up to <color=#5DFF89>{1:N0}</color> Health over <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>{3:P0}</color> chance to gain Evasion.
-OLAF_SPECIALB_DESC_03|Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. Grant Continuous Healing to teammate with lowest Health, restoring up to <color=#5DFF89>{1:N0}</color> Health over <color=#FEF8E4>{2:N0}</color> turns.<br><br>Gain Evasion.
+OLAF_SPECIALB_DESC_01|Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. Grant <color=#FEF8E4>{4:N0}</color> Continuous Healing to <color=#FEF8E4>{5:N0}</color> random teammates, restoring up to <color=#FEF8E4>{1:N0}</color> Health over <color=#FEF8E4>{2:N0}</color> turns.<br><br>If opponent was not inflicted with Charm by this ability, grant <color=#FEF8E4>{4:N0}</color> Continuous Healing to an additional <color=#FEF8E4>{6:N0}</color> random teammates.
+OLAF_SPECIALB_DESC_02|Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. Grant <color=#FEF8E4>{4:N0}</color> Continuous Healing to <color=#FEF8E4>{5:N0}</color> random teammates, restoring up to <color=#5DFF89>{1:N0}</color> Health over <color=#FEF8E4>{2:N0}</color> turns.<br><br>If opponent was not inflicted with Charm by this ability, grant <color=#FEF8E4>{4:N0}</color> Continuous Healing to an additional <color=#FEF8E4>{6:N0}</color> random teammates.<br><br><color=#FEF8E4>{3:P0}</color> chance to Gain Evasion.
+OLAF_SPECIALB_DESC_03|Inflict Charm for <color=#FEF8E4>{0:N0}</color> turn. Grant <color=#FEF8E4>{4:N0}</color> Continuous Healing to <color=#FEF8E4>{5:N0}</color> random teammates, restoring up to <color=#5DFF89>{1:N0}</color> Health over <color=#FEF8E4>{2:N0}</color> turns.<br><br>If opponent was not inflicted with Charm by this ability, grant <color=#FEF8E4>{4:N0}</color> Continuous Healing to an additional <color=#FEF8E4>{6:N0}</color> random teammates.<br><br>Gain Evasion.
 OLAF_UNIT_NAME|OLAF
 OOGIEBOOGIE_ABILBASIC_ABILPREVIEWUPGRADE_BUFFREDUCTION_INCCHANCE_05PCT|Increases chance to remove a random helpful effect by 5%.
 OOGIEBOOGIE_ABILBASIC_BASE_DESC|Threateningly swipes at an opponent, dealing up to <color=#ffc400>{0:N0}</color> Physical damage with a <color=#FEF8E4>{2:P0}</color> chance to remove a random helpful effect.<br><br>Deals up to an additional <color=#ffc400>{1:N0}</color> damage, which is based off Oogie Boogie's Defense.
@@ -8830,23 +9087,23 @@ OOGIEBOOGIE_ABILSPECIALB_NAME|Frightful Shadow
 OOGIEBOOGIE_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to do a follow up attack and have Health restored equal to <color=#FEF8E4>{1:P0}</color> of damage dealt.
 OOGIEBOOGIE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal bonus damage equal to <color=#FEF8E4>{3:P0}</color> of this character's Defense.<br><br><color=#FEF8E4>{1:P0}</color> chance (doubled if target has Fear) to do a follow up attack: Deal up to <color=#FFC400>{4:N0}</color> damage. Purge <color=#FEF8E4>{2:N0}</color> random Helpful effect.
 OOGIEBOOGIE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to Purge <color=#FEF8E4>{2:N0}</color> random Helpful effect. Deal bonus damage equal to <color=#FEF8E4>{3:P0}</color> of this character's Defense.<br><br><color=#FEF8E4>{4:P0}</color> chance to do a follow up attack: Deal up to <color=#FFC400>{5:N0}</color> damage. Restore Health to this character equal to <color=#FEF8E4>{6:P0}</color> of damage dealt.
-OOGIEBOOGIE_PASSIVE_DESC_01|<color=#FEF8E4>{0:P0}</color> of damage this character deals is restored to it as Health. <color=#FEF8E4>+{1:P0}</color> bonus Health restored from damage dealt to targets with Fear.
+OOGIEBOOGIE_PASSIVE_DESC_01|<color=#FEF8E4>{0:P0}</color> of damage this character deals is restored to it as Health. <color=#FEF8E4>+{1:P0}</color> bonus Health restored from damage dealt to targets with Fear.<br><br>When restoring Health in this way, also Cleanse <color=#FEF8E4>{2:N0}</color> harmful effect on this character.
 OOGIEBOOGIE_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to steal <color=#FEF8E4>{1:N0}</color> random Helpful effect from target opponent.
 OOGIEBOOGIE_SPECIALA_ABILPREVIEWUPGRADE_02|Guaranteed to steal a random Helpful effect.
 OOGIEBOOGIE_SPECIALA_ABILPREVIEWUPGRADE_03|Steal <color=#FEF8E4>+{0:N0}</color> additional Helpful effect from target opponent.
-OOGIEBOOGIE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on target opponent. Deal up to <color=#FFC400>{2:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents.
-OOGIEBOOGIE_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on target opponent. Deal up to <color=#FFC400>{2:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents.<br><br><color=#FEF8E4>{4:P0}</color> chance to steal <color=#FEF8E4>{5:N0}</color> random Helpful effect from target opponent.
-OOGIEBOOGIE_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on target opponent. Deal up to <color=#FFC400>{2:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents.<br><br>Steal <color=#FEF8E4>{5:N0}</color> random Helpful effect from target opponent.
-OOGIEBOOGIE_SPECIALA_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on target opponent. Deal up to <color=#FFC400>{2:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents.<br><br>Steal <color=#FEF8E4>{5:N0}</color> random Helpful effects from target opponent.
-OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Silence on target opponent.
+OOGIEBOOGIE_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on target opponent. Deal up to <color=#FFC400>{2:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents. In Raids, increase duration of Slow by <color=#FEF8E4>{7:N0}</color>.
+OOGIEBOOGIE_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on target opponent. Deal up to <color=#FFC400>{2:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents. In Raids, increase duration of Slow by <color=#FEF8E4>{7:N0}</color>.<br><br><color=#FEF8E4>{4:P0}</color> chance to steal <color=#FEF8E4>{5:N0}</color> random Helpful effect from target opponent.
+OOGIEBOOGIE_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on target opponent. Deal up to <color=#FFC400>{2:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents. In Raids, increase duration of Slow by <color=#FEF8E4>{7:N0}</color>.<br><br>Steal <color=#FEF8E4>{5:N0}</color> random Helpful effect from target opponent.
+OOGIEBOOGIE_SPECIALA_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on target opponent. Deal up to <color=#FFC400>{2:N0}</color> damage to adjacent opponents. <color=#FEF8E4>{3:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turns on adjacent opponents. In Raids, increase duration of Slow by <color=#FEF8E4>{7:N0}</color>.<br><br>Steal <color=#FEF8E4>{5:N0}</color> random Helpful effects from target opponent.
+OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Silence on target opponent for <color=#FEF8E4>{1:N0}</color> turn. In Raids, inflict Silence on all opponents for <color=#FEF8E4>{1:N0}</color> turn.
 OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Offense Down.
 OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to inflict Silence
 OOGIEBOOGIE_SPECIALB_ABILPREVIEWUPGRADE_04|Guaranteed to inflict Silence.
-OOGIEBOOGIE_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> damage as healing.<br><color=#FEF8E4>+{0:P0}</color> bonus damage as healing.
+OOGIEBOOGIE_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> damage as healing.<br><color=#FEF8E4>+{1:P0}</color> bonus damage as healing.
 OOGIEBOOGIE_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> damage as healing.
-OOGIEBOOGIE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
-OOGIEBOOGIE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn. <color=#FEF8E4>{5:P0}</color> chance to inflict Silence on target opponent for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
-OOGIEBOOGIE_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn. Inflict Silence on target opponent for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns.
+OOGIEBOOGIE_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns. Gain Crit Immunity for <color=#FEF8E4>{7:N0}</color> turns.
+OOGIEBOOGIE_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn. <color=#FEF8E4>{5:P0}</color> chance to inflict Silence on target opponent for <color=#FEF8E4>{6:N0}</color> turn. In Raids, inflict Silence on all opponents for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns. Gain Crit Immunity for <color=#FEF8E4>{7:N0}</color> turns.
+OOGIEBOOGIE_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Fear on all opponents for <color=#FEF8E4>{1:N0}</color> turns.<br><br><color=#FEF8E4>{2:P0}</color> chance to inflict Offense Down on all opponents for <color=#FEF8E4>{3:N0}</color> turn. Inflict Silence on target opponent for <color=#FEF8E4>{6:N0}</color> turn. In Raids, inflict Silence on all opponents for <color=#FEF8E4>{6:N0}</color> turn.<br><br>Gain Taunt for <color=#FEF8E4>{4:N0}</color> turns. Gain Crit Immunity for <color=#FEF8E4>{7:N0}</color> turns.
 OOGIEBOOGIE_UNIT_NAME|OOGIE BOOGIE
 OOGIE_GLOW_UNIT_NAME|FLUORESCENT OOGIE BOOGIE
 OPTIONAL_WATCH_AD_DESC|(Optional) Watch a Video
@@ -12183,23 +12440,23 @@ QUEENOFHEARTS_ABILSPECIALB_DESC_U01|Commands a Card Soldier with <color=#5DFF89>
 QUEENOFHEARTS_ABILSPECIALB_NAME|Off With Their Head!
 QUEENOFHEARTS_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> maximum Chained opponent.
 QUEENOFHEARTS_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> minimum Chained opponent.
-QUEENOFHEARTS_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Chain to <color=#FEF8E4>{1:N0}</color> - <color=#FEF8E4>{2:N0}</color> adjacent opponents, dealing up to <color=#FFC400>{3:N0}</color> damage.
-QUEENOFHEARTS_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to gain Offense Up.
+QUEENOFHEARTS_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Chain to <color=#FEF8E4>{1:N0}</color> - <color=#FEF8E4>{2:N0}</color> adjacent opponents, dealing up to <color=#FFC400>{3:N0}</color> damage.<br><br>Deal <color=#FEF8E4>{4:P0}</color> bonus damage to summoned opponents.
+QUEENOFHEARTS_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn.
 QUEENOFHEARTS_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain Offense Up.
-QUEENOFHEARTS_PASSIVE_DESC_01|On receiving damage, <color=#FEF8E4>{0:P0}</color> chance to perform the following:<br><br>Gain Counter.<br><br>Immediately perform Questionable Shot on the opponent that dealt the damage.
-QUEENOFHEARTS_PASSIVE_DESC_02|On receiving damage, <color=#FEF8E4>{0:P0}</color> chance to perform the following:<br><br>Gain Counter. <color=#FEF8E4>{1:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn.<br><br>Immediately perform Questionable Shot on the opponent that dealt the damage.
+QUEENOFHEARTS_PASSIVE_DESC_01|On receiving damage, <color=#FEF8E4>{0:P0}</color> chance to perform the following:<br><br>Gain Counter. Gain Critical Chance Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Immediately perform Questionable Shot on the opponent that dealt the damage.<br><br>In Raids, this ability is guaranteed to activate.
+QUEENOFHEARTS_PASSIVE_DESC_02|On receiving damage, <color=#FEF8E4>{0:P0}</color> chance to perform the following:<br><br>Gain Counter. Gain Critical Chance Up for <color=#FEF8E4>{3:N0}</color> turn. <color=#FEF8E4>{1:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{2:N0}</color> turn.<br><br>Immediately perform Questionable Shot on the opponent that dealt the damage.<br><br>In Raids, this ability is guaranteed to activate.
 QUEENOFHEARTS_SPECIALA_ABILPREVIEWUPGRADE_01|Gain copies of <color=#FEF8E4>{0:N0}</color> effects Purged by this ability.
 QUEENOFHEARTS_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> Helpful effect Purged from all opponents.
-QUEENOFHEARTS_SPECIALA_ABILPREVIEWUPGRADE_03|Inflict Silence for <color=#FEF8E4>{0:N0}</color> turn on target opponent.
-QUEENOFHEARTS_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Purge <color=#FEF8E4>{1:N0}</color> Helpful effect from all opponents.
-QUEENOFHEARTS_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Purge <color=#FEF8E4>{1:N0}</color> Helpful effect from all opponents.<br><br>Gain copies of <color=#FEF8E4>{2:N0}</color> effects Purged by this ability with their durations refreshed.
-QUEENOFHEARTS_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Purge <color=#FEF8E4>{1:N0}</color> Helpful effects from all opponents.<br><br>Gain copies of <color=#FEF8E4>{2:N0}</color> effects Purged by this ability with their durations refreshed.
+QUEENOFHEARTS_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to inflict Silence.
+QUEENOFHEARTS_SPECIALA_DESC_01|Purge <color=#FEF8E4>{1:N0}</color> Helpful effect from all opponents. Then, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{4:P0}</color> bonus damage per helpful effect Purged, up to a max of <color=#FEF8E4>{5:P0}</color>.<br><br><color=#FEF8E4>{6:P0}</color> chance to inflict Silence for <color=#FEF8E4>{3:N0}</color> turn on each opponent. In Raids, this chance is guaranteed.<br><br>Call all Card Soldier teammates to assist against random opponents.
+QUEENOFHEARTS_SPECIALA_DESC_02|Purge <color=#FEF8E4>{1:N0}</color> Helpful effect from all opponents. Then, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{4:P0}</color> bonus damage per helpful effect Purged, up to a max of <color=#FEF8E4>{5:P0}</color>.<br><br><color=#FEF8E4>{6:P0}</color> chance to inflict Silence for <color=#FEF8E4>{3:N0}</color> turn on each opponent. In Raids, this chance is guaranteed.<br><br>Call all Card Soldier teammates to assist against random opponents.<br><br>Gain copies of <color=#FEF8E4>{2:N0}</color> effects Purged by this ability with their durations refreshed.
+QUEENOFHEARTS_SPECIALA_DESC_03|Purge <color=#FEF8E4>{1:N0}</color> Helpful effects from all opponents. Then, deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{4:P0}</color> bonus damage per helpful effect Purged, up to a max of <color=#FEF8E4>{5:P0}</color>.<br><br><color=#FEF8E4>{6:P0}</color> chance to inflict Silence for <color=#FEF8E4>{3:N0}</color> turn on each opponent. In Raids, this chance is guaranteed.<br><br>Call all Card Soldier teammates to assist against random opponents.<br><br>Gain copies of <color=#FEF8E4>{2:N0}</color> effects Purged by this ability with their durations refreshed.
 QUEENOFHEARTS_SPECIALA_DESC_04|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Purge <color=#FEF8E4>{1:N0}</color> Helpful effects from all opponents. Inflict Silence on target opponent for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Gain copies of <color=#FEF8E4>{2:N0}</color> effects Purged by this ability with their durations refreshed.
 QUEENOFHEARTS_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance for Card Soldiers to gain Offense Up on spawn for <color=#FEF8E4>{1:N0}</color> turn.
 QUEENOFHEARTS_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Health for Card Soldiers. <color=#FEF8E4>+{0:P0}</color> damage dealt for Card Soldiers.
 QUEENOFHEARTS_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance for Card Soldiers to gain Offense Up on spawn for <color=#FEF8E4>{1:N0}</color> turn.
-QUEENOFHEARTS_SPECIALB_DESC_01|Summon a Card Soldier at the target location.<br><br>Card Soldier: Has <color=#FEF8E4>{0:N0}</color> Health. Deal up to <color=#FFC400>{1:N0}</color> damage with each attack. When allied Queen of Hearts gains a Helpful effect, gain a copy of that effect.
-QUEENOFHEARTS_SPECIALB_DESC_02|Summon a Card Soldier at the target location. <color=#FEF8E4>{2:P0}</color> chance to grant summoned Card Soldier Offense Up for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Card Soldier: Has <color=#FEF8E4>{0:N0}</color> Health. Deal up to <color=#FFC400>{1:N0}</color> damage with each attack. When allied Queen of Hearts gains a Helpful effect, gain a copy of that effect.
+QUEENOFHEARTS_SPECIALB_DESC_01|Summon <color=#FEF8E4>{4:N0}</color> Card Soldiers at random locations, preferring locations adjacent to this character.<br><br>Card Soldier has the following:<br><br><color=#FEF8E4>{0:N0}</color> Health. Deal up to <color=#FFC400>{1:N0}</color> damage with each attack. Deal <color=#FEF8E4>{5:P0}</color> bonus damage per helpful effect on Card Soldier, up to a max of <color=#FEF8E4>{6:P0}</color>.<br><br>When allied Queen of Hearts gains a Helpful effect, gain a copy of that effect.<br><br>On defeat, grant <color=#FEF8E4>{7:N0}</color> Magic to this ability for allied Queen of Hearts.
+QUEENOFHEARTS_SPECIALB_DESC_02|Summon <color=#FEF8E4>{4:N0}</color> Card Soldiers at random locations, preferring locations adjacent to this character. <color=#FEF8E4>{2:P0}</color> chance for Card Soldiers to gain Offense Up on spawn for <color=#FEF8E4>{3:N0}</color> turn.<br><br>Card Soldier has the following:<br><br><color=#FEF8E4>{0:N0}</color> Health. Deal up to <color=#FFC400>{1:N0}</color> damage with each attack. Deal <color=#FEF8E4>{5:P0}</color> bonus damage per helpful effect on Card Soldier, up to a max of <color=#FEF8E4>{6:P0}</color>.<br><br>When allied Queen of Hearts gains a Helpful effect, gain a copy of that effect.<br><br>On defeat, grant <color=#FEF8E4>{7:N0}</color> Magic to this ability for allied Queen of Hearts.
 QUEEN_ANNA_UNIT_NAME|QUEEN ANNA
 QUEEN_OF_HEARTS_UNIT_NAME|THE QUEEN OF HEARTS
 QUESTION_MARKS|???
@@ -12323,7 +12580,22 @@ RAID_FORFEIT_CONFIRMATION_PROMPT|Are you sure you want to forfeit the raid? The 
 RAID_FORFEIT_CONFIRMATION_PROMPT_WITH_AMOUNT|Are you sure you want to forfeit the raid? The raid will end and no club members will earn any rewards. Your club will be refunded {0} {1}.
 RAID_FORFEIT_BUTTON|FORFEIT
 RAID_INFO_TITLE|Raids
+RAID_TITAN_REWARDS_DESCRIPTION|"TREASURE OF THE SKY" CONTENTS ARE LISTED BELOW
+RAID_TITAN_NAME|SIEGE ON OLYMPUS
+RAID_TITAN_TAGLINE|Peril at the Gates
+RAID_REWARDS_TITAN_TIER_HEROIC|HEROIC TIER
+RAID_REWARDS_TITAN_TIER_04|TIER 4
+RAID_REWARDS_TITAN_TIER_03|TIER 3
+RAID_REWARDS_TITAN_TIER_02|TIER 2
+RAID_REWARDS_TITAN_TIER_01|TIER 1
 RAID_TICKETS_CONTRIBUTION|RAID TICKETS
+RAID_INBOXMESSAGE_TITANS_STARTED_SUBJECT|RAID STARTED: The Siege on Olympus
+RAID_INBOXMESSAGE_TITANS_EXPIRED_SUBJECT|RAID EXPIRED: The Siege on Olympus
+RAID_INBOXMESSAGE_TITANS_FINISHED_SHARED_SUBJECT|RAID VICTORY: The Siege on Olympus
+RAID_INBOXMESSAGE_TITANS_STARTED_BODY|Your Club leadership has accepted a challenge presented by the Master Sorcerer.<br><br>Prepare your Teams to confront the denizens of the deep... and face off against the Titans!
+RAID_INBOXMESSAGE_TITANS_EXPIRED_BODY|Your Club has been overcome by the Master Sorcerer's challenge.<br><br>The Titans are victorious!<br><br>Prepare your Teams to take on the challenge once again!
+RAID_INBOXMESSAGE_TITANS_FINISHED_REWARDS_BODY|Your Club has claimed victory over the challenge presented by the Master Sorcerer.<br><br>The Titans have been defeated.<br><br>Visit Club Adventures to claim your rewards!
+RAID_INBOXMESSAGE_TITANS_FINISHED_NOREWARDS_BODY|Your Club has claimed victory over the challenge presented by the Master Sorcerer.<br><br>The Titans have been defeated.<br><br>You did not qualify to receive any rewards. Please visit Club Adventures and read the RAID RULES for more information.
 RAID_INBOXMESSAGE_SENDER|YOUR CLUB LEADERSHIP
 RAID_INBOXMESSAGE_URSULA_STARTED_SUBJECT|RAID STARTED: The Forbidden Depths
 RAID_INBOXMESSAGE_URSULA_EXPIRED_SUBJECT|RAID EXPIRED: The Forbidden Depths
@@ -12336,7 +12608,7 @@ RAID_JOIN_CLUB|JOIN A CLUB TO TAKE ON EPIC RAIDS
 RAID_LEADERBOARD|LEADERBOARDS
 RAID_LEADERBOARD_DAMAGE_FORMAT|{0} DMG
 RAID_LEVEL_N|<color=#999999>LEVEL {0}</color>
-RAID_GEAR_LEVEL_N|<color=#999999>GEAR TIER {0}</color>
+RAID_GEAR_LEVEL_N|<color=#999999>GEAR TIER {0}    </color>
 RAID_CHEST_SUFFIX|{0} CHEST
 RAID_MILESTONES|RAID MILESTONES
 RAID_NO_ACTIVE_RAIDS|CHECK BACK SOON FOR MORE RAIDS
@@ -12344,6 +12616,7 @@ RAID_NO_ATTEMPTS|NO ATTEMPTS REMAINING
 RAID_N_STARS_REQUIRED|{0} STARS REQUIRED   
 RAID_PURCHASE_CONFIRM_BODY|STARTING A RAID WILL EXPEND RAID TICKETS FOR YOUR CLUB.<BR><BR>ONCE THE RAID HAS BEEN STARTED, ALL CLUB MEMBERS CAN PARTICIPATE IF THEY MEET THE REQUIREMENTS.
 RAID_PURCHASE_CONFIRM_TITLE|SPEND RAID TICKETS TO START RAID?
+RAID_REQUIREMENT_TITAN_HEROIC|REQUIRES 40 CLUB MEMBERS & DEFEAT TIER 4 WITH THE FINAL TITAN BEING: LAVA [%d/1], ICE [%d/1], TORNADO [%d/1], ROCK [%d/1]
 RAID_REWARDS_DESCRIPTION|"TREASURE OF THE DEPTHS" CONTENTS ARE LISTED BELOW
 RAID_REWARDS_TAB_TITLE|REWARDS
 RAID_REWARDS_TITLE|CLUB RAID REWARDS
@@ -12370,12 +12643,12 @@ RAID_SUMMARY_TAB_TITLE|SUMMARY
 RAID_TIER_CURRENTLY_ACTIVE|<color=#22FF00><br>(ACTIVE TIER)</color>
 RAID_TIER_LOCKED|YOUR CLUB DOES NOT MEET THE REQUIREMENTS
 RAID_TIER_N|TIER {0}
-RAID_REWARDS_TIER_01|RAID TIER 1
-RAID_REWARDS_TIER_02|RAID TIER 2
-RAID_REWARDS_TIER_03|RAID TIER 3
-RAID_REWARDS_TIER_04|RAID TIER 4
-RAID_REWARDS_TIER_05|RAID TIER 5
-RAID_REWARDS_TIER_HEROIC|RAID HEROIC TIER
+RAID_REWARDS_TIER_01|TIER 1
+RAID_REWARDS_TIER_02|TIER 2
+RAID_REWARDS_TIER_03|TIER 3
+RAID_REWARDS_TIER_04|TIER 4
+RAID_REWARDS_TIER_05|TIER 5
+RAID_REWARDS_TIER_HEROIC|HEROIC TIER
 RAID_UNITS_TAB_TITLE|UNITS
 RAID_UNITS_TITLE|REQUIRED UNITS
 RAID_UNIT_REQUIREMENTS_COUNT|YOU HAVE <color=#{0}>{1}</color> ELIGIBLE CHARACTERS
@@ -12383,9 +12656,13 @@ RAID_UNITS_REFRESH_IN|UNITS AND SPELLS REFRESH IN:
 RAID_URSULA_NAME|THE FORBIDDEN DEPTHS
 RAID_URSULA_TAGLINE|Lair of the Sea Witch
 RAID_URSULA_SHOWCASE_NAME|TREASURE OF THE DEPTHS
+RAID_TITAN_SHOWCASE_NAME|TREASURE OF THE SKY
+RAID_TITAN_SHOWCASE_TAGLINE|Awarded Upon Success
+RAID_TITAN_SHOWCASE_FOOTER|Must be within the Club upon Raid start and meet requirements of the battle to earn.
 RAID_URSULA_SHOWCASE_TAGLINE|Awarded Upon Success
 RAID_URSULA_SHOWCASE_FOOTER|Must be within the Club upon Raid start and meet requirements of the battle to earn.
 RAID_URSULA_DESCRIPTION|The Sorcerer has conjured forth formidable denizens of the deep to present your Club an epic challenge. Emerge victorious and be rewarded with some of the rarest and most powerful relics.
+RAID_TITAN_DESCRIPTION|The Sorcerer has unleashed the Titans from beneath the seas of Tartarus! Defend Olympus and your efforts will be met with rare and powerful relics, as well as thunderous applause!
 RAID_HEROIC_TIER|HEROIC TIER
 RAID_URSULA_RD_TITLE_TIER_SHARED_PHASE_01|PHASE 1 - Glut the Shark        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
 RAID_URSULA_RD_TITLE_TIER_SHARED_PHASE_02|PHASE 2 - Flotsam & Jetsam        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
@@ -12406,6 +12683,16 @@ RAID_URSULA_RD_TK_02_TIER_05_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br>
 RAID_URSULA_RD_TK_01_TIER_HEROIC_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 70<br>    • Star Rarity 7 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#B94EFF>Tier 7+</color>, Minimum Gear <color=#4A90E2>Tier 6</color> (<color=#FEF8E4>REQUIRED</color>)
 RAID_URSULA_RD_TK_02_TIER_HEROIC_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>100,000 Forbidden Depths Raid Tickets</color><br>    • DURATION: <color=#FEF8E4>2 Days</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>Unlimited</color><br>    • UNITS REFRESH: <color=#FEF8E4>Never</color><br>    • VICTORY POINTS: <color=#FEF8E4>200</color></size>
 RAID_URSULA_RD_TK_03_SHARED_GRANTEDABILITY|<br>All characters received the following, temporary ability within the Battle:
+RAID_TITAN_RD_TK_01_TIER_01_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 55+<br>    • Star Rarity 6 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#4A90E2>Tier 6+</color>
+RAID_TITAN_RD_TK_02_TIER_01_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>70,000 Siege On Olympus Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>4</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>5</color></size>
+RAID_TITAN_RD_TK_01_TIER_02_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 65+<br>    • Star Rarity 7 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#B94EFF>Tier 7+</color>
+RAID_TITAN_RD_TK_02_TIER_02_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>80,000 Siege On Olympus Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>10</color></size>
+RAID_TITAN_RD_TK_01_TIER_03_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 70+<br>    • Star Rarity 7 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#B94EFF>Tier 7+</color>
+RAID_TITAN_RD_TK_02_TIER_03_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>100,000 Siege On Olympus Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>15</color></size>
+RAID_TITAN_RD_TK_01_TIER_04_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 75+<br>    • Star Rarity 7 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#B94EFF>Tier 8+</color>
+RAID_TITAN_RD_TK_02_TIER_04_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>120,000 Siege On Olympus Raid Tickets</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>    • UNITS REFRESH: <color=#FEF8E4>Daily</color><br>    • VICTORY POINTS: <color=#FEF8E4>30</color></size>
+RAID_TITAN_RD_TK_01_TIER_HEROIC_INTENDEDFOR|<color=#FEF8E4>INTENDED FOR</color><br><br><size=100%>    • Level 80<br>    • Star Rarity 7 (<color=#FEF8E4>REQUIRED</color>)<br>    • Gear <color=#B94EFF>Tier 9</color>, Minimum Gear <color=#4A90E2>Tier 8</color> (<color=#FEF8E4>REQUIRED</color>)
+RAID_TITAN_RD_TK_02_TIER_HEROIC_CONFIG|<br><color=#FEF8E4>TIER SETTINGS</color><br><br><size=100%>    • COST: <color=#FEF8E4>140,000 Siege On Olympus Raid Tickets</color><br>    • DURATION: <color=#FEF8E4>2 Days</color><br>    • DAILY ATTEMPTS: <color=#FEF8E4>Unlimited</color><br>    • UNITS REFRESH: <color=#FEF8E4>Never</color><br>    • VICTORY POINTS: <color=#FEF8E4>200</color></size>
 RAID_SUMMARY_INFO|Club raids are incredible challenges concocted by the Sorcerer which require a Club strategizes together to overcome the Sorcerer's creation. These monumental battles draw forth from some of the most infamous opponents ever known. Prepare your strategies, train your Characters, advance your Spells, draw upon Sorcerer Stones, and help your Club achieve victory to obtain some of the most powerful relics obtainable!
 RAID_RULES_INFO|<br>- May only be started by a Club Leader or Co-Leaders<br>- Requires Raid Tickets to Start<br>- Raid Tickets are earned throughout the game by Club Members<br>- Only Club Members present at a Raid's start may earn rewards<br>- Only Club Members who meet battle requirements may participate and receive rewards<br>- Club Raids have multiple difficulty Tiers<br>- Each difficulty Tier may have different settings.<br>- Health of most opponents persists for the entire Club
 LOGIN_CALENDAR_INFO_TITLE|DAILY REWARD LOGIN CALENDARS
@@ -12418,6 +12705,8 @@ RAID_REQUIREMENT_URSULA_TIER_3|Requires 30 Club Members
 RAID_REQUIREMENT_URSULA_TIER_4|Requires 35 Club Members
 RAID_REQUIREMENT_URSULA_TIER_5|Requires 40 Club Members
 RAID_REQUIREMENT_URSULA_HEROIC|Requires 40 Club Members. Complete Tier 5 to Unlock.
+RAID_REQUIREMENT_CLUBSIZE_35|Requires 35 Club Members
+RAID_REQUIREMENT_CLUBSIZE_40|Requires 40 Club Members
 RAID_URSULA_TIER_01_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>3</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color><br>ESCAPE CHANCE: <color=#FEF8E4>100%</color></size>
 RAID_URSULA_TIER_02_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>3</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color><br>ESCAPE CHANCE: <color=#FEF8E4>80%</color></size>
 RAID_URSULA_TIER_03_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>4</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color><br>ESCAPE CHANCE: <color=#FEF8E4>60%</color></size>
@@ -12430,6 +12719,21 @@ RAID_URSULA_TIER_03_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 50+<br>• St
 RAID_URSULA_TIER_04_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 60+<br>• Star Rarity 6<br>• Gear <color=#4A90E2>Tier 6</color></size>
 RAID_URSULA_TIER_05_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 65+<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 7</color></size>
 RAID_URSULA_TIER_HEROIC_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 70<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 7+</color></size>
+RAID_TITAN_TIER_01_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>4</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color>
+RAID_TITAN_TIER_02_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color>
+RAID_TITAN_TIER_03_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color>
+RAID_TITAN_TIER_04_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>5</color><br>UNITS REFRESH: <color=#FEF8E4>Daily</color>
+RAID_TITAN_TIER_HEROIC_SHORTDESC|<size=80%>DAILY ATTEMPTS: <color=#FEF8E4>Unlimited</color><br>UNITS REFRESH: <color=#FEF8E4>Never</color>
+RAID_TITAN_TIER_01_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 55<br>• Star Rarity 7<br>• Gear <color=#4A90E2>Tier 6</color></size>
+RAID_TITAN_TIER_02_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 65<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 7</color></size>
+RAID_TITAN_TIER_03_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 70+<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 7+</color></size>
+RAID_TITAN_TIER_04_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 75<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 8</color></size>
+RAID_TITAN_TIER_HEROIC_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 80<br>• Star Rarity 7<br>• Gear <color=#B94EFF>Tier 8+</color></size>
+RAID_TITAN_RD_TITLE_TIER_SHARED_PHASE_01|LAVA TITAN        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_TITAN_RD_TITLE_TIER_SHARED_PHASE_02|ICE TITAN      <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_TITAN_RD_TITLE_TIER_SHARED_PHASE_03|TORNADO TITAN       <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_TITAN_RD_TITLE_TIER_SHARED_PHASE_04|ROCK TITAN      <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
+RAID_TITAN_RD_TITLE_TIER_SHARED_DETAILS|TIER DETAILS        <size=80%><color=#DCDAFF>(tap to expand/collapse)</color></size>
 PUSHNOTE_RAID_STARTED_BODY|<Raid Type> Raid has started! Battle now!
 PUSHNOTE_RAID_ENDED_BODY|<Raid Type> Raid has ended! Collect your rewards!
 PUSHNOTE_RAID_ATTEMPTS_REFRESHED_BODY|<Raid Type> Raid attempts refreshed! Battle now!
@@ -12523,6 +12827,7 @@ RAYA_ABILBASIC_NAME|Protector's Strike
 RAYA_ABILSPECIALA_NAME|Roll, Tuk Tuk!
 RAYA_ABILSPECIALB_NAME|Warrior's Fury
 RAYA_ABILPASSIVEA_NAME|Hero of Heart
+RECOMMENDED|RECOMMENDED
 REMOTE_BATTLE_COUNTDOWN_GO|GO!
 RESOLVED_EVENT_MILESTONE_REWARDS_BUTTON|CONTINUE
 RESOLVED_EVENT_MILESTONE_REWARDS_DESCRIPTION|You have been granted unclaimed rewards from an expired event milestone!
@@ -12616,9 +12921,9 @@ SALLY_ABILSPECIALB_NAME|FOG JUICE
 SALLY_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to gain an Extra Attack if target opponent is affected by Fear.
 SALLY_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain an Extra Attack if target opponent is affected by Fear.
 SALLY_BASIC_ABILPREVIEWUPGRADE_03|Guaranteed to gain an Extra Attack if target opponent is affected by Fear.
-SALLY_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Continuous Damage, dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns.
-SALLY_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Continuous Damage, dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>{3:P0}</color> chance to gain an Extra Attack if target opponent is affected by Fear.
-SALLY_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Continuous Damage, dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns.<br><br>Gain an Extra Attack if target opponent is affected by Fear.
+SALLY_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#FEF8E4>{4:N0}</color> Continuous Damage, each dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns. In Raids, inflict <color=#FEF8E4>{5:N0}</color> additional Continuous Damage.<br><br>Increase Speed Meter of this character by <color=#FEF8E4>{6:P0}</color> each time this ability deals its primary damage.
+SALLY_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#FEF8E4>{4:N0}</color> Continuous Damage, each dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns. In Raids, inflict <color=#FEF8E4>{5:N0}</color> additional Continuous Damage.<br><br>Increase Speed Meter of this character by <color=#FEF8E4>{6:P0}</color> each time this ability deals its primary damage.<br><br><color=#FEF8E4>{3:P0}</color> chance to gain an Extra Attack if target opponent is affected by Fear.
+SALLY_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#FEF8E4>{4:N0}</color> Continuous Damage, each dealing up to <color=#FFC400>{1:N0}</color> damage over <color=#FEF8E4>{2:N0}</color> turns. In Raids, inflict <color=#FEF8E4>{5:N0}</color> additional Continuous Damage.<br><br>Increase Speed Meter of this character by <color=#FEF8E4>{6:P0}</color> each time this ability deals its primary damage.<br><br>Gain an Extra Attack if target opponent is affected by Fear.
 SALLY_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to gain Undefeatable.
 SALLY_PASSIVE_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to gain Undefeatable.
 SALLY_PASSIVE_ABILPREVIEWUPGRADE_03|Guaranteed to gain Undefeatable.
@@ -12628,12 +12933,12 @@ SALLY_PASSIVE_DESC_03|On turn start, restore <color=#5DFF89>{0:N0}</color> Healt
 SALLY_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Slow for <color=#FEF8E4>{1:N0}</color> turn.
 SALLY_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Slow.
 SALLY_SPECIALA_ABILPREVIEWUPGRADE_03|Guaranteed to inflict Slow.
-SALLY_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn.<br><br>If the target has Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.
-SALLY_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to inflict Slow for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If the target has Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.
-SALLY_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn. Inflict Slow for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If the target has Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.
+SALLY_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn.<br><br>If target is affected by Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.<br><br>If this ability defeats an opponent, this character gains a Bonus Turn.<br><br>In Raids, gain <color=#FEF8E4>{5:N0}</color> Magic for this ability.
+SALLY_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn. <color=#FEF8E4>{2:P0}</color> chance to inflict Slow for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If target is affected by Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.<br><br>If this ability defeats an opponent, this character gains a Bonus Turn.<br><br>In Raids, gain <color=#FEF8E4>{5:N0}</color> Magic for this ability.
+SALLY_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn. Inflict Slow for <color=#FEF8E4>{3:N0}</color> turn.<br><br>If target is affected by Fear, remove <color=#FEF8E4>{4:P0}</color> Speed Meter.<br><br>If this ability defeats an opponent, this character gains a Bonus Turn.<br><br>In Raids, gain <color=#FEF8E4>{5:N0}</color> Magic for this ability.
 SALLY_SPECIALB_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage against targets affected by Harmful effects.
-SALLY_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. On opponents with Fear, <color=#FEF8E4>{2:P0}</color> chance to increase duration of Fear by <color=#FEF8E4>{3:N0}</color>.<br><br>If Jack Skellington is a teammate, increase his Speed Meter by <color=#FEF8E4>{4:P0}</color>.
-SALLY_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. On opponents with Fear, <color=#FEF8E4>{2:P0}</color> chance to increase duration of Fear by <color=#FEF8E4>{3:N0}</color>.<br><br>Deal <color=#FEF8E4>{5:P0}</color> bonus damage against targets affected by Harmful effects.<br><br>If Jack Skellington is a teammate, increase his Speed Meter by <color=#FEF8E4>{4:P0}</color>.
+SALLY_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents.<br><br>Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. In Raids, increase duration of Blind by <color=#FEF8E4>{6:N0}</color>. On opponents with Fear, <color=#FEF8E4>{2:P0}</color> chance to increase duration of Fear by <color=#FEF8E4>{3:N0}</color>.<br><br>If Jack Skellington is a teammate, increase his Speed Meter by <color=#FEF8E4>{4:P0}</color>.
+SALLY_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{5:P0}</color> bonus damage against targets affected by Harmful effects.<br><br>Inflict Blind for <color=#FEF8E4>{1:N0}</color> turn. In Raids, increase duration of Blind by <color=#FEF8E4>{6:N0}</color>. On opponents with Fear, <color=#FEF8E4>{2:P0}</color> chance to increase duration of Fear by <color=#FEF8E4>{3:N0}</color>.<br><br>If Jack Skellington is a teammate, increase his Speed Meter by <color=#FEF8E4>{4:P0}</color>.
 SALLY_UNIT_NAME|SALLY
 SAMPLE_SHELF_2_NAME|RESOURCES
 SAMPLE_STORE_ITEM_LARGE_PREMIUM_CURRENCY_NAME|PACK OF GEMS
@@ -12959,7 +13264,7 @@ SCAR_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target 
 SCAR_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict Blind for <color=#FEF8E4>{1:N0}</color> turns. Inflict Defense Down for <color=#FEF8E4>{3:N0}</color> turn.
 SCAR_SPECIALB_ABILPREVIEWUPGRADE_01|This character gains Stealth.
 SCAR_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> initial Hyena Health and Offense.
-SCAR_SPECIALB_ABILPREVIEWUPGRADE_03|Hyenas are guaranteed to gain Life Drain. Duration increased to <color=#FEF8E4>{0:N0}</color> turns.
+SCAR_SPECIALB_ABILPREVIEWUPGRADE_03|Hyenas are guaranteed to gain Life Drain. Stealth duration increased by <color=#FEF8E4>{0:N0}</color> turn.
 SCAR_SPECIALB_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Hyena spawned.
 SCAR_SPECIALB_DESC_01|Calls <color=#FEF8E4>{6:N0}</color>-<color=#FEF8E4>{7:N0}</color> allied Hyenas to the battlefield. Scar's Hyenas deal up to <color=#FFC400>{0:N0}</color> damage to target opponent per attack, have <color=#FEF8E4>{1:N0}</color> Health, and assist allies attacking opponents affected by Continuous Damage. Hyenas have <color=#FEF8E4>{2:P0}</color> chance to gain Life Drain for <color=#FEF8E4>{3:N0}</color> turn when spawned.
 SCAR_SPECIALB_DESC_02|Calls <color=#FEF8E4>{6:N0}</color>-<color=#FEF8E4>{7:N0}</color> allied Hyenas to the battlefield. Scar's Hyenas deal up to <color=#FFC400>{0:N0}</color> damage to target opponent per attack, have <color=#FEF8E4>{1:N0}</color> Health, and assist allies attacking opponents affected by Continuous Damage. Hyenas have <color=#FEF8E4>{2:P0}</color> chance to gain Life Drain for <color=#FEF8E4>{3:N0}</color> turn when spawned.<br><br>Gain Stealth for <color=#FEF8E4>{4:N0}</color> turn.
@@ -13381,8 +13686,9 @@ SHIPMENT_TITLE_PVP|TOURNAMENT EXCHANGE
 SHIPMENT_TITLE_SHARD_SHOP|TOKEN EXCHANGE
 SHIPMENT_TITLE_SORCERER_TRIAL|SORCERER'S EXCHANGE
 SHIPMENT_TITLE_TOWER|TOWER EXCHANGE
-SHIPMENT_TITLE_RAID|RAID EXCHANGE
+SHIPMENT_TITLE_RAID|FORBIDDEN DEPTHS EXCHANGE
 SHIPMENT_TITLE_VIP|VIP EXCHANGE
+RAID_EXCHANGE_TITANS_NAME|SIEGE ON OLYMPUS EXCHANGE
 SHOWCASE_201904RH_EVENTPACKS|POWER UP YOUR TEAM FOR THE EVENT
 SHOWCASE_PASSHOLDER_201902|PASSHOLDER<color=#FFBC08> GOLD</color> ACCESS
 SHOWCASE_PASSHOLDER_201903|GET PASSHOLDER<color=#FFBC08> GOLD</color> ACCESS TODAY!
@@ -16371,6 +16677,29 @@ ST_SS_WILDS_INBOX_BODY|Summoner,<BR><BR>Get your Wilds team ready to face agains
 ST_SS_WILDS_INBOX_SUBJECT|The Ferocious Face-Off Begins!
 ST_XP_POTION_TRIAL_INBOX_BODY|Summoner,<BR><BR>Get ready to battle for Sally's Potent Potions! Bring your strongest Kingdom team to stand against the skeletons and earn Level Up Potions!
 ST_XP_POTION_TRIAL_INBOX_SUBJECT|Sally's Potent Potions
+STRATOS_UNIT_NAME|TORNADO TITAN
+STRATOS_BASIC_NAME|Vortex Vacuum
+STRATOS_BASIC_DESC|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.  Purge up to <color=#FEF8E4>{1:N0}</color> Helpful Effects from target opponent. Copy the purged effects onto random Twisters. If opponent has no Helpful Effects, inflict Blind for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Call {3:N0} random Twister to Assist.
+STRATOS_BASIC_DESC_SUMMARIZED|Deal damage to target opponent. Purge Helpful Effects from target opponent. Copy the purged effects onto random Twisters. If opponent has no Helpful Effects, inflict Blind.<br><br>Call a random Twister to Assist.
+STRATOS_SPECIALA_NAME|Twister Touchdown
+STRATOS_SPECIALA_DESC|Summon <color=#FEF8E4>{0:N0}</color> Twisters.<br><br>Twister: Has <color=#FEF8E4>{1:N0}</color> Health and recovers to full Health after every turn. Deal up to <color=#FFC400>{2:N0}</color> damage to target and adjacent opponents. Inflict Slow for <color=#FEF8E4>{3:N0}</color> turns. If this Twister has a Helpful Effect, do the following:<br>Deal <color=#FEF8E4>{4:P0}</color> bonus damage. For each Helpful Effect on this Twister inflict the opposite Harmful Effect.<br><br>After Twister attacks, destroy it.<br><br>When Twister is inflicted with Silence, Sleep, Stasis, or Polymorph, destroy it.
+STRATOS_SPECIALA_DESC_SUMMARIZED|Summon 4 Twisters.<br><br>Twister: Deal damage to target and adjacent opponents. Inflict Slow. If this Twister has a Helpful Effect, do the following:<br>Deal bonus damage. For each Helpful Effect on this Twister inflict the opposite Harmful Effect.<br><br>When Twister is inflicted with Silence, Sleep, Stasis, or Polymorph, destroy it.
+STRATOS_SPECIALB_NAME|Windstorm
+STRATOS_SPECIALB_DESC|Transfer all Harmful Effects from this character to random opponents.<br><br>Deal up to <color=#FFC400>{0:N0}</color> unavoidable damage to all opponents <color=#FEF8E4>{1:N0}</color> times. Each hit calls {2:N0} Twister to Assist.<br><br>For each Harmful Effect on opponent, copy it onto each other opponent.
+STRATOS_SPECIALB_DESC_SUMMARIZED|Transfer all Harmful Effects from this character to random opponents.<br><br>Deal unavoidable damage to all opponents 4 times. Each hit calls a Twister to Assist.<br><br>For each Harmful Effect on opponent, copy it onto each other opponent.
+STRATOS_PASSIVEA_NAME|Tornado Alley
+STRATOS_PASSIVEA_DESC|On turn start, if this character has no summons, gain <color=#FEF8E4>{0:N0}</color> Magic to Twister Touchdown.<br><br>On turn start, if players have no summons, grant <color=#FEF8E4>{1:N0}</color> Guaranteed Crit to a random Twister.
+STRATOS_PASSIVEA_DESC_SUMMARIZED|On turn start, if this character has no summons, gain Magic to Twister Touchdown.<br><br>On turn start, if players have no summons, grant Guaranteed Crit to a random Twister.
+STRATOS_PASSIVEB_NAME|Shadow of the Tornado Titan
+STRATOS_PASSIVEB_DESC|Opponents cannot gain bonus Speed Meter. Haste and Slow effects are greatly reduced.<br><br>While fighting other Titans in the raid, while this character has not been defeated, apply the following on Battle start:<br>FORCE OF WIND: <color=#FEF8E4>{1:P0}</color> chance to prevent opponents from gaining bonus Speed Meter. Haste and Slow effects are greatly reduced.<br><br>For each Titan defeated in the raid, this character and twisters gain <color=#FEF8E4>{3:P0}</color> Offense and starts the battle with <color=#FEF8E4>{4:P0}</color> Speed Meter.<br><br>When this character loses a substantial amount of its max Health in a fight, become Empowered. While Empowered, gain <color=#FEF8E4>{6:P0}</color> Offense and <color=#FEF8E4>{7:P0}</color> Speed. Cleanse all Harmful Effects from this Titan and gain Harmful Effect Immunity.
+STRATOS_PASSIVEB_DESC_SUMMARIZED|Opponents cannot gain bonus Speed Meter.<br><br>While fighting other Titans in the raid, while this character has not been defeated, apply the following on Battle start:<br>FORCE OF WIND: Chance to prevent opponents from gaining Speed Meter.<br><br>For each Titan defeated, this character and Twisters gain Offense and starts the battle with Speed Meter.<br><br>When this character loses a substantial amount of its max Health in a fight, become Empowered. While Empowered, gain Offense and Speed. Cleanse all Harmful Effects from this Titan and gain Harmful Effect Immunity.
+STRATOS_AURA_NAME|FORCE OF WIND
+STRATOS_AURA_DESC|<br>While fighting Tornado Titan, players cannot gain bonus Speed Meter. The effects of Haste and Slow are reduced by <color=#FEF8E4>50%</color> for players.<br><br>While Tornado Titan is alive, other Titans have a <color=#FEF8E4>75%</color> chance to prevent players from gaining bonus Speed Meter. The effects of Haste and Slow are reduced by <color=#FEF8E4>50%</color> for players.
+STRATOS_PASSIVEB_IMPORTANTEFFECTS_DESC|<br>Lava, Ice, and Rock Titan gains <color=#FEF8E4>FORCE OF WIND</color><br><br><color=#FEF8E4>FORCE OF WIND</color>: <color=#FEF8E4>75%</color> chance to prevent opponents from gaining bonus Speed Meter. Haste and Slow effects are greatly reduced.
+STRATOS_RAIDPASSIVE_NAME|Sorcerer's Strength - Tornado Titan
+STRATOS_RAIDPASSIVE_DESC|This character performs an additional action on its turn.<br><br>Immune to Stun, Silence, Intimidate, Polymorph, Charm, Sleep, Stasis, Poison, Scalding and Imprison.<br><br>This character gradually builds up a resistance to Speed Meter reduction and Magic Charge reduction.
+STRATOS_EFFECT_TITLE|FORCE OF WIND
+STRATOS_EFFECT_DESC|While Tornado Titan is alive:<br><br>The effect of Haste is greatly reduced for the players.  The effect of Slow is greatly reduced on the Titans.<br><br> There is a chance that Speed Meter gain will be prevented for the player.<br><br>Bring Summons, Sleeps, Silences, Polymorphs, and Cleanses to defeat this formidable foe.
 SUGARRUSH_DESC_BASE|Summons a horde of cheering gummy fans that encourage all allies in the target area, granting them <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{0:N0}s</color>.
 SUGARRUSH_DESC_U01|Summons a horde of cheering gummy fans that encourage all allies in the target area, granting them <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{0:N0}s</color> and causing them to immediately perform their Basic Ability.
 SUGARRUSH_DESC_U02|Summons a horde of cheering gummy fans that encourage all allies in the target area, granting them <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{0:N0}s</color> and causing them to immediately perform their Basic Ability<br><br>Also has a <color=#FEF8E4>{2:P0}</color> chance to grant allies an <color=#FEF8E4>Extra Attack</color>.
@@ -16843,6 +17172,8 @@ TROPHY_KING_TRITON_NAME|KING TRITON TROPHY
 TROPHY_KOTH_DESC|Awarded for reaching 1st place in the Sorcerer's Tournament!<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_URSULA_RAID_NAME|URSULA RAID TROPHY
 TROPHY_URSULA_RAID_DESC|Awarded for completing the Heroic Tier of The Forbidden Depths.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_TITANS_RAID_NAME|SIEGE ON OLYMPUS TROPHY
+TROPHY_TITANS_RAID_DESC|Awarded for completing the Heroic Tier of the Siege on Olympus.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_KOTH_NAME|SORCERER'S TOURNAMENT TROPHY
 TROPHY_PVP_DESC|Awarded for reaching Grand Champion in PvP!<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_PVP_NAME|GRAND CHAMPION PVP TROPHY
@@ -16973,6 +17304,7 @@ UNIT_CATEGORY_WIND_IN_THE_WILLOWS|THE WIND IN THE WILLOWS
 UNIT_CATEGORY_WRECK_IT_RALPH|WRECK-IT RALPH
 UNIT_CATEGORY_YELLOWMAGIC_NAME|YELLOW ARCANA
 UNIT_CATEGORY_ZOOTOPIA|ZOOTOPIA
+UNIT_CATEGORY_SC_TITANRAID_NAME|SORCERER'S CHOSEN: SIEGE ON OLYMPUS
 UNIT_DETAILS_ABILITIES|ABILITIES
 UNIT_DETAILS_ABILITY_UNLOCKED|ABILITY UNLOCKED!
 UNIT_DETAILS_GEAR_STATE_CRAFT|COMBINE
@@ -17263,6 +17595,7 @@ VIOLET_ABILBASIC_NAME|You Started It!
 VIOLET_ABILPREVIEWUPGRADE_GEN_HEAL_AMT|+<color=#5DFF89>30%</color> Health Restored.
 VIOLET_ABILPREVIEWUPGRADE_GEN_SHIELD_LOW_AMT|+<color=#FEF8E4>10%</color> Shield.
 VIOLET_ABILPREVIEWUPGRADE_GEN_SHIELD_MED_AMT|+<color=#FEF8E4>20%</color> base Shield.
+VIOLET_ABILPREVIEWUPGRADE_GEN_SHIELD_HIGH_AMT|+<color=#FEF8E4>35%</color> Shield.
 VIOLET_ABILPROC_NAME|You're Super
 VIOLET_ABILSPECIALA_NAME|Forcefield!
 VIOLET_ABILSPECIALB_NAME|Pretend I'm Not Here
@@ -18115,6 +18448,10 @@ CLUB_ADMIN_MSG_RAID_FORFEITED|<color=#FFBC08>[RAIDS] {0} HAS FORFEITED THE RAID!
 CLUB_ADMIN_MSG_URSULA_ENCOUNTER_0_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] PHASE 1 COMPLETED! PHASE 2 HAS BEGUN!
 CLUB_ADMIN_MSG_URSULA_ENCOUNTER_1_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] PHASE 2 COMPLETED! PHASE 3 HAS BEGUN!
 CLUB_ADMIN_MSG_URSULA_ENCOUNTER_2_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] PHASE 3 COMPLETED! PHASE 4 HAS BEGUN!
+CLUB_ADMIN_MSG_TITAN_ENCOUNTER_1_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] LAVA TITAN HAS BEEN DEFEATED!
+CLUB_ADMIN_MSG_TITAN_ENCOUNTER_2_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] ICE TITAN HAS BEEN DEFEATED!
+CLUB_ADMIN_MSG_TITAN_ENCOUNTER_3_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] TORNADO TITAN HAS BEEN DEFEATED!
+CLUB_ADMIN_MSG_TITAN_ENCOUNTER_4_FINISHED_CHAT_MSG|<color=#FFBC08>[RAIDS] ROCK TITAN HAS BEEN DEFEATED!
 CLUB_ADMIN_MSG_RAID_WON|<color=#FFBC08>[RAIDS] {0} {1} HAS BEEN COMPLETED - CONGRATULATIONS TO MVP {2} FOR EARNING {3} RAID XP! COLLECT YOUR REWARDS NOW!
 EVENT_202010_GIFT_DROP_RAID_INBOX_SUBJECT|Raid Launch - Free Gift Event
 EVENT_202010_GIFT_DROP_RAID_INBOX_BODY|Summoner,<BR><BR>You've received a FREE <color=#54C5FF>Raid Gift</color>!<BR><BR>Login daily between <color=#54C5FF>8:00 AM - 10:00 AM PT</color> and <color=#54C5FF>8:00 PM - 10:00 PM PT</color> from <color=#54C5FF>November 7 - 11</color> to collect FREE gifts. Enable push notifications to get notified so you don't miss out!<BR><BR>Thank you for your continued support, and get ready for Raids!
@@ -18941,8 +19278,8 @@ LTA_ROUND_EVENT_1_GENERIC_INBOX_START_SUBJECT|Summoner Showdown Round 1
 LTA_ROUND_EVENT_2_GENERIC_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 2</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
 LTA_ROUND_EVENT_2_GENERIC_INBOX_START_SUBJECT|Summoner Showdown Round 2
 LTA_ROUND_EVENT_3_GENERIC_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 3</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
-LTA_ROUND_EVENT_3_GENERIC_START_SUBJECT|Summoner Showdown Round 3
 LTA_ROUND_EVENT_3_GENERIC_INBOX_START_SUBJECT|Summoner Showdown Round 3
+LTA_ROUND_EVENT_3_GENERIC_START_SUBJECT|Summoner Showdown Round 3
 LTA_ROUND_EVENT_4_GENERIC_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 4</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
 LTA_ROUND_EVENT_4_GENERIC_INBOX_START_SUBJECT|Summoner Showdown Round 4
 LTA_ROUND_EVENT_5_GENERIC_INBOX_START_BODY|Summoner,<BR><BR><color=#54C5FF>SUMMONER SHOWDOWN ROUND 5</color> has begun! Head into battle with other Summoners and compete in PvP to earn Gamma Runes, Gold, and Gear.
@@ -19927,10 +20264,18 @@ EMOTE_FROG_NAME|FROG KISS EMOTE
 EMOTE_FROG_DESC|Oh but you must kiss me.
 EMOTE_FACILIER_NAME|DR. FACILIER EMOTE
 EMOTE_FACILIER_DESC|Y'all should have taken my deal.
+EXP_BATTLE_TEMP|BATTLE ENEMIES
+EXP_BATTLE_ROOM_TEMP|ENEMIES IN THIS ROOM
+EXP_BATTLE_MUTATOR_DETAILS|ACTIVE BATTLE ROOM EFFECTS
+EXP_BATTLE_ROOM_NO_RESTRICTIONS|NONE
 FRAME_MALEFICENT_NAME|MALEFICENT FRAME
 FRAME_MALEFICENT_DESC|Exclusive Profile Frame. Awarded during special events.
 PIN_MALEFICENT_NAME|MALEFICENT TALISMAN
 PIN_MALEFICENT_DESC|Fools!
 STORE_ITEM_MIGUEL_ENERGY_NAME|MIGUEL ENERGY BUNDLE
 STORE_ITEM_MIGUEL_ENERGY_SUBTITLE|GET AHEAD OF THE COMPETITION WITH THIS MIGUEL ENERGY BUNDLE. CONTAINS MIGUEL TOKENS, MASSIVE AMOUNT OF CAMPAIGN ENERGY, GRAND ENERGY, AND MORE ITEMS.
+EXP_BOSS_TEMP|EXPEDITION BOSS
+CLUB_EXPEDITION_BOSS_HEALTH|BOSS HEALTH
+CLUB_EXPEDITION_LEADERBOARD|LEADERBOARD
+CLUB_EXPEDITION_DAMAGE|DMG
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> Kevin Holmes <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Tony Wang <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
