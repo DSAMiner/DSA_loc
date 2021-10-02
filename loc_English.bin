@@ -13985,11 +13985,11 @@ SPELL_GOLDENHAMMER_UPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Speed Meter increas
 SPELL_GOLDENHAMMER_UPGRADE_02|<color=#FEF8E4>+{0:P0}</color> max Health restored.
 SPELL_GOLDENHAMMER_UPGRADE_03|For Downtown Hero teammates, <color=#FEF8E4>+{0:P0}</color> maximum Health restored and <color=#FEF8E4>+{1:P0}</color> Speed Meter increase.
 SPELL_GRAMMA_TALA_NAME|GRAMMA TALA
-SPELL_HEADLESSHORSEMAN_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player level) damage to target opponent and all flanking opponents. Inflict Fear for <color=#FEF8E4>{2:N0}</color> turns.
-SPELL_HEADLESSHORSEMAN_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player level) damage to target opponent and all flanking opponents. Inflict Fear for <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>{3:P0}</color> chance to inflict Silence for <color=#FEF8E4>{4:N0}</color> turn.
-SPELL_HEADLESSHORSEMAN_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player level) damage to target opponent and all flanking opponents. Inflict Fear for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Inflict Silence for <color=#FEF8E4>{4:N0}</color> turn.
-SPELL_HEADLESSHORSEMAN_UPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Silence for <color=#FEF8E4>{1:N0}</color> turn.
-SPELL_HEADLESSHORSEMAN_UPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Silence for <color=#FEF8E4>{1:N0}</color> turn.
+SPELL_HEADLESSHORSEMAN_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player level) damage to target opponent and all flanking opponents. Inflict Fear for <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>{3:P0}</color> chance to inflict Silence for <color=#FEF8E4>{4:N0}</color> turn.
+SPELL_HEADLESSHORSEMAN_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player level) damage to target opponent and all flanking opponents. Inflict Fear for <color=#FEF8E4>{2:N0}</color> turns.<br><br><color=#FEF8E4>{3:P0}</color> chance to inflict Silence for <color=#FEF8E4>{4:N0}</color> turn.<br><br>This spell has <color=#FEF8E4>{5:P0}</color> Potency.
+SPELL_HEADLESSHORSEMAN_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{1:N0}</color> per Player level) damage to target opponent and all flanking opponents. Inflict Fear for <color=#FEF8E4>{2:N0}</color> turns.<br><br>Inflict Silence for <color=#FEF8E4>{4:N0}</color> turn.<br><br>This spell has <color=#FEF8E4>{5:P0}</color> Potency.
+SPELL_HEADLESSHORSEMAN_UPGRADE_01|<color=#FEF8E4>+{0:P0}</color> Potency.
+SPELL_HEADLESSHORSEMAN_UPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to inflict Silence.
 SPELL_HEADLESSHORSEMAN_UPGRADE_03|Guaranteed to inflict Silence for <color=#FEF8E4>{1:N0}</color> turn.
 SPELL_INFINITYDIE_DESC_01|Grant <color=#FEF8E4>{0:N0}</color> to <color=#FEF8E4>{1:N0}</color> random Helpful effects for <color=#FEF8E4>{2:N0}</color> turns to random teammates.<br><br>Inflict <color=#FEF8E4>{3:N0}</color> to <color=#FEF8E4>{4:N0}</color> random Harmful effects for <color=#FEF8E4>{5:N0}</color> turn to random opponents.
 SPELL_INFINITYDIE_UPGRADE_01|Increase minimum teammates who receive a Helpful effect by <color=#FEF8E4>{0:N0}</color>.
