@@ -5188,6 +5188,8 @@ INBOX_EVENT_202110_NBC_SUBJECT|Tim Burton's The Nightmare Before Christmas Anniv
 INBOX_EVENT_202110_NBC_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Tim Burton's The Nightmare Before Christmas Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202111_MONSTERSINCANNIVERSARY_SUBJECT|Monsters, Inc. 20th Anniversary - Free Gift!
 INBOX_EVENT_202111_MONSTERSINCANNIVERSARY_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Monsters, Inc. 20th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202111_CHICKENLITTLE_SUBJECT|Chicken Little Anniversary - Free Gift!
+INBOX_EVENT_202111_CHICKENLITTLE_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Chicken Little Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -12166,6 +12168,10 @@ PIN_BOO_NAME|BOO TALISMAN
 PIN_BOO_DESC|Kitty!
 PIN_ROZ_NAME|ROZ TALISMAN
 PIN_ROZ_DESC|Always watching.
+PIN_CHICKENLITTLE_NAME|CHICKEN LITTLE TALISMAN
+PIN_CHICKENLITTLE_DESC|The sky is falling!
+PIN_FISHOUTOFWATER_NAME|FISH OUT OF WATER TALISMAN
+PIN_FISHOUTOFWATER_DESC|Fish Out of Water.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -19043,6 +19049,8 @@ PASSHOLDER_202110_2_SEASON_NAME|PASSHOLDER SEASON 37
 PASSHOLDER_202110_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 37 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * SMEE TOKENS<BR>  * WENDY TOKENS<br>  * PETER PAN TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202111_1_SEASON_NAME|PASSHOLDER SEASON 38
 PASSHOLDER_202111_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 38 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * FRANK TOKENS<br>  * LILY TOKENS<br>  * RAYA TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202111_2_SEASON_NAME|PASSHOLDER SEASON 39
+PASSHOLDER_202111_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 39 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * TIANA TOKENS<br>  * MULAN TOKENS<br>  * RAPUNZEL TOKENS<br>  * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PVP_MEGARA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MEGARA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MEGARA</color> and <color=#54C5FF>MORTAL POTION</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MEGARA_INBOX_SUBJECT|Megara Enters the PvP Arena!
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
