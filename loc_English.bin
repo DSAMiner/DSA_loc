@@ -5226,6 +5226,12 @@ INBOX_EVENT_202112_CABALLEROSANNIVERSARY_SUBJECT|The Three Caballeros Anniversar
 INBOX_EVENT_202112_CABALLEROSANNIVERSARY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>The Three Caballeros Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202112_ARISTOCATSANNIVERSARY_SUBJECT|The Aristocats Anniversary - Free Gift!
 INBOX_EVENT_202112_ARISTOCATSANNIVERSARY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>The Aristocats Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202201_NEWYEAR_GIFTDROP_SUBJECT|Happy New Year - Gift Drop!
+INBOX_EVENT_202201_NEWYEAR_GIFTDROP_BODY|Summoner,<br><br>Kick off the New Year with this FREE <color=#54C5FF>New Year Gift Drop</color>!<br><br>Stay on the lookout for more <color=#54C5FF>Daily Gift Drops</color> from <color=#54C5FF>January 01 - 08</color>.<br><br>Happy New Year, and see you in the Arena!
+INBOX_EVENT_202112_SWORDINTHESTONE_SUBJECT|The Sword in the Stone Anniversary - Free Gift!
+INBOX_EVENT_202112_SWORDINTHESTONE_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>The Sword in the Stone Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202112_NYFLASH_SUBJECT|New Year Flash Sales
+INBOX_EVENT_202112_NYFLASH_BODY|Summoner,<br><br>Check out the Store for limited time <color=#54C5FF>New Year Flash Sales</color> and tons of great deals from <color=#54C5FF>December 31 - January 03</color>! Don't miss out on different offers available each day.<br><br>Thank you for your continued support, and see you in the Arena!
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -12245,6 +12251,10 @@ PIN_TOULOUSE_NAME|TOULOUSE TALISMAN
 PIN_TOULOUSE_DESC|Oh, boy!
 PIN_BERLIOZ_NAME|BERLIOZ TALISMAN
 PIN_BERLIOZ_DESC|Tattletale.
+PIN_ARTHUR_NAME|ARTHUR TALISMAN
+PIN_ARTHUR_DESC|I'm in an awful pickle.
+PIN_MARVELOUSMADAMMIM_NAME|MARVELOUS MADAM MIM TALISMAN
+PIN_MARVELOUSMADAMMIM_DESC|I'm truly marvelous.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -16307,6 +16317,13 @@ STORE_ITEM_SPECIAL_FLASHSALEGEM_DESC|CELEBRATE WITH THIS BIG LIMITED TIME OFFER.
 STORE_ITEM_SPECIAL_FLASHSALEGOLD_DESC|CELEBRATE WITH THIS BIG LIMITED TIME OFFER. GET 20% OFF WITH THIS GOLD DEAL.
 STORE_ITEM_SPECIAL_FLASHSALEULTIMATE5X_DESC|CELEBRATE WITH THIS BIG LIMITED TIME OFFER. GET 11% OFF WITH THIS 5X ULTIMATE DEAL.
 STORE_ITEM_SPECIAL_FLASHSALEULTIMATE10X_DESC|CELEBRATE WITH THIS BIG LIMITED TIME OFFER. GET 13% OFF WITH THIS 10X ULTIMATE DEAL.
+STORE_ITEM_SPECIAL_FLASHSALE_NAME|Flash Sale
+STORE_ITEM_FLASH_ABILITY_NAME|ABILITY RUNE FLASH SALE
+STORE_ITEM_FLASH_ABILITY_SUBTITLE|POWER UP YOUR TEAM WITH THIS LIMITED TIME OFFER. GET 60% OFF WITH THIS EXCITING DEAL.
+STORE_ITEM_FLASH_ENERGY_NAME|ENERGY FLASH SALE
+STORE_ITEM_FLASH_ENERGY_SUBTITLE|ENERGIZE WITH THIS LIMITED TIME OFFER. GET 30% OFF WITH THIS EXCITING DEAL.
+STORE_ITEM_FLASH_GEAR_NAME|GEAR FLASH SALE
+STORE_ITEM_FLASH_GEAR_SUBTITLE|GEAR UP WITH THIS LIMITED TIME OFFER. GET 60% OFF WITH THIS EXCITING DEAL.
 STORE_ITEM_SPECIAL_COMBO_GEM_TAGLINE|TAP FOR ALL POSSIBLE DROPS
 STORE_ITEM_T3_BUNDLE_NAME|T3 GEAR BUNDLE
 STORE_ITEM_T3_BUNDLE_SUBTITLE|DEFEAT YOUR ENEMIES WITH ENCHANTED GEAR. FOR A LIMITED TIME, POWER UP YOUR TEAM WITH THIS T3 GEAR BUNDLE.
