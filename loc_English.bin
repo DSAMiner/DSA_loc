@@ -268,6 +268,7 @@ ABILPREVIEWUPGRADE_GEN_SPEEDBAR_GAIN_INCREASE_PCT|+<color=#FEF8E4>{0:P0}</color>
 ABILPREVIEWUPGRADE_GEN_SPEEDMETEREDUCTIONCHANCE_PCT_INC|<color=#FEF8E4>+{0:P0}</color> chance to decrease Speed Meter.
 ABILPREVIEWUPGRADE_GEN_SPEEDMETEREDUCTION_PCT_INC|<color=#FEF8E4>+{0:P0}</color> Speed Meter decrease.
 ABILPREVIEWUPGRADE_GEN_SPEEDMETER_INCREASE_PCT|+<color=#FEF8E4>{0:P0}</color> Speed Meter increase.
+ABILPREVIEWUPGRADE_GEN_GRANT_SPEEDMETER_INCREASE_PCT|Grant <color=#FEF8E4>{0:P0}</color> Speed Meter.
 ABILPREVIEWUPGRADE_GEN_SPELL_UNLOCK|Unlocks this Spell.
 ABILPREVIEWUPGRADE_GEN_STEALTH_DURATION_INC|<color=#FEF8E4>+{0:N0}</color> Stealth duration.
 ABILPREVIEWUPGRADE_GEN_TACTICS_DURATION|<color=#FEF8E4>+{0:N0}</color> Tactics duration.
@@ -636,6 +637,8 @@ BATTLE_EFFECT_DAMAGE_SHIELD_DESC|When affected character is dealt damage, attack
 BATTLE_EFFECT_DEAD_MANS_CHEST|DEAD MAN'S CHEST
 BATTLE_EFFECT_DEAD_MANS_CHEST_DESC|On expiration, revives Davy Jones.
 BATTLE_EFFECT_DECREASE_MAX_HEALTH|MAX HEALTH DOWN
+BATTLE_EFFECT_DESTINEDEXPLORER|DESTINED EXPLORER
+BATTLE_EFFECT_DESTINEDEXPLORER_DESC|Gains additional combat benefits or immunities within the current battle.
 BATTLE_EFFECT_INCREASE_MAX_HEALTH|MAX HEALTH UP
 BATTLE_EFFECT_DEFENSE_DOWN|DEFENSE DOWN
 BATTLE_EFFECT_DEFENSE_DOWN_DESC|Decreases Defense by 50%, causing affected character to take more damage.
@@ -1726,6 +1729,48 @@ CLUB_DUNGEON_SELECT_DOOR_TITLE|SELECT A DOOR
 CLUB_DUNGEON_SHIPMENTS_BUTTON|EXCHANGE
 CLUB_DUNGEON_STATE_CHANING|The cavern walls rumble and shake.<br><br>(Your attempts have been refreshed.)
 CLUB_DUNGEON_TITLE_LABEL|CLUB DUNGEON
+CLUB_EXPEDITION_ENTER_FLOOR|ENTER FLOOR
+CLUB_EXPEDITION_FLOOR_PROGRESS|PROGRESS: {0:0}%
+CLUB_EXPEDITION_FLOOR_LABEL|FLOOR {0}/{1}
+CLUB_EXPEDITION_SELECT_DIFFICULTY|SELECT DIFFICULTY
+CLUB_EXPEDITION_NAME|CLUB EXPEDITION
+CLUB_EXPEDITION_ENDS_IN|ENDS IN:
+CLUB_EXPEDITION_SOMETHING_HERE|Something is here! Complete more rooms to unlock this area.
+CLUB_EXPEDITION_DEPLOY_ROOM_GIVES_BONUS|While this beacon chamber is active bosses on this floor recieve the following additional bonuses:
+CLUB_EXPEDITION_S1_D1_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 35+<br>• Star Rarity 3<br>• Gear <color=#B8E986>Tier 3</color></size>
+CLUB_EXPEDITION_S1_D2_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 45+<br>• Star Rarity 4<br>• Gear <color=#4a90e2>Tier 5</color></size>
+CLUB_EXPEDITION_S1_D3_RECOMMENDED|<size=80%>RECOMMENDED<br>• Level 60+<br>• Star Rarity 7<br>• Gear <color=#b94eff>Tier 7</color></size>
+CLUB_EXPEDITION_TIER_01_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color><br><br><size=80%>RECOMMENDED<br>• Level 20+<br>• Star Rarity 1<br>• Gear <color=#B8E986>Tier 2</color></size>
+CLUB_EXPEDITION_TIER_02_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color> <br><color=#89CEF3>GEAR TIER:</color> <color=#FFFFFF>2+</color> <br><color=#89CEF3>CATEGORIES:</color> <color=#FFFFFF>KINGDOM; ALADDIN</color></size> <br><br><size=80%>RECOMMENDED<br>• Level 30+<br>• Star Rarity 2<br>• Gear <color=#B8E986>Tier 3</color></size>
+CLUB_EXPEDITION_TIER_03_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color> <br><color=#89CEF3>STAR LEVEL:</color> <color=#FFFFFF>2+</color> <br><color=#89CEF3>GEAR TIER:</color> <color=#FFFFFF>3+</color> <br><color=#89CEF3>CATEGORIES:</color> <color=#FFFFFF>KINGDOM; ALADDIN; DOWNTOWN HERO; INCREDIBLES</color></size> <br><br><size=80%>RECOMMENDED<br>• Level 35+<br>• Star Rarity 2<br>• Gear <color=#B8E986>Tier 3</color></size>
+CLUB_EXPEDITION_TIER_04_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color> <br><color=#89CEF3>STAR LEVEL:</color> <color=#FFFFFF>2+</color> <br><color=#89CEF3>GEAR TIER:</color> <color=#FFFFFF>3+</color> <br><color=#89CEF3>CATEGORIES:</color> <color=#FFFFFF>KINGDOM; ALADDIN; DOWNTOWN HERO; INCREDIBLES; WILDS; FROZEN</color></size> <br><br><size=80%>RECOMMENDED<br>• Level 45+<br>• Star Rarity 3<br>• Gear <color=#4A90E2>Tier 4</color></size>
+CLUB_EXPEDITION_TIER_05_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color> <br><color=#89CEF3>STAR LEVEL:</color> <color=#FFFFFF>4+</color> <br><color=#89CEF3>GEAR TIER:</color> <color=#FFFFFF>4+</color> <br><color=#89CEF3>CATEGORIES:</color> <color=#FFFFFF>KINGDOM; ALADDIN; DOWNTOWN HERO; INCREDIBLES; WILDS; FROZEN; ADVENTURER; TANGLED; OCEANIC</color></size> <br><br><size=80%>RECOMMENDED<br>• Level 60+<br>• Star Rarity 5<br>• Gear <color=#4A90E2>Tier 5+</color></size>
+CLUB_EXPEDITION_TIER_06_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color> <br><color=#89CEF3>STAR LEVEL:</color> <color=#FFFFFF>4+</color> <br><color=#89CEF3>GEAR TIER:</color> <color=#FFFFFF>5+</color> <br><color=#89CEF3>CATEGORIES:</color> <color=#FFFFFF>KINGDOM; ALADDIN; DOWNTOWN HERO; INCREDIBLES; WILDS; FROZEN; ADVENTURER; TANGLED; ONWARD; GARGOYLES; OCEANIC; PETER PAN</color></size> <br><br><size=80%>RECOMMENDED<br>• Level 65+<br>• Star Rarity 5<br>• Gear <color=#4A90E2>Tier 6</color></size>
+CLUB_EXPEDITION_TIER_07_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color> <br><color=#89CEF3>STAR LEVEL:</color> <color=#FFFFFF>5+</color> <br><color=#89CEF3>GEAR TIER:</color> <color=#FFFFFF>6+</color> <br><color=#89CEF3>CATEGORIES:</color> <color=#FFFFFF>KINGDOM; ALADDIN; DOWNTOWN HERO; INCREDIBLES; WILDS; FROZEN; ADVENTURER; TANGLED; ONWARD; GARGOYLES; OCEANIC; PETER PAN</color></size> <br><br><size=80%>RECOMMENDED<br>• Level 70+<br>• Star Rarity 5<br>• Gear <color=#4A90E2>Tier 6+</color></size>
+CLUB_EXPEDITION_TIER_08_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color> <br><color=#89CEF3>STAR LEVEL:</color> <color=#FFFFFF>5+</color> <br><color=#89CEF3>GEAR TIER:</color> <color=#FFFFFF>6+</color> <br><color=#89CEF3>CATEGORIES:</color> <color=#FFFFFF>KINGDOM; ALADDIN; DOWNTOWN HERO; INCREDIBLES; WILDS; FROZEN; ADVENTURER; TANGLED; ONWARD; GARGOYLES; OCEANIC; PETER PAN; ATLANTIS</color></size> <br><br><size=80%>RECOMMENDED<br>• Level 75+<br>• Star Rarity 6<br>• Gear <color=#4A90E2>Tier 7</color></size>
+CLUB_EXPEDITION_TIER_09_RECOMMENDED|<size=80%><color=#89CEF3>REQUIRED</color> <br><color=#FFFFFF>Full Squad</color> <br><color=#89CEF3>STAR LEVEL:</color> <color=#FFFFFF>6+</color> <br><color=#89CEF3>GEAR TIER:</color> <color=#FFFFFF>7+</color> <br><color=#89CEF3>CATEGORIES:</color> <color=#FFFFFF>KINGDOM; ALADDIN; DOWNTOWN HERO; INCREDIBLES; WILDS; FROZEN; ADVENTURER; TANGLED; ONWARD; GARGOYLES; OCEANIC; PETER PAN; ATLANTIS</color></size> <br><br><size=80%>RECOMMENDED<br>• Level 80+<br>• Star Rarity 7<br>• Gear <color=#4A90E2>Tier 7+</color></size>
+CLUB_EXPEDITION_TIER_01_NAME|TIER 1
+CLUB_EXPEDITION_TIER_02_NAME|TIER 2
+CLUB_EXPEDITION_TIER_03_NAME|TIER 3
+CLUB_EXPEDITION_TIER_04_NAME|TIER 4
+CLUB_EXPEDITION_TIER_05_NAME|TIER 5
+CLUB_EXPEDITION_TIER_06_NAME|TIER 6
+CLUB_EXPEDITION_TIER_07_NAME|TIER 7
+CLUB_EXPEDITION_TIER_08_NAME|TIER 8
+CLUB_EXPEDITION_TIER_09_NAME|TIER 9
+CLUB_EXPEDITION_DEPLOY_ROOM_NAME|BEACON CHAMBER
+CLUB_EXPEDITION_DEPLOY_ROOM_PROGRESS|POWER REQUIRED: {0}/{1}
+CLUB_EXPEDITION_DEPLOY_ROOM_PROGRESS_CHANGED|POWER REQUIRED: <color=#b94eff>{0}</color>/{1}
+CLUB_EXPEDITION_CLEAR_ALL|CLEAR ALL
+CLUB_EXPEDITION_DEPLOY|DEPLOY
+CLUB_EXPEDITION_AUTO_FILL|AUTO FILL
+CLUB_EXPEDITION_UNIT_COUNT|{0}/{1} Units Deployed
+CLUB_EXPEDITION_JOIN_CLUB|JOIN A CLUB TO TAKE ON EXPEDITIONS
+EXPEDITION_INFO|Welcome to Club Expedition! Take up a torch and explore a sprawling dungeon with your Club to uncover fearsome foes and wondrous rewards. You will defeat enemies in battle, uncover treasure, and face fearsome bosses with unique abilities as you delve into the depths. The more of an expedition you explore, the greater your bounty! <br><br><color=#54C5FF>CHOOSING AN EXPEDITION TIER</color><br>In the Club Expedition game mode, there are multiple difficulty tiers and Club leaders will be able to select the expedition difficulty level that they feel best suits their Club. Once one of your Club leaders or co-leaders  has begun an expedition, your goal will be to explore and complete as much of it as possible. <br><br><color=#54C5FF>EXPEDITION CHAMBERS</color><br>An expedition is made up of floors, and each floor is made up of chambers. The types of chambers you will encounter in your adventures are: <br>• Battle Chamber: Take on enemy teams in battle! Battling in Expedition requires Expedition Energy which generates over time. The number of teams can be different from chamber to chamber. Battle Chambers may require certain characters or feature enemies against which certain characters excel. Enemies you face in Club Expedition have persistent health, so the damage you deal in battle will contribute to the success of your clubmates. <br>• Beacon Chamber: The beacons on an Expedition floor grant the floor boss additional strength. Assign unused characters to an Expedition beacon to extinguish its flame and weaken the floor boss! <br>• Treasure Chamber: Treasure Chambers are hidden throughout an Expedition. Uncover one to claim additional rewards! <br>• Boss Chamber: Every floor of an Expedition is guarded by a fearsome boss. You will need to defeat the floor boss to begin exploring the next floor. Certain characters may have unique strengths against bosses so consider your teams carefully! <br><br><color=#54C5FF>EXPLORING</color><br>When you first enter an Expedition floor, it will be mostly obscured by fog. Any time your club completes a chamber, the nearby chambers will be revealed allowing you to explore more of the area. Your Club leaders and co-leaders can mark chambers that they want clubmates to focus on. Marked chambers will be indicated with a glowing arrow. Pay attention to clues visible through the swirling fog! Details visible through the mists can help guide where your Club should try to go next. <br><br><color=#54C5FF>UNLOCKING FLOORS</color><br>In order to reach the next floor of an Expedition you must find and defeat the boss of the current floor. Each floor of an Expedition has a 24hr unlock timer that begins once the previous floor is unlocked. In the case of the 2nd floor, this begins from the time your club starts an Expedition. A floor can not be accessed until it's unlock timer expires, even if the necessary boss has been defeated. You can still return to a floor and complete the remaining rooms after defeating the boss and unlocking the next floor. <br><br><color=#54C5FF>EXPEDITION XP AND REWARDS</color><br>As your Club completes Club Expeditions you will receive rewards from various sources. Better rewards are granted at higher tiers and are obtained from the following: <br>• Expedition Milestones: Your Club earns Expedition XP from completing battles, completing Battle and Boss Chambers, and assigning characters to Beacon chambers. When certain XP thresholds are reached, all members of the Club will be able to claim associated rewards. Milestone progress and Expedition XP will reset each time a new Expedition begins. <br>• Boss Chests: When your Club defeats the boss of a floor, each member is granted a Boss Chest upon re-entering the expedition. <br>• Treasure Chambers: As mentioned above, your Club may uncover Treasure Chambers that grant additional rewards as they explore an Expedition. <br><br><color=#54C5FF>SCHEDULE</color><br>Club Expeditions will run on a weekly schedule. Regardless of when your Club leadership starts an Expedition during the week, it will end when the week ends and Club members will receive unclaimed rewards via inbox message. <br><br><color=#54C5FF>BEACON CHAMBERS</color><br>As you advance to more difficult Expedition tiers, you will encounter Beacon Chambers. The flames of these chambers grant the boss on their floor additional strength. To extinguish their flame and weaken the boss, your club can assign characters to the Beacon Chamber. Characters assigned in this way become unusable until the following day. The chamber will be destroyed once the total power of assigned characters reaches the required threshold shown on the chamber. <br><br><color=#54C5FF>DESTINED EXPLORERS</color><br>In some Expedition floors, there will be a group of characters that are the Destined Explorers for that floor. These characters will have special advantages in the fight with the floor boss. The groups of characters that become Destined Explorers in each tier are: <br> Tier 1 <br>• Floors 1-4: Aladdin <br> Tier 2 <br>• Floors 1-4: Aladdin <br> Tier 3 <br>• Floor 1: Aladdin <br>• Floor 2: Aladdin <br>• Floor 3: Incredibles <br>• Floor 4: Incredibles <br> Tier 4 <br>• Floor 1: Aladdin <br>• Floor 2: Incredibles <br>• Floor 3: Aladdin <br>• Floor 4: Incredibles <br>• Floor 5: Frozen <br> Tier 5 <br>• Floor 1: Aladdin <br>• Floor 2: Incredibles <br>• Floor 3: Aladdin <br>• Floor 4: Frozen <br>• Floor 5: Tangled <br> Tier 6 <br>• Floor 1: Aladdin <br>• Floor 2: Incredibles <br>• Floor 3: Frozen <br>• Floor 4: Tangled <br>• Floor 5: Adventurer <br> Tier 7 <br>• Floor 1: Aladdin <br>• Floor 2: Incredibles <br>• Floor 3: Frozen <br>• Floor 4: Tangled <br>• Floor 5: Jungle Cruise <br> Tier 8 <br>• Floor 1: Aladdin <br>• Floor 2: Incredibles <br>• Floor 3: Frozen <br>• Floor 4: Tangled <br>• Floor 5: Atlantis, Jungle Cruise <br> Tier 9 <br>• Floor 1: Aladdin <br>• Floor 2: Incredibles <br>• Floor 3: Frozen <br>• Floor 4: Tangled <br>• Floor 5: Atlantis, Jungle Cruise <br><br>
+EXPEDITION_CHEST_REWARD|TREASURE ROOM COMPLETE
+EXPEDITION_FLOOR_COMPLETE_CHEST_TITLE|FLOOR {0} COMPLETE
+EXPEDITION_INFO_TITLE|CLUB EXPEDITIONS
+EXPEDITION_BATTLE_COMPLETE|BATTLE COMPLETE
 CLUB_FIND_BUTTON_LABEL|FIND CLUB
 CLUB_GIFTS_ANONYMOUS|SEND TO CLUB ANONYMOUSLY
 CLUB_GIFTS_SHELF|CLUB GIFTS
@@ -2032,7 +2077,7 @@ CM_TUTORIAL_BATTLE_1F_STEP02_BODY|Tap here to add <color=#F3340E>Ariel</color> t
 CM_TUTORIAL_BATTLE_1F_STEP04_BODY|Let's go battle with <color=#F3340E>Ariel</color> as our new <color=#54C5FF>Support</color> Character!
 CM_TUTORIAL_CLAIM_FIRST_QUEST_STEP00_BODY|The <color=#54C5FF>MAGICAL METEOR SPELL</color> deals devastating damage and can turn the tide of battle!
 CM_TUTORIAL_CLUBS_FORCED_STEP00_BODY|A great reward awaits for joining a <color=#54C5FF>CLUB</color>
-CM_TUTORIAL_CLUBS_PT1_STEP00_BODY|Joining a Club will give you access to the <color=#54C5FF>CLUB DUNGEON</color>, <color=#54C5FF>CLUB CONQUEST</color>, and <color=#54C5FF>CLUB RAIDS</color>!
+CM_TUTORIAL_CLUBS_PT1_STEP00_BODY|Joining a Club will give you access to <color=#54C5FF>CLUB EXPEDITION</color>, <color=#54C5FF>CLUB CONQUEST</color>, and <color=#54C5FF>CLUB RAIDS</color>!
 CM_TUTORIAL_CLUBS_PT1_STEP01_BODY|You can create your own <color=#FF7810>CLUB</color> and invite your friends!
 CM_TUTORIAL_CLUBS_PT1_STEP02_BODY|You can search for and join an existing <color=#FF7810>CLUB</color> or pick one from the list below which is recommended for new players
 CM_TUTORIAL_CLUBS_PT1_STEP03_BODY|Create or join a <color=#FF7810>CLUB</color> today! Don't miss out on <color=#54C5FF>Club Dungeons</color> and <color=#FF7810>Club Conquest</color>
@@ -2588,8 +2633,8 @@ DAILY_COMPLETE_GRAND_DESC|Spend Grand Energy
 DAILY_COMPLETE_GRAND_NAME|GRAND CAMPAIGN
 DAILY_COMPLETE_ASCENSION_DESC|(Optional) Spend Ascension Energy
 DAILY_COMPLETE_ASCENSION_NAME|ASCENSION CAMPAIGN
-DAILY_COMPLETE_CLUB_DUNGEON_DESC|(Optional) Complete Club Dungeon Battles
-DAILY_COMPLETE_CLUB_DUNGEON_NAME|CLUB DUNGEON
+DAILY_COMPLETE_CLUB_DUNGEON_DESC|(Optional) Complete Club Expedition Battles
+DAILY_COMPLETE_CLUB_DUNGEON_NAME|CLUB EXPEDITION
 DAILY_COMPLETE_GRAND_OPTIONAL_DESC|(Optional) Complete Grand Campaign Battles
 DAILY_COMPLETE_GRAND_OPTIONAL_NAME|GRAND CAMPAIGN
 DAILY_COMPLETE_HARD_DESC|Complete Elite Battles
@@ -5168,6 +5213,10 @@ INBOX_EVENT_202108_RAID_GIFTDROP_SUBJECT|Siege on Olympus Raid - Daily Raid Gift
 INBOX_EVENT_202108_RAID_GIFTDROP_BODY|Summoner,<br><br>You've received a <color=#54C5FF>Raid Gift Drop</color> in celebration of the NEW <color=#54C5FF>Siege on Olympus Raid</color>!<br><br>Stay on the lookout for more Gift Drops daily between <color=#54C5FF>12:00 AM PT - 11:59 PM PT</color> from <color=#54C5FF>October 04 - 10</color>, and enable push notifications to get notified so you don't miss them!<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202108_RAID_LAUNCH_SUBJECT|Siege on Olympus Raid is Live!
 INBOX_EVENT_202108_RAID_LAUNCH_BODY|Summoner,<br><br>A monstrous band has arrived in the Arena! The <color=#54C5FF>Titans</color> have been unleashed in the new <color=#54C5FF>Siege on Olympus Raid</color>! Work together with your club to take down all four Titans and earn exciting new rewards!<br><br>Collect <color=#54C5FF>Siege on Olympus Raid Tickets</color> by completing Campaign battles. Each player can earn up to 1,500 tickets per day. Club Leaders and Officers can use these tickets to start the Raid. During the Raid, you will fight each Titan using multiple teams of characters. You can attempt up to 4-5 battles per day in Tiers 1-4, and each character can be used once per day. As you defeat each Titan, the remaining Titans will become stronger, so work with your Club to come up with the best strategy to defeat them all.<br><br>Conquer higher Raid Tiers to earn <color=#54C5FF>Zeus</color> tokens and check out the new <color=#54C5FF>Siege on Olympus Raid Exchange</color> to unlock even more rewards!<br><br>Learn more about the <color=#54C5FF>Siege on Olympus Raid</color> in News and on the DSA Official Discord!
+INBOX_EVENT_202201_CLUBEXPEDITION_LAUNCH_SUBJECT|Club Expedition has Arrived!
+INBOX_EVENT_202201_CLUBEXPEDITION_LAUNCH_BODY|Summoner,<br><br>The Sorcerer has brought ancient ruins to the Arena from depths unknown! The exciting new <color=#54C5FF>Club Expedition</color> mode has arrived and is taking the place of the existing Club Dungeon. Team up with your club to explore these cavernous halls and uncover fearsome foes and wondrous treasures!<br><br>Once your Club Leader selects the difficulty and starts your weekly Expedition, your goal will be to explore and complete as much of it as possible. An Expedition is made up of floors, and each floor is made up of different types of chambers. The types of chambers you will encounter in your adventures are:<br><br>Battle Chamber: Use the new Expedition Energy to battle the enemies in the chamber!<br><br>Expedition Beacon: Assign characters until the power threshold is reached in order to extinguish it's flame and weaken the floor boss!<br><br>Treasure Chamber: Treasure Chambers are hidden throughout an expedition. Uncover one to claim additional rewards!<br><br>Boss Chamber: Consider your teams carefully and coordinate with your Club to defeat the fearsome floor boss and unlock the next floor!<br><br>Characters used in battle or assigned to a Beacon Chamber will go on cooldown and be unusable until the following day. Different characters may be needed for different battle chambers or the floor boss, so be sure to work together with your Club to use your collective roster to its full potential! Learn more about the new Club Expedition mode in News and on Discord!
+INBOX_EVENT_202201_UI_SUBJECT|NEW Visual Update!
+INBOX_EVENT_202201_UI_BODY|Summoner,<br><br>The Sorcerer's Arena has a NEW look!<br><br>Among the many updates you'll find navigating around the Arena, you'll find a new Store experience, character visual updates, a new Collections character view, upgraded battle environments, and more.<br><br>Have fun exploring and checking out all the new changes, and see you in the Arena!
 INBOX_EVENT_202110_ICHABOD_SUBJECT|The Adventures of Ichabod and Mr. Toad Anniversary - Free Gift!
 INBOX_EVENT_202110_ICHABOD_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>The Adventures of Ichabod and Mr. Toad Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202110_DISNEYWORLD50TH_SUBJECT|Disney World 50th Anniversary - Free Gift!
@@ -5233,6 +5282,12 @@ INBOX_EVENT_202112_SWORDINTHESTONE_SUBJECT|The Sword in the Stone Anniversary - 
 INBOX_EVENT_202112_SWORDINTHESTONE_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>The Sword in the Stone Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202112_NYFLASH_SUBJECT|New Year Flash Sales
 INBOX_EVENT_202112_NYFLASH_BODY|Summoner,<br><br>Check out the Store for limited time <color=#54C5FF>New Year Flash Sales</color> and tons of great deals from <color=#54C5FF>December 31 - January 03</color>! Don't miss out on different offers available each day.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202201_EXPEDITION_GIFTDROP_SUBJECT|Club Expedition - Gift Drop!
+INBOX_EVENT_202201_EXPEDITION_GIFTDROP_BODY|Summoner,<br><br><color=#54C5FF>Club Expedition</color> has arrived! Get ready to kick off your exploration with this FREE <color=#54C5FF>Gift</color>!<br><br>Collect <color=#54C5FF>Daily Club Expedition Gift Drops</color> from <color=#54C5FF>January 19 - 25</color>.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202201_POLKADOTDAY_SUBJECT|Polka Dot Day - Free Gift!
+INBOX_EVENT_202201_2XDROP_MINNIE_SUBJECT|Polka Dot Day - Minnie Mouse 2x Token Drop
+INBOX_EVENT_202201_2XDROP_MINNIE_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Polka Dot Day</color> with <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Minnie Mouse</color> in Campaigns for a limited time!<br><br>Look for the BONUS banner on <color=#54C5FF>Grand Campaign Node 5-L</color> and <color=#54C5FF>Heroes Campaign Node 6-H</color>.<br><br>Thank you for your continued support, and see you in the Arena!
+BONUS_LOOT_2XDROP_202201_MINNIE_NAME|MINNIE MOUSE 2X TOKEN DROP
 EVENT_2X_GEAR_BONUS_LOOT_DESC|Complete Heroes and Villains Battles to earn 2X drops on <color=#54C5FF>ENCHANTED GEAR</color>!
 EVENT_2X_GEAR_BONUS_LOOT_TITLE|2X GEAR DROP EVENT
 EVENT_2X_GEAR_INBOX_BODY|Summoner,<BR><BR>Get ready! For a limited time, there will be 2x drops on gear in the Heroes and Villains Campaigns! This ends soon, so prepare your teams and start battling now!
@@ -6816,7 +6871,7 @@ INBOX_MESSAGE_AD_SURVEY_REWARD_SENDER|<color=#FF6FBB>Sorcerer's Arena Team</colo
 INBOX_MESSAGE_AD_SURVEY_REWARD_SUBJECT|<color=#FF6FBB>Survey Reward</color>
 INBOX_MESSAGE_BODY_LOGIN_REWARDS|Check-in every day this month to earn Gear, Gems, Gold Coins, and more!  Each day you Check-in you'll receive the next reward in the list.  Missed days can be purchased for Gems.<br><br>Rewards will reset next month, and Tokens from a different character will become available.
 INBOX_MESSAGE_BODY_TEST|Hello there
-INBOX_MESSAGE_BODY_WELCOME|Welcome!<br><br>We want to thank you for joining us by giving you some valuable rewards to help on your journey.<br><br>Complete your <color=#54C5FF>DAILY QUESTS</color> to Unlock <color=#54C5FF>DARKWING DUCK!</color>
+INBOX_MESSAGE_BODY_WELCOME|Welcome!<br><br>We want to thank you for joining us by giving you some valuable rewards to help on your journey.<br><br>Complete your <color=#54C5FF>DAILY QUESTS</color> to Unlock <color=#54C5FF>HIRO HAMADA!</color>
 INBOX_MESSAGE_BODY_WELCOME_WORLDWIDE|Welcome to Disney Sorcerer's Arena!  You've joined an elite community of players.  We want to thank you by gifting you some valuable rewards to help you in your adventuring.<br><br>Enjoy the ride,<br><br>The Disney Sorcerer's Arena Dev Team
 INBOX_MESSAGE_EXPIRED_ALERT|MESSAGE IS EXPIRED!
 INBOX_MESSAGE_EXPIRED_TIMER|EXPIRED
@@ -6927,6 +6982,7 @@ ITEM_FIND_DAILY_ACTIVITIES|AVAILABLE IN DAILY QUESTS
 ITEM_FIND_EVENT_AVAILABLE_IN|AVAILABLE IN:
 ITEM_FIND_GO_BUTTON|GO
 ITEM_FIND_KOTH|AVAILABLE IN SORCERER'S TOURNAMENT
+ITEM_FIND_EXPEDITION|AVAILABLE IN CLUB EXPEDITIONS
 ITEM_FIND_NO_LOCATIONS|RARE ITEM<br><size=70%><color=#FE9B7A>This item is found only during Limited Time Events
 ITEM_FIND_PASSPORT_ACTIVITIES|AVAILABLE IN PASSHOLDER QUESTS
 ITEM_FIND_PASSPORT_LEVELS|AVAILABLE IN PASSHOLDER TIER REWARDS
@@ -8831,6 +8887,10 @@ MILESTONE_RAID_REWARD_POINT_DESC|Progression XP earned from battling in Forbidde
 MILESTONE_RAID_REWARD_DESC|EARN RAID XP TO COLLECT REWARDS
 MILESTONE_TITANS_RAID_REWARD_POINT_DESC|Progression XP earned from battling in Siege on Olympus Raids.
 MILESTONE_TITANS_RAID_REWARD_POINT_NAME|SIEGE ON OLYMPUS RAID XP
+MILESTONE_CLUB_EXPEDITION_REWARD_POINT_NAME|CLUB EXPEDITION XP
+MILESTONE_CLUB_EXPEDITION_REWARD_POINT_DESC|Progression XP earned from battling in Club Expedition.
+MILESTONE_CLUB_EXPEDITION_REWARD_DESC|EARN CLUB EXPEDITION XP TO COLLECT REWARDS
+MILESTONE_CLUB_EXPEDITION_REWARD_NAME|CLUB EXPEDITION MILESTONES
 MIND_WORKER_UNIT_NAME|Mind Worker
 MINNIEMOUSE_UNIT_NAME|MINNIE MOUSE
 MINNIEMOUSE_WINTER_UNIT_NAME|WINTER MINNIE MOUSE
@@ -9283,6 +9343,34 @@ OUTFIT_STITCH_HULA_NAME|HULA STITCH OUTFIT TOKENS
 OUTFIT_STITCH_HULA_UNIT_NAME|HULA STITCH
 OUTFIT_YZMA_LABCOAT_DESC|Collect 100 to unlock the 'Lab Coat Yzma' outfit for Yzma.
 OUTFIT_YZMA_LABCOAT_NAME|LAB COAT YZMA OUTFIT TOKENS
+PACHA_UNIT_NAME|PACHA
+PACHA_ABILBASIC_NAME|Pushed Too Far
+PACHA_ABILSPECIALA_NAME|Considerable Compassion
+PACHA_ABILSPECIALB_NAME|Don't Worry, I Got Ya
+PACHA_ABILPASSIVEA_NAME|When The Sun Hits Just Right
+PACHA_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. If a <color=#FEF8E4>'Kingdom'</color> teammate has Offense Up, deal <color=#FEF8E4>{1:P0}</color> bonus damage. If a <color=#FEF8E4>'Wilds'</color> teammate has Haste, gain <color=#FEF8E4>{2:P0}</color> Speed Meter.
+PACHA_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. If a <color=#FEF8E4>'Kingdom'</color> teammate has Offense Up, deal <color=#FEF8E4>{1:P0}</color> bonus damage. If a <color=#FEF8E4>'Wilds'</color> teammate has Haste, gain <color=#FEF8E4>{2:P0}</color> Speed Meter.<br><br>In Club Conquest, call <color=#FEF8E4>{3:N0}</color> teammates to Assist.
+PACHA_SPECIALA_DESC_01|Grant target teammate <color=#FEF8E4>{0:N0}</color> shield.  If target is Kuzco, Flip all Harmful effects on him.
+PACHA_SPECIALA_DESC_02|Grant target teammate <color=#FEF8E4>{0:N0}</color> shield. If target is Kuzco, Flip all Harmful effects on him. Grant <color=#FEF8E4>{2:P0}</color> bonus shield per <color=#FEF8E4>'Kingdom'</color> teammate. Grant <color=#FEF8E4>{3:P0}</color> Speed Meter per <color=#FEF8E4>'Wilds'</color> teammate.
+PACHA_SPECIALA_DESC_03|Grant target teammate <color=#FEF8E4>{0:N0}</color> shield. If target is Kuzco, Flip all Harmful effects on him. Grant <color=#FEF8E4>{2:P0}</color> bonus shield per <color=#FEF8E4>'Kingdom'</color> teammate. Grant <color=#FEF8E4>{3:P0}</color> Speed Meter per <color=#FEF8E4>'Wilds'</color> teammate.<br><br>If you have at least <color=#FEF8E4>{4:N0}</color> <color=#FEF8E4>'Kingdom'</color> teammates, grant Offense Up for <color=#FEF8E4>{5:N0}</color> turns. If you have at least <color=#FEF8E4>{4:N0}</color> <color=#FEF8E4>'Wilds'</color> teammates, grant Haste for <color=#FEF8E4>{5:N0}</color> turns.
+PACHA_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4>'Kingdom'</color> and <color=#FEF8E4>'Wilds'</color> teammate.<br><br>Grant teammates with less current Health than <color=#FEF8E4>{2:P0}</color> of Pacha's max Health <color=#FEF8E4>{3:N0}</color> shield. If target is Kuzco, grant <color=#FEF8E4>{4:N0}</color> Undefeatable.
+PACHA_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4>'Kingdom'</color> and <color=#FEF8E4>'Wilds'</color> teammate.<br><br>Grant teammates with less current Health than <color=#FEF8E4>{2:P0}</color> of Pacha's max Health <color=#FEF8E4>{3:N0}</color> shield. Grant Kuzco <color=#FEF8E4>{4:N0}</color> Undefeatable. If affected teammates are <color=#FEF8E4>'Kingdom', grant <color=#FEF8E4>{6:P0}</color> bonus shield. If affected teammates are <color=#FEF8E4>'Wilds', grant <color=#FEF8E4>{7:P0}</color> Speed Meter.
+PACHA_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent and all flanking opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4>'Kingdom'</color> and <color=#FEF8E4>'Wilds'</color> teammate.<br><br>Grant teammates with less current Health than <color=#FEF8E4>{2:P0}</color> of Pacha's max Health <color=#FEF8E4>{3:N0}</color> shield. Grant Kuzco <color=#FEF8E4>{4:N0}</color> Undefeatable. If affected teammates are <color=#FEF8E4>'Kingdom', grant <color=#FEF8E4>{6:P0}</color> bonus shield and Offense Up for <color=#FEF8E4>{8:N0}</color> turns. If affected teammates are <color=#FEF8E4>'Wilds', grant <color=#FEF8E4>{7:P0}</color> Speed Meter and Haste for <color=#FEF8E4>{8:N0}</color> turns.
+PACHA_PASSIVEA_DESC_01|Once per turn, when a teammate is summoned or when Kuzco transforms, do the following:<br><br>If teammate is <color=#FEF8E4>'Kingdom', grant <color=#FEF8E4>{0:P0}</color> Speed Meter to them and all <color=#FEF8E4>'Wilds'</color> teammates.<br><br>If teammate is <color=#FEF8E4>'Wilds', grant <color=#FEF8E4>{1:N0}</color> shield to them and all <color=#FEF8E4>'Kingdom'</color> teammates. <br><br>When a teammate's shield is broken, this character has a {2:P0} chance to gain {3:N0} Protect.
+PACHA_PASSIVEA_DESC_02|Once per turn, when a teammate is summoned or when Kuzco transforms, do the following:<br><br>If teammate is <color=#FEF8E4>'Kingdom', grant <color=#FEF8E4>{0:P0}</color> Speed Meter to them and all <color=#FEF8E4>'Wilds'</color> teammates.<br><br>If teammate is <color=#FEF8E4>'Wilds', grant <color=#FEF8E4>{1:N0}</color> shield to them and all <color=#FEF8E4>'Kingdom'</color> teammates.<br><br>In Club Conquest, that teammate immediately performs a basic attack on a random opponent. <br><br>When a teammate's shield is broken, this character has a {2:P0} chance to gain {3:N0} Protect.
+PACHA_PASSIVEA_DESC_03|Once per turn, when a teammate is summoned or when Kuzco transforms, do the following:<br><br>If teammate is <color=#FEF8E4>'Kingdom', grant <color=#FEF8E4>{0:N0}</color> shield to them and all <color=#FEF8E4>'Wilds'</color> teammates. If you have at least <color=#FEF8E4>{2:N0}</color> <color=#FEF8E4>'Kingdom'</color> teammates, grant <color=#FEF8E4>{3:N0}</color> <color=#FEF8E4>'Wilds'</color> teammate Haste for <color=#FEF8E4>{4:N0}</color> turns.<br><br>If teammate is <color=#FEF8E4>'Wilds', grant <color=#FEF8E4>{0:N0}</color> shield to them and all <color=#FEF8E4>'Kingdom'</color> teammates. If you have at least <color=#FEF8E4>{4:N0}</color> <color=#FEF8E4>'Wilds'</color> teammates, grant <color=#FEF8E4>{5:N0}</color> <color=#FEF8E4>'Kingdom'</color> teammate Offense Up for <color=#FEF8E4>{6:N0}</color> turns.<br><br>In Club Conquest, that teammate immediately performs a basic attack on a random opponent.<br><br>When a teammate's shield is broken, this character has a {2:P0} chance to gain {3:N0} Protect.
+PACHA_BASIC_ABILPREVIEWUPGRADE_01|In Club Conquest, call {0:N0} teammates to Assist.
+PACHA_BASIC_ABILPREVIEWUPGRADE_02|+1 teammates called to Assist.
+PACHA_SPECIALA_ABILPREVIEWUPGRADE_01|Grant {0:P0} bonus shield per 'Kingdom' teammate. Grant {1:P0} Speed Meter per 'Wilds' teammate.
+PACHA_SPECIALA_ABILPREVIEWUPGRADE_02|+{0:P0} base shield.
+PACHA_SPECIALA_ABILPREVIEWUPGRADE_03|If you have at least {0:N0} 'Kingdom' teammates, grant Offense Up for {1:N0} turns. If you have at least {0:N0} 'Wilds' teammates, grant Haste for {1:N0} turns.
+PACHA_SPECIALA_ABILPREVIEWUPGRADE_04|+{0:N0} Offense Up and Haste duration.
+PACHA_SPECIALB_ABILPREVIEWUPGRADE_01|Grant 'Kingdom' teammates {0:P0} bonus shield. Grant 'Wilds' teammates {1:P0} Speed meter.
+PACHA_SPECIALB_ABILPREVIEWUPGRADE_02|Grant 'Kingdom' teammates Offense Up for {0:N0} turns. Grant 'Wilds' teammates Haste for {0:N0} turns.
+PACHA_SPECIALB_ABILPREVIEWUPGRADE_03|+{0:N0} Offense Up and Haste duration, and +{0:N0} Undefeatable.
+PACHA_PASSIVEA_ABILPREVIEWUPGRADE_01|In Club Conquest, that teammate immediately performs a basic attack on a random opponent.
+PACHA_PASSIVEA_ABILPREVIEWUPGRADE_02|+{0:N0} shield and +{1:P0} Speed Meter.
+PACHA_PASSIVEA_ABILPREVIEWUPGRADE_03|If you have at least {0:N0} teammates of a 'Kingdom' or 'Wilds' origin, grant a Helpful Effect to a random teammate of the other.
 PACK_OPENING_CONTINUE|CONTINUE
 PACK_OPENING_SKIP|SKIP ALL
 PAINANDPANIC_UNIT_NAME|PAIN AND PANIC
@@ -11701,6 +11789,9 @@ PASSPORT_XP_202005_1_DESC|PASSHOLDER EXPERIENCE FOR SEASON 2
 PASSPORT_XP_GENERIC_DESC|Collect Passholder Experience to increase your Passholder Tier and earn more rewards!
 PASSPORT_XP_GENERIC_NAME|PASSHOLDER EXPERIENCE
 STORE_ITEM_PASSHOLDER_GOLD_FOR_GEMS|PASSHOLDER GOLD
+STORE_CARDS|CARDS
+STORE_QUANTITY|QUANTITY:
+STORE_YOU_OWN|YOU OWN:
 PA_TUTORIAL_HEROCAMPAIGNSTAGE01COMPLETE_DESC|Complete Stage 1 of the Heroes Campaign
 PA_TUTORIAL_HEROCAMPAIGNSTAGE01COMPLETE_NAME|THE ROAD NOT YET TRAVELED
 PEANUTPUMMEL_SPELLPREVIEWUPGRADE_BLIND_GUARANTEE|Guaranteed to inflict Blind.
@@ -11819,13 +11910,13 @@ PETERPAN_LEADER_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> bonus Speed
 PETERPAN_LEADER_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> bonus Potency.
 PETERPAN_LEADER_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> bonus Tenacity.
 PIG_ARCHER_UNIT_NAME|Merry Man
-PINPAGE_EXCLUSIVE_TITLE|EXCLUSIVE TALISMANS
-PINPAGE_GAME_TITLE|DISNEY SORCERER'S ARENA TALISMANS
-PINPAGE_LIMITED_TITLE|LIMITED RELEASE TALISMANS
-PINPAGE_MOVIE_TITLE|MOVIE TALISMANS
-PINPAGE_PARK_TITLE|PARK TALISMANS
-PINPAGE_PASSPORTSEASON_TITLE|PASSHOLDER SEASON TALISMANS
-PINPAGE_TELEVISION_TITLE|TELEVISION TALISMANS
+PINPAGE_EXCLUSIVE_TITLE|EXCLUSIVE
+PINPAGE_GAME_TITLE|DISNEY SORCERER'S ARENA
+PINPAGE_LIMITED_TITLE|LIMITED RELEASE
+PINPAGE_MOVIE_TITLE|MOVIE
+PINPAGE_PARK_TITLE|PARK
+PINPAGE_PASSPORTSEASON_TITLE|PASSHOLDER SEASON
+PINPAGE_TELEVISION_TITLE|TELEVISION
 PIN_BABY_RAJAH_DESC|Half the size, twice as cute.
 PIN_BABY_RAJAH_NAME|BABY RAJAH TALISMAN
 PIN_BABY_SIMBA_ALOFT_DESC|I just can't wait to be king!
@@ -11854,7 +11945,7 @@ PIN_CHUCKLES_DESC|It ain't right, what Lotso done.
 PIN_CHUCKLES_NAME|CHUCKLES THE CLOWN TALISMAN
 PIN_COLLECTION_END_OF_BOOK_REACHED|End of Talisman collection reached
 PIN_COLLECTION_OBSCURED_ICON|???
-PIN_COLLECTION_TITLE|TALISMAN COLLECTION
+PIN_COLLECTION_TITLE|TALISMAN
 PIN_COLT BRONCO_DESC|Working hard, or hardly working?
 PIN_COLT BRONCO_NAME|COLT BRONCO TALISMAN
 PIN_CONQUEST_SPECTACULAR_DESC|Lighting up the night sky!
@@ -12496,6 +12587,8 @@ PUSHNOTE_CLUBCONQUEST_TITLE|Club Conquest
 PUSHNOTE_FRIEND_GIFT_BODY|You have received a gift from a friend in the Sorcerer's Arena!
 PUSHNOTE_FRIEND_GIFT_TITLE|A Gift From A Friend
 PUSHNOTE_KOTH_RANK_LOSS_BODY|{0} has just taken your place in the Sorcerer's Tournament!
+PUSHNOTE_CLUB_EXPEDITION_STARTED_BODY|THE CLUB EXPEDITION HAS STARTED!
+PUSHNOTE_CLUB_EXPEDITION_REWARDS_READY_TO_CLAIM_BODY|YOUR CLUB EXPEDITION REWARDS ARE READY TO CLAIM!
 PVE_ENERGY_DAILY_GIFT_DESC|Claim Free Campaign Energy
 PVE_ENERGY_DAILY_GIFT_TITLE|FREE CAMPAIGN ENERGY
 PVE_ENERGY_DESC_KEY|Used to access the Heroes & Villains Campaign Modes
@@ -13653,7 +13746,7 @@ SETTINGS_TOGGLE_GLOBAL_CHAT_PREVIEWS|CHAT PREVIEWS
 SETTINGS_TOGGLE_MUSIC|MUSIC
 SETTINGS_TOGGLE_OFF|OFF
 SETTINGS_TOGGLE_ON|ON
-SETTINGS_TOGGLE_PUSH_NOTES|PUSH NOTIFICATIONS
+SETTINGS_TOGGLE_PUSH_NOTES|LOCAL NOTIFICATIONS
 SETTINGS_TOGGLE_SFX|SFX
 SETTINGS_TOGGLE_TOOLTIPS|TOOLTIPS
 SETTINGS_VIBRATION|VIBRATION
@@ -14970,6 +15063,8 @@ STORE_ITEM_HAUNTED_VILLAINSPACK_NAME|VILLAINS HAUNTED PACK
 STORE_ITEM_HAUNTED_VILLAINSPACK_SUBTITLE|COLLECT GOLD, PASSHOLDER COINS, AND TRY YOUR LUCK FOR A CHANCE AT DIFFERENT VILLAIN TOKENS. AVAILABLE FOR A LIMITED TIME.
 FRAME_HAUNTED_NAME|HAUNTED FRAME
 FRAME_HAUNTED_DESC|Exclusive Profile Frame. Awarded during special events.
+FRAME_ATLANTIS_NAME|ATLANTIS FRAME
+FRAME_ATLANTIS_DESC|Exclusive Profile Frame. Awarded during special events.
 STORE_ITEM_CELEBRATION_EMOTE_BUNDLE_SUBTITLE|CELEBRATE TODAY WITH THIS LIMITED TIME DEAL. GET A <color=#54C5FF>UNIQUE EMOTE</color>, 1X ULTIMATE CHEST, GEMS, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_FLAWED_ALL_SS_BUNDLE_DESC|BRING YOUR TEAM TO THE NEXT LEVEL. UPGRADE AND POWER UP A FULL SET OF FLAWED SORCERER STONES WITH THIS BUNDLE.
 STORE_ITEM_FLAWED_ALL_SS_BUNDLE_NAME|SUPER STONE BUNDLE
@@ -16775,6 +16870,10 @@ STORE_ODDS_POPUP_GROUP_HEADING|{0}% CHANCE FOR:
 STORE_ODDS_POPUP_GROUP_HEADING_HIGH_PERCENT|>99.99% CHANCE FOR:
 STORE_ODDS_POPUP_GROUP_HEADING_LOW_PERCENT|<0.01% CHANCE FOR:
 STORE_ODDS_POPUP_GROUP_HEADING_WITH_HUNDREDTHS|{0:2}% CHANCE FOR:
+STORE_CARDODDS_GROUP_HEADING|CARD CHANCE: {0}%
+STORE_CARDODDS_GROUP_HEADING_HIGH_PERCENT|CARD CHANCE: >99.99%
+STORE_CARDODDS_GROUP_HEADING_LOW_PERCENT|CARD CHANCE: <0.01%
+STORE_CARDODDS_GROUP_HEADING_WITH_HUNDREDTHS|CARD CHANCE: {0:2}%
 STORE_ODDS_POPUP_LIST_ITEM|DROP {0}: TAP FOR ODDS
 STORE_ODDS_POPUP_TITLE|ODDS
 STORE_OFFER_WALL_ALERT|COMPLETED REWARDS WILL BE SENT TO YOUR INBOX
@@ -17058,6 +17157,7 @@ SYSTEM_ERROR_ASSET_BUNDLE_FAIL_BUTTON|RETRY
 SYSTEM_ERROR_ASSET_BUNDLE_FAIL_DIALOG|Failed to download assets. Please check that your device is connected to the internet and has enough space available.
 SYSTEM_ERROR_DISK_FULL_BUTTON|RETRY
 SYSTEM_ERROR_DISK_FULL_DIALOG|No space left on device. Please clear some space and try again.
+TASK_CLUB_EXPEDITION_DEFEAT_UNITS_DESC|Defeat Enemies in the Club Expedition Mode
 TASK_CLUB_DEAL_DAMAGE_T0_DESC|Deal Damage in the Club Dungeon Mode
 TASK_CLUB_DEAL_DAMAGE_T0_NAME|CLUB - DEAL DAMAGE (TIER I)
 TASK_CLUB_DEAL_DAMAGE_T1_DESC|Deal Damage in the Club Dungeon Mode
@@ -17583,6 +17683,7 @@ UNIT_DETAILS_ROLE_TANK|PRIMARY SPECIALTY:<br><color=#DCDDFF>Attracts opponent ag
 UNIT_DETAILS_TRAIN_BUTTON|LEVEL UP
 UNIT_DETAILS_UNLOCK_BUTTON|UNLOCK
 UNIT_FAVORITE|FAVORITE
+UNIT_STONE|STONE
 UNIT_GEAR_ALREADY_EQUIPPED|THIS ITEM HAS ALREADY BEEN APPLIED
 UNIT_GEAR_BUY_AND_EQUIP|<size=80%>BUY NOW</size>
 UNIT_GEAR_BUY_AND_EQUIP_ALL|BUY ALL
@@ -17614,7 +17715,7 @@ UNIT_INVENTORY_SORT_LEVEL|LEVEL
 UNIT_INVENTORY_SORT_RARITY|RARITY
 UNIT_INVENTORY_SPELLS|SPELLS
 UNIT_INVENTORY_SPELLS_TITLE|SPELLS ({0} / {1})
-UNIT_INVENTORY_TITLE|CARD COLLECTION
+UNIT_INVENTORY_TITLE|COLLECTION
 UNIT_LEVEL|LVL
 UNIT_LEVEL_UP_HEADER|CHARACTER LEVEL UP
 UNIT_LIST_ITEM_SQUAD_NO_LONGER_ELIGIBLE|NO LONGER ELIGIBLE
@@ -18731,7 +18832,8 @@ RAID_BATTLE_PROGRESS_HEADER|PROGRESS
 RAID_BATTLE_PROGRESS_SUB_HEADER|DAMAGE DEALT
 RAID_BATTLE_PROGRESS_TOTAL_DAMAGE_DEALT|TOTAL DAMAGE DEALT:
 RAID_BATTLE_PROGRESS_TRUE_DAMAGE_DEALT|TRUE DAMAGE DEALT:
-RAID_BATTLE_PROGRESS_XP_EARNT|RAID XP EARNED:
+RAID_BATTLE_PROGRESS_XP_EARNT|RAID XP
+RAID_PROGRESS_EARNED|{0} EARNED:
 RAID_BATTLE_PROGRESS_CONTINUE|CONTINUE
 RAID_BATTLE_PROGRESS_UNIT_DMG|DMG
 RAID_BATTLE_CHOICE_PROGRESS_DESC_FRACTION|{0} / {1} COMPLETED
@@ -18861,7 +18963,7 @@ STORE_ITEM_S6_MICKEY_MOUSE_OUTFIT_SUBTITLE|BRAVE THE COLD WITH THE WINTER MICKEY
 STORE_ITEM_S6_MINNIE_MOUSE_OUTFIT_NAME|WINTER MINNIE MOUSE OUTFIT
 STORE_ITEM_S6_MINNIE_MOUSE_OUTFIT_SUBTITLE|THE WINTER MINNIE MOUSE OUTFIT WILL BE SURE TO DAZZLE YOUR OPPONENTS WITH HER CUTE PINK BOWTIE. UNLOCK THIS UNIQUE OUTFIT TODAY.
 STORE_ITEM_S6_TEAM_A_NAME|SENSATIONAL SIX TEAM BUNDLE
-STORE_ITEM_S6_TEAM_A_SUBTITLE|POWER UP YOUR TEAM OF THE SENSASTIONAL SIX AND BATTLE TO EARN MICKEY MOUSE TOKENS.
+STORE_ITEM_S6_TEAM_A_SUBTITLE|POWER UP YOUR TEAM OF THE SENSATIONAL SIX AND BATTLE TO EARN MICKEY MOUSE TOKENS.
 STORE_ITEM_S6_MINNIE_MOUSE_A_NAME|MINNIE MOUSE BUNDLE
 STORE_ITEM_S6_MINNIE_MOUSE_A_SUBTITLE|MINNIE MOUSE IS DANGEROUSLY CHARMING! SHE CAN CHARM MULTIPLE ENEMIES AT ONCE, AND MAKES BEING CHARMED MORE DANGEROUS THAN EVER BEFORE.
 STORE_ITEM_S6_PLUTO_A_NAME|PLUTO BUNDLE
@@ -19857,18 +19959,25 @@ LCA_MIGUEL_ENERGY_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The Miguel Leaderboa
 LCA_MIGUEL_ENERGY_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The Miguel Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_MIGUEL_ENERGY_INBOXMESSAGE_START_BODY|Summoner,<br><br>The <color=#54C5FF>Miguel Leaderboard Contest</color> has begun!<br><br>Earn Contest Points by using <color=#54C5FF>Grand Energy</color> and <color=#54C5FF>Campaign Energy</color>. Climb the ranks for the best rewards!<br><br>Good luck, and see you in the Arena!
 LCA_MIGUEL_ENERGY_INBOXMESSAGE_START_SUBJECT|The Miguel Leaderboard Contest has begun!
-LCA_MILO_ENERGY_NAME|MILO LEADERBOARD CONTEST
+LCA_MILO_ENERGY_NAME|MILO THATCH LEADERBOARD CONTEST
 LCA_MILO_ENERGY_DESC|Earn points by using Grand Energy and Campaign Energy!
 LCA_MILO_ENERGY_DETAILED_TITLE|Contest Rules
 LCA_MILO_ENERGY_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>• Earn Contest Points by using Grand Energy and Campaign Energy in campaigns. Manually battling as well as using auto-win will provide the same amount of points per energy used.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>• Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking.<BR><BR><color=#54C5FF>MILESTONES</color><br>• Unlock Personal Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<BR><BR><color=#54C5FF>TIEBREAKING</color><br>• If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<BR><BR><color=#54C5FF>POINT INFORMATION</color><br>• Grand Energy: 20<br>• Campaign Energy: 10<br>
 LCA_MILO_ENERGY_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
-LCA_MILO_ENERGY_MILESTONE_REWARD_POINT_NAME|MILO LEADERBOARD CONTEST POINTS
+LCA_MILO_ENERGY_MILESTONE_REWARD_POINT_NAME|MILO THATCH LEADERBOARD CONTEST POINTS
 LCA_MILO_ENERGY_MILESTONE_REWARD_POINT_DESC|Earn points by using Grand Energy and Campaign Energy!
 LCA_MILO_ENERGY_INBOXMESSAGE_PERSONAL_BODY|Summoner,<br><br>The Milo Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_MILO_ENERGY_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The Milo Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_MILO_ENERGY_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The Milo Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
-LCA_MILO_ENERGY_INBOXMESSAGE_START_BODY|Summoner,<br><br>The <color=#54C5FF>MILO LEADERBOARD CONTEST</color> has begun!<br><br>Earn Contest Points by using <color=#54C5FF>GRAND ENERGY</color> and <color=#54C5FF>CAMPAIGN ENERGY</color>. Climb the ranks for the best rewards!<br><br>Good luck, and see you in the Arena!
-LCA_MILO_ENERGY_INBOXMESSAGE_START_SUBJECT|The Milo Leaderboard Contest has begun!
+LCA_MILO_ENERGY_INBOXMESSAGE_START_BODY|Summoner,<br><br>The <color=#54C5FF>MILO THATCH LEADERBOARD CONTEST</color> has begun!<br><br>Earn Contest Points by using <color=#54C5FF>GRAND ENERGY</color> and <color=#54C5FF>CAMPAIGN ENERGY</color>. Climb the ranks for the best rewards!<br><br>Good luck, and see you in the Arena!
+LCA_MILO_ENERGY_INBOXMESSAGE_START_SUBJECT|The Milo Thatch Leaderboard Contest has begun!
+FRAME_MILO_NAME|ATLANTIS PROFILE FRAME
+FRAME_GENERIC_DESC|Unique Profile Frame. Equipped in your player profile.
+STORE_ITEM_MILO_THATCH_NAME|MILO THATCH BUNDLE
+STORE_ITEM_MILO_THATCH_SUBTITLE|MILO THATCH IS AN OCEANIC ADVENTURER WHO IS OFFENSIVE WHILE OFFERING SUPPORT WITH CLEANSES AND HEALS.
+STORE_ITEM_MILO_THATCH_GEMS_NAME|MILO THATCH PACK
+STORE_ITEM_MILO_THATCH_ENERGY_NAME|MILO THATCH ENERGY BUNDLE
+STORE_ITEM_MILO_THATCH_ENERGY_SUBTITLE|GET AHEAD OF THE COMPETITION WITH THIS MILO THATCH ENERGY BUNDLE. CONTAINS MILO THATCH TOKENS, MASSIVE AMOUNT OF CAMPAIGN ENERGY, GRAND ENERGY, AND MORE ITEMS.
 LTA_REQUIRED_PREFIX|REQUIRED
 LTA_N_STARS_REQUIRED|<color=#FFF9DB>{0} STARS</color>   
 LTA_ONE_STAR_REQUIRED|<color=#FFF9DB>1 STAR</color>   
@@ -19904,9 +20013,52 @@ ADVENTURES_SIDE_LIONKING_DESC|Welcome to the <color=#54C5FF>Lion King Campaign</
 CURRENCY_STAR_MAIN_NAME|MAIN ADVENTURE STARS
 CURRENCY_STAR_SIDE_NAME|SIDE ADVENTURE STARS
 CURRENCY_ENERGY_ASCENSION_NAME|ASCENSION ENERGY
+CURRENCY_ENERGY_EXPEDITION_NAME|EXPEDITION ENERGY
 ASCENSION_ENERGY_DAILY_GIFT_DESC|Claim Free Ascension Energy
 ASCENSION_ENERGY_DAILY_GIFT_TITLE|FREE ASCENSION ENERGY
 ASCENSION_ENERGY_DESC_KEY|Used to access the Ascension Campaign Mode
+EXPEDITION_ENERGY_DESC_KEY|Used in Club Expeditions
+EXPEDITION_BOSS_AURA_NAME|Power of the Deep
+EXPEDITION_BOSS_AURA_DESC|In the caves of their lair, bosses are even stronger.<br>•Bosses gain an additional action each turn.<br>•Bosses are immune to Stun, Sleep, Silence, Intimidate, Polymorph, Charm and Stasis.<br>•Bosses build up resistance to Speed Meter reduction and Ability Magic reduction.<br>•Bosses gain an additional magic for all abilities each round.<br>•Bosses can become Empowered, becomining immune to harmful effects and gaining <color=#FEF8E4>+20%</color> bonus Offense, Defense and Speed.
+EXPEDITION_BOSS_MUTATOR_DESC|<color=#FFBC08>Power of the Deep:</color><br>•Bosses gain an additional action each turn.<br>•Bosses are immune to Stun, Sleep, Silence, Intimidate, Polymorph, Charm and Stasis.<br>•Bosses build up resistance to Speed Meter reduction and Ability Magic reduction.<br>•Bosses gain an additional magic for all abilities each round.<br>•Bosses can become Empowered, becomining immune to harmful effects and gaining <color=#FEF8E4>+20%</color> bonus Offense, Defense and Speed.
+EXPEDITION_BOSS_CLAUDEFROLLO_NAME|Intense Rage
+EXPEDITION_BOSS_CLAUDEFROLLO_DESC|Frollo's Guards have increased Offense. At the start of battle, inflict Continuous Damage on each opponent and, when an opponent receives damage, inflict them with Continuous Damage. Destined Explorer Characters are immune to these effects.
+EXPEDITION_MUTATOR_CLAUDEFROLLO_DESC|<color=#FFBC08>Intense Rage:</color><br><br>Frollo's Guards have increased Offense. At the start of battle, inflict Continuous Damage on each opponent and, when an opponent receives damage, inflict them with Continuous Damage. Destined Explorer Characters are immune to these effects.
+EXPEDITION_BOSS_MULAN_NAME|Master Tactician
+EXPEDITION_BOSS_MULAN_DESC|Mulan begins the Battle with Tactics. When Mulan's Tactics fades, she regains Tactics if able. Mulan has a high chance to assist her allies against non-Destined Explorer opponents.
+EXPEDITION_MUTATOR_MULAN_DESC|<color=#FFBC08>Master Tactician:</color><br><br>Mulan begins the Battle with Tactics. When Mulan's Tactics fades, she regains Tactics if able. Mulan has a high chance to assist her allies against non-Destined Explorer opponents.
+EXPEDITION_BOSS_QUEENOFHEARTS_NAME|A Full Deck
+EXPEDITION_BOSS_QUEENOFHEARTS_DESC|Queen of Hearts begins the Battle with Tactics. When Queen of Hearts's Tactics fades, she regains Tactics if able. When Queen of Hearts damages a non-Destined Explorer opponent, she summons Card Soldiers. Card Soldiers have increased Offense.
+EXPEDITION_MUTATOR_QUEENOFHEARTS_DESC|<color=#FFBC08>A Full Deck:</color><br><br>Queen of Hearts begins the Battle with Tactics. When Queen of Hearts's Tactics fades, she regains Tactics if able. When Queen of Hearts damages a non-Destined Explorer opponent, she summons Card Soldiers. Card Soldiers have increased Offense.
+EXPEDITION_BOSS_HORNEDKING_NAME|Rise At Will
+EXPEDITION_BOSS_HORNEDKING_DESC|When the Horned King damages a non-Destined Explorer opponent, he summons Cauldron Born. Cauldron Born have increased Offense.
+EXPEDITION_MUTATOR_HORNEDKING_DESC|<color=#FFBC08>Rise at Will:</color><br><br>When the Horned King damages a non-Destined Explorer opponent, he summons Cauldron Born. Cauldron Born have increased Offense.
+EXPEDITION_BOSS_JAFAR_NAME|Times Up!
+EXPEDITION_BOSS_JAFAR_DESC|At the start of the battle, and at the end of each of his turns, Jafar will inflict all opponents with Hourglass. Destined Explorer characters are immune to this effect.
+EXPEDITION_MUTATOR_JAFAR_DESC|<color=#FFBC08>Times Up!:</color><br><br>At the start of the battle, and at the end of each of his turns, Jafar will inflict all opponents with Hourglass. Destined Explorer characters are immune to this effect.
+EXPEDITION_BEACON_TENACITY_NAME|Light of the Beacon - Tenacity
+EXPEDITION_BEACON_TENACITY_100_DESC|The unchecked power of a nearby Deploy Room has empowered this boss!<br><br>• This boss gains 100% Tenacity.
+EXPEDITION_BEACON_OFFENSE_NAME|Light of the Beacon - Offense
+EXPEDITION_BEACON_OFFENSE_100_DESC|The unchecked power of a nearby Deploy Room has empowered this boss!<br><br>• This boss gains 100% Offense.
+EXPEDITION_BEACON_DAMAGEREDUCTION_NAME|Light of the Beacon - Fortitude
+EXPEDITION_BEACON_DAMAGEREDUCTION_50_DESC|The unchecked power of a nearby Deploy Room has empowered this boss!<br><br>• This boss takes 50% less damage from all attacks.
+EXPEDITION_BEACON_SPEED_NAME|Light of the Beacon - Speed
+EXPEDITION_BEACON_SPEED_25_DESC|The unchecked power of a nearby Deploy Room has empowered this boss!<br><br>• This boss gains 25% Speed.
+EXPEDITION_DEPLOY_AURA_1_NAME|Light of the Beacon I
+EXPEDITION_DEPLOY_AURA_1_DESC|The unchecked power of a nearby Deploy Room has empowered this boss!<br>•This boss starts the battle with 30% bonus speed meter.
+EXPEDITION_DEPLOY_AURA_1_DESC_SHORT|•This boss starts the battle with 30% bonus speed meter.
+EXPEDITION_DEPLOY_AURA_2_NAME|Light of the Beacon II
+EXPEDITION_DEPLOY_AURA_2_DESC|The unchecked power of a nearby Deploy Room has empowered this boss!<br>•This boss gains 2 extra magic for all abilities each turn. This effect stacks with Power of the Deep.
+EXPEDITION_DEPLOY_AURA_2_DESC_SHORT|•This boss gains 2 extra magic for all abilities each turn. This effect stacks with Power of the Deep.
+EXPEDITION_DEPLOY_AURA_3_NAME|Light of the Beacon III
+EXPEDITION_DEPLOY_AURA_3_DESC|The unchecked power of a nearby Deploy Room has empowered this boss!<br>•This boss takes 15% less damage from all attacks.
+EXPEDITION_DEPLOY_AURA_3_DESC_SHORT|•This boss takes 15% less damage from all attacks.
+EXPEDITION_DEPLOY_AURA_4_NAME|Light of the Beacon IV
+EXPEDITION_DEPLOY_AURA_4_DESC|The unchecked power of a nearby Deploy Room has empowered this boss!<br>•This boss takes 2 additional actions each turn. This effect stacks with Power of the Deep.
+EXPEDITION_DEPLOY_AURA_4_DESC_SHORT|•This boss takes 2 additional actions each turn. This effect stacks with Power of the Deep.
+EXPEDITION_DEPLOY_ROOM_COMPLETED|This Deploy room is completed
+EXPEDITION_DEPLOY_ROOM_NO_MORE_UNITS|You cannot select any more units today
+EXPEDITION_RECOMMENDED_UNITS_TITLE|DESTINED EXPLORERS
 ADVENTURES_SIDE_LIONKING_S03N01_DESC|Power up your Lion King team to take on Scar in this epic Boss Battle for BIG rewards.
 ADVENTURES_MAIN_ASCENSION_S03N01_DESC|•Earn BIG rewards!<br><br>•Hades and Mickey are immune to Stun, Silence, Charm, Polymorph, Sleep, and Intimidate.<br><br>•Hades and Mickey assist each other's Basic and Special B attacks.
 TROPHY_ASCENSION_NAME|ASCENSION TROPHY
@@ -20683,7 +20835,7 @@ EMOTE_FROG_DESC|Oh but you must kiss me.
 EMOTE_FACILIER_NAME|DR. FACILIER EMOTE
 EMOTE_FACILIER_DESC|Y'all should have taken my deal.
 EXP_BATTLE_TEMP|BATTLE ENEMIES
-EXP_BATTLE_ROOM_TEMP|ENEMIES IN THIS ROOM
+EXP_BATTLE_ROOM_TEMP|BATTLE CHAMBER
 EXP_BATTLE_MUTATOR_DETAILS|ACTIVE BATTLE ROOM EFFECTS
 EXP_BATTLE_ROOM_NO_RESTRICTIONS|NONE
 FRAME_MALEFICENT_NAME|MALEFICENT FRAME
@@ -20704,6 +20856,7 @@ STORE_ITEM_MIGUEL_ENERGY_NAME|MIGUEL ENERGY BUNDLE
 STORE_ITEM_MIGUEL_ENERGY_SUBTITLE|GET AHEAD OF THE COMPETITION WITH THIS MIGUEL ENERGY BUNDLE. CONTAINS MIGUEL TOKENS, MASSIVE AMOUNT OF CAMPAIGN ENERGY, GRAND ENERGY, AND MORE ITEMS.
 EXP_BOSS_TEMP|EXPEDITION BOSS
 CLUB_EXPEDITION_BOSS_HEALTH|BOSS HEALTH
+EXPEDITION_DESTNED_EXPLORERS_BOSS_SHORT_INFO|These units have special protection against the ruinous powers of this boss! Several boss abilities won't effect them.
 CLUB_EXPEDITION_LEADERBOARD|LEADERBOARD
 CLUB_EXPEDITION_DAMAGE|DMG
 UNIT_PROMO_MAT_GOLIATH|GOLIATH TOKENS
@@ -20878,7 +21031,7 @@ EVENT_202110_MALEFICENT_C_L3_NAME|PRESTIGE: MALEFICENT IV
 EVENT_202110_MALEFICENT_C_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+</color>
 EVENT_202110_MALEFICENT_C_L4_NAME|PRESTIGE: MALEFICENT V
 EVENT_202110_MALEFICENT_C_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 80+</color>
-LIFETIME_ACHIEVEMENT_MALEFICENT_NAME|THE MISSTRESS OF ALL EVIL
+LIFETIME_ACHIEVEMENT_MALEFICENT_NAME|THE MISTRESS OF ALL EVIL
 LIFETIME_ACHIEVEMENT_MALEFICENT_DESC|Unlock Maleficent
 TROPHY_MALEFICENT_NAME|THE MISTRESS OF ALL EVIL TROPHY
 TROPHY_MALEFICENT_DESC|Awarded for Unlocking Maleficent in the Mistress of All Evil Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
@@ -21028,6 +21181,127 @@ FF_T7_CATALYST_POTENCY|HEXING ESSENCE (T7) PACK
 FF_T7_CATALYST_RECOVERY|SEED ESSENCE (T7) PACK
 FF_T7_CATALYST_SPEED|WIND ESSENCE (T7) PACK
 FF_T7_CATALYST_TENACITY|WARDING ESSENCE (T7) PACK
+EXPEDITION_DEPLOY_ROOMS_INFO_HEADER|DEPLOY ROOMS {0}
+EXPEDITION_BATTLE_ROOMS_INFO_HEADER|BATTLE ROOMS {0}
+EXPEDITION_BOSS_ROOMS_INFO_HEADER|BOSS ROOMS {0}
+EXPEDITION_CHEST_ROOMS_INFO_HEADER|TREASURE ROOMS {0}
+EXPEDITION_NO_REQUIREMENT_ROOMS|NO RESTRICTIONS
+EXPEDITION_ROOM_COMPLETION_TALLY|{0}/{1} COMPLETED
+EXPEDITION_ROOM_REQUIREMENT_COMPLETION_TALLY|<color=#FCC341>({0}/{1} COMPLETED)</color>
+FIVE_STAR_HERO_RESTRICTION_DESC_KEY|FIVE STAR HERO
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_3_TIER_2|CATEGORY: <color=#FFFFFF>3: KINGDOM</COLOR>; GEAR TIER: <color=#FFFFFF>2</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_2_TIER_2|CATEGORY: <color=#FFFFFF>2: ALADDIN</COLOR>; GEAR TIER: <color=#FFFFFF>2</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_3_TIER_2|CATEGORY: <color=#FFFFFF>3: ALADDIN</COLOR>; GEAR TIER: <color=#FFFFFF>2</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_3_TIER_3|CATEGORY: <color=#FFFFFF>3: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_2_TIER_3|CATEGORY: <color=#FFFFFF>2: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_HERO_3_TIER_3|CATEGORY: <color=#FFFFFF>3: DOWNTOWN HERO</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_2_TIER_3|CATEGORY: <color=#FFFFFF>2: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_3_TIER_4|CATEGORY: <color=#FFFFFF>3: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_2_TIER_4|CATEGORY: <color=#FFFFFF>2: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_3_TIER_4|CATEGORY: <color=#FFFFFF>3: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_3_TIER_4|CATEGORY: <color=#FFFFFF>3: DOWNTOWN</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_3_TIER_4|CATEGORY: <color=#FFFFFF>3: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_5_TIER_4|CATEGORY: <color=#FFFFFF>5: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_5_TIER_4|CATEGORY: <color=#FFFFFF>5: DOWNTOWN</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_4_TIER_4|CATEGORY: <color=#FFFFFF>4: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_WILDS_3_TIER_4|CATEGORY: <color=#FFFFFF>3: WILDS</COLOR>; STAR LEVEL: <color=#FFFFFF>2</COLOR>; GEAR TIER: <color=#FFFFFF>3</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_3_TIER_5|CATEGORY: <color=#FFFFFF>3: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_2_TIER_5|CATEGORY: <color=#FFFFFF>2: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_3_TIER_5|CATEGORY: <color=#FFFFFF>3: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_HERO_3_TIER_5|CATEGORY: <color=#FFFFFF>3: DOWNTOWN HERO</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_3_TIER_5|CATEGORY: <color=#FFFFFF>3: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_5_TIER_5|CATEGORY: <color=#FFFFFF>5: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_HERO_5_TIER_5|CATEGORY: <color=#FFFFFF>5: DOWNTOWN HERO</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_4_TIER_5|CATEGORY: <color=#FFFFFF>4: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_WILDS_3_TIER_5|CATEGORY: <color=#FFFFFF>3: WILDS</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ADVENTURER_5_TIER_5|CATEGORY: <color=#FFFFFF>5: ADVENTURER</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_OCEANIC_4_TIER_5|CATEGORY: <color=#FFFFFF>4: OCEANIC</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_5_TIER_5|CATEGORY: <color=#FFFFFF>5: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_4_TIER_5|CATEGORY: <color=#FFFFFF>4: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>4</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_3_TIER_7|CATEGORY: <color=#FFFFFF>3: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_5_TIER_7|CATEGORY: <color=#FFFFFF>5: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ADVENTURER_5_TIER_7|CATEGORY: <color=#FFFFFF>5: ADVENTURER</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_5_TIER_7|CATEGORY: <color=#FFFFFF>5: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_4_TIER_7|CATEGORY: <color=#FFFFFF>4: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_OCEANIC_5_TIER_7|CATEGORY: <color=#FFFFFF>5: OCEANIC</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_PETER_PAN_5_TIER_7|CATEGORY: <color=#FFFFFF>5: PETER PAN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_WILDS_5_TIER_7|CATEGORY: <color=#FFFFFF>5: WILDS</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_OR_GARGOYLES_5_TIER_7|CATEGORY: <color=#FFFFFF>5: ONWARD OR GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_HERO_5_TIER_7|CATEGORY: <color=#FFFFFF>5: DOWNTOWN HERO</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN_5_TIER_7|CATEGORY: <color=#FFFFFF>5: FROZEN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_OR_GARGOYLES_3_TIER_7|CATEGORY: <color=#FFFFFF>3: ONWARD OR GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN_4_TIER_7|CATEGORY: <color=#FFFFFF>4: FROZEN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_3_TIER_7|CATEGORY: <color=#FFFFFF>3: ONWARD</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_GARGOYLES_3_TIER_7|CATEGORY: <color=#FFFFFF>3: GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_VILLAIN_5_TIER_7|CATEGORY: <color=#FFFFFF>5: DOWNTOWN VILLAIN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_TANGLED_5_TIER_7|CATEGORY: <color=#FFFFFF>5: TANGLED</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_3_TIER_8| CATEGORY: <color=#FFFFFF>3: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_5_TIER_8| CATEGORY: <color=#FFFFFF>5: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_VILLAIN_5_TIER_8| CATEGORY: <color=#FFFFFF>5: DOWNTOWN VILLAIN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ADVENTURER_5_TIER_8| CATEGORY: <color=#FFFFFF>5: ADVENTURER</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_5_TIER_8| CATEGORY: <color=#FFFFFF>5: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_4_TIER_8| CATEGORY: <color=#FFFFFF>4: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_OCEANIC_5_TIER_8| CATEGORY: <color=#FFFFFF>5: OCEANIC</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_PETER_PAN_5_TIER_8| CATEGORY: <color=#FFFFFF>5: PETER PAN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_WILDS_5_TIER_8| CATEGORY: <color=#FFFFFF>5: WILDS</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_OR_GARGOYLES_5_TIER_8| CATEGORY: <color=#FFFFFF>5: ONWARD OR GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN_5_TIER_8| CATEGORY: <color=#FFFFFF>5: FROZEN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD OR GARGOYLES_3_TIER_8| CATEGORY: <color=#FFFFFF>3: ONWARD OR GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN_4_TIER_8| CATEGORY: <color=#FFFFFF>4: FROZEN</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_3_TIER_8| CATEGORY: <color=#FFFFFF>3: ONWARD</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_GARGOYLES_3_TIER_8| CATEGORY: <color=#FFFFFF>3: GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_TANGLED_5_TIER_8| CATEGORY: <color=#FFFFFF>5: TANGLED</COLOR>; STAR LEVEL: <color=#FFFFFF>5</COLOR>; GEAR TIER: <color=#FFFFFF>6</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_3_TIER_9|CATEGORY: <color=#FFFFFF>3: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_5_TIER_9|CATEGORY: <color=#FFFFFF>5: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ADVENTURER_5_TIER_9|CATEGORY: <color=#FFFFFF>5: ADVENTURER</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_5_TIER_9|CATEGORY: <color=#FFFFFF>5: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_4_TIER_9|CATEGORY: <color=#FFFFFF>4: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_OCEANIC_5_TIER_9|CATEGORY: <color=#FFFFFF>5: OCEANIC</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_PETER_PAN_5_TIER_9|CATEGORY: <color=#FFFFFF>5: PETER PAN</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_WILDS_5_TIER_9|CATEGORY: <color=#FFFFFF>5: WILDS</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_OR_GARGOYLES_5_TIER_9|CATEGORY: <color=#FFFFFF>5: ONWARD OR GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN_5_TIER_9|CATEGORY: <color=#FFFFFF>5: FROZEN</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_OR_GARGOYLES_3_TIER_9|CATEGORY: <color=#FFFFFF>3: ONWARD OR GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN_4_TIER_9|CATEGORY: <color=#FFFFFF>4: FROZEN</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_3_TIER_9|CATEGORY: <color=#FFFFFF>3: ONWARD</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_GARGOYLES_3_TIER_9|CATEGORY: <color=#FFFFFF>3: GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_VILLAIN_5_TIER_9|CATEGORY: <color=#FFFFFF>5: DOWNTOWN VILLAIN</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_TANGLED_5_TIER_9|CATEGORY: <color=#FFFFFF>5: TANGLED</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_PETER_PAN_4_TIER_9|CATEGORY: <color=#FFFFFF>4: PETER</COLOR>; STAR LEVEL: <color=#FFFFFF>6</COLOR>; GEAR TIER: <color=#FFFFFF>7</COLOR>;
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DEFAULT_TIER_6|STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_2_TIER_6|CATEGORY: <color=#FFFFFF>2: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_3_TIER_6|CATEGORY: <color=#FFFFFF>3: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_3_TIER_6|CATEGORY: <color=#FFFFFF>3: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_3_TIER_6|CATEGORY: <color=#FFFFFF>3: DOWNTOWN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM_5_TIER_6|CATEGORY: <color=#FFFFFF>5: KINGDOM</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_HERO_5_TIER_6|CATEGORY: <color=#FFFFFF>5: DOWNTOWN HERO</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_HERO_3_TIER_6|CATEGORY: <color=#FFFFFF>3: DOWNTOWN HERO</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_WILDS_3_TIER_6|CATEGORY: <color=#FFFFFF>3: WILDS</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ADVENTURER_5_TIER_6|CATEGORY: <color=#FFFFFF>5: ADVENTURER</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_OCEANIC_4_TIER_6|CATEGORY: <color=#FFFFFF>4: OCEANIC</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES_5_TIER_6|CATEGORY: <color=#FFFFFF>5: INCREDIBLES</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ALADDIN_4_TIER_6|CATEGORY: <color=#FFFFFF>4: ALADDIN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_OCEANIC_5_TIER_6|CATEGORY: <color=#FFFFFF>5: OCEANIC</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_PETER PAN_5_TIER_6|CATEGORY: <color=#FFFFFF>5: PETER PAN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_WILDS_5_TIER_6|CATEGORY: <color=#FFFFFF>5: WILDS</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_PETER_3_TIER_6|CATEGORY: <color=#FFFFFF>3: PETER</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_OR_GARGOYLES_5_TIER_6|CATEGORY: <color=#FFFFFF>5: ONWARD OR GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_HERO_4_TIER_6|CATEGORY: <color=#FFFFFF>4: DOWNTOWN HERO</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN_5_TIER_6|CATEGORY: <color=#FFFFFF>5: FROZEN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_ONWARD_OR_GARGOYLES_3_TIER_6|CATEGORY: <color=#FFFFFF>3: ONWARD OR GARGOYLES</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN_3_TIER_6|CATEGORY: <color=#FFFFFF>3: FROZEN</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_TANGLED_3_TIER_6|CATEGORY: <color=#FFFFFF>3: TANGLED</COLOR>; STAR LEVEL: <color=#FFFFFF>4</COLOR>; GEAR TIER: <color=#FFFFFF>5</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_DOWNTOWN_HERO|CATEGORY: <color=#FFFFFF>DOWNTOWN HERO</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_OCEANIC|CATEGORY: <color=#FFFFFF>OCEANIC</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_PETERPAN|CATEGORY: <color=#FFFFFF>PETER PAN</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_KINGDOM|CATEGORY: <color=#FFFFFF>KINGDOM</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_INCREDIBLES|CATEGORY: <color=#FFFFFF>THE INCREDIBLES</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_WILDS|CATEGORY: <color=#FFFFFF>WILDS</COLOR>
+CLUB_EXPEDITION_ROOM_REQUIREMENT_DESC_FROZEN|CATEGORY: <color=#FFFFFF>FROZEN</COLOR>
+CLUB_EXPEDITION_INFO|CLUB EXPEDITION INFO
+LTA_BATTLE_QUIT_DISABLED|Forfeiting is disabled in Summoner Showdown
+HOW_TO_TURN_OFF_PUSH_NOTES_IOS|<link="https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios">TO TURN OFF REMOTE NOTIFICATIONS FOLLOW THESE STEPS <color="yellow">HERE</color></link>
+HOW_TO_TURN_OFF_PUSH_NOTES_ANDROID|<link="https://support.google.com/android/answer/9079661?hl=en#zippy=">TO TURN OFF REMOTE NOTIFICATIONS FOLLOW THESE STEPS <color="yellow">HERE</color></link>
 GEN_ABILBASIC_NAME|BASIC
 GEN_ABILSPECIALA_NAME|SPECIAL A
 GEN_ABILSPECIALB_NAME|SPECIAL B
@@ -21110,6 +21384,8 @@ STORE_ITEM_MINC_RANDALL_GEMS_NAME|RANDALL BOGGS PACK
 TROPHY_MONSTERS_INC_NAME|MONSTERS, INC. TROPHY
 TROPHY_MONSTERS_INC_DESC|Awarded for completing the Monsters, Inc. Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 UNIT_PROMO_MAT_MIKE|MIKE WAZOWSKI TOKENS
+SYNC_ERROR|SYNC ERROR
+SYNC_ERROR_MESSAGE|YOUR PLAYER IS OUT OF SYNC. PRESS CONFIRM TO REFRESH YOUR STATE.
 MIKEWAZOWSKI_UNIT_NAME|MIKE WAZOWSKI
 MIKEWAZOWSKI_ABILBASIC_NAME|I HAVE A PLAN
 MIKEWAZOWSKI_ABILSPECIALA_NAME|SCARE TACTICS
@@ -21142,6 +21418,16 @@ MIKEWAZOWSKI_LEADER_ABILPREVIEWUPGRADE_01|'Monsters, Inc.' teammates gain: When 
 MIKEWAZOWSKI_LEADER_ABILPREVIEWUPGRADE_02|-{0:P0} Defense.
 MIKEWAZOWSKI_LEADER_ABILPREVIEWUPGRADE_03|-{0:P0} Speed.
 SPELL_MAT_BLUE_FAIRY_MAGIC_NAME|BLUE FAIRY MAGIC
+CLUB_ADMIN_MSG_RAID_TIER_1_DEFAULT_NAME|TIER 1
+CLUB_ADMIN_MSG_RAID_TIER_2_DEFAULT_NAME|TIER 2
+CLUB_ADMIN_MSG_RAID_TIER_3_DEFAULT_NAME|TIER 3
+CLUB_ADMIN_MSG_RAID_TIER_4_DEFAULT_NAME|TIER 4
+CLUB_ADMIN_MSG_RAID_TIER_5_DEFAULT_NAME|TIER 5
+CLUB_ADMIN_MSG_RAID_TIER_6_DEFAULT_NAME|TIER 6
+CLUB_ADMIN_MSG_RAID_TIER_7_DEFAULT_NAME|TIER 7
+CLUB_ADMIN_MSG_RAID_TIER_8_DEFAULT_NAME|TIER 8
+CLUB_ADMIN_MSG_RAID_TIER_9_DEFAULT_NAME|TIER 9
+CLUB_ADMIN_MSG_RAID_TIER_10_DEFAULT_NAME|TIER 10
 FF_T4_ACCURACY|LUMINOUS FIBER (T4) PACK
 FF_T4_CRIT_CHANCE|LUCK FIBER (T4) PACK
 FF_T4_CRIT_POWER|BURSTING FIBER (T4) PACK
@@ -21287,6 +21573,11 @@ LCA_VILLAINS_ENERGY_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The Villain Leader
 LCA_VILLAINS_ENERGY_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The Villain Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_VILLAINS_ENERGY_INBOXMESSAGE_START_BODY|Summoner,<br><br>The <color=#54C5FF>Villain Leaderboard Contest</color> has begun!<br><br>Earn Contest Points by using <color=#54C5FF>Grand Energy</color> and <color=#54C5FF>Campaign Energy</color>. Climb the ranks for the best rewards!<br><br>Good luck, and see you in the Arena!
 LCA_VILLAINS_ENERGY_INBOXMESSAGE_START_SUBJECT|The Villain Leaderboard Contest has begun!
+EXP_BATTLE_NO_MUTATORS|NONE
+EXP_BATTLE_BUSY|BATTLE ACTIVE...
+EXP_BATTLE_BUSY_ALERT|ANOTHER CLUB MEMBER IS CURRENTLY IN THIS BATTLE!
+CLUB_EXPEDITION_PROGRESS_LABEL|TOTAL CLUB EXPEDITION: {0:0}% COMPLETE
+CLUB_EXPEDITION_BATTLE_COMPLETED_BY_PLAYER|COMPLETED BY:
 LCA_GARGOYLES_DAMAGE_INBOX_SUBJECT|The Gargoyle Characters Damage Contest has begun!
 LCA_GARGOYLES_DAMAGE_INBOX_BODY|Summoner,<BR><BR>The <color=#54C5FF> Gargoyle Characters Damage Leaderboard Contest</color> has begun!<BR><BR>Earn Points by dealing the highest amount of damage with <color=#54C5FF> Gargoyle Characters </color> in any game mode. Climb the ranks for the best rewards!<BR><BR>Good luck, and see you in the Arena!
 LCA_GARGOYLES_DAMAGE_SHORT_NAME|GARGOYLES DAMAGE
@@ -21313,6 +21604,55 @@ LCA_OCEANIC_DAMAGE_MILESTONE_REWARD_POINT_DESC|Earn Points by dealing the highes
 LCA_OCEANIC_DAMAGE_INBOXMESSAGE_PERSONAL_BODY|Summoner,<br><br>The OCEANIC Characters Damage Leaderboard Contest has concluded.<br><br>Your final Contest Group rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_OCEANIC_DAMAGE_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The OCEANIC Characters Damage Leaderboard Contest has concluded.<br><br>Your final Global rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_OCEANIC_DAMAGE_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The OCEANIC Characters Damage Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
+CLUB_EXPEDITION_MUST_BE_LEADER_TO_START|YOU MUST BE A CLUB LEADER TO START AN EXPEDITION!
+CM_EXPEDITION_LEADER_STEP_00|Welcome to <color=#54C5FF>CLUB EXPEDITION</color>.<br><br>As the Club Leader, you select the difficulty of your Club's Adventure!
+CM_EXPEDITION_LEADER_STEP_01|Select the dungeon tier that you think best fits your Club's current strength!
+CM_EXPEDITION_MEMBER_STEP_00|Welcome to <color=#54C5FF>CLUB EXPEDITION</color>.<br><br>Complete battles and defeat bosses to explore the dungeon with your Club.
+CM_EXPEDITION_MEMBER_STEP_01|Win battles to earn <color=#54C5FF>EXPEDITION XP</color> and unlock rewards from <color=#54C5FF>MILESTONES</color>
+CM_EXPEDITION_MEMBER_STEP_02|Defeat all opponents in a battle chamber or deploy the required characters in a Beacon Chamber to destroy the chamber and reveal more of the dungeon.
+CM_EXPEDITION_MEMBER_STEP_03|Spend <color=#54C5FF>EXPEDITION ENERGY</color> to battle opponents and bosses. Additional energy will be generated over time
+CM_EXPEDITION_MEMBER_STEP_04|Work with your club to find the boss of this dungeon floor and defeat them to unlock the next floor. Explore every floor of the dungeon to get greater rewards!
+CM_EXPEDITION_INFO_STEP_00|Tap the Info Button for more details on <color=#54C5FF>CLUB EXPEDITION</color>
+KIDA_UNIT_NAME|KIDA
+UNIT_PROMO_MAT_KIDA|KIDA TOKENS
+KIDA_ABILBASIC_NAME|DEFENDER'S STRIKE
+KIDA_ABILSPECIALA_NAME|SPEAR VAULT
+KIDA_ABILSPECIALB_NAME|ROYAL ATLANTEAN HEALING
+KIDA_ABILPASSIVEA_NAME|BE NOT AFRAID
+KIDA_ABILPASSIVEB_NAME|CHOSEN OF ATLANTIS
+MILOTHATCH_UNIT_NAME|MILO THATCH
+UNIT_PROMO_MAT_MILOTHATCH|MILO THATCH TOKENS
+MILOTHATCH_ABILBASIC_NAME|BOILER BONK
+MILOTHATCH_ABILSPECIALA_NAME|ATLANTEAN HEALING
+MILOTHATCH_ABILSPECIALB_NAME|MARTAG BARRAGE
+MILOTHATCH_ABILPASSIVEA_NAME|SHEPHERD'S JOURNAL
+MILOTHATCH_LEADER_NAME|DISCOVERY! TEAMWORK! ADVENTURE!
+MILOTHATCH_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to call <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color> teammate to assist.
+MILOTHATCH_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. <color=#FEF8E4>{1:P0}</color> chance to call <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color> teammate to assist.<br><br><color=#FEF8E4>{2:P0}</color> chance to grant self and assisting teammate <color=#FEF8E4>{3:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_GUARANTEED_CRIT>[GUARANTEED CRIT]</link></color>, guaranteed if in Club Expeditions.
+MILOTHATCH_BASIC_ABILPREVIEWUPGRADE_01|{0:P0} chance to grant self and assisting teammate {1:N0} Guaranteed Crit, guaranteed if in Club Expeditions.
+MILOTHATCH_SPECIALA_DESC_01|Perform the following to target teammate:<br>Restore <color=#5DFF89>{0:N0}</color> Health, increased by <color=#5DFF89>{1:N0}</color> if target is below <color=#FEF8E4>{2:P0}</color> Health.<br>Grant <color=#FEF8E4><link=BATTLE_EFFECT_CONTINUOUS_HEALING>[CONTINUOUS HEALING]</link></color>, restoring <color=#5DFF89>{4:N0}</color> Health for <color=#FEF8E4>{5:N0}</color> turns, <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> and <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{6:N0}</color> turn.
+MILOTHATCH_SPECIALA_DESC_02|Perform the following to target teammate:<br>Restore <color=#5DFF89>{0:N0}</color> Health, increased by <color=#5DFF89>{1:N0}</color> if target is below <color=#FEF8E4>{2:P0}</color> Health.<br> Cleanse <color=#FEF8E4>{8:N0}</color> Harmful effect. If target is <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color>, flip <color=#FEF8E4>{9:N0}</color> additional Harmful effects. <br>Grant <color=#FEF8E4><link=BATTLE_EFFECT_CONTINUOUS_HEALING>[CONTINUOUS HEALING]</link></color>, restoring <color=#5DFF89>{4:N0}</color> Health for <color=#FEF8E4>{5:N0}</color> turns, <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> and <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{6:N0}</color> turn.
+MILOTHATCH_SPECIALA_DESC_03|Perform the following to target teammate:<br>Restore <color=#5DFF89>{0:N0}</color> Health, increased by <color=#5DFF89>{1:N0}</color> if target is below <color=#FEF8E4>{2:P0}</color> Health.<br> Cleanse <color=#FEF8E4>{8:N0}</color> Harmful effect. If target is <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color>, flip <color=#FEF8E4>{9:N0}</color> additional Harmful effects. <br>Grant <color=#FEF8E4><link=BATTLE_EFFECT_CONTINUOUS_HEALING>[CONTINUOUS HEALING]</link></color>, restoring <color=#5DFF89>{4:N0}</color> Health for <color=#FEF8E4>{5:N0}</color> turns, <color=#FEF8E4><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> and <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{6:N0}</color> turn.<br><br>In Club Expeditions:<br>Grant self and teammate <color=#FEF8E4>{10:P0}</color> Speed Meter.
+MILOTHATCH_SPECIALA_ABILPREVIEWUPGRADE_01|Cleanse {0:N0} Harmful effects. If target is Kida or an 'Adventurer', Flip {1:N0} additional Harmful effects.
+MILOTHATCH_SPECIALA_ABILPREVIEWUPGRADE_02|In Club Expeditions: Grant self and teammate {0:P0} Speed Meter.
+MILOTHATCH_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. Consume <color=#FEF8E4>{7:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br> If target has more than <color=#FEF8E4>{2:P0}</color> Health, deals <color=#FEF8E4>{3:P0}</color> bonus damage. <br><br>On Turn Start, this ability gains 1 Magic per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on Milo.
+MILOTHATCH_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. Consume <color=#FEF8E4>{7:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br> If target has more than <color=#FEF8E4>{2:P0}</color> Health, deals <color=#FEF8E4>{3:P0}</color> bonus damage. <br><br>In Club Expeditions, perform the following for all teammates:<br><color=#FEF8E4>{4:P0}</color> chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{5:N0}</color> turn.<br><br>On Turn Start, this ability gains 1 Magic per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on Milo.
+MILOTHATCH_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. Consume <color=#FEF8E4>{7:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br> If target has more than <color=#FEF8E4>{2:P0}</color> Health, deals <color=#FEF8E4>{3:P0}</color> bonus damage. <br><br>In Club Expeditions, perform the following for all teammates:<br><color=#FEF8E4>{4:P0}</color> chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{5:N0}</color> turn. <color=#FEF8E4>{6:P0}</color> chance to assist.<br><br>On Turn Start, this ability gains 1 Magic per <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on Milo.
+MILOTHATCH_SPECIALB_ABILPREVIEWUPGRADE_01|In Club Expeditions, perform the following for all teammates: {0:P0} chance to grant Offense Up.
+MILOTHATCH_SPECIALB_ABILPREVIEWUPGRADE_02|In Club Expeditions, perform the following for all teammates: {0:P0} chance to assist.
+MILOTHATCH_SPECIALB_ABILPREVIEWUPGRADE_03|+{0:P0} assist chance. +{1:P0} chance to grant Offense Up.
+MILOTHATCH_PASSIVEA_DESC_01|When Milo uses an ability, gain <color=#FEF8E4>{0:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, up to a max of <color=#FEF8E4>{1:N0}</color>.<br><br><color=#FEF8E4>On teammates'</color> Turn Start, <color=#FEF8E4>{2:P0}</color> chance to perform the following on that teammate, increased by <color=#FEF8E4>{3:P0}</color> if teammate is <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color>:<br><br>Cleanse <color=#FEF8E4>{4:N0}</color> Harmful effect. Grant <color=#FEF8E4><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> for <color=#FEF8E4>{5:N0}</color> turns.
+MILOTHATCH_PASSIVEA_DESC_02|When Milo uses an ability, gain <color=#FEF8E4>{0:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, up to a max of <color=#FEF8E4>{1:N0}</color>.<br><br><color=#FEF8E4>On teammates'</color> Turn Start, <color=#FEF8E4>{2:P0}</color> chance to perform the following on that teammate, increased by <color=#FEF8E4>{3:P0}</color> if teammate is <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color>:<br><br>Cleanse <color=#FEF8E4>{4:N0}</color> Harmful effect. Grant <color=#FEF8E4><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> for <color=#FEF8E4>{5:N0}</color> turns. Grant <color=#FEF8E4>{6:P0}</color> Speed Meter to target and self.
+MILOTHATCH_PASSIVEA_DESC_03|When Milo uses an ability, gain <color=#FEF8E4>{0:N0}</color> <color=#FEF8E4><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, up to a max of <color=#FEF8E4>{1:N0}</color>.<br><br><color=#FEF8E4>On teammates'</color> Turn Start, <color=#FEF8E4>{2:P0}</color> chance to perform the following on that teammate, increased by <color=#FEF8E4>{3:P0}</color> if teammate is <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color>:<br><br>Cleanse <color=#FEF8E4>{4:N0}</color> Harmful effect. Grant <color=#FEF8E4><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> for <color=#FEF8E4>{5:N0}</color> turns. Grant <color=#FEF8E4>{6:P0}</color> Speed Meter to target and self. Call to assist on the opponent with the lowest Health.
+MILOTHATCH_PASSIVEA_ABILPREVIEWUPGRADE_01|Grant {0:P0} Speed Meter to target and self.
+MILOTHATCH_PASSIVEA_ABILPREVIEWUPGRADE_02|Call to assist on the opponent with the lowest Health.
+MILOTHATCH_LEADER_DESC_01|In Club Expedition, all teammates gain:<br><color=#FEF8E4>{0:P0}</color> Offense.<br><color=#FEF8E4><color=#FEF8E4>Kida</color></color> and <color=#FEF8E4>'Adventurer'</color> teammates gain <color=#FEF8E4>{1:P0}</color> Offense.
+MILOTHATCH_LEADER_DESC_02|In Club Expedition, all teammates gain:<br><color=#FEF8E4>{0:P0}</color> Offense.<br><color=#FEF8E4>Kida</color> and <color=#FEF8E4>'Adventurer'</color> teammates gain <color=#FEF8E4>{1:P0}</color> Offense.<br><br>On Battle Start, all teammates gain: <br>Continuous Healing restoring <color=#5DFF89>{2:N0}</color> Health, increased by <color=#5DFF89>{3:N0}</color> if teammate is <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color>, for <color=#FEF8E4>{5:N0}</color> turns.
+MILOTHATCH_LEADER_DESC_03|In Club Expedition, all teammates gain:<br><color=#FEF8E4>{0:P0}</color> Offense.<br><color=#FEF8E4>Kida</color> and <color=#FEF8E4>'Adventurer'</color> teammates gain <color=#FEF8E4>{1:P0}</color> Offense.<br><br>On Battle Start, all teammates gain: <br>Restore <color=#5DFF89>{2:N0}</color> Health, increased by <color=#5DFF89>{3:N0}</color> if teammate is <color=#FEF8E4>Kida</color> or an <color=#FEF8E4>'Adventurer'</color>, for <color=#FEF8E4>{5:N0}</color> turns.<br><color=#FEF8E4>{6:P0}</color> chance to assist on lowest Health target.
+MILOTHATCH_LEADER_ABILPREVIEWUPGRADE_01|On Battle Start, all teammates gain: Continuous Healing, increased if teammate is Kida or an 'Adventurer', for {0:N0} turns.
+MILOTHATCH_LEADER_ABILPREVIEWUPGRADE_02|On Battle Start: {0:P0} chance to assist on lowest Health target.
+MILOTHATCH_LEADER_ABILPREVIEWUPGRADE_03|+{0:P0} assist chance. +{1:N0} Health restored.
+EXP_BATTLE_MUTATOR_HEADER|BATTLE EFFECT
 STORE_ITEM_LTA_CHIP_DESC|PURCHASE THIS PACK TO RECEIVE CHIP TOKENS!
 STORE_ITEM_LTA_DALE_NAME|DALE SHOWDOWN PACK
 STORE_ITEM_LTA_DALE_DESC|PURCHASE THIS PACK TO RECEIVE DALE TOKENS!
@@ -21333,4 +21673,11 @@ STORE_ITEM_LTA_RAYA_NAME|RAYA SHOWDOWN PACK
 STORE_ITEM_LTA_RAYA_DESC|PURCHASE THIS PACK TO RECEIVE RAYA TOKENS!
 STORE_ITEM_LTA_BO_PEEP_NAME|BO PEEP SHOWDOWN PACK
 STORE_ITEM_LTA_BO_PEEP_DESC|PURCHASE THIS PACK TO RECEIVE BO PEEP TOKENS!
-ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> Kevin Holmes <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Tony Wang <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2021 Disney.<br> © 2019-2021 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2021 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
+EXP_BATTLE_ROOM_REFRESH|REFRESH BATTLES
+EXP_BOARD_VIEW_MARK_TARGETS|MARK TARGETS
+EXP_BOARD_VIEW_CONFIRM_MARK_TARGETS|CONFIRM
+EXP_BOARD_VIEW_CANCEL_MARK_TARGETS|CANCEL
+LOCKABLE_FEATURE_DESC_EXPEDITIONS|<color=#fdf8e3><size=60>CLUB EXPEDITIONS<br><br><size=36>Join a Club or create your own and take part in Club Expeditions!<br><br><color=#ff8498>Requires Player Level 10
+LOCKABLE_FEATURE_NAME_EXPEDITIONS|<color=#43FF77>NEW!</color> Club Expeditions Unlocked
+RAID_SELECT_EXPEDITION_NOT_IN_CLUB_WARNING|You must be in a club to participate in Club Expeditions
+ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> Kevin Holmes <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Tony Wang <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2022 Disney.<br> © 2019-2022 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2022 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
