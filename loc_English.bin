@@ -1857,6 +1857,7 @@ RAID_REWARD_CLAIM_BUTTON|CLAIM
 RAID_DIFFICULTY_TEXT|DIFFICULTY: TIER00
 CLUB_LEAVE_CONFIRM_TEXT|Are you sure you wish to leave this Club?
 CLUB_LEAVE_CONFIRM_TEXT_WITH_LOCK|Are you sure you wish to leave this Club? You won't be able to join another club for {0}
+CLUB_LEAVE_DISBAND_CONFIRM_TEXT|<br>Leaving will disband this club, since you are the only member left.
 CLUB_LEAVE_FAILED_ERROR|We were unable to leave this Club.<br>Reason: {0}
 CLUB_LIST_EMPTY_LABEL|No Clubs Found<br><size=70%><color=#FE9B7A>SEARCH for a Club or CREATE your own
 CLUB_LIST_ITEM_REQUIRED_LEVEL|REQ JOIN LVL: {0}
@@ -3176,6 +3177,8 @@ EMOTE_KRONKDEVIL_NAME|KRONK'S SHOULDER DEVIL EMOTE
 EMOTE_KRONKDEVIL_DESC|Don't listen to that guy. He's trying to lead you down the path of righteousness. I'm gonna lead you down the path that rocks.
 EMOTE_KRONKANGEL_NAME|KRONK'S SHOULDER ANGEL EMOTE
 EMOTE_KRONKANGEL_DESC|You're not just gonna let him die like that, are you?
+EMOTE_MERIDA_NAME|MERIDA EMOTE
+EMOTE_MERIDA_DESC|And I'll be shooting for my own hand.
 EMPERORZURG_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>3</color> times. Deal up to <color=#FEF8E4>{2:P0}</color> bonus damage the higher the target's Health is.
 EMPERORZURG_PASSIVE02_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to gain Offense Up
 EMPERORZURG_PASSIVE02_DESC_01|On receiving damage, this character has a <color=#FEF8E4>{0:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Chance to activate is increased by <color=#FEF8E4>{2:P0}</color> per Downtown Villain ally.
@@ -5127,6 +5130,8 @@ INBOX_EVENT_202203_ANNIVERSARY_QUESTS_SUBJECT|Disney Sorcerer's Arena 2-Year Ann
 INBOX_EVENT_202203_ANNIVERSARY_QUESTS_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Disney Sorcerer's Arena 2-Year Anniversary</color> all week long!<br><br> Earn <color=#54C5FF>Frank Wolff</color> and <color=#54C5FF>Lily Houghton</color> tokens in limited time <color=#54C5FF>Daily Quests</color> from <color=#54C5FF>March 20 - 26</color>, and keep an eye out for other exciting events happening throughout the Arena.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202203_ANNIVERSARYEXPEDITION_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Disney Sorcerer's Arena 2-Year Anniversary</color> with Club Expedition <color=#54C5FF>BONUS</color> rewards, available for a limited time!<BR><BR>Earn <color=#54C5FF>Beta Ability Rune</color> bonus rewards in Club Expedition from Boss Chests and Treasure Chambers from <color=#54C5FF>March 20 - 26</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202203_ANNIVERSARYEXPEDITION_SUBJECT|Disney Sorcerer's Arena 2-Year Anniversary - Club Expedition Bonus Event
+INBOX_EVENT_202203_DSAANNIVERSARY_CALENDAR_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Disney Sorcerer's Arena 2-Year Anniversary</color> with a FREE <color=#54C5FF>14-Day Login Calendar</color>!<br><br>Claim before <color=#54C5FF>March 31</color>, and login for 14 days to unlock one reward per day. Complete your Calendar to unlock the NEW <color=#54C5FF>Sorcerer's Arena Merida Outfit</color>!<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202203_DSAANNIVERSARY_CALENDAR_SUBJECT|Disney Sorcerer's Arena 2-Year Anniversary - FREE 14-Day Calendar!
 INBOX_EVENT_202102_VALENTINEFLASHSOON_SUBJECT|Coming Soon - Valentine Flash Gifts
 INBOX_EVENT_202102_VALENTINEFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Valentine Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>February 14 - 18</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSTART_SUBJECT|Valentine Flash Gift
@@ -7980,6 +7985,7 @@ LOCKABLE_FEATURE_DESC_SIM|<color=#fdf8e3><size=60>AUTO-WIN ACCESS<br><br><size=3
 LOCKABLE_FEATURE_DESC_TOWER|<color=#fdf8e3><size=60>TOWERS OF ENDURANCE<br><br><size=36>Utilize all your Character and Spell Cards to ascend the different Towers. The further you climb, the better the reward. How far can you go?<br><br><color=#ff8498>Requires Player Level 22
 LOCKABLE_FEATURE_DESC_VILLAINCAMPAIGN|<color=#fdf8e3><size=60>VILLAINS CAMPAIGN MODE<br><br><size=36>Build a Team of Villains and challenge Heroic defenders to earn both Hero Character Tokens, Gold, Training Potions, Gear, and Player Experience!<br><br><color=#ff8498>Requires 4 Villain Characters
 LOCKABLE_FEATURE_DESC_VIP|<color=#fdf8e3><size=60>VIP<br><br><size=36>Unlock VIP perks including 3x Battle Speed, Bonus Campaign Elite & Club Dungeon Attempts, Extra Gems for Daily Quests, and more!<br><br><color=#ff8498>Requires Player Level 12
+LOCKABLE_FEATURE_DESC_GLOBAL_CHAT_MESSAGE_SEND|<color=#fdf8e3><size=60>GLOBAL CHAT MESSAGE SENDING<br><br><color=#ff8498>Requires Player Level 12
 LOCKABLE_FEATURE_NAME_AUTOBATTLE|<color=#43FF77>NEW!</color> Auto-Battle Unlocked
 LOCKABLE_FEATURE_NAME_CHALLENGES|<color=#43FF77>NEW!</color> Summoner Challenges Unlocked
 LOCKABLE_FEATURE_NAME_CLUBDUNGEON|<color=#43FF77>NEW!</color> Club Dungeon Unlocked
@@ -8009,6 +8015,7 @@ LOCKABLE_FEATURE_NAME_SIM|<color=#43FF77>NEW!</color> Auto-Win Unlocked
 LOCKABLE_FEATURE_NAME_TOWER|<color=#43FF77>NEW!</color> Towers of Endurance Mode Unlocked
 LOCKABLE_FEATURE_NAME_VILLAINCAMPAIGN|<color=#43FF77>NEW!</color> Villains Campaign Mode Unlocked
 LOCKABLE_FEATURE_NAME_VIP|<color=#43FF77>NEW!</color> VIP Unlocked
+LOCKABLE_FEATURE_NAME_GLOBAL_CHAT_MESSAGE_SEND|<color=#43FF77>NEW!</color> Global Chat Message Send Unlocked
 LOGIN_CALENDAR_STORE_STICKER|DAILY REWARDS
 LOGIN_MERIDA_TAB|MERIDA
 LOGIN_ULTIMATE_1X_NAME|ULTIMATE CHEST LOGIN CALENDAR
@@ -8046,6 +8053,9 @@ LOGIN_D7_ASCENSION_ENERGY_A_TAB|ASCENSION CALENDAR
 LOGIN_D7_HAUNTED_NAME|HAUNTED CALENDAR
 LOGIN_D7_HAUNTED_SUBTITLE|ENJOY THIS FREE CALENDAR ON US! COLLECT HAUNTED COINS THROUGHOUT THE ARENA FROM OCTOBER 06 - 31.
 LOGIN_D7_HAUNTED_TAB|FREE
+LOGIN_D14_MERIDA_OUTFIT_NAME|DISNEY SORCERER'S ARENA 2-YEAR ANNIVERSARY
+LOGIN_D14_MERIDA_OUTFIT_SUBTITLE|CELEBRATE THE <color=#FFBC08>DISNEY SORCERER'S ARENA 2-YEAR ANNIVERSARY</color>. CLAIM THIS CALENDAR NOW TO GUARANTEE 14 DAYS OF REWARDS INCLUDING THE <color=#FFBC08>SORCERER'S ARENA MERIDA OUTFIT</color>. MUST OWN MERIDA TO EQUIP.
+LOGIN_D14_MERIDA_OUTFIT_TAB|DAILY CALENDAR
 LOGIN_D7_MALEFICENT_NAME|MALEFICENT CALENDAR
 LOGIN_D7_MALEFICENT_SUBTITLE|TO CELEBRATE THE LAUNCH OF THE MISTRESS OF ALL EVIL EVENT, ENJOY THIS FREE CALENDAR ON US!
 LOGIN_D7_MALEFICENT_TAB|FREE
@@ -9435,6 +9445,9 @@ OUTFIT_MINNIE_MOUSE_DISNEYWORLD_UNIT_NAME|WALT DISNEY WORLD MINNIE MOUSE
 OUTFIT_MICKEY_MOUSE_DISNEYWORLD_NAME|WALT DISNEY WORLD MICKEY MOUSE OUTFIT TOKENS
 OUTFIT_MICKEY_MOUSE_DISNEYWORLD_DESC|Collect 100 to unlock the 'Walt Disney World' outfit for Mickey Mouse.
 OUTFIT_MICKEY_MOUSE_DISNEYWORLD_UNIT_NAME|WALT DISNEY WORLD MICKEY MOUSE
+OUTFIT_MERIDA_DSA_NAME|SORCERER'S ARENA MERIDA OUTFIT TOKENS
+OUTFIT_MERIDA_DSA_DESC|Collect 100 to unlock the 'Sorcerer's Arena Merida' outfit for Merida.
+OUTFIT_MERIDA_DSA_UNIT_NAME|SORCERER'S ARENA MERIDA
 PACHA_UNIT_NAME|PACHA
 PACHA_ABILBASIC_NAME|Pushed Too Far
 PACHA_ABILSPECIALA_NAME|Considerable Compassion
@@ -22038,4 +22051,57 @@ STORE_ITEM_LTA_PLUTO_NAME|PLUTO SHOWDOWN PACK
 STORE_ITEM_LTA_PLUTO_DESC|PURCHASE THIS PACK TO RECEIVE PLUTO TOKENS!
 STORE_ITEM_LTA_PEGASUS_NAME|PEGASUS SHOWDOWN PACK
 STORE_ITEM_LTA_PEGASUS_DESC|PURCHASE THIS PACK TO RECEIVE PEGASUS TOKENS!
+SNEEZY_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to purge <color=#FEF8E4>{1:N0}</color> Helpful effect.
+SNEEZY_BASIC_ABILPREVIEWUPGRADE_02|If target has max break, inflict <color=#FEF8E4>{0:N0}<color> Vulnerable.
+SNEEZY_SPECIALA_ABILPREVIEWUPGRADE_01|{0:P0} chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{1:N0}</color> turn to this character.
+SNEEZY_SPECIALA_ABILPREVIEWUPGRADE_02|{0:P0} chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{1:N0}</color> turn to a random The Miners teammate.
+SNEEZY_SPECIALA_ABILPREVIEWUPGRADE_03|{0:N0} chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color>.
+SNEEZY_PASSIVEA_ABILPREVIEWUPGRADE_01|On a The Miners teammate receiving Silence, <color=#FEF8E4>{0:P0}</color> chance to Cleanse it.
+SNEEZY_PASSIVEB_ABILPREVIEWUPGRADE_01|Purge <color=#FEF8E4>{0:N0}<color> helpful effect.
+GRUMPY_BASIC_ABILPREVIEWUPGRADE_01|Deal <color=#FEF8E4>{0:P0}</color> bonus damage per harmful effect on target, up to a max of <color=#FEF8E4>{1:P0}</color> bonus damage.
+GRUMPY_BASIC_ABILPREVIEWUPGRADE_02|If target has max break, inflict <color=#FEF8E4>{0:N0}</color> Vulnerable.
+GRUMPY_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance for this character to perform basic attack on the opponent with the most harmful effects.
+GRUMPY_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance to perform basic attack.
+GRUMPY_PASSIVEA_ABILPREVIEWUPGRADE_01|On a The Miners teammate receiving Offense Down, <color=#FEF8E4>{0:P0}</color> chance to Cleanse it.
+GRUMPY_ABILBASIC_NAME|Dig Dig Dig
+GRUMPY_ABILSPECIALA_NAME|Off to Work
+GRUMPY_ABILPASSIVEA_NAME|Yodelayheehoo!
+GRUMPY_ABILPASSIVEB_NAME|Troubles' a Brewin'
+SNEEZY_ABILBASIC_NAME|Dig Dig Dig
+SNEEZY_ABILSPECIALA_NAME|Off to Work
+SNEEZY_ABILPASSIVEA_NAME|Yodelayheehoo!
+SNEEZY_ABILPASSIVEB_NAME|It's Coming!!
+SNEEZY_UNIT_NAME|SNEEZY
+GRUMPY_UNIT_NAME|GRUMPY
+GRUMPY_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent.<br><br>Inflict <color=#FEF8E4>{1:N0} <link=BATTLE_EFFECT_BREAK>[BREAK]</link></color>, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>This character will not assist teammates other than Snow White.
+GRUMPY_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{3:P0}</color> bonus damage per harmful effect on target, up to a max of <color=#FEF8E4>{4:P0}</color> bonus damage.<br><br>Inflict <color=#FEF8E4>{1:N0} <link=BATTLE_EFFECT_BREAK>[BREAK]</link></color>, up to a max of <color=#FEF8E4>{2:N0}</color>.<br><br>This character will not assist teammates other than Snow White.
+GRUMPY_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{3:P0} </color>bonus damage per harmful effect on target, up to a max of <color=#FEF8E4>{4:P0}</color> bonus damage.<br><br>Inflict <color=#FEF8E4>{1:N0} <link=BATTLE_EFFECT_BREAK>[BREAK]</link></color>, up to a max of <color=#FEF8E4>{2:N0}</color>. If target has max break, inflict <color=#FEF8E4>{5:N0}<link=BATTLE_EFFECT_EXPOSED> [VULNERABLE]</link></color>.<br><br>This character will not assist teammates other than Snow White.
+GRUMPY_SPECIALA_DESC_01|Grant <color=#FFC400><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{0:N0}</color> turns to this character.<br><br>The Miners teammates gain <color=#FEF8E4>{1:P0}</color> speed meter.
+GRUMPY_SPECIALA_DESC_02|Grant <color=#FFC400><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{0:N0}</color> turns to this character.<br><br>The Miners teammates gain <color=#FEF8E4>{1:P0}</color> speed meter.<br><br><color=#FEF8E4>{2:P0}</color> chance for this character to perform a basic attack on the opponent with the most harmful effects.
+GRUMPY_PASSIVEA_DESC_01|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> bonus Offense to all The Miners teammates. This lasts until the character is defeated.
+GRUMPY_PASSIVEA_DESC_02|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> bonus Offense to all The Miners teammates. This lasts until the character is defeated.<br>On a The Miners teammate receiving <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</LINK></color>, <color=#FEF8E4>{1:P0}</color> chance to Cleanse it.
+GRUMPY_PASSIVEB_DESC_01|Once per turn, when this character takes damage or an allied Snow White takes damage: <color=#FEF8E4>{0:P0}</color> chance counterattack, dealing up to <color=#FFC400>{1:N0}</color> damage.
+UNIT_PROMO_MAT_GRUMPY|GRUMPY TOKENS
+SNEEZY_BASIC_DESC_01|Deal up to<color=#FFC400>{0:N0}</color> damage to target opponent.<br>Inflict <color=#FEF8E4>{1:N0}<link=BATTLE_EFFECT_BREAK> [BREAK]</link></color>, up to a max of <color=#FEF8E4>{2:N0}</color>.
+SNEEZY_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{3:P0}</color> chance to purge {4:N0} helpful effect.<br>Inflict <color=#FEF8E4>{1:N0}<link=BATTLE_EFFECT_BREAK> [BREAK]</link></color>, up to a max of <color=#FEF8E4>{2:N0}</color>.
+SNEEZY_BASIC_DESC_03|Deal up to  <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{3:P0}</color> chance to purge <color=#FEF8E4>{4:N0}</color> helpful effect.<br><br>Inflict <color=#FEF8E4>{1:N0}<link=BATTLE_EFFECT_BREAK> [BREAK]</link></color>, up to a max of <color=#FEF8E4>{2:N0}</color>. If target  has max break, inflict <color=#FEF8E4>{5:N0} <link=BATTLE_EFFECT_EXPOSED>[VULNERABLE]</link></color>.
+SNEEZY_SPECIALA_DESC_01|Grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{0:N0}</color> turn to target teammate.<br>The Miners teammates gain <color=#FEF8E4>{1:P0}</color> speed meter.
+SNEEZY_SPECIALA_DESC_02|Grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{0:N0}</color> turn to target teammate. <color=#FEF8E4>{2:P0}</color> chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{0:N0}</color> turn to this character.<br>The Miners teammates gain <color=#FEF8E4>{1:P0}</color> speed meter.
+SNEEZY_SPECIALA_DESC_03|Grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for <color=#FEF8E4>{0:N0}</color> turn to target teammate. <color=#FEF8E4>{2:P0}</color> chance To grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> For <color=#FEF8E4>{0:N0}</color> turn to this character. <color=#FEF8E4>{3:P0}</color> chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_UNSTOPPABLE>[UNSTOPPABLE]</link></color> for {0:N0} turn to a random The Miners teammate<br>The Miners teammates gain <color=#FEF8E4>{1:P0}</color> speed meter.
+SNEEZY_PASSIVEA_DESC_01|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> bonus Crit Chance to all The Miners teammates. This lasts until this character is defeated.
+SNEEZY_PASSIVEA_DESC_02|At the start of battle, grant <color=#FEF8E4>{0:P0}</color> bonus Crit Chance to all The Miners teammates. This lasts until this character is defeated.<br><br>On a The Miners teammate receiving Silence, <color=#FEF8E4>{1:P0}</color> chance to Cleanse it.
+SNEEZY_PASSIVEB_DESC_01|On turn start, this character has a <color=#FEF8E4>{0:P0}</color> chance to do the following:<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents.
+SNEEZY_PASSIVEB_DESC_02|On turn start, this character has a <color=#FEF8E4>{0:P0}</color> chance to do the following:<br><br>Deal up to <color=#FFC400>{1:N0}</color> damage to all opponents. Purge <color=#FEF8E4>{2:N0}</color> helpful effects.
+UNIT_PROMO_MAT_SNEEZY|SNEEZY TOKENS
+ADVENTURES_SIDE_SNOWWHITE_NAME|SNOW WHITE AND THE SEVEN DWARFS
+ADVENTURES_SIDE_SNOWWHITE_DESC|Welcome to the <color=#54C5FF>Snow White and the Seven Dwarfs Campaign</color>!<br><br>Battle your way through this <color=#54C5FF>Side Adventure Campaign</color> to earn character tokens from <color=#54C5FF>Snow White and the Seven Dwarfs</color>.<br><br>Power up your <color=#54C5FF>Snow White</color> team to take on challenges in the limited time <color=#54C5FF>Fairest of Them All Event</color>. Keep an eye out for when the event will appear in the Events section!<br><br>Battle attempts can cost either <color=#54C5FF>Grand Energy</color> or <color=#54C5FF>Campaign Energy</color> in this Campaign. Completing a battle with your full team still intact will earn you 3 <color=#54C5FF>Side Adventure Stars</color> for that node. Collect Stars to unlock more content in the future.
+INBOX_CAMPAIGN_SNOWWHITE_SUBJECT|New Side Adventure Campaign - Snow White and the Seven Dwarfs
+INBOX_CAMPAIGN_SNOWWHITE_BODY|Summoner,<br><br>The <color=#54C5FF>Snow White and the Seven Dwarfs Campaign</color> has arrived in the Arena! Head to <color=#54C5FF>Adventures</color> to get started on this new <color=#54C5FF>Side Adventure Campaign</color>.<br><br>Win battles to collect <color=#54C5FF>Sneezy</color> and <color=#54C5FF>Grumpy</color> tokens. Keep an eye out for more characters in the future! Power up your team to prepare for the <color=#54C5FF>Fairest of Them All Event</color> coming soon!<br><br><br><br>Thank you for your continued support, and see you in the Arena!
+UNIT_CATEGORY_DWARFS|THE MINERS
+UNIT_CATEGORY_SNOWWHITE|SNOW WHITE AND THE SEVEN DWARFS
+EVENT_STICKER_SNOWWHITE|SEASONAL EVENT
+SW_MINING_DUO_NAME|MINING DUO BUNDLE
+SW_MINING_DUO_DESC|GET TOKENS TO PROGRESS THIS DUO. INCLUDES SNEEZY TOKENS, GRUMPY TOKENS, AND MORE.
+EMOTE_BASHFUL_NAME|BASHFUL EMOTE
+EMOTE_BASHFUL_DESC|Oh, gosh!
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> Kevin Holmes <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Tony Wang <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2022 Disney.<br> © 2019-2022 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2022 Glu Mobile Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Glu Mobile Inc. All Rights Reserved. 
