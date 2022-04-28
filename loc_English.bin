@@ -7246,7 +7246,7 @@ JANGLES_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target 
 JANGLES_PASSIVE_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> number of damage events.
 JANGLES_PASSIVE_ABILPREVIEWUPGRADE_02|Reduces Speed Meter by <color=#FEF8E4>{0:P0}</color> with each hit.
 JANGLES_PASSIVE_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br><color=#FEF8E4>{4:P0}</color> chance to perform after a Basic Ability. Chance to perform after a Basic Ability is increased by <color=#FEF8E4>{2:P0}</color> per Downtown Villain teammate.
-JANGLES_PASSIVE_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. Reduces Speed Meter by <color=#FEF8E4>{3:P0} with each hit.<br><br><color=#FEF8E4>{4:P0}</color> chance to perform after a Basic Ability. Chance to perform after a Basic Ability is increased by <color=#FEF8E4>{2:P0}</color> per Downtown Villain teammate.
+JANGLES_PASSIVE_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times. Reduces Speed Meter by <color=#FEF8E4>{3:P0}</color> with each hit.<br><br><color=#FEF8E4>{4:P0}</color> chance to perform after a Basic Ability. Chance to perform after a Basic Ability is increased by <color=#FEF8E4>{2:P0}</color> per Downtown Villain teammate.
 JANGLES_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:N0}</color> number of balloons.
 JANGLES_SPECIALA_ABILPREVIEWUPGRADE_02|Inflict additional effects if all balloons are the same color.
 JANGLES_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance for all balloons to be the same color.
@@ -22242,7 +22242,7 @@ HAPPY_ABILBASIC_NAME|Dig Dig Dig
 HAPPY_ABILSPECIALA_NAME|Off To Work
 HAPPY_ABILPASSIVEA_NAME|Yodelayheehoo!
 HAPPY_ABILPASSIVEB_NAME|Something's Cookin'
-SLEEPY_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Sleep for <color=#FEF8E4>{1:N0}</color> turn.
+SLEEPY_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict Sleep on opponent for <color=#FEF8E4>{1:N0}</color> turn.
 SLEEPY_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to grant Continuous Healing to this character.
 SLEEPY_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>{0:P0}</color> chance to grant Continuous Healing to a random <color=#FEF8E4>'The Miners'</color> teammate.
 SLEEPY_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> chance to grant Continuous Healing.
