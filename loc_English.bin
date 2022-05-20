@@ -607,6 +607,10 @@ BATTLE_EFFECT_BREAK|BREAK
 BATTLE_EFFECT_BREAK_DESC|Receives 5% additional damage. Has 5% less Tenacity.
 BATTLE_EFFECT_COFFIN|SLEEPING DEATH
 BATTLE_EFFECT_COFFIN_DESC|This character intercepts some of the damage from abilities that affect multiple teammates. If this character would be defeated, they will instead enter Stasis.
+BATTLE_EFFECT_EEYORE_TAIL_HELPFUL|EEYORE'S TAIL
+BATTLE_EFFECT_EEYORE_TAIL_HELPFUL_DESC|Teammates gain a portion of Eeyore's Defense as bonus Defense.<br>When EEYORES TAIL is applied and on turn start, Eeyore gains Taunt.
+BATTLE_EFFECT_EEYORE_TAIL_HARMFUL|EEYORE'S TAIL
+BATTLE_EFFECT_EEYORE_TAIL_HARMFUL_DESC|Opponents deal less damage per Harmful effect on them.
 BATTLE_EFFECT_STAGGER|STAGGER
 BATTLE_EFFECT_STAGGER_DESC|Affected character cannot use abilities.
 BATTLE_EFFECT_BLIND_DESC|Chance for affected character's attacks to be Evaded is increased by 50%.
@@ -1528,7 +1532,8 @@ CAVE_STATUE_SUBTITLE|DEFEAT THE STATUE
 CAVE_STATUE_UNIT_NAME|CAVE STATUE
 CCPA_GENERATE_PIN_BUTTON1|VIEW MY IDENTITY PIN
 CCPA_PIN_LABEL|IDENTITY PIN: {0}
-CCPA_PRIVACY_TERMS_BUTTON|VIEW PRIVACY / TERMS
+CCPA_PRIVACY_TERMS_BUTTON|PRIVACY & COOKIE POLICY
+CCPA_USER_AGREEMENT_BUTTON|USER AGREEMENT
 CCPA_TITLE|PRIVACY / TERMS
 CHALLENGE_COMINGSOON_PREVIEW|CHALLENGE OPENS IN
 CHANCE_DROP|CHANCE
@@ -5155,6 +5160,12 @@ INBOX_EVENT_202205_2XDROP_MOTHERSDAY_SUBJECT|Mother's Day - 2x Token Drop
 INBOX_EVENT_202205_2XDROP_MOTHERSDAY_BODY|Summoner,<br><br>Join the <color=#54C5FF>Mother's Day</color> celebration with <color=#54C5FF>2x Token Drops</color> for select character nodes in Adventure Campaigns for a limited time!<br><br>Look for the BONUS banner on nodes for <color=#54C5FF>Elastigirl</color>, <color=#54C5FF>Demona</color>, <color=#54C5FF>Mrs. Potts</color>, and <color=#54C5FF>Sergeant Calhoun</color>.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202204_2XDROP_SNOW_WHITE_SUBJECT|Snow White and the Seven Dwarfs - 2x Token Drop
 INBOX_EVENT_202204_2XDROP_SNOW_WHITE_BODY|Summoner,<br><br>Don't miss out on <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Sleepy</color>, <color=#54C5FF>Happy</color>, <color=#54C5FF>Grumpy</color>, <color=#54C5FF>Dopey</color>, <color=#54C5FF>Sneezy</color>, <color=#54C5FF>Bashful</color>, and <color=#54C5FF>Doc</color> in the <color=#54C5FF>Snow White and the Seven Dwarfs Side Campaign</color> for a limited time!<br><br>Look for the BONUS banner on the <color=#54C5FF>Snow White and the Seven Dwarfs</color> Side Campaign.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202205_CHIPNDALE_SUBJECT|Chip 'n Dale: Rescue Rangers Release - Free Gift!
+INBOX_EVENT_202205_CHIPNDALE_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Chip 'n Dale: Rescue Rangers Release</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202205_GOOFY_SUBJECT|Goofy's 90th Birthday - Free Gift!
+INBOX_EVENT_202205_GOOFY_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Goofy's 90th Birthday</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202205_2XDROP_GOOFY_SUBJECT|Goofy's 90th Birthday - Goofy 2x Token Drop
+INBOX_EVENT_202205_2XDROP_GOOFY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Goofy's 90th Birthday</color> with <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Goofy</color> in Campaigns for a limited time!<br><br>Look for the BONUS banner on <color=#54C5FF>Grand Campaign Node 4-K</color> and <color=#54C5FF>Villains Campaign Node 3-F</color>.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSOON_SUBJECT|Coming Soon - Valentine Flash Gifts
 INBOX_EVENT_202102_VALENTINEFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Valentine Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>February 14 - 18</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSTART_SUBJECT|Valentine Flash Gift
@@ -5381,6 +5392,7 @@ BONUS_LOOT_CLUBEXPEDITION_MOTHERSDAY_NAME|CLUB EXPEDITION BONUS EVENT - CHARACTE
 BONUS_LOOT_CLUBEXPEDITION_MOTHERSDAY_DESC|Earn <color=#54C5FF>GRAMMA TALA TOKENS</color> from Boss Chests and <color=#54C5FF>MOTHER GOTHEL TOKENS</color> and <color=#54C5FF>ELASTIGIRL TOKENS</color> from Treasure chambers in Club Expedition for a limited time!
 BONUS_LOOT_2XDROP_202205_MOTHERSDAY|MOTHER'S DAY 2X TOKEN DROP
 BONUS_LOOT_2XDROP_202204_SNOW_WHITE_DWARFS|SNOW WHITE AND THE SEVEN DWARFS 2X TOKEN DROP
+BONUS_LOOT_2XDROP_202205_GOOFY|GOOFY 2X TOKEN DROP
 EVENT_ABILITY_MAT_NAME|WINTER WONDER EVENT
 EVENT_ABILITY_MAT_PREVIEW|Open Dec. 24 to Dec. 30
 EVENT_ALADDIN_A_BATTLE_INTRO_SUBTITLE|CAVE ENTRANCE
@@ -6899,7 +6911,13 @@ HORNED_KING_ABILSPECIALB_DESC_BASE|Summons <color=#FEF8E4>{0:N0}</color> Cauldro
 HORNED_KING_ABILSPECIALB_NAME|Rise Cauldron Born!
 HORNED_KING_UNIT_NAME|THE HORNED KING
 HUNNYPOT_ABILPREVIEWUPGRADE_STUN_ADDEFFECT|Oh, bother.
-HUNNY_POT_SPELL_DESC_BASE|Oh, bother.
+HUNNYPOT_ABILPREVIEWUPGRADE_RESTOREHEALTH|If it is a <color=#FEF8E4>'Winnie the Pooh'</color> teammate's turn, restore <color=#FEF8E4>{0:P0}</color> of their max Health.
+HUNNYPOT_ABILPREVIEWUPGRADE_INFLICTSLOW|+<color=#FEF8E4>{0:P0}</color> chance to inflict <color=#FEF8E4>Slow</color>.
+HUNNYPOT_ABILPREVIEWUPGRADE_SPEEDREDUCTION|+<color=#FEF8E4>{0:P0}</color> Speed Meter reduction.
+HUNNYPOT_ABILPREVIEWUPGRADE_INFLICTSTUN|On Defense, opponents inflicted with <color=#FEF8E4>Slow</color> are also Stunned for <color=#FEF8E4>{0:N0}</color> turn.
+HUNNY_POT_SPELL_DESC_BASE|Deal <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{9:N0}</color> per Player Level) damage to target opponent. Inflict <color=#FEF8E4>{1:N0}</color> <color=#EB5873><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color>. <color=#FEF8E4>{2:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{3:N0}</color> turn. If opponent is already inflicted with <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color>, reduce their Speed Meter by <color=#FEF8E4>{4:P0}</color> instead.
+HUNNY_POT_SPELL_DESC_BASE_02|Deal <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{9:N0}</color> per Player Level) damage to target opponent. Inflict <color=#FEF8E4>{1:N0}</color> <color=#EB5873><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color>. <color=#FEF8E4>{2:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{3:N0}</color> turn. If opponent is already inflicted with <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color>, reduce their Speed Meter by <color=#FEF8E4>{4:P0}</color> instead.<br><br>If it is a <color=#FEF8E4>'Winnie the Pooh'</color> teammate's turn, restore <color=#5DFF89>{6:P0}</color> of their max Health.
+HUNNY_POT_SPELL_DESC_BASE_03|Deal <color=#FFC400>{0:N0}</color> (<color=#FFC400>+{9:N0}</color> per Player Level) damage to target opponent. Inflict <color=#FEF8E4>{1:N0}</color> <color=#EB5873><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color>. <color=#FEF8E4>{2:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{3:N0}</color> turn. If opponent is already inflicted with <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color>, reduce their Speed Meter by <color=#FEF8E4>{4:P0}</color> instead.<br><br>If it is a <color=#FEF8E4>'Winnie the Pooh'</color> teammate's turn, restore <color=#5DFF89>{6:P0}</color> of their max Health.<br><br>'On Defense', if opponents have <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color>, inflict <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{5:N0}</color> turn.
 HUNNY_POT_SPELL_DESC_U01|Oh, bother.
 HUNNY_POT_SPELL_NAME|HUNNY POT
 HUN_SCOUT_UNIT_NAME|Hun Scout
@@ -9483,6 +9501,9 @@ OUTFIT_MERIDA_DSA_UNIT_NAME|SORCERER'S ARENA MERIDA
 OUTFIT_QUASIMODO_FOOL_NAME|KING OF FOOLS QUASIMODO OUTFIT TOKENS
 OUTFIT_QUASIMODO_FOOL_DESC|Collect 100 to unlock the 'King of Fools' outfit for Quasimodo.
 OUTFIT_QUASIMODO_FOOL_UNIT_NAME|KING OF FOOLS QUASIMODO
+OUTFIT_GOOFY_DISCO_NAME|A GOOFY MOVIE: DISCO GOOFY OUTFIT
+OUTFIT_GOOFY_DISCO_DESC|Collect 100 to unlock the 'A Goofy Movie : Disco Goofy outfit' for Goofy.
+OUTFIT_GOOFY_DISCO_UNIT_NAME|A GOOFY MOVIE: DISCO GOOFY
 PACHA_UNIT_NAME|PACHA
 PACHA_ABILBASIC_NAME|Pushed Too Far
 PACHA_ABILSPECIALA_NAME|Considerable Compassion
@@ -12537,6 +12558,8 @@ PIN_FALI_NAME|FA LI TALISMAN
 PIN_FALI_DESC|I should have prayed to the ancestors for luck.
 PIN_QUEENARIANNA_NAME|QUEEN ARIANNA TALISMAN
 PIN_QUEENARIANNA_DESC|Each year on her birthday the king and queen release thousands of lanterns into the sky, in hope that one day their lost princess would return.
+PIN_GOOFY_NAME|Goofy Talisman
+PIN_GOOFY_DESC|Gawrsh!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -16609,6 +16632,7 @@ STORE_ITEM_SPECIAL_MICKEYWINTERLOUTFIT_NAME|WINTER MICKEY MOUSE OUTFIT
 STORE_ITEM_SPECIAL_MINNIEWINTEROUTFIT_NAME|WINTER MINNIE MOUSE OUTFIT
 STORE_ITEM_SPECIAL_ELSAOUTFIT_NAME|SNOW QUEEN ELSA OUTFIT
 STORE_ITEM_SPECIAL_QUASIMODOFOOLOUTFIT_NAME|KING OF FOOLS QUASIMODO OUTFIT
+STORE_ITEM_SPECIAL_GOOFYDISCOOUTFIT_NAME|A GOOFY MOVIE: DISCO GOOFY OUTFIT
 STORE_ITEM_SPECIAL_FF_G2F_NAME|BUY YOUR FRIEND A GIFT
 STORE_ITEM_SPECIAL_FF_G2F_DESC|PURCHASE THIS GIFT FOR YOUR FRIEND! SELECT A FRIEND FROM YOUR FRIENDS LIST AND THEY WILL RECEIVE THIS GIFT IN THEIR INBOX.
 STORE_ITEM_SPECIAL_FF_GEM_NAME|GEM FLASH SALE
@@ -17724,7 +17748,7 @@ TROPHY_ONWARD_DESC|Awarded for completing the Onward Event.<BR><BR>Collect Event
 TROPHY_ONWARD_NAME|ONWARD TROPHY
 TROPHY_TS3_DESC|Awarded for completing the Sunnyside Playtime Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_TS3_NAME|SUNNYSIDE PLAYTIME TROPHY
-TROPHY_INCREDIBLES_DESC|Awarded for completing the Supers Collide Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_INCREDIBLES_DESC|Awarded for promoting Jack-Jack to 7-stars. Previously awarded for completing the Supers Collide Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_INCREDIBLES_NAME|SUPERS COLLIDE TROPHY
 TROPHY_KING_TRITON_DESC|Awarded for completing the King Triton Event Tower.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_KING_TRITON_NAME|KING TRITON TROPHY
@@ -17742,7 +17766,7 @@ TROPHY_ALADDIN_DESC|Awarded for completing the Cave of Wonders Event.<BR><BR>Col
 TROPHY_ALADDIN_NAME|CAVE OF WONDERS TROPHY
 TROPHY_MOANA_DESC|Awarded for completing the Coconut Crackdown Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_MOANA_NAME|COCONUT CRACKDOWN TROPHY
-TROPHY_VILLAINTINES_DESC|Awarded for completing the Queen's Clash Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+TROPHY_VILLAINTINES_DESC|Awarded for promoting Emperor Zurg to 7-stars. Previously earned for completing the Queen's Clash Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
 TROPHY_VILLAINTINES_NAME|QUEEN'S CLASH TROPHY
 TROPHY_FROZEN_NAME|INTO THE UNKNOWN TROPHY
 TROPHY_FROZEN_DESC|Awarded for completing the Into the Unknown Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
@@ -17812,6 +17836,7 @@ UNIT_CATEGORY_EVENTBONUS_CAVERNCRAWL_APRIL2019_NAME|<color=#FFC643>WILD HEARTS E
 UNIT_CATEGORY_FANTASIA|FANTASIA
 UNIT_CATEGORY_FINDING_NEMO|FINDING NEMO
 UNIT_CATEGORY_FROZEN|FROZEN
+UNIT_CATEGORY_FOREST|FOREST
 UNIT_CATEGORY_GARGOYLES|GARGOYLES
 UNIT_CATEGORY_GREENMAGIC_NAME|GREEN ARCANA
 UNIT_CATEGORY_HEALER|HEALER
@@ -18646,8 +18671,8 @@ EMAIL_CONNECT_VERIFY_PIN_DESC|NEW EMAIL VERIFICATION HAS BEEN SENT TO <color=#8a
 EMAIL_CONNECT_EXPIRED_PIN_ERROR|PIN IS EXPIRED
 EMAIL_CONNECT_INCORRECT_PIN_ERROR|PIN IS INCORRECT
 EMAIL_CONNECT_INVALID_ERROR|AN UNKNOWN ERROR OCCURRED
-EMAIL_CONNECT_OPT_IN_DISCLAIMER|I AGREE TO ALLOW GLU MOBILE INC. AND ITS BUSINESS PARTNERS TO USE MY EMAIL ADDRESS TO PROVIDE ME PERSONALIZED NEWS AND PROMOTIONS ABOUT GLU'S AND ITS AFFILIATES' GAMES AND SERVICES VIA EMAIL AND OTHER CHANNELS
-EMAIL_CONNECT_SEND_EMAIL_PRIVACY_POLICY_DESC|BY CLICKING SUBMIT, I AGREE TO THE <color="yellow"><link="https://www.glu.com/terms/">TERMS OF USE</link></color> AND ACKNOWLEDGE THE TERMS OF THE <color="yellow"><link="https://www.glu.com/privacy/">PRIVACY POLICY</link></color>
+EMAIL_CONNECT_OPT_IN_DISCLAIMER|Please email me about Glu and other EA products, news, events and promotions consistent with the EA Privacy and Cookie Policy (privacy.ea.com).  I can withdraw my consent at any time using the unsubscribe link provided in the email messages.
+EMAIL_CONNECT_SEND_EMAIL_PRIVACY_POLICY_DESC|BY CLICKING SUBMIT, I AGREE TO THE <color="yellow"><link="https://terms.ea.com/">TERMS OF USE</link></color> AND ACKNOWLEDGE THE TERMS OF THE <color="yellow"><link="https://privacy.ea.com/">PRIVACY POLICY</link></color>
 EMAIL_CONNECT_ENTER_EMAIL_PLACEHOLDER|ENTER EMAIL...
 EMAIL_CONNECT_ERROR_HEADER|VERIFICATION ERROR
 EMAIL_CONNECT_OK|OK
@@ -21293,6 +21318,10 @@ LIFETIME_ACHIEVEMENT_MALEFICENT_NAME|THE MISTRESS OF ALL EVIL
 LIFETIME_ACHIEVEMENT_MALEFICENT_DESC|Unlock Maleficent
 TROPHY_MALEFICENT_NAME|THE MISTRESS OF ALL EVIL TROPHY
 TROPHY_MALEFICENT_DESC|Awarded for Unlocking Maleficent in the Mistress of All Evil Event.<BR><BR>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+LIFETIME_ACHIEVEMENT_7STAR_EMPERORZURG_DESC|Promote Emperor Zurg to 7-stars
+LIFETIME_ACHIEVEMENT_7STAR_EMPERORZURG_NAME|7-STAR EMPEROR ZURG
+LIFETIME_ACHIEVEMENT_7STAR_JACKJACK_DESC|Promote Jack-Jack to 7-stars
+LIFETIME_ACHIEVEMENT_7STAR_JACKJACK_NAME|7-STAR JACK-JACK
 STORE_ITEM_MALEFICENT_ABILITY_MATS_NAME|ABILITY RUNES BUNDLE
 STORE_ITEM_MALEFICENT_ABILITY_MATS_DESC|UPGRADE THE ABILITIES OF YOUR KINGDOM CHARACTERS TO POWER THROUGH THE MISTRESS OF ALL EVIL EVENT.
 STORE_ITEM_MALEFICENT_ABILITY_MATS_DELTA_NAME|DELTA ABILITY RUNES BUNDLE
@@ -22106,6 +22135,12 @@ EVENT_202201_EMPERORS_NEW_GROOVE_C_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• L
 EVENT_202201_EMPERORS_NEW_GROOVE_C_L6_NAME|Kuzco VII
 EVENT_202201_EMPERORS_NEW_GROOVE_C_L6_DESC|A
 EVENT_202201_EMPERORS_NEW_GROOVE_C_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 80+<br>• Gear <color=#8ab65d>Tier 8</color>
+EVENT_202201_EMPERORS_NEW_GROOVE_D_NAME|Prestige: Llama Drama
+EVENT_202201_EMPERORS_NEW_GROOVE_D_L0_NAME|Prestige: Llama Drama I
+EVENT_202201_EMPERORS_NEW_GROOVE_D_L1_NAME|Prestige: Llama Drama II
+EVENT_202201_EMPERORS_NEW_GROOVE_D_L2_NAME|Prestige: Llama Drama III
+EVENT_202201_EMPERORS_NEW_GROOVE_D_L3_NAME|Prestige: Llama Drama IV
+EVENT_202201_EMPERORS_NEW_GROOVE_D_L4_NAME|Prestige: Llama Drama V
 INBOX_EVENT_2022_EMPERORS_NEW_GROOVE_PREVIEW_SUBJECT|Coming Soon: Llama Drama Event!
 INBOX_EVENT_2022_EMPERORS_NEW_GROOVE_PREVIEW_BODY|Summoner,<br><br>The <color=#54C5FF>Llama Drama</color> Event is coming soon!<br><br>Battle with Kronk and Yzma to earn <color=#54C5FF>Llama Tickets!</color><color=#54C5FF> Llama Tickets</color> can be used to battle in the Llama Drama Event to earn exclusive <color=#54C5FF>Pacha</color> and <color=#54C5FF>Kuzco</color> Tokens!<br><br>Good luck, and see you in the Arena!
 INBOX_EVENT_2022_EMPERORS_NEW_GROOVE_ACTIVE_SUBJECT|The Llama Drama Event is LIVE!
@@ -22431,6 +22466,35 @@ LITTLEBIRD_ABILSPECIALA_NAME|SMILE AND A SONG
 LITTLEBIRD_BASIC_DESC_01|Deal damage to target opponent. Has a chance to inflict <color=#FEF8E4><link=BATTLE_EFFECT_BLIND>[BLIND]</link></color> on each Hit.<br>Has a chance to assist <color=#FEF8E4>'Princess'</color> teammates basic attacks, guaranteed for Snow White.<br>Has a chance to counterattack when <color=#FEF8E4>'Princess'</color> teammates are attacked, guaranteed for Snow White.
 LITTLEBIRD_PASSIVE_DESC_01|On Turn Start, has a chance to grant <color=#FEF8E4><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> to this unit and some teammates, preferring <color=#FEF8E4>'Princess'</color> teammates.
 DOC_LEADER_NAME|THE MINERS
+EEYORE_UNIT_NAME|EEYORE
+UNIT_PROMO_MAT_EEYORE|EEYORE TOKENS
+EEYORE_ABILBASIC_NAME|I'LL STAY HERE AND BE MISERABLE
+EEYORE_ABILSPECIALA_NAME|A BLUSTERY DAY
+EEYORE_ABILPASSIVEA_NAME|SORT OF ATTACHED TO IT
+EEYORE_ABILPASSIVEB_NAME|THANKS FOR NOTICING ME
+EEYORE_BASIC_ABILPREVIEWUPGRADE_01|Reduce the target's Speed Meter by <color=#FEF8E4>{0:P0}</color>
+EEYORE_BASIC_ABILPREVIEWUPGRADE_02|On Defense, this character gains <color=#FEF8E4>Defense Up</color> for <color=#FEF8E4>{0:N0}</color> turn and opponent gains <color=#FEF8E4>Offense Down</color> for <color=#FEF8E4>{1:N0}</color> turn.
+EEYORE_BASIC_ABILPREVIEWUPGRADE_03|+<color=#FEF8E4>{0:P0}</color> Speed Meter granted and reduced.
+EEYORE_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to inflict <color=#FEF8E4>Offense Down</color> for <color=#FEF8E4>{1:N0}</color> turn on damaged opponents.
+ABILPREVIEWUPGRADE_EEYORESPECIALA_SPEED_PCT_DEC|On Defense, reduce <color=#FEF8E4>{0:P0}</color> Speed Meter on affected opponents.
+EEYORE_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>Offense Down</color> guaranteed.
+ABILPREVIEWUPGRADE_EEYOREPASSIVEA_DAMAGE_PCT_DEC|<color=#FEF8E4>+{0:P0}</color> damage reduced per Harmful effect on opponent.
+ABILPREVIEWUPGRADE_EEYOREPASSIVEA_DEFENSE_PCT_INC|<color=#FEF8E4>+{0:P0}</color> of Eeyore's Defense granted as bonus Defense to teammate.
+EEYORE_PASSIVEA_ABILPREVIEWUPGRADE_01|On Defense, this character has a <color=#FEF8E4>{0:P0}</color> chance to not lose <color=#FEF8E4>'Eeyore's Tail'</color> when dealt damage.
+ABILPREVIEWUPGRADE_EEYOREPASSIVEA_CHANCE_PCT_INC|<color=#FEF8E4>+{0:P0}</color> chance to not lose <color=#FEF8E4>'Eeyore's Tail'</color> when dealt damage.
+ABILPREVIEWUPGRADE_EEYOREPASSIVEB_CHANCE_PCT_INC|+<color=#FEF8E4>{0:P0}</color> chance to activate when damaged.
+EEYORE_PASSIVEB_ABILPREVIEWUPGRADE_01|When this ability inflicts a Harmful effect and the opponent is inflicted with <color=#FEF8E4>Offense Down</color>, <color=#FEF8E4>Slow</color>, and <color=#FEF8E4>Dampened</color>, inflict <color=#FEF8E4>Stun</color> on the opponent for <color=#FEF8E4>{0:N0}</color> turn.
+EEYORE_BASIC_DESC_01|Inflict <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color> for <color=#FEF8E4>{0:N0}</color> turn on this character. Grant <color=#FEF8E4>{1:P0}</color> Speed Meter to <color=#FEF8E4>'Winnie the Pooh'</color> teammates, and the character Piglet is attached to.<br><br>Deal up to <color=#FFC400>{2:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color> for <color=#FEF8E4>{0:N0}</color> turn.
+EEYORE_BASIC_DESC_02|Inflict <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color> for <color=#FEF8E4>{0:N0}</color> turn on this character. Grant <color=#FEF8E4>{1:P0}</color> Speed Meter to <color=#FEF8E4>'Winnie the Pooh'</color> teammates, and the character Piglet is attached to.<br><br>Deal up to <color=#FFC400>{2:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color> for <color=#FEF8E4>{0:N0}</color> turn. Reduce the target's Speed Meter by <color=#FEF8E4>{3:P0}</color>.
+EEYORE_BASIC_DESC_03|Inflict <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color> for <color=#FEF8E4>{0:N0}</color> turn on this character. Grant <color=#FEF8E4>{1:P0}</color> Speed Meter to <color=#FEF8E4>'Winnie the Pooh'</color> teammates, and the character Piglet is attached to. On Defense, this character gains <color=#F4BE43><link=BATTLE_EFFECT_OFFENSE_UP>[OFFENSE UP]</link></color> for <color=#FEF8E4>{4:N0}</color> turn.<br><br>Deal up to <color=#FFC400>{2:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color> for <color=#FEF8E4>{0:N0}</color> turn. Reduce the target's Speed Meter by <color=#FEF8E4>{3:P0}</color>. On Defense, inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{5:N0}</color> turn.
+EEYORE_SPECIALA_DESC_01|Deal <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target.<br><br>If <color=#FEF8E4>'Winnie the Pooh'</color> is a teammate, instead deal <color=#FFC400>{2:N0}</color> damage to all opponents. Inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target.
+EEYORE_SPECIALA_DESC_02|Deal <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target. <color=#FEF8E4>{3:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on adjacent opponents.<br><br>If <color=#FEF8E4>'Winnie the Pooh'</color> is a teammate, instead deal <color=#FFC400>{2:N0}</color> damage to all opponents. Inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target. <color=#FEF8E4>{3:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on each opponent.
+EEYORE_SPECIALA_DESC_03|Deal <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target. <color=#FEF8E4>{3:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on adjacent opponents.<br><br>If <color=#FEF8E4>'Winnie the Pooh'</color> is a teammate, instead deal <color=#FFC400>{2:N0}</color> damage to all opponents. Inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target. <color=#FEF8E4>{3:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on each opponent. On Defense, reduce all opponent's Speed Meter by <color=#FEF8E4>{4:P0}</color>.
+EEYORE_SPECIALA_DESC_04|Deal <color=#FFC400>{0:N0}</color> damage to target and adjacent opponents. Inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target and adjacent opponents. On Defense, reduce target and adjacent opponent's Speed Meter by <color=#FEF8E4>{4:P0}</color>.<br><br> If <color=#FEF8E4>'Winnie the Pooh'</color> is a teammate, instead deal <color=#FFC400>{2:N0}</color> damage to all opponents. Inflict <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color> on all opponents. On Defense, reduce all opponent's Speed Meter by <color=#FEF8E4>{4:P0}</color>.
+EEYORE_PASSIVEA_DESC_01|On Battle Start, or if this effect is Cleansed or Purged, cleanse all Harmful effects from this character and gain <color=#F4BE43><link=BATTLE_EFFECT_EEYORE_TAIL_HELPFUL>[EEYORE'S TAIL]</link></color>. When a character with <color=#F4BE43><link=BATTLE_EFFECT_EEYORE_TAIL_HELPFUL>[EEYORE'S TAIL]</link></color> <color=#EB5873><link=BATTLE_EFFECT_EEYORE_TAIL_HARMFUL>[EEYORE'S TAIL]</link></color> takes damage, move it to the character dealing the damage.<br><br><color=#F4BE43><link=BATTLE_EFFECT_EEYORE_TAIL_HELPFUL>[EEYORE'S TAIL]</link></color> <color=#EB5873><link=BATTLE_EFFECT_EEYORE_TAIL_HARMFUL>[EEYORE'S TAIL]</link></color>: When a character gains this effect, they gain the following:<br><br>On teammate other than Eeyore: Gain <color=#FEF8E4>{0:P0}</color> of Eeyore's Defense as bonus Defense. Lasts until this effect is removed.<br><br>On Eeyore: Gain <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> for <color=#FEF8E4>{1:N0}</color> turn. On turn start, gain <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> for <color=#FEF8E4>{1:N0}</color> turn. When this effect is removed, lose <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color>.<br><br>On opponent: Deal <color=#FEF8E4>{2:P0}</color> less damage per Harmful effect on this character (up to a max of <color=#FEF8E4>{3:P0}</color> reduced damage.) Lasts until this effect is removed.
+EEYORE_PASSIVEA_DESC_02|On Battle Start, or if this effect is Cleansed or Purged, cleanse all Harmful effects from this character and gain <color=#F4BE43><link=BATTLE_EFFECT_EEYORE_TAIL_HELPFUL>[EEYORE'S TAIL]</link></color>. When a character with <color=#F4BE43><link=BATTLE_EFFECT_EEYORE_TAIL_HELPFUL>[EEYORE'S TAIL]</link></color> <color=#EB5873><link=BATTLE_EFFECT_EEYORE_TAIL_HARMFUL>[EEYORE'S TAIL]</link></color> takes damage, move it to the character dealing the damage. On Defense, this character has a <color=#FEF8E4>{4:P0}</color> chance to not lose <color=#F4BE43><link=BATTLE_EFFECT_EEYORE_TAIL_HELPFUL>[EEYORE'S TAIL]</link></color> when dealt damage.<br><br><color=#F4BE43><link=BATTLE_EFFECT_EEYORE_TAIL_HELPFUL>[EEYORE'S TAIL]</link></color> <color=#EB5873><link=BATTLE_EFFECT_EEYORE_TAIL_HARMFUL>[EEYORE'S TAIL]</link></color>: When a character gains this effect, they gain the following:<br><br>On teammate other than Eeyore: Gain <color=#FEF8E4>{0:P0}</color> of Eeyore's Defense as bonus Defense. Lasts until this effect is removed.<br><br>On Eeyore: Gain <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> for <color=#FEF8E4>{1:N0}</color> turn. On turn start, gain <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> for <color=#FEF8E4>{1:N0}</color> turn. When this effect is removed, lose <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color>.<br><br>On opponent: Deal <color=#FEF8E4>{2:P0}</color> less damage per Harmful effect on this character (up to a max of <color=#FEF8E4>{3:P0}</color> reduced damage.) Lasts until this effect is removed.
+EEYORE_PASSIVEB_DESC_01|Once per turn when this character takes damage, <color=#FEF8E4>{0:P0}</color> chance to inflict <color=#FEF8E4>{1:N0}</color> of the following Harmful Effects for <color=#FEF8E4>{2:N0}</color> turn on the character dealing the damage, prioritizing effects they don't have: <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color>, <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color>, <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color>.
+EEYORE_PASSIVEB_DESC_02|Once per turn when this character takes damage, <color=#FEF8E4>{0:P0}</color> chance to inflict <color=#FEF8E4>{1:N0}</color> of the following Harmful Effects for <color=#FEF8E4>{2:N0}</color> turn on the character dealing the damage, prioritizing effects they don't have: <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color>, <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color>, <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color>.<br><br>When this ability inflicts a Harmful effect and the opponent is inflicted with <color=#EB5873><link=BATTLE_EFFECT_OFFENSE_DOWN>[OFFENSE DOWN]</link></color>, <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color>, and <color=#EB5873><link=BATTLE_EFFECT_DAMPEN>[DAMPENED]</link></color>, inflict <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color> on the opponent for <color=#FEF8E4>{3:N0}</color> turn. (Does not work if the opponent is already inflicted with <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color>).
 LCA_LTA_SC_202205_INBOX_PREVIEW_SUBJECT|Coming Soon: Summoner Showdown Leaderboard Contest
 LCA_LTA_SC_202205_INBOX_PREVIEW_BODY|Summoner,<BR><BR>The <color=#54C5FF>SUMMONER SHOWDOWN LEADERBOARD CONTEST</color> is starting soon! Get ready to face off with other Summoners in Showdown PvP events over the coming weeks to rank on this seasonal Leaderboard. Complete battles for points and earn Maleficent tokens, Delta Runes, Gold, and other exciting rewards!<br><br>The following Characters will be featured in battles this season:<br> <br>• Goliath <br>• Wall•E <br>• Mike Wazowski <br>• Raya <br>• Gadget <br>• Pegasus <br>• Jack Skellington <br>• Davy Jones <br>• Goofy <br>• Merlin <br>• Fred <br>• Maurice <br>• Randall Boggs <br>• Sally <br>• Chunk <br>• Darkwing Duck <br>• Syndrome <br>• Big Baby <br>• Captain Gantu <br>• Maximus <br>• Gizmoduck <br>• Megara <br>• Quasimodo <br>• The Manticore <br>• Madam Mim <br>• Hermes <br>• Anger <br>• Monterey Jack <br>• Maui <br>• Shank <br><br>The following Spells will be featured in battles this season: <br><br>• Infinity Sided Die <br>• Spirit Mufasa <br>• Trigger's Tower <br>• Fowl Play <br>• Fairy Slumber <br>• Bucket o' Soldiers <br>• Duke Kaboom <br>• Wild Imagination <br>• Mortal Potion <br>• Splash Mountain Soak <br>• Blue Fairy Magic
 LCA_LTA_SC_202205_INBOX_START_SUBJECT|Summoner Showdown Leaderboard Contest
@@ -22452,6 +22516,80 @@ STORE_ITEM_LTA_MEGARA_NAME|MEGARA SHOWDOWN PACK
 STORE_ITEM_LTA_MEGARA_DESC|PURCHASE THIS PACK TO RECEIVE MEGARA TOKENS!
 STORE_ITEM_LTA_MIKEWAZOWSKI_NAME|MIKE WAZOWSKI SHOWDOWN PACK
 STORE_ITEM_LTA_MIKEWAZOWSKI_DESC|PURCHASE THIS PACK TO RECEIVE MIKE WAZOWSKI TOKENS!
+TIGGER_UNIT_NAME|TIGGER
+UNIT_PROMO_MAT_TIGGER|TIGGER TOKENS
+TIGGER_ABILBASIC_NAME|HELLO, I'M TIGGER
+TIGGER_ABILSPECIALA_NAME|I WANNA SCARE MYSELF AND EVERYONE ELSE
+TIGGER_ABILSPECIALB_NAME|WHAT TIGGERS DO BEST
+TIGGER_ABILPASSIVEA_NAME|BOUNCY, POUNCY FUN
+TIGGER_BASIC_ABILPREVIEWUPGRADE_01|<color=#FFC400>{0:P0}</color> damage dealt.
+TIGGER_BASIC_ABILPREVIEWUPGRADE_02|On Defense, after this character performs <color=#FEF8E4>'I Wanna Scare Myself and Everyone Else'</color>, automatically perform this ability on the lowest Health opponent.
+TIGGER_SPECIALA_ABILPREVIEWUPGRADE_01|If the target has higher Speed than this character, inflict <color=#EB5873>Stun</color> for <color=#FEF8E4>{0:N0}</color> turn.
+TIGGER_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{1:P0} - {0:P0}</color> Speed Meter reduced.
+TIGGER_SPECIALA_ABILPREVIEWUPGRADE_03|On Defense, call <color=#FEF8E4>'Winnie the Pooh'</color> teammates to assist.
+TIGGER_SPECIALA_ABILPREVIEWUPGRADE_04|On Defense, grant <color=#FEF8E4>'Winnie the Pooh'</color> teammates Offense Up for <color=#FEF8E4>{0:N0}</color> turn before calling them to assist.
+TIGGER_SPECIALB_ABILPREVIEWUPGRADE_01|Increase the minimum number of targets by <color=#FEF8E4>{0:N0}</color> for each <color=#FEF8E4>'Winnie the Pooh'</color> teammate. Increase the maximum number of targets by <color=#FEF8E4>{0:N0}</color> if <color=#FEF8E4>Piglet</color> is attached to a teammate.
+TIGGER_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FFC400>+{0:P0}</color> damage dealt.
+TIGGER_SPECIALB_ABILPREVIEWUPGRADE_03|On Defense, when this character takes damage, <color=#FEF8E4>{0:P0}</color> chance to gain <color=#FEF8E4>{1:N0}</color> Magic to this ability.
+TIGGER_SPECIALB_ABILPREVIEWUPGRADE_04|+1 Magic gained.
+TIGGER_PASSIVEA_ABILPREVIEWUPGRADE_01|On max <color=#79C7CF>Charged</color>, gain <color=#FEF8E4>{0:N0}</color> <color=#F4BE43>Evasion</color>.
+TIGGER_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> <color=#F4BE43>Evasion</color> per <color=#79C7CF>Charged</color>.
+TIGGER_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> <color=#F4BE43>Speed</color> per <color=#79C7CF>Charged</color>.
+TIGGER_PASSIVEA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{8:N0}</color> stack of <color=#F4BE43>Evasion</color> on max <color=#79C7CF>Charged</color>.
+TIGGER_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> plus bonus <color=#FFC400>damage</color> based on how much more speed this character has than the target (up to a max of <color=#FEF8E4>{2:P0}</color> difference).<br>If this character has <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, do the following:<br>If this move defeats an opponent, automatically perform it again on the lowest Health opponent.
+TIGGER_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> plus bonus <color=#FFC400>damage</color> based on how much more speed this character has than the target (up to a max of <color=#FEF8E4>{2:P0}</color> difference).<br>If this character has <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, do the following:<br>If this move defeats an opponent, automatically perform it again on the lowest Health opponent.<br><br>On Defense, after this character performs <color=#FEF8E4>'I Wanna Scare Myself and Everyone Else'</color>, automatically perform this ability on the lowest Health opponent.
+TIGGER_SPECIALA_DESC_01|Inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{0:N0}</color> turns on target opponent. Steal <color=#FEF8E4>{3:P0}-{2:P0}</color> Speed Meter + up to an additional <color=#FEF8E4>{12:P0}</color> Speed Meter based on how much faster this character is than the target. Inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{4:N0}</color> turn on this character.<br><br>On Defense, prioritize casting this on the highest Speed opponent.
+TIGGER_SPECIALA_DESC_02|Inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{0:N0}</color> turns on target opponent. Steal <color=#FEF8E4>{3:P0}-{2:P0}</color> Speed Meter + up to an additional <color=#FEF8E4>{12:P0}</color> Speed Meter based on how much faster this character is than the target.<br>If the target has higher Speed than this character, inflict <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{7:N0}</color> turn.<br>Inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{4:N0}</color> turn on this character. Gain Speed Meter equal to the amount reduced.<br>On Defense, prioritize casting this on the highest Speed opponent.
+TIGGER_SPECIALA_DESC_03|Inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{0:N0}</color> turns on target opponent. Steal <color=#FEF8E4>{3:P0}-{2:P0}</color> Speed Meter + up to an additional <color=#FEF8E4>{12:P0}</color> Speed Meter based on how much faster this character is than the target.<br>If the target has higher Speed than this character, inflict <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{7:N0}</color> turn.<br>Inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{4:N0}</color> turn on this character. Gain Speed Meter equal to the amount reduced.<br><br>On Defense, do the following:<br>Prioritize casting this on the highest Speed opponent.<br>Call <color=#FEF8E4>'Winnie the Pooh'</color> teammates to assist.
+TIGGER_SPECIALA_DESC_04|Inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{0:N0}</color> turns on target opponent. Steal <color=#FEF8E4>{3:P0}-{2:P0}</color> Speed Meter + up to an additional <color=#FEF8E4>{12:P0}</color> Speed Meter based on how much faster this character is than the target.<br>If the target has higher Speed than this character, inflict <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{7:N0}</color> turn. Inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{4:N0}</color> turn on this character. Gain Speed Meter equal to the amount reduced.<br><br>On Defense, do the following:<br>Prioritize casting this on the highest Speed opponent.<br>Grant <color=#FEF8E4>'Winnie the Pooh'</color> teammates Offense Up for <color=#FEF8E4>{6:N0}</color> turn.<br>Call <color=#FEF8E4>'Winnie the Pooh'</color> teammates to assist.
+TIGGER_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FFC400>{1:P0}</color> bonus damage to opponents inflicted with a Harmful Effect.<br><br>Chain to <color=#FEF8E4>{2:N0} - {3:N0}</color> targets, and can chain to the same target multiple times.
+TIGGER_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FFC400>{1:P0}</color> bonus damage to opponents inflicted with a Harmful Effect.<br><br>Chain to <color=#FEF8E4>{2:N0} - {3:N0}</color> targets, and can chain to the same target multiple times.<br>Increase the minimum number of targets by <color=#FEF8E4>{4:N0}</color> for each <color=#FEF8E4>'Winnie the Pooh'</color> teammate. Increase the maximum number of targets by <color=#FEF8E4>{5:N0}</color> if <color=#FEF8E4>Piglet</color> is attached to a teammate.
+TIGGER_SPECIALB_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FFC400>{1:P0}</color> bonus damage to opponents inflicted with a Harmful Effect.<br><br>Chain to <color=#FEF8E4>{2:N0} - {3:N0}</color> targets, and can chain to the same target multiple times.<br>Increase the minimum number of targets by <color=#FEF8E4>{4:N0}</color> for each <color=#FEF8E4>'Winnie the Pooh'</color> teammate. Increase the maximum number of targets by <color=#FEF8E4>{5:N0}</color> if <color=#FEF8E4>Piglet</color> is attached to a teammate.<br><br>On Defense, when this character takes damage, <color=#FEF8E4>{6:P0}</color> chance to gain <color=#FEF8E4>{7:N0}</color> Magic to this ability.
+TIGGER_PASSIVEA_DESC_01|Once per turn, if an opponent uses an ability that damages a teammate and doesn't damage this character, gain <color=#FEF8E4>{0:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> (up to a max of <color=#FEF8E4>{1:N0}</color>).<br>Gain <color=#FEF8E4>4%</color> <color=#F4BE43>Speed</color> and <color=#FEF8E4>4%</color> <color=#F4BE43><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color> for every <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on this character.<br><br>When this character is inflicted with a Harmful effect, <color=#FEF8E4>{5:P0}</color> chance to gain <color=#FEF8E4>{6:N0}</color> <color=#F4BE43>Evasion</color> (up to a max of <color=#FEF8E4>{7:N0}</color>).
+TIGGER_PASSIVEA_DESC_02|Once per turn, if an opponent uses an ability that damages a teammate and doesn't damage this character, gain <color=#FEF8E4>{0:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> (up to a max of <color=#FEF8E4>{1:N0}</color>).<br>Gain <color=#FEF8E4>4%</color> <color=#F4BE43>Speed</color> and <color=#FEF8E4>4%</color> <color=#F4BE43><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color> for every <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on this character.<br><br>When this character is inflicted with a Harmful effect, <color=#FEF8E4>{5:P0}</color> chance to gain <color=#FEF8E4>{6:N0}</color> <color=#F4BE43>Evasion</color> (up to a max of <color=#FEF8E4>{7:N0}</color>).<br>When this character first reaches <color=#FEF8E4>{1:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, gain <color=#FEF8E4>{8:N0}</color> stacks of <color=#F4BE43>Evasion</color>.
+TIGGER_PASSIVEA_DESC_03|Once per turn, if an opponent uses an ability that damages a teammate and doesn't damage this character, gain <color=#FEF8E4>{0:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> (up to a max of <color=#FEF8E4>{1:N0}</color>).<br>Gain <color=#FEF8E4>4%</color> <color=#F4BE43>Speed</color> and <color=#FEF8E4>7%</color> <color=#F4BE43><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color> for every <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on this character.<br><br>When this character is inflicted with a Harmful effect, <color=#FEF8E4>{5:P0}</color> chance to gain <color=#FEF8E4>{6:N0}</color> <color=#F4BE43>Evasion</color> (up to a max of <color=#FEF8E4>{7:N0}</color>).<br>When this character first reaches <color=#FEF8E4>{1:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, gain <color=#FEF8E4>{8:N0}</color> stacks of <color=#F4BE43>Evasion</color>.
+TIGGER_PASSIVEA_DESC_04|Once per turn, if an opponent uses an ability that damages a teammate and doesn't damage this character, gain <color=#FEF8E4>{0:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> (up to a max of <color=#FEF8E4>{1:N0}</color>).<br>Gain <color=#FEF8E4>7%</color> <color=#F4BE43>Speed</color> and <color=#FEF8E4>7%</color> <color=#F4BE43><link=BATTLE_EFFECT_EVADE>[EVASION]</link></color> for every <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> on this character.<br><br>When this character is inflicted with a Harmful effect, <color=#FEF8E4>{5:P0}</color> chance to gain <color=#FEF8E4>{6:N0}</color> <color=#F4BE43>Evasion</color> (up to a max of <color=#FEF8E4>{7:N0}</color>).<br>When this character first reaches <color=#FEF8E4>{1:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, gain <color=#FEF8E4>{8:N0}</color> stacks of <color=#F4BE43>Evasion</color>.
+WINNIE_THE_POOH_UNIT_NAME|WINNIE THE POOH
+UNIT_PROMO_MAT_WINNIE_THE_POOH|WINNIE THE POOH TOKENS
+WINNIE_THE_POOH_ABILBASIC_NAME|A LITTLE SOMETHING TO EAT
+WINNIE_THE_POOH_ABILSPECIALA_NAME|WHERE'S <color=#FEF8E4>Piglet</color>?
+WINNIE_THE_POOH_ABILSPECIALB_NAME|RUMBLY IN MY TUMBLY
+WINNIE_THE_POOH_ABILPASSIVEA_NAME|TUBBY LITTLE CUBBY
+WINNIE_THE_POOH_ABILLEADER_NAME|WONDERFUL WORLD OF MAKE BELIEVE
+WINNIE_THE_POOH_BASIC_ABILPREVIEWUPGRADE_01|Opponents inflicted with <color=#EB5873>Slow</color> are also inflicted with <color=#FEF8E4>{0:N0}</color> <color=#EB5873>Sweetened</color>.
+WINNIE_THE_POOH_BASIC_ABILPREVIEWUPGRADE_02|<color=#FFC400>+{0:P0}</color> damage dealt, <color=#FEF8E4>+{1:P0}</color> health restored.
+WINNIE_THE_POOH_BASIC_ABILPREVIEWUPGRADE_03|On Defense if you have the Spell <color=#FEF8E4>'Hunny Pot'</color>, automatically perform it on a random opponent ignoring its Spell Charge.
+WINNIE_THE_POOH_BASIC_ABILPREVIEWUPGRADE_04|+1 <color=#FEF8E4>'Hunny Pot'</color> automatically performed.
+WINNIE_THE_POOH_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>-10%</color> less Health to activate.
+WINNIE_THE_POOH_SPECIALA_ABILPREVIEWUPGRADE_02|Cleanse <color=#FEF8E4>{0:N0}</color> Harmful effect from attached character.
+WINNIE_THE_POOH_SPECIALA_ABILPREVIEWUPGRADE_03|Cleanse all Harmful effects.
+WINNIE_THE_POOH_SPECIALB_ABILPREVIEWUPGRADE_01|Gain <color=#FEF8E4>{0:P0}</color> of this character's Recovery as bonus shield.
+WINNIE_THE_POOH_SPECIALB_ABILPREVIEWUPGRADE_02|+<color=#FFC400>{1:P0}</color> damage dealt and +<color=#FEF8E4>{0:P0}</color> shield.
+WINNIE_THE_POOH_SPECIALB_ABILPREVIEWUPGRADE_03|On Defense, also inflict <color=#EB5873>Stun</color>.
+WINNIE_THE_POOH_SPECIALB_ABILPREVIEWUPGRADE_04|+<color=#FEF8E4>{0:N0}</color> <color=#EB5873>Stun</color> duration.
+WINNIE_THE_POOH_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> less Health to activate.
+WINNIE_THE_POOH_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> damage reduced.
+WINNIE_THE_POOH_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> damage reduced on Defense.
+WINNIE_THE_POOH_LEADER_ABILPREVIEWUPGRADE_01|When a teammate <color=#FEF8E4>Piglet</color> is attached to would be defeated, <color=#FEF8E4>{0:P0}</color> chance to instead restore Health to them and grant Invincibility until the end of the current turn.
+WINNIE_THE_POOH_LEADER_ABILPREVIEWUPGRADE_02|On Battle Start, <color=#FEF8E4>Tigger's</color> base Speed becomes <color=#FEF8E4>{0:N0}</color> higher than the fastest character on the battlefield. <color=#FEF8E4>Tigger</color> gains +<color=#FEF8E4>{1:P0}</color> Speed per <color=#FEF8E4>{2:N0}</color> Charged.
+WINNIE_THE_POOH_LEADER_ABILPREVIEWUPGRADE_03|The Helpful and Harmful effects caused by <color=#FEF8E4>Eeyore</color> have +<color=#FEF8E4>{0:N0}</color> duration.
+WINNIE_THE_POOH_LEADER_ABILPREVIEWUPGRADE_04|+<color=#FEF8E4>{0:P0}</color> <color=#FEF8E4>Piglet</color> activation chance.
+WINNIE_THE_POOH_LEADER_ABILPREVIEWUPGRADE_05|+<color=#FEF8E4>{0:P0}</color> <color=#FEF8E4>Tigger</color> <color=#F4BE43>Speed</color> per <color=#79C7CF>Charged</color>.
+WINNIE_THE_POOH_LEADER_ABILPREVIEWUPGRADE_06|+<color=#FEF8E4>{0:N0}</color> <color=#FEF8E4>Eeyore</color> effect duration.
+WINNIE_THE_POOH_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on target.<br><color=#FEF8E4>{2:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{1:N0}</color> turn on adjacent.Restore <color=#5DFF89>{3:N0}</color> health to this character.
+WINNIE_THE_POOH_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{1:N0}</color> turn and <color=#FEF8E4>{4:N0}</color> <color=#EB5873><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on target.<br><color=#FEF8E4>{2:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{1:N0}</color> turn and <color=#FEF8E4>{4:N0}</color> <color=#EB5873><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on adjacent.<br>Restore <color=#5DFF89>{3:N0}</color> health to this character.
+WINNIE_THE_POOH_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{1:N0}</color> turn and <color=#FEF8E4>{4:N0}</color> <color=#EB5873><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on target.<br><color=#FEF8E4>{2:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> for <color=#FEF8E4>{1:N0}</color> turn and <color=#FEF8E4>{4:N0}</color> <color=#EB5873><link=BATTLE_EFFECT_SWEETENED>[SWEETENED]</link></color> on adjacent.<br>Restore <color=#5DFF89>{3:N0}</color> health to this character.<br><br>On Defense if you have the Spell <color=#FEF8E4>'Hunny Pot'</color>, automatically perform it on a random opponent ignoring its Spell Charge.
+WINNIE_THE_POOH_SPECIALA_DESC_01|Attach <color=#FEF8E4>Piglet</color> to target teammate, replacing other attached characters. If <color=#FEF8E4>Piglet</color> is already attached to a teammate, this ability will display 'Ability Not Ready' and cannot be used.<br><br><color=#FEF8E4>Piglet</color>: When attached character loses <color=#FEF8E4>{0:P0}</color> of max Health or <color=#FEF8E4>{1:P0}</color> chance when inflicted with a Harmful effect, restore <color=#5DFF89>{2:N0}</color> health.<br>After <color=#FEF8E4>Piglet</color> restores Health to a teammate, or the teammate he is attached to is defeated, attach <color=#FEF8E4>Piglet</color> to another random teammate. If there is no other teammate, remove <color=#FEF8E4>Piglet</color> and grant attached character an extra turn.<br><br>If <color=#FEF8E4>Tigger</color> is a teammate, <color=#FEF8E4>{3:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{4:N0}</color> turn on him and grant him <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{5:N0}</color> turns. If he already has <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color>, grant him <color=#FEF8E4>{6:P0}</color> Speed Meter instead.
+WINNIE_THE_POOH_SPECIALA_DESC_02|Attach <color=#FEF8E4>Piglet</color> to target teammate, replacing other attached characters. If <color=#FEF8E4>Piglet</color> is already attached to a teammate, this ability will display 'Ability Not Ready' and cannot be used.<br><br><color=#FEF8E4>Piglet</color>: When attached character loses <color=#FEF8E4>{0:P0}</color> of max Health or <color=#FEF8E4>{1:P0}</color> chance when inflicted with a Harmful effect, restore <color=#5DFF89>{2:N0}</color> health. Cleanse <color=#FEF8E4>{7:N0}</color> Harmful effect from attached character.<br>After <color=#FEF8E4>Piglet</color> restores Health to a teammate, or the teammate he is attached to is defeated, attach <color=#FEF8E4>Piglet</color> to another random teammate. If there is no other teammate, remove <color=#FEF8E4>Piglet</color> and grant attached character an extra turn.<br><br>If <color=#FEF8E4>Tigger</color> is a teammate, <color=#FEF8E4>{3:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{4:N0}</color> turn on him and grant him <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{5:N0}</color> turns. If he already has <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color>, grant him <color=#FEF8E4>{6:P0}</color> Speed Meter instead.
+WINNIE_THE_POOH_SPECIALA_DESC_03|Attach <color=#FEF8E4>Piglet</color> to target teammate, replacing other attached characters. If <color=#FEF8E4>Piglet</color> is already attached to a teammate, this ability will display 'Ability Not Ready' and cannot be used.<br><br><color=#FEF8E4>Piglet</color>: When attached character loses <color=#FEF8E4>{0:P0}</color> of max Health or <color=#FEF8E4>{1:P0}</color> chance when inflicted with a Harmful effect, restore <color=#5DFF89>{2:N0}</color> health. Cleanse all Harmful effects from attached character. After <color=#FEF8E4>Piglet</color> restores Health to a teammate, or the teammate he is attached to is defeated, attach <color=#FEF8E4>Piglet</color> to another random teammate. If there is no other teammate, remove <color=#FEF8E4>Piglet</color> and grant attached character an extra turn.<br>If <color=#FEF8E4>Tigger</color> is a teammate, <color=#FEF8E4>{3:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_FEAR>[FEAR]</link></color> for <color=#FEF8E4>{4:N0}</color> turn on him and grant him <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{5:N0}</color> turns. If he already has <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color>, grant him <color=#FEF8E4>{6:P0}</color> Speed Meter instead.
+WINNIE_THE_POOH_SPECIALB_DESC_01|This character gains A Balloon. Gain <color=#FEF8E4>{0:N0}</color> shield.<br>On turn start, if this character has A Balloon, deal up to <color=#FFC400>{1:N0}</color> damage to target and adjacent opponents. Deal <color=#FEF8E4>{2:P0}</color> of this character's Shield as bonus damage. Remove A Balloon.<br><br>A Balloon: When this character's shield is broken, remove this effect to gain <color=#79C7CF>'Tumbled Over'</color>. Gain <color=#FEF8E4>{3:N0}</color> Magic for 'Rumbly in my Tumbly'.
+WINNIE_THE_POOH_SPECIALB_DESC_02|This character gains A Balloon. Gain <color=#FEF8E4>{0:N0}</color> shield and gain <color=#FEF8E4>{4:P0}</color> of this character's Recovery as a bonus shield.<br>On turn start, if this character has A Balloon, deal up to <color=#FFC400>{1:N0}</color> damage to target and adjacent opponents. Deal <color=#FEF8E4>{2:P0}</color> of this character's Shield as bonus damage. Remove A Balloon.<br><br>A Balloon: When this character's shield is broken, remove this effect to gain <color=#79C7CF>'Tumbled Over'</color>. Gain <color=#FEF8E4>{3:N0}</color> Magic for 'Rumbly in my Tumbly'.
+WINNIE_THE_POOH_SPECIALB_DESC_03|This character gains A Balloon. Gain <color=#FEF8E4>{0:N0}</color> shield and gain <color=#FEF8E4>{4:P0}</color> of this character's Recovery as a bonus shield.<br>On turn start, if this character has A Balloon, deal up to <color=#FFC400>{1:N0}</color> damage to target and adjacent opponents. Deal <color=#FEF8E4>{2:P0}</color> of this character's Shield as bonus damage.<br><br>On Defense, inflict <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{5:N0}</color> turn. Remove A Balloon.<br><br>A Balloon: When this character's shield is broken, remove this effect to gain <color=#79C7CF>'Tumbled Over'</color>. Gain <color=#FEF8E4>{3:N0}</color> Magic for 'Rumbly in my Tumbly'.
+WINNIE_THE_POOH_PASSIVEA_DESC_01|When this character loses <color=#FEF8E4>{0:P0}</color> of his max Health at once, if he does not have A Balloon, he gains <color=#79C7CF>'Tumbled Over'</color>.<br><br>Tumbled Over: This character takes <color=#FFC400>{1:P0}</color> less damage.<br><br>On Defense, take an additional <color=#FFC400>{2:P0}</color> less damage.<br><br>On turn start, remove this effect. When this effect is removed, restore <color=#5DFF89>{3:N0}</color> to this character.
+WINNIE_THE_POOH_LEADER_DESC_01|On Defense, <color=#FEF8E4>'Winnie the Pooh'</color> teammates gain the following:<br><color=#5DFF89>{0:P0}</color> Health.
+WINNIE_THE_POOH_LEADER_DESC_02|On Defense, <color=#FEF8E4>'Winnie the Pooh'</color> teammates gain the following:<br><color=#5DFF89>{0:P0}</color> Health.<br><br>When a teammate <color=#FEF8E4>Piglet</color> is attached to would be defeated, <color=#FEF8E4>{1:P0}</color> chance to instead restore <color=#5DFF89>{2:N0}</color> Health to them and grant Invincibility until the end of the current turn.
+WINNIE_THE_POOH_LEADER_DESC_03|On Defense, <color=#FEF8E4>'Winnie the Pooh'</color> teammates gain the following:<br><color=#5DFF89>{0:P0}</color> Health.<br><br>When a teammate <color=#FEF8E4>Piglet</color> is attached to would be defeated, <color=#FEF8E4>{1:P0}</color> chance to instead restore <color=#5DFF89>{2:N0}</color> Health to them and grant Invincibility until the end of the current turn.<br><br>On Battle Start, <color=#FEF8E4>Tigger's</color> base Speed becomes <color=#FEF8E4>{3:N0}</color> higher than the fastest character on the battlefield. <color=#FEF8E4>Tigger</color> gains <color=#FEF8E4>+{4:P0}</color> Speed per <color=#FEF8E4>{5:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.
+WINNIE_THE_POOH_LEADER_DESC_04|On Defense, <color=#FEF8E4>'Winnie the Pooh'</color> teammates gain the following:<br><color=#5DFF89>{0:P0}</color> Health.<br><br>When a teammate <color=#FEF8E4>Piglet</color> is attached to would be defeated, <color=#FEF8E4>{1:P0}</color> chance to instead restore <color=#5DFF89>{2:N0}</color> Health to them and grant Invincibility until the end of the current turn.<br><br>On Battle Start, <color=#FEF8E4>Tigger's</color> base Speed becomes <color=#FEF8E4>{3:N0}</color> higher than the fastest character on the battlefield. <color=#FEF8E4>Tigger</color> gains <color=#FEF8E4>+{4:P0}</color> Speed per <color=#FEF8E4>{5:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><br>The Helpful and Harmful effects caused by <color=#FEF8E4>Eeyore</color> have <color=#FEF8E4>+{6:N0}</color> duration.
 LCA_SNOW_WHITE_DAMAGE_NAME|SNOW WHITE AND THE SEVEN DWARFS DAMAGE LEADERBOARD CONTEST
 LCA_SNOW_WHITE_DAMAGE_DESC|Earn Points by dealing the highest amount of damage with Snow White and the Seven Dwarfs in any game mode.
 LCA_SNOW_WHITE_DAMAGE_DETAILED_TITLE|Contest Rules
@@ -22467,4 +22605,125 @@ LCA_SNOW_WHITE_DAMAGE_INBOXMESSAGE_GLOBAL_BODY|Summoner,<br><br>The Snow White a
 LCA_SNOW_WHITE_DAMAGE_INBOXMESSAGE_CLUB_BODY|Summoner,<br><br>The Snow White and the Seven Dwarfs Damage Leaderboard Contest has concluded.<br><br>Your Club's final rank is {0}.<br><br>Attached are your rewards for this accomplishment!
 LCA_SNOW_WHITE_DAMAGE_MILESTONE_REWARD_POINT_NAME|SNOW WHITE AND THE SEVEN DWARFS DAMAGE CONTEST POINTS
 LCA_SNOW_WHITE_DAMAGE_MILESTONE_REWARD_POINT_DESC|Earn Points by dealing the highest amount of damage with Snow White and the Seven Dwarfs in any game mode.
+EMOTE_MONTEREYJACK_NAME|Monterey Jack Emote
+EMOTE_MONTEREYJACK_DESC|Cheese-Attack
+BONUS_LOOT_2XDROP_202205_CHIP|CHIP 2X TOKEN DROP
+INBOX_EVENT_202205_2XDROP_CHIP_SUBJECT|Chip 'n Dale: Rescue Rangers Release - Chip 2x Token Drop
+INBOX_EVENT_202205_2XDROP_CHIP_BODY|Summoner,<br>Celebrate <color=#54C5FF>Chip 'n Dale: Rescue Rangers Release</color> with <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Chip</color> in Campaigns for a limited time!<br>Look for the BONUS banner on <color=#54C5FF>Grand Campaign Node 5-K</color> and <color=#54C5FF>Villains Campaign Node 4-D</color>.<br>Thank you for your continued support, and see you in the Arena!
+UNIT_CATEGORY_WINNIE_THE_POOH|WINNIE THE POOH
+EVENT_202205_OH_BOTHER_META_DESC|Power up your Forest team and battle to earn Hunny Pot, Tigger, and Winnie the Pooh Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202205_OH_BOTHER_META_NAME|OH BOTHER
+EVENT_202205_OH_BOTHER_PORTAL_DESC|Earn Winnie the Pooh Tokens!
+EVENT_202205_OH_BOTHER_PORTAL_NAME|OH BOTHER
+EVENT_202205_OH_BOTHER_AURA_NAME|
+EVENT_202205_OH_BOTHER_AURA_DESC|
+EVENT_202205_OH_BOTHER_A_NAME|SMACKEREAL SHOWDOWN
+EVENT_202205_OH_BOTHER_A_DESC|
+EVENT_202205_OH_BOTHER_A_AURA_NAME|
+EVENT_202205_OH_BOTHER_A_AURA_DESC|
+EVENT_202205_OH_BOTHER_A_L0_NAME|SMACKEREAL SHOWDOWN I
+EVENT_202205_OH_BOTHER_A_L0_DESC|•Defeat all enemies!
+EVENT_202205_OH_BOTHER_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 2</color>
+EVENT_202205_OH_BOTHER_A_L1_NAME|SMACKEREAL SHOWDOWN II
+EVENT_202205_OH_BOTHER_A_L1_DESC|
+EVENT_202205_OH_BOTHER_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202205_OH_BOTHER_A_L2_NAME|SMACKEREAL SHOWDOWN III
+EVENT_202205_OH_BOTHER_A_L2_DESC|
+EVENT_202205_OH_BOTHER_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202205_OH_BOTHER_A_L3_NAME|SMACKEREAL SHOWDOWN IV
+EVENT_202205_OH_BOTHER_A_L3_DESC|•
+EVENT_202205_OH_BOTHER_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 4</color>
+EVENT_202205_OH_BOTHER_A_L4_NAME|SMACKEREAL SHOWDOWN V
+EVENT_202205_OH_BOTHER_A_L4_DESC|
+EVENT_202205_OH_BOTHER_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202205_OH_BOTHER_A_L5_NAME|SMACKEREAL SHOWDOWN VI
+EVENT_202205_OH_BOTHER_A_L5_DESC|
+EVENT_202205_OH_BOTHER_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202205_OH_BOTHER_A_L6_NAME|SMACKEREAL SHOWDOWN VII
+EVENT_202205_OH_BOTHER_A_L6_DESC|
+EVENT_202205_OH_BOTHER_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202205_OH_BOTHER_A_L7_NAME|SMACKEREAL SHOWDOWN VIII
+EVENT_202205_OH_BOTHER_A_L7_DESC|
+EVENT_202205_OH_BOTHER_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 7</color>
+EVENT_202205_OH_BOTHER_B_NAME|BOUNCING BATTLE
+EVENT_202205_OH_BOTHER_B_DESC|
+EVENT_202205_OH_BOTHER_B_AURA_NAME|
+EVENT_202205_OH_BOTHER_B_AURA_DESC|
+EVENT_202205_OH_BOTHER_B_L0_NAME|BOUNCING BATTLE I
+EVENT_202205_OH_BOTHER_B_L0_DESC|
+EVENT_202205_OH_BOTHER_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202205_OH_BOTHER_B_L1_NAME|BOUNCING BATTLE II
+EVENT_202205_OH_BOTHER_B_L1_DESC|
+EVENT_202205_OH_BOTHER_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202205_OH_BOTHER_B_L2_NAME|BOUNCING BATTLE III
+EVENT_202205_OH_BOTHER_B_L2_DESC|
+EVENT_202205_OH_BOTHER_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 4</color>
+EVENT_202205_OH_BOTHER_B_L3_NAME|BOUNCING BATTLE IV
+EVENT_202205_OH_BOTHER_B_L3_DESC|
+EVENT_202205_OH_BOTHER_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202205_OH_BOTHER_B_L4_NAME|BOUNCING BATTLE V
+EVENT_202205_OH_BOTHER_B_L4_DESC|
+EVENT_202205_OH_BOTHER_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202205_OH_BOTHER_B_L5_NAME|BOUNCING BATTLE VI
+EVENT_202205_OH_BOTHER_B_L5_DESC|
+EVENT_202205_OH_BOTHER_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202205_OH_BOTHER_B_L6_NAME|BOUNCING BATTLE VII
+EVENT_202205_OH_BOTHER_B_L6_DESC|
+EVENT_202205_OH_BOTHER_B_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 7</color>
+EVENT_202205_OH_BOTHER_C_NAME|BOTHERSOME BLITZ
+EVENT_202205_OH_BOTHER_C_DESC|•
+EVENT_202205_OH_BOTHER_C_AURA_NAME|
+EVENT_202205_OH_BOTHER_C_AURA_DESC|
+EVENT_202205_OH_BOTHER_C_L0_NAME|BOTHERSOME BLITZ I
+EVENT_202205_OH_BOTHER_C_L0_DESC|
+EVENT_202205_OH_BOTHER_C_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202205_OH_BOTHER_C_L1_NAME|BOTHERSOME BLITZ II
+EVENT_202205_OH_BOTHER_C_L1_DESC|
+EVENT_202205_OH_BOTHER_C_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 4</color>
+EVENT_202205_OH_BOTHER_C_L2_NAME|BOTHERSOME BLITZ III
+EVENT_202205_OH_BOTHER_C_L2_DESC|
+EVENT_202205_OH_BOTHER_C_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202205_OH_BOTHER_C_L3_NAME|BOTHERSOME BLITZ IV
+EVENT_202205_OH_BOTHER_C_L3_DESC|
+EVENT_202205_OH_BOTHER_C_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202205_OH_BOTHER_C_L4_NAME|BOTHERSOME BLITZ V
+EVENT_202205_OH_BOTHER_C_L4_DESC|
+EVENT_202205_OH_BOTHER_C_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202205_OH_BOTHER_C_L5_NAME|BOTHERSOME BLITZ VI
+EVENT_202205_OH_BOTHER_C_L5_DESC|
+EVENT_202205_OH_BOTHER_C_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 7</color>
+EVENT_202205_OH_BOTHER_C_L6_NAME|BOTHERSOME BLITZ VII
+EVENT_202205_OH_BOTHER_C_L6_DESC|
+EVENT_202205_OH_BOTHER_C_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 80+<br>• Gear <color=#8ab65d>Tier 8</color>
+TROPHY_WINNIE_NAME|OH BOTHER TROPHY
+TROPHY_WINNIE_DESC|Awarded for completing the Oh Bother Event.<br><br>Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+INBOX_EVENT_202205_OH_BOTHER_PREVIEW_SUBJECT|Coming Soon: Oh Bother Event!
+INBOX_EVENT_202205_OH_BOTHER_PREVIEW_BODY|Summoner,<br><br>The <color=#54C5FF>Oh Bother</color> Event is coming soon!<br><br>Gather your <color=#54C5FF>Forest</color> team and get ready to battle to earn exclusive <color=#54C5FF>WINNIE THE POOH</color> characters and spells!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_202205_OH_BOTHER_ACTIVE_SUBJECT|The Oh Bother Event is LIVE!
+INBOX_EVENT_202205_OH_BOTHER_ACTIVE_BODY|Summoner,<br><br>The <color=#54C5FF>Oh Bother</color> Event has begun!<br><br>Gather your <color=#54C5FF>Forest</color> team and head into battle to earn exclusive <color=#54C5FF>WINNIE THE POOH</color> characters and spells!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_202205_OH_BOTHER_LAST_CHANCE_SUBJECT|Last Chance: Oh Bother Event!
+INBOX_EVENT_202205_OH_BOTHER_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>Oh Bother</color> Event is ending soon!<br><br><color=#54C5FF>LAST CHANCE</color> to gather your <color=#54C5FF>Forest</color> team and battle to earn exclusive <color=#54C5FF>WINNIE THE POOH</color> characters and spells!<br><br>Good luck, and see you in the Arena!
+STORE_ITEM_OB_STARTER_NAME|BOUNCY BUNDLE
+STORE_ITEM_OB_STARTER_DESC|UNLOCK THE HUNNY POT SPELL AND GET TOKENS TO JUMP-START YOUR PROGRESS ON WINNIE THE POOH CHARACTERS! INCLUDES HUNNY POT SPELL TOKENS, TIGGER TOKENS, AND MORE.
+STORE_ITEM_OB_SPELL_NAME|HUNNY POT BUNDLE
+STORE_ITEM_OB_SPELL_DESC|GET TOKENS FOR THE HONEY POT SPELL AND STICK IT TO YOUR OPPONENTS WITH AOE SLOW! INCLUDES HUNNY POT SPELL TOKENS AND MORE.
+STORE_ITEM_OB_TEAM_NAME|FOREST TEAM SPECIAL OFFER
+STORE_ITEM_OB_TEAM_DESC|POWER UP YOUR FOREST CHARACTERS AND GET A BOOST FOR THE OH BOTHER EVENT. INCLUDES MOR'DU TOKENS, SVEN TOKENS, SHERIFF OF NOTTINGHAM TOKENS AND MORE!
+STORE_ITEM_OB_EEYORE_NAME|EEYORE BUNDLE
+STORE_ITEM_OB_EEYORE_DESC|RAIN HARMFUL EFFECTS SUCH AS DAMPENED DOWN ON YOUR OPPONENTS TO SUPPRESS THEIR DAMAGE. CHASE EEYORE'S TAIL AROUND THE FIGHT TO PROTECT YOUR TEAMMATES
+STORE_ITEM_OB_TIGGER_NAME|TIGGER BUNDLE
+STORE_ITEM_OB_TIGGER_DESC|DEAL HIGH DAMAGE TO ENEMIES WHILE BOUNCING AROUND THE BATTLEFIELD. BECOME FASTER AND MORE EVASIVE IF ENEMIES IGNORE YOU DURING BATTLE.
+STORE_ITEM_OB_WINNIE_NAME|WINNIE THE POOH BUNDLE
+STORE_ITEM_OB_WINNIE_DESC|KEEP YOURSELF HEALTHY WITH SHIELDS, HEALING, AND DAMAGE REDUCTION.  PIGLET KEEPS YOUR TEAMMATES SAFE, AND UNLOCK THE FULL POTENTIAL OF THE TEAM ON DEFENSE WITH A NEW POWERFUL LEADER ABILITY.
+STORE_ITEM_OB_EEYORE_GEMS_NAME|EEYORE PACK
+STORE_ITEM_OB_MORDU_GEMS_NAME|MOR'DU PACK
+STORE_ITEM_OB_SVEN_GEMS_NAME|SVEN PACK
+STORE_ITEM_OB_SHERIFF_GEMS_NAME|SHERIFF OF NOTTINGHAM PACK
+STORE_ITEM_OB_ROBIN_HOOD_GEMS_NAME|ROBIN HOOD PACK
+EVENT_STICKER_OH_BOTHER|SEASONAL EVENT
+BATTLE_EFFECT_TUMBLED|TUMBLED OVER
+BATTLE_EFFECT_TUMBLED_DESCRIPTION|This character takes less damage.<br><br>On Defense, takes even less damage.<br><br>On turn start, remove this effect. When this effect is removed, restores some health to this character."
+BATTLE_EFFECT_BALLOON|A BALLOON
+BATTLE_EFFECT_BALLOON_DESCRIPTION|When this character's shield is broken, remove this effect to gain 'Tumbled Over'.
+WINNIETHEPOOH_LEADER_NAME|WONDERFUL WORLD OF MAKE BELIEVE
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> Kevin Holmes <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Tony Wang <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2022 Disney.<br> © 2019-2022 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2022 Electronic Arts Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Electronic Arts Inc. All Rights Reserved. 
