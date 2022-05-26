@@ -3188,6 +3188,10 @@ EMOTE_KRONKANGEL_NAME|KRONK'S SHOULDER ANGEL EMOTE
 EMOTE_KRONKANGEL_DESC|You're not just gonna let him die like that, are you?
 EMOTE_MERIDA_NAME|MERIDA EMOTE
 EMOTE_MERIDA_DESC|And I'll be shooting for my own hand.
+EMOTE_GRUMPY_NAME|GRUMPY EMOTE
+EMOTE_GRUMPY_DESC|There's dirty work afoot.
+EMOTE_POISONAPPLE_NAME|POISON APPLE EMOTE
+EMOTE_POISONAPPLE_DESC|Have a bite?
 EMPERORZURG_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>3</color> times. Deal up to <color=#FEF8E4>{2:P0}</color> bonus damage the higher the target's Health is.
 EMPERORZURG_PASSIVE02_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> chance to gain Offense Up
 EMPERORZURG_PASSIVE02_DESC_01|On receiving damage, this character has a <color=#FEF8E4>{0:P0}</color> chance to gain Offense Up for <color=#FEF8E4>{1:N0}</color> turn.<br><br>Chance to activate is increased by <color=#FEF8E4>{2:P0}</color> per Downtown Villain ally.
@@ -5166,6 +5170,8 @@ INBOX_EVENT_202205_GOOFY_SUBJECT|Goofy's 90th Birthday - Free Gift!
 INBOX_EVENT_202205_GOOFY_BODY|Summoner,<BR><BR>Celebrate <color=#54C5FF>Goofy's 90th Birthday</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202205_2XDROP_GOOFY_SUBJECT|Goofy's 90th Birthday - Goofy 2x Token Drop
 INBOX_EVENT_202205_2XDROP_GOOFY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Goofy's 90th Birthday</color> with <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Goofy</color> in Campaigns for a limited time!<br><br>Look for the BONUS banner on <color=#54C5FF>Grand Campaign Node 4-K</color> and <color=#54C5FF>Villains Campaign Node 3-F</color>.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202205_CRUELLA_SUBJECT|Cruella 1st Anniversary - Free Gift!
+INBOX_EVENT_202205_CRUELLA_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Cruella 1st Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSOON_SUBJECT|Coming Soon - Valentine Flash Gifts
 INBOX_EVENT_202102_VALENTINEFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Valentine Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>February 14 - 18</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSTART_SUBJECT|Valentine Flash Gift
@@ -12560,6 +12566,10 @@ PIN_QUEENARIANNA_NAME|QUEEN ARIANNA TALISMAN
 PIN_QUEENARIANNA_DESC|Each year on her birthday the king and queen release thousands of lanterns into the sky, in hope that one day their lost princess would return.
 PIN_GOOFY_NAME|Goofy Talisman
 PIN_GOOFY_DESC|Gawrsh!
+PIN_JASPER_NAME|JASPER TALISMAN
+PIN_JASPER_DESC|I think she means it, Jasper.
+PIN_HORACE_NAME|HORACE TALISMAN
+PIN_HORACE_DESC|Now, look 'ere, Horace, I warned you about thinking!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -19587,6 +19597,8 @@ PASSHOLDER_202205_1_SEASON_NAME|PASSHOLDER SEASON 50
 PASSHOLDER_202205_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 50 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR>  * DEMONA TOKENS<br>  * GOLIATH TOKENS<br>  * XANATOS DUCK TOKENS<br>   AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202205_2_SEASON_NAME|PASSHOLDER SEASON 51
 PASSHOLDER_202205_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 51 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN REWARDS INCLUDING:<BR><BR> * DALE TOKENS<br> * CHIP TOKENS<br> * GADGET TOKENS<br> * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202206_1_SEASON_NAME|PASSHOLDER SEASON 52
+PASSHOLDER_202206_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 52 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR> * HAPPY TOKENS<br> * SLEEPY TOKENS<br> * DOPEY TOKENS<br> * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PVP_MEGARA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MEGARA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MEGARA</color> and <color=#54C5FF>MORTAL POTION</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MEGARA_INBOX_SUBJECT|Megara Enters the PvP Arena!
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
@@ -19611,6 +19623,8 @@ PVP_TIANA_INBOX_SUBJECT|Tiana Enters the PvP Arena!
 PVP_TIANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>Tiana</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Dr. Facilier</color> Tokens.<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MOTHERS_INBOX_SUBJECT|Mother Gothel Enters the PvP Arena!
 PVP_MOTHERS_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>Mother Gothel</color> and <color=#54C5FF>Elastigirl</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Mrs. Potts</color> Tokens.<BR><BR>As always, thank you for playing, and see you in the Arena!
+PVP_SNOW_WHITE_INBOX_SUBJECT|Snow White and the Seven Dwarves Enter the PvP Arena!
+PVP_SNOW_WHITE_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! Battle in the NEW <color=#54C5FF>Cottage of the Seven Dwarves</color> environment for a limited time!<br><br><color=#54C5FF>Bashful</color> and <color=#54C5FF>Happy</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>Sleepy</color> Tokens.<BR><BR>As always, thank you for playing, and see you in the Arena!
 HERC_T5_BUNDLE_20_NAME|T5 GEAR BUNDLE
 HERC_T5_BUNDLE_20_SUBTITLE|GET READY TO CONQUER YOUR FOES. POWER UP YOUR HERCULES TEAM WITH THIS T5 GEAR BUNDLE.
 HERC_T6_BUNDLE_30_NAME|T6 GEAR BUNDLE
