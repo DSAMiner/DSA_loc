@@ -59,6 +59,7 @@ ABILPREVIEWUPGRADE_GEN_ADD_CRITCHANCEDOWN|Inflict Critical Chance Down for <colo
 ABILPREVIEWUPGRADE_GEN_ADD_SILENCE|Inflict Silence for <color=#FEF8E4>{0:N0}</color> turn.
 ABILPREVIEWUPGRADE_GEN_ADD_SILENCE_03S|Inflicts Silence for 3s on affected opponents.
 ABILPREVIEWUPGRADE_GEN_AMT_INC_SPEEDMETERDECREASE_PCT|<color=#FEF8E4>+{0:P0}</color> Speed Meter reduction.
+ABILPREVIEWUPGRADE_GEN_AMT_INC_SPEEDMETER_INCREASE_PCT|<color=#FEF8E4>+{0:P0}</color> Speed Meter increase.
 ABILPREVIEWUPGRADE_GEN_ASSISTCHANCE_PCT_INC|<color=#FEF8E4>+{0:P0}</color> assist chance.
 ABILPREVIEWUPGRADE_GEN_ATTACKS_NUM_INC|<color=#FEF8E4>+{0:N0}</color> number of attacks.
 ABILPREVIEWUPGRADE_GEN_BASE_HEALTH_05PCT|Increases base Health by 5%.
@@ -4690,7 +4691,7 @@ EVENT_202005_FROZEN2_A_TIER_5_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Els
 EVENT_202005_FROZEN2_A_TIER_5_NAME|INTO THE UNKNOWN VI
 EVENT_202005_FROZEN2_A_TIER_6_DESC|<color=#8D5FB6>INFO</color><br>• Defeat Elsa and the Arendelle Memory Soldiers.<br>• Soldiers can Purge Helpful Effects and deal Bonus damage per Charge.<br>• Elsa grants Charge to the Soldiers.
 EVENT_202005_FROZEN2_A_TIER_6_NAME|INTO THE UNKNOWN VII
-EVENT_202005_FROZEN2_META_DESC|Earn Elsa character tokens!<br><br><color=#B8E986>LEGENDARY EVENT</color>
+EVENT_202005_FROZEN2_META_DESC|Earn Elsa character tokens!<br><br><color=#B8E986>LIFETIME EVENT</color>
 EVENT_202005_FROZEN2_META_NAME|INTO THE UNKNOWN
 EVENT_202005_FROZEN_2X_ALL_BODY|Summoner,<BR><BR>For a limited time, there is a 2x Bonus drop for all Frozen characters on the Grand, Heroes Elite, and Villains Elite Campaigns! Power up your team now before the event ends!
 EVENT_202005_FROZEN_2X_ALL_SUBJECT|2x Frozen Drops on Campaigns
@@ -22743,4 +22744,176 @@ BATTLE_EFFECT_TUMBLED_DESCRIPTION|This character takes less damage.<br><br>On De
 BATTLE_EFFECT_BALLOON|A BALLOON
 BATTLE_EFFECT_BALLOON_DESCRIPTION|When this character's shield is broken, remove this effect to gain 'Tumbled Over'.
 WINNIETHEPOOH_LEADER_NAME|WONDERFUL WORLD OF MAKE BELIEVE
+MAX_GOOF_ABILBASIC_NAME|Ollie Up!
+MAX_GOOF_ABILSPECIALA_NAME|The Perfect Cast
+MAX_GOOF_ABILSPECIALB_NAME|Big Moment
+MAX_GOOF_ABILPASSIVEA_NAME|Not Just a Goof
+MAX_GOOF_BASIC_ABILPREVIEWUPGRADE_01|+<color=#F4BE43>{0:N0}</color> Helpful effect stolen.
+MAX_GOOF_BASIC_ABILPREVIEWUPGRADE_02|Once per turn, when an opponent reaches <color=#F4BE43>{0:N0}</color> Helpful effects, perform this ability on them.
+MAX_GOOF_SPECIALA_ABILPREVIEWUPGRADE_01|Gain <color=#FEF8E4>{0:P0}</color> Speed Meter per Helpful effect Stolen.
+MAX_GOOF_SPECIALA_ABILPREVIEWUPGRADE_02|+<color=#F4BE43>{0:N0}</color> Helpful effect stolen.
+MAX_GOOF_SPECIALB_ABILPREVIEWUPGRADE_01|Grant teammates <color=#FEF8E4>{0:P0}</color> Speed Meter per Helpful effect copied.
+MAX_GOOF_SPECIALB_ABILPREVIEWUPGRADE_02|+<color=#F4BE43>{0:N0}</color> Helpful effect copied.
+MAX_GOOF_PASSIVEA_ABILPREVIEWUPGRADE_01|+<color=#F4BE43>{0:N0}</color> Helpful effect extended.
+MAX_GOOF_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Helpful effect on target and self. <br><br>Steal <color=#F4BE43>{2:N0}</color> Helpful effect.
+MAX_GOOF_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Helpful effect on target and self. <br><br>Steal <color=#F4BE43>{2:N0}</color> Helpful effects.
+MAX_GOOF_BASIC_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per Helpful effect on target and self. <br><br>Steal <color=#F4BE43>{2:N0}</color> Helpful effects.<br><br>Once per turn, when an opponent reaches <color=#F4BE43>{3:N0}</color> Helpful effects, perform this ability on them.
+MAX_GOOF_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage. Steal <color=#F4BE43>{1:N0}</color> Helpful effects. Steal <color=#FEF8E4>{2:N0}</color> Magic for this ability per Helpful effect stolen.<br><br>If Goofy is a teammate, he gains a copy of all effects stolen. If in Club Conquest: Repeat the ability <color=#FEF8E4>{3:N0}</color> time on the opponent with the most Helpful effects.
+MAX_GOOF_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage. Steal <color=#F4BE43>{1:N0}</color> Helpful effects. Steal <color=#FEF8E4>{2:N0}</color> Magic for this ability per Helpful effect stolen. Gain <color=#F4BE43>{4:P0}</color> Speed Meter per Helpful effect stolen.<br><br>If Goofy is a teammate, he gains a copy of all effects stolen. If in Club Conquest: Repeat the ability <color=#FEF8E4>{3:N0}</color> time on the opponent with the most Helpful effects.
+MAX_GOOF_SPECIALB_DESC_01|Grant a copy of <color=#F4BE43>{0:N0}</color> Helpful effects on this character to all teammates.<br><br>If Powerline is a teammate, he uses his <color=#FEF8E4>'Eye to Eye'</color> ability regardless of Magic Charge.<br><br>If Goofy is a teammate, he uses his <color=#FEF8E4>'Dance Away Your Cares'</color> ability regardless of Magic Charge.
+MAX_GOOF_SPECIALB_DESC_02|Grant a copy of <color=#F4BE43>{0:N0}</color> Helpful effects on this character to all teammates. <color=#FEF8E4>{1:P0}</color> Speed Meter per Helpful effect copied.<br><br>If Powerline is a teammate, he uses his <color=#FEF8E4>'Eye to Eye'</color> ability regardless of Magic Charge.<br><br>If Goofy is a teammate, he uses his <color=#FEF8E4>'Dance Away Your Cares'</color> ability regardless of Magic Charge.
+MAX_GOOF_PASSIVEA_DESC_01|When this character gains a Helpful effect, perform the following: Extend the duration of <color=#F4BE43>{0:N0}</color> Helpful effects on this character by <color=#FEF8E4>{1:N0}</color>. Grant adjacent teammates <color=#FEF8E4>{2:N0}</color> Magic for random abilities.<br><br>In Club Conquest: Gain <color=#FEF8E4>{3:N0}</color> Magic for this ability.
+MAX_GOOF_UNIT_NAME|MAX GOOF
+UNIT_PROMO_MAT_MAX_GOOF|MAX GOOF TOKENS
+POWERLINE_UNIT_NAME|POWERLINE
+UNIT_PROMO_MAT_POWERLINE|POWERLINE TOKENS
+POWERLINE_ABILBASIC_NAME|POWER PRESENCE
+POWERLINE_ABILSPECIALA_NAME|STAND OUT
+POWERLINE_ABILSPECIALB_NAME|EYE TO EYE
+POWERLINE_ABILPASSIVEA_NAME|ELECTRIFYING ENTRANCE
+POWERLINE_ABILPASSIVEB_NAME|BIGGEST ROCK STAR ON THE PLANET
+POWERLINE_BASIC_ABILPREVIEWUPGRADE_01|<color=#79C7CF>EMPOWERED</color>: Repeat this attack on a random opponent, preferring those with <color=#EB5873>SHOCKED</color>.
+POWERLINE_BASIC_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> damage dealt.
+POWERLINE_BASIC_ABILPREVIEWUPGRADE_03|+<color=#FEF8E4>{0:P0}</color> bonus damage.
+POWERLINE_SPECIALA_ABILPREVIEWUPGRADE_01|<color=#79C7CF>EMPOWERED</color>: Repeat this ability on a random teammate, preferring those with <color=#79C7CF>CHARGED</color>.
+POWERLINE_SPECIALA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> chance to grant <color=#F4BE43>POWER SURGE</color>.
+POWERLINE_SPECIALA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> <color=#F4BE43>POWER SURGE</color> duration. <color=#FEF8E4>+{1:N0}</color> <color=#79C7CF>CHARGED</color>.
+POWERLINE_SPECIALB_ABILPREVIEWUPGRADE_01|<color=#79C7CF>EMPOWERED</color>: Repeat the ability <color=#FEF8E4>{0:N0}</color> time.
+POWERLINE_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed Meter.
+POWERLINE_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> chance to grant <color=#F4BE43>POWER SURGE</color>.
+POWERLINE_PASSIVEA_ABILPREVIEWUPGRADE_01|Perform this ability when this character gains <color=#79C7CF>EMPOWERED</color>.
+POWERLINE_PASSIVEA_ABILPREVIEWUPGRADE_02|In Club Conquest: Inflict <color=#EB5873>STUN</color> for <color=#FEF8E4>{0:N0}</color> turn.
+POWERLINE_PASSIVEA_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> damage dealt.
+POWERLINE_PASSIVEB_ABILPREVIEWUPGRADE_01|On Turn Start, perform the following: Grant <color=#FEF8E4>{0:P0}</color> Speed Meter per <color=#FEF8E4>{1:N0}</color> <color=#79C7CF>CHARGED</color> to adjacent teammates.
+POWERLINE_PASSIVEB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> Speed Meter.
+POWERLINE_PASSIVEB_ABILPREVIEWUPGRADE_03|<color=#79C7CF>EMPOWERED</color>: Repeat the ability <color=#FEF8E4>{0:N0}</color> time.
+POWERLINE_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. Inflicts <color=#EB5873><link=BATTLE_EFFECT_SHOCKED>[SHOCKED]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.
+POWERLINE_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Deal <color=#FEF8E4>{1:P0}</color> bonus damage per <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. Inflicts <color=#EB5873><link=BATTLE_EFFECT_SHOCKED>[SHOCKED]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>: Deal <color=#FEF8E4>{3:P0}</color> bonus damage and Repeat this attack on a random opponent, preferring those with <color=#EB5873><link=BATTLE_EFFECT_SHOCKED>[SHOCKED]</link></color>.
+POWERLINE_SPECIALA_DESC_01|Grant target teammate:<br><color=#F4BE43>POWER SURGE</color> for <color=#FEF8E4>{0:N0}</color> turn.<br><color=#FEF8E4>{1:P0}</color> chance to grant <color=#F4BE43>POWER SURGE</color> for <color=#FEF8E4>{2:N0}</color> turns.<br>If target teammate has <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, grant them <color=#FEF8E4>{3:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. Call target teammate to assist.
+POWERLINE_SPECIALA_DESC_02|Grant target teammate:<br><color=#F4BE43>POWER SURGE</color> for <color=#FEF8E4>{0:N0}</color> turn.<br><color=#FEF8E4>{1:P0}</color> chance to grant <color=#F4BE43>POWER SURGE</color> for <color=#FEF8E4>{2:N0}</color> turns.<br>If target teammate has <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>, grant them <color=#FEF8E4>{3:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>. Call target teammate to assist.<br><br><color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>: Repeat this ability on a random teammate, preferring those with <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.
+POWERLINE_SPECIALB_DESC_01|Grant all teammates (excluding self):<br><color=#FEF8E4>{0:P0}</color> Speed Meter per <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><color=#FEF8E4>{1:P0}</color> chance to grant <color=#F4BE43>POWER SURGE</color> for <color=#FEF8E4>{2:N0}</color> turn per <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{3:N0}</color> turn.<br><br>In Club Conquest: On Battle Start, Gain <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> and perform this ability regardless of Magic Charge.
+POWERLINE_SPECIALB_DESC_02|Grant all teammates (excluding self):<br><color=#FEF8E4>{0:P0}</color> Speed Meter per <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><color=#FEF8E4>{1:P0}</color> chance to grant <color=#F4BE43>POWER SURGE</color> for <color=#FEF8E4>{2:N0}</color> turn per <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>.<br><color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{3:N0}</color> turn.<br><br><color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>: Repeat the ability <color=#FEF8E4>{5:N0}</color> time.<br><br>In Club Conquest: On Battle Start, Gain <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> and perform this ability regardless of Magic Charge.
+POWERLINE_PASSIVEA_DESC_01|On Battle Start, perform the following:<br>Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents.<br><color=#FEF8E4>{1:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_BLIND>[BLIND]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.
+POWERLINE_PASSIVEA_DESC_02|On Battle Start and when this character gains <color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>, perform the following:<br>Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents.<br><color=#FEF8E4>{1:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_BLIND>[BLIND]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.
+POWERLINE_PASSIVEA_DESC_03|On Battle Start and when this character gains <color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>, perform the following:Deal up to <color=#FFC400>{0:N0}</color> damage to all opponents. <color=#FEF8E4>{1:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_BLIND>[BLIND]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br>In Club Conquest: Inflict <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{3:N0}</color> turn.
+POWERLINE_PASSIVEB_DESC_01|Powerline gains <color=#FEF8E4>{0:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> when he uses abilities, +<color=#FEF8E4>{1:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> per Magic spent when he uses an ability. (He does not gain <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> per Magic spent when an ability is used '<color=#FEF8E4>regardless of Magic Charge</color>').<br><br>When Powerline reaches <color=#FEF8E4>{2:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>:<br>Gain <color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>.
+POWERLINE_PASSIVEB_DESC_02|Powerline gains <color=#FEF8E4>{0:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> when he uses abilities, +<color=#FEF8E4>{1:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> per Magic spent when he uses an ability. (He does not gain extra <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> when an ability is used '<color=#FEF8E4>regardless of Magic Charge</color>').<br><br>When Powerline reaches <color=#FEF8E4>{2:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>:<br>Gain <color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>.<br><br>On Turn Start, perform the following:<br>Grant <color=#FEF8E4>{3:P0}</color> Speed Meter per <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> to adjacent teammates.
+POWERLINE_PASSIVEB_DESC_03|Powerline gains <color=#FEF8E4>{0:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> when he uses abilities, +<color=#FEF8E4>{1:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> per Magic spent when he uses an ability. (He does not gain extra <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> when an ability is used '<color=#FEF8E4>regardless of Magic Charge</color>').<br><br>When Powerline reaches <color=#FEF8E4>{2:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color>:<br>Gain <color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>.<br><br>On Turn Start, perform the following:<br>Grant <color=#FEF8E4>{3:P0}</color> Speed Meter per <color=#FEF8E4>{4:N0}</color> <color=#79C7CF><link=BATTLE_EFFECT_CHARGED>[CHARGED]</link></color> to adjacent teammates.<br><br><color=#79C7CF><link=BATTLE_EFFECT_EMPOWERED>[EMPOWERED]</link></color>: Repeat the ability <color=#FEF8E4>{5:N0}</color> time.
+UNIT_CATEGORY_A_GOOFY_MOVIE|A GOOFY MOVIE
+BATTLE_EFFECT_POWER_SURGE|POWER SURGE
+BATTLE_EFFECT_POWER_SURGE_DESCRIPTION|Affected character inflicts SHOCKED for 1 turn and gain 25% Offense when dealing damage.
+INBOX_EVENT_202206_HERCULES_SUBJECT|Hercules 25th Anniversary - Free Gift!
+INBOX_EVENT_202206_HERCULES_BODY|Summoner,<br>Celebrate <color=#54C5FF>Hercules 25th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br>Thank you for your continued support, and see you in the Arena!
+PIN_HADES_NAME|HADES TALISMAN
+PIN_HADES_DESC|I'm cool. I'm fine.
+PIN_ZEUS_NAME|ZEUS TALISMAN
+PIN_ZEUS_DESC|I need more thunderbolts.
+EVENT_202206_STAND_OUT_META_DESC|Power up your Sorcerer's Student team and battle to earn Max Goof and Powerline Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202206_STAND_OUT_META_NAME|STAND OUT
+EVENT_202206_STAND_OUT_PORTAL_DESC|Earn Powerline Tokens!
+EVENT_202206_STAND_OUT_PORTAL_NAME|STAND OUT
+EVENT_202206_STAND_OUT_AURA_NAME|
+EVENT_202206_STAND_OUT_AURA_DESC|
+EVENT_202206_STAND_OUT_A_NAME|DANCE FLOOR FEUD
+EVENT_202206_STAND_OUT_A_DESC|
+EVENT_202206_STAND_OUT_A_AURA_NAME|
+EVENT_202206_STAND_OUT_A_AURA_DESC|
+EVENT_202206_STAND_OUT_A_L0_NAME|DANCE FLOOR FEUD I
+EVENT_202206_STAND_OUT_A_L0_DESC|•Defeat all enemies!
+EVENT_202206_STAND_OUT_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202206_STAND_OUT_A_L1_NAME|DANCE FLOOR FEUD II
+EVENT_202206_STAND_OUT_A_L1_DESC|
+EVENT_202206_STAND_OUT_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202206_STAND_OUT_A_L2_NAME|DANCE FLOOR FEUD III
+EVENT_202206_STAND_OUT_A_L2_DESC|
+EVENT_202206_STAND_OUT_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 4</color>
+EVENT_202206_STAND_OUT_A_L3_NAME|DANCE FLOOR FEUD IV
+EVENT_202206_STAND_OUT_A_L3_DESC|
+EVENT_202206_STAND_OUT_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202206_STAND_OUT_A_L4_NAME|DANCE FLOOR FEUD V
+EVENT_202206_STAND_OUT_A_L4_DESC|
+EVENT_202206_STAND_OUT_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202206_STAND_OUT_A_L5_NAME|DANCE FLOOR FEUD VI
+EVENT_202206_STAND_OUT_A_L5_DESC|
+EVENT_202206_STAND_OUT_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202206_STAND_OUT_A_L6_NAME|DANCE FLOOR FEUD VII
+EVENT_202206_STAND_OUT_A_L6_DESC|
+EVENT_202206_STAND_OUT_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 7</color>
+EVENT_202206_STAND_OUT_B_NAME|BOOGIE BATTLE
+EVENT_202206_STAND_OUT_B_DESC|
+EVENT_202206_STAND_OUT_B_AURA_NAME|
+EVENT_202206_STAND_OUT_B_AURA_DESC|
+EVENT_202206_STAND_OUT_B_L0_NAME|BOOGIE BATTLE I
+EVENT_202206_STAND_OUT_B_L0_DESC|
+EVENT_202206_STAND_OUT_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202206_STAND_OUT_B_L1_NAME|BOOGIE BATTLE II
+EVENT_202206_STAND_OUT_B_L1_DESC|
+EVENT_202206_STAND_OUT_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#8ab65d>Tier 4</color>
+EVENT_202206_STAND_OUT_B_L2_NAME|BOOGIE BATTLE III
+EVENT_202206_STAND_OUT_B_L2_DESC|
+EVENT_202206_STAND_OUT_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#8ab65d>Tier 5</color>
+EVENT_202206_STAND_OUT_B_L3_NAME|BOOGIE BATTLE IV
+EVENT_202206_STAND_OUT_B_L3_DESC|
+EVENT_202206_STAND_OUT_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202206_STAND_OUT_B_L4_NAME|BOOGIE BATTLE V
+EVENT_202206_STAND_OUT_B_L4_DESC|
+EVENT_202206_STAND_OUT_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 6</color>
+EVENT_202206_STAND_OUT_B_L5_NAME|BOOGIE BATTLE VI
+EVENT_202206_STAND_OUT_B_L5_DESC|
+EVENT_202206_STAND_OUT_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#8ab65d>Tier 7</color>
+EVENT_202206_STAND_OUT_B_L6_NAME|BOOGIE BATTLE VII
+EVENT_202206_STAND_OUT_B_L6_DESC|
+EVENT_202206_STAND_OUT_B_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 8</color>
+TROPHY_GOOFY_NAME|STAND OUT TROPHY
+TROPHY_GOOFY_DESC|Awarded for completing the Stand Out Event. Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+INBOX_EVENT_202206_STAND_OUT_PREVIEW_SUBJECT|Coming Soon: Stand Out Event!
+INBOX_EVENT_202206_STAND_OUT_PREVIEW_BODY|Summoner,<br><br>The <color=#54C5FF>Stand Out</color> Event is coming soon!<br><br>Gather your <color=#54C5FF>Sorcerer's Student</color> team and get ready to battle to earn exclusive <color=#54C5FF>A GOOFY MOVIE</color> characters!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_202206_STAND_OUT_ACTIVE_SUBJECT|The Stand Out Event is LIVE!
+INBOX_EVENT_202206_STAND_OUT_ACTIVE_BODY|Summoner,<br><br>The <color=#54C5FF>Stand Out</color> Event has begun!<br><br>Gather your <color=#54C5FF>Sorcerer's Student</color> team and head into battle to earn exclusive <color=#54C5FF>A GOOFY MOVIE</color> characters!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_202206_STAND_OUT_LAST_CHANCE_SUBJECT|Last Chance: Stand Out Event!
+INBOX_EVENT_202206_STAND_OUT_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>Stand Out</color> Event is ending soon<br><br>LAST CHANCE</color> to gather your <color=#54C5FF>Sorcerer's Student</color> team and battle to earn exclusive <color=#54C5FF>A GOOFY MOVIE</color> characters!<br><br>Good luck, and see you in the Arena!
+STORE_ITEM_GM_POWERLINE_NAME|POWERLINE BUNDLE
+STORE_ITEM_GM_POWERLINE_DESC|UNLOCK POWERLINE AND DANCE YOUR WAY TO VICTORY WITH THIS LIMITED TIME OFFER. INCLUDES POWERLINE TOKENS, GOLD, ABILITY RUNES AND MORE.
+STORE_ITEM_GM_MAXGOOF_NAME|MAX GOOF BUNDLE
+STORE_ITEM_GM_MAXGOOF_DESC|UNLOCK MAX GOOF AND POWER HIM UP WITH THIS LIMITED TIME OFFER. INCLUDES MAX GOOF TOKENS, GOLD, ABILITY RUNES AND MORE.
+STORE_ITEM_GM_TEAM_NAME|YOUNGSTERS TEAM BUNDLE
+STORE_ITEM_GM_TEAM_DESC|POWER UP YOUR SORCERER'S STUDENT CHARACTERS AND GET A BOOST FOR THE STAND OUT EVENT. INCLUDES VANELLOPE TOKENS, DASH TOKENS, JACK-JACK TOKENS, WENDY TOKENS, VIOLET TOKENS AND MORE!
+STORE_ITEM_GM_MIGUEL_NAME|MIGUEL BUNDLE
+STORE_ITEM_GM_MIGUEL_DESC|PURCHASE THIS PACK TO RECEIVE MIGUEL TOKENS!
+STORE_ITEM_GM_JACKJACK_NAME|JACK-JACK BUNDLE
+STORE_ITEM_GM_JACKJACK_DESC|PURCHASE THIS PACK TO RECEIVE JACK-JACK TOKENS!
+STORE_ITEM_GM_WENDY_NAME|WENDY BUNDLE
+STORE_ITEM_GM_WENDY_DESC|PURCHASE THIS PACK TO RECEIVE WENDY TOKENS! 
+STORE_ITEM_VANELLOPE_GEMS_NAME|VANELLOPE VON SCHWEETZ PACK
+STORE_ITEM_MIGUEL_GEMS_NAME|MIGUEL PACK
+STORE_ITEM_DASH_GEMS_NAME|DASH PACK
+STORE_ITEM_VIOLET_GEMS_NAME|VIOLET PACK
+STORE_ITEM_JACK_JACK_GEMS_NAME|JACK-JACK PACK
+STORE_ITEM_IAN_GEMS_NAME|IAN PACK
+STORE_ITEM_WENDY_GEMS_NAME|WENDY DARLING PACK
+UNIT_CATEGORY_SORCERER_STUDENT|SORCERER'S STUDENT
+EVENT_202204_SNOWWHITE_PRESTIGE_META_NAME|PRESTIGE: FAIREST OF THEM ALL
+EVENT_202204_SNOWWHITE_PRESTIGE_A_L0_NAME|PRESTIGE: FAIREST OF THEM ALL I
+EVENT_202204_SNOWWHITE_PRESTIGE_A_L1_NAME|PRESTIGE: FAIREST OF THEM ALL II
+EVENT_202204_SNOWWHITE_PRESTIGE_A_L2_NAME|PRESTIGE: FAIREST OF THEM ALL III
+EVENT_202204_SNOWWHITE_PRESTIGE_A_L3_NAME|PRESTIGE: FAIREST OF THEM ALL IV
+EVENT_202204_SNOWWHITE_PRESTIGE_A_L4_NAME|PRESTIGE: FAIREST OF THEM ALL V
+SW_MINING_TRIO_NAME|MINING TRIO BUNDLE
+SW_MINING_TRIO_DESC|GET TOKENS TO PROGRESS THIS TRIO. INCLUDES HAPPY,  BASHFUL, SLEEPY TOKENS, AND MORE.
+SW_DOPEY_DOC_NAME|DOPEY AND DOC DUO BUNDLE
+SW_DOPEY_DOC_DESC|GET TOKENS TO PROGRESS THIS DUO. INCLUDES DOPEY TOKENS, DOC TOKENS, AND MORE.
+SW_SNEEZY_PACK_NAME|SNEEZY PACK
+SW_SNEEZY_PACK_DESC|PURCHASE THIS PACK TO RECEIVE SNEEZY TOKENS
+SW_GRUMPY_PACK_NAME|GRUMPY PACK
+SW_GRUMPY_PACK_DESC|PURCHASE THIS PACK TO RECEIVE GRUMPY TOKENS
+SW_HAPPY_PACK_NAME|HAPPY PACK
+SW_HAPPY_PACK_DESC|PURCHASE THIS PACK TO RECEIVE HAPPY TOKENS
+SW_BASHFUL_PACK_NAME|BASHFUL PACK
+SW_BASHFUL_PACK_DESC|PURCHASE THIS PACK TO RECEIVE BASHFUL TOKENS
+SW_SLEEPY_PACK_NAME|SLEEPY PACK
+SW_SLEEPY_PACK_DESC|PURCHASE THIS PACK TO RECEIVE SLEEPY TOKENS
+SW_DOPEY_PACK_NAME|DOPEY PACK
+SW_DOPEY_PACK_DESC|PURCHASE THIS PACK TO RECEIVE DOPEY TOKENS
+SW_DOC_PACK_NAME|DOC PACK
+SW_DOC_PACK_DESC|PURCHASE THIS PACK TO RECEIVE DOC TOKENS
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> Kevin Holmes <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Tony Wang <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2022 Disney.<br> © 2019-2022 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2022 Electronic Arts Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Electronic Arts Inc. All Rights Reserved. 
