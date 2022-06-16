@@ -5173,6 +5173,10 @@ INBOX_EVENT_202205_2XDROP_GOOFY_SUBJECT|Goofy's 90th Birthday - Goofy 2x Token D
 INBOX_EVENT_202205_2XDROP_GOOFY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Goofy's 90th Birthday</color> with <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Goofy</color> in Campaigns for a limited time!<br><br>Look for the BONUS banner on <color=#54C5FF>Grand Campaign Node 4-K</color> and <color=#54C5FF>Villains Campaign Node 3-F</color>.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202205_CRUELLA_SUBJECT|Cruella 1st Anniversary - Free Gift!
 INBOX_EVENT_202205_CRUELLA_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Cruella 1st Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHSTART_SUBJECT|Stitch 20th Anniversary Flash Gifts Week
+INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHSTART_BODY|Summoner,<br><br><color=#54C5FF>Stitch 20th Anniversary Gifts</color> are on the way!<br><br> Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>June 21 - 27</color>, and enable push notifications to get notified so you don't miss them!<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHGIFT_SUBJECT|Stitch 20th Anniversary Flash Gift!
+INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHGIFT_BODY|Summoner,<br><br>You've received a <color=#54C5FF>Stitch 20th Anniversary Flash Gift</color>!<br><br>Stay on the lookout for more Flash Gift drops at random times between <color=#54C5FF>June 21 - 27</color>, and enable push notifications to get notified so you don't miss them!<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSOON_SUBJECT|Coming Soon - Valentine Flash Gifts
 INBOX_EVENT_202102_VALENTINEFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Valentine Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>February 14 - 18</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSTART_SUBJECT|Valentine Flash Gift
@@ -5400,6 +5404,8 @@ BONUS_LOOT_CLUBEXPEDITION_MOTHERSDAY_DESC|Earn <color=#54C5FF>GRAMMA TALA TOKENS
 BONUS_LOOT_2XDROP_202205_MOTHERSDAY|MOTHER'S DAY 2X TOKEN DROP
 BONUS_LOOT_2XDROP_202204_SNOW_WHITE_DWARFS|SNOW WHITE AND THE SEVEN DWARFS 2X TOKEN DROP
 BONUS_LOOT_2XDROP_202205_GOOFY|GOOFY 2X TOKEN DROP
+BONUS_LOOT_CLUBEXPEDITION_FATHERSDAY_NAME|CLUB EXPEDITION BONUS EVENT - CHARACTER AND SPELL TOKENS!
+BONUS_LOOT_CLUBEXPEDITION_FATHERSDAY_DESC|Earn <color=#54C5FF>DAD MOVES TOKENS</color> from Boss Chests and <color=#54C5FF>KING TRITON TOKENS</color> and <color=#54C5FF>MR. INCREDIBLE TOKENS</color> from Treasure chambers in Club Expedition for a limited time!
 EVENT_ABILITY_MAT_NAME|WINTER WONDER EVENT
 EVENT_ABILITY_MAT_PREVIEW|Open Dec. 24 to Dec. 30
 EVENT_ALADDIN_A_BATTLE_INTRO_SUBTITLE|CAVE ENTRANCE
@@ -8116,6 +8122,10 @@ LOGIN_D14_SPRINGCELEBRATION_TAB|SPRING CALENDAR
 LOGIN_D7_ABILITY_MAT_A_NAME|ABILITY RUNES CALENDAR
 LOGIN_D7_ABILITY_MAT_A_SUBTITLE|LOGIN TO COLLECT ABILITY RUNES. PURCHASE TO GUARANTEE 7 DAYS OF REWARDS. <color=#FFBC08>200% VALUE!</color>
 LOGIN_D7_ABILITY_MAT_A_TAB|RUNES CALENDAR
+LOGIN_D21_STITCHANNIVERSARY_NAME|LILO & STITCH 20th ANNIVERSARY
+LOGIN_D21_STITCHANNIVERSARY_SUBTITLE|CELEBRATE THE <color=#54C5FF>LILO & STITCH 20TH ANNIVERSARY</color>. CLAIM THIS CALENDAR NOW TO GUARANTEE 21 DAYS OF REWARDS INCLUDING THE <color=#54C5FF>COBRA BUBBLES</color> OUTFIT. MUST OWN COBRA BUBBLES TO EQUIP.
+LOGIN_21_STITCHANNIVERSARY_TAB|DAILY CALENDAR
+LOGIN_D21_COBRA_BUBBLES_OUTFIT_NAME|COBRA BUBBLES HAWAIIAN OUTFIT
 LOGIN_D7_MALEFICENT_NAME|MALEFICENT CALENDAR
 LOGIN_D7_MALEFICENT_SUBTITLE|TO CELEBRATE THE LAUNCH OF THE MISTRESS OF ALL EVIL EVENT, ENJOY THIS FREE CALENDAR ON US!
 LOGIN_D7_MALEFICENT_TAB|FREE
@@ -9514,6 +9524,9 @@ OUTFIT_QUASIMODO_FOOL_UNIT_NAME|KING OF FOOLS QUASIMODO
 OUTFIT_GOOFY_DISCO_NAME|A GOOFY MOVIE: DISCO GOOFY OUTFIT
 OUTFIT_GOOFY_DISCO_DESC|Collect 100 to unlock the 'A Goofy Movie : Disco Goofy outfit' for Goofy.
 OUTFIT_GOOFY_DISCO_UNIT_NAME|A GOOFY MOVIE: DISCO GOOFY
+OUTFIT_COBRA_BUBBLES_HAWAIIAN_NAME|COBRA BUBBLES HAWAIIAN OUTFIT
+OUTFIT_COBRA_BUBBLES_HAWAIIAN_DESC|Collect 100 to unlock the 'Cobra Bubbles Hawaiian outfit' for Cobra Bubbles.
+OUTFIT_COBRA_BUBBLES_UNIT_NAME|COBRA BUBBLES HAWAIIAN
 PACHA_UNIT_NAME|PACHA
 PACHA_ABILBASIC_NAME|Pushed Too Far
 PACHA_ABILSPECIALA_NAME|Considerable Compassion
@@ -12574,6 +12587,10 @@ PIN_JASPER_NAME|JASPER TALISMAN
 PIN_JASPER_DESC|I think she means it, Jasper.
 PIN_HORACE_NAME|HORACE TALISMAN
 PIN_HORACE_DESC|Now, look 'ere, Horace, I warned you about thinking!
+PIN_FAZHOU_NAME|FA ZHOU TALISMAN
+PIN_FAZHOU_DESC|The greatest gift and honor is having you for a daughter.
+PIN_KINGFRED_NAME|KING FREDERIC TALISMAN
+PIN_KINGFRED_DESC|I am the King and I have the situation under control!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -19603,6 +19620,8 @@ PASSHOLDER_202205_2_SEASON_NAME|PASSHOLDER SEASON 51
 PASSHOLDER_202205_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 51 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN REWARDS INCLUDING:<BR><BR> * DALE TOKENS<br> * CHIP TOKENS<br> * GADGET TOKENS<br> * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PASSHOLDER_202206_1_SEASON_NAME|PASSHOLDER SEASON 52
 PASSHOLDER_202206_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 52 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR> * HAPPY TOKENS<br> * SLEEPY TOKENS<br> * DOPEY TOKENS<br> * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
+PASSHOLDER_202206_2_SEASON_NAME|PASSHOLDER SEASON 53
+PASSHOLDER_202206_2_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 53 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR> * KUZCO TOKENS<br> * PACHA TOKENS<br> * NAMAARI TOKENS<br> * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
 PVP_MEGARA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MEGARA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MEGARA</color> and <color=#54C5FF>MORTAL POTION</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
 PVP_MEGARA_INBOX_SUBJECT|Megara Enters the PvP Arena!
 PVP_MOANA_INBOX_BODY|Summoner,<BR><BR>A new PvP season has begun! <color=#54C5FF>MOANA</color> will be featured in the Weekly and Seasonal rewards for the next two seasons! Battle your way up the leagues and open the PvP pack to earn <color=#54C5FF>MOANA</color> and <color=#54C5FF>GRAMMA TALA</color> tokens!<BR><BR>As always, thank you for playing, and see you in the Arena!
@@ -22805,6 +22824,8 @@ BATTLE_EFFECT_POWER_SURGE|POWER SURGE
 BATTLE_EFFECT_POWER_SURGE_DESC|Affected character inflicts SHOCKED for 1 turn and gain 25% Offense when dealing damage.
 INBOX_EVENT_202206_HERCULES_SUBJECT|Hercules 25th Anniversary - Free Gift!
 INBOX_EVENT_202206_HERCULES_BODY|Summoner,<br>Celebrate <color=#54C5FF>Hercules 25th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202206_STITCHANNIVERSARY_CALENDAR_SUBJECT|Lilo & Stitch 20th Anniversary - FREE 21-Day Calendar!
+INBOX_EVENT_202206_STITCHANNIVERSARY_CALENDAR_BODY|Summoner,<br>Celebrate the <color=#54C5FF>Lilo & Stitch 20th Anniversary</color> with a FREE <color=#54C5FF>21-Day Login Calendar</color>! Claim before <color=#54C5FF>June 27</color>, and login for 21 days to unlock one reward per day. Complete your Calendar to unlock the NEW <color=#54C5FF>Cobra Bubbles</color>!<br>Thank you for your continued support, and see you in the Arena!
 PIN_HADES_NAME|HADES TALISMAN
 PIN_HADES_DESC|I'm cool. I'm fine.
 PIN_ZEUS_NAME|ZEUS TALISMAN
@@ -22827,14 +22848,19 @@ EVENT_202206_STAND_OUT_A_L1_DESC|
 EVENT_202206_STAND_OUT_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
 EVENT_202206_STAND_OUT_A_L2_NAME|DANCE FLOOR FEUD III
 EVENT_202206_STAND_OUT_A_L2_DESC|
+EVENT_202206_STAND_OUT_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#4a90e2>Tier 4</color>
 EVENT_202206_STAND_OUT_A_L3_NAME|DANCE FLOOR FEUD IV
 EVENT_202206_STAND_OUT_A_L3_DESC|
+EVENT_202206_STAND_OUT_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#4a90e2>Tier 5</color>
 EVENT_202206_STAND_OUT_A_L4_NAME|DANCE FLOOR FEUD V
 EVENT_202206_STAND_OUT_A_L4_DESC|
+EVENT_202206_STAND_OUT_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#4a90e2>Tier 6</color>
 EVENT_202206_STAND_OUT_A_L5_NAME|DANCE FLOOR FEUD VI
 EVENT_202206_STAND_OUT_A_L5_DESC|
+EVENT_202206_STAND_OUT_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#4a90e2>Tier 6</color>
 EVENT_202206_STAND_OUT_A_L6_NAME|DANCE FLOOR FEUD VII
 EVENT_202206_STAND_OUT_A_L6_DESC|
+EVENT_202206_STAND_OUT_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#b94eff>Tier 7</color>
 EVENT_202206_STAND_OUT_B_NAME|BOOGIE BATTLE
 EVENT_202206_STAND_OUT_B_DESC|
 EVENT_202206_STAND_OUT_B_AURA_NAME|
@@ -22844,14 +22870,19 @@ EVENT_202206_STAND_OUT_B_L0_DESC|
 EVENT_202206_STAND_OUT_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
 EVENT_202206_STAND_OUT_B_L1_NAME|BOOGIE BATTLE II
 EVENT_202206_STAND_OUT_B_L1_DESC|
+EVENT_202206_STAND_OUT_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#4A90E2>Tier 4</color>
 EVENT_202206_STAND_OUT_B_L2_NAME|BOOGIE BATTLE III
 EVENT_202206_STAND_OUT_B_L2_DESC|
+EVENT_202206_STAND_OUT_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#4A90E2>Tier 5</color>
 EVENT_202206_STAND_OUT_B_L3_NAME|BOOGIE BATTLE IV
 EVENT_202206_STAND_OUT_B_L3_DESC|
+EVENT_202206_STAND_OUT_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#4A90E2>Tier 6</color>
 EVENT_202206_STAND_OUT_B_L4_NAME|BOOGIE BATTLE V
 EVENT_202206_STAND_OUT_B_L4_DESC|
+EVENT_202206_STAND_OUT_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#4A90E2>Tier 6</color>
 EVENT_202206_STAND_OUT_B_L5_NAME|BOOGIE BATTLE VI
 EVENT_202206_STAND_OUT_B_L5_DESC|
+EVENT_202206_STAND_OUT_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#B94EFF>Tier 7</color>
 EVENT_202206_STAND_OUT_B_L6_NAME|BOOGIE BATTLE VII
 EVENT_202206_STAND_OUT_B_L6_DESC|
 EVENT_202206_STAND_OUT_B_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 8</color>
@@ -22907,4 +22938,8 @@ SW_DOPEY_PACK_NAME|DOPEY PACK
 SW_DOPEY_PACK_DESC|PURCHASE THIS PACK TO RECEIVE DOPEY TOKENS
 SW_DOC_PACK_NAME|DOC PACK
 SW_DOC_PACK_DESC|PURCHASE THIS PACK TO RECEIVE DOC TOKENS
+INBOX_EVENT_202206_FATHERSDAY_SUBJECT|Father's Day - Free Gift!
+INBOX_EVENT_202206_FATHERSDAY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Father's Day</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202206_FATHERSDAY_EXPEDITION_SUBJECT|Father's Day - Club Expedition Bonus Event
+INBOX_EVENT_202206_FATHERSDAY_EXPEDITION_BODY|Summoner, <BR><BR>Celebrate <color=#54C5FF>Father's Day</color> with Club Expedition <color=#54C5FF>BONUS</color> rewards, available for a limited time! <BR><BR>Earn <color=#54C5FF>Dad Moves Tokens</color> from Boss Chests and <color=#54C5FF>King Triton Tokens</color> and <color=#54C5FF>Mr. Incredible Tokens</color> from Treasure chambers in Club Expedition <color=#54C5FF>June 19 - 25</color>. <BR><BR>Thank you for your continued support, and see you in the Arena!
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> Kevin Holmes <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Tony Wang <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2022 Disney.<br> © 2019-2022 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2022 Electronic Arts Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Electronic Arts Inc. All Rights Reserved. 
