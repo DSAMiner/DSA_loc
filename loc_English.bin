@@ -612,6 +612,8 @@ BATTLE_EFFECT_EEYORE_TAIL_HELPFUL|EEYORE'S TAIL
 BATTLE_EFFECT_EEYORE_TAIL_HELPFUL_DESC|Teammates gain a portion of Eeyore's Defense as bonus Defense.<br>When EEYORES TAIL is applied and on turn start, Eeyore gains Taunt.
 BATTLE_EFFECT_EEYORE_TAIL_HARMFUL|EEYORE'S TAIL
 BATTLE_EFFECT_EEYORE_TAIL_HARMFUL_DESC|Opponents deal less damage per Harmful effect on them.
+BATTLE_EFFECT_HYPERSPEED|HYPERSPEED
+BATTLE_EFFECT_HYPERSPEED_DESC|On Turn End, take an Extra Turn. Affected character cannot gain Magic for abilities.
 BATTLE_EFFECT_STAGGER|STAGGER
 BATTLE_EFFECT_STAGGER_DESC|Affected character cannot use abilities.
 BATTLE_EFFECT_BLIND_DESC|Chance for affected character's attacks to be Evaded is increased by 50%.
@@ -2893,6 +2895,7 @@ DAVY_JONES_UNIT_NAME|DAVY JONES
 DEFERRED_STORE_PURCHASE_MSG_BODY|We have restored your items from a previous store transaction.  They are attached to this inbox message and ready for you to claim.
 DEFERRED_STORE_PURCHASE_MSG_SENDER|<color=#FF5B9E>Disney Sorcerer's Arena Administrator
 DEFERRED_STORE_PURCHASE_MSG_SUBJECT|RESTORED STORE TRANSACTION
+DELETE_ACCOUNT_LABEL|DELETE ACCOUNT
 DEMOCAMPAIGN_MAP_01_NAME|Co-op Demo
 DEMOCAMPAIGN_MAP_01_NODE_01_NAME|1-A Easy
 DEMOCAMPAIGN_MAP_01_NODE_02_NAME|1-B Medium
@@ -5174,11 +5177,15 @@ INBOX_EVENT_202205_2XDROP_GOOFY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>G
 INBOX_EVENT_202205_CRUELLA_SUBJECT|Cruella 1st Anniversary - Free Gift!
 INBOX_EVENT_202205_CRUELLA_BODY|Summoner,<BR><BR>Celebrate the <color=#54C5FF>Cruella 1st Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHSTART_SUBJECT|Stitch 20th Anniversary Flash Gifts Week
-INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHSTART_BODY|Summoner,<br><br><color=#54C5FF>Stitch 20th Anniversary Gifts</color> are on the way!<br><br> Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>June 21 - 27</color>, and enable push notifications to get notified so you don't miss them!<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHSTART_BODY|Summoner,<br><br><color=#54C5FF>Stitch 20th Anniversary Gifts</color> are on the way!<br><br>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>June 21 - 27</color>, and enable push notifications to get notified so you don't miss them!<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHGIFT_SUBJECT|Stitch 20th Anniversary Flash Gift!
 INBOX_EVENT_202206_STITCHANNIVERSARY_FLASHGIFT_BODY|Summoner,<br><br>You've received a <color=#54C5FF>Stitch 20th Anniversary Flash Gift</color>!<br><br>Stay on the lookout for more Flash Gift drops at random times between <color=#54C5FF>June 21 - 27</color>, and enable push notifications to get notified so you don't miss them!<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202206_LIGHTYEAR_SUBJECT|Lightyear Release - Free Gift!
 INBOX_EVENT_202206_LIGHTYEAR_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Lightyear Release</color> with this FREE <color=#54C5FF>Gift</color>!<br><br>Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202206_RATATOUILLE_SUBJECT|Ratatouille 15th Anniversary - Free Gift!
+INBOX_EVENT_202206_RATATOUILLE_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Ratatouille 15th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>!<br><br>Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202206_STITCHDAY_INBOX_SUBJECT|Stitch Day - Free Gift!
+INBOX_EVENT_202206_STITCHDAY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Stitch Day</color> and <color=#54C5FF>Experiment 626</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSOON_SUBJECT|Coming Soon - Valentine Flash Gifts
 INBOX_EVENT_202102_VALENTINEFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Valentine Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>February 14 - 18</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSTART_SUBJECT|Valentine Flash Gift
@@ -12593,6 +12600,14 @@ PIN_FAZHOU_NAME|FA ZHOU TALISMAN
 PIN_FAZHOU_DESC|The greatest gift and honor is having you for a daughter.
 PIN_KINGFRED_NAME|KING FREDERIC TALISMAN
 PIN_KINGFRED_DESC|I am the King and I have the situation under control!
+PIN_LINGUINI_NAME|ALFREDO LINGUINI TALISMAN
+PIN_LINGUINI_DESC|I didn't write it down. It just came to me!
+PIN_ANTONEGO_NAME|ANTON EGO TALISMAN
+PIN_ANTONEGO_DESC|Not everyone can become a great artist, but a great artist can come from anywhere.
+PIN_JUMBAJOOKIBA_NAME|JUMBA JOOKIBA TALISMAN
+PIN_JUMBAJOOKIBA_DESC|My experiments are only theoretical, and completely within legal boundaries.
+PIN_STITCH_NAME|STITCH TALISMAN
+PIN_STITCH_DESC|I like fluffy!
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -12634,6 +12649,9 @@ PLACEHOLDER_PASSHOLDER_DESC|PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE:<br><br> 
 PLACEHOLDER_PASSHOLDER_INACTIVE_SEASON_DESC|COMPLETE LIMITED-TIME EXCLUSIVE QUESTS TO EARN ALADDIN TOKENS AND OTHER RARE REWARDS
 PLACEHOLDER_PASSHOLDER_INACTIVE_SEASON_HEADING|COMING SOON - PASSHOLDER<color=#FFBC08> GOLD</color> MAY 2019
 PLACEHOLDER_PASSHOLDER_INACTIVE_SEASON_NAME|PASSHOLDER<color=#FFBC08> GOLD</color> MAY 2019
+PLAYER_ACCOUNT_DELETED_OR_IN_PROGRESS|Your account has been deleted.
+PLAYER_ACCOUNT_DELETION_ERROR|AN ERROR OCCURED WHILE DELETING YOUR ACCOUNT:<BR>{0}
+PLAYER_ACCOUNT_DELETION_WARNING_MESSAGE|WARNING!<BR> THIS CANNOT BE UNDONE! <BR> Are you sure you want to permanently delete your Disney Sorcerer's Arena account and game progress? Please note that account deletion will not cancel relevant subscriptions that you may have. These will need to be canceled directly with Apple. More details <link="https://help.ea.com/en-gb/help/account/close-ea-account/"><color="yellow">here</color></link>.
 PLAYER_ACTIVITY_ALL|DAILY QUEST REWARDS
 PLAYER_ACTIVITY_ALL_DESC|COMPLETE ALL DAILY QUESTS
 PLAYER_ACTIVITY_BATTLE_24_DESC|Complete 24 Battles
@@ -18536,6 +18554,18 @@ ZEUS_PASSIVEB_ABILPREVIEWUPGRADE_03|+{0:N0} Evasion.
 ZEUS_LEADER_DESC_01|'Hero'</color> teammates gain <color=#FEF8E4>{0:P0}</color> Offense, plus <color=#FEF8E4>{1:P0}</color> per Helpful effect on them, up to a max of <color=#FEF8E4>{2:N0}</color>.<br>'Mythical'</color> teammates gain <color=#FEF8E4>{3:P0}</color> Crit Power, plus <color=#FEF8E4>{4:P0}</color> per Helpful effect on them, up to a max of <color=#FEF8E4>{2:N0}</color>.
 ZEUS_LEADER_ABILPREVIEWUPGRADE_01|+{0:P0} Offense for 'Hero' teammates.
 ZEUS_LEADER_ABILPREVIEWUPGRADE_02|+{0:P0} Crit Power for 'Mythical' teammates.
+MARKETING_PN_NEWLIGHTYEAREVENTSTART_TITLE|To Infinity and Beyond!
+MARKETING_PN_NEWLIGHTYEAREVENTSTART_BODY|The NEW Lightyear Event begins today! Play now!
+MARKETING_PN_LIGHTYEAREVENTSTART_TITLE|To Infinity and Beyond!
+MARKETING_PN_LIGHTYEAREVENTSTART_BODY|Participate and earn Interstellar Coins for unlocking Sox and Lightyear!
+MARKETING_PN_LIGHTYEAREVENTREMINDER_TITLE|The Infinity Event is LIVE!
+MARKETING_PN_LIGHTYEAREVENTREMINDER_BODY|Earn Interstellar Coins to unlock Sox and Lightyear Tokens!
+MARKETING_PN_LIGHTYEAREVENTLASTCHANCE_TITLE|Time is running out!
+MARKETING_PN_LIGHTYEAREVENTLASTCHANCE_BODY|Last chance to earn Interstellar Coins to earn Sox and Lightyear tokens!
+MARKETING_PN_STITCHDAY2022INBOXGIFT_TITLE|Celebrate Experiment 626!
+MARKETING_PN_STITCHDAY2022INBOXGIFT_BODY|Collect your FREE Talisman Inbox Gift!
+MARKETING_PN_RATOUILLEINBOXGIFT_TITLE|Celebrate Ratatouille's 15th Anniversary!
+MARKETING_PN_RATOUILLEINBOXGIFT_BODY|Collect your FREE Talisman Inbox Gift!
 MARKETING_PN_MIGUEL_GIFT|Your FREE Miguel tokens are only available for 2 more hours! Open now!!
 MARKETING_TANGLED_ANNIVERSARY|<SUNEMOJI>Celebrate Tangled's 10th Anniversary!<SUNEMOJI>
 MARKETING_FREE_TALISMAN_GIFT|Log in now for your FREE talisman gift!
@@ -22827,7 +22857,7 @@ BATTLE_EFFECT_POWER_SURGE_DESC|Affected character inflicts SHOCKED for 1 turn an
 INBOX_EVENT_202206_HERCULES_SUBJECT|Hercules 25th Anniversary - Free Gift!
 INBOX_EVENT_202206_HERCULES_BODY|Summoner,<br>Celebrate <color=#54C5FF>Hercules 25th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202206_STITCHANNIVERSARY_CALENDAR_SUBJECT|Lilo & Stitch 20th Anniversary - FREE 21-Day Calendar!
-INBOX_EVENT_202206_STITCHANNIVERSARY_CALENDAR_BODY|Summoner,<br>Celebrate the <color=#54C5FF>Lilo & Stitch 20th Anniversary</color> with a FREE <color=#54C5FF>21-Day Login Calendar</color>! Claim before <color=#54C5FF>June 27</color>, and login for 21 days to unlock one reward per day. Complete your Calendar to unlock the NEW <color=#54C5FF>Cobra Bubbles</color>!<br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202206_STITCHANNIVERSARY_CALENDAR_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Lilo & Stitch 20th Anniversary</color> with a FREE <color=#54C5FF>21-Day Login Calendar</color>! Claim before <color=#54C5FF>June 27</color>, and login for 21 days to unlock one reward per day. Complete your Calendar to unlock the NEW <color=#54C5FF>Cobra Bubbles</color>!<br>Thank you for your continued support, and see you in the Arena!
 PIN_HADES_NAME|HADES TALISMAN
 PIN_HADES_DESC|I'm cool. I'm fine.
 PIN_ZEUS_NAME|ZEUS TALISMAN
@@ -22944,8 +22974,163 @@ INBOX_EVENT_202206_FATHERSDAY_SUBJECT|Father's Day - Free Gift!
 INBOX_EVENT_202206_FATHERSDAY_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>Father's Day</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Celebration Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202206_FATHERSDAY_EXPEDITION_SUBJECT|Father's Day - Club Expedition Bonus Event
 INBOX_EVENT_202206_FATHERSDAY_EXPEDITION_BODY|Summoner, <BR><BR>Celebrate <color=#54C5FF>Father's Day</color> with Club Expedition <color=#54C5FF>BONUS</color> rewards, available for a limited time! <BR><BR>Earn <color=#54C5FF>Dad Moves Tokens</color> from Boss Chests and <color=#54C5FF>King Triton Tokens</color> and <color=#54C5FF>Mr. Incredible Tokens</color> from Treasure chambers in Club Expedition <color=#54C5FF>June 19 - 25</color>. <BR><BR>Thank you for your continued support, and see you in the Arena!
+SOX_UNIT_NAME|SOX
+UNIT_PROMO_MAT_SOX|SOX TOKENS
+SOX_ABILBASIC_NAME|LIFE FORMS DETECTED
+SOX_ABILSPECIALA_NAME|I BOUGHT YOU 5 MINUTES
+SOX_ABILPASSIVEA_NAME|MY MISSIONS IS TO HELP YOU
+SOX_ABILPASSIVEB_NAME|YOUR PERSONAL COMPANION ROBOT
+SOX_BASIC_ABILPREVIEWUPGRADE_01|Call <color=#FEF8E4>{0:N0} 'Interstellar'</color> teammate to assist, preferring <color=#FEF8E4>Captain Lightyear</color>.
+SOX_BASIC_ABILPREVIEWUPGRADE_02|Grant assisting teammate <color=#FEF8E4>{0:P0}</color> bonus Crit Power.
+SOX_BASIC_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> bonus Crit Power.
+SOX_SPECIALA_ABILPREVIEWUPGRADE_01|If target has <color=#F4BE43>Taunt</color> or <color=#F4BE43>Protect</color>, damage is unavoidable and Purge <color=#F4BE43>Taunt</color> and <color=#F4BE43>Protect</color>.
+SOX_PASSIVEA_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>+{0:P0}</color> activation chance.
+SOX_PASSIVEB_ABILPREVIEWUPGRADE_01|The first time <color=#FEF8E4>Sox</color> would be defeated, instead perform the following:<br>I Require a Reboot: Gain <color=#79C7CF>STASIS</color> for <color=#FEF8E4>{0:N0}</color> turn. When STASIS ends, Restore <color=#FEF8E4>{1:P0}</color> of Max Health, gain <color=#FEF8E4>{2:N0}</color> <color=#F4BE43>UNDEFEATABLE</color>.
+SOX_PASSIVEB_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:P0}</color> activation chance.
+SOX_PASSIVEB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:P0}</color> Health restored.
+SOX_BASIC_DESC_01|Purge <color=#FEF8E4>{1:N0}</color> Helpful effect. Deal <color=#FFC400>{0:N0}</color> damage. Inflict <color=#EB5873><link=BATTLE_EFFECT_EXPOSED>[VULNERABLE]</link></color>.
+SOX_BASIC_DESC_02|Purge <color=#FEF8E4>{1:N0}</color> Helpful effect. Deal <color=#FFC400>{0:N0}</color> damage. Inflict <color=#EB5873><link=BATTLE_EFFECT_EXPOSED>[VULNERABLE]</link></color>. Call <color=#FEF8E4>{2:N0} 'Interstellar'</color> teammate to assist, preferring <color=#FEF8E4>Captain Lightyear</color>.
+SOX_BASIC_DESC_03|Purge <color=#FEF8E4>{1:N0}</color> Helpful effect. Deal <color=#FFC400>{0:N0}</color> damage. Inflict <color=#EB5873><link=BATTLE_EFFECT_EXPOSED>[VULNERABLE]</link></color>. Call <color=#FEF8E4>{2:N0} 'Interstellar'</color> teammate to assist with <color=#FEF8E4>{3:P0}</color> bonus Crit Power, preferring <color=#FEF8E4>Captain Lightyear</color>.
+SOX_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_SLEEP>[SLEEP]</link></color> for <color=#FEF8E4>{1:N0}</color> turns with <color=#FEF8E4>{2:P0}</color> bonus Potency.
+SOX_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_SLEEP>[SLEEP]</link></color> for <color=#FEF8E4>{1:N0}</color> turns with <color=#FEF8E4>{2:P0}</color> bonus Potency. If target has <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> or <color=#F4BE43><link=BATTLE_EFFECT_PROTECT>[PROTECT]</link></color>, damage is unavoidable and Purge <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> and <color=#F4BE43><link=BATTLE_EFFECT_PROTECT>[PROTECT]</link></color>.
+SOX_SPECIALA_DESC_03|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent. Inflict <color=#EB5873><link=BATTLE_EFFECT_SLEEP>[SLEEP]</link></color> for <color=#FEF8E4>{1:N0}</color> turns and <color=#FEF8E4>{3:P0}</color> chance to inflict <color=#EB5873><link=BATTLE_EFFECT_SLOW>[SLOW]</link></color> with <color=#FEF8E4>{2:P0}</color> bonus Potency. If target has <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> or  <color=#F4BE43><link=BATTLE_EFFECT_PROTECT>[PROTECT]</link></color>, damage is unavoidable and Purge <color=#F4BE43><link=BATTLE_EFFECT_TAUNT>[TAUNT]</link></color> and <color=#F4BE43><link=BATTLE_EFFECT_PROTECT>[PROTECT]</link></color>.
+SOX_PASSIVEA_DESC_01|When a teammate attacks an opponent, <color=#FEF8E4>{0:P0}</color> chance to assist with one of the following, guaranteed for <color=#FEF8E4>Captain Lightyear</color>:Purge <color=#FEF8E4>{1:N0}</color> Helpful effect. Perform 1 additional effect at random:<br><br><color=#FEF8E4>(1) Data Port Tail // Allow Me</color>: Deal up to <color=#FFC400>{2:N0}</color> damage <color=#FEF8E4>{3:N0}</color> times. Steal <color=#FEF8E4>{4:N0}</color> Magic for this ability.<br><br><color=#FEF8E4>(2) Welding Laser // Perhaps I can Help!</color>: Purge <color=#FEF8E4>{5:N0}</color> additional Helpful effect. Deal up to <color=#FFC400>{6:N0}</color> damage. Inflict <color=#EB5873><link=BATTLE_EFFECT_CONTINUOUS_DAMAGE>[CONTINUOUS DAMAGE]</link></color>, dealing <color=#FFC400>{7:N0}</color> damage for <color=#FEF8E4>{8:N0}</color> turn.<br><br><color=#FEF8E4>(3) Mechanized Pounce</color>: Purge <color=#FEF8E4>{9:N0}</color> additional Helpful effects. Deal up to <color=#FFC400>{10:N0}</color> damage <color=#FEF8E4>{11:N0}</color> times. Inflict <color=#EB5873><link=BATTLE_EFFECT_STUN>[STUN]</link></color> for <color=#FEF8E4>{12:N0}</color> turn.
+SOX_PASSIVEB_DESC_01|When a teammate receives a Helpful effect from another teammate, <color=#FEF8E4>{0:P0}</color> chance to perform the following on the receiving teammate:<br>Restore <color=#5DFF89>{1:N0}</color> Health. Perform 1 additional effect at random:<br><br><color=#FEF8E4>(1) Crystollic Fusion, Of Course!</color>: Grant <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#FEF8E4>(2) Long Range Scanners // Sensors Indicate</color>: Call to assist on a random opponent. Grant <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#FEF8E4>(3) Empathy Chip // I Enjoy This!</color>: Restore <color=#5DFF89>{3:N0}</color> additional Health. Grant <color=#5DFF89><link=BATTLE_EFFECT_CONTINUOUS_HEALING>[CONTINUOUS HEALING]</link></color>, restoring <color=#5DFF89>{4:N0}</color> Health over <color=#FEF8E4>{5:N0}</color> turns and <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#FEF8E4>(4) Holo Projectors // I Have a Message For You</color>: Perform the following on all teammates:Grant <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> and <color=#F4BE43><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> for <color=#FEF8E4>{2:N0}</color> turn, restore <color=#5DFF89>{6:N0}</color> Health, call to assist on random opponents.
+SOX_PASSIVEB_DESC_02|When a teammate receives a Helpful effect from another teammate, <color=#FEF8E4>{0:P0}</color> chance to perform the following on the receiving teammate:<br>Restore <color=#5DFF89>{1:N0}</color> Health. Perform 1 additional effect at random:<br><br><color=#FEF8E4>(1) Crystollic Fusion, Of Course!</color>: Grant <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#FEF8E4>(2) Long Range Scanners // Sensors Indicate</color>: Call to assist on a random opponent. Grant <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#FEF8E4>(3) Empathy Chip // I Enjoy This!</color>: Restore <color=#5DFF89>{3:N0}</color> additional Health. Grant <color=#5DFF89><link=BATTLE_EFFECT_CONTINUOUS_HEALING>[CONTINUOUS HEALING]</link></color>, restoring <color=#5DFF89>{4:N0}</color> Health over <color=#FEF8E4>{5:N0}</color> turns and <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{2:N0}</color> turn.<br><br><color=#FEF8E4>(4) Holo Projectors // I Have a Message For You</color>: Perform the following on all teammates:Grant <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> and <color=#F4BE43><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> for <color=#FEF8E4>{2:N0}</color> turn, restore <color=#5DFF89>{6:N0}</color> Health, call to assist on random opponents.<br><br>The first time Sox would be defeated, instead perform the following:<br>I Require a Reboot: Gain <color=#79C7CF><link=BATTLE_EFFECT_STASIS>[STASIS]</link></color> for <color=#FEF8E4>{7:N0}</color> turn. When <color=#79C7CF><link=BATTLE_EFFECT_STASIS>[STASIS]</link></color> ends, Restore <color=#FEF8E4>{8:P0}</color> of Max Health, gain <color=#F4BE43><link=BATTLE_EFFECT_UNKILLABLE>[UNDEFEATABLE]</link></color>.
+UNIT_CATEGORY_LIGHTYEAR|LIGHTYEAR
+UNIT_CATEGORY_INTERSTELLAR|INTERSTELLAR
+CAPTAIN_LIGHTYEAR_UNIT_NAME|CAPTAIN LIGHTYEAR
+UNIT_PROMO_MAT_CAPTAIN_LIGHTYEAR|CAPTAIN LIGHTYEAR TOKENS
+CAPTAINLIGHTYEAR_ABILBASIC_NAME|LASER GAUNTLET
+CAPTAINLIGHTYEAR_ABILSPECIALA_NAME|SPACE RANGER "RASCAL" BLASTER
+CAPTAINLIGHTYEAR_ABILSPECIALB_NAME|LASER BLADE 2.0
+CAPTAINLIGHTYEAR_ABILPASSIVEA_NAME|THIS SUIT MEANS SOMETHING
+CAPTAINLIGHTYEAR_ABILPASSIVEB_NAME|MISSION: HYPERSPEED
+CAPTAINLIGHTYEAR_LEADER_NAME|TO INFINITY...
+CAPTAINLIGHTYEAR_BASIC_ABILPREVIEWUPGRADE_01|<color=#FEF8E4>{0:P0}</color> chance to assist <color=#FEF8E4>'Interstellar'</color> teammates, guaranteed with <color=#F4BE43>TACTICS</color>.
+CAPTAINLIGHTYEAR_SPECIALA_ABILPREVIEWUPGRADE_01|If any hit Crit, repeat the ability <color=#FEF8E4>{0:N0}</color> time.
+CAPTAINLIGHTYEAR_SPECIALA_BONUSCRITPOWER|+<color=#FEF8E4>{0:P0}</color> bonus Crit Power.
+CAPTAINLIGHTYEAR_SPECIALB_ABILPREVIEWUPGRADE_01|If the target is defeated, repeat this ability on the target with the lowest Health.
+CAPTAINLIGHTYEAR_PASSIVEA_ABILPREVIEWUPGRADE_01|The first time Captain Lightyear would be defeated, instead perform the following:<br><color=#FEF8E4>Finish The Mission:</color> Restore <color=#5DFF89>{0:P0}</color> of Max Health, gain <color=#F4BE43>Undefeatable</color> and counterattack attacker.
+CAPTAINLIGHTYEAR_PASSIVEA_RESTOREMAXHEALTH|<color=#5DFF89>+{0:P0}</color> Health restored.
+CAPTAINLIGHTYEAR_PASSIVEB_ABILPREVIEWUPGRADE_01|When <color=#79C7CF>HYPERSPEED</color> expires, gain <color=#F4BE43>HASTE</color> for <color=#FEF8E4>{0:N0}</color> turns.
+CAPTAINLIGHTYEAR_PASSIVEB_HYPERSPEED_DUR_INC|<color=#FEF8E4>+{0:N0}</color> <color=#79C7CF>HYPERSPEED</color> duration.
+CAPTAINLIGHTYEAR_LEADER_ABILPREVIEWUPGRADE_01|When <color=#FEF8E4>'Interstellar'</color> teammates Crit, they gain <color=#FEF8E4>{0:P0}</color> Speed Meter.
+CAPTAINLIGHTYEAR_LEADER_GAINCRITPOWER|<color=#FEF8E4>+{0:P0}</color> Crit Power.
+CAPTAINLIGHTYEAR_LEADER_GAINSPEED|<color=#FEF8E4>+{0:P0}</color> Speed.
+CAPTAINLIGHTYEAR_BASIC_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.
+CAPTAINLIGHTYEAR_BASIC_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times.<br><br><color=#FEF8E4>{2:P0}</color> chance to assist <color=#FEF8E4>'Interstellar'</color> teammates, guaranteed with <color=#F4BE43><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color>.
+CAPTAINLIGHTYEAR_SPECIALA_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times with <color=#FEF8E4>{2:P0}</color> bonus Crit Power.
+CAPTAINLIGHTYEAR_SPECIALA_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times with <color=#FEF8E4>{2:P0}</color> bonus Crit Power and If any hit Crit, repeat the ability <color=#FEF8E4>{3:N0}</color> time.
+CAPTAINLIGHTYEAR_SPECIALB_DESC_01|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times, then <color=#FEF8E4>{2:N0}</color> additional time for up to <color=#FFC400>{3:N0}</color> damage and deal the percent of target's missing Health as bonus damage.
+CAPTAINLIGHTYEAR_SPECIALB_DESC_02|Deal up to <color=#FFC400>{0:N0}</color> damage to target opponent <color=#FEF8E4>{1:N0}</color> times, then <color=#FEF8E4>{2:N0}</color> additional time for up to <color=#FFC400>{3:N0}</color> damage and deal the percent of target's missing Health as bonus damage.<br><br>If the target is defeated, repeat this ability on the target with the lowest Health.
+CAPTAINLIGHTYEAR_PASSIVEA_DESC_01|At start of turn, <color=#FEF8E4>{0:P0}</color> chance to perform the following:<br>Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effect. Perform 1 addition effect at random:<br><br>(1) <color=#FEF8E4>Stealth Mode:</color> Gain <color=#F4BE43><link=BATTLE_EFFECT_STEALTH>[STEALTH]</link></color> for <color=#FEF8E4>{2:N0}</color> turn. Gain <color=#FEF8E4>{3:N0}</color> Magic for this ability.<br><br>(2) <color=#FEF8E4>Course Correction:</color> Cleanse <color=#FEF8E4>{4:N0}</color> additional Harmful effect. Gain <color=#F4BE43><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> for <color=#FEF8E4>{5:N0}</color> turn.<br><br>(3) <color=#FEF8E4>Mission Log:</color> Cleanse <color=#FEF8E4>{6:N0}</color> additional Harmful effects. Gain <color=#F4BE43><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> and <color=#F4BE43><link=BATTLE_EFFECT_CRIT_CHANCE_UP>[CRITICAL CHANCE UP]</link></color> for <color=#FEF8E4>{5:N0}</color> turn.
+CAPTAINLIGHTYEAR_PASSIVEA_DESC_02|At start of turn, <color=#FEF8E4>{0:P0}</color> chance to perform the following:<br>Cleanse <color=#FEF8E4>{1:N0}</color> Harmful effect. Perform 1 addition effect at random:<br><br>(1) <color=#FEF8E4>Stealth Mode:</color> Gain <color=#F4BE43><link=BATTLE_EFFECT_STEALTH>[STEALTH]</link></color> for <color=#FEF8E4>{2:N0}</color> turn. Gain <color=#FEF8E4>{3:N0}</color> Magic for this ability.<br><br>(2) <color=#FEF8E4>Course Correction:</color> Cleanse <color=#FEF8E4>{4:N0}</color> additional Harmful effect. Gain <color=#F4BE43><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> for <color=#FEF8E4>{5:N0}</color> turn.<br><br>(3) <color=#FEF8E4>Mission Log:</color> Cleanse <color=#FEF8E4>{6:N0}</color> additional Harmful effects. Gain <color=#F4BE43><link=BATTLE_EFFECT_TACTICS>[TACTICS]</link></color> and <color=#F4BE43><link=BATTLE_EFFECT_CRIT_CHANCE_UP>[CRITICAL CHANCE UP]</link></color> for <color=#FEF8E4>{5:N0}</color> turn.<br><br>The first time Captain Lightyear would be defeated, instead perform the following:<br><color=#FEF8E4>Finish The Mission:</color> Restore <color=#5DFF89>{7:P0}</color> of Max Health, gain <color=#F4BE43><link=BATTLE_EFFECT_UNKILLABLE>[UNDEFEATABLE]</link></color> and counterattack attacker.
+CAPTAINLIGHTYEAR_PASSIVEB_DESC_01|When Captain Lightyear performs an ability, he gains different <color=#FEF8E4>FUEL</color> depending on the ability.<br><br>Basic: <color=#FEF8E4>RED FUEL</color> - Gain <color=#FEF8E4>{0:P0}</color> Evasion.<br>Special A: <color=#FEF8E4>GREEN FUEL</color> - Gain <color=#FEF8E4>{1:P0}</color> Offense.<br>Special B: <color=#FEF8E4>BLUE FUEL</color> - Gain <color=#FEF8E4>{2:P0}</color> Speed.<br>Passive A: <color=#FEF8E4>ORANGE FUEL</color> - Gain <color=#FEF8E4>{3:P0}</color> Crit Chance.<br><br>When gaining all <color=#FEF8E4>FUEL</color>, perform the following: Deal <color=#FFC400>{4:N0}</color> damage to all opponents. Gain <color=#79C7CF><link=BATTLE_EFFECT_HYPERSPEED>[HYPERSPEED]</link></color> for <color=#FEF8E4>{5:N0}</color> turns. When <color=#79C7CF><link=BATTLE_EFFECT_HYPERSPEED>[HYPERSPEED]</link></color> expires, lose all FUEL.
+CAPTAINLIGHTYEAR_PASSIVEB_DESC_02|When Captain Lightyear performs an ability, he gains different <color=#FEF8E4>FUEL</color> depending on the ability.<br><br>Basic: <color=#FEF8E4>RED FUEL</color> - Gain <color=#FEF8E4>{0:P0}</color> Evasion.<br>Special A: <color=#FEF8E4>GREEN FUEL</color> - Gain <color=#FEF8E4>{1:P0}</color> Offense.<br>Special B: <color=#FEF8E4>BLUE FUEL</color> - Gain <color=#FEF8E4>{2:P0}</color> Speed.<br>Passive A: <color=#FEF8E4>ORANGE FUEL</color> - Gain <color=#FEF8E4>{3:P0}</color> Crit Chance.<br><br>When gaining all <color=#FEF8E4>FUEL</color>, perform the following: Deal <color=#FFC400>{4:N0}</color> damage to all opponents. Gain <color=#79C7CF><link=BATTLE_EFFECT_HYPERSPEED>[HYPERSPEED]</link></color> for <color=#FEF8E4>{5:N0}</color> turns. When <color=#79C7CF><link=BATTLE_EFFECT_HYPERSPEED>[HYPERSPEED]</link></color> expires, lose all FUEL.<br><br>When <color=#79C7CF><link=BATTLE_EFFECT_HYPERSPEED>[HYPERSPEED]</link></color> expires: Lose all FUEL. Gain <color=#F4BE43><link=BATTLE_EFFECT_HASTE>[HASTE]</link></color> for <color=#FEF8E4>{6:N0}</color> turns.
+CAPTAINLIGHTYEAR_LEADER_DESC_01|<color=#FEF8E4>'Interstellar'</color> teammates gain the following:<br><br><color=#FEF8E4>{0:P0}</color> Speed.<br><br><color=#FEF8E4>{1:P0}</color> Crit Power.
+CAPTAINLIGHTYEAR_LEADER_DESC_02|<color=#FEF8E4>'Interstellar'</color> teammates gain the following:<br><br><color=#FEF8E4>{0:P0}</color> Speed.<br><br><color=#FEF8E4>{1:P0}</color> Crit Power.<br><br>When <color=#FEF8E4>'Interstellar'</color> teammates Crit, they gain <color=#FEF8E4>{2:P0}</color> Speed Meter.
 PIN_IZZY_NAME|IZZY TALISMAN
 PIN_IZZY_DESC|I have a plan, and I have a team.
 PIN_ZURG_LIGHTYEAR_NAME|ZURG TALISMAN
 PIN_ZURG_LIGHTYEAR_DESC|Prepare to die!
+INBOX_EVENT_202206_2XDROP_STITCHDAY_SUBJECT|Stitch Day - 2x Token Drop
+INBOX_EVENT_202206_2XDROP_STITCHDAY_BODY|Summoner,<br><br>Don't miss out on <color=#54C5FF>2x Token Drops</color> for <color=#54C5FF>Captain Gantu,</color> <color=#54C5FF>Cobra Bubbles,</color> and <color=#54C5FF>Stitch</color> in the <color=#54C5FF>Lilo and Stitch</color> Side Campaign for a limited time!<br>Look for the BONUS banner on the <color=#54C5FF>Lilo and Stitch</color> Side Campaign.<br>Thank you for your continued support, and see you in the Arena!
+BONUS_LOOT_2XDROP_202206_STITCH_DAY|STITCH DAY 2X TOKEN DROP
+EVENT_202206_TO_INFINITY_META_DESC|Power up your Interstellar team and battle to earn Sox and Captain Lightyear Tokens!<br><br><color=#B8E986>SEASONAL EVENT</color>
+EVENT_202206_TO_INFINITY_META_NAME|TO INFINITY
+EVENT_202206_TO_INFINITY_PORTAL_DESC|Earn Captain Lightyear Tokens!
+EVENT_202206_TO_INFINITY_AURA_NAME|
+EVENT_202206_TO_INFINITY_AURA_DESC|
+EVENT_202206_TO_INFINITY_A_NAME|COSMIC COLLISION
+EVENT_202206_TO_INFINITY_A_DESC|
+EVENT_202206_TO_INFINITY_A_AURA_NAME|
+EVENT_202206_TO_INFINITY_A_AURA_DESC|
+EVENT_202206_TO_INFINITY_A_L0_NAME|COSMIC COLLISION I
+EVENT_202206_TO_INFINITY_A_L0_DESC|•Defeat all enemies!
+EVENT_202206_TO_INFINITY_A_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 25+<br>• Gear <color=#8ab65d>Tier 2</color>
+EVENT_202206_TO_INFINITY_A_L1_NAME|COSMIC COLLISION II
+EVENT_202206_TO_INFINITY_A_L1_DESC|
+EVENT_202206_TO_INFINITY_A_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 35+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202206_TO_INFINITY_A_L2_NAME|COSMIC COLLISION III
+EVENT_202206_TO_INFINITY_A_L2_DESC|
+EVENT_202206_TO_INFINITY_A_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202206_TO_INFINITY_A_L3_NAME|COSMIC COLLISION IV
+EVENT_202206_TO_INFINITY_A_L3_DESC|
+EVENT_202206_TO_INFINITY_A_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#4a90e2>Tier 4</color>
+EVENT_202206_TO_INFINITY_A_L4_NAME|COSMIC COLLISION V
+EVENT_202206_TO_INFINITY_A_L4_DESC|
+EVENT_202206_TO_INFINITY_A_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#4a90e2>Tier 5</color>
+EVENT_202206_TO_INFINITY_A_L5_NAME|COSMIC COLLISION VI
+EVENT_202206_TO_INFINITY_A_L5_DESC|
+EVENT_202206_TO_INFINITY_A_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#b94eff>Tier 6</color>
+EVENT_202206_TO_INFINITY_A_L6_NAME|COSMIC COLLISION VII
+EVENT_202206_TO_INFINITY_A_L6_DESC|
+EVENT_202206_TO_INFINITY_A_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#b94eff>Tier 6</color>
+EVENT_202206_TO_INFINITY_A_L7_NAME|COSMIC COLLISION VIII
+EVENT_202206_TO_INFINITY_A_L7_DESC|
+EVENT_202206_TO_INFINITY_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#b94eff>Tier 7</color>
+EVENT_202206_TO_INFINITY_B_NAME|GALACTIC GAMBIT
+EVENT_202206_TO_INFINITY_B_DESC|
+EVENT_202206_TO_INFINITY_B_AURA_NAME|
+EVENT_202206_TO_INFINITY_B_AURA_DESC|
+EVENT_202206_TO_INFINITY_B_L0_NAME|GALACTIC GAMBIT I
+EVENT_202206_TO_INFINITY_B_L0_DESC|
+EVENT_202206_TO_INFINITY_B_L0_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 45+<br>• Gear <color=#8ab65d>Tier 3</color>
+EVENT_202206_TO_INFINITY_B_L1_NAME|GALACTIC GAMBIT II
+EVENT_202206_TO_INFINITY_B_L1_DESC|
+EVENT_202206_TO_INFINITY_B_L1_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 55+<br>• Gear <color=#4A90E2>Tier 4</color>
+EVENT_202206_TO_INFINITY_B_L2_NAME|GALACTIC GAMBIT III
+EVENT_202206_TO_INFINITY_B_L2_DESC|
+EVENT_202206_TO_INFINITY_B_L2_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60+<br>• Gear <color=#4A90E2>Tier 5</color>
+EVENT_202206_TO_INFINITY_B_L3_NAME|GALACTIC GAMBIT IV
+EVENT_202206_TO_INFINITY_B_L3_DESC|
+EVENT_202206_TO_INFINITY_B_L3_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 65+<br>• Gear <color=#4A90E2>Tier 6</color>
+EVENT_202206_TO_INFINITY_B_L4_NAME|GALACTIC GAMBIT V
+EVENT_202206_TO_INFINITY_B_L4_DESC|
+EVENT_202206_TO_INFINITY_B_L4_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#4A90E2>Tier 6</color>
+EVENT_202206_TO_INFINITY_B_L5_NAME|GALACTIC GAMBIT VI
+EVENT_202206_TO_INFINITY_B_L5_DESC|
+EVENT_202206_TO_INFINITY_B_L5_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 70+<br>• Gear <color=#B94EFF>Tier 7</color>
+EVENT_202206_TO_INFINITY_B_L6_NAME|GALACTIC GAMBIT VII
+EVENT_202206_TO_INFINITY_B_L6_DESC|
+EVENT_202206_TO_INFINITY_B_L6_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 75+<br>• Gear <color=#8ab65d>Tier 8</color>
+TROPHY_TO_INFINITY_NAME|TO INFINITY TROPHY
+TROPHY_TO_INFINITY_DESC|Awarded for completing the To Infinity Event. Collect Event Trophies to display in a showcase on your profile! They can also be used as Profile icons.
+INBOX_EVENT_202206_TO_INFINITY_PREVIEW_SUBJECT|Coming Soon: To Infinity Event!
+INBOX_EVENT_202206_TO_INFINITY_PREVIEW_BODY|Summoner,<br><br>The <color=#54C5FF>To Infinity</color> Event is coming soon!<br><br>Gather your <color=#54C5FF>Interstellar</color> team and get ready to battle to earn exclusive <color=#54C5FF>LIGHTYEAR</color> characters!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_202206_TO_INFINITY_ACTIVE_SUBJECT|The To Infinity Event is LIVE!
+INBOX_EVENT_202206_TO_INFINITY_ACTIVE_BODY|Summoner,<br><br>The <color=#54C5FF>To Infinity</color> Event has begun!<br><br>Gather your <color=#54C5FF>Interstellar</color> team and head into battle to earn exclusive <color=#54C5FF>LIGHTYEAR</color> characters!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_202206_TO_INFINITY_LAST_CHANCE_SUBJECT|Last Chance: To Infinity Event!
+INBOX_EVENT_202206_TO_INFINITY_LAST_CHANCE_BODY|Summoner,<br><br>The <color=#54C5FF>To Infinity</color> Event is ending soon!<br><br>LAST CHANCE</color> to gather your <color=#54C5FF>Interstellar</color> team and battle to earn exclusive <color=#54C5FF>LIGHTYEAR</color> characters!<br><br>Good luck, and see you in the Arena!
+INBOX_EVENT_202206_TO_INFINITY_INBOX_DAILY_SUBJECT|The To Infinity Event continues!
+INBOX_EVENT_202206_TO_INFINITY_INBOX_DAILY_BODY|Summoner,<BR><BR>The <color=#54C5FF>To Infinity</color> Event continues. Collect and power up <color=#54C5FF>Interstellar</color> Characters to earn exclusive <color=#54C5FF>LIGHTYEAR</color> characters. Battle to earn rewards every day during the event! Be sure to use your <color=#54C5FF>FREE</color> attempts, and request another from your club.
+STORE_ITEM_LY_SOX_NAME|SOX BUNDLE
+STORE_ITEM_LY_SOX_DESC|UNLOCK SOX AND POWER HIM UP WITH THIS LIMITED TIME OFFER. INCLUDES SOX TOKENS, GOLD, ABILITY RUNES AND MORE.
+STORE_ITEM_LY_LIGHTYEAR_NAME|CAPTAIN LIGHTYEAR BUNDLE
+STORE_ITEM_LY_LIGHTYEAR_DESC|UNLOCK CAPTAIN LIGHTYEAR AND DANCE YOUR WAY TO VICTORY WITH THIS LIMITED TIME OFFER. INCLUDES CAPTAIN LIGHTYEAR TOKENS, GOLD, ABILITY RUNES AND MORE.
+STORE_ITEM_LY_TEAM_NAME|INTERSTELLAR TEAM BUNDLE
+STORE_ITEM_LY_TEAM_DESC|POWER UP YOUR INTERSTELLAR CHARACTERS AND GET A BOOST FOR THE TO INFINITY EVENT. INCLUDES WALL•E TOKENS, EVE TOKENS, CAPTAIN GANTU TOKENS, STITCH TOKENS, SERGEANT CALHOUN TOKENS AND MORE!
+STORE_ITEM_LY_WALLE_NAME|WALL-E JUMPSTART BUNDLE
+STORE_ITEM_LY_WALLE_DESC|POWER UP WALL•E WITH THIS BUNDLE AND JUMP START YOUR PROGRESS IN THE TO INFINITY EVENT.
+STORE_ITEM_LY_EVE_NAME|EVE JUMPSTART BUNDLE
+STORE_ITEM_LY_EVE_DESC|POWER UP EVE WITH THIS BUNDLE AND JUMP START YOUR PROGRESS IN THE TO INFINITY EVENT
+STORE_ITEM_LY_STITCH_GANTU_NAME|STITCH & CAPTAIN GANTU BUNDLE
+STORE_ITEM_LY_STITCH_GANTU_DESC|POWER UP STITCH AND CAPTAIN GANTU WITH THIS BUNDLE AND JUMP START YOUR PROGRESS IN THE TO INFINITY EVENT.
+STORE_ITEM_WALLE_PACK_NAME|WALL-E PACK
+STORE_ITEM_WALLE_PACK_DESC|ACTIVATE BOX MODE WHEN FALLING INTO LOW HEALTH. GAIN DEFENSE AND IMMUNITY TO CRITICAL STRIKES. RECOVER HEALTH WHEN LOSING BOX MODE.
+STORE_ITEM_EVE_PACK_NAME|EVE PACK
+STORE_ITEM_EVE_PACK_DESC|POWERFUL OFFENSE CHARACTER THAT CAN USE HER BASIC ATTACK OFTEN. KEEP OPPONENTS FROM HAVING CONTINUOUS HEALING OR STEALTH WHILE REMOVING THEIR SPEED BAR.
+STORE_ITEM_STITCH_PACK_NAME|STITCH PACK
+STORE_ITEM_STITCH_PACK_DESC|EXPERIMENT 626 IS ON THE LOOSE. HIS MANY ARMS CAN DEAL DEVASTATING DAMAGE ON HIS TARGET. POWER STITCH UP NOW AND WREAK HAVOC UPON ALL YOUR ENEMIES.
+STORE_ITEM_GANTU_PACK_NAME|CAPTAIN GANTU PACK
+STORE_ITEM_GANTU_PACK_DESC|CAPTAIN GANTU IS A BRAWLER WITH A SPECIALTY IN COUNTERATTACKS. HIS ATTACKS BECOME DEVASTATING IF HE IS NOT ATTACKED, PROVIDING YOUR TEAM WITH A BURST OF POWER.
+STORE_ITEM_CALHOUN_PACK_NAME|SERGENT CALHOUN PACK
+STORE_ITEM_CALHOUN_PACK_DESC|BLAST THROUGH TOUGH ENEMIES BY DEALING BONUS DAMAGE TO OPPONENTS WITH DEFENSE UP. SUMMON BEACON OF LIGHT TO TAUNT AND INFLICT DEFENSE DOWN.
+CURRENCY_INTERSTELLAR_NAME|INTERSTELLAR COINS
+CURRENCY_INTERSTELLAR_DESC|Earn Interstellar Coins during the To Infinity Event.<br><br>Interstellar Coins can be used to open the Interstellar Chest in the Store.
+STORE_ITEM_INTERSTELLAR_CHEST_NAME|INTERSTELLAR CHEST
+STORE_ITEM_INTERSTELLAR_CHEST_DESC|EARN INTERSTELLAR COINS DURING THE TO INFINITY EVENT TO OPEN THE INTERSTELLAR CHEST.
+STORE_ITEM_INTERSTELLAR_COINS_NAME|INTERSTELLAR COINS
+STORE_ITEM_INTERSTELLAR_COINS_DESC|COLLECT INTERSTELLAR COINS TO OPEN THE INTERSTELLAR CHEST.
 ABOUT_GAME_CREDITS|DISNEY SORCERER'S ARENA <br><br> GAME CREDITS <br><br> - SORCERER'S ARENA DEV TEAM - <br> <size=70%>(Listed Alphabetically)</size> <br><br> Ramana Aleti <br> Dinesh Aranakkal <br> Junior Arce <br> Mahesh Bapanapalli <br> Harshal Battin <br> Nitin Bhat <br> Kaushik Bhatt <br> Roger Bocksnick <br> Claire Bolen <br> Alex Borsboom <br> Dan Bransfield <br> Jagat Chauhan <br> Hing Chiang <br> Madhavarao Chitluri <br> Valiant Choppala <br> Gaurav Das <br> Matt Danuser-Grant <br> Jozias Dawson <br> Adwait Duse <br> Aniket Gaikwad <br> Allan Gerston <br> Xavier Gordon <br> Donny Gross <br> Ankita Gupta <br> Arijit Gupta <br> Jamil Hale <br> Brittany Hermann <br> Kevin Holmes <br> David Horachek <br> Navdeep Hukmani <br> Harsha Inampudi <br> Kameswaran Iyer <br> Kalyan Jaini <br> Brian Jakubson <br> Sophie Jia <br> Steven Johnson <br> Christian Karrs <br> Ajay Khara <br> Amit Kumar <br> Chaitanya Kuppa <br> Ivan Kwan <br> Zeke Marks <br> Franz Mendonsa <br> Derek McDevitt <br> Varsha Mothukuri <br> Avadhut Mulay <br> Senthil Kumar MuniSwamy <br> Pooja Mutyalakasu <br> Rakesh Nancharla <br> Harshal Narvekar <br> Jake Neri <br> Michael Newcomer <br> Duc Nguyen <br> Mike Olsen <br> Kevin Page <br> Satheesh Kanna Paramasivam <br> Dhairyasheel Patil <br> Richard Peter <br> Thien Dinh Pham <br> Meher Prakash <br> Ken Proudfoot <br> Chirag Rathod <br> Sudarsana Reddy <br> Michael Romero <br> Mike Rossmassler <br> Jyotiranjan Rout <br> Shravya Samudrala <br> Arjun Sarin <br> Karthick Selladurai <br> Mike Seltzer <br> David Shin <br> Jayant Shukla <br> Gautam Singh <br> Brian Sobodacha <br> Kevin Somers <br> Ramakrishnan Subramani <br> Venkatesh Sunkari <br> Laura Teclemariam <br> Surya Teja <br> Nagendra Thanniru <br> Mounica Thota <br> Sachin Thottakath <br> David Tsai <br> Naresh Uppoji <br> Naveen Vasam <br> Srinivas Vemparala <br> Tony Wang <br> Alan Wiederman <br> Michael Wyatt <br> Jing Xu <br><br><br> - CENTRAL TEAMS - <br><br> Colton Crum <br> Jatindra Das <br> Billy Delli-Gatti <br> Ryan Drobny <br> Eddie Garabedian <br> Eric Gross <br> Chris Huber <br> Alex Jarvis <br> Matthew Jarvis <br> Pushpesh Karki <br> Brian Kealer <br> Nate Kelly <br> Isabel Ko <br> Alex Kohorst <br> Peter Lee <br> Franklin Lei <br> Michael Lovan <br> Jim Luong <br> Felix Nguyen <br> Kassi O'Connor <br> Claudia Oropeza <br> John Parides <br> Nita Premchand <br> Cai Redmond <br> Sarah Romoslawski <br> Elisa Sassi <br> Ashutosh Singh <br> Mitchell Solomon <br> Josh Sugnet <br> Katerina Theofila <br> Susie Tsai <br> Shannon Woods <br><br><br> - SPECIAL THANKS - <br><br> Joel Abueg <br> Chris Akhavan <br> Kavya Allam <br> Aniket Bage <br> Anoop Chakkoru <br> Arpita Chandra <br> Dan Clukey <br> Jerome Collins <br> Nick Earl <br> Chuck Elberti <br> Jakub Fiedorowicz <br> Benny Francis <br> Sarah Fuchs <br> Sourav Ghosh <br> Ana Guevara <br> Tom Hall <br> Becky Ann Hughes <br> Navdeep Hukmani <br> Damani Jackson <br> Pushpesh Karki <br> Justin Kenneally <br> Imran Khan <br> Zeeshan Khan <br> Andy Kim <br> Aleksandra Kwiatkowska <br> Nicola LaGreca <br> Gordon Lee <br> Scott Leichtner <br> Eric Ludwig <br> Matthew Lyon <br> Lawrence Mann <br> Dominic Martinelli <br> Steve Mortara <br> Kendall Osborn <br> Nita Premchand <br> Caitlin Shell <br> Harman Singh <br> Charan Teja <br> Gabriel Turk <br> Mark Van Ryswyk <br> Sebastian Sczepanski <br> Damian Skurzewski <br> Lukasz Sobolewski <br> Hemlata Sonik <br> M. Andrea Soria <br> Dave Waisglass <br> Nan Yang <br> Gaelle Young <br> Jordan Young <br> Aaron Watkins <br> Meng Wu <br> Ellen Wolf <br> Damian Głogowski <br> Rafał Kojtek <br> Sachin Tripathi <br> Michał Syta <br> Sebastian Ziętek <br> IT and HR Team SF and India <br><br><br> - DISNEY GAMES - <br> <br> Producer<br> Sean Coughlin<br> <br> Sr Game Designer, Creative Dev<br> Lauren Preston<br> <br> Sr Concept Artist<br> Justin Pichetrungsi<br> <br> Sr UI/UX Designer<br> Rich Ginter<br> <br> <br> PRODUCT DEVELOPMENT TEAM<br> <br> Producer<br> Winslow Caliwag<br> <br> Producer<br> Michael Cabison<br> <br> Sr Producer<br> Glendon Dphrepaulezz<br> <br> Managing Producer<br> Frankie Kang<br> <br> Executive Producer<br> Sonoko Ishioka<br> <br> VP, Disney & Pixar Games<br> Luigi Priore<br> <br> Sr Game Designer, Creative Dev<br> Sean Bosshardt<br> <br> Game Designer, Creative Dev<br> Alyssa Hoey<br> <br> Sr. Writer<br> Christopher Painter<br> <br> Sr Concept Artist<br> Johnson Truong<br> <br> Artist<br> Tiffany Hayashi<br> <br> Artist<br> Rachel Thompson<br> <br> Sr Artist, UI/UX<br> Howie Begosa<br> <br> UI/UX Designer<br> Linnea Motts<br> <br> Brand Art Director<br> Young Choi<br> <br> Director, Art & Design<br> Will Rosas<br> <br> Sr Audio Designer<br> Christopher Denman<br> <br> Director, Audio<br> Nicholas Gallant<br> <br> <br> MARKETING<br> <br> Manager, Mobile Product Marketing<br> Kurt Heli<br> <br> Marketing Coordinator<br> Kelly Wimmer<br> <br> Sr Manager, Mobile Product Marketing<br> Carrie Chen<br> <br> <br> FRANCHISE MANAGEMENT<br> <br> Sr Manager, Franchise Management<br> Matt Bergeron<br> <br> Sr Manager, Franchise Management<br> Keith Michaelis<br> <br> Manager, Franchise Management<br> Jonathan Rodriguez<br> <br> Lead Franchise Manager<br> Stella Koh<br> <br> Franchise Manager<br> Christopher Meyer<br> <br> Director, Franchise Management<br> Rob Rowe<br> <br> <br> PUBLIC RELATIONS<br> <br> Director, Communications<br> Allison Citino<br> <br> Sr. Manager, Communications<br> Joe Sullivan<br> <br> Manager, Communications<br> Amanda Gonzalez<br> <br> Communications Specialist<br> Madison Kuchenski<br> <br> <br> BUSINESS DEVELOPMENT<br> <br> Director, Business Development<br> Lennon Arcaro<br> <br> <br> SPECIAL THANKS<br> <br> Stephanie Martinelli<br> Chris Takami<br> Sean Shoptaw<br> Kareem Daniel<br> Steve Gilbert<br> Eric Tang<br> William Cheng<br> Arik Ehle<br> Tasha Sounart<br> Michael Agulnek<br> Jonathan Garson<br> Shannon Nicosia<br> Sureena Mann<br> Mark Henn<br> Alyssa Tryon<br> Dana Jones<br> Dominique Flynn<br> Caitlin Dodson<br> Dale Ann Kennedy<br> Sarah Huck<br> Jamon Motes<br> Debbie Kim<br> Binh Nguyen<br> Manny Redruello<br> Harley Arce<br> Amanda Molina<br> Andre Bermudez<br> Katie Westbrook<br> Victor Cerny<br> <br> ...and all Disney & Pixar fans<br> <br> <br> <br> © 2019-2022 Disney.<br> © 2019-2022 Disney•Pixar. <br> <br> <br> Game code and certain audio and visual material ©2019-2022 Electronic Arts Inc.  All Rights Reserved.<br> <br>SORCERER'S ARENA and GLU are trademarks and/or registered trademarks of Electronic Arts Inc. All Rights Reserved. 
