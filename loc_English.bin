@@ -5073,7 +5073,7 @@ EVENT_202008_BIGHERO6_LEGENDARY_A_L7_DESC|<color=#8D5FB6>INFO</color><br>• Def
 EVENT_202008_BIGHERO6_LEGENDARY_A_L7_NAME|BATTLE 8: BIG HERO BRAWL
 EVENT_202008_BIGHERO6_LEGENDARY_A_L7_RECOMMENDED|<size=90%>RECOMMENDED<br>• Level 60<br>• Gear <color=#8ab65d>Tier 6</color><br>• 7 Stars</size>
 EVENT_202008_BIGHERO6_LEGENDARY_A_NAME|BIG HERO 6
-EVENT_202008_BIGHERO6_LEGENDARY_META_DESC|Gather your Big Hero 6 team and battle against Yokai to earn Baymax character tokens!<br><br><color=#B8E986>LEGENDARY EVENT</color>
+EVENT_202008_BIGHERO6_LEGENDARY_META_DESC|Gather your Big Hero 6 team and battle against Yokai to earn Baymax character tokens!<br><br><color=#B8E986>LIFETIME LEGENDARY EVENT</color>
 EVENT_202008_BIGHERO6_LEGENDARY_META_NAME|BIG HERO 6
 EVENT_202008_BIGHERO6_LEGENDARY_PORTAL_DESC|Earn Baymax tokens!<br><color=#B8E986>LEGENDARY EVENT</color>
 EVENT_202008_BIGHERO6_LEGENDARY_PORTAL_NAME|BIG HERO 6
@@ -5304,6 +5304,12 @@ INBOX_EVENT_202210_JUNGLEBOOK_SUBJECT|Jungle Book 55th Anniversary - Free Gift!
 INBOX_EVENT_202210_JUNGLEBOOK_BODY|Summoner,<br><br>Celebrate <color=#54C5FF>The Jungle Book 55th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202210_HAUNTEDNBC_2XDROP_SUBJECT|Haunted Arena Celebration - Tim Burton's The Nightmare Before Christmas 2x Token Drop
 INBOX_EVENT_202210_HAUNTEDNBC_2XDROP_BODY|Summoner,<BR><BR>Join the <color=#54C5FF>Haunted Arena</color> celebration with <color=#54C5FF>2x Token Drops</color> on select <color=#54C5FF>Tim Burton's The Nightmare Before Christmas</color> character nodes in Adventure Campaigns for a limited time!<BR><BR>Look for the BONUS banner on nodes for <color=#54C5FF>Jack Skellington</color>, <color=#54C5FF>Sally</color> and <color=#54C5FF>Oogie Boogie</color>.<BR><BR>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202211_WRECKITRALPH_SUBJECT|Wreck-it Ralph 10th Anniversary - Free Gift!
+INBOX_EVENT_202211_WRECKITRALPH_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Wreck-it Ralph 10th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202211_PETESDRAGON_SUBJECT|Pete's Dragon 45th Anniversary - Free Gift!
+INBOX_EVENT_202211_PETESDRAGON_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Pete's Dragon 45th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
+INBOX_EVENT_202211_ROBINHOOD_SUBJECT|Robin Hood 49th Anniversary - Free Gift!
+INBOX_EVENT_202211_ROBINHOOD_BODY|Summoner,<br><br>Celebrate the <color=#54C5FF>Robin Hood 49th Anniversary</color> with this FREE <color=#54C5FF>Gift</color>! Don't miss out on the <color=#54C5FF>Anniversary Bundle</color>, available in the Store for a limited time.<br><br>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSOON_SUBJECT|Coming Soon - Valentine Flash Gifts
 INBOX_EVENT_202102_VALENTINEFLASHSOON_BODY|Summoner,<BR><BR><color=#54C5FF>Valentine Flash Gifts</color> are on the way!<BR><BR>Stay on the lookout for Flash Gift drops at random times between <color=#54C5FF>February 14 - 18</color>, and enable push notifications to get notified so you don't miss them!<BR><BR>Thank you for your continued support, and see you in the Arena!
 INBOX_EVENT_202102_VALENTINEFLASHSTART_SUBJECT|Valentine Flash Gift
@@ -12853,6 +12859,18 @@ PIN_BAGHEERA_NAME|BAGHEERA TALISMAN
 PIN_BAGHEERA_DESC|This will take brains, not brawn.
 PIN_KAA_NAME|KAA TALISMAN
 PIN_KAA_DESC|Let me look at you.
+PIN_SOURBILL_NAME|SOUR BILL TALISMAN
+PIN_SOURBILL_DESC|I'm a sour ball.
+PIN_WRECKITRALPH_NAME|WRECK-IT RALPH TALISMAN
+PIN_WRECKITRALPH_DESC|I wreck things, professionally.
+PIN_PRINCEJOHN_NAME|PRINCE JOHN TALISMAN
+PIN_PRINCEJOHN_DESC|Ah! Mommy! I've got a dirty thumb.
+PIN_LITTLEJOHN_NAME|LITTLE JOHN TALISMAN
+PIN_LITTLEJOHN_DESC|I was just wonderin', are we good guys or bad guys?
+PIN_PETE_NAME|PETE TALISMAN
+PIN_PETE_DESC|We want the people of Passamaquoddy to like us.
+PIN_DRTERMINUS_NAME|DR. TERMINUS TALISMAN
+PIN_DRTERMINUS_DESC|I hate Pa - pa - Pastahazootie, or whatever the name of this town is.
 PIN_TRICKORTREATDEWEY_DESC|Trick or Treat the Whole Night Through
 PIN_TRICKORTREATDEWEY_NAME|WITCH DEWEY TALISMAN
 PIN_TRICKORTREATFLAMINGJACKOLANTERN_DESC|Your Nightmares Will Come True
@@ -15600,6 +15618,7 @@ STORE_ITEM_SPRING_BUNDLE_SUBTITLE_GOSALYN|PURCHASE THIS LIMITED TIME OFFER TO VO
 STORE_ITEM_SPRING_BUNDLE_SUBTITLE_LUDWIG|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>LUDWIG VON DRAKE</color> IN THE SPRING QUACK EVENT. CONTAINS A TALISMAN, ABILITY RUNES, ENERGY, AND MORE.
 STORE_ITEM_SPRING_BUNDLE_SUBTITLE_NEGADUCK|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>NEGADUCK</color> IN THE SPRING QUACK EVENT. CONTAINS A TALISMAN, ABILITY RUNES, ENERGY, AND MORE.
 STORE_ITEM_SPRING_BUNDLE_SUBTITLE_MORGANA|PURCHASE THIS LIMITED TIME OFFER TO VOTE FOR <color=#54C5FF>MORGANA MACAWBER</color> IN THE SPRING QUACK EVENT. CONTAINS A TALISMAN, ABILITY RUNES, ENERGY, AND MORE.
+STORE_ITEM_ANNIVERSARY_BUNDLE_2022_SUBTITLE|CELEBRATE TODAY WITH THIS BIG LIMITED TIME DEAL. GET A UNIQUE TALISMAN, 1X ULTIMATE CHEST, ENERGY, ABILITY RUNES, AND MORE.
 STORE_ITEM_PAWPARTY_CATPAWPACK_NAME|MEOW PAW PACK
 STORE_ITEM_PAWPARTY_CATPAWPACK_SUBTITLE|COLLECT GOLD, A LOYALTY COIN, AND TRY YOUR LUCK FOR A CHANCE AT EXCLUSIVE TALISMANS, AND MORE. AVAILABLE FOR A LIMITED TIME. PURCHASING THIS PACK COUNTS AS A VOTE FOR <color=#54C5FF>TEAM MEOW</color>.
 STORE_ITEM_PAWPARTY_DOGPAWPACK_NAME|WOOF PAW PACK
@@ -23973,7 +23992,7 @@ LCA_GOLD_CONTEST_DEFEAT_UNITS_SHORT_NAME|ROBIN HOOD'S GOLDEN HEROICS
 LCA_GOLD_CONTEST_DEFEAT_UNITS_NAME|ROBIN HOOD'S GOLDEN HEROICS LEADERBOARD CONTEST
 LCA_GOLD_CONTEST_DEFEAT_UNITS_DESC|Earn Points by defeating opponents in any Adventure Campaigns, Tower of Endurance, Events, and the Sorcerer's Tournament.
 LCA_GOLD_CONTEST_DEFEAT_UNITS_DETAILED_TITLE|Contest Rules
-LCA_GOLD_CONTEST_DEFEAT_UNITS_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>Earn Points by defeating opponents in Adventure Campaigns, Tower of Endurance, Events, and the Sorcerer's Tournament. Your total score is a sum of the contest points rewarded for defeating opponents. Contest Points should only be rewarded for defeating the original character. Summons, clones, and copies are not included. If a charmed opponent unit defeats its allies, players should be rewarded with contest points.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking.<br><br><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<br><br><color=#54C5FF>TIEBREAKING</color><br>If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br><color=#54C5FF>POINT INFORMATION</color><br>• Grand/Heroes/Villains/Side Campaigns: 10 Points per Unit<br>• Ascension Campaign: 30 Points per Unit<br>• Tower Mode: 15 Points per Unit<br>• Events: 25 Points per Unit<br>• Sorcerer's Tournament: 20 Points per Unit
+LCA_GOLD_CONTEST_DEFEAT_UNITS_DETAILED_DESC|<color=#54C5FF>EARNING POINTS</color><br>Earn Points by defeating opponents in Adventure Campaigns, Tower of Endurance, Summoner Challenges, Events, and the Sorcerer's Tournament. Your total score is a sum of the contest points rewarded for defeating opponents. Contest Points should only be rewarded for defeating the original character. Summons, clones, and copies are not included. If a charmed opponent unit defeats its allies, players should be rewarded with contest points.<BR><BR><color=#54C5FF>CONTEST GROUP</color><br>Compete with other players close to your level. At the end of the contest, all players who participated and earned points will receive a reward to their inbox based on their final contest group ranking.<br><br><color=#54C5FF>MILESTONES</color><br>Unlock Milestone rewards as you gain points! All players can earn these rewards by earning enough points, regardless of their final ranking.<br><br><color=#54C5FF>TIEBREAKING</color><br>If two or more players have the same final score, the player(s) who reached their final rank first will be ranked higher.<br><br><color=#54C5FF>POINT INFORMATION</color><br>• Grand/Heroes/Villains/Side Campaigns: 10 Points per Unit<br>• Ascension Campaign: 30 Points per Unit<br>• Tower Mode: 15 Points per Unit<br>• Events: 25 Points per Unit<br>• Sorcerer's Tournament: 20 Points per Unit<br>• Summoner Challenges: 25 Points per Unit
 LCA_GOLD_CONTEST_DEFEAT_UNITS_SHORT_INFO|EARN POINTS TO RANK UP AND EARN REWARDS.
 PASSHOLDER_202211_1_SEASON_NAME|PASSHOLDER SEASON 62
 PASSHOLDER_202211_1_UPGRADE_DESC|PASSHOLDER SEASONS CONTAIN OVER <color=#FF6FBB>10X VALUE</color> WITH <color=#FFBC08>AMAZING REWARDS!</color><br><br>PURCHASE THIS UPGRADE TO INSTANTLY RECEIVE ACCESS TO ALL SEASON 62 PASSHOLDER<color=#FFBC08> GOLD</color> QUESTS AND REWARDS<br><br>EARN ADDITIONAL REWARDS INCLUDING:<BR><BR> * TIGGER TOKENS<br> * EEYORE TOKENS<br> * HUNNY POT TOKENS<br> * AND LOTS MORE!<br><br>PASSHOLDER QUESTS UNLOCK EVERY WEEK
