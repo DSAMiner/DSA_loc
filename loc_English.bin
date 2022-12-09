@@ -24119,7 +24119,7 @@ REMYLINGUINI_SPECIALB_ABILPREVIEWUPGRADE_01|If <color=#FEF8E4>Remy</color> is at
 REMYLINGUINI_SPECIALB_ABILPREVIEWUPGRADE_02|<color=#5DFF89>+{0:P0}</color> health restored.
 REMYLINGUINI_SPECIALB_ABILPREVIEWUPGRADE_03|<color=#FEF8E4>+{0:N0}</color> <color=#F4BE43>Tenacity Up</color>.
 REMYLINGUINI_SPECIALB_ABILPREVIEWUPGRADE_04|Cleanse <color=#FEF8E4>+{0:N0}</color> Harmful effects from all teammates.
-REMYLINGUINI_PASSIVEA_ABILPREVIEWUPGRADE_01|Grant that teammate <color=#FEF8E4>{0:P0}</color> shield of Max Recovery and an immediate turn.
+REMYLINGUINI_PASSIVEA_ABILPREVIEWUPGRADE_01|Grant that teammate <color=#FEF8E4>{0:N0}</color> <color=#F4BE43>Tactics</color> and <color=#FEF8E4>{1:P0}</color> shield of Max Recovery and an immediate turn.
 REMYLINGUINI_PASSIVEA_ABILPREVIEWUPGRADE_02|<color=#FEF8E4>+{0:N0}</color> <color=#F4BE43>Defense Up</color>.
 REMYLINGUINI_PASSIVEA_ABILPREVIEWUPGRADE_03|Grant teammate <color=#FEF8E4>{0:N0}</color> <color=#F4BE43>Evasion</color>.
 REMYLINGUINI_PASSIVEA_ABILPREVIEWUPGRADE_04|<color=#FEF8E4>+{0:P0}</color> Shield.
