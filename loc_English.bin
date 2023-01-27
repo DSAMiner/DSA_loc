@@ -4461,7 +4461,7 @@ ENCHANTMENT_REAGENT_10_DESC|Combine with T10 Enchanting Quintessence to create a
 ENCHANTMENT_REAGENT_10_NAME|GLOWING BAUBLE (T10)
 ENCHANTMENT_XX_MYSTERY_DESC|A mysterious artifact that radiates with immense energy.<br><br>Its effects are not yet known.
 ENCHANTMENT_XX_MYSTERY_NAME|ARTIFACT OF THE REALM
-ENCHANTMENT_XX_MYSTERY_UNAVAILABLE_KEY|<sprite=3><color=#ffb705>LEGENDARY ITEM</color><sprite=3><br><size=70%>This powerful artifact's whereabouts have not yet been revealed.
+ENCHANTMENT_XX_MYSTERY_UNAVAILABLE_KEY|<color=#ffb705>LEGENDARY ITEM</color><br><size=70%>This powerful artifact's whereabouts have not yet been revealed.
 ENERGY_AD_REWARD_BUTTON|<size=70%>WATCH A VIDEO FOR<br>FREE BONUS ENERGY:
 ENERGY_AD_REWARD_MAXED|YOU HAVE CLAIMED ALL FREE BONUS ENERGY TODAY!
 ENERGY_GENERATE_AD_REWARD_CLAIM|BONUS ENERGY GENERATION ACTIVATED<br><br>You will now get <color=#FFB900>{0} Bonus</color> Energy when it generates for the next <color=#FFB900>{1} minutes</color>.
